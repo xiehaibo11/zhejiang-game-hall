@@ -1,0 +1,53 @@
+{
+  "m_Name": "1cb05fd34e677fd39d71d05bfa018906.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7746114045181868316
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3619235339735673733
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5240019462492278515
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/novicesevendays/effect/trail_xsqr_02.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7746114045181868316
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1cb05fd34e677fd39d71d05bfa018906.bundle",
+  "m_Dependencies": [
+    "38b2e28d58d933698b24e508b1bfeb89.bundle",
+    "5364bc5dbd7480935fb918585c4f84db.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

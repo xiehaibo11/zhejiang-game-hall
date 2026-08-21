@@ -1,0 +1,48 @@
+{
+  "m_Name": "0b369695560f42b77d479ac19314e77a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6058156394757731125
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4356544310596745405
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2203371441280196015
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/newyearlimitedtimeskin3/effect/materials/rrby_glow_t_02.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6058156394757731125
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0b369695560f42b77d479ac19314e77a.bundle",
+  "m_Dependencies": [
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

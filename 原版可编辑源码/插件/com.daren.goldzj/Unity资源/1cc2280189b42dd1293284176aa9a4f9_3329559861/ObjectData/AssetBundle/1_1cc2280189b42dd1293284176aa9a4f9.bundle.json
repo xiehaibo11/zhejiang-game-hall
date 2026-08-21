@@ -1,0 +1,43 @@
+{
+  "m_Name": "1cc2280189b42dd1293284176aa9a4f9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5653824076963688660
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4514883787366539998
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollect/tour/effect/animation/body.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5653824076963688660
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1cc2280189b42dd1293284176aa9a4f9.bundle",
+  "m_Dependencies": [
+    "8cfefa0913c7c07c55098005cfd68a7d.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,145 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5447090120934809027
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -277190597121967197
+  },
+  "m_Name": "",
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": -2845360105147740222
+  },
+  "mSprites": [
+    {
+      "name": "img_autoupend_72",
+      "x": 0,
+      "y": 155,
+      "width": 948,
+      "height": 154,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 2,
+      "paddingRight": 2,
+      "paddingTop": 0,
+      "paddingBottom": 2
+    },
+    {
+      "name": "img_autoupend_81",
+      "x": 947,
+      "y": 463,
+      "width": 946,
+      "height": 154,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 2,
+      "paddingRight": 4,
+      "paddingTop": 1,
+      "paddingBottom": 1
+    },
+    {
+      "name": "img_autoupend_82",
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 154,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 2
+    },
+    {
+      "name": "img_autoupend_83",
+      "x": 0,
+      "y": 310,
+      "width": 946,
+      "height": 154,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 2,
+      "paddingRight": 4,
+      "paddingTop": 0,
+      "paddingBottom": 2
+    },
+    {
+      "name": "img_autoupend_84",
+      "x": 949,
+      "y": 155,
+      "width": 948,
+      "height": 152,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 2,
+      "paddingRight": 2,
+      "paddingTop": 1,
+      "paddingBottom": 3
+    },
+    {
+      "name": "img_autoupend_85",
+      "x": 953,
+      "y": 0,
+      "width": 948,
+      "height": 154,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 1,
+      "paddingBottom": 1
+    },
+    {
+      "name": "img_autoupend_87",
+      "x": 949,
+      "y": 308,
+      "width": 946,
+      "height": 154,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_autoupend_89",
+      "x": 0,
+      "y": 465,
+      "width": 792,
+      "height": 128,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  ],
+  "mPixelSize": 1.0,
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mCoordinates": 0,
+  "sprites": []
+}

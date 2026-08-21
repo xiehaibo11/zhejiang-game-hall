@@ -1,0 +1,20 @@
+{
+  "m_Name": "zhebushizhendeba",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 1.7182766199111938,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-e4a9ede72f35f597a609df5c2ef18dc6/CAB-e4a9ede72f35f597a609df5c2ef18dc6.resource",
+    "m_Offset": 0,
+    "m_Size": 12128
+  },
+  "m_CompressionFormat": 1
+}

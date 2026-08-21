@@ -1,0 +1,52 @@
+{
+  "m_Name": "0b3159c207ba87629b7a4066deb7af7f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 7894488311036411954
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5905412350265979015
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7050269726524287086
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/lobby/effect/splashspine/kaipin_skeletondata.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5905412350265979015
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0b3159c207ba87629b7a4066deb7af7f.bundle",
+  "m_Dependencies": [
+    "46519f5e80e88bb82e00807750ba69c0.bundle",
+    "5f097b2b76ceb917db223c3281a5b495.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,121 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5040816822850844266
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8625328808673857778
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -283659356718728753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6295725407425535994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4951997723943040822
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2427957162826381317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5481297603527113911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7951265826982136994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1869067526519682546
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7306831303601255864
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8890594193916994269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8389047441435414097
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8829787199900555900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2042772925742968974
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1761503678350829691
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 895030354037291445
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5291224226550399435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6158971840444388197
+    }
+  ],
+  "m_BindComs_Name": [
+    "rewardTexture",
+    "rewardTitle",
+    "chaoZhiTip",
+    "chaoZhiTipLabel",
+    "rewardIconItem",
+    "goldRewardNum",
+    "buffDetailsComponent",
+    "zuiDiJiangZhiLabel",
+    "yiZuiDiLabel",
+    "leftCountLabel",
+    "btnBuy",
+    "priceLabel",
+    "sellOutSprite",
+    "cardUsed",
+    "cardUsedNum",
+    "cardUsedEffect",
+    "boomEffect"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GameActivity.ArtifactSpecialSaleGift.ArtifactBigGift",
+  "m_ClassName": "ArtifactBigGift"
+}

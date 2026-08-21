@@ -1,0 +1,136 @@
+{
+  "m_Name": "0f893c347c1fb8a9e147a2d850a7377d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8858994666852331900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6331973948124629702
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1372168526964167634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1058234076848678368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 663654352179525860
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5732389981085434204
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7980798244289136231
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6820605413704113998
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3317871548048220379
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3163494642733421241
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -453909912988124409
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -4070517175882265215
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 7551541614743541460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8858994666852331900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6331973948124629702
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6331973948124629702
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_cardcollectsystemthemecard_2_1/cardcollectsystemthemecard_2_1.mat",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8858994666852331900
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cardcollectsystemthemecard_2_1/cardcollectsystemthemecard_2_1.png",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6331973948124629702
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cardcollectsystemthemecard_2_1/cardcollectsystemthemecard_2_1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 15,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1058234076848678368
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0f893c347c1fb8a9e147a2d850a7377d.bundle",
+  "m_Dependencies": [
+    "0956b70f7e272255b649ec609c80638d.bundle",
+    "1d9d61a89dc94c0c8d5eaa60a3eee1d7.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "fc88816a0db7ba97b3b77992a911dd42.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

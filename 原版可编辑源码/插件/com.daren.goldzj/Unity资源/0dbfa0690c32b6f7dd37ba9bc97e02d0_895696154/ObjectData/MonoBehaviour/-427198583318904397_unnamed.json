@@ -1,0 +1,92 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6993481054240869249
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -916916329036236916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5349634637864903264
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3564809517295416460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5207063657896914647
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1065885250087663288
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7822973850434021547
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2172028139855352353
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5205897493917784296
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2319052128687231633
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4034915309670078419
+    }
+  ],
+  "m_BindComs_Name": [
+    "SubLabNormal",
+    "SubLabGray",
+    "SpecialUI",
+    "FestivalName",
+    "FestivalNameZi",
+    "GoRedPoint",
+    "SpNormal",
+    "LabNormal",
+    "SpGray",
+    "LabGray"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": []
+    }
+  ],
+  "m_BindObjList_Name": [
+    "SelectRenders"
+  ],
+  "hotfixClassFullName": "GameHotFix.GameActivity.GameActivityListButtonComponent",
+  "m_ClassName": "GameActivityListButtonComponent"
+}

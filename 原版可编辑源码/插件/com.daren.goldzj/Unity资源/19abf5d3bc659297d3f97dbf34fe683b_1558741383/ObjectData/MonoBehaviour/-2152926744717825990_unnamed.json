@@ -1,0 +1,94 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5751864209100180040
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -949877381119567865
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4184663893620744445
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5094545601048815100
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2176539800284140691
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -145739718447133592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9033352047220621416
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1224309090757943191
+    }
+  ],
+  "m_BindComs_Name": [
+    "btnBuy",
+    "btnGray",
+    "txtPercent",
+    "txtLimit",
+    "txtPrice",
+    "grid",
+    "buffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 7937809063034042700
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7860534859020355170
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5400483205653682501
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4700393823653513454
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "awards"
+  ],
+  "hotfixClassFullName": "GameHotFix.FlagOfCommandRoom.FlagOfCommandGiftItem",
+  "m_ClassName": "FlagOfCommandGiftItem"
+}

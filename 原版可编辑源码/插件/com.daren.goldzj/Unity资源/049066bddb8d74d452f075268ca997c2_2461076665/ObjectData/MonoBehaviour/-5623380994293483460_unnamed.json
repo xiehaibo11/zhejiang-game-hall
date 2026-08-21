@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1197832929991748096
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3952463829541128400
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1818778325390261450
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9157122256405873448
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7101127612968258917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6882156269605681150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3551223595218738242
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4304626492809455478
+    }
+  ],
+  "m_BindComs_Name": [
+    "btn",
+    "table",
+    "killGroup",
+    "btnKillOn",
+    "btnKillOff",
+    "cannonWingGroup",
+    "btnSendCannonWin"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.DebugModel.DebugEnterCenter",
+  "m_ClassName": "DebugEnterCenter"
+}

@@ -1,0 +1,97 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3396203820594353064
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7691676500807756964
+  },
+  "m_Name": "",
+  "method": 0,
+  "style": 1,
+  "animationCurve": {
+    "m_Curve": [
+      {
+        "time": 0.0006936788558959961,
+        "value": 0.0,
+        "inSlope": -0.026582300662994385,
+        "outSlope": -0.026582300662994385,
+        "weightedMode": 2,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.6492815613746643
+      },
+      {
+        "time": 0.10110549628734589,
+        "value": 1.0015311241149902,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+      },
+      {
+        "time": 0.1534750610589981,
+        "value": 0.5765680074691772,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+      },
+      {
+        "time": 0.21525096893310547,
+        "value": 0.878967821598053,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+      },
+      {
+        "time": 0.34891536831855774,
+        "value": 0.0,
+        "inSlope": -0.025187313556671143,
+        "outSlope": 0.0,
+        "weightedMode": 1,
+        "inWeight": 0.8486990928649902,
+        "outWeight": 0.08074602484703064
+      },
+      {
+        "time": 1.000693678855896,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "ignoreTimeScale": 1,
+  "delay": 0.0,
+  "duration": 3.0,
+  "steeperCurves": 0,
+  "tweenGroup": 0,
+  "onFinished": [],
+  "eventReceiver": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "callWhenFinished": "",
+  "from": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "to": {
+    "x": 1.149999976158142,
+    "y": 1.149999976158142,
+    "z": 1.149999976158142
+  },
+  "updateTable": 0
+}

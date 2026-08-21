@@ -1,0 +1,43 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6446826845928709253
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6058314418200947545
+  },
+  "m_Name": "",
+  "FishChangeMaterialMono": {
+    "m_FileID": 0,
+    "m_PathID": 891634763547965472
+  },
+  "RotateDyingAnimationAlphaCurve": {
+    "m_Curve": [
+      {
+        "time": 0.699999988079071,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": -3.3333332538604736,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+      },
+      {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": -3.3333332538604736,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "DyingRotateDegreePerSec": 360.0,
+  "FloatPixelWhenDead": 100.0
+}

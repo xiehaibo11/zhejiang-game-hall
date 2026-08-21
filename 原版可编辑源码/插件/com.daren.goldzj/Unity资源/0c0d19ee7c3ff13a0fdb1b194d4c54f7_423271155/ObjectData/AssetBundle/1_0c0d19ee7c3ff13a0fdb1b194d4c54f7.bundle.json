@@ -1,0 +1,43 @@
+{
+  "m_Name": "0c0d19ee7c3ff13a0fdb1b194d4c54f7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -363409025021026947
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -7391118358816536265
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneraldiscount/effect/animation/baoxiang.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -363409025021026947
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0c0d19ee7c3ff13a0fdb1b194d4c54f7.bundle",
+  "m_Dependencies": [
+    "e2f43ffc280d5ded2fb78a5e25553881.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

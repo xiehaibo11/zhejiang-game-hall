@@ -1,0 +1,83 @@
+{
+  "m_Name": "07168e11e2537c64180aee6a27163e79.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 10209
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8923196702176263133
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6701713536453534746
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6455229724992775052
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5663041735024086609
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2142085074260370804
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -976361785781153343
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5355406405927716634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5490857418283318248
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5934741168118494108
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1804407593095369892
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/hotfighter/surprisecatchbox/effect/prefabs/box_effect_raoguang_2.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2142085074260370804
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "07168e11e2537c64180aee6a27163e79.bundle",
+  "m_Dependencies": [
+    "8ef61329427adf594886b1d21069e6ea.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

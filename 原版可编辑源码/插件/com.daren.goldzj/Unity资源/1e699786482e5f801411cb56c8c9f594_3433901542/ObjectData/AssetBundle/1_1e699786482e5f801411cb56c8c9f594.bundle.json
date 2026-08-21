@@ -1,0 +1,105 @@
+{
+  "m_Name": "1e699786482e5f801411cb56c8c9f594.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9073767835143689904
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9023887150112736155
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7761837222442867651
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4699052987069814341
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3732235916132105176
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2540276300745962923
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1823093089407171096
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1772520196661033727
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1028602361762398561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1050768350385714461
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2435640949979197768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4483626658886011863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7170350811610775120
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -117267409423442321
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1747274958195946638
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/lobby/effect/prefab/effect_fenwei.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1772520196661033727
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1e699786482e5f801411cb56c8c9f594.bundle",
+  "m_Dependencies": [
+    "1de257bb8c1db4bde5b088da7924c743.bundle",
+    "835d9461343c02e834112ccc26f0135d.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,20 @@
+{
+  "m_Name": "splash_sound",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 0.7107256054878235,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-71be87c8919c7cea0c0c355f3cd03aac/CAB-71be87c8919c7cea0c0c355f3cd03aac.resource",
+    "m_Offset": 0,
+    "m_Size": 8096
+  },
+  "m_CompressionFormat": 1
+}

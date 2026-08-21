@@ -1,0 +1,174 @@
+{
+  "m_Name": "0c3df20e6d6b3ae64a4963d0c66f33d4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4964621712353828709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8511606650733767570
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8511606650733767570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8094223953644547140
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6630722505621050564
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4964621712353828709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3860276913354684354
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3184185537169262225
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3184185537169262225
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4964621712353828709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3860276913354684354
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8511606650733767570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8094223953644547140
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4964621712353828709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3860276913354684354
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/fx/spine/yuchangbazhu_256/vip10paotai/shayupaotai.atlas.txt",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8511606650733767570
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/yuchangbazhu_256/vip10paotai/shayupaotai.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4964621712353828709
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/yuchangbazhu_256/vip10paotai/shayupaotai.skel.bytes",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3184185537169262225
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/yuchangbazhu_256/vip10paotai/shayupaotai_atlas.asset",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8094223953644547140
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/yuchangbazhu_256/vip10paotai/shayupaotai_material.mat",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3860276913354684354
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/yuchangbazhu_256/vip10paotai/shayupaotai_skeletondata.asset",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6630722505621050564
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0c3df20e6d6b3ae64a4963d0c66f33d4.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

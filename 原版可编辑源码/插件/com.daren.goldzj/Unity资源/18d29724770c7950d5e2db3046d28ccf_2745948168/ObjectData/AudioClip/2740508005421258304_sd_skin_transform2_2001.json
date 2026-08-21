@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_skin_transform2_2001",
+  "m_LoadType": 1,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 2.701904773712158,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-17e91ea95bada51e538c789242fd489d/CAB-17e91ea95bada51e538c789242fd489d.resource",
+    "m_Offset": 0,
+    "m_Size": 22656
+  },
+  "m_CompressionFormat": 1
+}

@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8743509583201961322
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -356821155500173861
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2294928672854000126
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7287166577948525403
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3098908362981512784
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8424355667695686357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4320433910383938175
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6896676957451241299
+    }
+  ],
+  "m_BindComs_Name": [
+    "iconitemBind",
+    "txtTask",
+    "txtProgress",
+    "btnGo",
+    "btnGray",
+    "btnGet",
+    "progress"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ReturnActivity.ReturnActivityRebateTaskItem",
+  "m_ClassName": "ReturnActivityRebateTaskItem"
+}

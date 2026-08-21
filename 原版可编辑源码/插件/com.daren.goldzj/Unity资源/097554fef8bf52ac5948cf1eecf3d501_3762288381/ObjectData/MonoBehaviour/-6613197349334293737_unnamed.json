@@ -1,0 +1,48 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -749413160895131492
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6498788287438281543
+  },
+  "m_Name": "",
+  "label": {
+    "m_FileID": 0,
+    "m_PathID": -8828569939284677654
+  },
+  "inputType": 0,
+  "onReturnKey": 0,
+  "keyboardType": 1,
+  "hideInput": 0,
+  "validation": 1,
+  "characterLimit": 11,
+  "savedAs": "",
+  "selectOnTab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "activeTextColor": {
+    "r": 0.8196078538894653,
+    "g": 0.8745098114013672,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "caretColor": {
+    "r": 0.40392157435417175,
+    "g": 0.5529412031173706,
+    "b": 0.8588235378265381,
+    "a": 1.0
+  },
+  "selectionColor": {
+    "r": 0.8196078538894653,
+    "g": 0.8745098114013672,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "onSubmit": [],
+  "onChange": [],
+  "mValue": ""
+}

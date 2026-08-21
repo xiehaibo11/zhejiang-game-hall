@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1260607409479328992
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3968199351257522943
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -212209759493970189
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3810813783754383617
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1116809005970143279
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2729804481160663681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1368069176088783858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8167015264722745597
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1331050165362107340
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 601069337727575274
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3051279128267736881
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1957026095412440743
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 152858457582503256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6905457642648196263
+    }
+  ],
+  "m_BindComs_Name": [
+    "bgNormal",
+    "bgFree",
+    "btnBuy",
+    "btnFree",
+    "btnBuyed",
+    "tag",
+    "goldicon",
+    "txtLimit",
+    "txtPrice",
+    "txtPercent",
+    "txtGold",
+    "item",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BossChallengeV2.BossChallengeShopItemV2",
+  "m_ClassName": "BossChallengeShopItemV2"
+}

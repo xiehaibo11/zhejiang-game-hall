@@ -1,0 +1,147 @@
+{
+  "m_Name": "1686107b441e9f28cf6bcd3184ac9513.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 6158063456707544011
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8334670819154160486
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6830111421324746137
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7126782115545173254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5600141870436699134
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4995100433709400383
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4941465062786941598
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3650285838372836856
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2869188192411582288
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2760255405500595039
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 570196914965670747
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1247408119781428422
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1652372264907009832
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3900394065228464341
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4717268647106287606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4812478126953645549
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5051711217792119178
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5082931970772854715
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5147978528142562825
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5394397362601148556
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5948975405800773428
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6359943766046030977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7459722572032194894
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8216574190133235879
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8709500480184253832
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 6623102100032659891
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -5969024296887801589
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollectsystem/effect/prefabs/uieffect_bxstandby_hong.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 27,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2869188192411582288
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1686107b441e9f28cf6bcd3184ac9513.bundle",
+  "m_Dependencies": [
+    "0c7357073af0393f7dced1e7776c4a8f.bundle",
+    "2ac86b99edc35f38761a20590205aed2.bundle",
+    "4724c838c4cbc593af7e8ca2371be779.bundle",
+    "ac0af1d3133004ad2c935bb9f7964a70.bundle",
+    "e7cdc4bb0acc95ed662923146be142fd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,85 @@
+{
+  "m_Name": "0dd1dbcb7edec90de37b95ac2b9bd2e5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5266585161667275693
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2637625166566167773
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1118802728048990721
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -152074358234309821
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1549181787414092955
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7601925747541717125
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5472523206807093352
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/906027/fbx/plane.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7601925747541717125
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/fbx/plane.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1549181787414092955
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/fbx/plane.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1118802728048990721
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0dd1dbcb7edec90de37b95ac2b9bd2e5.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,82 @@
+{
+  "m_Name": "0d6672ca62d9901c741888b90d7518e0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4756087621588800185
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6175894108710077808
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4841933528118711310
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2900276484628716062
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/061_hongyanmolong/effect/textures/glow_0001.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4841933528118711310
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/061_hongyanmolong/effect/textures/line_0001.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2900276484628716062
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/061_hongyanmolong/effect/textures/ring_0001.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4756087621588800185
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/061_hongyanmolong/effect/textures/smoke_0001.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6175894108710077808
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0d6672ca62d9901c741888b90d7518e0.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

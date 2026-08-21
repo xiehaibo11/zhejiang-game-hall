@@ -1,0 +1,545 @@
+{
+  "m_Name": "YanJingTouTie",
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 6593142039864836435
+  },
+  "m_ValidKeywords": [
+    "_KEY_CUSTOM_SPECULAR",
+    "_SPECULAR_SETUP"
+  ],
+  "m_InvalidKeywords": [
+    "_KEYWORD_BASEMAP_HDR_ON",
+    "_KEYWORD_HAIR_HDR_ON",
+    "_SURFACE_TYPE_TRANSPARENT",
+    "_TRANSPARENTPBR_ON"
+  ],
+  "m_LightmapFlags": 4,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": false,
+  "m_CustomRenderQueue": 3000,
+  "stringTagMap": [
+    [
+      "RenderType",
+      "Transparent"
+    ]
+  ],
+  "disabledShaderPasses": [
+    "DepthOnly"
+  ],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_BASE_COLOR_MAP",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": -4073653287019215468
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_EmissionTexture",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_FrozenTexture",
+        {
+          "m_Texture": {
+            "m_FileID": 2,
+            "m_PathID": 3945097087078490453
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_MaskMap",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": -2244148220350104274
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_NORMAL_MAP",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 3638001649576222397
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_texcoord",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Ints": [],
+    "m_Floats": [
+      [
+        "_ALPHATEST_ON",
+        0.0
+      ],
+      [
+        "_ALPHA_SCALE",
+        1.0
+      ],
+      [
+        "_AORange",
+        0.0
+      ],
+      [
+        "_AO_Depth",
+        0.4000000059604645
+      ],
+      [
+        "_AO_Normal_Mix",
+        0.0
+      ],
+      [
+        "_AlphaCutoff",
+        0.5
+      ],
+      [
+        "_AlphaTestOn",
+        0.0
+      ],
+      [
+        "_AlphaThreshold",
+        0.0
+      ],
+      [
+        "_BaseContrast",
+        1.0
+      ],
+      [
+        "_BaseHue",
+        0.0
+      ],
+      [
+        "_BaseMap_Contrast",
+        1.0
+      ],
+      [
+        "_BaseMap_HueOffset",
+        0.0
+      ],
+      [
+        "_BaseMap_SaturationScale",
+        1.0
+      ],
+      [
+        "_BaseMap_SontrastScale",
+        1.0
+      ],
+      [
+        "_BaseSaturation",
+        1.0
+      ],
+      [
+        "_Blend",
+        0.0
+      ],
+      [
+        "_ClipThreshold",
+        0.0
+      ],
+      [
+        "_Cull",
+        2.0
+      ],
+      [
+        "_CustomSpecularBase",
+        1.0
+      ],
+      [
+        "_CustomSpecularRate",
+        1.0
+      ],
+      [
+        "_DownLayer",
+        100.0
+      ],
+      [
+        "_DstBlend",
+        10.0
+      ],
+      [
+        "_Edge_Density",
+        1.0
+      ],
+      [
+        "_Edge_Normal_Mix",
+        0.0
+      ],
+      [
+        "_Edge_Range",
+        7.0
+      ],
+      [
+        "_EnvironmentReflections",
+        1.0
+      ],
+      [
+        "_FrozenOverallIntensity",
+        1.0
+      ],
+      [
+        "_FrozenTexIntensity",
+        0.25
+      ],
+      [
+        "_HairColor_FinalScale",
+        1.0
+      ],
+      [
+        "_HairColor_Mix",
+        1.0
+      ],
+      [
+        "_HairColor_MixOffset",
+        0.0
+      ],
+      [
+        "_HeightOffset",
+        0.0
+      ],
+      [
+        "_HeightScale",
+        2.619999885559082
+      ],
+      [
+        "_HitSlider",
+        0.0
+      ],
+      [
+        "_IceFresnelBias",
+        0.0
+      ],
+      [
+        "_IceFresnelIntensity",
+        1.0
+      ],
+      [
+        "_IceFresnelPower",
+        0.5
+      ],
+      [
+        "_IceSpecular",
+        0.05000000074505806
+      ],
+      [
+        "_KEY_CUSTOM_AO",
+        0.0
+      ],
+      [
+        "_KEY_CUSTOM_DEFAULT",
+        0.0
+      ],
+      [
+        "_KEY_CUSTOM_OUTLINE",
+        0.0
+      ],
+      [
+        "_KEY_CUSTOM_SPECULAR",
+        1.0
+      ],
+      [
+        "_KEY_EMISSION_TEXTURE",
+        0.0
+      ],
+      [
+        "_KEY_TEX_MODIFY",
+        0.0
+      ],
+      [
+        "_Key_Dither_Fade",
+        0.0
+      ],
+      [
+        "_Key_Frozen",
+        0.0
+      ],
+      [
+        "_Key_Hit",
+        0.0
+      ],
+      [
+        "_Keyword_AO",
+        0.0
+      ],
+      [
+        "_Keyword_BaseMap_HDR",
+        1.0
+      ],
+      [
+        "_Keyword_EmssionMap",
+        0.0
+      ],
+      [
+        "_Keyword_Hair",
+        0.0
+      ],
+      [
+        "_Keyword_HairColor",
+        0.0
+      ],
+      [
+        "_Keyword_HairColor_UpDown",
+        0.0
+      ],
+      [
+        "_Keyword_Hair_HDR",
+        1.0
+      ],
+      [
+        "_METALNESS",
+        1.0
+      ],
+      [
+        "_MetalPower",
+        1.0
+      ],
+      [
+        "_Metallic_Scale",
+        1.0
+      ],
+      [
+        "_NormalScale",
+        1.0
+      ],
+      [
+        "_QueueControl",
+        -1.0
+      ],
+      [
+        "_QueueOffset",
+        0.0
+      ],
+      [
+        "_SMOOTHNESS",
+        1.0
+      ],
+      [
+        "_SmoothPower",
+        1.0
+      ],
+      [
+        "_Smoothness_Scale",
+        1.0
+      ],
+      [
+        "_SpecularHighlights",
+        1.0
+      ],
+      [
+        "_SpecularIOR",
+        1.0
+      ],
+      [
+        "_SpecularSetup",
+        1.0
+      ],
+      [
+        "_SrcBlend",
+        5.0
+      ],
+      [
+        "_Test_BaseMap_Mix",
+        0.0
+      ],
+      [
+        "_Test_Fersnel_Mix",
+        0.0
+      ],
+      [
+        "_Test_Fersnel_NormalLerp",
+        0.0
+      ],
+      [
+        "_Test_Fresnel_Hard",
+        1.0
+      ],
+      [
+        "_Test_Fresnel_Power",
+        1.0
+      ],
+      [
+        "_TransparentPBR",
+        1.0
+      ],
+      [
+        "_UpLayer",
+        1000.0
+      ],
+      [
+        "_ZWrite",
+        1.0
+      ],
+      [
+        "__dirty",
+        1.0
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_BASE_COLOR",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_BaseColor",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_DownLayerColor",
+        {
+          "r": 0.4549019932746887,
+          "g": 0.6117647290229797,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_EMISSION_COLOR",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_Edge_Color",
+        {
+          "r": 0.0,
+          "g": 0.2039216011762619,
+          "b": 1.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_EmissionColor",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_HairColor_Inside_Up",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 1.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_HairColor_Outside_Down",
+        {
+          "r": 0.0,
+          "g": 0.9137254953384399,
+          "b": 1.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_HitColor",
+        {
+          "r": 1.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_Test_BaseMap_Color",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_UpLayerColor",
+        {
+          "r": 0.545098066329956,
+          "g": 0.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ]
+    ]
+  },
+  "m_BuildTextureStacks": []
+}

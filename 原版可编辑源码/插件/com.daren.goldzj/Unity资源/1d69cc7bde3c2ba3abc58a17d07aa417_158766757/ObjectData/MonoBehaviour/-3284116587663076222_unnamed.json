@@ -1,0 +1,251 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1154571912528015455
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4417047715754097988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3632423536026977708
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 263130017828290861
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4837380963241588050
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3108287676908143328
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4553827248023289742
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5584572626162325777
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4226912458625741174
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4229780298085638027
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -97579686813399733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1690770669480363843
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2801358699622507848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4226912458625741174
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 884553391625903619
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7186871788452933850
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8022774297839976471
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7802218167589946244
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 766496889886793736
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4642691529680581681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 612470155075325533
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8844117341372939726
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1191738196864612368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9119119077005482114
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8163392843490254660
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1237031693888773631
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7742036582666412345
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6912548737910773015
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6833728138446211274
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8514222635833372456
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6210711003471658096
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6494162372094122683
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2899163994480864037
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5081625205834592506
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4442977620809958180
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3909531262922334561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5293829412088099500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8631530981251194528
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6514041931110124889
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -462234435594573925
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4156190232820245042
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7608137991302828555
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8106077853527231298
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6066830366751493685
+    }
+  ],
+  "m_BindComs_Name": [
+    "LabelCountDown",
+    "BtnClose",
+    "BtnRule",
+    "BtnMiniGame",
+    "BtnAddress",
+    "BtnWaterBuff",
+    "BottleImg",
+    "waterNum",
+    "SeedLevel",
+    "SeedName",
+    "SeedProcessText",
+    "ProcessImg",
+    "SprinklerWaterNum",
+    "BtnAddWater",
+    "SucculentLevelImg",
+    "BtnPurchase",
+    "BtnDrawAllReward",
+    "BtnNoneDrawReward",
+    "DrawAllAwardNum",
+    "DrawBubble",
+    "BtnStartWater",
+    "DailyWaterUnDraw",
+    "DailyWaterDrawed",
+    "JiaoShuiAni",
+    "ProcessGrowAni",
+    "PassportScrollView",
+    "PassportGrid",
+    "PassportItem",
+    "PassportPrice",
+    "DailyWaterLeadFinger",
+    "DailyGetWaterLeadFinger",
+    "ButtonGrid",
+    "SeedProcessContainer",
+    "SeedMatureContainer",
+    "UnLockPassportPanel",
+    "CloseUnLockPassport",
+    "RuleText",
+    "NumberBg",
+    "SprinklerWaterAni",
+    "SprinklerRedDot",
+    "SprinklerWaterLockBG",
+    "NormalRewardWaterNum",
+    "SeniorRewardWaterNum"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Succulent.SucculentDevelopmentPanel",
+  "m_ClassName": "SucculentDevelopmentPanel"
+}

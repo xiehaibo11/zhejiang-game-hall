@@ -1,0 +1,101 @@
+{
+  "m_Name": "18bffc3bc67ccd50efe32f061c7dfc24.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3616038745490256796
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8712423601767038607
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2920301030271869110
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8337660113699218466
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -3305801472006596245
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -351684996568791416
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -6796557381502057903
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/chaonengshizhe/materials/quanquan_035_ab 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3616038745490256796
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/chaonengshizhe/materials/ring_011_ab 1.mat",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2920301030271869110
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/chaonengshizhe/materials/ring_01_mj 4.mat",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -351684996568791416
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "18bffc3bc67ccd50efe32f061c7dfc24.bundle",
+  "m_Dependencies": [
+    "30b0356d69aae6d334f873b41c2f2e63.bundle",
+    "40c41e4d84f72130a63961662d2b0949.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "963538f2fc5dc8f0f6a03e2cce04b544.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

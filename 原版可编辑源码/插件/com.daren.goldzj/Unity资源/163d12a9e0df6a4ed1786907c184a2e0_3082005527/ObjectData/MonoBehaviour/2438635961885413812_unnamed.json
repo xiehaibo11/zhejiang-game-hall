@@ -1,0 +1,70 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4008345059905593673
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5109724268248260449
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4583830818984311970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3054512951915545126
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2477112588134779231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8008881768909410007
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2062494104180700822
+    }
+  ],
+  "m_BindComs_Name": [
+    "txtCountdown",
+    "doubleCannonMulRoot",
+    "TableMark",
+    "PaoBeiItem",
+    "LockSprite",
+    "DownloadIcon"
+  ],
+  "m_BindInt": [
+    88
+  ],
+  "m_BindInt_Name": [
+    "type"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Lobby.GameSpineDoubleCannonMulView",
+  "m_ClassName": "GameSpineDoubleCannonMulView"
+}

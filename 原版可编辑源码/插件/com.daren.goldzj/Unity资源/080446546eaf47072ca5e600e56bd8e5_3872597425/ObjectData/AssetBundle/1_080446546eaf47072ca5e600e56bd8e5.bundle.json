@@ -1,0 +1,43 @@
+{
+  "m_Name": "080446546eaf47072ca5e600e56bd8e5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3519149181151015705
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -7265746889118221696
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/festivalromance/gift/effect/giftpanel_openani.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3519149181151015705
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "080446546eaf47072ca5e600e56bd8e5.bundle",
+  "m_Dependencies": [
+    "2321dc6b2c35c633a2b51c60d0e54faa.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

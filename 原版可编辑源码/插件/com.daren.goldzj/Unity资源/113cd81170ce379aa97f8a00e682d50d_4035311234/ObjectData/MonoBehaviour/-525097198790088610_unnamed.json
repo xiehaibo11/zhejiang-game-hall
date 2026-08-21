@@ -1,0 +1,86 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -9040113009798377282
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8896865897752087785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1317428409027903077
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2824848299414442820
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3666899365079364875
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3898558616351467499
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2285633136093303562
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7298923359809547791
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 678074699560780815
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8918356153617986333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 349353622732880080
+    }
+  ],
+  "m_BindComs_Name": [
+    "IconItem",
+    "BtnClose",
+    "BtnExchange",
+    "BtnSub",
+    "BtnAdd",
+    "BtnMax",
+    "TxtCount",
+    "TxtLimit",
+    "TxtCost",
+    "TxtName"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.JuneFestival.JuneFestivalExchangeLayer",
+  "m_ClassName": "JuneFestivalExchangeLayer"
+}

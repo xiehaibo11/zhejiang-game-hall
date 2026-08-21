@@ -1,0 +1,97 @@
+{
+  "m_Name": "0244d5e27c8886d284edc2d1080f11cf.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 391579040281848757
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1821551642545928976
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1490827254204430968
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 403039249292528486
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7228269928606989923
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/180_meiguoduizhang/texture_npot/jiantou_01.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1490827254204430968
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/180_meiguoduizhang/texture_npot/noise_002.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 391579040281848757
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/180_meiguoduizhang/texture_npot/ramp_02.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 403039249292528486
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/180_meiguoduizhang/texture_npot/t_trail_001.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1821551642545928976
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/180_meiguoduizhang/texture_npot/trail_002.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7228269928606989923
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0244d5e27c8886d284edc2d1080f11cf.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

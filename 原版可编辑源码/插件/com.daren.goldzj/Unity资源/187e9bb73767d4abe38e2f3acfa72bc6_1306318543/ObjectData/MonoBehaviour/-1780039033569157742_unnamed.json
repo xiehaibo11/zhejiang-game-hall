@@ -1,0 +1,95 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 850759420275953952
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2616094541261621294
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4144487764748199015
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8750768517267570996
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8465851044472187481
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3111035529094958607
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7168659972518765309
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6495405507282506624
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2319766633375487119
+    }
+  ],
+  "m_BindComs_Name": [
+    "mBuyBtn",
+    "mGoldSp",
+    "mLimitTips",
+    "mZzNum",
+    "mGoldNum",
+    "mFirstDouble",
+    "mGrayBtn",
+    "mBuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -2854946614284220319
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6728333768245869830
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1475163005959899965
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mRewardItemList"
+  ],
+  "hotfixClassFullName": "GameHotFix.GodGeneralWeekShop.GodGeneralWeekShopGiftItem",
+  "m_ClassName": "GodGeneralWeekShopGiftItem"
+}

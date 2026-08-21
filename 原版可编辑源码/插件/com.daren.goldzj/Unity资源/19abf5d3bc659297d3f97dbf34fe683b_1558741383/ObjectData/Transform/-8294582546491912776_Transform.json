@@ -1,0 +1,44 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8294764425007324130
+  },
+  "m_LocalRotation": {
+    "x": -0.0,
+    "y": -0.0,
+    "z": -0.0,
+    "w": 1.0
+  },
+  "m_LocalPosition": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "m_LocalScale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "m_Children": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -223785528136613206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7239910823912312678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3235120201639078996
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1189394877487755479
+    }
+  ],
+  "m_Father": {
+    "m_FileID": 0,
+    "m_PathID": -8256767900261732031
+  }
+}

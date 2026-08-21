@@ -1,0 +1,48 @@
+{
+  "m_Name": "1917659013e73aaa8f96355440f5bbbd.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3040578219846909739
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -849239437859598510
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3809943008289184525
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/purchasegoldpackage/effect/material/xuanzhong_star_clip.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3040578219846909739
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1917659013e73aaa8f96355440f5bbbd.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

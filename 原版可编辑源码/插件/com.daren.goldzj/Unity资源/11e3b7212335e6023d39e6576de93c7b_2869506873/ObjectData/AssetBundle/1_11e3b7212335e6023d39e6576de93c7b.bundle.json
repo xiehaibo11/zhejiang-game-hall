@@ -1,0 +1,58 @@
+{
+  "m_Name": "11e3b7212335e6023d39e6576de93c7b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -7162570612986703077
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3452121065800906264
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -2198890684616607561
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -4143393541857900957
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/vipnew/effect/material/saoguang_014 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3452121065800906264
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "11e3b7212335e6023d39e6576de93c7b.bundle",
+  "m_Dependencies": [
+    "38b2e28d58d933698b24e508b1bfeb89.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "ac8abd4c5b9189657fca6715965a26d4.bundle",
+    "d479ed2037e7aafb23c271a15487c7df.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

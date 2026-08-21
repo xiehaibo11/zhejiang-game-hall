@@ -1,0 +1,84 @@
+{
+  "m_Name": "09200ea3b7c7792d0e9744c3a4ddeb29.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8907269503646200880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5757569525511753366
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5372643824720934785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3707466393606176397
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3293988801298358470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2791645255223842438
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5611689446740665030
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7160286536281121821
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8161803663609104677
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8413439241230391116
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1287127305265953440
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -5896368352383220158
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonsoulprefab/cannonsoul_3005/bulletlazer_1_3005/soul_paokou_1_3005.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3293988801298358470
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "09200ea3b7c7792d0e9744c3a4ddeb29.bundle",
+  "m_Dependencies": [
+    "600179a946c2a63c260bc658c32e4f48.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

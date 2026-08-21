@@ -1,0 +1,208 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7861971643089671229
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": false,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 0,
+    "m_PathID": 6877779689887051527
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3980180202993133789
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8714545553905847605
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -622094055204714224
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2746677554763755144
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3995116097302732627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5292620508007155497
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6309734950611366829
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6783481222708228617
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 294106375629258845
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7840175174766064660
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9080751054444183536
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7869355418667518448
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -120857213543846342
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6899634123603036218
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6716354193539411743
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6588746664860388159
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7176149390225809559
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2636857893202012465
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6081338440990915619
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 720889648088084003
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4042559148894995862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4067407742397545175
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6823182745685287984
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 403085235329628715
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6316735236746158938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3883413251288897633
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3487887758768516912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2272795278028645367
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6424220076465028119
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5693022673866977082
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -692835167497377009
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": 294106375629258845
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": -0.6818726658821106,
+      "y": -0.009201526641845703,
+      "z": -0.009808361530303955
+    },
+    "m_Extent": {
+      "x": 0.5091072916984558,
+      "y": 0.5410559773445129,
+      "z": 0.3870580196380615
+    }
+  },
+  "m_DirtyAABB": false
+}

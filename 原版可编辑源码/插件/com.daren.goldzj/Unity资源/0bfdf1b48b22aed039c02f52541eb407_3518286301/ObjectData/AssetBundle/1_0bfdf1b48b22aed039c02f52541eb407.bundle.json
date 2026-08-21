@@ -1,0 +1,68 @@
+{
+  "m_Name": "0bfdf1b48b22aed039c02f52541eb407.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5722781390850534183
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 288164481558451841
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -2646238731730143747
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -2384277296211312635
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6476047828288778736
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4712328485312920304
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/talisman/effect/material/godgeneral_fengshen_28.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5722781390850534183
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0bfdf1b48b22aed039c02f52541eb407.bundle",
+  "m_Dependencies": [
+    "00161cfbd63abcb693b0168a13351560.bundle",
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "4fa1de6daace296e055d4d06bbc3754d.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "84ec521a7f8743c3552df57447eae343.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

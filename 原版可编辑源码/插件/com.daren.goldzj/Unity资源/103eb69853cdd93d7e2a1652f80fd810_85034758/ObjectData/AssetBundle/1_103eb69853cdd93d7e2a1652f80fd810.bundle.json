@@ -1,0 +1,37 @@
+{
+  "m_Name": "103eb69853cdd93d7e2a1652f80fd810.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 64986503391103116
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/sound/cannonsoul/aijiyanhou/sound_soulkuangbao_3006.ogg",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 64986503391103116
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "103eb69853cdd93d7e2a1652f80fd810.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

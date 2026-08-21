@@ -1,0 +1,104 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1238221216393929460
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -8796169793551257677
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": false,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 0,
+    "m_PathID": -7764834568196428224
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7571252613729524952
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8761721305323601792
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7924133014142634663
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4968802326754754176
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -912352239322602122
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": -7571252613729524952
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": -4.022693634033203,
+      "y": -0.5035909414291382,
+      "z": -0.0006438791751861572
+    },
+    "m_Extent": {
+      "x": 5.6339111328125,
+      "y": 1.1833544969558716,
+      "z": 0.3710895776748657
+    }
+  },
+  "m_DirtyAABB": false
+}

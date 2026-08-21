@@ -1,0 +1,161 @@
+{
+  "m_Name": "1b6bc4540915b07bde687e28a01d8fec.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -5330904755660704549
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1802042826383871953
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8865263062118253099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8375401906551703465
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7052264285135423992
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6962965904331697320
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6743963841283988955
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6669888715962300552
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6398830870567259052
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4855833287651771386
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4608645751318251761
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3500047511140473983
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2778531526687520207
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2481120838908463721
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2006371437885808945
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1784557813370760914
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -290127275101536160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -91763711063474959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 689055588053398136
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008438544102144460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1241432530572087469
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2405219508198668921
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5313627918577154241
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5334602083098312459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5927445606395064968
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6603281654740317815
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7187037583712047599
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7750676594037295941
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5070239007089592569
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/profile/avatarframe/fx/avatarframefx_common.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 31,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5334602083098312459
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1b6bc4540915b07bde687e28a01d8fec.bundle",
+  "m_Dependencies": [
+    "7b14c45d02b38b42ef458a5625854151.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "da1a669413460b3aeb1baa21213bb2a9.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

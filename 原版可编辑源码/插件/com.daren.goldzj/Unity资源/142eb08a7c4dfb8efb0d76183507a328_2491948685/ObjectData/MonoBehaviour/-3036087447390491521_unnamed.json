@@ -1,0 +1,74 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -671310242858934463
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7593769042062541980
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7690120244212331470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5891411843280810679
+    }
+  ],
+  "m_BindComs_Name": [
+    "bg",
+    "rankSprite",
+    "rankLabel"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 772968583782863046
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6234080904716469262
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6669567238926918294
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3898960427990397211
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "rewards"
+  ],
+  "hotfixClassFullName": "GameHotFix.StrikeFairyTree.StrikeFairyTreeRankPreviewItem",
+  "m_ClassName": "StrikeFairyTreeRankPreviewItem"
+}

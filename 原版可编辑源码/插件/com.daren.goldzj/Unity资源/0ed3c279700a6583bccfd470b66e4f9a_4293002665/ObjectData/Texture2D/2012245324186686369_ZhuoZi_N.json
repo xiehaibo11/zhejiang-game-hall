@@ -1,0 +1,39 @@
+{
+  "m_Name": "ZhuoZi_N",
+  "m_ForcedFallbackFormat": 4,
+  "m_DownscaleFallback": false,
+  "m_IsAlphaChannelOptional": true,
+  "m_Width": 512,
+  "m_Height": 512,
+  "m_CompleteImageSize": 227680,
+  "m_MipsStripped": 0,
+  "m_TextureFormat": 49,
+  "m_MipCount": 10,
+  "m_IsReadable": false,
+  "m_IsPreProcessed": false,
+  "m_IgnoreMasterTextureLimit": false,
+  "m_StreamingMipmaps": true,
+  "m_StreamingMipmapsPriority": 0,
+  "m_ImageCount": 1,
+  "m_TextureDimension": 2,
+  "m_TextureSettings": {
+    "m_FilterMode": 1,
+    "m_Aniso": 1,
+    "m_MipBias": -1.0,
+    "m_WrapU": 0,
+    "m_WrapV": 0,
+    "m_WrapW": 0
+  },
+  "m_LightmapFormat": 4,
+  "m_ColorSpace": 0,
+  "m_PlatformBlob": [],
+  "image data": {
+    "_binaryLength": 0,
+    "_binarySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "m_StreamData": {
+    "offset": 8447440,
+    "size": 227680,
+    "path": "archive:/CAB-5b62e8c81f779bee6269f9bf827b72bd/CAB-5b62e8c81f779bee6269f9bf827b72bd.resS"
+  }
+}

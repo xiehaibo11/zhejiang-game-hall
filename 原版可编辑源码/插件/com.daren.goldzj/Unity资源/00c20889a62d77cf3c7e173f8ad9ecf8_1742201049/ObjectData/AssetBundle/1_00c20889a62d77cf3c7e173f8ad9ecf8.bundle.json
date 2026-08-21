@@ -1,0 +1,125 @@
+{
+  "m_Name": "00c20889a62d77cf3c7e173f8ad9ecf8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7967769052887711346
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6725107667951698214
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6215306745894558873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5883163238818522043
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5457532669612455425
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5285722969426142257
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5194019783699666915
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4403042863882889924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4174166304102452922
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2881736156395634355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1026633810787065237
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -887630994351268044
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -284176498576447678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1061522179402854003
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1230180541444721627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2536176431480360595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5077138624343159732
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8964849068187202647
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6412593343540956330
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2572051063543559489
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5283777822209504163
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -324149516533321004
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/duobaoqibing/effect/prefab/thlb_effect_jinbi2.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 22,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7967769052887711346
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "00c20889a62d77cf3c7e173f8ad9ecf8.bundle",
+  "m_Dependencies": [
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "efa99c91ee7dc541212056d6d02ca1ad.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

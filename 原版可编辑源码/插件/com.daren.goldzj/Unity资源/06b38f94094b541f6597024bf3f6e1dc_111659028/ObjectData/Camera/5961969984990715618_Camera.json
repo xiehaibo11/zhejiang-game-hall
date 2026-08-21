@@ -1,0 +1,54 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3497376668031313856
+  },
+  "m_Enabled": 1,
+  "m_ClearFlags": 1,
+  "m_BackGroundColor": {
+    "r": 0.1921568661928177,
+    "g": 0.3019607961177826,
+    "b": 0.4745098054409027,
+    "a": 0.0
+  },
+  "m_projectionMatrixMode": 2,
+  "m_GateFitMode": 1,
+  "m_SensorSize": {
+    "x": 36.0,
+    "y": 16.605632781982422
+  },
+  "m_LensShift": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "m_FocalLength": 24.999998092651367,
+  "m_NormalizedViewPortRect": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "near clip plane": 0.09999999403953552,
+  "far clip plane": 40.0,
+  "field of view": 36.743961334228516,
+  "orthographic": false,
+  "orthographic size": 1.6605634689331055,
+  "m_Depth": 0.0,
+  "m_CullingMask": {
+    "m_Bits": 4294967295
+  },
+  "m_RenderingPath": -1,
+  "m_TargetTexture": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_TargetDisplay": 0,
+  "m_TargetEye": 3,
+  "m_HDR": true,
+  "m_AllowMSAA": true,
+  "m_AllowDynamicResolution": false,
+  "m_ForceIntoRT": false,
+  "m_OcclusionCulling": true,
+  "m_StereoConvergence": 10.0,
+  "m_StereoSeparation": 0.02199999988079071
+}

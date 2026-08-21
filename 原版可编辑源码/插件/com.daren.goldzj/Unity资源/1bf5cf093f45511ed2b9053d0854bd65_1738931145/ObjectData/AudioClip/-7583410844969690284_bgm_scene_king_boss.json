@@ -1,0 +1,20 @@
+{
+  "m_Name": "bgm_scene_king_boss",
+  "m_LoadType": 2,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 30.88235855102539,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": true,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-b63cd8e6c0990420735a143f81498973/CAB-b63cd8e6c0990420735a143f81498973.resource",
+    "m_Offset": 0,
+    "m_Size": 233216
+  },
+  "m_CompressionFormat": 1
+}

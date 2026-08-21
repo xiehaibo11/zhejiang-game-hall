@@ -1,0 +1,43 @@
+{
+  "m_Name": "19a97f917f04b3b80745fa169df9ebaf.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 2735571512737278871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5756327368832994355
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/kingoffighterroom/effect/animation/gold_ani.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5756327368832994355
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "19a97f917f04b3b80745fa169df9ebaf.bundle",
+  "m_Dependencies": [
+    "8999c726faeb1d16712097de23287ed4.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

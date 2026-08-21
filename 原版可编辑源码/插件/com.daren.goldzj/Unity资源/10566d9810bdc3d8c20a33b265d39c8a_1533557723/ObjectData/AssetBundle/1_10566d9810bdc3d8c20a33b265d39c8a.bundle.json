@@ -1,0 +1,52 @@
+{
+  "m_Name": "10566d9810bdc3d8c20a33b265d39c8a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1275408254023075481
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2289977562587724440
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/texture/iap/img_iap_bg1.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2289977562587724440
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/texture/iap/img_iap_bg2.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1275408254023075481
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "10566d9810bdc3d8c20a33b265d39c8a.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

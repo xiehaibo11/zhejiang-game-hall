@@ -1,0 +1,97 @@
+{
+  "m_Name": "18c80b08c0c17deda09987c3e16c86a9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -317867251795181604
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3219128847218887823
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1556110540935411232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5226295784992670716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7752432149531645885
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/lvbu_ren/textures/object_01_lvbu.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5226295784992670716
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/lvbu_ren/textures/object_03_lvbu.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3219128847218887823
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/lvbu_ren/textures/object_04_lvbu.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1556110540935411232
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/lvbu_ren/textures/object_05_lvbu.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -317867251795181604
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/lvbu_ren/textures/object_06_lvbu.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7752432149531645885
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "18c80b08c0c17deda09987c3e16c86a9.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

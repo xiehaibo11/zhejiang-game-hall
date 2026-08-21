@@ -1,0 +1,160 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6209187124694109382
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7747565835837211066
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9091638951678477819
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -270255208140011975
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9202985909730428827
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8738639184865593518
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8335250008944930641
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4579242076169716183
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2451917889719264628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 873715798145996876
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4257290065515609678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 118709206417485055
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6890058781297355158
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5320037910290797779
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7730079671594143460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 317618579555238840
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8733757730291882292
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7253739268208880999
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1323859273447784322
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1215896770571187915
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3624937885251518892
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8116537297072620221
+    }
+  ],
+  "m_BindComs_Name": [
+    "mCloseBtn",
+    "mGiftBtn",
+    "mGetBigReawrdBtn",
+    "mGiftBtnRedPoint",
+    "mUIGrid",
+    "mScrollView",
+    "mRewardItem",
+    "mCurScoreNum",
+    "mMaxRewardNum",
+    "mPropNum",
+    "mGettedRewardTips",
+    "mLeftProgress",
+    "mRightProgress",
+    "mCenterProgress",
+    "mCenterProgressBG",
+    "mCenterFront",
+    "mNengLiangNode",
+    "mNengLiangCountdown",
+    "mNengLiangPercent",
+    "mCountDownLabel",
+    "m3dModelPos"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 2905231167779624415
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7752386846872012959
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2217151264622981758
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mBtnComponentList"
+  ],
+  "hotfixClassFullName": "GameHotFix.RoadOfImperial.RoadOfImperialMainPanel",
+  "m_ClassName": "RoadOfImperialMainPanel"
+}

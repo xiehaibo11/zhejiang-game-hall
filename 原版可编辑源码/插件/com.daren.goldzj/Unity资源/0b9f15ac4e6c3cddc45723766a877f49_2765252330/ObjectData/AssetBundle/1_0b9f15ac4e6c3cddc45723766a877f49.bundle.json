@@ -1,0 +1,71 @@
+{
+  "m_Name": "0b9f15ac4e6c3cddc45723766a877f49.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7317255868857720533
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4783028851734187861
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -851410039290659685
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -339891770789354451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3752682261682458956
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4979982564651012339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5564058667497021487
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8592472278448007377
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7879415582303522104
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/fengshenpuzzle/effect/prefab/uieffect_top_left.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5564058667497021487
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0b9f15ac4e6c3cddc45723766a877f49.bundle",
+  "m_Dependencies": [
+    "632a53c1f6c93b0ea3370efe54e917dd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

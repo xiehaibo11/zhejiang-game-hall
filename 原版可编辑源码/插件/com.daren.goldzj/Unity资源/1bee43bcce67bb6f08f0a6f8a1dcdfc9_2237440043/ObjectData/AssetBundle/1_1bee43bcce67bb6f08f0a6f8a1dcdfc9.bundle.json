@@ -1,0 +1,143 @@
+{
+  "m_Name": "1bee43bcce67bb6f08f0a6f8a1dcdfc9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 1496059431826430580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9180891196830348579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8447596915876485423
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8436466897712026005
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7438387701529187022
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4894723569840424151
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3326873116881699236
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1329373271134536276
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -883513461170250343
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 992972776320443231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2399554792325035730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2953417611610336065
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4329377665671379009
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4725116994854252947
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6570725311865273275
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6628138848957228568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7217453195177386557
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7695415456752209143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8517363947996133083
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 3097841575995397734
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4904103585872232556
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -1678305597122355800
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactpray/effect/prefab/ui_eff_slqy_reward_glow_big.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 26,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8447596915876485423
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1bee43bcce67bb6f08f0a6f8a1dcdfc9.bundle",
+  "m_Dependencies": [
+    "2d7c7f56cb6a54a13e02e01b5835cc60.bundle",
+    "436b72c8f8fef9953851f2a7c7abf10d.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "a927c5391194bb9e7d1a64ea52d56239.bundle",
+    "fe9de61bdf45d5c6f2977d2a83cf0b57.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

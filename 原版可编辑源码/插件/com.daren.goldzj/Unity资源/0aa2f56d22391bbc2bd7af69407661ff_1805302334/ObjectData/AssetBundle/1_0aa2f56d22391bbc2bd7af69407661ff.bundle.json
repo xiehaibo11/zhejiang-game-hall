@@ -1,0 +1,171 @@
+{
+  "m_Name": "0aa2f56d22391bbc2bd7af69407661ff.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1819546698964291017
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -7834653971540064990
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 4230755736128384437
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7607393652165523300
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -8494750641699975659
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7771705871459973087
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9185848324141612451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8859300557036773012
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8539970916468735615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6883790200740497374
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5615491350034601582
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4998323567352187365
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2830989316883045614
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2776132170401505543
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2052813592148370441
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1975506291230616947
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1420149089791407080
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1393853577437161338
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1334883996917127940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1258453684498361511
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 427402510218581086
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 907061889398942874
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 911366247140770430
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2545824326610957463
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3167415901337803351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3554790780939207720
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3578070847482065848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3677094491798786647
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4351206472421963978
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6780039597541745985
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7701695658425769600
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8705868986666181301
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactjingubang/effect/prefabs/7-9/dhsz_teshu8.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 33,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1258453684498361511
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0aa2f56d22391bbc2bd7af69407661ff.bundle",
+  "m_Dependencies": [
+    "1156795f47c906ab6b7c627a922e7455.bundle",
+    "5d51fbcac2fb7be6229d5908110f39ce.bundle",
+    "6763e272cba03a1bb65ed84b7c47d7af.bundle",
+    "cb17b320391891e60d6a3dc1ffd098a2.bundle",
+    "ea2bff5c7f03d4cebfd71f554eaf1137.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

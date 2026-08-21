@@ -1,0 +1,132 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6592980975350642350
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2586579290604588089
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -450206726083765792
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4566576485647118353
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 555275023402796092
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5206113227617785396
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9070040742223552641
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4037673084110944792
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4300168164186459615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3483482017367841996
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5295022689770257869
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -45240986029626539
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -421528192267713873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4037673084110944792
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7029857068522604446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9144146368166345898
+    }
+  ],
+  "m_BindComs_Name": [
+    "ultimateSkillPaokouEffect1",
+    "paokouEffect1",
+    "paokouEffect2",
+    "normalEffect1",
+    "normalEffect2",
+    "ultimateSkillPaokouEffect",
+    "ultimateAnimationCallback",
+    "eyeRender",
+    "shentiRender",
+    "toufaRender",
+    "wuqiRender",
+    "yifuRender",
+    "specialAnimationCallback",
+    "mAnimator",
+    "mGodGeneralRig"
+  ],
+  "m_BindInt": [
+    1003
+  ],
+  "m_BindInt_Name": [
+    "godGeneralId"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0,
+    1
+  ],
+  "m_BindBool_Name": [
+    "hasKuangBao",
+    "DonotPlayPaoKouEffect"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 3207208679246178789
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mGodGeneralEffect"
+  ],
+  "hotfixClassFullName": "GameHotFix.Game.GodGeneralCannon_DaJi",
+  "m_ClassName": "GodGeneralCannon_DaJi"
+}

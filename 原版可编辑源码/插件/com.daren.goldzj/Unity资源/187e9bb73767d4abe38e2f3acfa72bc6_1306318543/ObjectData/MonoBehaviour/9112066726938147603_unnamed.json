@@ -1,0 +1,76 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6738996463203534970
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7510662230549913680
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1406790223073573216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7196897275965883110
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6371809044145983948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4217594759873028264
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3131897514033581797
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8739472237187531319
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6560976094762895179
+    }
+  ],
+  "m_BindComs_Name": [
+    "mCloseBtn",
+    "GiftIteParent",
+    "mGiftItem",
+    "mBtnLeft",
+    "mBtnRight",
+    "mTabGrid",
+    "mTabItem",
+    "mMoveParent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GodGeneralWeekShop.GodGeneralWeekShopPanel",
+  "m_ClassName": "GodGeneralWeekShopPanel"
+}

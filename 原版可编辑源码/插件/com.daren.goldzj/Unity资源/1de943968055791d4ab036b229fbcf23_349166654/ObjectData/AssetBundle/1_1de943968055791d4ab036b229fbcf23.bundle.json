@@ -1,0 +1,67 @@
+{
+  "m_Name": "1de943968055791d4ab036b229fbcf23.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1382159720746548914
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9122051727584606541
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5336709936148632045
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/rrby_v2/arts/commontexture/ramp/ramp_001.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1382159720746548914
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/commontexture/ramp/ramp_002.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5336709936148632045
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/commontexture/ramp/ramp_005.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9122051727584606541
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1de943968055791d4ab036b229fbcf23.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

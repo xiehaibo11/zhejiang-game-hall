@@ -1,0 +1,48 @@
+{
+  "m_Name": "11c56918d1bb5ea991bf28c99e322a40.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 8727702303594724723
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8867187736940605568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7011903058751592241
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/gameactivity/rocketsprint/effect/animation/reward.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7011903058751592241
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "11c56918d1bb5ea991bf28c99e322a40.bundle",
+  "m_Dependencies": [
+    "39952d2c6d432b6f9310ed8e9dff1d72.bundle",
+    "eac1b418c3bfd338da6f318bb34c65ad.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

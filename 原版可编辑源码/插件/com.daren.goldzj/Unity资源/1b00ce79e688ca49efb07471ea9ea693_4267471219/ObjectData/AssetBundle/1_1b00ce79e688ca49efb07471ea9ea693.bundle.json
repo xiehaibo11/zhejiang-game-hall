@@ -1,0 +1,92 @@
+{
+  "m_Name": "1b00ce79e688ca49efb07471ea9ea693.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -7794128853182490086
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7272899631525619837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7046743129105234585
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6602720204732519349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5403771167872655148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3884834689441348087
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3578267194960600443
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1547573515720748710
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 366104418192298821
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2936314558245536549
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3076360544533384685
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5389711511043732968
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9193303955382279602
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/streetstormgift/effect/prefab/uieffect_saoguang_title.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 14,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3578267194960600443
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1b00ce79e688ca49efb07471ea9ea693.bundle",
+  "m_Dependencies": [
+    "859eebcd72581eb996a4dbdac3447c31.bundle",
+    "f1a9f703f57e1c1921a4faa5e1ed1d13.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

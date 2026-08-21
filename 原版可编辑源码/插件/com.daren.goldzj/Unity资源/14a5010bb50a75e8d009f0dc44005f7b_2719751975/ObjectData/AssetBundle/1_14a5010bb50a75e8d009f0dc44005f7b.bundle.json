@@ -1,0 +1,385 @@
+{
+  "m_Name": "14a5010bb50a75e8d009f0dc44005f7b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3208682581404337978
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3580645099234481565
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4782258042776070313
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5637379405419061502
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1780130553610890295
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5639183960022419340
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1272624123247927020
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6721703205957452002
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -679257234042021937
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -104240708818865949
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4931153990418706811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3990042228157658461
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6835693341418884834
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1199155407930981894
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -9081225031325796570
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4194383190979694013
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4775661654051268326
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7421240449347282183
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5770741996478852711
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8281600700243503433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7616623077775250013
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 338323195715797294
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3471298912984012661
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/hqb_sf1_shan_cam_01_ani.anim",
+      {
+        "preloadIndex": 37,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3471298912984012661
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/huoqubing_sf_ani.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3208682581404337978
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/huoqubing_wuqi_\u51fa\u73b0_ani.anim",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4782258042776070313
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/huoqubing_wuqi_\u6d88\u5931_ani1.anim",
+      {
+        "preloadIndex": 30,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5770741996478852711
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/huoqubingingameani.controller",
+      {
+        "preloadIndex": 19,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1199155407930981894
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/huoqubingingamewuqiani.controller",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1272624123247927020
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/sf3_ui_position_toleft1.anim",
+      {
+        "preloadIndex": 26,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7421240449347282183
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/ui_sf1_\u500d\u6570\u79fb\u52a8ani_ngui.anim",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4775661654051268326
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/ui_sf1_\u663e\u793aani_ngui.anim",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3580645099234481565
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/ui_sf1_\u6d88\u5931ani_ngui.anim",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1780130553610890295
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/ui_sf2_\u89c9\u9192.anim",
+      {
+        "preloadIndex": 31,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8281600700243503433
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/ui_shoufenpai_\u5f39\u8d77_ani_ngui.anim",
+      {
+        "preloadIndex": 35,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 338323195715797294
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/ui_shoufenpai_\u663e_ani_ngui.anim",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3990042228157658461
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/ui_shoufenpai_\u9690_ani_ngui.anim",
+      {
+        "preloadIndex": 33,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7616623077775250013
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/\u500d\u6570_ani.anim",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6835693341418884834
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/\u500d\u6570_ani_ngui.anim",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4931153990418706811
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/\u6570\u5b57\u6eda\u52a8\u9884\u89c8_ani.anim",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -104240708818865949
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/\u724c\u5b50\u4eae\u8d77_ani_ngui.anim",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5639183960022419340
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/animation/\u901a\u5173\u4eae\u8d77_ani_ngui.anim",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5637379405419061502
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "14a5010bb50a75e8d009f0dc44005f7b.bundle",
+  "m_Dependencies": [
+    "edae05342f02eb0243506b77b8e87e3a.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

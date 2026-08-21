@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8819764657848931286
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8448366429895073515
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -191730798789068567
+    }
+  ],
+  "m_BindComs_Name": [
+    "SpIcon",
+    "LabNum"
+  ],
+  "m_BindInt": [
+    0,
+    0,
+    100,
+    100,
+    0
+  ],
+  "m_BindInt_Name": [
+    "UseTipsVer",
+    "TipPosition",
+    "constraintWidth",
+    "constraintHeight",
+    "targetItemId"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1,
+    0
+  ],
+  "m_BindBool_Name": [
+    "IsShowTip",
+    "IsAdaptBg"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Base.IconItemComponent",
+  "m_ClassName": "IconItemComponent"
+}

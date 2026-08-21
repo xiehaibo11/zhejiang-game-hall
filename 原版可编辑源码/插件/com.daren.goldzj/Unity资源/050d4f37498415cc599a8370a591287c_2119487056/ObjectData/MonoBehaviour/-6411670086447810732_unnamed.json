@@ -1,0 +1,298 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6189169591954525803
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7736492359642652140
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1895217587086918293
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5216716761616490130
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5845989107921766601
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2450443468063035885
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2609780070916291960
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3788693865358360450
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8108227791309018358
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4148946099515633715
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1417157816016939781
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 128023594461138418
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8389488318983523553
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8011006379036627501
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5375520158725645773
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1523223670935594594
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6402143923810994871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3946798253679682558
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2101279279211139265
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7451918251333674154
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1577338461090718269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5272935344408355558
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2672037189319720817
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 693503369831919880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4159281018033208448
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4594215170477438614
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8212993268354915648
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9175903699599534476
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8236536871105098334
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1666020936784168580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2529396824923481665
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7232377515465068697
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7795780980465596461
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6211362028687722888
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4332605233836661688
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4895007423591991633
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5504264029299306159
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3666702263494520883
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7748627945854052712
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5053486908678664096
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7152610158940923764
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3058344739184945169
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6495494373143062209
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4770089869941524645
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2803785274491824373
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 869652554881874493
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4153364584190544050
+    }
+  ],
+  "m_BindComs_Name": [
+    "clipper",
+    "rightContainer",
+    "rightContainerAnimator",
+    "rightContainerCallback",
+    "rightAnimator",
+    "getFree",
+    "xuliEffect",
+    "baodianEffect",
+    "getFreeGray",
+    "getFreeLabel",
+    "getFreeLabelGray",
+    "hasGet",
+    "btnClose",
+    "buy",
+    "godBuffDetail",
+    "gridComponent",
+    "openState",
+    "god",
+    "open",
+    "notOpen",
+    "giftPrice",
+    "giftFree",
+    "giftFreeLabel",
+    "giftFreeLabelGray",
+    "priceSprite",
+    "priceLabel",
+    "priceLabelGray",
+    "godGoldenCount",
+    "godName",
+    "godItem",
+    "effectBtn",
+    "limitCount",
+    "sellout",
+    "btnOpen",
+    "oriPrice",
+    "selloutLabel",
+    "top",
+    "godPanel",
+    "mask",
+    "doubleGift",
+    "doubleGiftAnimator",
+    "doubleGiftPanel",
+    "godAnimator",
+    "time",
+    "godAnimatorCallback",
+    "doubleGiftAnimatorCallback"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -9120018503999649264
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4536624427148565186
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5937131095631209934
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 6439600834368593167
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2861432959412008545
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "rewards",
+    "calendarGiftItems"
+  ],
+  "hotfixClassFullName": "GameHotFix.CalendarGift.CalendarGiftMainPanel",
+  "m_ClassName": "CalendarGiftMainPanel"
+}

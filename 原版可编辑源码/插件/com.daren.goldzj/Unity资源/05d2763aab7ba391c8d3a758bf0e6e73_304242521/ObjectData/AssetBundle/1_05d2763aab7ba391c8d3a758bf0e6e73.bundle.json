@@ -1,0 +1,76 @@
+{
+  "m_Name": "05d2763aab7ba391c8d3a758bf0e6e73.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3157242112676754540
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6180473297961210062
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5361630833202387124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1767374236323974297
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4817041240071495895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5785635411083795170
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7396738941750265951
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4346392144181995951
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7534283389971855680
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/baodian/baodianraisedlabel_0.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 10,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5785635411083795170
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "05d2763aab7ba391c8d3a758bf0e6e73.bundle",
+  "m_Dependencies": [
+    "5c502c268249dd813bc6456ea161b1e5.bundle",
+    "d5b297ccd00b22b0ad39e3a002d538d5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

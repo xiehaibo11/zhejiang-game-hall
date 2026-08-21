@@ -1,0 +1,80 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8039481180736769098
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5672947042442368566
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3282517265573588484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1661169151361413238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2921812750539156516
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3040778425685556083
+    }
+  ],
+  "m_BindComs_Name": [
+    "buff",
+    "money",
+    "buy",
+    "price",
+    "sellout"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4745756906890395191
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6176908709011398713
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 354121417289861791
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "items"
+  ],
+  "hotfixClassFullName": "GameHotFix.CalendarGift.CalendarGiftItem",
+  "m_ClassName": "CalendarGiftItem"
+}

@@ -1,0 +1,52 @@
+{
+  "m_Name": "1162df3591f13f5b97896c0f7062275a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2991909538592573577
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6746917637980165012
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/zhinv/texture/mask_03_zn.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6746917637980165012
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/zhinv/texture/ramp_01_zn.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2991909538592573577
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1162df3591f13f5b97896c0f7062275a.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

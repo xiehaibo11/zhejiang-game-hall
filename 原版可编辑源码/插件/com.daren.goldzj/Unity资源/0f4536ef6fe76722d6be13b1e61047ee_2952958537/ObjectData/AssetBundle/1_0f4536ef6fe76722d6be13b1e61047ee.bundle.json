@@ -1,0 +1,281 @@
+{
+  "m_Name": "0f4536ef6fe76722d6be13b1e61047ee.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7030229213176759517
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6364148313587226521
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5205193766457641220
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4567383224640338987
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -636080302126677546
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6500712372921318604
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5063155324006175333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4983543097199607359
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5892253011145022196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3118095518192477371
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2530870254446334285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -127770740932322390
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 555836911447552028
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5258029914773090476
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 651901571248858443
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8267763485841698941
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3154358797267591012
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1698311330242020890
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -954628533775252452
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8820732765635825054
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/alive_lindaiyu.controller",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6500712372921318604
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/alive_shu.controller",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8820732765635825054
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/ldy_effect_sf1_cam_06.anim",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5063155324006175333
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/shugan.anim",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -127770740932322390
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/shugan1.anim",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 555836911447552028
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/shugan2.anim",
+      {
+        "preloadIndex": 19,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3154358797267591012
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/ui_ldy_sfp_beishu_01_ngui.anim",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4983543097199607359
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/ui_ldy_sfp_beishu_02_ngui.anim",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2530870254446334285
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/ui_ldy_sfp_beishu_03_ngui.anim",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 651901571248858443
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/ui_ldy_shoufengpai_\u9ed8\u8ba4\u9690\u85cf.anim",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3118095518192477371
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/ui_ldy_zi.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6364148313587226521
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/ui_ldy_zi1_ngui.anim",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5205193766457641220
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/ui_mny_shoufengpai.anim",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5258029914773090476
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/ui_mny_shoufengpai_\u6de1\u51fa.anim",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8267763485841698941
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/animation/\u9884\u89c8_\u6570\u5b57\u6eda\u52a8.anim",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5892253011145022196
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0f4536ef6fe76722d6be13b1e61047ee.bundle",
+  "m_Dependencies": [
+    "e25b6b5c796361d45d1d1e5abe4050a9.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,121 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7823495439981480272
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8839332271724152622
+  },
+  "m_Name": "",
+  "LodListHigh": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6569012773601653327
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2515543870294781362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4545619009912628055
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1323444419283051432
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6425558525433962209
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8282684610999160302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1020920056091126813
+    }
+  ],
+  "LodListMid": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3218953229509682959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3055985031858158550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6378157747959314085
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5842954225661123307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7767277940332382903
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7987408024412907285
+    }
+  ],
+  "LodListLow": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6486011062639373655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1087188192337143793
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8472456986180744150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7868581049818755108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4423875748179595658
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3582188983244208373
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4002408953413500410
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4657098289121494771
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6681735410428910421
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2113000719091887613
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6187706773908875028
+    }
+  ],
+  "LodListUltraLow": [],
+  "high": 100,
+  "mid": 70,
+  "low": 30,
+  "veryLow": 0,
+  "percentList": [],
+  "originParticleCntList": []
+}

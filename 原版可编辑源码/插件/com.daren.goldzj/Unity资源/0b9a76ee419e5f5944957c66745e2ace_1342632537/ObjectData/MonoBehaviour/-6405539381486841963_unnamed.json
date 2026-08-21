@@ -1,0 +1,144 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8105481612240592694
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6708594093639581082
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7501892514600233268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7780725735690825494
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8502207818781037038
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5900764807919216434
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5481104033664151923
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1999922724019643438
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1982387134076418304
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8966043002722287123
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3602857963764840530
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7527595147164144706
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3465523032677881940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2294092408469373863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8968766128408449456
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3178185796449845334
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5001403586715460130
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8958669416424991593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1099872295607429451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4518969646081520520
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2573514502842684786
+    }
+  ],
+  "m_BindComs_Name": [
+    "zhezhao",
+    "BtnClose",
+    "BtnPhone",
+    "BtnChangeAvatar",
+    "BtnChangeTitle",
+    "BtnChangeNick",
+    "BtnVIP",
+    "UserAvatar",
+    "UserAvatarThird",
+    "UserTitleImage",
+    "UserTitleText",
+    "UserNick",
+    "UserLevel",
+    "UserIPAddress",
+    "UserID",
+    "USERID",
+    "UserVip",
+    "m_UserAvatarRedDot",
+    "m_ILBAvatarComponent",
+    "BagItem"
+  ],
+  "m_BindInt": [
+    36
+  ],
+  "m_BindInt_Name": [
+    "cellNum"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    0.0
+  ],
+  "m_BindFloat_Name": [
+    "endTime"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.UserInfo.UserInfoPanel",
+  "m_ClassName": "UserInfoPanel"
+}

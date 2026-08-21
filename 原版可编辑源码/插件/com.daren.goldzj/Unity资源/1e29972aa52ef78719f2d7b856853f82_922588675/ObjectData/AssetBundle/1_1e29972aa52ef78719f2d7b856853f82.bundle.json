@@ -1,0 +1,48 @@
+{
+  "m_Name": "1e29972aa52ef78719f2d7b856853f82.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6622884391512171041
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -833982804494781094
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/talisman/effect/material/lizi_001 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -833982804494781094
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1e29972aa52ef78719f2d7b856853f82.bundle",
+  "m_Dependencies": [
+    "1a9e1bf777105aeafa4b7e91ce07a03a.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

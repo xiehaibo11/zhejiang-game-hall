@@ -1,0 +1,43 @@
+{
+  "m_Name": "0de8424182f9adf7be314e7114467545.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4571425188859398035
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8439237037655862184
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bosschallengeskin3/bosschallengemainpanel3_txtmove.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4571425188859398035
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0de8424182f9adf7be314e7114467545.bundle",
+  "m_Dependencies": [
+    "c3f48a96d5b79bbb2fead9d9df13dc18.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

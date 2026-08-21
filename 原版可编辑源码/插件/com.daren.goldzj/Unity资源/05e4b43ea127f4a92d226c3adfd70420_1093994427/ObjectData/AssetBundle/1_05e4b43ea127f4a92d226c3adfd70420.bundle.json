@@ -1,0 +1,53 @@
+{
+  "m_Name": "05e4b43ea127f4a92d226c3adfd70420.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2557158152983736810
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8328127555945789413
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6674342499386898996
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/duobaoqibing/effect/material/rrby_ui_013_add_hyhg_nq 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2557158152983736810
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "05e4b43ea127f4a92d226c3adfd70420.bundle",
+  "m_Dependencies": [
+    "24eff96375d736c178f92cedd0dc46cb.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

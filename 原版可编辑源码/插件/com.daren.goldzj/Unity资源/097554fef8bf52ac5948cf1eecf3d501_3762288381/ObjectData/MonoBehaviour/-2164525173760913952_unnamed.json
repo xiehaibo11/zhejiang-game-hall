@@ -1,0 +1,127 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6446293257920384573
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6206998378989567730
+  },
+  "m_Name": "",
+  "leftAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 0.0,
+    "absolute": 0
+  },
+  "rightAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 1.0,
+    "absolute": 0
+  },
+  "bottomAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 0.0,
+    "absolute": 0
+  },
+  "topAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 1.0,
+    "absolute": 0
+  },
+  "updateAnchors": 1,
+  "mColor": {
+    "r": 0.40392157435417175,
+    "g": 0.5529412031173706,
+    "b": 0.8470588326454163,
+    "a": 1.0
+  },
+  "mPivot": 0,
+  "mWidth": 1150,
+  "mHeight": 220,
+  "mDepth": 10,
+  "autoResizeBoxCollider": 0,
+  "hideIfOffScreen": 0,
+  "keepAspectRatio": 0,
+  "aspectRatio": 5.2272725105285645,
+  "keepCrispWhenShrunk": 1,
+  "mTrueTypeFont": {
+    "m_FileID": 2,
+    "m_PathID": 6136244154502091889
+  },
+  "mFont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mText": "\u76f4\u5145\u8bf4\u660e\uff1a\n1\u3001\u89c6\u9891\u4f1a\u5458\u6743\u76ca\u987b\u51c6\u786e\u6dfb\u52a0\u5230\u8d26\u8d26\u53f7\uff0c\u56e0\u4e2a\u4eba\u586b\u5199\u9519\u8bef\u5bfc\u81f4\u6743\u76ca\u672a\u5230\u8d26\u7684\uff0c\u7cfb\u7edf\u65e0\u6cd5\u8865\u53d1\u3002\u82e5\u7528\u6237\u586b\u5199\u7684\u8d26\u53f7\u5f53\u524d\u5df2\u5f00\u901a\u4f1a\u5458\u6743\u76ca\uff0c\u6743\u76ca\u81ea\u52a8\u987a\u5ef6\n2\u3001\u5404\u89c6\u9891\u4f1a\u5458\u8d26\u53f7\u4ec5\u9650\u624b\u673a\u53f7\u7801\u5f62\u5f0f",
+  "mFontSize": 28,
+  "mFontStyle": 0,
+  "mAlignment": 0,
+  "mEncoding": 1,
+  "mMaxLineCount": 0,
+  "mEffectStyle": 0,
+  "mEffectColor": {
+    "r": 0.0,
+    "g": 0.0470588244497776,
+    "b": 0.3529411852359772,
+    "a": 1.0
+  },
+  "mSymbols": 1,
+  "mEffectDistance": {
+    "x": 1.0,
+    "y": 2.0
+  },
+  "mSleek": 1,
+  "mEffectConsume": 1,
+  "mShadowStyle": 0,
+  "mShadowColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "mShadowDistance": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "mOverflow": 0,
+  "mMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mApplyGradient": 0,
+  "mGradientTop": {
+    "r": 1.0,
+    "g": 0.9921568632125854,
+    "b": 0.7450980544090271,
+    "a": 1.0
+  },
+  "mGradientBottom": {
+    "r": 1.0,
+    "g": 0.8588235378265381,
+    "b": 0.3607843220233917,
+    "a": 1.0
+  },
+  "mSpacingX": 0,
+  "mSpacingY": 10,
+  "mUseFloatSpacing": 0,
+  "mFloatSpacingX": 0.0,
+  "mFloatSpacingY": 0.0,
+  "mShrinkToFit": 0,
+  "mMaxLineWidth": 0,
+  "mMaxLineHeight": 0,
+  "mLineWidth": 0.0,
+  "mMultiline": 1
+}

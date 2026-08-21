@@ -1,0 +1,107 @@
+{
+  "m_Name": "1764c63c2941dda370afd7426c697fbc.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8403064318712618343
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7438241500395668903
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7203564621733536139
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7144785066819668744
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6446826845928709253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6058314418200947545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5359596218725321139
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -345315492867167035
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 891634763547965472
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4836441540016569365
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5376092877566679668
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5433103986449376202
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5757928884019847616
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7182437945825884057
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7853998220981546256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8858247949138311674
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6533757486387407631
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/gamescene71/fish_3.36/fishnewsprite/fish_shuimuold.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 18,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6446826845928709253
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1764c63c2941dda370afd7426c697fbc.bundle",
+  "m_Dependencies": [
+    "24237066bece369e46fc456537cf621a.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

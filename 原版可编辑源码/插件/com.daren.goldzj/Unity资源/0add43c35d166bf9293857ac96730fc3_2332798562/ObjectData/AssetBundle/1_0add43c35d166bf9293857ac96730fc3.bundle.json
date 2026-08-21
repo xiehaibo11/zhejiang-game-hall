@@ -1,0 +1,71 @@
+{
+  "m_Name": "0add43c35d166bf9293857ac96730fc3.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 10101
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2901358360274331793
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -209474131011322839
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 529022519954446673
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/font/ttffont_fzzyjt/fzzyjt.ttf",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2901358360274331793
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/ttffont_fzzyjt/fzzyjt.ttf",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -209474131011322839
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/ttffont_fzzyjt/fzzyjt.ttf",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 529022519954446673
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0add43c35d166bf9293857ac96730fc3.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

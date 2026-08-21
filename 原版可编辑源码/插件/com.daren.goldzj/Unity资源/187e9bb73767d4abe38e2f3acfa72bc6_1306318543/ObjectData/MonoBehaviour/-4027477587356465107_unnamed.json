@@ -1,0 +1,144 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7196897275965883110
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3584520053038915328
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6380432348830961593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6598568002175237027
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4030353449944766246
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1233472976627442930
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1930776679113452578
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8705860951424091640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -118825468346339662
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8332347859929503625
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8595211762021534583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6090233379265204712
+    }
+  ],
+  "m_BindComs_Name": [
+    "mPreViewBtn",
+    "mBtnGet",
+    "mBtnGetted",
+    "mBtnNoGet",
+    "mGodGeneralTexture",
+    "mGodGeneralName",
+    "mPreviewLabel",
+    "mCoutDownTime",
+    "mGodGeneralReward",
+    "mProgressLabel",
+    "mRulePanel"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -4495913626141761253
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2969931932047202782
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5774955824328152106
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 8745418156047706827
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8036941372941501285
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4187221424957484047
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 8569825592541700960
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4249603268808243729
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1780039033569157742
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mProgressList",
+    "mShopGiftTabList",
+    "mShopGiftItemList"
+  ],
+  "hotfixClassFullName": "GameHotFix.GodGeneralWeekShop.GodGeneralWeekShopGift",
+  "m_ClassName": "GodGeneralWeekShopGift"
+}

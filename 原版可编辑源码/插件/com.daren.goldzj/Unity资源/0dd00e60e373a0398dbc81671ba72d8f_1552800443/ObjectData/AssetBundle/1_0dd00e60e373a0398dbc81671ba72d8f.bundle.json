@@ -1,0 +1,48 @@
+{
+  "m_Name": "0dd00e60e373a0398dbc81671ba72d8f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -8655129854196616972
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1558423256710786675
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7848325707070040736
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactfengshenbangpanel/effect/animation/daiji1_closeanimation.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1558423256710786675
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0dd00e60e373a0398dbc81671ba72d8f.bundle",
+  "m_Dependencies": [
+    "af28b6f9c2a172a1272bd17e1e1c078d.bundle",
+    "e3b190820f06796db4857e846b2fd2cb.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

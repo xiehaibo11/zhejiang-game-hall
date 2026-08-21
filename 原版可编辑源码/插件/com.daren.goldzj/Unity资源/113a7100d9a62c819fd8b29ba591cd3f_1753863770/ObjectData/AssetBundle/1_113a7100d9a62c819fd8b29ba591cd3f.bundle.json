@@ -1,0 +1,43 @@
+{
+  "m_Name": "113a7100d9a62c819fd8b29ba591cd3f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 6571729471359858259
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3352389554451010907
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollect/effect/animation/biaoqian.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3352389554451010907
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "113a7100d9a62c819fd8b29ba591cd3f.bundle",
+  "m_Dependencies": [
+    "87f507dd98e9610a005b884731ce392c.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

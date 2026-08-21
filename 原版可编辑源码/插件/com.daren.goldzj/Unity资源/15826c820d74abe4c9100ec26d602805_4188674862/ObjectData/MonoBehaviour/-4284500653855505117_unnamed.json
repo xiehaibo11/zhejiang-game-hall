@@ -1,0 +1,56 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6829952816323074940
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5547787801157763570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1683945179663662904
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3609273325713514665
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7407468688383180441
+    }
+  ],
+  "m_BindComs_Name": [
+    "heroObj",
+    "itemObj",
+    "itemComponent",
+    "heroIcon"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShuiHuYingXiongZhuan.ShuiHuYingXiongZhuan_GongXiHuoDeItem",
+  "m_ClassName": "ShuiHuYingXiongZhuan_GongXiHuoDeItem"
+}

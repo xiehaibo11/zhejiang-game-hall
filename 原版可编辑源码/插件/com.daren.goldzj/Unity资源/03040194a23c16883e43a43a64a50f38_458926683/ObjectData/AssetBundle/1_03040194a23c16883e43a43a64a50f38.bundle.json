@@ -1,0 +1,100 @@
+{
+  "m_Name": "03040194a23c16883e43a43a64a50f38.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 3925242177118298888
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7427300171688180278
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7284337924393732150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6112728192981991273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5194555988986389029
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4841160219162336076
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4240722624023267373
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3973632513039728752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3556335092091358380
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3261433104234529106
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2163739773991025090
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 385343147483201871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3238706948622217707
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7424545948953137525
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8036186318042613958
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/festivalromance/smallgame/effect/uieffect_weizhiyindao.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 16,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5194555988986389029
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "03040194a23c16883e43a43a64a50f38.bundle",
+  "m_Dependencies": [
+    "4dd377df165362bbe769c7a902ffb1fe.bundle",
+    "77f4187cf5801b4ead10c23bc8e2eb8c.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

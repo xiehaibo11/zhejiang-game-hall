@@ -1,0 +1,191 @@
+{
+  "m_Name": "04cfa173a2c8b2a6f1359a98ec8d74cc.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 4592103420638260957
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -2547613780250885851
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 2854461454068427080
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8684080707771674177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8394665479125623231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8009750359935388623
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7798577631626015206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7658435837921637031
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6862433513772723231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6140739481308358681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5833018095569713451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4875999238212975492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4814354929185714178
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3928204388615322240
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2338056678407546705
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2106357762300269639
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1326188021205359011
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -657477701292886207
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -292883777034718514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 156004654489830467
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 226511876148352819
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 992630802744791232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1234593178499768857
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2651187043550097211
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2655543331655001437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3129360023083613528
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4620162024739578577
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4650597306396927617
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4678746778436465280
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6077096238761212960
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6943066585758763545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6945748451025964850
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7294984953673985554
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8394769441034385553
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8874648402489312505
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9197715362655723411
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6304707229887637640
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6510200503819757266
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/goldenpagoda/effect/timeline/timeline_2.playable",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 38,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6862433513772723231
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "04cfa173a2c8b2a6f1359a98ec8d74cc.bundle",
+  "m_Dependencies": [
+    "27630ea6e7d5bca9c45c9ec792d36661.bundle",
+    "28c3348c822699ffe202a7a16d716061.bundle",
+    "2b75e42af75e5824a1cc84b587452a43.bundle",
+    "4cb784e1ededf9353941f1f40967394b.bundle",
+    "e1f0652c7150aee8471bfea0bc68bd84.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

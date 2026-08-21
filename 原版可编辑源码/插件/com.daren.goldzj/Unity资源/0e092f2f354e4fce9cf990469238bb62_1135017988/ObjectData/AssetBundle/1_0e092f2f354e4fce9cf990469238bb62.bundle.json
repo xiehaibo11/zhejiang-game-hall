@@ -1,0 +1,131 @@
+{
+  "m_Name": "0e092f2f354e4fce9cf990469238bb62.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3121033167445309709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2789721353245715045
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2121883694171380280
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2073363172038884661
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1313264897627552768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1313264897627552768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4176969418888417225
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7976685488479496732
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3121033167445309709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1313264897627552768
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_peaklevel/img_dfdj_bg.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4176969418888417225
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_peaklevel/img_dfdj_jdbg.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7976685488479496732
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_peaklevel/peaklevel.mat",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3121033167445309709
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_peaklevel/peaklevel.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1313264897627552768
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_peaklevel/peaklevel.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2789721353245715045
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "0e092f2f354e4fce9cf990469238bb62.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

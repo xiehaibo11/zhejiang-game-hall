@@ -1,0 +1,99 @@
+{
+  "m_Name": "1df611ed1b24fedcc05af6a1a912a311.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 10202
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -7189100108927577587
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6544314899506206927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6526919914604829195
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4034003197426355253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4022052586772612768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3361018142367089810
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4772839390753142533
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5530780916883970210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5545640829788083669
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6647401222480362226
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7071320440883572807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7298066715842358833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7350517844262232256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7947057237696254207
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9221763338721623431
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bossgift/effect/prefab/effect_zuigaojiazeng.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 16,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7298066715842358833
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1df611ed1b24fedcc05af6a1a912a311.bundle",
+  "m_Dependencies": [
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

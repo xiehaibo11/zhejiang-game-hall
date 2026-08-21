@@ -1,0 +1,43 @@
+{
+  "m_Name": "1b2295c6663b4daed948dcd75949c61e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4962585588029779872
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -982144316268410565
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/crystaltreasury/effect/animation/crystaltreasuryitemtrue_ani.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4962585588029779872
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1b2295c6663b4daed948dcd75949c61e.bundle",
+  "m_Dependencies": [
+    "70f8726196e0046912c200deafd791b0.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

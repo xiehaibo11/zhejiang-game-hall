@@ -1,0 +1,94 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4366448945160846950
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5461381803597209640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8278332562558754781
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6150097545573386484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4795744410220482506
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6772392391546454308
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8194248575866138296
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4011616606537150427
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4431479612383526464
+    }
+  ],
+  "m_BindComs_Name": [
+    "titleObj",
+    "titleLab",
+    "VipBonusTag",
+    "VipBonusLabel",
+    "VipExpBonus",
+    "BuffType",
+    "QiHuanGongFangTag",
+    "mBigRewardsTag"
+  ],
+  "m_BindInt": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "m_BindInt_Name": [
+    "UseTipsVer",
+    "TipPosition",
+    "constraintWidth",
+    "constraintHeight",
+    "targetItemId"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0,
+    0
+  ],
+  "m_BindBool_Name": [
+    "IsShowTip",
+    "IsAdaptBg"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Base.GongXiHuoDeItemWithLabel",
+  "m_ClassName": "GongXiHuoDeItemWithLabel"
+}

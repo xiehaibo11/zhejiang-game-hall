@@ -1,0 +1,94 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6882156269605681150
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3942625658132191714
+  },
+  "m_Name": "",
+  "leftAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 0.0,
+    "absolute": 30
+  },
+  "rightAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 1.0,
+    "absolute": 70
+  },
+  "bottomAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 0.0,
+    "absolute": -43
+  },
+  "topAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 1.0,
+    "absolute": -6
+  },
+  "updateAnchors": 1,
+  "mColor": {
+    "r": 0.003921568859368563,
+    "g": 0.003921568859368563,
+    "b": 0.003921568859368563,
+    "a": 0.501960813999176
+  },
+  "mPivot": 4,
+  "mWidth": 50,
+  "mHeight": 37,
+  "mDepth": 0,
+  "autoResizeBoxCollider": 1,
+  "hideIfOffScreen": 0,
+  "keepAspectRatio": 0,
+  "aspectRatio": 1.3513513803482056,
+  "mType": 0,
+  "mFillDirection": 4,
+  "mFillAmount": 1.0,
+  "mInvert": 0,
+  "mFlip": 0,
+  "centerType": 1,
+  "leftType": 1,
+  "rightType": 1,
+  "bottomType": 1,
+  "topType": 1,
+  "mRect": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "mTexture": {
+    "m_FileID": 2,
+    "m_PathID": 2948452054807661670
+  },
+  "mMat": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mShader": {
+    "m_FileID": 3,
+    "m_PathID": -4814203374122363260
+  },
+  "mBorder": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "mFixedAspect": 0
+}

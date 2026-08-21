@@ -1,0 +1,92 @@
+{
+  "m_Name": "088daf5d42585ab6e562a581eb3814b0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1913072241202890535
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3556892751792229105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4886384913178008281
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -784181692874402556
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6581032219306440181
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -784181692874402556
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/187_caishen_\u7ffb\u65b0/animation/caishen_camera1.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1913072241202890535
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/187_caishen_\u7ffb\u65b0/animation/caishengameidlectr.controller",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4886384913178008281
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/187_caishen_\u7ffb\u65b0/animation/daoju_ani.anim",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -784181692874402556
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/187_caishen_\u7ffb\u65b0/animation/daoju_ani.controller",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6581032219306440181
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "088daf5d42585ab6e562a581eb3814b0.bundle",
+  "m_Dependencies": [
+    "96b9dfdbb7c83ad1081f1de0eaa9ed4a.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,78 @@
+{
+  "m_Name": "1f4ba790c6921b1c29273c7d8ef64c25.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1410534159929337714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5985826375456363420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6532544103548601040
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7179321730580320234
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8180564926360519867
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/novicesevendays/effect/trail_02.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7179321730580320234
+        }
+      }
+    ],
+    [
+      "assets/bundleresources/panel/novicesevendays/effect/trail_02.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1410534159929337714
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1f4ba790c6921b1c29273c7d8ef64c25.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

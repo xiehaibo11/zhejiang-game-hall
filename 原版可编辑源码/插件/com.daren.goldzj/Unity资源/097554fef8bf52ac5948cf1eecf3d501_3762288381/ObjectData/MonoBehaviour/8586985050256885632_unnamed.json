@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5496902078962482473
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9108218834683200548
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -981175120823043894
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6892651532395582597
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2882712508779993303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2164525173760913952
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2175673744256641285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6613197349334293737
+    }
+  ],
+  "m_BindComs_Name": [
+    "btnClose",
+    "btnOK",
+    "txtProduct",
+    "txtCost",
+    "txtTips",
+    "editPhone",
+    "editSubbmitPhone"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.SilverSharkShop.SilverSharkShopExchangeConfirmVirtualPanel",
+  "m_ClassName": "SilverSharkShopExchangeConfirmVirtualPanel"
+}

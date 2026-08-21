@@ -1,0 +1,155 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7805695921726863100
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 0,
+  "m_LightProbeUsage": 0,
+  "m_ReflectionProbeUsage": 0,
+  "m_RayTracingMode": 0,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 5,
+      "m_PathID": -919333014785396178
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 2,
+  "m_Time": 0.20000000298023224,
+  "m_Parameters": {
+    "widthMultiplier": 2.0,
+    "widthCurve": {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.3333333432674408,
+          "outWeight": 0.3333333432674408
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    "colorGradient": {
+      "key0": {
+        "r": 0.08867919445037842,
+        "g": 0.8397677540779114,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "key1": {
+        "r": 0.1641508936882019,
+        "g": 0.677047848701477,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "key2": {
+        "r": 0.2679244875907898,
+        "g": 0.4478903114795685,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "key3": {
+        "r": 0.5436668395996094,
+        "g": 0.20188677310943604,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "key4": {
+        "r": 0.2685352563858032,
+        "g": 0.0,
+        "b": 0.33018869161605835,
+        "a": 0.0
+      },
+      "key5": {
+        "r": 0.7700312733650208,
+        "g": 0.0,
+        "b": 0.9433962106704712,
+        "a": 0.0
+      },
+      "key6": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "key7": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "ctime0": 0,
+      "ctime1": 6049,
+      "ctime2": 13826,
+      "ctime3": 26961,
+      "ctime4": 65535,
+      "ctime5": 65535,
+      "ctime6": 0,
+      "ctime7": 0,
+      "atime0": 0,
+      "atime1": 16073,
+      "atime2": 65535,
+      "atime3": 65535,
+      "atime4": 0,
+      "atime5": 0,
+      "atime6": 0,
+      "atime7": 0,
+      "m_Mode": 0,
+      "m_NumColorKeys": 5,
+      "m_NumAlphaKeys": 3
+    },
+    "numCornerVertices": 0,
+    "numCapVertices": 0,
+    "alignment": 0,
+    "textureMode": 0,
+    "shadowBias": 0.5,
+    "generateLightingData": false
+  },
+  "m_MinVertexDistance": 0.6000000238418579,
+  "m_Autodestruct": false,
+  "m_Emitting": true
+}

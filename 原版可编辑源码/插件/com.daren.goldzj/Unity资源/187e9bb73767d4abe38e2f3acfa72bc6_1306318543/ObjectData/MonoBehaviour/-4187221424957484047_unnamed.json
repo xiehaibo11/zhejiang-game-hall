@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1333724793580193444
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4701175824062407334
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 992004946676146733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8488809281852443608
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7770124326015689105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9083390781829355994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8589256508921650257
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5493696935299614918
+    }
+  ],
+  "m_BindComs_Name": [
+    "mRedPoint",
+    "mSelectPrice",
+    "mUnSelectPrice",
+    "mProgress",
+    "mProgressLabel",
+    "mCheckBox",
+    "mFirstDouble"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GodGeneralWeekShop.GodGeneralWeekShopGiftTab",
+  "m_ClassName": "GodGeneralWeekShopGiftTab"
+}

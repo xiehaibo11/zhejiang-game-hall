@@ -1,0 +1,83 @@
+{
+  "m_Name": "03a396f9beab36ad8f34f07dd1c55041.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2702318137292446783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 452083806007160261
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1147667161239798287
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2303401960402039524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2679180203281916233
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7018247276111084608
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8156318881111302679
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8966287106001268481
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8149862162125410559
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 571494092604743381
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/spritecannon/spritecannon_212.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2679180203281916233
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "03a396f9beab36ad8f34f07dd1c55041.bundle",
+  "m_Dependencies": [
+    "d42d17af3a6afbc36f6dd0ed7616ccb6.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

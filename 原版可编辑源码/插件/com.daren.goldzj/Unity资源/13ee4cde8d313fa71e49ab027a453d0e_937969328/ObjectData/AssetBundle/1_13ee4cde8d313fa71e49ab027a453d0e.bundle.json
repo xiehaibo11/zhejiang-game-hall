@@ -1,0 +1,63 @@
+{
+  "m_Name": "13ee4cde8d313fa71e49ab027a453d0e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -6239472161127228439
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 1037720242161686325
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3260452683142246987
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 943274381208947980
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2688484600432153141
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactfengshenbangpanel/rig/materials/new/jhunshu02.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2688484600432153141
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "13ee4cde8d313fa71e49ab027a453d0e.bundle",
+  "m_Dependencies": [
+    "6171a414a93af097c3daffdb0237aef2.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "c6bb880ddc188320b524d937e70675cc.bundle",
+    "c80d420fa8e5b9a1408687062cda547c.bundle",
+    "e0cdf58f55866523faf0939e66f4c4f1.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

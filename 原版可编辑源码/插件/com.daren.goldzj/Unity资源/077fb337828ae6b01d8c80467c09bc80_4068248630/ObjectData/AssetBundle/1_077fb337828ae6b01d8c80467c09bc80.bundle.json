@@ -1,0 +1,136 @@
+{
+  "m_Name": "077fb337828ae6b01d8c80467c09bc80.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -9023903456218595982
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2648799021654969530
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9040758606090274242
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8348992518426904600
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8136900067534591659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7280650444470751309
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5478534940968559678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5468834071694503910
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4422342622612488465
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3468409062987161339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2378534115432470246
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1588446895412736145
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -394821500489570525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 149552474159911129
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1141619226705431047
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2542025545878442334
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3390537439166689352
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3476019669179561765
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8562852442096986863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8981962163747230399
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/buffdisplay/buffdetailsitem.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 25,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1141619226705431047
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "077fb337828ae6b01d8c80467c09bc80.bundle",
+  "m_Dependencies": [
+    "29d469bb8df47df686cb69ea77bd7f98.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

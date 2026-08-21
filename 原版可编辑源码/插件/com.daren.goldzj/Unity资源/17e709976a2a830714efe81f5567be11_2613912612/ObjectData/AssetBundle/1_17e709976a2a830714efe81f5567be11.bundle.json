@@ -1,0 +1,43 @@
+{
+  "m_Name": "17e709976a2a830714efe81f5567be11.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 6670080339718407185
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5665050755044054784
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/fishingjourney/effect/animation/item_animator.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5665050755044054784
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "17e709976a2a830714efe81f5567be11.bundle",
+  "m_Dependencies": [
+    "82e410be7d5e7764f40ba86f65c55238.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

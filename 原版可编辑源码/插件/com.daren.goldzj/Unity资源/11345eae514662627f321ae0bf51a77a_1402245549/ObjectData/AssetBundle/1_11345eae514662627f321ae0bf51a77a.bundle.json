@@ -1,0 +1,243 @@
+{
+  "m_Name": "11345eae514662627f321ae0bf51a77a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6237008070706311967
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8938818654978781653
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6154472258642964959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4077053334515033734
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7894074084905925282
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8938818654978781653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1075874638565562190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4077053334515033734
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6154472258642964959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6237008070706311967
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7730588214186610104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7894074084905925282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8938818654978781653
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4077053334515033734
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5654953880807812989
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4077053334515033734
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1943160978668379819
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6154472258642964959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6237008070706311967
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7730588214186610104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7894074084905925282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8938818654978781653
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1943160978668379819
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/uitexture/vip10_ziweimengzhu_paotai/v10_paotai.atlas.txt",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6154472258642964959
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/vip10_ziweimengzhu_paotai/v10_paotai.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8938818654978781653
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/vip10_ziweimengzhu_paotai/v10_paotai.skel.bytes",
+      {
+        "preloadIndex": 29,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1943160978668379819
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/vip10_ziweimengzhu_paotai/v10_paotai2.png",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4077053334515033734
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/vip10_ziweimengzhu_paotai/v10_paotai_atlas.asset",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7730588214186610104
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/vip10_ziweimengzhu_paotai/v10_paotai_skeletondata.asset",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 11,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5654953880807812989
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/vip10_ziweimengzhu_paotai/v10_paotai_v10_paotai.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6237008070706311967
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/vip10_ziweimengzhu_paotai/v10_paotai_v10_paotai2.mat",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7894074084905925282
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/vip10_ziweimengzhu_paotai/zidan_258.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1075874638565562190
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "11345eae514662627f321ae0bf51a77a.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

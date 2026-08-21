@@ -1,0 +1,74 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5807387755901303009
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -275876144961005201
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7684061991962935143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8112461978668871974
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 838107434803445789
+    }
+  ],
+  "m_BindComs_Name": [
+    "mNewIconNum",
+    "LabelName",
+    "SpIcon",
+    "LabNum"
+  ],
+  "m_BindInt": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "m_BindInt_Name": [
+    "UseTipsVer",
+    "TipPosition",
+    "constraintWidth",
+    "constraintHeight",
+    "targetItemId"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1,
+    0
+  ],
+  "m_BindBool_Name": [
+    "IsShowTip",
+    "IsAdaptBg"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.RoadOfImperial.RoadOfImperialIconItemComponent",
+  "m_ClassName": "RoadOfImperialIconItemComponent"
+}

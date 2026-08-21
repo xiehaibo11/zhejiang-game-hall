@@ -1,0 +1,444 @@
+{
+  "m_Name": "130a9d8f3bc78cf91015b0d8cfd00d98.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8014446905700632068
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8014446905700632068
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4035221036245576988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4333185129034922911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4794039761221339340
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -976959372599235885
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2244148220350104274
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1282113292498618463
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4794039761221339340
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3701479205141113989
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4333185129034922911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1275659795394690352
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8025225003682674704
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5406532848539199807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4073653287019215468
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2244148220350104274
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3638001649576222397
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1217515400344889845
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4073653287019215468
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2259685363675232545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3638001649576222397
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8922973726191711404
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8025225003682674704
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2259685363675232545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1872079151561774111
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1872079151561774111
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6424747753355375482
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4865584752034257035
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1282113292498618463
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -976959372599235885
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1275659795394690352
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6670517636817925067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3701479205141113989
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2186935151217225545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1217515400344889845
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6424747753355375482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2186935151217225545
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/shengti.mat",
+      {
+        "preloadIndex": 33,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4865584752034257035
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/shengti_d.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1282113292498618463
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/shengti_m.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -976959372599235885
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/shengti_n.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1275659795394690352
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/toufa.mat",
+      {
+        "preloadIndex": 25,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8922973726191711404
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/toufa_d.png",
+      {
+        "preloadIndex": 31,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1872079151561774111
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/toufa_m.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8025225003682674704
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/toufa_n.png",
+      {
+        "preloadIndex": 23,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2259685363675232545
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yanjing.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4035221036245576988
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yanjing_d.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4333185129034922911
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yanjing_m.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4794039761221339340
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yanjing_n.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8014446905700632068
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yanjingtoutie.mat",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5406532848539199807
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yanjingtoutie_d.png",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4073653287019215468
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yanjingtoutie_m.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2244148220350104274
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yanjingtoutie_n.png",
+      {
+        "preloadIndex": 24,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3638001649576222397
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yifu.mat",
+      {
+        "preloadIndex": 39,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6670517636817925067
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yifu_d.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3701479205141113989
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yifu_e.png",
+      {
+        "preloadIndex": 46,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2186935151217225545
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yifu_m.png",
+      {
+        "preloadIndex": 21,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1217515400344889845
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/231_taiyizhenren/rig/materials/\u9b54\u7ae5/yifu_n.png",
+      {
+        "preloadIndex": 32,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6424747753355375482
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "130a9d8f3bc78cf91015b0d8cfd00d98.bundle",
+  "m_Dependencies": [
+    "34a5d6e35247fd6b42e6a85ab2ae2951.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

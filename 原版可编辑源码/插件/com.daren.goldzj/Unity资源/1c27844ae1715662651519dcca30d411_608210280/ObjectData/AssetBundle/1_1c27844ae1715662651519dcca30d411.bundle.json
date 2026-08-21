@@ -1,0 +1,182 @@
+{
+  "m_Name": "1c27844ae1715662651519dcca30d411.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 10210
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5108408059624102733
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4755823021405684963
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1043316364554407151
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 5774134113114243462
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -3515185795460741296
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8535999129584905975
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7881634520648111329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6954897627451861359
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6576089983225067723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5279241254002806654
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4551131939188560691
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4245938518555495456
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2949080935115311310
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2737686654927480250
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2615072927954595092
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2466421902759538288
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1753578049517423356
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -204528135841744583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1163534308005395620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1333390567468165881
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1662035332993183150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2092146231747385277
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2279815128173484160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2545258099690664718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3668191560922932475
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4207946765053453154
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4928830764855466118
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5441726947057810772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7108528615704032881
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8123139937557419748
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8495549440297527206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8776502615194606271
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9034696238819372657
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/daji/prefab/daji_effect_godgeneral_body_2.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 36,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2092146231747385277
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "1c27844ae1715662651519dcca30d411.bundle",
+  "m_Dependencies": [
+    "300d8b17980e4d40c7bb989e791720a4.bundle",
+    "dfa031abb142bb9ca203e85d9ed8220a.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle",
+    "e88891e7dae42ae21c66cc67dcc48b67.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

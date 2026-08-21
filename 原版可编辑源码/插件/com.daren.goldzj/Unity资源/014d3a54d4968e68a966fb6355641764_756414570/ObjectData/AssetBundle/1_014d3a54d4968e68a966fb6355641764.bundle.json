@@ -1,0 +1,48 @@
+{
+  "m_Name": "014d3a54d4968e68a966fb6355641764.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -819908100690878149
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5556784915852704468
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3111539534368913377
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuyingxiongzhuan/effect/animation/\u6c34\u6d52\u82f1\u96c4\u4f20\u4e3b\u754c\u9762.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5556784915852704468
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "014d3a54d4968e68a966fb6355641764.bundle",
+  "m_Dependencies": [
+    "42e55c2d0748e26baae33759d1b36fd1.bundle",
+    "6d8c06fece0e168386357b0fec448900.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

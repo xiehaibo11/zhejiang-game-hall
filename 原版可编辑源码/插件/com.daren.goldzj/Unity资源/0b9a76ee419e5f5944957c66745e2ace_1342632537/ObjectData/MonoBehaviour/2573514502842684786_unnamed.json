@@ -1,0 +1,91 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 956617445052896671
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6542974621422333612
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9059783871863986758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6954580645705692601
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7924763902311589462
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8390164112356210696
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7349064021790282561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1271160501466528654
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 775950083665203943
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5198269381428560184
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3637001113303418041
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5851040559299628782
+    }
+  ],
+  "m_BindComs_Name": [
+    "Bg",
+    "Choose",
+    "Icon",
+    "NumLabel",
+    "TipsNew",
+    "TipBuyObj",
+    "DownBg",
+    "ItemTitle",
+    "ItemJiaChengLabel",
+    "ItemVIPJiaChengLabel",
+    "m_CountdownText"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.UserInfo.UserInfoGridBgItem",
+  "m_ClassName": "UserInfoGridBgItem"
+}
