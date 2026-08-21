@@ -1,0 +1,41 @@
+
+zzb_dttc_xg.png
+size: 700, 308
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+eff_glow_03
+  rotate: false
+  xy: 568, 176
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+eff_glow_06
+  rotate: false
+  xy: 568, 44
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+eff_glow_07
+  rotate: false
+  xy: 308, 48
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+lz
+  rotate: false
+  xy: 308, 10
+  size: 35, 34
+  orig: 35, 34
+  offset: 0, 0
+  index: -1
+y
+  rotate: false
+  xy: 4, 4
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1

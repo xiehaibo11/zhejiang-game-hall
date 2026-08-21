@@ -1,0 +1,27 @@
+
+zzb_pclb_icon.png
+size: 218, 118
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+4-1
+  rotate: false
+  xy: 135, 17
+  size: 16, 16
+  orig: 20, 20
+  offset: 2, 2
+  index: -1
+pclb
+  rotate: false
+  xy: 2, 2
+  size: 131, 114
+  orig: 132, 115
+  offset: 1, 1
+  index: -1
+tx
+  rotate: false
+  xy: 135, 35
+  size: 81, 81
+  orig: 115, 115
+  offset: 17, 17
+  index: -1

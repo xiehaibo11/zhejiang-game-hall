@@ -1,0 +1,62 @@
+
+Ky_hd.png
+size: 530, 530
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bd
+  rotate: false
+  xy: 138, 105
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+fx02
+  rotate: false
+  xy: 363, 281
+  size: 127, 119
+  orig: 128, 128
+  offset: 1, 4
+  index: -1
+fx04
+  rotate: false
+  xy: 237, 275
+  size: 124, 125
+  orig: 128, 128
+  offset: 3, 0
+  index: -1
+fx05
+  rotate: false
+  xy: 492, 385
+  size: 15, 15
+  orig: 19, 19
+  offset: 2, 2
+  index: -1
+fx06
+  rotate: false
+  xy: 2, 71
+  size: 134, 134
+  orig: 136, 136
+  offset: 1, 1
+  index: -1
+fx_01
+  rotate: false
+  xy: 2, 207
+  size: 233, 193
+  orig: 246, 235
+  offset: 11, 21
+  index: -1
+tx
+  rotate: false
+  xy: 138, 22
+  size: 81, 81
+  orig: 115, 115
+  offset: 17, 17
+  index: -1
+tx1_00003
+  rotate: false
+  xy: 2, 402
+  size: 526, 126
+  orig: 526, 126
+  offset: 0, 0
+  index: -1

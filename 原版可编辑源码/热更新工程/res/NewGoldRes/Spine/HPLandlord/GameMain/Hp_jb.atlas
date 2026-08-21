@@ -1,0 +1,27 @@
+
+Hp_jb.png
+size: 187, 131
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+jb_01
+  rotate: true
+  xy: 131, 73
+  size: 57, 55
+  orig: 57, 55
+  offset: 0, 0
+  index: -1
+jb_02
+  rotate: false
+  xy: 131, 26
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+jb_03
+  rotate: false
+  xy: 1, 1
+  size: 129, 129
+  orig: 129, 129
+  offset: 0, 0
+  index: -1

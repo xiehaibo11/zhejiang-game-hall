@@ -1,0 +1,69 @@
+
+eff_DhkXgsj.png
+size: 512, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+aaa
+  rotate: false
+  xy: 4, 4
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+fx_tex_light_18
+  rotate: false
+  xy: 214, 46
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fy
+  rotate: false
+  xy: 4, 95
+  size: 128, 154
+  orig: 128, 154
+  offset: 0, 0
+  index: -1
+guangdian_0
+  rotate: false
+  xy: 274, 123
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+longtou
+  rotate: false
+  xy: 136, 114
+  size: 134, 135
+  orig: 134, 135
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: true
+  xy: 404, 121
+  size: 128, 54
+  orig: 128, 54
+  offset: 0, 0
+  index: -1
+yezi3
+  rotate: false
+  xy: 136, 41
+  size: 74, 69
+  orig: 74, 69
+  offset: 0, 0
+  index: -1
+yezi4
+  rotate: true
+  xy: 462, 186
+  size: 63, 36
+  orig: 63, 36
+  offset: 0, 0
+  index: -1
+yezi_y
+  rotate: true
+  xy: 4, 18
+  size: 73, 112
+  orig: 73, 112
+  offset: 0, 0
+  index: -1

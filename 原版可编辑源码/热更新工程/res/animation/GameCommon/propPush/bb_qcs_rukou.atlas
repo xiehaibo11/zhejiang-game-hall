@@ -1,0 +1,118 @@
+
+bb_qcs_rukou.png
+size: 308, 194
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+coin_0
+  rotate: false
+  xy: 2, 54
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_1
+  rotate: false
+  xy: 54, 54
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_2
+  rotate: false
+  xy: 204, 66
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_3
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_4
+  rotate: false
+  xy: 54, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_5
+  rotate: false
+  xy: 256, 40
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_6
+  rotate: false
+  xy: 126, 6
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin_7
+  rotate: false
+  xy: 178, 10
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+guangdian_0
+  rotate: false
+  xy: 148, 62
+  size: 54, 54
+  orig: 64, 64
+  offset: 5, 5
+  index: -1
+libao_hd10
+  rotate: false
+  xy: 120, 57
+  size: 4, 4
+  orig: 6, 7
+  offset: 1, 1
+  index: -1
+libao_hd13
+  rotate: false
+  xy: 126, 58
+  size: 3, 3
+  orig: 6, 6
+  offset: 2, 1
+  index: -1
+libao_hd3
+  rotate: false
+  xy: 106, 49
+  size: 12, 12
+  orig: 15, 15
+  offset: 2, 2
+  index: -1
+zzb_st
+  rotate: false
+  xy: 2, 106
+  size: 144, 86
+  orig: 150, 94
+  offset: 3, 5
+  index: -1
+zzb_tou
+  rotate: false
+  xy: 148, 118
+  size: 114, 74
+  orig: 114, 75
+  offset: 0, 1
+  index: -1
+zzb_yb
+  rotate: true
+  xy: 106, 63
+  size: 41, 35
+  orig: 41, 35
+  offset: 0, 0
+  index: -1
+zzb_zi
+  rotate: true
+  xy: 264, 92
+  size: 100, 38
+  orig: 100, 38
+  offset: 0, 0
+  index: -1

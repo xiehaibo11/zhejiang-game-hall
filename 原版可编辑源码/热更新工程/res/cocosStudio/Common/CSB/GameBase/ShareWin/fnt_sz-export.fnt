@@ -1,0 +1,27 @@
+info face="fnt_sz-export" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=86 base=26 scaleW=512 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="fnt_sz-export.png"
+chars count=21
+char id=120 x=87 y=0 width=72 height=59 xoffset=0 yoffset=25 xadvance=74 page=0 chnl=0 letter="x"
+char id=43 x=237 y=0 width=60 height=57 xoffset=0 yoffset=23 xadvance=62 page=0 chnl=0 letter="+"
+char id=48 x=345 y=81 width=58 height=80 xoffset=0 yoffset=6 xadvance=60 page=0 chnl=0 letter="0"
+char id=49 x=402 y=162 width=35 height=76 xoffset=0 yoffset=8 xadvance=37 page=0 chnl=0 letter="1"
+char id=50 x=161 y=74 width=63 height=78 xoffset=0 yoffset=6 xadvance=65 page=0 chnl=0 letter="2"
+char id=51 x=286 y=58 width=58 height=80 xoffset=0 yoffset=6 xadvance=60 page=0 chnl=0 letter="3"
+char id=52 x=284 y=151 width=60 height=76 xoffset=0 yoffset=8 xadvance=62 page=0 chnl=0 letter="4"
+char id=53 x=161 y=153 width=61 height=78 xoffset=0 yoffset=8 xadvance=63 page=0 chnl=0 letter="5"
+char id=54 x=345 y=0 width=58 height=80 xoffset=0 yoffset=6 xadvance=60 page=0 chnl=0 letter="6"
+char id=55 x=225 y=74 width=60 height=76 xoffset=0 yoffset=8 xadvance=62 page=0 chnl=0 letter="7"
+char id=56 x=223 y=153 width=60 height=80 xoffset=0 yoffset=6 xadvance=62 page=0 chnl=0 letter="8"
+char id=57 x=345 y=162 width=56 height=80 xoffset=0 yoffset=6 xadvance=58 page=0 chnl=0 letter="9"
+char id=46 x=0 y=232 width=22 height=18 xoffset=0 yoffset=66 xadvance=24 page=0 chnl=0 letter="."
+char id=37329 x=0 y=71 width=81 height=72 xoffset=0 yoffset=19 xadvance=83 page=0 chnl=0 letter="金"
+char id=24065 x=82 y=71 width=77 height=72 xoffset=0 yoffset=20 xadvance=79 page=0 chnl=0 letter="币"
+char id=21315 x=160 y=0 width=76 height=73 xoffset=0 yoffset=19 xadvance=78 page=0 chnl=0 letter="千"
+char id=19975 x=0 y=0 width=86 height=70 xoffset=0 yoffset=22 xadvance=88 page=0 chnl=0 letter="万"
+char id=20159 x=81 y=144 width=79 height=73 xoffset=0 yoffset=19 xadvance=81 page=0 chnl=0 letter="亿"
+char id=20998 x=0 y=144 width=80 height=73 xoffset=0 yoffset=19 xadvance=82 page=0 chnl=0 letter="分"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=66 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=528 page=0 chnl=0 letter="	"
+
+kernings count=0

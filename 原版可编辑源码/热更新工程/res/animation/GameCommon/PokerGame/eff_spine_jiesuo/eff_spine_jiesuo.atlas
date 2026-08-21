@@ -1,0 +1,76 @@
+
+eff_spine_jiesuo.png
+size: 938, 375
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+glow1
+  rotate: true
+  xy: 507, 19
+  size: 96, 95
+  orig: 128, 128
+  offset: 16, 16
+  index: -1
+guangdian_0
+  rotate: false
+  xy: 842, 232
+  size: 54, 54
+  orig: 64, 64
+  offset: 5, 5
+  index: -1
+guanghuan_08
+  rotate: false
+  xy: 375, 117
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+guangmang
+  rotate: false
+  xy: 799, 35
+  size: 119, 119
+  orig: 128, 128
+  offset: 7, 8
+  index: -1
+guangquan_105
+  rotate: false
+  xy: 674, 31
+  size: 123, 123
+  orig: 135, 135
+  offset: 6, 6
+  index: -1
+guangxian1_00
+  rotate: true
+  xy: 633, 156
+  size: 217, 207
+  orig: 256, 256
+  offset: 22, 19
+  index: -1
+jiesuo_bguang
+  rotate: false
+  xy: 2, 2
+  size: 371, 371
+  orig: 387, 387
+  offset: 8, 8
+  index: -1
+jiesuo_suoshen
+  rotate: false
+  xy: 375, 7
+  size: 130, 108
+  orig: 130, 108
+  offset: 0, 0
+  index: -1
+jiesuo_suotou
+  rotate: true
+  xy: 604, 19
+  size: 96, 68
+  orig: 100, 68
+  offset: 2, 0
+  index: -1
+suo_shine
+  rotate: true
+  xy: 842, 288
+  size: 85, 94
+  orig: 98, 100
+  offset: 7, 6
+  index: -1

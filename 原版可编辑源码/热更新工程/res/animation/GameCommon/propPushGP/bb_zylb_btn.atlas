@@ -1,0 +1,125 @@
+
+bb_zylb_btn.png
+size: 1370, 56
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+btnsg/btn_00000
+  rotate: false
+  xy: 1356, 37
+  size: 12, 17
+  orig: 214, 60
+  offset: 10, 21
+  index: -1
+btnsg/btn_00001
+  rotate: true
+  xy: 1257, 14
+  size: 40, 50
+  orig: 214, 60
+  offset: 3, 10
+  index: -1
+btnsg/btn_00002
+  rotate: false
+  xy: 163, 2
+  size: 56, 52
+  orig: 214, 60
+  offset: 3, 8
+  index: -1
+btnsg/btn_00003
+  rotate: false
+  xy: 90, 2
+  size: 71, 52
+  orig: 214, 60
+  offset: 3, 8
+  index: -1
+btnsg/btn_00004
+  rotate: false
+  xy: 2, 2
+  size: 86, 52
+  orig: 214, 60
+  offset: 3, 8
+  index: -1
+btnsg/btn_00005
+  rotate: false
+  xy: 221, 3
+  size: 102, 51
+  orig: 214, 60
+  offset: 3, 8
+  index: -1
+btnsg/btn_00006
+  rotate: false
+  xy: 325, 4
+  size: 102, 50
+  orig: 214, 60
+  offset: 19, 8
+  index: -1
+btnsg/btn_00007
+  rotate: false
+  xy: 533, 5
+  size: 101, 49
+  orig: 214, 60
+  offset: 35, 9
+  index: -1
+btnsg/btn_00008
+  rotate: false
+  xy: 1047, 6
+  size: 104, 48
+  orig: 214, 60
+  offset: 48, 9
+  index: -1
+btnsg/btn_00009
+  rotate: false
+  xy: 1153, 6
+  size: 102, 48
+  orig: 214, 60
+  offset: 66, 6
+  index: -1
+btnsg/btn_00010
+  rotate: false
+  xy: 636, 5
+  size: 101, 49
+  orig: 214, 60
+  offset: 81, 6
+  index: -1
+btnsg/btn_00011
+  rotate: false
+  xy: 429, 5
+  size: 102, 49
+  orig: 214, 60
+  offset: 97, 6
+  index: -1
+btnsg/btn_00012
+  rotate: false
+  xy: 739, 5
+  size: 98, 49
+  orig: 214, 60
+  offset: 113, 6
+  index: -1
+btnsg/btn_00013
+  rotate: false
+  xy: 839, 5
+  size: 83, 49
+  orig: 214, 60
+  offset: 128, 6
+  index: -1
+btnsg/btn_00014
+  rotate: false
+  xy: 924, 5
+  size: 67, 49
+  orig: 214, 60
+  offset: 144, 6
+  index: -1
+btnsg/btn_00015
+  rotate: false
+  xy: 993, 5
+  size: 52, 49
+  orig: 214, 60
+  offset: 159, 6
+  index: -1
+btnsg/btn_00016
+  rotate: true
+  xy: 1309, 19
+  size: 35, 45
+  orig: 214, 60
+  offset: 176, 6
+  index: -1

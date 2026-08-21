@@ -1,0 +1,73 @@
+local game_cli_define = {}
+game_cli_define.processid = 140
+game_cli_define.processid50 = 116
+game_cli_define.xyid50 = {
+    UserIdentity = 1663 -- 身份信息
+}
+-- 以下为50金币场协议
+game_cli_define.UserIdentityEnum = {
+    NoIdentity = 0, --无身份
+    NewPlayer = 1, --新玩家
+    BackPlayer = 2, --回流玩家
+}
+-- 以下为33游戏的协议
+game_cli_define.xyid = {
+    kInvalid = 0,
+    kPopupMsgBox = 101, -- MsgBox(公共提示框)
+    kBatchProtocol = 106, -- BatchProtocol(批量协议)
+    kChatMsg = 107, -- ChatMsg(聊天协议)
+    kReqCheckClientVer = 113, -- ReqCheckClientVer
+    kRespCheckClientVer = 114, -- RespCheckClientVer
+    kReqRoomInfo = 11003, -- ReqRoomInfo
+    kRespRoomInfo = 11004, -- RespRoomInfo
+    kReqJoinRoom = 11007, -- ReqJoinRoom
+    kRespJoinRoom = 11008, -- RespJoinRoom
+    kPlayerInfo = 11009, -- PlayerInfo
+    kStartGame = 11013, -- StartGame(通知可以开始游戏)
+    kTableInfo = 11014, -- TableInfo
+    kTableStateInfo = 11015, -- TableStateInfo(桌子状态)
+    kReqPlayerAct = 11016, -- ReqPlayerAct(请求玩家的某种行为(坐下,站起等))
+    kRespPlayerAct = 11017, -- RespPlayerAct
+    kChangeSeatInTable = 11020, -- ChangeSeatInTable
+    kPlayerSet = 11022, -- PlayerSet(请求修改玩家配置(如:不允许同ip)(c->s))
+    kPlayerStateInfo = 11027, -- PlayerStateInfo(玩家房间状态)
+    kPlayerNumInfo = 11028, -- PlayerNumInfo(玩家游戏数据)
+    kUserLeaveRoom = 11038, -- UserLeaveRoom(玩家离开房间)
+    kReqVipKickUser = 11039, -- ReqVipKickUser(会员请求踢出同桌其他玩家(c->s))
+    kRespVipKickUser = 11040, -- RespVipKickUser(会员踢人结果应答(s->c))
+    kEnterRoomFinish = 11041, -- EnterRoomFinish(进入房间结束(s->c))
+    kReqClientTransfer = 11042, -- ReqClientTransfer(客户端中转协议,只能同房间中转(c->s))
+    kRespClientTransfer = 11043, -- RespClientTransfer(客户端中转协议服务端回复(s->c))
+    kReqPlayerPropsData = 11050, -- ReqPlayerPropsData
+    kRespPlayerPropsData = 11051, -- RespPlayerPropsData
+    kReqUseProps = 11052, -- ReqUseProps
+    kRespUseProps = 11053, -- RespUseProps
+    kHintUseProps = 11056, -- HintUseProps(道具使用的提示(发给道具使用对象)(s->c))
+    kReqTransMoney = 11060, -- ReqTransMoney(划账功能)
+    kRespTransMoney = 11061, -- RespTransMoney
+    kReqSR = 11062, -- ReqSR
+    kRespSR = 11063, -- RespSR
+    kReqLeaveRoom = 11073, -- ReqLeaveRoom
+    kRespLeaveRoom = 11074, -- RespLeaveRoom
+    kCheckAct = 11079, -- CheckAct(心跳)
+    kGameReady = 11080, -- GameReady(准备)
+    kReqClientAward = 11086, -- ReqClientAward(回包通过kChatMsg)
+    kReqJoinEmptyTable = 11093, -- ReqJoinEmptyTable
+    kRespJoinEmptyTable = 11094, -- RespJoinEmptyTable
+    kReqOwnerKickUser = 11095, -- ReqOwnerKickUser(房主踢人)
+    kRespOwnerKickUser = 11096, -- RespOwnerKickUser
+    kPlayerConnect = 11100, -- PlayerConnect(游戏客户端连游戏逻辑验证(client->gs))
+    kRespPlayerConnect = 11103, -- RespPlayerConnect(游戏客户端连游戏逻辑验证应答(gs->c 表示连接是否成功))
+    kPlayerLeave = 11101, -- PlayerLeave(离开桌子(client->gs))
+    kPlayerLeaveEx_ToClient = 11104, -- MsgBox(游戏服务要求玩家离开(gs->client))
+    kPlayerLeaveEx_ToServer = 11105, -- PlayerLeaveEx_ToServer(玩家主动离开, 相当于[CMDT_PLAYERLEAVE]，异常退出(client->gs))
+    kRespPlayerLeave = 11106, -- RespPlayerLeave(回复离开桌子(gs->client))
+    kRespCheatPlayerCount = 11111, -- RespCheatPlayerCount(匹配返回(gs->client))
+    kServerToClientMessage = 11200, -- ServerToClientMessage(服务器向游戏客户端发送的消息协议)
+    kClientToServerMessage = 11201, -- ClientToServerMessage(游戏客户端向服务器发送的消息协议)
+    kReqModifyGameInfo = 11202, -- ReqModifyGameInfo
+    kRespModifyGameInfo = 11203, -- RespModifyGameInfo
+    kReqTeaHouseDissolve = 11204, -- ReqTeaHouseDissolve
+    kRespTeaHouseDissolve = 11205 -- RespTeaHouseDissolve
+}
+return game_cli_define

@@ -1,0 +1,3 @@
+local GoldSoundConfig = {}
+
+return GoldSoundConfig

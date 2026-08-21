@@ -1,0 +1,20 @@
+
+zzb_ty_piaolizi.png
+size: 419, 154
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+hh_glow
+  rotate: true
+  xy: 1, 1
+  size: 152, 391
+  orig: 152, 391
+  offset: 0, 0
+  index: -1
+star
+  rotate: true
+  xy: 394, 126
+  size: 27, 24
+  orig: 27, 25
+  offset: 0, 1
+  index: -1
