@@ -1,0 +1,49 @@
+local ReqWebPopList = class("ReqWebPopList", XH.ReqHttp)
+
+local UrlConf = require("app.Config.UrlConf")
+
+function ReqWebPopList:ctor()
+    ReqWebPopList.super.ctor(self)
+end
+
+function ReqWebPopList:start()
+    local channel = XH.SysTool:getChannelID()
+    local tagInfo = XH.playerData:getAllTags()
+
+    local playerTag = {}
+    for k,_ in pairs(tagInfo) do
+        table.insert(playerTag, k)
+    end
+    playerTag = table.concat(playerTag, ",")
+
+    local windMsgID = XH.areaData:getAreaWindID()
+    local lobbyID = XH.areaData:getLobbyID()
+    local areaID = XH.areaData:getAreaID()
+    local timeStamp = os.time()
+    local numid = XH.playerData:getNumberID()
+    local bundleVersion =  XH.SysTool:GetBundleVersion() or "1.0.0"
+    local platform = device.platform == "android" and "android" or "ios"
+
+    local httpParme
+    httpParme = "platform=" .. platform .. "&areaid=" .. areaID .. "&channel=" .. channel .. "&lobbyid=" .. lobbyID ..
+    "&numid=" .. numid .. "&timestamp=" .. timeStamp .. "&version=" .. bundleVersion .. "&wid=" .. windMsgID
+    if playerTag ~= "" then
+        httpParme = "platform=" .. platform .. "&areaid=" .. areaID .. "&channel=" .. channel .. "&lobbyid=" .. lobbyID ..
+        "&numid=" .. numid .. "&player_tag=" .. playerTag .. "&timestamp=" .. timeStamp .. "&version=" .. bundleVersion .. "&wid=" .. windMsgID
+    end
+
+    local strUrl = UrlConf.URL_PALMAPI .. "?" .. httpParme .. "&reqUrl=" .. UrlConf.URL_SECOND_DOMAIN.REQ_WEB_POP_LIST
+    XH.httpManager:RequestGet(XH.HttpDefine.REQ_WEB_POP_LIST, strUrl, 4, handler(self, self.onRespWebPopList),nil, true)
+end
+
+function ReqWebPopList:onRespWebPopList(eType, status, response)
+    if status == 200 then
+        if response.code == 0 then
+            self:success(response.data)
+            return
+        end
+    end
+    self:fail()
+end
+
+return ReqWebPopListh

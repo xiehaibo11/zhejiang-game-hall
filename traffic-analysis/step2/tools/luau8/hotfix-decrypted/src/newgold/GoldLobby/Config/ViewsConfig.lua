@@ -1,0 +1,15 @@
+-- 防止与原有配置重名，新配置命名均以NewGold_为前缀
+NG.viewManager:addViewConfig("NewGold_StoreView", { Path = "newgold.GoldLobby.Modules.GoldStore.View", ZOrder = NG.ZORDER.WINDOW })
+NG.viewManager:addViewConfig("NewGold_AwardView", { Path = "newgold.GoldLobby.Modules.GoldAward.View", ZOrder = NG.ZORDER.WINDOW + 3 })
+NG.viewManager:addViewConfig("NewGold_PlayAwardView", { Path = "newgold.GoldLobby.Modules.GoldPlayAward.View", ZOrder = NG.ZORDER.WINDOW + 1 })
+NG.viewManager:addViewConfig("NewGold_PlayAwardAniView", { Path = "newgold.GoldLobby.Modules.GoldPlayAward.PlayAwardAniView", ZOrder = NG.ZORDER.WINDOW + 1 })
+NG.viewManager:addViewConfig("NewGold_SettingView", { Path = "newgold.GoldLobby.Modules.GoldSetting.View", ZOrder = NG.ZORDER.WINDOW, BindScene = NG.SCENE_TAG.NEWGOLD_LOBBY })
+NG.viewManager:addViewConfig("NewGold_DailySignInView", { Path = "newgold.GoldLobby.Modules.GoldDailySignIn.View", ZOrder = NG.ZORDER.WINDOW + 2, BindScene = NG.SCENE_TAG.NEWGOLD_LOBBY })
+NG.viewManager:addViewConfig("NewGold_HourLoginAwardView", { Path = "newgold.GoldLobby.Modules.GoldHourLoginAward.View", ZOrder = NG.ZORDER.WINDOW, BindScene = NG.SCENE_TAG.NEWGOLD_LOBBY })
+NG.viewManager:addViewConfig("NewGold_EnterRoomGiftPackView", { Path = "newgold.GoldLobby.Modules.EnterRoomGiftPack.View", ZOrder = NG.ZORDER.WINDOW, BindScene = NG.SCENE_TAG.NEWGOLD_LOBBY })
+NG.viewManager:addViewConfig("NewGold_GoldBankruptView", { Path = "newgold.GoldLobby.Modules.GoldBankrupt.View", ZOrder = NG.ZORDER.WINDOW })
+NG.viewManager:addViewConfig("NewGold_GoldTipView", { Path = "newgold.GoldLobby.Modules.GoldTip.View", ZOrder = NG.ZORDER.WINDOW + 2 })
+NG.viewManager:addViewConfig("NewGold_GoldBankTipView", { Path = "newgold.GoldLobby.Modules.GoldBankTip.View", ZOrder = NG.ZORDER.WINDOW })
+NG.viewManager:addViewConfig("PeakRaceApplyView", { Path = "newgold.GoldLobby.Modules.PeakRace.PeakRaceApplyView", ZOrder = NG.ZORDER.WINDOW })
+NG.viewManager:addViewConfig("PeakRaceRankView", { Path = "newgold.GoldLobby.Modules.PeakRace.PeakRaceRankView", ZOrder = NG.ZORDER.WINDOW })
+NG.viewManager:addViewConfig("PeakRaceRuleView", { Path = "newgold.GoldLobby.Modules.PeakRace.PeakRaceRuleView", ZOrder = NG.ZORDER.WINDOW })�

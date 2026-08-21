@@ -1,0 +1,6 @@
+local HttpDefine = {}
+
+HttpDefine.HTTP_CALLBACK_TYPE = {CALL_BACK_STRING = 0, CALL_BACK_ARRAY = 1, CALL_BACK_BLOB = 2, CALL_BACK_DOCUMENT = 3, CALL_BACK_JSON = 4}
+
+return HttpDefine
+�

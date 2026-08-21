@@ -1,0 +1,287 @@
+{
+ "target": "com.xm.zjgamecenter v1.5.4 (浙江游戏大厅, Cocos2d-x 3.13 Lua)",
+ "analysis_mode": "local_source",
+ "lua_entry_chain": {
+  "note": "游戏逻辑全部在 Lua;lua-src-apk 为 UTF-8(非任务描述所说 GBK,实测 file=UTF-8,直接读取即可;部分文件 CRLF)",
+  "chain": [
+   {
+    "step": 1,
+    "file": "lua-src-apk/main.lua",
+    "evidence": "main.lua:1-8 addSearchPath(writablePath..'hotfix/src/') 热更目录优先于 APK 内置 src/;main() 在 version>=1.4.5 时 require('app.Launcher'):getInstance():start()"
+   },
+   {
+    "step": 2,
+    "file": "lua-src-apk/app/Launcher.lua",
+    "evidence": "Launcher.lua:42-103 start()→PackageDownload/热更检查后 startCallBack()→require('app.hotupdate.universe.init')→MyApp.afterHotUpdateRun()"
+   },
+   {
+    "step": 3,
+    "file": "lua-src-apk/app/hotupdate/universe/init.lua + hotfix/HotFixManager.lua",
+    "evidence": "热更框架 un.* 命名空间;HotFixManager 管理 diff/zip 下载合并"
+   },
+   {
+    "step": 4,
+    "file": "lua-src-apk/app/Net/NetEngine.lua",
+    "evidence": "NetEngine 单例按 srsGroupID 管理多条 TCP(self._tcpList[groupId]),EVENT_RELINK_SRS 重连"
+   },
+   {
+    "step": 5,
+    "file": "lua-src-apk/app/Protocols/*.lua",
+    "evidence": "SRSProtocol/RoomProtocol/DispatchProtocol/GameProtocol/GameProtocolGT/AuthProtocol/MatchLinkProtocol/TeaHouseProtocol 等 16 个协议模块;SRSProtocol.lua CMDT_PLAYERCONNECT=5 大厅登录,CMDT_REQSRSADDR=14 请求 SRS 地址"
+   }
+  ]
+ },
+ "env_guard_hits_summary": "见 step1/env_guard_report.json(逐项 confirmed/suspected/sdk_signal_only/not_observed 裁决);原始命中 step1/raw_env_guards.json(48572 条,绝大部分为三方 SDK 库代码噪音)",
+ "hardcoded_info": {
+  "domains_real": [
+   {
+    "value": "transit.hzxuanming.com",
+    "usage": "自研 HTTP 网关 First_Url,/auth/palmapi|gopalmapi|act|exchangeshop|apihub|get-token",
+    "evidence": "lua-src-apk/app/Config/UrlConf.lua:5,13-19"
+   },
+   {
+    "value": "confapi.mychuguan.com",
+    "usage": "配置中心 /config_data/md5_list /config_data/file_info",
+    "evidence": "UrlConf.lua:10-11"
+   },
+   {
+    "value": "shiming.hzxuanming.com / wechat.hzxuanming.com / palmstatic.hzxuanming.com / api.hzxuanming.com",
+    "usage": "实名认证/商城/规则静态资源/海外 IP 判断",
+    "evidence": "UrlConf.lua:41-60"
+   },
+   {
+    "value": "fcm.bflyhd.cn",
+    "usage": "新版实名认证 /realname/query /realname/check",
+    "evidence": "UrlConf.lua:47-48"
+   },
+   {
+    "value": "112.126.81.124:80",
+    "usage": "DEBUG 分支 First_Url(GlobalConfig.IsDebug)",
+    "evidence": "UrlConf.lua:6-8",
+    "note": "测试环境标识,正式发布应为 false"
+   }
+  ],
+  "credentials_real": [
+   {
+    "key": "PUSH_APPID/PUSH_APPKEY/PUSH_APPSECRET(个推)",
+    "value_masked": "PUSH_APPSECRET=5EOx...AKW1",
+    "evidence": "apktool/AndroidManifest.xml:371-380",
+    "confidence": "real"
+   },
+   {
+    "key": "YIDONGLOGIN_APPKEY(移动一键登录)",
+    "value_masked": "307F...ED2D",
+    "evidence": "AndroidManifest.xml:366",
+    "confidence": "real"
+   },
+   {
+    "key": "ZEUS_PLUGIN_LIVE appSecretKey(抖音直播插件)",
+    "value_masked": "eb7f...96a7",
+    "evidence": "AndroidManifest.xml:413",
+    "confidence": "real"
+   },
+   {
+    "key": "TOPON_APP_ID/APP_KEY、TOPONAD_SPLASHAD_APPKEY",
+    "value_masked": "9470...1515",
+    "evidence": "AndroidManifest.xml:383 附近",
+    "confidence": "real"
+   },
+   {
+    "key": "com.amap.api.v2.apikey(高德)",
+    "value_masked": "见 Manifest",
+    "evidence": "AndroidManifest.xml meta-data",
+    "confidence": "real"
+   },
+   {
+    "key": "Sigmob crypto_material",
+    "value_masked": "KGpf...Jyuq",
+    "evidence": "jadx/sources/com/czhj/sdk/common/network/SigmobRequest.java",
+    "confidence": "real(SDK 内置)"
+   },
+   {
+    "key": "证书库 grs_sp.bks/hmsincas.bks/hmsrootcas.bks/updatesdkcas.bks + com.xm.zjgamecenter.cert.pem",
+    "evidence": "apktool/assets/",
+    "confidence": "real(华为/推送 SDK 证书)"
+   }
+  ],
+  "full_data": "step1/raw_secrets.json (3477 real / 13 critical,其中多数为 SDK 内置常量)"
+ },
+ "crypto_sign_entries": [
+  {
+   "name": "hdq::decrypt",
+   "where": "libcocos2dlua.so @0xca81ec",
+   "type": "资源/Lua 包解密(native)",
+   "evidence": "前期已核实;assets/src/*.luac 共 897 个,文件头 'devaguopeifeiK...' 非标准 LuaJIT 头,证实自定义加密"
+  },
+  {
+   "name": "ResKey::getKey",
+   "where": "libcocos2dlua.so @0xca8f34",
+   "type": "资源密钥派生",
+   "evidence": "前期已核实(native_analysis_source=assets-apk/lib/arm64-v8a)"
+  },
+  {
+   "name": "blowfish_decrypt",
+   "where": "libcocos2dlua.so @0xca86ac",
+   "type": "Blowfish 解密",
+   "evidence": "前期已核实"
+  },
+  {
+   "name": "btea(XXTEA)",
+   "where": "libcocos2dlua.so @0xca8f44",
+   "type": "XXTEA 加解密",
+   "evidence": "前期已核实"
+  },
+  {
+   "name": "url.sign",
+   "where": "lua-src-apk/app/hotupdate/universe/Url.lua:40+",
+   "type": "HTTP 参数签名(键排序拼接)",
+   "evidence": "Url.lua function url.sign(params) table.sort(keys)"
+  }
+ ],
+ "auth_entries": [
+  {
+   "name": "REQ_TOKEN /auth/get-token",
+   "where": "UrlConf.lua:19",
+   "note": "获取 token 用于后续请求出证"
+  },
+  {
+   "name": "SRSProtocol.PlayerConnect(CMDT_PLAYERCONNECT=5)",
+   "where": "lua-src-apk/app/Protocols/SRSProtocol.lua",
+   "note": "大厅登录;USERTYPE 支持平台账号/证件码/SESSION/手机加密码/匿名等 9 类"
+  },
+  {
+   "name": "AuthProtocol.lua",
+   "where": "lua-src-apk/app/Protocols/AuthProtocol.lua",
+   "note": "认证服协议"
+  },
+  {
+   "name": "移动一键登录(cmic)",
+   "where": "com/bianfeng/yidonglogin + libsig_native.so(com/tan/mark/SigNativeId.java getBootFromJNI)",
+   "note": "meta-data YIDONGLOGIN_APPKEY"
+  },
+  {
+   "name": "微信登录/支付回调",
+   "where": "com/xm/zjgamecenter/wxapi/WXEntryActivity.java,WXPayEntryActivity.java",
+   "note": "动态分发壳:读 assets/plugins.ymn 的 wxHandler 类列表反射实例化 IWXAPIEventHandler"
+  }
+ ],
+ "jni_native_entries": {
+  "load_points": [
+   {
+    "lib": "cocos2dlua",
+    "evidence": "AndroidManifest.xml:44 meta-data android.app.lib_name=cocos2dlua;org/cocos2dx/lib/Cocos2dxActivity.java:104 System.loadLibrary",
+    "note": "主引擎+加密"
+   },
+   {
+    "lib": "apkpatch",
+    "evidence": "jadx/sources/com/ymnsdk/replugin/PluginInterface.java",
+    "note": "差分补丁"
+   },
+   {
+    "lib": "fastvo",
+    "evidence": "com/bianfeng/fastvo/audio/spx/Speex.java",
+    "note": "语音"
+   },
+   {
+    "lib": "sgcore",
+    "evidence": "com/yxcorp/kuaishou/addfp/android/Orange.java",
+    "note": "阿里聚安全(经快手 SDK 引入)"
+   },
+   {
+    "lib": "sig_native",
+    "evidence": "com/tan/mark/SigNativeId.java",
+    "note": "cmic 一键登录"
+   },
+   {
+    "lib": "getuiext3/pangleflipped/zeus_direct_dex/Bugly×2",
+    "evidence": "com/igexin, com/bytedance/pangle, com/tencent/bugly",
+    "note": "SDK native"
+   }
+  ],
+  "lua_java_bridge": "org/cocos2dx/lib/Cocos2dxLuaJavaBridge.java + Cocos2dxJavascriptJavaBridge.java(luaj.callStaticMethod,如 main.lua 调 AppActivity.hideSplash)",
+  "ymn_bridge": "com.bianfeng.* 各 Interface 通过 @YFunction 注解暴露给 Lua/JS(plugins.ymn apiClass 列表)",
+  "full_data": "step1/raw_native_bridges.json"
+ },
+ "webview_h5_entries": [
+  {
+   "name": "WebViewJavascriptBridge.js",
+   "evidence": "apktool/assets/WebViewJavascriptBridge.js"
+  },
+  {
+   "name": "自研 jsbridge/h5library",
+   "evidence": "jadx/sources/com/bianfeng/jsbridge, com/bianfeng/h5library"
+  },
+  {
+   "name": "Cocos2dxWebViewHelper",
+   "evidence": "org/cocos2dx/lib/Cocos2dxWebViewHelper.java"
+  },
+  {
+   "name": "广告 SDK JS 接口",
+   "evidence": "addJavascriptInterface: sigandroid/sigPrivacy(Sigmob), KwaiAd/KwaiAdForThird(快手), AMapAndroidLoc(高德) 等 7 个",
+   "note": "详见 ai_summary.json native_bridges.webview_bridges"
+  }
+ ],
+ "upload_download_entries": [
+  {
+   "name": "Lua 热更下载",
+   "evidence": "lua-src-apk/app/hotupdate/universe/hotfix/{HotFixManager,ZipDownloader,DiffList,DeferMerge}.lua; app/PackageDownload/",
+   "note": "manifest 比对+zip 下载+差分合并,落 writablePath/hotfix/"
+  },
+  {
+   "name": "配置中心文件下载",
+   "evidence": "UrlConf.lua URL_CONFIG_DATA_FILE confapi.mychuguan.com/config_data/file_info"
+  },
+  {
+   "name": "APK 差分补丁",
+   "evidence": "libapkpatch.so + com/ymnsdk/replugin/PluginInterface.java"
+  },
+  {
+   "name": "插件 APK 加载",
+   "evidence": "AndroidManifest.xml ZEUS_PLUGIN_*(zeusliveplugin.apk 等); com/qihoo360/replugin, com/bytedance/pangle"
+  }
+ ],
+ "call_chain_summaries": [
+  {
+   "method": "AppActivity.onCreate",
+   "file": "org/cocos2dx/lua/AppActivity.java:32-41",
+   "handles": "启动引导",
+   "upstream": "EmptyActivity(LAUNCHER)→PUSH_APP_MAIN_ACTIVITY 派发",
+   "downstream": "YmnSdk.onCreate→Universe.onCreate→RepluginSdkJavaBridging.onCreate→Cocos 引擎加载 libcocos2dlua→main.lua"
+  },
+  {
+   "method": "System.loadLibrary(cocos2dlua)",
+   "file": "org/cocos2dx/lib/Cocos2dxActivity.java:104",
+   "handles": "JNI/so 加载",
+   "upstream": "meta-data android.app.lib_name",
+   "downstream": "native 层注册 Lua 绑定;hdq 资源解密在引擎读包路径内"
+  },
+  {
+   "method": "main.lua 搜索路径",
+   "file": "lua-src-apk/main.lua:1-8",
+   "handles": "热更优先级",
+   "upstream": "FileUtils writablePath",
+   "downstream": "hotfix/src 优先→APK assets/src 加密 luac 兜底(经 hdq::decrypt)"
+  },
+  {
+   "method": "NetEngine:addSRS/协议分发",
+   "file": "lua-src-apk/app/Net/NetEngine.lua",
+   "handles": "自研 TCP 二进制协议(SRS)",
+   "upstream": "登录/换桌流程传入 srsGroupID",
+   "downstream": "C++ TCP 组件(native),Protocol 回调表 _protocolCallBackByObj"
+  },
+  {
+   "method": "WXEntryActivity.loadHandlers",
+   "file": "com/xm/zjgamecenter/wxapi/WXEntryActivity.java:46-66",
+   "handles": "认证/支付回调动态分发",
+   "upstream": "assets/plugins.ymn 的 wxHandler 类名列表(固定常量)",
+   "downstream": "反射实例化 com.bianfeng.* 的 IWXAPIEventHandler"
+  },
+  {
+   "method": "url.sign",
+   "file": "lua-src-apk/app/hotupdate/universe/Url.lua",
+   "handles": "HTTP 签名构造",
+   "upstream": "请求参数表",
+   "downstream": "键排序拼接后生成 sign 注入 HTTP 请求(后续拼接逻辑待 Phase 2 比对)"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+  "target_name": "浙江游戏大厅 com.xm.zjgamecenter v1.5.4",
+  "run_mode": "auto_chain",
+  "auto_chain_mode": "C",
+  "target_dir": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/decompiled",
+  "apk_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/apk/base.apk",
+  "output_dir": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/traffic-analysis",
+  "traffic_source": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/traffic-analysis/traffic",
+  "native_analysis_source": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a",
+  "device": "MuMu 127.0.0.1:5555 (root, tcpdump=/system/bin/tcpdump, sdk=32, arm64)",
+  "current_phase": 6,
+  "overall_status": "completed",
+  "manual_ready": {
+    "traffic_ready": true,
+    "mcp_burp_ready": false,
+    "mcp_native_ready": false,
+    "note": "无 Burp/Yakit/IDA/Ghidra MCP；抓包走设备端 root tcpdump 自采 pcap"
+  },
+  "phases": {
+    "phase_1": {
+      "status": "waiting_review",
+      "dir": "step1"
+    },
+    "phase_2": {
+      "status": "completed",
+      "dir": "step2"
+    },
+    "phase_3": {
+      "status": "completed",
+      "dir": "step3"
+    },
+    "phase_4": {
+      "status": "completed",
+      "dir": "step4"
+    },
+    "phase_5": {
+      "status": "completed",
+      "dir": "step5"
+    },
+    "phase_6": {
+      "status": "completed",
+      "dir": "step6"
+    }
+  }
+}

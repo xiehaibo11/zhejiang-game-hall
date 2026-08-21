@@ -1,0 +1,120 @@
+{
+ "target": "com.xm.zjgamecenter v1.5.4",
+ "generated_by": "env_guard_indexer.py 原始命中(48572 条) + 人工逐项裁决",
+ "raw_data": "step1/raw_env_guards.json",
+ "tool_generated_blocking_claims": "脚本初判 8 类 7 项 blocking,经人工复核多为三方 SDK 库代码噪音,裁决如下",
+ "guards": [
+  {
+   "guard_type": "ssl_pinning_or_cert_check",
+   "status": "suspected",
+   "impact_level": "Critical(若确认)",
+   "evidence": [
+    "jadx/sources/okhttp3/CertificatePinner.java(okhttp 库自带类,非业务配置)",
+    "apktool/assets/*.bks(grs_sp/hmsincas/hmsrootcas/updatesdkcas,华为/更新 SDK 证书库)",
+    "apktool/assets/com.xm.zjgamecenter.cert.pem(自研域名证书,疑似用于 HTTPS 校验,待确认用途)"
+   ],
+   "key_locations": "raw_env_guards.json 3793 条命中集中在 okhttp3/com/huawei/secure/com/mbridge 等库代码",
+   "adjudication": "未发现自研代码(com/bianfeng、org/cocos2dx、Lua)中配置 CertificatePinner pin 的证据;manifest usesCleartextTraffic=true 且无 networkSecurityConfig,倾向未做强制 pinning,但 com.xm.zjgamecenter.cert.pem 的存在提示可能自校验,Phase 2 实抓验证",
+   "capture_impact": "HTTPS(transit.hzxuanming.com 等)可能被自校验阻断;SRS TCP 二进制协议不受 TLS 影响",
+   "bypass_suggestion": "Phase 2 先直连试抓;若失败用 frida/android_phase1_bypass.js 的 ssl_pinning 模块(通用 TrustManager/okhttp pinner hook)"
+  },
+  {
+   "guard_type": "root_detection",
+   "status": "sdk_signal_only",
+   "impact_level": "High(若业务启用)",
+   "evidence": [
+    "jadx/sources/com/kuaishou/weapon/p0/af.java(magisk),an.java(riru),bh.java(su)—快手武器库 SDK",
+    "com/alipay/sdk, com/kwad, com/tencent/bugly 内类似命中"
+   ],
+   "key_locations": "com/bianfeng 与 Lua 主链未发现 root 检测调用",
+   "adjudication": "命中的 root 检测实现均在三方 SDK(快手 weapon/支付宝/快手广告/Bugly)内部,自研业务主链未见直接检测点",
+   "capture_impact": "对抓包无直接影响;设备已 root(MuMu)若触发 SDK 侧风控可能影响广告/支付,不影响 SRS 协议观察",
+   "bypass_suggestion": "暂不启用;若登录/支付被风控拦截再 hook 对应 SDK 检测点"
+  },
+  {
+   "guard_type": "emulator_detection",
+   "status": "suspected",
+   "impact_level": "High",
+   "evidence": [
+    "jadx/sources/com/bianfeng/ymnsdk/sysfunc/CheckEmulatorUtils.java:80,109(goldfish/qemu 驱动、IMEI=000000000000000、IMSI=310260000000000、Build.HARDWARE==goldfish 等完整检测实现)",
+    "jadx/sources/com/bianfeng/ymnsdk/sysfunc/utils/SimulatorUtil.java:19(Genymotion/Build.FINGERPRINT)",
+    "jadx/sources/com/bianfeng/ymnsdk/sysfunc/SysfuncInterface.java:305 @YFunction isEmulator 暴露给 Lua 调用"
+   ],
+   "key_locations": "CheckEmulatorUtils.java(自研 ymnsdk),经 YmnSdk 桥暴露给 Lua",
+   "adjudication": "自研模拟器检测实现确认存在且对 Lua 可见;但是否阻断登录/开局由 Lua 侧决定,当前设备(MuMu 模拟器)背景知识未报告被拦截,判定 suspected——实现 confirmed、强制阻断 not_confirmed_yet",
+   "capture_impact": "若 Lua 侧启用拦截,MuMu 上抓包/调试可能被拒;当前未见实际阻断证据",
+   "bypass_suggestion": "hook SimulatorUtil.isSimulator / CheckEmulatorUtils 返回 false(frida 脚本 emulator 模块已含)"
+  },
+  {
+   "guard_type": "proxy_or_vpn_detection",
+   "status": "not_observed",
+   "impact_level": "High(若存在)",
+   "evidence": [
+    "命中为 okhttp3 ProxySelector、mbridge/xiaomi push 等 SDK 的代理 API 使用形态,非检测逻辑"
+   ],
+   "key_locations": "com/bianfeng、org/cocos2dx、Lua 主链无 proxy 检测",
+   "adjudication": "1224 条命中均为库 API 形态误报,未发现业务侧代理/VPN 检测",
+   "capture_impact": "代理抓包预期不被阻断",
+   "bypass_suggestion": "无需"
+  },
+  {
+   "guard_type": "frida_or_debug_detection",
+   "status": "sdk_signal_only",
+   "impact_level": "High(若业务启用)",
+   "evidence": [
+    "com/kuaishou/weapon(15), com/kwad/sdk(13), com/sigmob(6) 等 SDK 内部命中;libsgcore.so(阿里聚安全)具备反调试能力但经快手 SDK 引入"
+   ],
+   "key_locations": "自研主链未见 Frida/调试检测",
+   "adjudication": "仅三方安全 SDK 信号;libsgcore 聚安全为 sdk_signal_only,未见业务主动调用链",
+   "capture_impact": "Frida 注入预期可用;若注入崩溃再排查 weapon/sgcore",
+   "bypass_suggestion": "frida -f 附加时如被检测,启用反反调试通用模块"
+  },
+  {
+   "guard_type": "signature_check",
+   "status": "not_observed",
+   "impact_level": "Medium",
+   "evidence": [
+    "38165 条命中绝大多数为 manifest protectionLevel=signature、generic 'signature' 字符串噪音"
+   ],
+   "key_locations": "未发现自研签名校验(getPackageInfo signatures 比对)调用点",
+   "adjudication": "未发现业务侧签名校验逻辑",
+   "capture_impact": "重打包风险低(本流程不重打包)",
+   "bypass_suggestion": "无需"
+  },
+  {
+   "guard_type": "multi_open_detection",
+   "status": "sdk_signal_only",
+   "impact_level": "Medium",
+   "evidence": [
+    "命中集中在 cz/msebera(httpclient)、mbridge、xiaomi push 等库;QUERY_ALL_PACKAGES 权限声明提供能力面"
+   ],
+   "adjudication": "未发现自研双开检测点;QUERY_ALL_PACKAGES 更多服务广告/统计 SDK 采集",
+   "capture_impact": "对抓包无直接影响",
+   "bypass_suggestion": "暂不处理"
+  },
+  {
+   "guard_type": "anti_tamper_or_packer",
+   "status": "not_observed(as guard) / confirmed(resource encryption)",
+   "impact_level": "Medium",
+   "evidence": [
+    "命中集中在 qihoo360/replugin、bytedance/pangle 插件框架代码(动态加载形态)",
+    "无 DEX 加固壳(libjiagu 等)特征",
+    "资源加密 confirmed:assets/src/ 897 个 .luac 头部 'devaguopeifeiK...'(非标准字节码头),native 侧 hdq::decrypt@0xca81ec / ResKey::getKey@0xca8f34 / blowfish_decrypt@0xca86ac / btea(XXTEA)@0xca8f44(libcocos2dlua.so,前期已核实)"
+   ],
+   "adjudication": "无反篡改/加固壳;但有 confirmed 的自研资源加密(hdq+Blowfish/XXTEA),影响静态资源阅读,已有明文 lua-src-apk 与 hotfix-decrypted 可用",
+   "capture_impact": "不影响抓包;影响 so 分析与资源 dump",
+   "bypass_suggestion": "资源侧用仓库已解密产物;so 分析进 Phase 3"
+  }
+ ],
+ "phase2_readiness": {
+  "blocking_confirmed": [],
+  "watch_items": [
+   "com.xm.zjgamecenter.cert.pem 自校验(待实抓验证)",
+   "Lua 侧 isEmulator 拦截策略(待运行时观察)"
+  ],
+  "frida_assets": [
+   "step1/frida_bypass_plan.json",
+   "step1/frida/android_phase1_bypass.js(env_guard_indexer 自动生成,含 ssl_pinning/root/emulator/proxy 模块)"
+  ]
+ }
+}

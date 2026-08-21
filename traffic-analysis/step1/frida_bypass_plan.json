@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-08-20T12:58:28.893320+00:00",
+  "template_source": "tools/frida/android_phase1_bypass.js",
+  "modules": [
+    {
+      "module": "root_bypass",
+      "enabled": true,
+      "description": "隐藏 su / Magisk / test-keys / Root 包信息与常见命令执行。",
+      "related_guard_types": [
+        "root_detection"
+      ],
+      "related_hits": 225,
+      "evidence_refs": [
+        {
+          "guard_type": "root_detection",
+          "source_file": "jadx/sources/com/kuaishou/weapon/p0/af.java",
+          "line": 14,
+          "match": "magisk"
+        },
+        {
+          "guard_type": "root_detection",
+          "source_file": "jadx/sources/com/kuaishou/weapon/p0/an.java",
+          "line": 39,
+          "match": "riru"
+        },
+        {
+          "guard_type": "root_detection",
+          "source_file": "jadx/sources/com/kuaishou/weapon/p0/bh.java",
+          "line": 40,
+          "match": "su"
+        },
+        {
+          "guard_type": "root_detection",
+          "source_file": "jadx/sources/com/kuaishou/weapon/p0/bh.java",
+          "line": 41,
+          "match": "su"
+        },
+        {
+          "guard_type": "root_detection",
+          "source_file": "jadx/sources/com/kuaishou/weapon/p0/ai.java",
+          "line": 15,
+          "match": "su"
+        }
+      ]
+    },
+    {
+      "module": "emulator_bypass",
+      "enabled": true,
+      "description": "伪造 Build 与系统属性，降低模拟器环境命中概率。",
+      "related_guard_types": [
+        "emulator_detection"
+      ],
+      "related_hits": 246,
+      "evidence_refs": [
+        {
+          "guard_type": "emulator_detection",
+          "source_file": "jadx/sources/com/loc/cg.java",
+          "line": 31,
+          "match": "Build.MANUFACTURER"
+        },
+        {
+          "guard_type": "emulator_detection",
+          "source_file": "jadx/sources/com/loc/cg.java",
+          "line": 32,
+          "match": "Build.MODEL"
+        },
+        {
+          "guard_type": "emulator_detection",
+          "source_file": "jadx/sources/com/loc/ar.java",
+          "line": 30,
+          "match": "Build.MANUFACTURER"
+        },
+        {
+          "guard_type": "emulator_detection",
+          "source_file": "jadx/sources/com/loc/n.java",
+          "line": 122,
+          "match": "Build.MODEL"
+        },
+        {
+          "guard_type": "emulator_detection",
+          "source_file": "jadx/sources/com/loc/n.java",
+          "line": 123,
+          "match": "Build.MANUFACTURER"
+        }
+      ]
+    },
+    {
+      "module": "proxy_bypass",
+      "enabled": true,
+      "description": "隐藏常见 Java 层代理属性，降低代理/抓包环境命中概率。",
+      "related_guard_types": [
+        "proxy_or_vpn_detection"
+      ],
+      "related_hits": 1224,
+      "evidence_refs": [
+        {
+          "guard_type": "proxy_or_vpn_detection",
+          "source_file": "jadx/sources/okhttp3/Address.java",
+          "line": 6,
+          "match": "ProxySelector"
+        },
+        {
+          "guard_type": "proxy_or_vpn_detection",
+          "source_file": "jadx/sources/okhttp3/Address.java",
+          "line": 22,
+          "match": "proxySelector"
+        },
+        {
+          "guard_type": "proxy_or_vpn_detection",
+          "source_file": "jadx/sources/okhttp3/Address.java",
+          "line": 31,
+          "match": "ProxySelector"
+        },
+        {
+          "guard_type": "proxy_or_vpn_detection",
+          "source_file": "jadx/sources/okhttp3/Address.java",
+          "line": 36,
+          "match": "ProxySelector"
+        },
+        {
+          "guard_type": "proxy_or_vpn_detection",
+          "source_file": "jadx/sources/okhttp3/Address.java",
+          "line": 43,
+          "match": "proxySelector"
+        }
+      ]
+    },
+    {
+      "module": "ssl_pinning_bypass",
+      "enabled": true,
+      "description": "替换常见 TrustManager / HostnameVerifier / okhttp3 CertificatePinner 校验。",
+      "related_guard_types": [
+        "ssl_pinning_or_cert_check"
+      ],
+      "related_hits": 3793,
+      "evidence_refs": [
+        {
+          "guard_type": "ssl_pinning_or_cert_check",
+          "source_file": "jadx/sources/okhttp3/CertificatePinner.java",
+          "line": 30,
+          "match": "CertificatePinner"
+        },
+        {
+          "guard_type": "ssl_pinning_or_cert_check",
+          "source_file": "jadx/sources/okhttp3/CertificatePinner.java",
+          "line": 32,
+          "match": "CertificatePinner"
+        },
+        {
+          "guard_type": "ssl_pinning_or_cert_check",
+          "source_file": "jadx/sources/okhttp3/CertificatePinner.java",
+          "line": 33,
+          "match": "CertificatePinner"
+        },
+        {
+          "guard_type": "ssl_pinning_or_cert_check",
+          "source_file": "jadx/sources/okhttp3/CertificatePinner.java",
+          "line": 37,
+          "match": "CertificatePinner"
+        },
+        {
+          "guard_type": "ssl_pinning_or_cert_check",
+          "source_file": "jadx/sources/okhttp3/CertificatePinner.java",
+          "line": 56,
+          "match": "CertificatePinner"
+        }
+      ]
+    },
+    {
+      "module": "debug_bypass",
+      "enabled": true,
+      "description": "关闭常见 Debug 调试状态检测，降低运行时调试阻塞。",
+      "related_guard_types": [
+        "frida_or_debug_detection"
+      ],
+      "related_hits": 138,
+      "evidence_refs": [
+        {
+          "guard_type": "frida_or_debug_detection",
+          "source_file": "jadx/sources/com/qq/e/mediation/comm/Constants.java",
+          "line": 8,
+          "match": "XPOSED"
+        },
+        {
+          "guard_type": "frida_or_debug_detection",
+          "source_file": "jadx/sources/com/qq/e/comm/adevent/AdEventType.java",
+          "line": 14,
+          "match": "XPOSED"
+        },
+        {
+          "guard_type": "frida_or_debug_detection",
+          "source_file": "jadx/sources/com/qq/e/comm/constants/Constants.java",
+          "line": 10,
+          "match": "XPOSED"
+        },
+        {
+          "guard_type": "frida_or_debug_detection",
+          "source_file": "jadx/sources/com/qq/e/ads/nativ/NativeUnifiedADDataAdapter.java",
+          "line": 60,
+          "match": "xposed"
+        },
+        {
+          "guard_type": "frida_or_debug_detection",
+          "source_file": "jadx/sources/com/qq/e/ads/nativ/NativeADEventListener.java",
+          "line": 11,
+          "match": "xposed"
+        }
+      ]
+    }
+  ],
+  "manual_review": [
+    {
+      "guard_type": "signature_check",
+      "hook_strategy": "manual_signature_review",
+      "bypass_hint": "关注签名摘要和包信息校验位置，抓包或重打包前需确认是否会触发。",
+      "hit_count": 38165
+    },
+    {
+      "guard_type": "anti_tamper_or_packer",
+      "hook_strategy": "manual_packer_review",
+      "bypass_hint": "关注加固、动态加载和类加载链路，结合 Phase 1 的样本画像判断是否存在壳或运行时装载。",
+      "hit_count": 3009
+    },
+    {
+      "guard_type": "multi_open_detection",
+      "hook_strategy": "manual_multi_open_review",
+      "bypass_hint": "关注双开、虚拟容器、克隆环境判断逻辑，后续测试环境需避免误触发。",
+      "hit_count": 1772
+    }
+  ]
+}

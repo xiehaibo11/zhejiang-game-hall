@@ -1,0 +1,684 @@
+{
+ "scene": "s01_coldstart",
+ "pcap": "s01_coldstart.pcap",
+ "max_bytes": null,
+ "packets": 2475,
+ "tcp_flows": 28,
+ "elapsed_sec": 0.0,
+ "flows": [
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    5555
+   ],
+   "b": [
+    "10.0.2.2",
+    55108
+   ],
+   "pkts": 1785,
+   "bytes": 1083001,
+   "bytes_ab": 1080767,
+   "bytes_ba": 2234,
+   "first_ts": 1787229805.576752,
+   "last_ts": 1787229921.440401,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "575254453c020000670600000b00000000000000a8adabba",
+   "sample_ba": "4f4b4159670600003c0200000000000000000000b0b4bea6",
+   "n_payload_ab": 883,
+   "n_payload_ba": 85
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    59020
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 32,
+   "bytes": 9029,
+   "bytes_ab": 3757,
+   "bytes_ba": 5272,
+   "first_ts": 1787229879.118437,
+   "last_ts": 1787229895.643564,
+   "syn": true,
+   "sni": "te.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030310ad390dbcbd549c0c937eab0a036985c950806d3e18b8e9f19a935ea260a8022097ab22d6a2a0b5de3aa5ef098ce4edc7dc47b7756a1857dfc1f87a73b77809370022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300540200005003038d4522936e4876c7f768c7c8cd473f3b1a9cd7ae19fc7168ceec02f46da2820800c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f7c0b00",
+   "n_payload_ab": 5,
+   "n_payload_ba": 9
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    59022
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 27,
+   "bytes": 8403,
+   "bytes_ab": 3384,
+   "bytes_ba": 5019,
+   "first_ts": 1787229879.132092,
+   "last_ts": 1787229895.067594,
+   "syn": true,
+   "sni": "te.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303e2a70c1445ae0e5beb07819d0de89712dace122c7e35e8a7bc3a7095753cea412093f23cfbbc02d3a19f97716829d63f8be049bf6e31f99453118dd4ab31929d9d0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030054020000500303a027edc2bd0198146c3fd2192f29d5ca824f4fdb7c4897d22725b95d9e239ecd00c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f7c0b00",
+   "n_payload_ab": 4,
+   "n_payload_ba": 8
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    51548
+   ],
+   "b": [
+    "198.18.2.167",
+    443
+   ],
+   "pkts": 27,
+   "bytes": 8383,
+   "bytes_ab": 1877,
+   "bytes_ba": 6506,
+   "first_ts": 1787229855.167323,
+   "last_ts": 1787229915.956155,
+   "syn": true,
+   "sni": "shence.netease.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030311be050cf35d8f20511cc6ada6f0dddc0f866cdf8b6c44f964713f3e55fc1aa62048674d89fe805a95480faca23e9e182cbb6fd467e8a5fe9939c33aa5831be5d60022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303005402000050030354402e0f5135818e9b1320c985e64d5fe6d805257fd26474c98664be9bb24c5f00c02f000028ff01000100000b0004030001020023000000050000001700000010000b000908687474702f312e31",
+   "n_payload_ab": 3,
+   "n_payload_ba": 9
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    53138
+   ],
+   "b": [
+    "198.18.3.94",
+    443
+   ],
+   "pkts": 27,
+   "bytes": 6954,
+   "bytes_ab": 923,
+   "bytes_ba": 6031,
+   "first_ts": 1787229880.225752,
+   "last_ts": 1787229882.804145,
+   "syn": true,
+   "sni": "gxb-api.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303e7997edf4502cb48e8f8fefaeaf9e86961d095332888bd920bfdbf65d3ac9d08000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c0303e1fe86a94c5b926e214a0ff1674a35f100b10bc6cdcd5352824decb5a6badb9e20fcd428a3ab475124ebac362f94eb21d3c4f22786cf837077f75ea2373e34ebd4c030000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    53144
+   ],
+   "b": [
+    "198.18.3.94",
+    443
+   ],
+   "pkts": 27,
+   "bytes": 6954,
+   "bytes_ab": 923,
+   "bytes_ba": 6031,
+   "first_ts": 1787229880.237179,
+   "last_ts": 1787229882.800712,
+   "syn": true,
+   "sni": "gxb-api.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303626b48522e40f83c29719cfac34c6412bb3dd26147ea766270177924f7c43a57000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c0303e82443ce351cdfd2883c96a0fe86f3217b0924883b49ad3b6db312cf3169e8ee20383b84cd952eebae96df4ec2d0ced4efeb69641cb7ad2d7f0976b056f18ffc55c030000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    53142
+   ],
+   "b": [
+    "198.18.3.94",
+    443
+   ],
+   "pkts": 24,
+   "bytes": 6953,
+   "bytes_ab": 923,
+   "bytes_ba": 6030,
+   "first_ts": 1787229880.228816,
+   "last_ts": 1787229882.30505,
+   "syn": true,
+   "sni": "gxb-api.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03036e7284a343510c324865a568603eb5c4c915cd065d8df8e0123a91600d9800cd000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c03030ccffb130fcfdc64fe513a3ea2bb21fe913cb10da088ad591995d4c3b2e3095a20a11e844bb197111d05f4ef8397eeb9ddba44cd3cc48556d65c99e1fe4c1c6ad3c030000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    48200
+   ],
+   "b": [
+    "198.18.3.102",
+    443
+   ],
+   "pkts": 18,
+   "bytes": 6740,
+   "bytes_ab": 887,
+   "bytes_ba": 5853,
+   "first_ts": 1787229879.054362,
+   "last_ts": 1787229880.057064,
+   "syn": true,
+   "sni": "sdk-config.imeete.net",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03032331e792d8ba2d0dcd6434441b4409a95c6208c928b648029037951721df82cd2006b7a2af64bbfff154c9ad9f947fbf210d71d5ccf644bf33fe19e126298eb5e00022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303007a020000760303fa5ce9c175553d5630f9d311cd8ea2301a82b03a487ec4d3361ede7b983946e22006b7a2af64bbfff154c9ad9f947fbf210d71d5ccf644bf33fe19e126298eb5e0130100002e002b0002030400330024001d0020ed",
+   "n_payload_ab": 3,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    39052
+   ],
+   "b": [
+    "198.18.3.84",
+    443
+   ],
+   "pkts": 24,
+   "bytes": 6236,
+   "bytes_ab": 1451,
+   "bytes_ba": 4785,
+   "first_ts": 1787229879.069564,
+   "last_ts": 1787229882.198516,
+   "syn": true,
+   "sni": "bfas.bianfeng.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303d364aedd60d414f116f24b1f245f0a40ae1a09a6ae74ac4b742497d7547f00cb203615dd1b26a9f6d0ed1c48047aefd10c2b4114fdebe6e5eae8cf1389ef849a5a0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300500200004c030357e8e70b78bdb03ab197218d1eeabe28c278b4c21f78970a45f0b8d897a124ba00c02f000024ff01000100000b000403000102002300000010000b000908687474702f312e31001700001603030f6e0b000f6a000f",
+   "n_payload_ab": 4,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    53440
+   ],
+   "b": [
+    "198.18.0.218",
+    443
+   ],
+   "pkts": 29,
+   "bytes": 6209,
+   "bytes_ab": 944,
+   "bytes_ba": 5265,
+   "first_ts": 1787229877.550716,
+   "last_ts": 1787229938.289295,
+   "syn": true,
+   "sni": "mumu.nie.netease.com",
+   "http_hint": null,
+   "sample_ab": "16030100b7010000b303036cce69864ecd5a92ee6bc714181d52c6163ffceb70451c9b4584d85d7fa8c92d000012c02bc02fc00ac009c013c014009c002f0035010000780000001900170000146d756d752e6e69652e6e6574656173652e636f",
+   "sample_ba": "160303004e0200004a0303997898604a2cd55246c3450708cd06069951f2b41f0eee8ca404f609ecd24bdf00c02f000022ff0100010000000000000b000403000102002300000010000500030268320017000016030310040b001000000ffd00",
+   "n_payload_ab": 5,
+   "n_payload_ba": 9
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    60720
+   ],
+   "b": [
+    "198.18.3.105",
+    443
+   ],
+   "pkts": 27,
+   "bytes": 6121,
+   "bytes_ab": 1468,
+   "bytes_ba": 4653,
+   "first_ts": 1787229880.209565,
+   "last_ts": 1787229881.965778,
+   "syn": true,
+   "sni": "gxb-monitor.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303b03a8d6c60ca1f5bb5b36e3e3a3e868a3405d0495af6fe653cff1c6f60d3fdc0000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "160303006c0200006803038f1548bf2779fcfadca11f09529c3e834584361c0ea54eb10dfb58828808f76a20233bde02eaaa79e6b8a7e75f82c8b086f6f18b5b0d4c459bbc55a17e1f5e860cc02f000020ff01000100000b0004030001020010",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    60744
+   ],
+   "b": [
+    "198.18.3.105",
+    443
+   ],
+   "pkts": 27,
+   "bytes": 6116,
+   "bytes_ab": 1463,
+   "bytes_ba": 4653,
+   "first_ts": 1787229882.725175,
+   "last_ts": 1787229884.494486,
+   "syn": true,
+   "sni": "gxb-monitor.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03030ab9d4ec985606d09535acc82a02483b4527b3f906916a84d6f6e43d42edd724000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "160303006c0200006803031eae11bf36d977591e09a3239b4a915f80ae3d79e6eb676be15b486ced199f90207fbfcf8bb44ddb3f9563687b7e2daa060e0bef4e31af928b0a3a68dd94b80eb3c02f000020ff01000100000b0004030001020010",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    57668
+   ],
+   "b": [
+    "198.18.3.106",
+    443
+   ],
+   "pkts": 24,
+   "bytes": 6020,
+   "bytes_ab": 926,
+   "bytes_ba": 5094,
+   "first_ts": 1787229880.225698,
+   "last_ts": 1787229882.299742,
+   "syn": true,
+   "sni": "gxb-api-tx.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303f3a4520f1474cf67440a35115c0e85a27c6e3b3b2b8b8f60128c036a669de20c000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c0303f1357a342ea7bf98d9a2df067edf0a996ef336a27c551888714cad76fe4abdb820c2f3ae61dc2aa7a69b67f808210463466422f31a0d9c55ab303a1720b6bb28fbc02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    57672
+   ],
+   "b": [
+    "198.18.3.106",
+    443
+   ],
+   "pkts": 25,
+   "bytes": 6020,
+   "bytes_ab": 926,
+   "bytes_ba": 5094,
+   "first_ts": 1787229880.228103,
+   "last_ts": 1787229882.800741,
+   "syn": true,
+   "sni": "gxb-api-tx.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03032a2e733c8948dc438ef044bd3f192468cae4faefe8f999f45a1741676f2700c6000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c0303c938806478cdbd20efb819324816d44e535e4e564f944cce5ca40832fc33266420135f6ebc10572a12db0326724dc8dddd00c280e4d812f6e84cc344023e20d7bdc02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    57680
+   ],
+   "b": [
+    "198.18.3.106",
+    443
+   ],
+   "pkts": 24,
+   "bytes": 6020,
+   "bytes_ab": 926,
+   "bytes_ba": 5094,
+   "first_ts": 1787229880.252436,
+   "last_ts": 1787229882.305009,
+   "syn": true,
+   "sni": "gxb-api-tx.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303edd83771f0fa77bb818b758f676794e9f949cd10865cc5f779e43df3a0046752000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c0303826c0c30f6f1b041f34e3002be38186d28bdb81ec4e3e8219d1d37812a1dd8a720f18bd59ca1da8a3da7bf7d73c808a4d54838766d900e849b711b0d9118c730ebc02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    57666
+   ],
+   "b": [
+    "198.18.3.106",
+    443
+   ],
+   "pkts": 25,
+   "bytes": 6019,
+   "bytes_ab": 926,
+   "bytes_ba": 5093,
+   "first_ts": 1787229880.224713,
+   "last_ts": 1787229882.298376,
+   "syn": true,
+   "sni": "gxb-api-tx.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303508d626fbdeff58871c28818f23334ea4edc51df3ff32efe6b05183218091e73000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c0303a4fac2db672fa52a5bfcabef0573c3ab370bb383d89762f9a77c984548dff0df20b1aea7f244f384774fbafa5904501d343c4e565522141da9bd421192825f405fc02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    59024
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 29,
+   "bytes": 5969,
+   "bytes_ab": 1039,
+   "bytes_ba": 4930,
+   "first_ts": 1787229879.204603,
+   "last_ts": 1787229940.48561,
+   "syn": true,
+   "sni": "te.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303485ebf69d18a112c376aaa21559a210730d67f89a513510e21dbb158559faacc2050399373ec5af50bf3985c4450192a58a882f456a04a0c0fb3742946079a3ea00022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030054020000500303460732b7d1cff7a56e60dce6a42cfb3d26c132ce9f1dfe2a0f09aa3681298d6500c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f7c0b00",
+   "n_payload_ab": 4,
+   "n_payload_ba": 7
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    39816
+   ],
+   "b": [
+    "198.18.3.82",
+    443
+   ],
+   "pkts": 24,
+   "bytes": 5941,
+   "bytes_ab": 963,
+   "bytes_ba": 4978,
+   "first_ts": 1787229879.060324,
+   "last_ts": 1787229880.250561,
+   "syn": true,
+   "sni": "dh-api.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303ea35a3f0072513faa8116dd16dbac3ca3671d61ddfbe8df80d44f5fee10f679720feb9d2bd941461b39d2f600623eb8d4aae16a139e7580eab63db69b5a647bbdf0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300500200004c030300e16f126bfbbc5ba63df3fbcfe97d8628962f58ec0a7a23dd920bb133f14be500c02f000024ff01000100000b000403000102002300000010000b000908687474702f312e31001700001603030f680b000f64000f",
+   "n_payload_ab": 4,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    34322
+   ],
+   "b": [
+    "198.18.3.104",
+    443
+   ],
+   "pkts": 25,
+   "bytes": 5940,
+   "bytes_ab": 932,
+   "bytes_ba": 5008,
+   "first_ts": 1787229880.241033,
+   "last_ts": 1787229882.304974,
+   "syn": true,
+   "sni": "gxb-api-tx.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303a57bbe272918abced75e5fcfc3675eb26d43d68953d87c92e7486124ce1a8a66000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c030378a4d1c73983e1e652abbb3c1fce13fc3f89cc2e8b9cf1b0ef44487c81c4b2b520c0579bf1df0357137e4e21dea032e73f35940840aec6f017343876ccfa69dedfc02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    46922
+   ],
+   "b": [
+    "198.18.3.103",
+    443
+   ],
+   "pkts": 24,
+   "bytes": 5830,
+   "bytes_ab": 929,
+   "bytes_ba": 4901,
+   "first_ts": 1787229880.255434,
+   "last_ts": 1787229882.072309,
+   "syn": true,
+   "sni": "gxb-api.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303b21c3bcfdee6afc2000aaa998f1076da9817563f2154ba9b740b93f8465e3d53000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c0303dc1d282598eabc01dc8604fd1d5c4ea72673d7e933d0ba444c5198832d28176f2067e3ff89266ad38ee929a277eba0c1c3dff5d727914853716d5ee64a4d6832a1c02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    56218
+   ],
+   "b": [
+    "198.18.1.234",
+    443
+   ],
+   "pkts": 15,
+   "bytes": 5775,
+   "bytes_ab": 808,
+   "bytes_ba": 4967,
+   "first_ts": 1787229861.935041,
+   "last_ts": 1787229863.024037,
+   "syn": true,
+   "sni": "api.nanbeiyule.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303fcf816f751e71e367a529ecbb47057b8168188e7641358abd26d15186c327314207821bed4d153b0f85ba16006e31be7352b192f06421f153ce689b1ad95484bb00022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303007a020000760303fc211f62db87dd9038d04634ac4f30057765d76ac7157c6862da4c0603ba954c207821bed4d153b0f85ba16006e31be7352b192f06421f153ce689b1ad95484bb0130100002e002b0002030400330024001d0020e9",
+   "n_payload_ab": 3,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    34306
+   ],
+   "b": [
+    "198.18.3.104",
+    443
+   ],
+   "pkts": 24,
+   "bytes": 5626,
+   "bytes_ab": 936,
+   "bytes_ba": 4690,
+   "first_ts": 1787229879.457643,
+   "last_ts": 1787229880.277901,
+   "syn": true,
+   "sni": "gxb-api-tx.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030352f43915099a9f45d8d40172fff21e8f2cee15970717d401321f70c18b16f87c000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c030338600687c45ca54ad3ff710cbed013383cdb54b4d1f2e0be45f7b0ff0b360a502072291f5dfc3c041cb937f5d84b83116f065ce79995b8c0c5dc2ec6306ab33ec9c02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    34330
+   ],
+   "b": [
+    "198.18.3.104",
+    443
+   ],
+   "pkts": 20,
+   "bytes": 5621,
+   "bytes_ab": 932,
+   "bytes_ba": 4689,
+   "first_ts": 1787229882.024061,
+   "last_ts": 1787229882.804362,
+   "syn": true,
+   "sni": "gxb-api-tx.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030396a77b6e93b03fb49940e5bbbeefe9fe67c0325c9156f8a458f4c22eaf8cda2b000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c03038833e7af25f0c7a1434a255e377042793b56e43ac5361ee9cbfa750b98f660ac20336bb2a5f9d94e76f587090d05e2d3f4b4dee16c4fca3ab20d8d4367ebf17b06c02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 4
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    46954
+   ],
+   "b": [
+    "198.18.3.95",
+    4445
+   ],
+   "pkts": 22,
+   "bytes": 5060,
+   "bytes_ab": 907,
+   "bytes_ba": 4153,
+   "first_ts": 1787229880.392089,
+   "last_ts": 1787229897.14766,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03030c7f9135d2d1b0e5562c6284e84c974e5b42e9d1fa48aab39c8005e4db1d336b20fff45b9ec0908434adb35583bd1d2f100e522f0c577e8cf6babb6b03a4229a180022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030054020000500303375960cbe8bd58b6ba34e3c844953a2f8c1f855af38d359b102780566fcc232e00c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030ae40b00",
+   "n_payload_ab": 3,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    51652
+   ],
+   "b": [
+    "198.18.3.98",
+    9377
+   ],
+   "pkts": 17,
+   "bytes": 3861,
+   "bytes_ab": 3858,
+   "bytes_ba": 3,
+   "first_ts": 1787229877.589655,
+   "last_ts": 1787229918.532388,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "000302000005651f8b0800000000000000a5565b93a23814fe2ffdbcb5152ef60c5bb50f2a48c398b02a02c9cb16171522283bda0d616bfffb9e0475ecd9c77db008e69cef5cf29d2ffcfdd2befcf6b2137e97b90bc41a4b641bef156fba2a33",
+   "sample_ba": "01",
+   "n_payload_ab": 3,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    51648
+   ],
+   "b": [
+    "198.18.3.98",
+    9377
+   ],
+   "pkts": 17,
+   "bytes": 3773,
+   "bytes_ab": 3770,
+   "bytes_ba": 3,
+   "first_ts": 1787229876.957426,
+   "last_ts": 1787229918.108393,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "000302000005101f8b0800000000000000a556db92aa3814fd977e9e9ae2a67d98aa7910411a8e09a32290bc4c49bc401a9469b5214ccdbfcf4e508f7de6711e2882d97bed4bd65ef1ef97e6e5b7979d08dbdc9f69b4b645be0ac668d596b989",
+   "sample_ba": "01",
+   "n_payload_ab": 3,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    39854
+   ],
+   "b": [
+    "198.18.3.82",
+    443
+   ],
+   "pkts": 13,
+   "bytes": 1649,
+   "bytes_ab": 1303,
+   "bytes_ba": 346,
+   "first_ts": 1787229939.949632,
+   "last_ts": 1787229940.523912,
+   "syn": true,
+   "sni": "dh-api.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303753b1c53e58fb8d85550cc972c249ec9672595916ef473be96a8ed89147286d7200c9940fffd661f0ddc98dd77373af8eb08d045602b08a4b1237f0787b7dd438f0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303006402000060030398b96bc603a88aa74aea3e7c0fb0c896e6ba66ca18139fd8f4545db332486d22200c9940fffd661f0ddc98dd77373af8eb08d045602b08a4b1237f0787b7dd438fc02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 3,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s01_coldstart",
+   "a": [
+    "10.0.2.15",
+    40038
+   ],
+   "b": [
+    "198.18.3.101",
+    80
+   ],
+   "pkts": 13,
+   "bytes": 484,
+   "bytes_ab": 175,
+   "bytes_ba": 309,
+   "first_ts": 1787229879.054089,
+   "last_ts": 1787229880.138364,
+   "syn": true,
+   "sni": null,
+   "http_hint": "GET /cityjson?ie=utf-8 HTTP/1.1",
+   "sample_ab": "474554202f636974796a736f6e3f69653d7574662d3820485454502f312e310d0a557365722d4167656e743a2044616c76696b2f322e312e3020284c696e75783b20553b20416e64726f69642031323b203233313136504e354243204275696c",
+   "sample_ba": "485454502f312e3120323030204f4b0d0a436f6e74656e742d4c656e6774683a2037320d0a582d4e57532d4c4f472d555549443a2031353933363538353739303831343235383930380d0a436f6e6e656374696f6e3a206b6565702d616c6976",
+   "n_payload_ab": 1,
+   "n_payload_ba": 2
+  }
+ ],
+ "dns_map": {},
+ "dns_queries": {}
+}

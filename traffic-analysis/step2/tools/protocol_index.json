@@ -1,0 +1,2347 @@
+[
+ {
+  "name": "ActiveProtocol.ReqLedger",
+  "xy": 1,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 113
+ },
+ {
+  "name": "BoxDataProtocol.ReqRealNameAuth",
+  "xy": 1,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 84
+ },
+ {
+  "name": "DispatchProtocol.CheckAct",
+  "xy": 1,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/DispatchProtocol.lua",
+  "line": 168
+ },
+ {
+  "name": "MailProtocol.ReqCheckNewMail",
+  "xy": 1,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 17
+ },
+ {
+  "name": "PlayerPlaceProcess.ReqPlayerPlace",
+  "xy": 1,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/PlayerPlaceProcess.lua",
+  "line": 3
+ },
+ {
+  "name": "ActiveProtocol.RespLedger",
+  "xy": 2,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 137
+ },
+ {
+  "name": "BoxDataProtocol.RespRealNameAuth",
+  "xy": 2,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 114
+ },
+ {
+  "name": "MailProtocol.RespCheckNewMail",
+  "xy": 2,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 39
+ },
+ {
+  "name": "SRSProtocol.CheckAct",
+  "xy": 2,
+  "proc": null,
+  "file": "hotfix-decrypted/src/app/Protocols/SRSProtocol.lua",
+  "line": 19
+ },
+ {
+  "name": "PlayerPlaceProcess.RespPlayerPlace",
+  "xy": 2,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/PlayerPlaceProcess.lua",
+  "line": 24
+ },
+ {
+  "name": "ActiveProtocol.ReqDetail",
+  "xy": 3,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 263
+ },
+ {
+  "name": "MailProtocol.ReqGetPlayerMailList",
+  "xy": 3,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 63
+ },
+ {
+  "name": "ActiveProtocol.RespDetail",
+  "xy": 4,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 289
+ },
+ {
+  "name": "DispatchProtocol.ReqJoinDispatchQueue",
+  "xy": 4,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/DispatchProtocol.lua",
+  "line": 48
+ },
+ {
+  "name": "MailProtocol.RespGetPlayerMailList",
+  "xy": 4,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 105
+ },
+ {
+  "name": "LogicBaseProtocol.msgPlayerData",
+  "xy": 4,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 3
+ },
+ {
+  "name": "ActiveProtocol.ReqGetGame",
+  "xy": 5,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 15
+ },
+ {
+  "name": "BoxDataProtocol.ReqUserTag",
+  "xy": 5,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 213
+ },
+ {
+  "name": "DispatchProtocol.RespJoinDispatchQueue",
+  "xy": 5,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/DispatchProtocol.lua",
+  "line": 83
+ },
+ {
+  "name": "MailProtocol.ReqGetMailDetail",
+  "xy": 5,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 139
+ },
+ {
+  "name": "SRSProtocol.PlayerConnect",
+  "xy": 5,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/SRSProtocol.lua",
+  "line": 19
+ },
+ {
+  "name": "LogicBaseProtocol.msgPlayerDataEx",
+  "xy": 5,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 92
+ },
+ {
+  "name": "ActiveProtocol.RespGetGame",
+  "xy": 6,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 37
+ },
+ {
+  "name": "BoxDataProtocol.RespUserTag",
+  "xy": 6,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 264
+ },
+ {
+  "name": "DispatchProtocol.ReqLeaveDispatchQueue",
+  "xy": 6,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/DispatchProtocol.lua",
+  "line": 115
+ },
+ {
+  "name": "MailProtocol.RespGetMailDetail",
+  "xy": 6,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 169
+ },
+ {
+  "name": "SRSProtocol.PlayerData",
+  "xy": 6,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/SRSProtocol.lua",
+  "line": 134
+ },
+ {
+  "name": "LogicBaseProtocol.msgPlayerEnter",
+  "xy": 6,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 112
+ },
+ {
+  "name": "ActiveProtocol.ReqGetShareID",
+  "xy": 7,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 780
+ },
+ {
+  "name": "DispatchProtocol.RespLeaveDispatchQueue",
+  "xy": 7,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/DispatchProtocol.lua",
+  "line": 139
+ },
+ {
+  "name": "MailProtocol.ReqReadAllMail",
+  "xy": 7,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 204
+ },
+ {
+  "name": "LogicBaseProtocol.msgPlayerLeave",
+  "xy": 7,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 132
+ },
+ {
+  "name": "ActiveProtocol.RespGetShareID",
+  "xy": 8,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 807
+ },
+ {
+  "name": "DispatchProtocol.NotifyUserJoinTableInfo",
+  "xy": 8,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/DispatchProtocol.lua",
+  "line": 185
+ },
+ {
+  "name": "MailProtocol.RespReadAllMail",
+  "xy": 8,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 227
+ },
+ {
+  "name": "LogicBaseProtocol.msgPlayerStart",
+  "xy": 8,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 152
+ },
+ {
+  "name": "DispatchProtocol.NotifyForceLeaveDispatchQueue",
+  "xy": 9,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/DispatchProtocol.lua",
+  "line": 216
+ },
+ {
+  "name": "MailProtocol.ReqDelMail",
+  "xy": 9,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 251
+ },
+ {
+  "name": "DispatchProtocol.ReqDispatchAppIDList",
+  "xy": 10,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/DispatchProtocol.lua",
+  "line": 242
+ },
+ {
+  "name": "MailProtocol.RespDelMail",
+  "xy": 10,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 274
+ },
+ {
+  "name": "SRSProtocol.ReqSRSLoad",
+  "xy": 10,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/SRSProtocol.lua",
+  "line": 429
+ },
+ {
+  "name": "LogicBaseProtocol.msgStarted",
+  "xy": 10,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 179
+ },
+ {
+  "name": "AuthProtocol.ReportNewPlayer",
+  "xy": 11,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/AuthProtocol.lua",
+  "line": 6
+ },
+ {
+  "name": "DispatchProtocol.RespDispatchAppIDList",
+  "xy": 11,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/DispatchProtocol.lua",
+  "line": 258
+ },
+ {
+  "name": "MailProtocol.ReqGetAward",
+  "xy": 11,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 300
+ },
+ {
+  "name": "RoomProtocol.ReqCreateTable",
+  "xy": 11,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 82
+ },
+ {
+  "name": "SRSProtocol.RespSRSLoad",
+  "xy": 11,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/SRSProtocol.lua",
+  "line": 457
+ },
+ {
+  "name": "ActiveProtocol.ReqTeaHouseCost",
+  "xy": 12,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1329
+ },
+ {
+  "name": "MailProtocol.RespGetAward",
+  "xy": 12,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MailProtocol.lua",
+  "line": 323
+ },
+ {
+  "name": "RoomProtocol.RespCreateTable",
+  "xy": 12,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 138
+ },
+ {
+  "name": "ActiveProtocol.RespTeaHouseCost",
+  "xy": 13,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1367
+ },
+ {
+  "name": "BoxDataProtocol.ReqBindID",
+  "xy": 13,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 155
+ },
+ {
+  "name": "RoomProtocol.ReqJoinTable",
+  "xy": 13,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 187
+ },
+ {
+  "name": "ActiveProtocol.ReqTeaHousePlayerCost",
+  "xy": 14,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1410
+ },
+ {
+  "name": "BoxDataProtocol.RespBindID",
+  "xy": 14,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 185
+ },
+ {
+  "name": "RoomProtocol.RespJoinTable",
+  "xy": 14,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 241
+ },
+ {
+  "name": "SRSProtocol.ReqSRSAddr",
+  "xy": 14,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/SRSProtocol.lua",
+  "line": 483
+ },
+ {
+  "name": "ActiveProtocol.RespTeaHousePlayerCost",
+  "xy": 15,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1445
+ },
+ {
+  "name": "BoxDataProtocol.ReqGetConfigDataEx",
+  "xy": 15,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 427
+ },
+ {
+  "name": "RoomProtocol.ReqPlayerPosition",
+  "xy": 15,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 307
+ },
+ {
+  "name": "SRSProtocol.RespSRSAddr",
+  "xy": 15,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/SRSProtocol.lua",
+  "line": 500
+ },
+ {
+  "name": "ActiveProtocol.ReqTeaBigWinnerInfo",
+  "xy": 16,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 933
+ },
+ {
+  "name": "BoxDataProtocol.RespGetConfigDataEx",
+  "xy": 16,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 453
+ },
+ {
+  "name": "RoomProtocol.RespPlayerPosition",
+  "xy": 16,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 331
+ },
+ {
+  "name": "ActiveProtocol.RespTeaBigWinnerInfo",
+  "xy": 17,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 989
+ },
+ {
+  "name": "BoxDataProtocol.ReqRoomPlayerCount",
+  "xy": 17,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 474
+ },
+ {
+  "name": "RoomProtocol.ReqJoinTableWithGold",
+  "xy": 17,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 401
+ },
+ {
+  "name": "ActiveProtocol.ReqTeaBigWinnerBill",
+  "xy": 18,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 842
+ },
+ {
+  "name": "BoxDataProtocol.RespRoomPlayerCount",
+  "xy": 18,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 514
+ },
+ {
+  "name": "RoomProtocol.RespJoinTableWithGold",
+  "xy": 18,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 463
+ },
+ {
+  "name": "ActiveProtocol.RespTeaBigWinnerBill",
+  "xy": 19,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 883
+ },
+ {
+  "name": "BoxDataProtocol.ReqGetUseEmojiPropInfo",
+  "xy": 19,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 554
+ },
+ {
+  "name": "TaskProtocol.ReqWebTaskList",
+  "xy": 19,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TaskProtocol.lua",
+  "line": 253
+ },
+ {
+  "name": "ActiveProtocol.ReqDealBigWinnerBill",
+  "xy": 20,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 743
+ },
+ {
+  "name": "BoxDataProtocol.RespGetUseEmojiPropInfo",
+  "xy": 20,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 578
+ },
+ {
+  "name": "TaskProtocol.RespWebTaskList",
+  "xy": 20,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TaskProtocol.lua",
+  "line": 275
+ },
+ {
+  "name": "ActiveProtocol.RespDealBigWinnerBill",
+  "xy": 21,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 674
+ },
+ {
+  "name": "BoxDataProtocol.ReqVisitorHeart",
+  "xy": 23,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 896
+ },
+ {
+  "name": "RoomProtocol.StartGameByLobby",
+  "xy": 23,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 518
+ },
+ {
+  "name": "SRSProtocol.ReqPlayerPlusData",
+  "xy": 23,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/SRSProtocol.lua",
+  "line": 301
+ },
+ {
+  "name": "TeaHouseProtocol.ReqOpenTeaHouse",
+  "xy": 23,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 588
+ },
+ {
+  "name": "LogicBaseProtocol.msgRoomHostSeatEx",
+  "xy": 23,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 195
+ },
+ {
+  "name": "ActiveProtocol.ReqCurTime",
+  "xy": 24,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 382
+ },
+ {
+  "name": "BoxDataProtocol.RespVisitorHeart",
+  "xy": 24,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 928
+ },
+ {
+  "name": "RoomProtocol.ReqGetGoldRoomInfo",
+  "xy": 24,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 546
+ },
+ {
+  "name": "SRSProtocol.RespPlayerPlusData",
+  "xy": 24,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/SRSProtocol.lua",
+  "line": 322
+ },
+ {
+  "name": "TeaHouseProtocol.RespOpenTeaHouse",
+  "xy": 24,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 622
+ },
+ {
+  "name": "LogicBaseProtocol.msgPlayCountEx",
+  "xy": 24,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 216
+ },
+ {
+  "name": "ActiveProtocol.RespCurTime",
+  "xy": 25,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 399
+ },
+ {
+  "name": "BoxDataProtocol.ReqOtherUserInfo",
+  "xy": 25,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 958
+ },
+ {
+  "name": "RoomProtocol.RespGetGoldRoomInfo",
+  "xy": 25,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/RoomProtocol.lua",
+  "line": 570
+ },
+ {
+  "name": "TeaHouseProtocol.ReqCloseTeaHouse",
+  "xy": 25,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 732
+ },
+ {
+  "name": "LogicBaseProtocol.msgGameRuleEx",
+  "xy": 25,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 234
+ },
+ {
+  "name": "ActiveProtocol.ReqTeaPlayerLedger",
+  "xy": 26,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 421
+ },
+ {
+  "name": "BoxDataProtocol.RespOtherUserInfo",
+  "xy": 26,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 980
+ },
+ {
+  "name": "TeaHouseProtocol.RespCloseTeaHouse",
+  "xy": 26,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 752
+ },
+ {
+  "name": "LogicBaseProtocol.msgRequestDismissEx",
+  "xy": 26,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 255
+ },
+ {
+  "name": "ActiveProtocol.RespTeaPlayerLedger",
+  "xy": 27,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 450
+ },
+ {
+  "name": "BoxDataProtocol.ReqGetBanInfo",
+  "xy": 27,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 1005
+ },
+ {
+  "name": "TeaHouseProtocol.ReqKickUser",
+  "xy": 27,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 885
+ },
+ {
+  "name": "LogicBaseProtocol.msgRespondDismissEx",
+  "xy": 27,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 276
+ },
+ {
+  "name": "BoxDataProtocol.RespGetBanInfo",
+  "xy": 28,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 1023
+ },
+ {
+  "name": "TeaHouseProtocol.RespKickUser",
+  "xy": 28,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 923
+ },
+ {
+  "name": "LogicBaseProtocol.msgDismissFlagEx",
+  "xy": 28,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 300
+ },
+ {
+  "name": "LogicBaseProtocol.msgRoomNumEx",
+  "xy": 29,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 321
+ },
+ {
+  "name": "LogicBaseProtocol.msgUUID",
+  "xy": 30,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 342
+ },
+ {
+  "name": "ActiveProtocol.ReqTeaBillInfo",
+  "xy": 31,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1102
+ },
+ {
+  "name": "TeaHouseProtocol.UserInfo",
+  "xy": 31,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 954
+ },
+ {
+  "name": "LogicBaseProtocol.msgAskContinue",
+  "xy": 31,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 367
+ },
+ {
+  "name": "ActiveProtocol.RespTeaBillInfo",
+  "xy": 32,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1136
+ },
+ {
+  "name": "LogicBaseProtocol.msgRespContinue",
+  "xy": 32,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 394
+ },
+ {
+  "name": "LogicBaseProtocol.msgContinueFlag",
+  "xy": 33,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 418
+ },
+ {
+  "name": "LogicBaseProtocol.msgContinueTips",
+  "xy": 34,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/LogicBaseProtocol.lua",
+  "line": 445
+ },
+ {
+  "name": "ActiveProtocol.ReqSelectTeaBillInfo",
+  "xy": 35,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1706
+ },
+ {
+  "name": "ActiveProtocol.RespSelectTeaBillInfo",
+  "xy": 36,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1751
+ },
+ {
+  "name": "TeaHouseProtocol.SetupTeaHouse",
+  "xy": 41,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 161
+ },
+ {
+  "name": "ActiveProtocol.ReqBoxLedger",
+  "xy": 42,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1489
+ },
+ {
+  "name": "ActiveProtocol.RespBoxLedger",
+  "xy": 43,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 1537
+ },
+ {
+  "name": "TeaHouseProtocol.ReqTeaHouseRight",
+  "xy": 51,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 22
+ },
+ {
+  "name": "TeaHouseProtocol.RespTeaHouseRight",
+  "xy": 52,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 41
+ },
+ {
+  "name": "TeaHouseProtocol.ReqSetPayType",
+  "xy": 77,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 80
+ },
+ {
+  "name": "TeaHouseProtocol.ReqSetTeaInfo",
+  "xy": 87,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 780
+ },
+ {
+  "name": "TeaHouseProtocol.RespSetTeaInfo",
+  "xy": 88,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 804
+ },
+ {
+  "name": "TeaHouseProtocol.ReqTeaHouseInfoByPlayerType",
+  "xy": 100,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 268
+ },
+ {
+  "name": "TeaHouseProtocol.RespTeaHouseInfoByPlayerType",
+  "xy": 101,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 309
+ },
+ {
+  "name": "ActiveProtocol.BatchProtocol",
+  "xy": 106,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/ActiveProtocol.lua",
+  "line": 354
+ },
+ {
+  "name": "TeaHouseProtocol.ReqServerAppid",
+  "xy": 106,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 135
+ },
+ {
+  "name": "AgBaseProtocol.ChatMsg",
+  "xy": 107,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/AgBaseProtocol.lua",
+  "line": 43
+ },
+ {
+  "name": "TeaHouseProtocol.RespServerAppid",
+  "xy": 107,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 239
+ },
+ {
+  "name": "agbasexy.ChatMsg",
+  "xy": 107,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/agbasexy.lua",
+  "line": 46
+ },
+ {
+  "name": "ToolMProtocol.ReqCheckClientVer",
+  "xy": 113,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1049
+ },
+ {
+  "name": "ToolMXY.ReqCheckClientVer",
+  "xy": 113,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1184
+ },
+ {
+  "name": "ToolMProtocol.RespCheckClientVer",
+  "xy": 114,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1064
+ },
+ {
+  "name": "ToolMXY.RespCheckClientVer",
+  "xy": 114,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1199
+ },
+ {
+  "name": "TeaHouseProtocol.ReqUserInfoListCnt",
+  "xy": 137,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 1104
+ },
+ {
+  "name": "TeaHouseProtocol.RespUserInfoListCnt",
+  "xy": 138,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 1124
+ },
+ {
+  "name": "TeaHouseProtocol.ReqQuitTeaHouse",
+  "xy": 139,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 834
+ },
+ {
+  "name": "TeaHouseProtocol.RespQuitTeaHouse",
+  "xy": 140,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 855
+ },
+ {
+  "name": "IMProtocol.ReqAppidList",
+  "xy": 301,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 181
+ },
+ {
+  "name": "IMProtocol.RespAppidList",
+  "xy": 302,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 199
+ },
+ {
+  "name": "IMProtocol.NotifyServerState",
+  "xy": 303,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 225
+ },
+ {
+  "name": "IMProtocol.ReqPlayerConnect",
+  "xy": 304,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 245
+ },
+ {
+  "name": "IMProtocol.RespPlayerConnect",
+  "xy": 305,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 263
+ },
+ {
+  "name": "IMProtocol.ReqKeepAlive",
+  "xy": 306,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 283
+ },
+ {
+  "name": "IMProtocol.RespKeepAlive",
+  "xy": 307,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 301
+ },
+ {
+  "name": "TeaHouseProtocol.NotifyCardCount",
+  "xy": 391,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/TeaHouseProtocol.lua",
+  "line": 410
+ },
+ {
+  "name": "IMProtocol.ReqJoinIM",
+  "xy": 401,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 321
+ },
+ {
+  "name": "IMProtocol.RespJoinIM",
+  "xy": 402,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 345
+ },
+ {
+  "name": "IMProtocol.ReqOpenFriendList",
+  "xy": 408,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 375
+ },
+ {
+  "name": "IMProtocol.RespOpenFriendList",
+  "xy": 409,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 390
+ },
+ {
+  "name": "IMProtocol.ReqCloseFriendList",
+  "xy": 410,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 404
+ },
+ {
+  "name": "IMProtocol.RespCloseFriendList",
+  "xy": 411,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 419
+ },
+ {
+  "name": "IMProtocol.NotifyPlayerInfo",
+  "xy": 412,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 433
+ },
+ {
+  "name": "IMProtocol.ReqFriendList",
+  "xy": 413,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 475
+ },
+ {
+  "name": "IMProtocol.RespFriendList",
+  "xy": 414,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 495
+ },
+ {
+  "name": "IMProtocol.ReqInviteGame",
+  "xy": 415,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 562
+ },
+ {
+  "name": "IMProtocol.RespInviteGame",
+  "xy": 416,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 610
+ },
+ {
+  "name": "IMProtocol.NotifyInviteInfo",
+  "xy": 417,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 636
+ },
+ {
+  "name": "IMProtocol.ReqGetInviteInfo",
+  "xy": 418,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 689
+ },
+ {
+  "name": "IMProtocol.RespGetInviteInfo",
+  "xy": 419,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 709
+ },
+ {
+  "name": "IMProtocol.ReqReplyInviteGame",
+  "xy": 420,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 754
+ },
+ {
+  "name": "IMProtocol.RespReplyInviteGame",
+  "xy": 421,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 776
+ },
+ {
+  "name": "IMProtocol.NotifyReplyInviteGame",
+  "xy": 422,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 802
+ },
+ {
+  "name": "IMProtocol.ReqInviteddList",
+  "xy": 425,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 833
+ },
+ {
+  "name": "IMProtocol.RespInviteddList",
+  "xy": 426,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 853
+ },
+ {
+  "name": "IMProtocol.ReqFriendTableList",
+  "xy": 431,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 900
+ },
+ {
+  "name": "IMProtocol.RespFriendTableList",
+  "xy": 432,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 920
+ },
+ {
+  "name": "IMProtocol.RespWillJoinTable",
+  "xy": 437,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 997
+ },
+ {
+  "name": "IMProtocol.NotifyWillJoinTable",
+  "xy": 438,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1023
+ },
+ {
+  "name": "IMProtocol.ReqReplyFollow",
+  "xy": 439,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1052
+ },
+ {
+  "name": "IMProtocol.RespReplyFollow",
+  "xy": 440,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1076
+ },
+ {
+  "name": "IMProtocol.ReqFolloweddList",
+  "xy": 442,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1096
+ },
+ {
+  "name": "IMProtocol.RespFolloweddList",
+  "xy": 443,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1114
+ },
+ {
+  "name": "IMProtocol.ReqReserveGame",
+  "xy": 450,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1151
+ },
+ {
+  "name": "IMProtocol.RespReserveGame",
+  "xy": 451,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1173
+ },
+ {
+  "name": "IMProtocol.NotifyReserveGame",
+  "xy": 452,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1193
+ },
+ {
+  "name": "IMProtocol.ReqReplyReserveGame",
+  "xy": 453,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1228
+ },
+ {
+  "name": "IMProtocol.RespReplyReserveGame",
+  "xy": 454,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1253
+ },
+ {
+  "name": "IMProtocol.ReqQuickInvite",
+  "xy": 455,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1275
+ },
+ {
+  "name": "IMProtocol.RespQuickInvite",
+  "xy": 456,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1293
+ },
+ {
+  "name": "IMProtocol.ReqAllMessageList",
+  "xy": 457,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1313
+ },
+ {
+  "name": "IMProtocol.RespAllMessageList",
+  "xy": 458,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1333
+ },
+ {
+  "name": "IMProtocol.ReqTableInfo",
+  "xy": 459,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1379
+ },
+ {
+  "name": "IMProtocol.RespTableInfo",
+  "xy": 460,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1397
+ },
+ {
+  "name": "IMProtocol.ReqWillJoinTable",
+  "xy": 461,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 971
+ },
+ {
+  "name": "IMProtocol.ReqHistoryFriends",
+  "xy": 462,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1433
+ },
+ {
+  "name": "IMProtocol.RespHistoryFriends",
+  "xy": 463,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1451
+ },
+ {
+  "name": "IMProtocol.ReqLimitFriend",
+  "xy": 464,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1485
+ },
+ {
+  "name": "IMProtocol.RespLimitFriend",
+  "xy": 465,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1507
+ },
+ {
+  "name": "IMProtocol.ReqFriendInfo",
+  "xy": 466,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1531
+ },
+ {
+  "name": "IMProtocol.RespFriendInfo",
+  "xy": 467,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1551
+ },
+ {
+  "name": "IMProtocol.ReqGetApplys",
+  "xy": 468,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1590
+ },
+ {
+  "name": "IMProtocol.RespGetApplys",
+  "xy": 469,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1609
+ },
+ {
+  "name": "IMProtocol.ReqAddFriend",
+  "xy": 470,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1642
+ },
+ {
+  "name": "IMProtocol.RespAddFriend",
+  "xy": 471,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1661
+ },
+ {
+  "name": "IMProtocol.ReqDelFriend",
+  "xy": 472,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1680
+ },
+ {
+  "name": "IMProtocol.RespDelFriend",
+  "xy": 473,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1699
+ },
+ {
+  "name": "IMProtocol.ReqAddFriendState",
+  "xy": 474,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1718
+ },
+ {
+  "name": "IMProtocol.RespAddFriendState",
+  "xy": 475,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1737
+ },
+ {
+  "name": "IMProtocol.ReqDealFriendApply",
+  "xy": 476,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1768
+ },
+ {
+  "name": "IMProtocol.RespDealFriendApply",
+  "xy": 477,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1788
+ },
+ {
+  "name": "IMProtocol.NotifyFriendListChange",
+  "xy": 478,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1807
+ },
+ {
+  "name": "BagSysProtocol.ReqAppidList",
+  "xy": 501,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 133
+ },
+ {
+  "name": "BagSysProtocol.RespAppidList",
+  "xy": 502,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 151
+ },
+ {
+  "name": "BagSysProtocol.NotifyServerState",
+  "xy": 503,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 177
+ },
+ {
+  "name": "BagSysProtocol.ReqPlayerConnect",
+  "xy": 504,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 196
+ },
+ {
+  "name": "BagSysProtocol.RespPlayerConnect",
+  "xy": 505,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 213
+ },
+ {
+  "name": "BagSysProtocol.ReqKeepAlive",
+  "xy": 506,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 233
+ },
+ {
+  "name": "BagSysProtocol.RespKeepAlive",
+  "xy": 507,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 251
+ },
+ {
+  "name": "BagSysProtocol.ReqJoinBoxProp",
+  "xy": 601,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 271
+ },
+ {
+  "name": "BagSysProtocol.RespJoinBoxProp",
+  "xy": 602,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 288
+ },
+ {
+  "name": "BagSysProtocol.ReqPropsConfig",
+  "xy": 603,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 316
+ },
+ {
+  "name": "BagSysProtocol.ResPropsConfig",
+  "xy": 604,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 340
+ },
+ {
+  "name": "BagSysProtocol.ReqBackpackData",
+  "xy": 605,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 377
+ },
+ {
+  "name": "BagSysProtocol.RespBackpackData",
+  "xy": 606,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 411
+ },
+ {
+  "name": "BagSysProtocol.ReqUseProps",
+  "xy": 607,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 460
+ },
+ {
+  "name": "BagSysProtocol.RespUseProps",
+  "xy": 608,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 483
+ },
+ {
+  "name": "BagSysProtocol.ReqOperateProps",
+  "xy": 609,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 531
+ },
+ {
+  "name": "BagSysProtocol.RespOperateProps",
+  "xy": 610,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 553
+ },
+ {
+  "name": "BagSysProtocol.NotifyPropsAddMsg",
+  "xy": 611,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 573
+ },
+ {
+  "name": "BagSysProtocol.ReqGiftPackInfo",
+  "xy": 612,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 615
+ },
+ {
+  "name": "BagSysProtocol.RespGiftPackInfo",
+  "xy": 613,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BagSysProtocol.lua",
+  "line": 654
+ },
+ {
+  "name": "IMProtocol.ReqRealtimeGameRecord",
+  "xy": 3000,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1833
+ },
+ {
+  "name": "MatchLinkProtocol.ReqRealtimeGameRecord",
+  "xy": 3000,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 516
+ },
+ {
+  "name": "IMProtocol.RespRealtimeGameRecord",
+  "xy": 3001,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1857
+ },
+ {
+  "name": "MatchLinkProtocol.RespRealtimeGameRecord",
+  "xy": 3001,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 540
+ },
+ {
+  "name": "IMProtocol.ReqUnwatchRealtimeGameRecord",
+  "xy": 3002,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1897
+ },
+ {
+  "name": "MatchLinkProtocol.ReqUnwatchRealtimeGameRecord",
+  "xy": 3002,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 580
+ },
+ {
+  "name": "IMProtocol.RespUnwatchRealtimeGameRecord",
+  "xy": 3003,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/IMProtocol.lua",
+  "line": 1917
+ },
+ {
+  "name": "MatchLinkProtocol.RespUnwatchRealtimeGameRecord",
+  "xy": 3003,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 600
+ },
+ {
+  "name": "BoxDataProtocol.TransTo50Data",
+  "xy": 5050,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 46
+ },
+ {
+  "name": "BoxDataProtocol.ReqRankUserInfo",
+  "xy": 10000,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 310
+ },
+ {
+  "name": "BoxDataProtocol.RespRankUserInfo",
+  "xy": 10001,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 374
+ },
+ {
+  "name": "BoxDataProtocol.ReqTeaMemberList",
+  "xy": 10002,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 607
+ },
+ {
+  "name": "BoxDataProtocol.RespTeaMemberList",
+  "xy": 10003,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 634
+ },
+ {
+  "name": "BoxDataProtocol.ReqTeaHouseInfo",
+  "xy": 10006,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 749
+ },
+ {
+  "name": "BoxDataProtocol.RespTeaHouseInfo",
+  "xy": 10007,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 774
+ },
+ {
+  "name": "BoxDataProtocol.ReqTeaHouseTableInfo",
+  "xy": 10012,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 809
+ },
+ {
+  "name": "BoxDataProtocol.RespTeaHouseTableInfo",
+  "xy": 10013,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 831
+ },
+ {
+  "name": "BoxDataProtocol.ReqLatelyFightInfo",
+  "xy": 10014,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 681
+ },
+ {
+  "name": "BoxDataProtocol.RespLatelyFightInfo",
+  "xy": 10015,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/BoxDataProtocol.lua",
+  "line": 704
+ },
+ {
+  "name": "ToolMProtocol.PlayerInfo",
+  "xy": 11009,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1425
+ },
+ {
+  "name": "GameMProtocol.StartGame",
+  "xy": 11013,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 828
+ },
+ {
+  "name": "ToolMProtocol.StartGame",
+  "xy": 11013,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1026
+ },
+ {
+  "name": "ToolMXY.StartGame",
+  "xy": 11013,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1160
+ },
+ {
+  "name": "GameProtocol.TableInfo",
+  "xy": 11014,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/GameProtocol.lua",
+  "line": 43
+ },
+ {
+  "name": "GameMProtocol.TableInfo",
+  "xy": 11014,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 330
+ },
+ {
+  "name": "GameMXY.TableInfo",
+  "xy": 11014,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 324
+ },
+ {
+  "name": "GameMProtocol.ReqPlayerAct",
+  "xy": 11016,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 293
+ },
+ {
+  "name": "GameMXY.ReqPlayerAct",
+  "xy": 11016,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 285
+ },
+ {
+  "name": "ToolMProtocol.RespPlayerAct",
+  "xy": 11017,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 974
+ },
+ {
+  "name": "ToolMXY.RespPlayerAct",
+  "xy": 11017,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1078
+ },
+ {
+  "name": "GameMProtocol.PlayerStateInfo",
+  "xy": 11027,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 94
+ },
+ {
+  "name": "GameMXY.PlayerStateInfo",
+  "xy": 11027,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 82
+ },
+ {
+  "name": "GameMProtocol.PlayerNumInfo",
+  "xy": 11028,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 141
+ },
+ {
+  "name": "GameMXY.PlayerNumInfo",
+  "xy": 11028,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 129
+ },
+ {
+  "name": "ToolMProtocol.EnterRoomFinish",
+  "xy": 11041,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1010
+ },
+ {
+  "name": "ToolMXY.EnterRoomFinish",
+  "xy": 11041,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1142
+ },
+ {
+  "name": "GameMProtocol.ReqLeaveRoom",
+  "xy": 11073,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 796
+ },
+ {
+  "name": "ToolMProtocol.ReqLeaveRoom",
+  "xy": 11073,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1165
+ },
+ {
+  "name": "ToolMXY.ReqLeaveRoom",
+  "xy": 11073,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1309
+ },
+ {
+  "name": "GameMProtocol.RespLeaveRoom",
+  "xy": 11074,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 809
+ },
+ {
+  "name": "ToolMProtocol.RespLeaveRoom",
+  "xy": 11074,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1178
+ },
+ {
+  "name": "ToolMXY.RespLeaveRoom",
+  "xy": 11074,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1323
+ },
+ {
+  "name": "GameMProtocol.CheckAct",
+  "xy": 11079,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 910
+ },
+ {
+  "name": "ToolMProtocol.CheckAct",
+  "xy": 11079,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1124
+ },
+ {
+  "name": "ToolMXY.CheckAct",
+  "xy": 11079,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1263
+ },
+ {
+  "name": "GameMProtocol.ReqClientAward",
+  "xy": 11086,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 194
+ },
+ {
+  "name": "GameMXY.ReqClientAward",
+  "xy": 11086,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 183
+ },
+ {
+  "name": "GameMProtocol.WaitingStart",
+  "xy": 11091,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 208
+ },
+ {
+  "name": "GameMXY.WaitingStart",
+  "xy": 11091,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 198
+ },
+ {
+  "name": "GameMProtocol.WaitingEnd",
+  "xy": 11092,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 225
+ },
+ {
+  "name": "GameMXY.WaitingEnd",
+  "xy": 11092,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 215
+ },
+ {
+  "name": "ToolMProtocol.ReqPlayerConnect",
+  "xy": 11100,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1102
+ },
+ {
+  "name": "ToolMXY.ReqPlayerConnect",
+  "xy": 11100,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1237
+ },
+ {
+  "name": "GameMProtocol.PlayerLeave",
+  "xy": 11101,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 175
+ },
+ {
+  "name": "GameMXY.PlayerLeave",
+  "xy": 11101,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 164
+ },
+ {
+  "name": "ToolMProtocol.RespPlayerConnect",
+  "xy": 11103,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1139
+ },
+ {
+  "name": "ToolMXY.RespPlayerConnect",
+  "xy": 11103,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1280
+ },
+ {
+  "name": "GameMProtocol.PlayerLeaveEx_ToClient",
+  "xy": 11104,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 119
+ },
+ {
+  "name": "GameMXY.PlayerLeaveEx_ToClient",
+  "xy": 11104,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 107
+ },
+ {
+  "name": "GameMProtocol.ServerToClientMessage",
+  "xy": 11200,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 242
+ },
+ {
+  "name": "GameProtocolGT.ServerToClientMessage",
+  "xy": 11200,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/GameProtocolGT.lua",
+  "line": 46
+ },
+ {
+  "name": "GameMXY.ServerToClientMessage",
+  "xy": 11200,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 232
+ },
+ {
+  "name": "GameMProtocol.ClientToServerMessage",
+  "xy": 11201,
+  "proc": null,
+  "file": "hotfix-decrypted/src/newgold/GoldCommon/Protocols/GameMProtocol.lua",
+  "line": 272
+ },
+ {
+  "name": "GameProtocolGT.ClientToServerMessage",
+  "xy": 11201,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/GameProtocolGT.lua",
+  "line": 76
+ },
+ {
+  "name": "GameMXY.ClientToServerMessage",
+  "xy": 11201,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/GameMXY.lua",
+  "line": 263
+ },
+ {
+  "name": "ToolMXY.ReqPlayerConnect2",
+  "xy": 11310,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 386
+ },
+ {
+  "name": "ToolMXY.RespPlayerConnect2",
+  "xy": 11311,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 403
+ },
+ {
+  "name": "GameMProtocol.NotifyPromt",
+  "xy": 11329,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/GameMProtocol.lua",
+  "line": 1336
+ },
+ {
+  "name": "GameMProtocol.LeaveTemporarilyReq",
+  "xy": 11370,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/GameMProtocol.lua",
+  "line": 191
+ },
+ {
+  "name": "ToolMProtocol.PlayerConnect",
+  "xy": 12001,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 325
+ },
+ {
+  "name": "ToolMProtocol.PlayerData",
+  "xy": 12002,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 362
+ },
+ {
+  "name": "ToolMProtocol.ReqPlayerPlace",
+  "xy": 12003,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 535
+ },
+ {
+  "name": "ToolMProtocol.RespPlayerPlace",
+  "xy": 12004,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 573
+ },
+ {
+  "name": "ToolMProtocol.ReqPlayerGameData",
+  "xy": 12005,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 603
+ },
+ {
+  "name": "ToolMProtocol.RespPlayerGameData",
+  "xy": 12006,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 701
+ },
+ {
+  "name": "ToolMProtocol.ReqTempSessionID",
+  "xy": 12007,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1297
+ },
+ {
+  "name": "ToolMXY.ReqTempSessionID",
+  "xy": 12007,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1451
+ },
+ {
+  "name": "ToolMProtocol.RespTempSessionID",
+  "xy": 12008,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1322
+ },
+ {
+  "name": "ToolMXY.RespTempSessionID",
+  "xy": 12008,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1477
+ },
+ {
+  "name": "ToolMProtocol.LobbyPlayerConnect",
+  "xy": 12013,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 171
+ },
+ {
+  "name": "ToolMXY.LobbyPlayerConnect",
+  "xy": 12013,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 183
+ },
+ {
+  "name": "ToolMProtocol.ReqEAuth",
+  "xy": 12015,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 635
+ },
+ {
+  "name": "ToolMProtocol.RespEAuth",
+  "xy": 12016,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 672
+ },
+ {
+  "name": "ToolMProtocol.ReqFileVer",
+  "xy": 12025,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 774
+ },
+ {
+  "name": "ToolMProtocol.RespFileVer",
+  "xy": 12026,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 803
+ },
+ {
+  "name": "ToolMProtocol.ReqFile",
+  "xy": 12027,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 849
+ },
+ {
+  "name": "ToolMProtocol.RespFile",
+  "xy": 12028,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 884
+ },
+ {
+  "name": "ToolMProtocol.ReqPlayerCnt",
+  "xy": 12044,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1235
+ },
+ {
+  "name": "ToolMXY.ReqPlayerCnt",
+  "xy": 12044,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1384
+ },
+ {
+  "name": "ToolMProtocol.RespPlayerCnt",
+  "xy": 12045,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1259
+ },
+ {
+  "name": "ToolMXY.RespPlayerCnt",
+  "xy": 12045,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1409
+ },
+ {
+  "name": "ToolMProtocol.RespAwardInfo",
+  "xy": 12046,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1210
+ },
+ {
+  "name": "ToolMXY.RespAwardInfo",
+  "xy": 12046,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1357
+ },
+ {
+  "name": "ToolMProtocol.ReqDiBao",
+  "xy": 12049,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 1375
+ },
+ {
+  "name": "ToolMXY.ReqDiBao",
+  "xy": 12049,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1533
+ },
+ {
+  "name": "ToolMProtocol.ReqDispatchRoom",
+  "xy": 13501,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 936
+ },
+ {
+  "name": "ToolMXY.ReqDispatchRoom",
+  "xy": 13501,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1039
+ },
+ {
+  "name": "ToolMProtocol.RespDispatchRoom",
+  "xy": 13502,
+  "proc": null,
+  "file": "hotfix-decrypted/src/game/Common/Protocols/ToolMProtocol.lua",
+  "line": 955
+ },
+ {
+  "name": "ToolMXY.RespDispatchRoom",
+  "xy": 13502,
+  "proc": null,
+  "file": "hotfix-decrypted/src/GameCommon/Code/GameProtocol/ToolMXY.lua",
+  "line": 1058
+ },
+ {
+  "name": "MatchLinkProtocol.ReqJoin",
+  "xy": 25100,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 149
+ },
+ {
+  "name": "MatchLinkProtocol.RespJoin",
+  "xy": 25101,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 175
+ },
+ {
+  "name": "MatchLinkProtocol.ReqMatchAwardLog",
+  "xy": 25102,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 63
+ },
+ {
+  "name": "MatchLinkProtocol.RespMatchAwardLog",
+  "xy": 25103,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 95
+ },
+ {
+  "name": "MatchLinkProtocol.RespMatchMsgToClient",
+  "xy": 25105,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 127
+ },
+ {
+  "name": "MatchLinkProtocol.ReqInvite",
+  "xy": 25106,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 195
+ },
+ {
+  "name": "MatchLinkProtocol.RespInvite",
+  "xy": 25107,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 246
+ },
+ {
+  "name": "MatchLinkProtocol.ReqGetOrSetHead",
+  "xy": 25110,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 298
+ },
+ {
+  "name": "MatchLinkProtocol.RespGetOrSetHead",
+  "xy": 25111,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 328
+ },
+ {
+  "name": "MatchLinkProtocol.BroadcastMessage",
+  "xy": 25112,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 386
+ },
+ {
+  "name": "MatchLinkProtocol.ReqInviteMore",
+  "xy": 25114,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 413
+ },
+ {
+  "name": "MatchLinkProtocol.ReqStopSvrMsg",
+  "xy": 25115,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 475
+ },
+ {
+  "name": "MatchLinkProtocol.RespStopSvrMsg",
+  "xy": 25116,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 492
+ },
+ {
+  "name": "MatchLinkProtocol.RespNotifyTaskPercent",
+  "xy": 25201,
+  "proc": null,
+  "file": "lua-src-apk/app/Protocols/MatchLinkProtocol.lua",
+  "line": 356
+ }
+]

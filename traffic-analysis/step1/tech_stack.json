@@ -1,0 +1,241 @@
+{
+ "package": "com.xm.zjgamecenter",
+ "versionCode": 154,
+ "versionName": "1.5.4",
+ "minSdkVersion": 21,
+ "targetSdkVersion": 28,
+ "compileSdkVersion": 23,
+ "evidence": {
+  "manifest": "decompiled/apktool/AndroidManifest.xml",
+  "apktool_yml": "decompiled/apktool/apktool.yml (versionCode/versionName/minSdk/targetSdk)"
+ },
+ "application_class": "com.ymnsdk.replugin.YmnRepluginApplication",
+ "launcher_activity": {
+  "exported_launcher": "com.bianfeng.ymnsdk.sysfunc.EmptyActivity",
+  "real_main_activity": "org.cocos2dx.lua.AppActivity",
+  "evidence": "AndroidManifest.xml:363 meta-data PUSH_APP_MAIN_ACTIVITY=org.cocos2dx.lua.AppActivity; :53 AppActivity singleTask sensorLandscape"
+ },
+ "usesCleartextTraffic": true,
+ "networkSecurityConfig": null,
+ "permissions_total": 45,
+ "high_risk_permissions": [
+  {
+   "name": "android.permission.READ_EXTERNAL_STORAGE",
+   "declared": true,
+   "usage": "热更/资源写入与 SDK 通用",
+   "note": "配合 hotfix 落盘"
+  },
+  {
+   "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+   "declared": true,
+   "usage": "热更包下载写入 writablePath/hotfix",
+   "note": "main.lua addSearchPath(writablePath..'hotfix/...')"
+  },
+  {
+   "name": "android.permission.MANAGE_EXTERNAL_STORAGE",
+   "declared": false,
+   "usage": "-",
+   "note": "未声明"
+  },
+  {
+   "name": "android.permission.READ_PHONE_STATE",
+   "declared": true,
+   "usage": "设备指纹/统计 SDK(TalkingData/热云/个推)",
+   "note": "常见于设备标识采集"
+  },
+  {
+   "name": "android.permission.READ_SMS",
+   "declared": false,
+   "usage": "-",
+   "note": "未声明"
+  },
+  {
+   "name": "android.permission.RECEIVE_SMS",
+   "declared": false,
+   "usage": "-",
+   "note": "未声明"
+  },
+  {
+   "name": "android.permission.CAMERA",
+   "declared": false,
+   "usage": "-",
+   "note": "未声明"
+  },
+  {
+   "name": "android.permission.RECORD_AUDIO",
+   "declared": true,
+   "usage": "语音聊天 com.bianfeng.fastvo(Speex)",
+   "note": "房卡/牌局语音"
+  },
+  {
+   "name": "android.permission.ACCESS_FINE_LOCATION",
+   "declared": true,
+   "usage": "高德定位 com.amap / 防作弊地域校验",
+   "note": "另有 ACCESS_BACKGROUND_LOCATION"
+  },
+  {
+   "name": "android.permission.QUERY_ALL_PACKAGES",
+   "declared": true,
+   "usage": "SDK 环境采集/双开检测面",
+   "note": "高危,可被用于应用列表采集"
+  },
+  {
+   "name": "android.permission.SYSTEM_ALERT_WINDOW",
+   "declared": true,
+   "usage": "悬浮窗(广告/插件 Activity)",
+   "note": ""
+  },
+  {
+   "name": "android.permission.REQUEST_INSTALL_PACKAGES",
+   "declared": true,
+   "usage": "热更/插件 APK 安装、360 Zeus 插件",
+   "note": "高危"
+  },
+  {
+   "name": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+   "declared": false,
+   "usage": "-",
+   "note": "未声明"
+  },
+  {
+   "name": "android.permission.READ_LOGS",
+   "declared": true,
+   "usage": "日志采集(疑似 Bugly/调试)",
+   "note": "高危,普通市场应用不应需要"
+  },
+  {
+   "name": "android.permission.WRITE_SETTINGS",
+   "declared": true,
+   "usage": "系统设置写入",
+   "note": ""
+  },
+  {
+   "name": "android.permission.WRITE_APN_SETTINGS",
+   "declared": true,
+   "usage": "APN 写入(历史 SDK 残留)",
+   "note": "高危"
+  },
+  {
+   "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+   "declared": true,
+   "usage": "存储挂载(历史 SDK 残留)",
+   "note": "高危"
+  }
+ ],
+ "components": {
+  "activity_count": 358,
+  "service_count": 37,
+  "receiver_count": 11,
+  "provider_count": 37,
+  "exported_count": 17,
+  "exported_components": [
+   "com.xm.zjgamecenter.wxapi.WXEntryActivity",
+   "com.xm.zjgamecenter.wxapi.WXPayEntryActivity",
+   "com.bianfeng.ymnsdk.sysfunc.EmptyActivity(launcher)",
+   "com.bianfeng.privategetui.GetuiActivity",
+   "com.bianfeng.privategetui.GetuiPushService",
+   "com.bianfeng.privategetui.YmnGetuiIntentService",
+   "com.bianfeng.replugin.HostProcessActivity",
+   "com.bianfeng.ymnsdk.ymnlink.YmnLinkActivity",
+   "com.bianfeng.permission.AddPermissionDialog",
+   "com.alipay.sdk.app.PayResultActivity/H5AuthActivity/AlipayResultActivity",
+   "com.igexin.sdk.GActivity/GetuiActivity/PushActivity/MiuiPushReceiver/FlymePushReceiver",
+   "com.huawei.hms.support.api.push.PushProvider/HmsMsgService",
+   "com.xiaomi.mipush.sdk.PushMessageHandler/MessageHandleService",
+   "com.meizu.cloud.pushsdk.NotificationService",
+   "com.vivo.push.sdk.service.CommandClientService",
+   "com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy 等",
+   "com.mbridge.msdk.foundation.aidl.VideoRequestService"
+  ],
+  "evidence": "decompiled/apktool/AndroidManifest.xml"
+ },
+ "deeplink_scheme": "wxapi 回调 + 各 SDK 回调;未见自研 scheme 深链(以 raw_endpoints.json 为准)",
+ "engine": "Cocos2d-x 3.13 Lua (libcocos2dlua.so 23.6MB, meta-data android.app.lib_name=cocos2dlua)",
+ "game_logic_layer": "Lua(897 个加密 .luac 位于 assets/src; 明文见仓库 lua-src-apk); Java 层无玩法代码",
+ "third_party_sdks": [
+  {
+   "name": "微信 SDK(登录/分享/支付)",
+   "evidence": "com/tencent/mm, com.xm.zjgamecenter.wxapi.WX(Pay)EntryActivity.java",
+   "risk": "支付链路"
+  },
+  {
+   "name": "支付宝 SDK",
+   "evidence": "com/alipay, com.alipay.sdk.app.* exported",
+   "risk": "支付链路"
+  },
+  {
+   "name": "个推推送 + 小米/华为/OPPO/vivo/魅族厂商通道",
+   "evidence": "com/igexin, com/xiaomi/mipush, com/huawei, com/heytap, com/meizu, vivo meta-data",
+   "risk": "设备标识采集"
+  },
+  {
+   "name": "穿山甲/快手/Sigmob/TopOn(AnyThink)/MBridge 广告聚合",
+   "evidence": "com/bytedance, com/kwad, com/sigmob, api.anythinktech.com, com/mbridge",
+   "risk": "广告埋点/设备指纹"
+  },
+  {
+   "name": "TalkingData / TrackingIO / 热云(reyun)",
+   "evidence": "meta-data TD_SDK_APP_ID, com/bianfeng/trackingio, com/reyun",
+   "risk": "统计埋点"
+  },
+  {
+   "name": "高德定位",
+   "evidence": "com/amap, meta-data com.amap.api.v2.apikey",
+   "risk": "位置采集"
+  },
+  {
+   "name": "移动一键登录 cmic",
+   "evidence": "com/cmic, libsig_native.so, meta-data YIDONGLOGIN_APPKEY",
+   "risk": "手机号认证"
+  },
+  {
+   "name": "Bugly 崩溃上报",
+   "evidence": "libBugly.so/libBugly_Native.so",
+   "risk": "低"
+  },
+  {
+   "name": "阿里聚安全 SecurityGuard",
+   "evidence": "libsgcore.so, com/alibaba",
+   "risk": "风控 SDK,带环境信号采集"
+  },
+  {
+   "name": "360 Zeus 插件框架",
+   "evidence": "libzeus_direct_dex.so, meta-data ZEUS_PLUGIN_*",
+   "risk": "动态加载 dex,扩大攻击面"
+  },
+  {
+   "name": "自研 ymnsdk/replugin 插件化 + 差分补丁",
+   "evidence": "com/bianfeng/replugin, com/ymnsdk/replugin, libapkpatch.so, assets/plugins.ymn",
+   "risk": "自研插件/热更链路"
+  }
+ ],
+ "hybrid_webview": {
+  "used": true,
+  "evidence": "assets/WebViewJavascriptBridge.js, org/cocos2dx/lib/Cocos2dxWebViewHelper.java, com/bianfeng/jsbridge, com/bianfeng/h5library",
+  "note": "广告 SDK(快手/穿山甲)大量使用 addJavascriptInterface"
+ },
+ "jni_native": {
+  "used": true,
+  "so_count_per_abi": 10,
+  "abis": [
+   "arm64-v8a",
+   "armeabi-v7a"
+  ],
+  "key_so": "libcocos2dlua.so(引擎+资源加密 hdq/Blowfish/XXTEA)",
+  "evidence": "apktool/lib/<abi>/"
+ },
+ "hot_update": {
+  "used": true,
+  "evidence": "main.lua addSearchPath(writablePath..'hotfix/src/'), app/hotupdate/universe/hotfix/HotFixManager.lua, libapkpatch.so",
+  "note": "Lua 热更优先于 APK 内置 luac 加载"
+ },
+ "plugin_framework": {
+  "used": true,
+  "evidence": "com/bianfeng/replugin, com/ymnsdk/replugin.YmnRepluginApplication, 360 Zeus"
+ },
+ "packer_shell": {
+  "used": false,
+  "evidence": "无 libjiagu/爱加密/梆梆特征; 资源加密为自研 hdq(libcocos2dlua.so)",
+  "note": "非传统 DEX 加固"
+ }
+}

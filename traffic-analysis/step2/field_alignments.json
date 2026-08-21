@@ -1,0 +1,158 @@
+{
+ "srs_frame_format": {
+  "header": "[dir:1B][flag:1B=0x40|0x80][len:u16le][xy:u16le][proc:u16le][appid:u32le] 12字节",
+  "dir": "1=c2s, 0=s2c",
+  "flag": "0x40=常规帧; 0x80=protobuf通道帧(proc 1147 roommatch_cli / 116 nyx_client)",
+  "len": "帧体长度(不含12字节头)",
+  "appid": "服务端模块 appid(如大厅 9427); 上行通常为 0",
+  "body_cipher": "帧体 = 明文 XOR keystream; keystream 每连接一份、双向共用、每帧从偏移0重置; s2c proc!=0 不加密",
+  "handshake": "c2s xy=1 len=4 body=fa60a522(固定魔数,服务端xy=1回显) -> c2s xy=3 len=0 -> s2c xy=4 len=17/33(密钥材料,native生成) -> c2s xy=5 PlayerConnect -> s2c xy=6 PlayerData",
+  "evidence": [
+   "s06_phone_gold_ingame.pcap flow 10.215.173.1:41104-47.97.154.79:5723: 286次 IMProtocol.ReqKeepAlive 密文恒定为 88732abe(同连接同明文同密文->流密钥逐帧重置)",
+   "s06 flow 10.215.173.1:45430-47.96.0.227:7777: c2s msgPlay 与 s2c msgPlay 广播 17/17 对赌一致 -> ks[4]=0x88,ks[5]=0x91",
+   "s06 flow 10.215.173.1:41104-47.97.154.79:5723: RespSRSAddr(proc0,xy15) 用 c2s 同 ks 解出 nAppID=9428+u8len+IP字符串 -> 双向共用同一 keystream",
+   "frame_report.json: 全部 6167 帧仅 s06_srs_7777.c2s.bin@502 一处 resync(PCAPdroid 丢包缺口)"
+  ],
+  "lua_ref": "lua-src-apk/app/Net/TcpConnection.lua:9-25 (un.network.TcpConnection native 封装); 加解密在 libcocos2dlua.so 内"
+ },
+ "confirmed_field_decodes": [
+  {
+   "message": "SRSProtocol.PlayerConnect (proc0,xy5,c2s,len80)",
+   "fields": {
+    "clienttype_u8": 2,
+    "usertype_u8": 7,
+    "areaid_u32le": 7109
+   },
+   "field_note": "usertype=7=SESSION 自动重登; 4 条连接解码一致",
+   "traffic_evidence": "s06_phone_gold_ingame.pcap flow 10.215.173.1:45430-47.96.0.227:7777 stream_offset=28, dec_hex=0207c51b0000(前6字节,ks覆盖6)",
+   "code_ref": "hotfix-decrypted/src/app/Protocols/SRSProtocol.lua:32 (writeUInt8 clienttype/writeUInt8 usertype/writeUInt32 areaid...)",
+   "confidence": "confirmed"
+  },
+  {
+   "message": "SRSProtocol.PlayerData (proc0,xy6,s2c)",
+   "fields": {
+    "flag_u8": 0,
+    "areaid_i32le": 7109
+   },
+   "field_note": "flag=0 登录成功; areaid 与 PlayerConnect 一致",
+   "traffic_evidence": "s06 flow 10.215.173.1:45430-47.96.0.227:7777 xy=6 帧, ks 覆盖前6字节",
+   "code_ref": "hotfix-decrypted/src/app/Protocols/SRSProtocol.lua:150",
+   "confidence": "partial(仅前6字节,后续 nickname/sessionid 未覆盖)"
+  },
+  {
+   "message": "SRSProtocol.RespSRSAddr (proc0,xy15,s2c)",
+   "fields": {
+    "nAppID_u16le": [
+     9428,
+     9200,
+     9254,
+     9201,
+     5321,
+     5319,
+     5320,
+     9253,
+     9427
+    ],
+    "strlen_u8": [
+     12,
+     14
+    ]
+   },
+   "field_note": "模块地址簿应答; writeString=u8长度前缀+字节(由本消息与 TaskProtocol.RespTaskProtocol 双重实证)",
+   "traffic_evidence": "s06 flow 10.215.173.1:41104-47.97.154.79:5723 9帧 dec 前3字节",
+   "code_ref": "hotfix-decrypted/src/app/Protocols/SRSProtocol.lua:516",
+   "confidence": "confirmed(nAppID/strlen); IP 字符段 ks 未扩展, unknown"
+  },
+  {
+   "message": "GameMProtocol.ClientToServerMessage (proc1,xy11201,c2s) 包头",
+   "fields": {
+    "cmdid_u16le": "见 gamem_cmd 分布(22=msgBaseClientForwardEx×374, 521=msgEndWait×197, 539=msgPlay×17, 543=msgAction×4, 1028=msgSpeak×4)",
+    "msglen_u16le": "= len(body)-4"
+   },
+   "traffic_evidence": "s06 flow 10.215.173.1:45430-47.96.0.227:7777 610帧, msglen 锚点 0 冲突",
+   "code_ref": "hotfix-decrypted/src/game/Common/Protocols/GameMProtocol.lua:297 (writeUInt16 cmdid/writeUInt16 msglen/write message)",
+   "confidence": "confirmed"
+  },
+  {
+   "message": "GameProtocol.msgPlay (cmdid=539) 出牌",
+   "fields": {
+    "nSeat_u8": "2(第1局)/3(后续局,换桌换座)",
+    "nMah_u8": [
+     66,
+     52,
+     25,
+     22,
+     19,
+     81
+    ],
+    "nActionID_i32": "ks未覆盖"
+   },
+   "traffic_evidence": "s06 flow 10.215.173.1:45430-47.96.0.227:7777 17帧; 每帧 nSeat/nMah 与紧随的 s2c msgPlay 广播逐字节一致(17/17)",
+   "code_ref": "hotfix-decrypted/src/game/Mahjong/BasicMahjong/Protocols/GameProtocol.lua:840",
+   "confidence": "confirmed"
+  },
+  {
+   "message": "GameProtocol.msgAction (cmdid=543) 吃碰杠",
+   "fields": {
+    "nSeat_u8": [
+     2,
+     3
+    ],
+    "tComb.nFlag_u8": [
+     1,
+     2
+    ]
+   },
+   "traffic_evidence": "s06 flow 10.215.173.1:45430-47.96.0.227:7777 4帧 dec 前6字节",
+   "code_ref": "hotfix-decrypted/src/game/Mahjong/BasicMahjong/Protocols/GameProtocol.lua:941",
+   "confidence": "confirmed(前两字段); nFromSeat/nCount/nMahs 未覆盖"
+  },
+  {
+   "message": "MatchLinkProtocol.ReqJoin (proc1006,xy25100,c2s,len16) / RespJoin(xy25101)",
+   "fields": {
+    "askid_i32le": 0,
+    "areaid/numid/matchlistappid": "ks仅覆盖前4字节,unknown"
+   },
+   "field_note": "金币场匹配入队/保活, 30秒周期; RespJoin 明文回显 askid=0",
+   "traffic_evidence": "s06 flow 10.215.173.1:41104-47.97.154.79:5723 46帧 c2s 密文恒定 88732abe46a75cc1..., ks=88732abe -> askid=0",
+   "code_ref": "hotfix-decrypted/src/app/Protocols/MatchLinkProtocol.lua:144(Req)/170(Resp)",
+   "confidence": "confirmed(askid); 其余字段 unknown"
+  },
+  {
+   "message": "RoomProtocol.ReqGetGoldRoomInfo (proc84,xy24) / RespGetGoldRoomInfo(xy25)",
+   "fields": {
+    "askid_i32le": "1..24 递增",
+    "size_i32le": 0
+   },
+   "traffic_evidence": "s06 flow 10.215.173.1:44792-47.96.0.227:7777 24对; 24/24 对回显一致 -> ks=9deab9f1",
+   "code_ref": "hotfix-decrypted/src/app/Protocols/RoomProtocol.lua:555(Req)/579(Resp)",
+   "confidence": "confirmed"
+  },
+  {
+   "message": "IMProtocol.ReqKeepAlive (proc100,xy306) / ReqPlayerConnect(xy304)",
+   "fields": {
+    "askid_i32le": 0
+   },
+   "traffic_evidence": "s06 flow 10.215.173.1:41104-47.97.154.79:5723 286帧密文恒定 88732abe; 与 RespKeepAlive/RespPlayerConnect 回显交叉一致",
+   "code_ref": "hotfix-decrypted/src/app/Protocols/IMProtocol.lua:283/245",
+   "confidence": "confirmed"
+  },
+  {
+   "message": "TaskProtocol.RespTaskProtocol (proc120,xy12,s2c,明文)",
+   "fields": {
+    "nAskId_i32le": 1030,
+    "nAreaTypeId_i32le": 934,
+    "nProtoId_i32le": 0,
+    "acData_string": "[]"
+   },
+   "traffic_evidence": "s03_lobby.pcap 明文帧 body=06040000a603000000000000025b5d (u8 strlen 实证)",
+   "code_ref": "hotfix-decrypted/src/app/Protocols/TaskProtocol.lua:228",
+   "confidence": "confirmed"
+  }
+ ],
+ "gold_dispatch_semantics": {
+  "conclusion": "s06 实机金币场为 MatchLink 连续调度: MatchLinkProtocol.ReqJoin(30s周期入队/保活,proc1006) -> 撮合后进桌(GameMProtocol proc1 通道, 47.96.0.227:7777) -> 4 完整对局(每局 msgStartGame(513)->...->msgHu(541)->msgEndResult(549)->msgResult(1026)->msgEndGame(514)) -> 局间回到匹配流继续 ReqJoin。 DispatchProtocol(proc147 队列4-8) 全场景 0 帧 = 旧链路 code_only。",
+  "evidence": "timeline_s06_phone_gold_ingame.json: msgStartGame@169.8/531.1/813.0/1142.1(相对首包秒), 每局结束 msgEndResult+msgResult+msgEndGame; 匹配流(5701/5723) ReqJoin/RespJoin 46对, ~30s 周期",
+  "note": "与仓库 AGENTS.md 约定一致: 金币场一次性牌桌, 结算后重新匹配; 非房卡 NEXT_ROUND 模型"
+ }
+}

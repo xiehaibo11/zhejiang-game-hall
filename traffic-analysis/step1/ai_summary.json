@@ -1,0 +1,2614 @@
+{
+  "summary_meta": {
+    "tool": "ai_summarizer.py",
+    "generated_at": "2026-08-20T12:58:56+00:00",
+    "output_dir": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/traffic-analysis",
+    "top_n": 25,
+    "sources_available": {
+      "raw_endpoints": true,
+      "raw_secrets": true,
+      "raw_native_bridges": true,
+      "raw_env_guards": true,
+      "env_guard_report": true,
+      "frida_bypass_plan": true
+    },
+    "sources_coverage": "6/6"
+  },
+  "quick_overview": {
+    "has_urls": true,
+    "total_raw_endpoint_hits": 15998,
+    "base_url_count": 15,
+    "has_secrets": true,
+    "real_secret_count": 3477,
+    "critical_secret_count": 13,
+    "has_native_bridges": true,
+    "loaded_library_count": 10,
+    "jsbridge_interface_count": 7,
+    "has_env_guards": true,
+    "guard_type_count": 8,
+    "phase2_blocking_count": 7,
+    "cross_signals": 4
+  },
+  "endpoints": {
+    "available": true,
+    "total_raw_hits": 15998,
+    "base_urls": [
+      {
+        "url": "ymnsdk",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 404
+      },
+      {
+        "url": "Invalid URL host",
+        "source": "jadx/sources/okhttp3/HttpUrl.java",
+        "line": 531
+      },
+      {
+        "url": "https://webcast-open.douyin.com",
+        "source": "jadx/sources/com/bytedance/android/openliveplugin/material/LiveInitMaterialManager.java",
+        "line": 19
+      },
+      {
+        "url": "Zeus/server_pangle",
+        "source": "jadx/sources/com/bytedance/pangle/log/ZeusLogger.java",
+        "line": 23
+      },
+      {
+        "url": "+ str +",
+        "source": "jadx/sources/com/sigmob/sdk/base/common/ah.java",
+        "line": 43
+      },
+      {
+        "url": "qq.com",
+        "source": "jadx/sources/com/tencent/open/SocialApiIml.java",
+        "line": 232
+      },
+      {
+        "url": "+ host +",
+        "source": "jadx/sources/com/tencent/open/utils/j.java",
+        "line": 40
+      },
+      {
+        "url": "A",
+        "source": "jadx/sources/com/tencent/open/log/g.java",
+        "line": 16
+      },
+      {
+        "url": "+ this.b +",
+        "source": "jadx/sources/com/tkay/expressad/exoplayer/g/b/i.java",
+        "line": 73
+      },
+      {
+        "url": "+ str2 +",
+        "source": "jadx/sources/com/tkay/core/common/e/a.java",
+        "line": 216
+      },
+      {
+        "url": "-",
+        "source": "jadx/sources/com/xiaomi/mipush/sdk/Constants.java",
+        "line": 7
+      },
+      {
+        "url": "url_host",
+        "source": "jadx/sources/com/ss/android/socialbase/downloader/constants/MonitorConstants.java",
+        "line": 79
+      },
+      {
+        "url": "https://api-push.in.meizu.com",
+        "source": "jadx/sources/com/meizu/cloud/pushsdk/constants/PushConstants.java",
+        "line": 157
+      },
+      {
+        "url": "push-statics.in.meizu.com",
+        "source": "jadx/sources/com/meizu/cloud/pushsdk/constants/PushConstants.java",
+        "line": 158
+      },
+      {
+        "url": "https://api-push.meizu.com",
+        "source": "jadx/sources/com/meizu/cloud/pushsdk/constants/PushConstants.java",
+        "line": 159
+      }
+    ],
+    "api_endpoints": [
+      {
+        "value": "http://schemas.android.com/apk/res/android",
+        "type": "full_url",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 2
+      },
+      {
+        "value": "https://dh-api.imeete.com",
+        "type": "full_url",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 51
+      },
+      {
+        "value": "https://dh-api-bak.imeete.com",
+        "type": "full_url",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 52
+      },
+      {
+        "value": "https://www.hzbianqu.com/game_center/game_rule/1/5040/3.html",
+        "type": "full_url",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 369
+      },
+      {
+        "value": "https://api.bianfeng.com",
+        "type": "full_url",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 373
+      },
+      {
+        "value": "https://www.hzbianqu.com/protocol.html",
+        "type": "full_url",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 378
+      },
+      {
+        "value": "http://abroad.apilocate.amap.com/mobile/binary",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/fx.java",
+        "line": 461
+      },
+      {
+        "value": "https://restapi.amap.com/rest/aaid/get",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/af.java",
+        "line": 32
+      },
+      {
+        "value": "http://restapi.amap.com/rest/aaid/get",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/af.java",
+        "line": 32
+      },
+      {
+        "value": "http://restsdk.amap.com",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/v.java",
+        "line": 31
+      },
+      {
+        "value": "https://restsdk.amap.com/sdk/compliance/params",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/ax.java",
+        "line": 33
+      },
+      {
+        "value": "http://restsdk.amap.com/sdk/compliance/params",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/ax.java",
+        "line": 33
+      },
+      {
+        "value": "http://apilocate.amap.com/mobile/binary",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/fr.java",
+        "line": 22
+      },
+      {
+        "value": "http://dualstack-a.apilocate.amap.com/mobile/binary",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/fr.java",
+        "line": 23
+      },
+      {
+        "value": "http://cgicol.amap.com/collection/collectData?src=baseCol&ver=v74&",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/dd.java",
+        "line": 22
+      },
+      {
+        "value": "https://restsdk.amap.com/v3/iasdkauth",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/m.java",
+        "line": 151
+      },
+      {
+        "value": "https://dualstack-arestapi.amap.com/v3/iasdkauth",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/m.java",
+        "line": 183
+      },
+      {
+        "value": "https://adiu.amap.com/ws/device/adius",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/bn.java",
+        "line": 28
+      },
+      {
+        "value": "http://restsdk.amap.com/v3/place/text?",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/a.java",
+        "line": 558
+      },
+      {
+        "value": "http://restsdk.amap.com/v3/config/district?",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/a.java",
+        "line": 560
+      },
+      {
+        "value": "http://restsdk.amap.com/v3/place/around?",
+        "type": "full_url",
+        "source": "jadx/sources/com/loc/a.java",
+        "line": 566
+      },
+      {
+        "value": "https://%s%s",
+        "type": "full_url",
+        "source": "jadx/sources/com/bykv/vk/openvk/api/plugin/pt.java",
+        "line": 162
+      },
+      {
+        "value": "http://xmlpull.org/v1/doc/features.html#indent-output",
+        "type": "full_url",
+        "source": "jadx/sources/com/ta/utdid2/b/a/e.java",
+        "line": 24
+      },
+      {
+        "value": "https://webcast-open.douyin.com",
+        "type": "full_url",
+        "source": "jadx/sources/com/bytedance/android/openliveplugin/material/LiveInitMaterialManager.java",
+        "line": 19
+      },
+      {
+        "value": "https://webcast-open.douyin.com/webcast/openapi/pangle/setting/?app_id=",
+        "type": "full_url",
+        "source": "jadx/sources/com/bytedance/android/openliveplugin/material/LiveInitMaterialManager.java",
+        "line": 58
+      }
+    ],
+    "retrofit_endpoints": [],
+    "deeplink_configs": [
+      {
+        "value": "lscollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 55
+      },
+      {
+        "value": "wzcollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 56
+      },
+      {
+        "value": "shukewenzhoucollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 57
+      },
+      {
+        "value": "hmqshare",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 58
+      },
+      {
+        "value": "bfhmq",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 59
+      },
+      {
+        "value": "kuailaitzcollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 60
+      },
+      {
+        "value": "hzmj",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 61
+      },
+      {
+        "value": "quzhoucollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 62
+      },
+      {
+        "value": "ruiancollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 63
+      },
+      {
+        "value": "bfzzmj",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 64
+      },
+      {
+        "value": "bbhzmj",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 65
+      },
+      {
+        "value": "yueqingcollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 66
+      },
+      {
+        "value": "nbcollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 68
+      },
+      {
+        "value": "ningbocollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 69
+      },
+      {
+        "value": "jxmj",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 70
+      },
+      {
+        "value": "yuepaicollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 71
+      },
+      {
+        "value": "ypchongjimj",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 72
+      },
+      {
+        "value": "zhejiangcollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 73
+      },
+      {
+        "value": "sxcollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 74
+      },
+      {
+        "value": "ZheJiangCollection",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 404
+      },
+      {
+        "value": "tbopen",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 708
+      },
+      {
+        "value": "https",
+        "type": "deeplink_scheme",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 714
+      },
+      {
+        "value": "<category android:name=\"android.intent.category.BROWSABLE",
+        "type": "browsable_category",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 77
+      },
+      {
+        "value": "com.alipay.sdk.app.PayResultActivity",
+        "type": "exported_component",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 389
+      },
+      {
+        "value": "com.alipay.sdk.app.AlipayResultActivity",
+        "type": "exported_component",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 390
+      }
+    ],
+    "request_wrappers": [
+      {
+        "value": "import okhttp3.internal.cache.CacheInterceptor;",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 6
+      },
+      {
+        "value": "import okhttp3.internal.connection.ConnectInterceptor;",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 7
+      },
+      {
+        "value": "import okhttp3.internal.http.BridgeInterceptor;",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 9
+      },
+      {
+        "value": "import okhttp3.internal.http.CallServerInterceptor;",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 10
+      },
+      {
+        "value": "import okhttp3.internal.http.RealInterceptorChain;",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 11
+      },
+      {
+        "value": "import okhttp3.internal.http.RetryAndFollowUpInterceptor;",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 12
+      },
+      {
+        "value": "final OkHttpClient client;",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 18
+      },
+      {
+        "value": "final RetryAndFollowUpInterceptor retryAndFollowUpInterceptor;",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 23
+      },
+      {
+        "value": "private RealCall(OkHttpClient okHttpClient, Request request, boolean z) {",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 25
+      },
+      {
+        "value": "this.retryAndFollowUpInterceptor = new RetryAndFollowUpInterceptor(okHttpClient, z);",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 29
+      },
+      {
+        "value": "static RealCall newRealCall(OkHttpClient okHttpClient, Request request, boolean z) {",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 32
+      },
+      {
+        "value": "Response responseWithInterceptorChain = getResponseWithInterceptorChain();",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 67
+      },
+      {
+        "value": "if (responseWithInterceptorChain != null) {",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 68
+      },
+      {
+        "value": "return responseWithInterceptorChain;",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 69
+      },
+      {
+        "value": "this.retryAndFollowUpInterceptor.setCallStackTrace(Platform.get().getStackTraceForCloseable(\"response.body().close()\"));",
+        "type": "request_wrapper_def",
+        "source": "jadx/sources/okhttp3/RealCall.java",
+        "line": 82
+      }
+    ],
+    "crypto_field_names": [
+      "signature",
+      "mac",
+      "data",
+      "hmac",
+      "TOKEN",
+      "iv",
+      "timestamp",
+      "sig",
+      "sign",
+      "secretkey",
+      "token",
+      "nonce",
+      "payload",
+      "Signature",
+      "timeStamp",
+      "secretKey",
+      "Secretkey",
+      "SecretKey",
+      "DATA",
+      "HMAC"
+    ],
+    "header_field_names": [
+      "data",
+      "timestamp",
+      "deviceId",
+      "sig",
+      "sign",
+      "token",
+      "nonce",
+      "Authorization",
+      "session"
+    ],
+    "statistics": {
+      "endpoint_types": {
+        "full_url": 1794,
+        "generic_path": 465,
+        "content_uri": 175,
+        "uri_parse": 68,
+        "path_fragment": 62,
+        "base_url": 48,
+        "request_url_property": 19,
+        "no_slash_api_path": 16,
+        "business_path": 14,
+        "upload_call": 4,
+        "method_call": 3,
+        "env_url": 3,
+        "function_call_url": 2,
+        "okhttp_url": 1
+      },
+      "wrapper_count": 10255,
+      "manifest_config_count": 81
+    },
+    "full_data": "step1/raw_endpoints.json"
+  },
+  "secrets": {
+    "available": true,
+    "total_real_hits": 3477,
+    "total_placeholder_hits": 0,
+    "critical_findings": [
+      {
+        "category": "private_key",
+        "sub_type": "pem_private_key",
+        "severity": "Critical",
+        "masked_value": "----...----",
+        "confidence": "high",
+        "source": "jadx/sources/org/bouncycastle/openssl/PEMReader.java",
+        "line": 292
+      },
+      {
+        "category": "private_key",
+        "sub_type": "pem_private_key",
+        "severity": "Critical",
+        "masked_value": "----...----",
+        "confidence": "high",
+        "source": "apktool/smali_classes4/org/bouncycastle/openssl/PEMReader.smali",
+        "line": 1490
+      },
+      {
+        "category": "crypto_material",
+        "sub_type": "aes_key_assignment",
+        "severity": "Critical",
+        "masked_value": "KGpf...Jyuq",
+        "confidence": "high",
+        "source": "jadx/sources/com/czhj/sdk/common/network/SigmobRequest.java",
+        "line": 18
+      },
+      {
+        "category": "secret",
+        "sub_type": "app_secret_assignment",
+        "severity": "Critical",
+        "masked_value": "OPPO...CRET",
+        "confidence": "high",
+        "source": "jadx/sources/com/igexin/assist/sdk/AssistPushConsts.java",
+        "line": 26
+      },
+      {
+        "category": "secret",
+        "sub_type": "app_secret_assignment",
+        "severity": "Critical",
+        "masked_value": "PUSH...CRET",
+        "confidence": "high",
+        "source": "jadx/sources/com/igexin/assist/sdk/AssistPushConsts.java",
+        "line": 8
+      },
+      {
+        "category": "secret",
+        "sub_type": "app_secret_assignment",
+        "severity": "Critical",
+        "masked_value": "YIDO...CRET",
+        "confidence": "high",
+        "source": "jadx/sources/com/bianfeng/yidonglogin/utils/YidongLoginConstant.java",
+        "line": 7
+      },
+      {
+        "category": "certificate_material",
+        "sub_type": "bks_file",
+        "severity": "Critical",
+        "masked_value": "apktool/assets/grs_sp.bks",
+        "confidence": "high",
+        "source": "apktool/assets/grs_sp.bks",
+        "line": 0
+      },
+      {
+        "category": "certificate_material",
+        "sub_type": "bks_file",
+        "severity": "Critical",
+        "masked_value": "apktool/assets/hmsincas.bks",
+        "confidence": "high",
+        "source": "apktool/assets/hmsincas.bks",
+        "line": 0
+      },
+      {
+        "category": "certificate_material",
+        "sub_type": "bks_file",
+        "severity": "Critical",
+        "masked_value": "apktool/assets/hmsrootcas.bks",
+        "confidence": "high",
+        "source": "apktool/assets/hmsrootcas.bks",
+        "line": 0
+      },
+      {
+        "category": "certificate_material",
+        "sub_type": "bks_file",
+        "severity": "Critical",
+        "masked_value": "apktool/assets/updatesdkcas.bks",
+        "confidence": "high",
+        "source": "apktool/assets/updatesdkcas.bks",
+        "line": 0
+      },
+      {
+        "category": "secret",
+        "sub_type": "app_secret_assignment",
+        "severity": "Critical",
+        "masked_value": "eb7f...96a7",
+        "confidence": "high",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 413
+      },
+      {
+        "category": "secret",
+        "sub_type": "app_secret_assignment",
+        "severity": "Critical",
+        "masked_value": "isvr...rg4=",
+        "confidence": "high",
+        "source": "jadx/sources/com/heytap/msp/push/encrypt/AESEncrypt.java",
+        "line": 18
+      },
+      {
+        "category": "crypto_material",
+        "sub_type": "aes_key_assignment",
+        "severity": "Critical",
+        "masked_value": "siga...tadb",
+        "confidence": "high",
+        "source": "jadx/sources/com/czhj/sdk/common/Constants.java",
+        "line": 10
+      }
+    ],
+    "high_findings": [
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": " + T...) + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/reyun/tracking/utils/v.java",
+        "line": 25
+      },
+      {
+        "category": "token",
+        "sub_type": "token_assignment",
+        "severity": "High",
+        "masked_value": " + b...c + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/xiaomi/push/service/be.java",
+        "line": 168
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": " + c...) + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/tkay/core/common/f.java",
+        "line": 406
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": " + o...) + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/igexin/b/a/d/f.java",
+        "line": 250
+      },
+      {
+        "category": "token",
+        "sub_type": "token_assignment",
+        "severity": "High",
+        "masked_value": " + s...r + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/igexin/assist/control/oppo/OppoPushManager.java",
+        "line": 107
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": " + s...2 + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/tkay/core/c/e.java",
+        "line": 312
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": " + t...y + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/igexin/assist/control/oppo/OppoPushManager.java",
+        "line": 130
+      },
+      {
+        "category": "token",
+        "sub_type": "token_assignment",
+        "severity": "High",
+        "masked_value": " + t...n + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/alibaba/sdk/android/oss/common/auth/OSSFederationToken.java",
+        "line": 31
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": " + t...k + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/alibaba/sdk/android/oss/common/auth/OSSFederationToken.java",
+        "line": 31
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": " + t...k + ",
+        "confidence": "high",
+        "source": "jadx/sources/com/alibaba/sdk/android/oss/common/auth/OSSFederationToken.java",
+        "line": 31
+      },
+      {
+        "category": "token",
+        "sub_type": "token_assignment",
+        "severity": "High",
+        "masked_value": "([a-...#$%&",
+        "confidence": "high",
+        "source": "jadx/sources/okhttp3/MediaType.java",
+        "line": 26
+      },
+      {
+        "category": "token",
+        "sub_type": "token_assignment",
+        "severity": "High",
+        "masked_value": "([a-...#$%&",
+        "confidence": "high",
+        "source": "jadx/sources/com/mbridge/msdk/thrid/okhttp/MediaType.java",
+        "line": 12
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": ").ap...z ? ",
+        "confidence": "high",
+        "source": "jadx/sources/com/tkay/expressad/playercommon/VideoFeedsPlayer.java",
+        "line": 779
+      },
+      {
+        "category": "crypto_material",
+        "sub_type": "pem_inline_key_name",
+        "severity": "High",
+        "masked_value": "0a1b...b95c",
+        "confidence": "high",
+        "source": "jadx/sources/com/bianfeng/ymnsdk/ymndatalib/utils/LoginSignUtils.java",
+        "line": 14
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": "936d...a3c4",
+        "confidence": "high",
+        "source": "jadx/sources/com/mbridge/msdk/video/dynview/moffer/MOfferModel.java",
+        "line": 113
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": "9f64...934d",
+        "confidence": "high",
+        "source": "apktool/AndroidManifest.xml",
+        "line": 413
+      },
+      {
+        "category": "token",
+        "sub_type": "token_assignment",
+        "severity": "High",
+        "masked_value": "Auth...tion",
+        "confidence": "high",
+        "source": "jadx/sources/com/alibaba/sdk/android/oss/common/utils/HttpHeaders.java",
+        "line": 5
+      },
+      {
+        "category": "token",
+        "sub_type": "token_assignment",
+        "severity": "High",
+        "masked_value": "Auth...tion",
+        "confidence": "high",
+        "source": "jadx/sources/cz/msebera/android/httpclient/HttpHeaders.java",
+        "line": 12
+      },
+      {
+        "category": "token",
+        "sub_type": "token_assignment",
+        "severity": "High",
+        "masked_value": "Auth...tion",
+        "confidence": "high",
+        "source": "jadx/sources/cz/msebera/android/httpclient/client/cache/HeaderConstants.java",
+        "line": 10
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": "Cach...[%s]",
+        "confidence": "high",
+        "source": "jadx/sources/com/kwad/sdk/core/imageloader/core/LoadAndDisplayImageTask.java",
+        "line": 35
+      },
+      {
+        "category": "token",
+        "sub_type": "token_assignment",
+        "severity": "High",
+        "masked_value": "Lock...oken",
+        "confidence": "high",
+        "source": "jadx/sources/cz/msebera/android/httpclient/HttpHeaders.java",
+        "line": 39
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": "MEIZ...PKEY",
+        "confidence": "high",
+        "source": "jadx/sources/com/igexin/assist/sdk/AssistPushConsts.java",
+        "line": 13
+      },
+      {
+        "category": "crypto_material",
+        "sub_type": "pem_inline_key_name",
+        "severity": "High",
+        "masked_value": "MIGf...AQAB",
+        "confidence": "high",
+        "source": "jadx/sources/com/bianfeng/ymnsdk/util/security/RSASignature.java",
+        "line": 13
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": "MIPU...PKEY",
+        "confidence": "high",
+        "source": "jadx/sources/com/igexin/assist/sdk/AssistPushConsts.java",
+        "line": 15
+      },
+      {
+        "category": "api_key",
+        "sub_type": "api_key_assignment",
+        "severity": "High",
+        "masked_value": "OPPO...PKEY",
+        "confidence": "high",
+        "source": "jadx/sources/com/igexin/assist/sdk/AssistPushConsts.java",
+        "line": 25
+      }
+    ],
+    "by_category": {
+      "internal_address": {
+        "total": 3273,
+        "critical": 0,
+        "high": 3248,
+        "medium": 25,
+        "top_findings": [
+          {
+            "category": "internal_address",
+            "sub_type": "internal_domain",
+            "severity": "High",
+            "masked_value": "andr...rnal",
+            "confidence": "high",
+            "source": "jadx/sources/android/arch/lifecycle/LifecycleRegistry.java",
+            "line": 3
+          },
+          {
+            "category": "internal_address",
+            "sub_type": "internal_domain",
+            "severity": "High",
+            "masked_value": "andr...rnal",
+            "confidence": "high",
+            "source": "jadx/sources/android/arch/lifecycle/LifecycleRegistry.java",
+            "line": 4
+          },
+          {
+            "category": "internal_address",
+            "sub_type": "internal_domain",
+            "severity": "High",
+            "masked_value": "andr...rnal",
+            "confidence": "high",
+            "source": "jadx/sources/android/arch/lifecycle/MediatorLiveData.java",
+            "line": 3
+          },
+          {
+            "category": "internal_address",
+            "sub_type": "internal_domain",
+            "severity": "High",
+            "masked_value": "andr...rnal",
+            "confidence": "high",
+            "source": "jadx/sources/android/arch/lifecycle/LiveData.java",
+            "line": 4
+          },
+          {
+            "category": "internal_address",
+            "sub_type": "internal_domain",
+            "severity": "High",
+            "masked_value": "andr...rnal",
+            "confidence": "high",
+            "source": "jadx/sources/android/arch/core/internal/SafeIterableMap.java",
+            "line": 1
+          }
+        ]
+      },
+      "pii": {
+        "total": 56,
+        "critical": 0,
+        "high": 0,
+        "medium": 41,
+        "top_findings": [
+          {
+            "category": "pii",
+            "sub_type": "phone_number",
+            "severity": "Medium",
+            "masked_value": "1372...1572",
+            "confidence": "medium",
+            "source": "apktool/smali_classes4/org/bouncycastle/crypto/digests/TigerDigest.smali",
+            "line": 90
+          },
+          {
+            "category": "pii",
+            "sub_type": "phone_number",
+            "severity": "Medium",
+            "masked_value": "1522...5418",
+            "confidence": "medium",
+            "source": "apktool/smali_classes4/org/bouncycastle/crypto/digests/TigerDigest.smali",
+            "line": 362
+          },
+          {
+            "category": "pii",
+            "sub_type": "phone_number",
+            "severity": "Medium",
+            "masked_value": "1525...9321",
+            "confidence": "medium",
+            "source": "apktool/smali_classes4/org/bouncycastle/crypto/digests/LongDigest.smali",
+            "line": 126
+          },
+          {
+            "category": "pii",
+            "sub_type": "phone_number",
+            "severity": "Medium",
+            "masked_value": "1555...5554",
+            "confidence": "medium",
+            "source": "jadx/sources/com/bianfeng/ymnsdk/sysfunc/CheckEmulatorUtils.java",
+            "line": 20
+          },
+          {
+            "category": "pii",
+            "sub_type": "phone_number",
+            "severity": "Medium",
+            "masked_value": "1555...5554",
+            "confidence": "medium",
+            "source": "apktool/smali/com/bianfeng/ymnsdk/sysfunc/CheckEmulatorUtils.smali",
+            "line": 21
+          }
+        ]
+      },
+      "api_key": {
+        "total": 40,
+        "critical": 0,
+        "high": 40,
+        "medium": 0,
+        "top_findings": [
+          {
+            "category": "api_key",
+            "sub_type": "api_key_assignment",
+            "severity": "High",
+            "masked_value": " + T...) + ",
+            "confidence": "high",
+            "source": "jadx/sources/com/reyun/tracking/utils/v.java",
+            "line": 25
+          },
+          {
+            "category": "api_key",
+            "sub_type": "api_key_assignment",
+            "severity": "High",
+            "masked_value": " + c...) + ",
+            "confidence": "high",
+            "source": "jadx/sources/com/tkay/core/common/f.java",
+            "line": 406
+          },
+          {
+            "category": "api_key",
+            "sub_type": "api_key_assignment",
+            "severity": "High",
+            "masked_value": " + o...) + ",
+            "confidence": "high",
+            "source": "jadx/sources/com/igexin/b/a/d/f.java",
+            "line": 250
+          },
+          {
+            "category": "api_key",
+            "sub_type": "api_key_assignment",
+            "severity": "High",
+            "masked_value": " + s...2 + ",
+            "confidence": "high",
+            "source": "jadx/sources/com/tkay/core/c/e.java",
+            "line": 312
+          },
+          {
+            "category": "api_key",
+            "sub_type": "api_key_assignment",
+            "severity": "High",
+            "masked_value": " + t...y + ",
+            "confidence": "high",
+            "source": "jadx/sources/com/igexin/assist/control/oppo/OppoPushManager.java",
+            "line": 130
+          }
+        ]
+      },
+      "test_environment": {
+        "total": 35,
+        "critical": 0,
+        "high": 0,
+        "medium": 35,
+        "top_findings": [
+          {
+            "category": "test_environment",
+            "sub_type": "test_env_url",
+            "severity": "Medium",
+            "masked_value": "http...ixes",
+            "confidence": "medium",
+            "source": "jadx/sources/com/huawei/secure/android/common/xml/SAXParserFactorySecurity.java",
+            "line": 13
+          },
+          {
+            "category": "test_environment",
+            "sub_type": "test_env_url",
+            "severity": "Medium",
+            "masked_value": "http...ixes",
+            "confidence": "medium",
+            "source": "apktool/smali_classes2/com/huawei/secure/android/common/xml/SAXParserFactorySecurity.smali",
+            "line": 41
+          },
+          {
+            "category": "test_environment",
+            "sub_type": "test_env_url",
+            "severity": "Medium",
+            "masked_value": "http...ixes",
+            "confidence": "medium",
+            "source": "jadx/sources/com/huawei/secure/android/common/xml/XmlPullParserFactorySecurity.java",
+            "line": 11
+          },
+          {
+            "category": "test_environment",
+            "sub_type": "test_env_url",
+            "severity": "Medium",
+            "masked_value": "http...ixes",
+            "confidence": "medium",
+            "source": "apktool/smali_classes2/com/huawei/secure/android/common/xml/XmlPullParserFactorySecurity.smali",
+            "line": 38
+          },
+          {
+            "category": "test_environment",
+            "sub_type": "test_env_url",
+            "severity": "Medium",
+            "masked_value": "http...dius",
+            "confidence": "medium",
+            "source": "jadx/sources/com/loc/bn.java",
+            "line": 28
+          }
+        ]
+      },
+      "infra": {
+        "total": 24,
+        "critical": 0,
+        "high": 0,
+        "medium": 24,
+        "top_findings": [
+          {
+            "category": "infra",
+            "sub_type": "ip_with_port",
+            "severity": "Medium",
+            "masked_value": "111....:443",
+            "confidence": "medium",
+            "source": "jadx/sources/com/xiaomi/push/service/XMPushService.java",
+            "line": 794
+          },
+          {
+            "category": "infra",
+            "sub_type": "ip_with_port",
+            "severity": "Medium",
+            "masked_value": "111....:443",
+            "confidence": "medium",
+            "source": "apktool/smali_classes4/com/xiaomi/push/service/XMPushService.smali",
+            "line": 739
+          },
+          {
+            "category": "infra",
+            "sub_type": "ip_with_port",
+            "severity": "Medium",
+            "masked_value": "111....:443",
+            "confidence": "medium",
+            "source": "jadx/sources/com/xiaomi/push/service/XMPushService.java",
+            "line": 799
+          },
+          {
+            "category": "infra",
+            "sub_type": "ip_with_port",
+            "severity": "Medium",
+            "masked_value": "111....:443",
+            "confidence": "medium",
+            "source": "apktool/smali_classes4/com/xiaomi/push/service/XMPushService.smali",
+            "line": 757
+          },
+          {
+            "category": "infra",
+            "sub_type": "ip_with_port",
+            "severity": "Medium",
+            "masked_value": "111....:443",
+            "confidence": "medium",
+            "source": "jadx/sources/com/xiaomi/push/service/XMPushService.java",
+            "line": 796
+          }
+        ]
+      },
+      "token": {
+        "total": 22,
+        "critical": 0,
+        "high": 22,
+        "medium": 0,
+        "top_findings": [
+          {
+            "category": "token",
+            "sub_type": "token_assignment",
+            "severity": "High",
+            "masked_value": " + b...c + ",
+            "confidence": "high",
+            "source": "jadx/sources/com/xiaomi/push/service/be.java",
+            "line": 168
+          },
+          {
+            "category": "token",
+            "sub_type": "token_assignment",
+            "severity": "High",
+            "masked_value": " + s...r + ",
+            "confidence": "high",
+            "source": "jadx/sources/com/igexin/assist/control/oppo/OppoPushManager.java",
+            "line": 107
+          },
+          {
+            "category": "token",
+            "sub_type": "token_assignment",
+            "severity": "High",
+            "masked_value": " + t...n + ",
+            "confidence": "high",
+            "source": "jadx/sources/com/alibaba/sdk/android/oss/common/auth/OSSFederationToken.java",
+            "line": 31
+          },
+          {
+            "category": "token",
+            "sub_type": "token_assignment",
+            "severity": "High",
+            "masked_value": "([a-...#$%&",
+            "confidence": "high",
+            "source": "jadx/sources/okhttp3/MediaType.java",
+            "line": 26
+          },
+          {
+            "category": "token",
+            "sub_type": "token_assignment",
+            "severity": "High",
+            "masked_value": "([a-...#$%&",
+            "confidence": "high",
+            "source": "jadx/sources/com/mbridge/msdk/thrid/okhttp/MediaType.java",
+            "line": 12
+          }
+        ]
+      },
+      "crypto_material": {
+        "total": 7,
+        "critical": 2,
+        "high": 5,
+        "medium": 0,
+        "top_findings": [
+          {
+            "category": "crypto_material",
+            "sub_type": "aes_key_assignment",
+            "severity": "Critical",
+            "masked_value": "KGpf...Jyuq",
+            "confidence": "high",
+            "source": "jadx/sources/com/czhj/sdk/common/network/SigmobRequest.java",
+            "line": 18
+          },
+          {
+            "category": "crypto_material",
+            "sub_type": "aes_key_assignment",
+            "severity": "Critical",
+            "masked_value": "siga...tadb",
+            "confidence": "high",
+            "source": "jadx/sources/com/czhj/sdk/common/Constants.java",
+            "line": 10
+          },
+          {
+            "category": "crypto_material",
+            "sub_type": "pem_inline_key_name",
+            "severity": "High",
+            "masked_value": "0a1b...b95c",
+            "confidence": "high",
+            "source": "jadx/sources/com/bianfeng/ymnsdk/ymndatalib/utils/LoginSignUtils.java",
+            "line": 14
+          },
+          {
+            "category": "crypto_material",
+            "sub_type": "pem_inline_key_name",
+            "severity": "High",
+            "masked_value": "MIGf...AQAB",
+            "confidence": "high",
+            "source": "jadx/sources/com/bianfeng/ymnsdk/util/security/RSASignature.java",
+            "line": 13
+          },
+          {
+            "category": "crypto_material",
+            "sub_type": "pem_inline_key_name",
+            "severity": "High",
+            "masked_value": "http...cKey",
+            "confidence": "high",
+            "source": "jadx/sources/com/meizu/cloud/pushsdk/constants/PushConstants.java",
+            "line": 57
+          }
+        ]
+      },
+      "certificate_material": {
+        "total": 6,
+        "critical": 4,
+        "high": 2,
+        "medium": 0,
+        "top_findings": [
+          {
+            "category": "certificate_material",
+            "sub_type": "bks_file",
+            "severity": "Critical",
+            "masked_value": "apktool/assets/grs_sp.bks",
+            "confidence": "high",
+            "source": "apktool/assets/grs_sp.bks",
+            "line": 0
+          },
+          {
+            "category": "certificate_material",
+            "sub_type": "bks_file",
+            "severity": "Critical",
+            "masked_value": "apktool/assets/hmsincas.bks",
+            "confidence": "high",
+            "source": "apktool/assets/hmsincas.bks",
+            "line": 0
+          },
+          {
+            "category": "certificate_material",
+            "sub_type": "bks_file",
+            "severity": "Critical",
+            "masked_value": "apktool/assets/hmsrootcas.bks",
+            "confidence": "high",
+            "source": "apktool/assets/hmsrootcas.bks",
+            "line": 0
+          },
+          {
+            "category": "certificate_material",
+            "sub_type": "bks_file",
+            "severity": "Critical",
+            "masked_value": "apktool/assets/updatesdkcas.bks",
+            "confidence": "high",
+            "source": "apktool/assets/updatesdkcas.bks",
+            "line": 0
+          },
+          {
+            "category": "certificate_material",
+            "sub_type": "cer_file",
+            "severity": "High",
+            "masked_value": "apktool/assets/ag_sdk_cbg_root.cer",
+            "confidence": "high",
+            "source": "apktool/assets/ag_sdk_cbg_root.cer",
+            "line": 0
+          }
+        ]
+      },
+      "secret": {
+        "total": 5,
+        "critical": 5,
+        "high": 0,
+        "medium": 0,
+        "top_findings": [
+          {
+            "category": "secret",
+            "sub_type": "app_secret_assignment",
+            "severity": "Critical",
+            "masked_value": "OPPO...CRET",
+            "confidence": "high",
+            "source": "jadx/sources/com/igexin/assist/sdk/AssistPushConsts.java",
+            "line": 26
+          },
+          {
+            "category": "secret",
+            "sub_type": "app_secret_assignment",
+            "severity": "Critical",
+            "masked_value": "PUSH...CRET",
+            "confidence": "high",
+            "source": "jadx/sources/com/igexin/assist/sdk/AssistPushConsts.java",
+            "line": 8
+          },
+          {
+            "category": "secret",
+            "sub_type": "app_secret_assignment",
+            "severity": "Critical",
+            "masked_value": "YIDO...CRET",
+            "confidence": "high",
+            "source": "jadx/sources/com/bianfeng/yidonglogin/utils/YidongLoginConstant.java",
+            "line": 7
+          },
+          {
+            "category": "secret",
+            "sub_type": "app_secret_assignment",
+            "severity": "Critical",
+            "masked_value": "eb7f...96a7",
+            "confidence": "high",
+            "source": "apktool/AndroidManifest.xml",
+            "line": 413
+          },
+          {
+            "category": "secret",
+            "sub_type": "app_secret_assignment",
+            "severity": "Critical",
+            "masked_value": "isvr...rg4=",
+            "confidence": "high",
+            "source": "jadx/sources/com/heytap/msp/push/encrypt/AESEncrypt.java",
+            "line": 18
+          }
+        ]
+      },
+      "debug_artifact": {
+        "total": 4,
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "top_findings": [
+          {
+            "category": "debug_artifact",
+            "sub_type": "debug_flag",
+            "severity": "Low",
+            "masked_value": "DEBU...true",
+            "confidence": "medium",
+            "source": "jadx/sources/com/bytedance/android/openliveplugin/material/TTLogger.java",
+            "line": 24
+          },
+          {
+            "category": "debug_artifact",
+            "sub_type": "debug_flag",
+            "severity": "Low",
+            "masked_value": "DEBU...true",
+            "confidence": "medium",
+            "source": "jadx/sources/com/tencent/connect/common/Constants.java",
+            "line": 42
+          },
+          {
+            "category": "debug_artifact",
+            "sub_type": "debug_flag",
+            "severity": "Low",
+            "masked_value": "Debu...true",
+            "confidence": "medium",
+            "source": "jadx/sources/com/bytedance/pangle/GlobalParam.java",
+            "line": 24
+          },
+          {
+            "category": "debug_artifact",
+            "sub_type": "debug_flag",
+            "severity": "Low",
+            "masked_value": "Debu...true",
+            "confidence": "medium",
+            "source": "jadx/sources/com/bytedance/pangle/log/ZeusLogger.java",
+            "line": 26
+          }
+        ]
+      },
+      "private_key": {
+        "total": 2,
+        "critical": 2,
+        "high": 0,
+        "medium": 0,
+        "top_findings": [
+          {
+            "category": "private_key",
+            "sub_type": "pem_private_key",
+            "severity": "Critical",
+            "masked_value": "----...----",
+            "confidence": "high",
+            "source": "jadx/sources/org/bouncycastle/openssl/PEMReader.java",
+            "line": 292
+          },
+          {
+            "category": "private_key",
+            "sub_type": "pem_private_key",
+            "severity": "Critical",
+            "masked_value": "----...----",
+            "confidence": "high",
+            "source": "apktool/smali_classes4/org/bouncycastle/openssl/PEMReader.smali",
+            "line": 1490
+          }
+        ]
+      },
+      "database": {
+        "total": 2,
+        "critical": 0,
+        "high": 2,
+        "medium": 0,
+        "top_findings": [
+          {
+            "category": "database",
+            "sub_type": "ldap_connection",
+            "severity": "High",
+            "masked_value": "ldap...:389",
+            "confidence": "high",
+            "source": "jadx/sources/org/bouncycastle/jce/X509LDAPCertStoreParameters.java",
+            "line": 87
+          },
+          {
+            "category": "database",
+            "sub_type": "ldap_connection",
+            "severity": "High",
+            "masked_value": "ldap...:389",
+            "confidence": "high",
+            "source": "apktool/smali_classes4/org/bouncycastle/jce/X509LDAPCertStoreParameters$Builder.smali",
+            "line": 94
+          }
+        ]
+      },
+      "wechat": {
+        "total": 1,
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "top_findings": [
+          {
+            "category": "wechat",
+            "sub_type": "wechat_appid",
+            "severity": "Medium",
+            "masked_value": "wx96...94f1",
+            "confidence": "medium",
+            "source": "apktool/assets/usdk.cfg",
+            "line": 1
+          }
+        ]
+      }
+    },
+    "statistics": {
+      "by_severity": {
+        "Critical": 13,
+        "High": 3319,
+        "Medium": 126,
+        "Low": 19
+      },
+      "by_category": {
+        "private_key": 2,
+        "crypto_material": 7,
+        "secret": 5,
+        "certificate_material": 6,
+        "api_key": 40,
+        "token": 22,
+        "internal_address": 3273,
+        "database": 2,
+        "infra": 24,
+        "pii": 56,
+        "test_environment": 35,
+        "wechat": 1,
+        "debug_artifact": 4
+      },
+      "scan_rules_count": 61
+    },
+    "full_data": "step1/raw_secrets.json"
+  },
+  "native_bridges": {
+    "available": true,
+    "total_raw_hits": 8258,
+    "loaded_libraries": [
+      {
+        "library": "apkpatch",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/ymnsdk/replugin/PluginInterface.java"
+        ]
+      },
+      {
+        "library": "bspatch",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/mbridge/msdk/mbdownload/a.java"
+        ]
+      },
+      {
+        "library": "fastvo",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/bianfeng/fastvo/audio/spx/Speex.java"
+        ]
+      },
+      {
+        "library": "framesequencev2",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/kwad/sdk/glide/framesequence/FrameSequence.java"
+        ]
+      },
+      {
+        "library": "getuiext3",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/igexin/push/extension/mod/SecurityUtils.java"
+        ]
+      },
+      {
+        "library": "kwappstatus",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/kwad/sdk/collector/d.java"
+        ]
+      },
+      {
+        "library": "pangleflipped",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/bytedance/pangle/flipped/FlippedV2Impl.java"
+        ]
+      },
+      {
+        "library": "sgcore",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/yxcorp/kuaishou/addfp/android/Orange.java"
+        ]
+      },
+      {
+        "library": "sig_native",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/tan/mark/SigNativeId.java"
+        ]
+      },
+      {
+        "library": "zeus_direct_dex",
+        "load_count": 1,
+        "sources": [
+          "jadx/sources/com/bytedance/pangle/dex/DirectDex.java"
+        ]
+      }
+    ],
+    "native_methods": [
+      {
+        "method": "getBootFromJNI",
+        "source": "jadx/sources/com/tan/mark/SigNativeId.java",
+        "line": 9
+      },
+      {
+        "method": "getUpdateFromJNI",
+        "source": "jadx/sources/com/tan/mark/SigNativeId.java",
+        "line": 11
+      },
+      {
+        "method": "abc",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 22
+      },
+      {
+        "method": "bcd",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 24
+      },
+      {
+        "method": "mmo",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 84
+      },
+      {
+        "method": "mqc",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 86
+      },
+      {
+        "method": "off",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 88
+      },
+      {
+        "method": "tao",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 90
+      },
+      {
+        "method": "ac",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 92
+      },
+      {
+        "method": "ar",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 94
+      },
+      {
+        "method": "cde",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 96
+      },
+      {
+        "method": "dc",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 98
+      },
+      {
+        "method": "def",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 100
+      },
+      {
+        "method": "dr",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 102
+      },
+      {
+        "method": "efg",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 104
+      },
+      {
+        "method": "eopq",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 106
+      },
+      {
+        "method": "fgh",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 108
+      },
+      {
+        "method": "ghi",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 110
+      },
+      {
+        "method": "hij",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 112
+      },
+      {
+        "method": "klm",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 114
+      },
+      {
+        "method": "nop",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 116
+      },
+      {
+        "method": "pqr",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 118
+      },
+      {
+        "method": "qrs",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 120
+      },
+      {
+        "method": "stu",
+        "source": "jadx/sources/com/kuaishou/weapon/p0/jni/Engine.java",
+        "line": 122
+      },
+      {
+        "method": "native_init",
+        "source": "jadx/sources/com/bytedance/pangle/dex/DirectDex.java",
+        "line": 7
+      }
+    ],
+    "jni_symbols": [],
+    "dynamic_registration": {
+      "register_natives_count": 0,
+      "jni_native_method_struct_count": 0
+    },
+    "webview_bridges": {
+      "js_interfaces": [
+        {
+          "name": "AMapAndroidLoc",
+          "source": "jadx/sources/com/loc/i.java",
+          "line": 175
+        },
+        {
+          "name": "sigandroid",
+          "source": "jadx/sources/com/sigmob/sdk/mraid2/e.java",
+          "line": 691
+        },
+        {
+          "name": "sigandroidapk",
+          "source": "jadx/sources/com/sigmob/sdk/mraid2/a.java",
+          "line": 167
+        },
+        {
+          "name": "sigVersion",
+          "source": "jadx/sources/com/sigmob/sdk/videoAd/l.java",
+          "line": 534
+        },
+        {
+          "name": "sigPrivacy",
+          "source": "jadx/sources/com/sigmob/sdk/base/views/q.java",
+          "line": 289
+        },
+        {
+          "name": "KwaiAd",
+          "source": "jadx/sources/com/kwad/components/ad/f/e.java",
+          "line": 443
+        },
+        {
+          "name": "KwaiAdForThird",
+          "source": "jadx/sources/com/kwad/components/core/webview/b.java",
+          "line": 270
+        }
+      ],
+      "evaluate_javascript": [
+        {
+          "value": "(function() { return (document.getElementsByTagName(",
+          "source": "jadx/sources/com/tramini/plugin/a/e/b.java",
+          "line": 194
+        }
+      ],
+      "load_url_javascript": [
+        {
+          "value": "javascript:window.JsBridge&&JsBridge.callback(",
+          "source": "jadx/sources/com/tencent/open/b.java",
+          "line": 48
+        },
+        {
+          "value": "javascript:window.navigator.vibrate([]);",
+          "source": "jadx/sources/com/tkay/expressad/a/g.java",
+          "line": 188
+        },
+        {
+          "value": "javascript:WebViewJavascriptBridge._fetchQueue();",
+          "source": "jadx/sources/com/github/lzyzsd/jsbridge/BridgeWebView.java",
+          "line": 148
+        },
+        {
+          "value": "javascript: ",
+          "source": "jadx/sources/com/iab/omid/library/mmadbridge/internal/g.java",
+          "line": 156
+        },
+        {
+          "value": "javascript:(function() {\\n    if (window.AlipayJSBridge) {\\n        return\\n    ",
+          "source": "jadx/sources/com/alipay/sdk/m/x/d.java",
+          "line": 237
+        }
+      ],
+      "js_interface_annotations": 30,
+      "javascript_enabled_count": 42,
+      "bridge_libraries": [
+        "public void postMessage(final String str) {",
+        "Log.d(b.f5046a, \"-----------postMessage---------\" + str);",
+        "public static final String f5064a = \"(function () {\\n    var uniqueId = 1;\\n    var mraid = window.m",
+        "private static final String d = \"javascript:(function () {\\n    var uniqueId = 1;\\n    var mraid = w",
+        "SigmobLog.d(\"postMessage: raw \" + str);",
+        "SigmobLog.d(\" postMessage args:\" + jSONObject);",
+        "private static final String d = \"javascript:(function() {\\n     var isIOS = (/iphone|ipad|ipod/i).te",
+        "public static final String f5019a = \"(function() {\\n     var isIOS = (/iphone|ipad|ipod/i).test(wind",
+        "webView.loadUrl(\"javascript:window.JsBridge&&JsBridge.callback(\" + this.b + \",{'r':0,'result':\" + st",
+        "webView.loadUrl(\"javascript:window.JsBridge&&JsBridge.callback(\" + this.b + \",{'r':1,'result':'no su",
+        "SLog.d(\"openSDK_LOG.JsBridge\", \"-->call, result: \" + objInvoke + \" | ReturnType: \" + returnType.getN",
+        "SLog.e(\"openSDK_LOG.JsBridge\", \"-->handler call mehtod ex. targetMethod: \" + method, e);",
+        "SLog.v(\"openSDK_LOG.JsBridge\", \"getResult---objName = \" + str + \" methodName = \" + str2);",
+        "SLog.d(\"openSDK_LOG.JsBridge\", \"call----\");",
+        "SLog.d(\"openSDK_LOG.JsBridge\", \"not call----objName NOT FIND\");",
+        "SLog.v(\"openSDK_LOG.JsBridge\", \"-->canHandleUrl---url = \" + str);",
+        "public interface WebViewJavascriptBridge {",
+        "public class DefaultHandler implements BridgeHandler {",
+        "@Override // com.github.lzyzsd.jsbridge.BridgeHandler",
+        "public class BridgeWebView extends WebView implements WebViewJavascriptBridge {",
+        "public static final String toLoadJs = \"WebViewJavascriptBridge.js\";",
+        "BridgeHandler defaultHandler;",
+        "Map<String, BridgeHandler> messageHandlers;",
+        "public BridgeWebView(Context context, AttributeSet attributeSet) {",
+        "this.TAG = \"BridgeWebView\";",
+        "public BridgeWebView(Context context, AttributeSet attributeSet, int i) {",
+        "public BridgeWebView(Context context) {",
+        "public void setDefaultHandler(BridgeHandler bridgeHandler) {",
+        "@Override // com.github.lzyzsd.jsbridge.WebViewJavascriptBridge",
+        "String str = String.format(\"javascript:WebViewJavascriptBridge._handleMessageFromNative('%s');\", mes",
+        "loadUrl(\"javascript:WebViewJavascriptBridge._fetchQueue();\", new CallBackFunction() { // from class:",
+        "BridgeHandler bridgeHandler;",
+        "BridgeWebView.this.responseCallbacks.get(responseId).onCallBack(message.getResponseData());",
+        "BridgeWebView.this.responseCallbacks.remove(responseId);",
+        "callBackFunction = new CallBackFunction() { // from class: com.github.lzyzsd.jsbridge.BridgeWebView.",
+        "BridgeWebView.this.queueMessage(message2);",
+        "callBackFunction = new CallBackFunction() { // from class: com.github.lzyzsd.jsbridge.BridgeWebView.",
+        "bridgeHandler = BridgeWebView.this.messageHandlers.get(message.getHandlerName());",
+        "bridgeHandler = BridgeWebView.this.defaultHandler;",
+        "public void registerHandler(String str, BridgeHandler bridgeHandler) {",
+        "public void callHandler(String str, String str2, CallBackFunction callBackFunction) {",
+        "private BridgeWebView webView;",
+        "public BridgeWebViewClient(BridgeWebView bridgeWebView) {",
+        "BridgeUtil.webViewLoadLocalJs(webView, BridgeWebView.toLoadJs);",
+        "public interface BridgeHandler {",
+        "static final String JS_FETCH_QUEUE_FROM_JAVA = \"javascript:WebViewJavascriptBridge._fetchQueue();\";",
+        "static final String JS_HANDLE_MESSAGE_FROM_JAVA = \"javascript:WebViewJavascriptBridge._handleMessage",
+        "return str.replace(\"javascript:WebViewJavascriptBridge.\", \"\").replaceAll(\"\\\\(.*\\\\);\", \"\");",
+        "import com.github.lzyzsd.jsbridge.BridgeHandler;",
+        "import com.github.lzyzsd.jsbridge.BridgeWebView;",
+        "private BridgeWebView mWebView;",
+        "this.mWebView = (BridgeWebView) relativeLayout.findViewById(UtilsSdk.getResourceManger().getId(activ",
+        "BridgeWebView bridgeWebView = this.mWebView;",
+        "registerHandler(activity);",
+        "private void registerHandler(Activity activity) {",
+        "this.mWebView.registerHandler(\"payActionFromWeb\", new BridgeHandler() { // from class: com.bianfeng.",
+        "this.mWebView.registerHandler(\"transUserData\", new BridgeHandler() { // from class: com.bianfeng.spl",
+        "this.mWebView.registerHandler(\"closeH5Game\", new BridgeHandler() { // from class: com.bianfeng.split",
+        "this.webView = (BridgeWebView) findViewById(UtilsSdk.getResourceManger().getId(this, \"R.id.ymnh5_sdk",
+        "BridgeWebView bridgeWebView = this.webView;",
+        "public RegWebViewMethodMaganer(BridgeWebView bridgeWebView, Activity activity, Activity activity2) {",
+        "this.webView.registerHandler(\"payActionFromWeb\", new BridgeHandler() { // from class: com.bianfeng.s",
+        "this.webView.registerHandler(\"transUserData\", new BridgeHandler() { // from class: com.bianfeng.spli",
+        "this.webView.registerHandler(\"closeH5Game\", new BridgeHandler() { // from class: com.bianfeng.splits",
+        "this.webView.registerHandler(\"sendError\", new BridgeHandler() { // from class: com.bianfeng.splitscr",
+        "this.webView.registerHandler(\"sendResource\", new BridgeHandler() { // from class: com.bianfeng.split",
+        "this.webView.registerHandler(\"getHeight\", new BridgeHandler() { // from class: com.bianfeng.splitscr",
+        "this.webView.registerHandler(\"getBottomHeight\", new BridgeHandler() { // from class: com.bianfeng.sp",
+        "this.webView.registerHandler(\"isSupportDownLoadApp\", new BridgeHandler() { // from class: com.bianfe",
+        "this.webView.registerHandler(\"downLoadApp\", new BridgeHandler() { // from class: com.bianfeng.splits",
+        "this.webView.registerHandler(\"getVersion\", new BridgeHandler() { // from class: com.bianfeng.splitsc",
+        "this.webView = (BridgeWebView) findViewById(UtilsSdk.getResourceManger().getId(this, \"R.id.payment_w",
+        "this.webView.registerHandler(\"payInH5\", new BridgeHandler() { // from class: com.bianfeng.paylib.ui.",
+        "this.webView.registerHandler(\"closePayWindow\", new BridgeHandler() { // from class: com.bianfeng.pay",
+        "this.webView = (BridgeWebView) findViewById(UtilsSdk.getResourceManger().getId(this, \"R.id.webpaypay",
+        "this.webView.registerHandler(\"closePayResultWindow\", new BridgeHandler() { // from class: com.bianfe",
+        "this.webView = (BridgeWebView) findViewById(UtilsSdk.getResourceManger().getId(this, \"R.id.gameroom_",
+        "public RegWebViewMethodMaganer(BridgeWebView bridgeWebView, Activity activity, String str, String st",
+        "this.webView.registerHandler(\"currencyInterface\", new BridgeHandler() { // from class: com.bianfeng.",
+        "this.webView.registerHandler(\"encryptionParameters\", new BridgeHandler() { // from class: com.bianfe",
+        "this.webView.registerHandler(\"closeGameRoom\", new BridgeHandler() { // from class: com.bianfeng.room",
+        "this.webView.registerHandler(\"openWebGame\", new BridgeHandler() { // from class: com.bianfeng.roomli",
+        "this.webView.registerHandler(\"copyPasteboard\", new BridgeHandler() { // from class: com.bianfeng.roo",
+        "postMessage(it.next());",
+        "private void postMessage(TaskApiCallbackWrapper taskApiCallbackWrapper) {",
+        "postMessage(taskApiCallbackWrapperWrapperRequest);",
+        "public final ServerBootstrap registerHandler(String str, HttpRequestHandler httpRequestHandler) {",
+        "if (window.WebViewJavascriptBridge) {",
+        "if (WebViewJavascriptBridge._messageHandler) {",
+        "throw new Error('WebViewJavascriptBridge.init called twice');",
+        "WebViewJavascriptBridge._messageHandler = messageHandler;",
+        "function registerHandler(handlerName, handler) {",
+        "function callHandler(handlerName, data, responseCallback) {",
+        "var handler = WebViewJavascriptBridge._messageHandler;",
+        "console.log(\"WebViewJavascriptBridge: WARNING: javascript handler threw.\", message, exception);",
+        "var WebViewJavascriptBridge = window.WebViewJavascriptBridge = {",
+        "registerHandler: registerHandler,",
+        "callHandler: callHandler,",
+        "readyEvent.bridge = WebViewJavascriptBridge;",
+        ".class Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$1;",
+        ".source \"BridgeWebView.java\"",
+        "value = Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;->onCallBack(Ljava/lang/String;)V",
+        ".field final synthetic this$1:Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;",
+        ".method constructor <init>(Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;Ljava/lang/String;)V",
+        "iput-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$1;->this$1:Lcom/github/lzyzsd/jsbrid",
+        "iput-object p2, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$1;->val$callbackId:Ljava/lang/String",
+        "iget-object v1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$1;->val$callbackId:Ljava/lang/String",
+        "iget-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$1;->this$1:Lcom/github/lzyzsd/jsbrid",
+        "iget-object p1, p1, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;->this$0:Lcom/github/lzyzsd/jsbridge",
+        "invoke-static {p1, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->access$000(Lcom/github/lzyzsd/js",
+        ".field private webView:Lcom/github/lzyzsd/jsbridge/BridgeWebView;",
+        ".method public constructor <init>(Lcom/github/lzyzsd/jsbridge/BridgeWebView;)V",
+        "iput-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebViewClient;->webView:Lcom/github/lzyzsd/jsb",
+        "const-string v0, \"WebViewJavascriptBridge.js\"",
+        "iget-object v0, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebViewClient;->webView:Lcom/github/lzyzsd/jsb",
+        "invoke-virtual {v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->getStartupMessage()Ljava/util/List;",
+        "iget-object v2, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebViewClient;->webView:Lcom/github/lzyzsd/jsb",
+        "invoke-virtual {v2, v1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->dispatchMessage(Lcom/github/lzy",
+        "invoke-virtual {v0, v1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setStartupMessage(Ljava/util/Li",
+        "iget-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebViewClient;->webView:Lcom/github/lzyzsd/jsb",
+        "invoke-virtual {p1, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->handlerReturnData(Ljava/lang/St",
+        "invoke-virtual {p1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->flushMessageQueue()V",
+        "invoke-virtual {p1, p2}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->handlerReturnData(Ljava/lang/St",
+        ".class public interface abstract Lcom/github/lzyzsd/jsbridge/WebViewJavascriptBridge;",
+        ".source \"WebViewJavascriptBridge.java\"",
+        ".implements Lcom/github/lzyzsd/jsbridge/BridgeHandler;",
+        ".class Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$2;",
+        ".method constructor <init>(Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;)V",
+        "iput-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$2;->this$1:Lcom/github/lzyzsd/jsbrid",
+        ".field static final JS_FETCH_QUEUE_FROM_JAVA:Ljava/lang/String; = \"javascript:WebViewJavascriptBridg",
+        ".field static final JS_HANDLE_MESSAGE_FROM_JAVA:Ljava/lang/String; = \"javascript:WebViewJavascriptBr",
+        "const-string v0, \"javascript:WebViewJavascriptBridge.\"",
+        ".class public interface abstract Lcom/github/lzyzsd/jsbridge/BridgeHandler;",
+        ".source \"BridgeHandler.java\"",
+        ".class public Lcom/github/lzyzsd/jsbridge/BridgeWebView;",
+        ".implements Lcom/github/lzyzsd/jsbridge/WebViewJavascriptBridge;",
+        ".field public static final toLoadJs:Ljava/lang/String; = \"WebViewJavascriptBridge.js\"",
+        ".field defaultHandler:Lcom/github/lzyzsd/jsbridge/BridgeHandler;",
+        "\"Lcom/github/lzyzsd/jsbridge/BridgeHandler;\",",
+        "const-string p1, \"BridgeWebView\"",
+        "iput-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->TAG:Ljava/lang/String;",
+        "iput-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->responseCallbacks:Ljava/util/Map;",
+        "iput-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->messageHandlers:Ljava/util/Map;",
+        "iput-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->defaultHandler:Lcom/github/lzyzsd/js",
+        "iput-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->startupMessage:Ljava/util/List;",
+        "iput-wide v0, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->uniqueId:J",
+        "invoke-direct {p0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->init()V",
+        "iput-wide p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->uniqueId:J",
+        ".method static synthetic access$000(Lcom/github/lzyzsd/jsbridge/BridgeWebView;Lcom/github/lzyzsd/jsb",
+        "invoke-direct {p0, p1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->queueMessage(Lcom/github/lzyzsd/",
+        "iget-wide v3, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->uniqueId:J",
+        "iput-wide v3, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->uniqueId:J",
+        "iget-object v1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->responseCallbacks:Ljava/util/Map;",
+        "invoke-direct {p0, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->queueMessage(Lcom/github/lzyzsd/",
+        "invoke-virtual {p0, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setVerticalScrollBarEnabled(Z)V",
+        "invoke-virtual {p0, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setHorizontalScrollBarEnabled(Z",
+        "invoke-virtual {p0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->getSettings()Landroid/webkit/WebSet",
+        "invoke-virtual {p0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->generateBridgeWebViewClient()Lcom/g",
+        "invoke-virtual {p0, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setWebViewClient(Landroid/webki",
+        "invoke-virtual {p0, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setWebChromeClient(Landroid/web",
+        "iget-object v0, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->startupMessage:Ljava/util/List;",
+        "invoke-virtual {p0, p1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->dispatchMessage(Lcom/github/lzy",
+        ".method public callHandler(Ljava/lang/String;Ljava/lang/String;Lcom/github/lzyzsd/jsbridge/CallBackF",
+        "invoke-direct {p0, p1, p2, p3}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->doSend(Ljava/lang/String",
+        "const-string p1, \"javascript:WebViewJavascriptBridge._handleMessageFromNative(\\'%s\\');\"",
+        "invoke-virtual {p0, p1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->loadUrl(Ljava/lang/String;)V",
+        "new-instance v0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;",
+        "invoke-direct {v0, p0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;-><init>(Lcom/github/lzyzsd/jsbr",
+        "const-string v1, \"javascript:WebViewJavascriptBridge._fetchQueue();\"",
+        "invoke-virtual {p0, v1, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->loadUrl(Ljava/lang/String;L",
+        "invoke-direct {v0, p0}, Lcom/github/lzyzsd/jsbridge/BridgeWebViewClient;-><init>(Lcom/github/lzyzsd/",
+        "iget-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->responseCallbacks:Ljava/util/Map;",
+        "iget-object v0, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->responseCallbacks:Ljava/util/Map;",
+        ".method public registerHandler(Ljava/lang/String;Lcom/github/lzyzsd/jsbridge/BridgeHandler;)V",
+        "iget-object v0, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->messageHandlers:Ljava/util/Map;",
+        "invoke-virtual {p0, p1, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->send(Ljava/lang/String;Lcom",
+        "invoke-direct {p0, v0, p1, p2}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->doSend(Ljava/lang/String",
+        ".method public setDefaultHandler(Lcom/github/lzyzsd/jsbridge/BridgeHandler;)V",
+        ".class Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;",
+        "value = Lcom/github/lzyzsd/jsbridge/BridgeWebView;->flushMessageQueue()V",
+        ".field final synthetic this$0:Lcom/github/lzyzsd/jsbridge/BridgeWebView;",
+        ".method constructor <init>(Lcom/github/lzyzsd/jsbridge/BridgeWebView;)V",
+        "iput-object p1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;->this$0:Lcom/github/lzyzsd/jsbridge",
+        "iget-object v3, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;->this$0:Lcom/github/lzyzsd/jsbridge",
+        "iget-object v3, v3, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->responseCallbacks:Ljava/util/Map;",
+        "iget-object v1, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;->this$0:Lcom/github/lzyzsd/jsbridge",
+        "iget-object v1, v1, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->responseCallbacks:Ljava/util/Map;",
+        "new-instance v3, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$1;",
+        "invoke-direct {v3, p0, v2}, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$1;-><init>(Lcom/github/lzyzs",
+        "new-instance v3, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$2;",
+        "invoke-direct {v3, p0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1$2;-><init>(Lcom/github/lzyzsd/js",
+        "iget-object v2, p0, Lcom/github/lzyzsd/jsbridge/BridgeWebView$1;->this$0:Lcom/github/lzyzsd/jsbridge",
+        "iget-object v2, v2, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->messageHandlers:Ljava/util/Map;",
+        "check-cast v2, Lcom/github/lzyzsd/jsbridge/BridgeHandler;",
+        "iget-object v2, v2, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->defaultHandler:Lcom/github/lzyzsd/js",
+        "invoke-interface {v2, v1, v3}, Lcom/github/lzyzsd/jsbridge/BridgeHandler;->handler(Ljava/lang/String",
+        "iget-object v0, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewActivity;->webView:Lcom/github/lz",
+        "invoke-virtual {v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->getSettings()Landroid/webkit/WebSet",
+        "invoke-virtual {v0, v2, v3}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setLayerType(ILandroid/grap",
+        "invoke-virtual {v0, v1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setClickable(Z)V",
+        "iget-object v2, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewActivity;->webView:Lcom/github/lz",
+        "invoke-direct {v1, v2}, Lcom/github/lzyzsd/jsbridge/BridgeWebViewClient;-><init>(Lcom/github/lzyzsd/",
+        "invoke-virtual {v0, v1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setWebViewClient(Landroid/webki",
+        "invoke-virtual {v0, v1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->loadUrl(Ljava/lang/String;)V",
+        "check-cast v0, Lcom/github/lzyzsd/jsbridge/BridgeWebView;",
+        "iput-object v0, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewActivity;->webView:Lcom/github/lz",
+        "iget-object v1, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewActivity;->webView:Lcom/github/lz",
+        "invoke-direct {v0, v1, p0, v2}, Lcom/bianfeng/splitscreenwindow/ui/RegWebViewMethodMaganer;-><init>(",
+        "invoke-virtual {v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->removeAllViews()V",
+        "invoke-virtual {v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->destroy()V",
+        "invoke-virtual {v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->canGoBack()Z",
+        "iget-object p1, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewActivity;->webView:Lcom/github/lz",
+        "invoke-virtual {p1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->goBack()V",
+        "value = Lcom/bianfeng/splitscreenwindow/ui/ViewWebGroup;->registerHandler(Landroid/app/Activity;)V",
+        "iget-object v0, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewLandActivity;->webView:Lcom/githu",
+        "iget-object v2, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewLandActivity;->webView:Lcom/githu",
+        "iput-object v0, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewLandActivity;->webView:Lcom/githu",
+        "iget-object v1, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewLandActivity;->webView:Lcom/githu",
+        "iget-object p1, p0, Lcom/bianfeng/splitscreenwindow/ui/YmnH5WebviewLandActivity;->webView:Lcom/githu",
+        ".field private mWebView:Lcom/github/lzyzsd/jsbridge/BridgeWebView;",
+        "iput-object v0, p0, Lcom/bianfeng/splitscreenwindow/ui/ViewWebGroup;->mWebView:Lcom/github/lzyzsd/js",
+        ".method private registerHandler(Landroid/app/Activity;)V",
+        "iget-object p1, p0, Lcom/bianfeng/splitscreenwindow/ui/ViewWebGroup;->mWebView:Lcom/github/lzyzsd/js",
+        "invoke-virtual {p1, v1, v0}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->registerHandler(Ljava/lang/",
+        "iget-object v0, p0, Lcom/bianfeng/splitscreenwindow/ui/ViewWebGroup;->mWebView:Lcom/github/lzyzsd/js",
+        "iget-object v2, p0, Lcom/bianfeng/splitscreenwindow/ui/ViewWebGroup;->mWebView:Lcom/github/lzyzsd/js",
+        "invoke-direct {p0, p1}, Lcom/bianfeng/splitscreenwindow/ui/ViewWebGroup;->registerHandler(Landroid/a",
+        "invoke-virtual {v0, p1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->loadUrl(Ljava/lang/String;)V",
+        ".method public constructor <init>(Lcom/github/lzyzsd/jsbridge/BridgeWebView;Landroid/app/Activity;La",
+        "iput-object p1, p0, Lcom/bianfeng/splitscreenwindow/ui/RegWebViewMethodMaganer;->webView:Lcom/github",
+        "iget-object v0, p0, Lcom/bianfeng/splitscreenwindow/ui/RegWebViewMethodMaganer;->webView:Lcom/github",
+        "invoke-virtual {v0, v2, v1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->registerHandler(Ljava/lang/",
+        "iput-object v0, p0, Lcom/bianfeng/splitscreenwindow/ui/RegWebViewMethodMaganer;->webView:Lcom/github",
+        "iget-object v0, p0, Lcom/bianfeng/paylib/ui/AliWebPayActivty;->webView:Lcom/github/lzyzsd/jsbridge/B",
+        "invoke-virtual {v0, v1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setWebChromeClient(Landroid/web",
+        "iget-object v2, p0, Lcom/bianfeng/paylib/ui/AliWebPayActivty;->webView:Lcom/github/lzyzsd/jsbridge/B",
+        "invoke-virtual/range {v2 .. v7}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->loadDataWithBaseURL(Lja",
+        "iput-object v0, p0, Lcom/bianfeng/paylib/ui/AliWebPayActivty;->webView:Lcom/github/lzyzsd/jsbridge/B",
+        "iget-object p1, p0, Lcom/bianfeng/paylib/ui/AliWebPayActivty;->webView:Lcom/github/lzyzsd/jsbridge/B",
+        "iget-object v0, p0, Lcom/bianfeng/paylib/ui/PaymentWebActivity;->webView:Lcom/github/lzyzsd/jsbridge",
+        "invoke-virtual {v0, v1}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setBackgroundColor(I)V",
+        "invoke-virtual {v0, v1, v3}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setLayerType(ILandroid/grap",
+        "invoke-virtual {v0, v2}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setClickable(Z)V",
+        "iget-object v2, p0, Lcom/bianfeng/paylib/ui/PaymentWebActivity;->webView:Lcom/github/lzyzsd/jsbridge",
+        "iput-object v0, p0, Lcom/bianfeng/paylib/ui/PaymentWebActivity;->webView:Lcom/github/lzyzsd/jsbridge",
+        "iget-object v0, p0, Lcom/bianfeng/splitscreenlib/huodong/HuodongActivity;->webView:Lcom/github/lzyzs",
+        "invoke-virtual {v0, v1, v2}, Lcom/github/lzyzsd/jsbridge/BridgeWebView;->setLayerType(ILandroid/grap",
+        "iget-object v2, p0, Lcom/bianfeng/splitscreenlib/huodong/HuodongActivity;->webView:Lcom/github/lzyzs",
+        "iput-object v0, p0, Lcom/bianfeng/splitscreenlib/huodong/HuodongActivity;->webView:Lcom/github/lzyzs",
+        "iget-object v0, p0, Lcom/bianfeng/roomlib/ui/GameRoomWebActivity;->webView:Lcom/github/lzyzsd/jsbrid",
+        "iget-object v2, p0, Lcom/bianfeng/roomlib/ui/GameRoomWebActivity;->webView:Lcom/github/lzyzsd/jsbrid",
+        "iput-object v0, p0, Lcom/bianfeng/roomlib/ui/GameRoomWebActivity;->webView:Lcom/github/lzyzsd/jsbrid",
+        "iget-object v1, p0, Lcom/bianfeng/roomlib/ui/GameRoomWebActivity;->webView:Lcom/github/lzyzsd/jsbrid",
+        "invoke-direct {v0, v1, p0, v2, v3}, Lcom/bianfeng/roomlib/ui/RegWebViewMethodMaganer;-><init>(Lcom/g",
+        ".method public constructor <init>(Lcom/github/lzyzsd/jsbridge/BridgeWebView;Landroid/app/Activity;Lj",
+        "iput-object p1, p0, Lcom/bianfeng/roomlib/ui/RegWebViewMethodMaganer;->webView:Lcom/github/lzyzsd/js",
+        "iget-object v0, p0, Lcom/bianfeng/roomlib/ui/RegWebViewMethodMaganer;->webView:Lcom/github/lzyzsd/js",
+        "invoke-direct {p0, v1}, Lcom/huawei/hms/common/internal/HuaweiApiManager$ConnectionManager;->postMes",
+        ".method private postMessage(Lcom/huawei/hms/common/internal/HuaweiApiManager$TaskApiCallbackWrapper;",
+        "invoke-direct {p0, v0}, Lcom/huawei/hms/common/internal/HuaweiApiManager$ConnectionManager;->postMes",
+        ".method public final registerHandler(Ljava/lang/String;Lcz/msebera/android/httpclient/protocol/HttpR",
+        ".method public postMessage(Ljava/lang/String;)V",
+        "const-string v2, \"-----------postMessage---------\"",
+        ".field private static final d:Ljava/lang/String; = \"javascript:(function () {\\n    var uniqueId = 1;",
+        "const-string v1, \"javascript:(function () {\\n    var uniqueId = 1;\\n    var mraid = window.mraid = {",
+        "value = Lcom/sigmob/sdk/mraid2/b$a;->postMessage(Ljava/lang/String;)V",
+        ".field public static final a:Ljava/lang/String; = \"(function () {\\n    var uniqueId = 1;\\n    var mr",
+        "const-string v1, \" postMessage args:\"",
+        ".field private static final d:Ljava/lang/String; = \"javascript:(function() {\\n     var isIOS = (/iph",
+        "const-string v1, \"javascript:(function() {\\n     var isIOS = (/iphone|ipad|ipod/i).test(window.navig",
+        "const-string v2, \"postMessage: raw \"",
+        "value = Lcom/sigmob/sdk/mraid/b$a;->postMessage(Ljava/lang/String;)V",
+        ".field public static final a:Ljava/lang/String; = \"(function() {\\n     var isIOS = (/iphone|ipad|ipo",
+        "const-string v0, \"openSDK_LOG.JsBridge\"",
+        "const-string v2, \"javascript:window.JsBridge&&JsBridge.callback(\"",
+        "const-string v1, \"openSDK_LOG.JsBridge\"",
+        "<com.github.lzyzsd.jsbridge.BridgeWebView android:id=\"@id/webpaypay_webview\" android:layout_width=\"m",
+        "<com.github.lzyzsd.jsbridge.BridgeWebView android:id=\"@id/ymnh5_sdk_bridge_webView\" android:layout_w",
+        "<com.github.lzyzsd.jsbridge.BridgeWebView android:id=\"@id/screen_webview\" android:layout_width=\"matc",
+        "<com.github.lzyzsd.jsbridge.BridgeWebView android:id=\"@id/payment_web_bridge_webView\" android:layout",
+        "<com.github.lzyzsd.jsbridge.BridgeWebView android:id=\"@id/gameroom_web_bridge_webView\" android:layou"
+      ]
+    },
+    "native_crypto_signals": {
+      "crypto_symbols": [
+        "return digest$okio(\"MD5\");",
+        "return new HashingSink(sink, \"MD5\");",
+        "return new HashingSource(source, \"MD5\");",
+        "return a(\"MD5\", a(\"SHA1\", str) + str);",
+        "this.f3005a = fg.a(\"MD5\", o.k());",
+        "/* JADX INFO: compiled from: MD5.java */",
+        "as.a(th, \"MD5\", \"gmb\");",
+        "MessageDigest messageDigest = MessageDigest.getInstance(\"MD5\");",
+        "d = fg.a(\"MD5\", l.c(context));",
+        "strA = d.a(MessageDigest.getInstance(\"MD5\").digest(str3.getBytes(\"UTF-8\")));",
+        "byte[] bArrDigest = MessageDigest.getInstance(\"SHA256\").digest(signatureArr[0].toByteArray());",
+        "messageDigest = MessageDigest.getInstance(\"MD5\");",
+        "return a(MessageDigest.getInstance(\"MD5\").digest(str3.getBytes()));",
+        "return a(MessageDigest.getInstance(\"MD5\").digest(bArr));",
+        "return MessageDigest.getInstance(\"MD5\").digest(bArr);",
+        "return b(a(str.getBytes(), \"MD5\"));",
+        "return b(a(bArr, \"MD5\"));",
+        "return Pair.create(\"SHA256withRSA/PSS\", new PSSParameterSpec(MessageDigestAlgorithms.SHA_256, \"MGF1\"",
+        "return Pair.create(\"SHA512withRSA/PSS\", new PSSParameterSpec(MessageDigestAlgorithms.SHA_512, \"MGF1\"",
+        "return a(MessageDigest.getInstance(\"MD5\").digest(str.getBytes()));",
+        "SLog.v(\"openSDK_LOG.SecureJsInterface\", \"-->getMD5FromNative, MD5= \" + pWDKeyToMD5);",
+        "MessageDigest messageDigest = MessageDigest.getInstance(\"SHA1\");",
+        "public static final String f6953a = \"MD5\";",
+        "b = MessageDigest.getInstance(\"MD5\");",
+        "super(\"Crypto\", 1.0d, \"HARMONY (SHA1 digest; SecureRandom; SHA1withDSA signature)\");"
+      ],
+      "crypto_libraries": [
+        "throw new SecurityException(\"Failed to seed OpenSSL PRNG\", e);",
+        "package org.bouncycastle.openssl;",
+        "super(\"PBEWithMD5And128BitAES-CBC-OpenSSL\", null, true, 3, 0, 128, 128);",
+        "super(\"PBEWithMD5And192BitAES-CBC-OpenSSL\", null, true, 3, 0, PsExtractor.AUDIO_",
+        "super(\"PBEWithMD5And256BitAES-CBC-OpenSSL\", null, true, 3, 0, 256, 128);",
+        "put(\"Cipher.PBEWITHMD5AND128BITAES-CBC-OPENSSL\", \"org.bouncycastle.jce.provider.",
+        "put(\"Cipher.PBEWITHMD5AND192BITAES-CBC-OPENSSL\", \"org.bouncycastle.jce.provider.",
+        "put(\"Cipher.PBEWITHMD5AND256BITAES-CBC-OPENSSL\", \"org.bouncycastle.jce.provider.",
+        "put(\"SecretKeyFactory.PBEWITHMD5AND128BITAES-CBC-OPENSSL\", \"org.bouncycastle.jce",
+        "put(\"SecretKeyFactory.PBEWITHMD5AND192BITAES-CBC-OPENSSL\", \"org.bouncycastle.jce"
+      ],
+      "java_crypto_bridge_calls": [
+        "import javax.crypto.spec.SecretKeySpec;",
+        "MessageDigest messageDigest = MessageDigest.getInstance(algorithm);",
+        "Mac mac = Mac.getInstance(algorithm);",
+        "mac.init(new SecretKeySpec(key.toByteArray(), algorithm));",
+        "public static byte[] decode(String str) {",
+        "byte[] bArrDigest = MessageDigest.getInstance(x.c(\"IU0hBMQ\")).digest(context.getPackageManager().get",
+        "throw new NullPointerException(\"Cannot decode null source array.\");",
+        "import javax.crypto.spec.IvParameterSpec;",
+        "Cipher cipher = Cipher.getInstance(x.c(\"CUlNBL0VDQi9QS0NTMVBhZGRpbmc\"));",
+        "IvParameterSpec ivParameterSpec = new IvParameterSpec(bArr3);",
+        "SecretKeySpec secretKeySpec = new SecretKeySpec(bArr, x.c(\"EQUVT\"));",
+        "Cipher cipher = Cipher.getInstance(x.c(\"CQUVTL0NCQy9QS0NTNVBhZGRpbmc\"));",
+        "private static final IvParameterSpec d = new IvParameterSpec(c);",
+        "Cipher cipher = Cipher.getInstance(x.c(\"WUlNBL0VDQi9PQUVQV0lUSFNIQS0xQU5ETUdGMVBBRERJTkc\"));",
+        "SecretKeySpec secretKeySpecB = b(str);",
+        "IvParameterSpec ivParameterSpec = new IvParameterSpec(a());",
+        "Cipher cipher = Cipher.getInstance(\"AES/CBC/PKCS5Padding\");",
+        "private static SecretKeySpec b(String str) {",
+        "return new SecretKeySpec(bytes, \"AES\");",
+        "SecretKeySpec secretKeySpec = new SecretKeySpec(bArr2, \"AES\");",
+        "cipher.init(2, secretKeySpec, new IvParameterSpec(x.c()));",
+        "ekVar.b.put(\"aps_c_src\", Base64.encodeToString(ek.a().getBytes(), 2));",
+        "ekVar.b.put(\"aps_c_key\", Base64.encodeToString(ek.b().getBytes(), 2));",
+        "MessageDigest messageDigest = MessageDigest.getInstance(str);",
+        "MessageDigest messageDigest = MessageDigest.getInstance(x.c(\"ETUQ1\"));"
+      ]
+    },
+    "statistics": {
+      "java_crypto_bridge": 5343,
+      "webview_hook_point": 1137,
+      "native_crypto_symbol": 681,
+      "bridge_library_marker": 556,
+      "webview_risky_setting": 164,
+      "native_method": 149,
+      "native_crypto_library": 110,
+      "webview_javascript_enabled": 42,
+      "javascript_interface_annotation": 30,
+      "add_javascript_interface": 24,
+      "load_url_javascript": 11,
+      "load_library": 10,
+      "evaluate_javascript": 1
+    },
+    "full_data": "step1/raw_native_bridges.json"
+  },
+  "env_guards": {
+    "available": true,
+    "total_guard_types_detected": 8,
+    "total_hits": 48572,
+    "phase2_blocking_count": 7,
+    "detected_guard_types": [
+      {
+        "guard_type": "ssl_pinning_or_cert_check",
+        "severity": "Critical",
+        "priority": 95,
+        "phase2_blocking": true,
+        "hit_count": 3793,
+        "sample_matches": [
+          "CertificatePinner",
+          "CertificatePinner",
+          "CertificatePinner"
+        ],
+        "evidence": [
+          {
+            "source": "jadx/sources/okhttp3/CertificatePinner.java",
+            "line": 30,
+            "match": "CertificatePinner"
+          },
+          {
+            "source": "jadx/sources/okhttp3/CertificatePinner.java",
+            "line": 32,
+            "match": "CertificatePinner"
+          },
+          {
+            "source": "jadx/sources/okhttp3/CertificatePinner.java",
+            "line": 33,
+            "match": "CertificatePinner"
+          }
+        ],
+        "hook_strategy": "ssl_pinning_bypass",
+        "bypass_hint": "关注 CertificatePinner、TrustManager、HostnameVerifier 实现，可在运行时替换校验逻辑。",
+        "impact": "会直接导致 HTTPS 抓包失败或证书不被信任。"
+      },
+      {
+        "guard_type": "root_detection",
+        "severity": "High",
+        "priority": 90,
+        "phase2_blocking": true,
+        "hit_count": 225,
+        "sample_matches": [
+          "magisk",
+          "riru",
+          "su"
+        ],
+        "evidence": [
+          {
+            "source": "jadx/sources/com/kuaishou/weapon/p0/af.java",
+            "line": 14,
+            "match": "magisk"
+          },
+          {
+            "source": "jadx/sources/com/kuaishou/weapon/p0/an.java",
+            "line": 39,
+            "match": "riru"
+          },
+          {
+            "source": "jadx/sources/com/kuaishou/weapon/p0/bh.java",
+            "line": 40,
+            "match": "su"
+          }
+        ],
+        "hook_strategy": "root_bypass",
+        "bypass_hint": "关注 su / Magisk / test-keys / RootBeer 等分支，可在运行时绕过对应检查点。",
+        "impact": "可能阻塞启动、登录、抓包或运行时调试。"
+      },
+      {
+        "guard_type": "proxy_or_vpn_detection",
+        "severity": "High",
+        "priority": 88,
+        "phase2_blocking": true,
+        "hit_count": 1224,
+        "sample_matches": [
+          "ProxySelector",
+          "proxySelector",
+          "ProxySelector"
+        ],
+        "evidence": [
+          {
+            "source": "jadx/sources/okhttp3/Address.java",
+            "line": 6,
+            "match": "ProxySelector"
+          },
+          {
+            "source": "jadx/sources/okhttp3/Address.java",
+            "line": 22,
+            "match": "proxySelector"
+          },
+          {
+            "source": "jadx/sources/okhttp3/Address.java",
+            "line": 31,
+            "match": "ProxySelector"
+          }
+        ],
+        "hook_strategy": "proxy_bypass",
+        "bypass_hint": "关注代理配置、VPN 接口名和 Burp/Charles 字符串判断，可在运行时屏蔽命中分支。",
+        "impact": "可能阻塞代理抓包、Burp/Yakit 联动或联网请求。"
+      },
+      {
+        "guard_type": "emulator_detection",
+        "severity": "High",
+        "priority": 85,
+        "phase2_blocking": true,
+        "hit_count": 246,
+        "sample_matches": [
+          "Build.MANUFACTURER",
+          "Build.MODEL",
+          "Build.MANUFACTURER"
+        ],
+        "evidence": [
+          {
+            "source": "jadx/sources/com/loc/cg.java",
+            "line": 31,
+            "match": "Build.MANUFACTURER"
+          },
+          {
+            "source": "jadx/sources/com/loc/cg.java",
+            "line": 32,
+            "match": "Build.MODEL"
+          },
+          {
+            "source": "jadx/sources/com/loc/ar.java",
+            "line": 30,
+            "match": "Build.MANUFACTURER"
+          }
+        ],
+        "hook_strategy": "emulator_bypass",
+        "bypass_hint": "关注 Build、ro.kernel.qemu、设备型号与硬件信息判断，可在运行时伪造环境特征。",
+        "impact": "可能导致测试环境被拒绝或关键流程不可达。"
+      },
+      {
+        "guard_type": "frida_or_debug_detection",
+        "severity": "High",
+        "priority": 84,
+        "phase2_blocking": true,
+        "hit_count": 138,
+        "sample_matches": [
+          "XPOSED",
+          "XPOSED",
+          "XPOSED"
+        ],
+        "evidence": [
+          {
+            "source": "jadx/sources/com/qq/e/mediation/comm/Constants.java",
+            "line": 8,
+            "match": "XPOSED"
+          },
+          {
+            "source": "jadx/sources/com/qq/e/comm/adevent/AdEventType.java",
+            "line": 14,
+            "match": "XPOSED"
+          },
+          {
+            "source": "jadx/sources/com/qq/e/comm/constants/Constants.java",
+            "line": 10,
+            "match": "XPOSED"
+          }
+        ],
+        "hook_strategy": "debug_bypass",
+        "bypass_hint": "关注 ptrace、TracerPid、maps、frida/xposed 关键字，优先定位检测入口再继续调试。",
+        "impact": "可能阻塞 Frida 注入、调试附加或运行时观测。"
+      },
+      {
+        "guard_type": "signature_check",
+        "severity": "Medium",
+        "priority": 75,
+        "phase2_blocking": true,
+        "hit_count": 38165,
+        "sample_matches": [
+          "signature",
+          "signature",
+          "signature"
+        ],
+        "evidence": [
+          {
+            "source": "apktool/AndroidManifest.xml",
+            "line": 6,
+            "match": "signature"
+          },
+          {
+            "source": "apktool/AndroidManifest.xml",
+            "line": 7,
+            "match": "signature"
+          },
+          {
+            "source": "apktool/AndroidManifest.xml",
+            "line": 8,
+            "match": "signature"
+          }
+        ],
+        "hook_strategy": "manual_signature_review",
+        "bypass_hint": "关注签名摘要和包信息校验位置，抓包或重打包前需确认是否会触发。",
+        "impact": "重打包、替换证书或调试改包时可能触发退出或限流。"
+      },
+      {
+        "guard_type": "anti_tamper_or_packer",
+        "severity": "Medium",
+        "priority": 70,
+        "phase2_blocking": true,
+        "hit_count": 3009,
+        "sample_matches": [
+          "ClassLoader",
+          "classLoader",
+          "classLoader"
+        ],
+        "evidence": [
+          {
+            "source": "jadx/sources/okio/FileSystem.java",
+            "line": 316,
+            "match": "ClassLoader"
+          },
+          {
+            "source": "jadx/sources/okio/FileSystem.java",
+            "line": 317,
+            "match": "classLoader"
+          },
+          {
+            "source": "jadx/sources/okio/FileSystem.java",
+            "line": 318,
+            "match": "classLoader"
+          }
+        ],
+        "hook_strategy": "manual_packer_review",
+        "bypass_hint": "关注加固、动态加载和类加载链路，结合 Phase 1 的样本画像判断是否存在壳或运行时装载。",
+        "impact": "可能影响类加载、反编译可见性或运行时插桩稳定性。"
+      },
+      {
+        "guard_type": "multi_open_detection",
+        "severity": "Medium",
+        "priority": 60,
+        "phase2_blocking": false,
+        "hit_count": 1772,
+        "sample_matches": [
+          "clone",
+          "clone",
+          "clone"
+        ],
+        "evidence": [
+          {
+            "source": "jadx/sources/okhttp3/RealCall.java",
+            "line": 115,
+            "match": "clone"
+          },
+          {
+            "source": "jadx/sources/okhttp3/Headers.java",
+            "line": 421,
+            "match": "clone"
+          },
+          {
+            "source": "jadx/sources/okhttp3/Call.java",
+            "line": 10,
+            "match": "clone"
+          }
+        ],
+        "hook_strategy": "manual_multi_open_review",
+        "bypass_hint": "关注双开、虚拟容器、克隆环境判断逻辑，后续测试环境需避免误触发。",
+        "impact": "多开、平行空间或虚拟容器环境下可能触发限制。"
+      }
+    ],
+    "phase2_blocking": [
+      {
+        "guard_type": "ssl_pinning_or_cert_check",
+        "severity": "Critical",
+        "hit_count": 3793,
+        "hook_strategy": "ssl_pinning_bypass",
+        "impact": "会直接导致 HTTPS 抓包失败或证书不被信任。"
+      },
+      {
+        "guard_type": "root_detection",
+        "severity": "High",
+        "hit_count": 225,
+        "hook_strategy": "root_bypass",
+        "impact": "可能阻塞启动、登录、抓包或运行时调试。"
+      },
+      {
+        "guard_type": "proxy_or_vpn_detection",
+        "severity": "High",
+        "hit_count": 1224,
+        "hook_strategy": "proxy_bypass",
+        "impact": "可能阻塞代理抓包、Burp/Yakit 联动或联网请求。"
+      },
+      {
+        "guard_type": "emulator_detection",
+        "severity": "High",
+        "hit_count": 246,
+        "hook_strategy": "emulator_bypass",
+        "impact": "可能导致测试环境被拒绝或关键流程不可达。"
+      },
+      {
+        "guard_type": "frida_or_debug_detection",
+        "severity": "High",
+        "hit_count": 138,
+        "hook_strategy": "debug_bypass",
+        "impact": "可能阻塞 Frida 注入、调试附加或运行时观测。"
+      },
+      {
+        "guard_type": "signature_check",
+        "severity": "Medium",
+        "hit_count": 38165,
+        "hook_strategy": "manual_signature_review",
+        "impact": "重打包、替换证书或调试改包时可能触发退出或限流。"
+      },
+      {
+        "guard_type": "anti_tamper_or_packer",
+        "severity": "Medium",
+        "hit_count": 3009,
+        "hook_strategy": "manual_packer_review",
+        "impact": "可能影响类加载、反编译可见性或运行时插桩稳定性。"
+      }
+    ],
+    "frida_recommendations": [
+      {
+        "module": "root_bypass",
+        "description": "隐藏 su / Magisk / test-keys / Root 包信息与常见命令执行。",
+        "related_guard_types": [
+          "root_detection"
+        ],
+        "hit_count": 225
+      },
+      {
+        "module": "emulator_bypass",
+        "description": "伪造 Build 与系统属性，降低模拟器环境命中概率。",
+        "related_guard_types": [
+          "emulator_detection"
+        ],
+        "hit_count": 246
+      },
+      {
+        "module": "proxy_bypass",
+        "description": "隐藏常见 Java 层代理属性，降低代理/抓包环境命中概率。",
+        "related_guard_types": [
+          "proxy_or_vpn_detection"
+        ],
+        "hit_count": 1224
+      },
+      {
+        "module": "ssl_pinning_bypass",
+        "description": "替换常见 TrustManager / HostnameVerifier / okhttp3 CertificatePinner 校验。",
+        "related_guard_types": [
+          "ssl_pinning_or_cert_check"
+        ],
+        "hit_count": 3793
+      },
+      {
+        "module": "debug_bypass",
+        "description": "关闭常见 Debug 调试状态检测，降低运行时调试阻塞。",
+        "related_guard_types": [
+          "frida_or_debug_detection"
+        ],
+        "hit_count": 138
+      }
+    ],
+    "manual_review_items": [
+      {
+        "guard_type": "signature_check",
+        "bypass_hint": "关注签名摘要和包信息校验位置，抓包或重打包前需确认是否会触发。",
+        "hit_count": 38165
+      },
+      {
+        "guard_type": "anti_tamper_or_packer",
+        "bypass_hint": "关注加固、动态加载和类加载链路，结合 Phase 1 的样本画像判断是否存在壳或运行时装载。",
+        "hit_count": 3009
+      },
+      {
+        "guard_type": "multi_open_detection",
+        "bypass_hint": "关注双开、虚拟容器、克隆环境判断逻辑，后续测试环境需避免误触发。",
+        "hit_count": 1772
+      }
+    ],
+    "statistics": {
+      "by_severity": {
+        "Critical": 1,
+        "High": 4,
+        "Medium": 3
+      },
+      "guard_types_detected": [
+        "ssl_pinning_or_cert_check",
+        "root_detection",
+        "proxy_or_vpn_detection",
+        "emulator_detection",
+        "frida_or_debug_detection",
+        "signature_check",
+        "anti_tamper_or_packer",
+        "multi_open_detection"
+      ],
+      "suggested_frida_modules": [
+        "root_bypass",
+        "emulator_bypass",
+        "proxy_bypass",
+        "ssl_pinning_bypass",
+        "debug_bypass"
+      ]
+    },
+    "full_data": {
+      "raw": "step1/raw_env_guards.json",
+      "report": "step1/env_guard_report.json",
+      "frida_plan": "step1/frida_bypass_plan.json"
+    }
+  },
+  "cross_source_signals": {
+    "total_signals": 4,
+    "signals": [
+      {
+        "signal": "ssl_pinning_with_crypto_fields",
+        "severity": "High",
+        "description": "SSL Pinning 检测存在且代码中有加密字段，Phase 2 抓包前需先绕过 SSL Pinning",
+        "action": "先启用 Frida SSL Pinning bypass，再接入 Burp/Yakit MCP"
+      },
+      {
+        "signal": "java_native_crypto_chain",
+        "severity": "High",
+        "description": "Java 层和 Native 层均发现加密调用，Phase 3 需要分析 JNI → SO 链路",
+        "action": "Phase 2 后用 resolve_native_target.py 收敛目标 SO"
+      },
+      {
+        "signal": "runtime_bypass_ready",
+        "severity": "Medium",
+        "description": "已检测到 Root/模拟器对抗且已生成 Frida bypass 脚本，可运行时绕过",
+        "action": "使用 step1/frida/android_phase1_bypass.js 注入目标 App"
+      },
+      {
+        "signal": "webview_jsbridge_surface",
+        "severity": "High",
+        "description": "发现 7 个 JSBridge 接口，42 处 JS 启用，Phase 4 需重点审计",
+        "action": "Phase 4 生成 jsbridge_analysis.json"
+      }
+    ]
+  }
+}

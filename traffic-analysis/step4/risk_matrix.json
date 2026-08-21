@@ -1,0 +1,70 @@
+{
+  "target": "浙江游戏大厅 com.xm.zjgamecenter v1.5.4",
+  "generated_by": "phase_4 crypto-vuln-analyzer (static_only_offline)",
+  "summary": {
+    "critical": 5,
+    "high": 9,
+    "medium": 9,
+    "low": 3,
+    "info": 0,
+    "total": 26
+  },
+  "by_category": {
+    "弱加密": 8,
+    "认证授权": 0,
+    "数据安全": 7,
+    "业务逻辑": 4,
+    "组件安全": 5,
+    "注入与RCE": 2
+  },
+  "by_status": {
+    "已确认": 23,
+    "需验证": 2,
+    "仅有线索": 1
+  },
+  "severity_x_id": {
+    "critical": ["VULN-001", "VULN-005", "VULN-007", "VULN-008", "VULN-010"],
+    "high": ["VULN-002", "VULN-004", "VULN-006", "VULN-009", "VULN-011", "VULN-012", "VULN-013", "VULN-014", "VULN-017"],
+    "medium": ["VULN-003", "VULN-015", "VULN-016", "VULN-018", "VULN-019", "VULN-020", "VULN-021", "VULN-023", "VULN-025"],
+    "low": ["VULN-022", "VULN-024", "VULN-026"]
+  },
+  "impact_exploitability_notes": [
+    {"id": "VULN-001", "impact": "全量 SRS 流量被动解密", "exploitability": "极高(仅需被动嗅探,材料全公开)", "guardian": "L4"},
+    {"id": "VULN-005", "impact": "短信通道滥用/登录接口伪造", "exploitability": "极高(仅需 APK,离线重签)", "guardian": "L4"},
+    {"id": "VULN-007", "impact": "全部游戏逻辑泄露+热更伪造加密无障碍", "exploitability": "已发生(解密器实测)", "guardian": "L4"},
+    {"id": "VULN-008", "impact": "全客户端任意 Lua 执行", "exploitability": "中-高(需通道控制,MD5 无签名兜底)", "guardian": "L3"},
+    {"id": "VULN-010", "impact": "on-path 客户端 RCE", "exploitability": "中(需 TCP 中间人,但 proc!=0 明文无需破密)", "guardian": "L3"},
+    {"id": "VULN-013", "impact": "非导出组件任意拉起+extra 注入", "exploitability": "高(同机恶意应用即可)", "guardian": "L4"},
+    {"id": "VULN-012", "impact": "支付成功伪造(本地层)", "exploitability": "高(纯本地静态逻辑)", "guardian": "L4"},
+    {"id": "VULN-014", "impact": "H5->Native 高危穿透", "exploitability": "中-高(依赖入口投递,与 VULN-013 成链)", "guardian": "L3"},
+    {"id": "VULN-009", "impact": "恶意插件 dex RCE", "exploitability": "中(需通道控制,存在明文回退)", "guardian": "L3"}
+  ],
+  "by_guardian_level": {
+    "L4_exploitable": ["VULN-001", "VULN-002", "VULN-005", "VULN-007", "VULN-012", "VULN-013"],
+    "L3_controllable": ["VULN-003", "VULN-004", "VULN-008", "VULN-009", "VULN-010", "VULN-011", "VULN-014", "VULN-015", "VULN-016"],
+    "L2_reachable": ["VULN-006", "VULN-017", "VULN-018", "VULN-019", "VULN-020", "VULN-023", "VULN-026"],
+    "L1_pattern": ["VULN-021", "VULN-022", "VULN-024", "VULN-025"],
+    "note": "L5_verified 由 Phase 5 回写；ID 列表供 Phase 5 按优先级领取"
+  },
+  "phase5_priority_queue": {
+    "immediate": ["VULN-001", "VULN-002", "VULN-005", "VULN-007", "VULN-012", "VULN-013"],
+    "needs_frida_first": ["VULN-006", "VULN-025", "VULN-011", "VULN-004"],
+    "needs_callchain_first": ["VULN-015", "VULN-016", "VULN-020"],
+    "defer": ["VULN-018", "VULN-019", "VULN-022", "VULN-023", "VULN-024", "VULN-026"],
+    "blocked_native_audit": ["VULN-021"],
+    "note": "VULN-008/009/010/003/014 为 L3：Phase 5 需先确认通道/入口可控性(MITM 位置或服务端行为)再写 PoC"
+  },
+  "top10_coverage": {
+    "sql_injection": 0,
+    "command_execution_rce": 2,
+    "path_traversal_file_handling": 1,
+    "auth_and_session": 3,
+    "data_exposure": 4,
+    "webview_jsbridge": 2,
+    "component_and_deeplink": 4,
+    "dynamic_loading_integrity": 3,
+    "business_logic_replay": 4,
+    "crypto_and_signature": 8,
+    "note": "计数为各类别关联 VULN 条数(有交叉)；sql_injection 已审计未发现问题(全参数化)"
+  }
+}

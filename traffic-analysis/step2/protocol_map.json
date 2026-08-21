@@ -1,0 +1,338 @@
+{
+ "auth_fields": [
+  {
+   "field": "PlayerConnect.userid/pwd(session)",
+   "field_role": "token",
+   "location": "body",
+   "source_type": "storage",
+   "builder_path": "本地 SESSION 存储 -> SRSProtocol.PlayerConnect.usertype=7 + writeString(userid)/writeString(pwd=session) -> IStream -> native XOR -> TCP",
+   "value_shape": "string(u8len前缀)",
+   "source_file": "hotfix-decrypted/src/app/Protocols/SRSProtocol.lua",
+   "source_line": 32,
+   "related_endpoint_group": "SRS-AUTH",
+   "replay_relevant": true,
+   "related_endpoints": [
+    "SRS(xy=5,proc=0)"
+   ],
+   "notes": "usertype=7 已经流量确认; userid/session 字符串段 ks 未覆盖, 值未提取"
+  },
+  {
+   "field": "PlayerData.sessionid",
+   "field_role": "token",
+   "location": "body",
+   "source_type": "function_return",
+   "builder_path": "服务端下发 PlayerData.write(sessionid,16) -> 客户端存储 -> 后续重登使用",
+   "value_shape": "16字节原始",
+   "source_file": "hotfix-decrypted/src/app/Protocols/SRSProtocol.lua",
+   "source_line": 150,
+   "related_endpoint_group": "SRS-AUTH",
+   "replay_relevant": true,
+   "related_endpoints": [
+    "SRS(xy=6,proc=0)"
+   ],
+   "notes": "ks 覆盖不足未解码; 字段位置由代码确认"
+  },
+  {
+   "field": "askid",
+   "field_role": "nonce",
+   "location": "body",
+   "source_type": "function_return",
+   "builder_path": "XH.askIDManager:getAskID() (ReqProtocol.lua:7) -> 每个 Req*.writeInt32(askid) 首字段 -> 响应回显匹配",
+   "value_shape": "int32 递增",
+   "source_file": "lua-src-apk/app/Base/Req/ReqProtocol.lua",
+   "source_line": 7,
+   "related_endpoint_group": "SRS-ALL",
+   "replay_relevant": false,
+   "related_endpoints": [
+    "全部 SRS Req/Resp 对"
+   ],
+   "notes": "流量确认: ReqGetGoldRoomInfo askid 1..24 递增; ReqJoin/KeepAlive askid=0(无回调型)"
+  }
+ ],
+ "signature_fields": [
+  {
+   "field": "signature",
+   "field_role": "sign",
+   "location": "body",
+   "input_fields": [
+    "app_id",
+    "areaid",
+    "auto_reg(仅isNew)",
+    "lobbyid",
+    "phone",
+    "timestamp",
+    "type",
+    "wid",
+    "appKey(盐,拼接末尾)"
+   ],
+   "input_order_hint": [
+    "app_id",
+    "areaid",
+    "auto_reg",
+    "lobbyid",
+    "phone",
+    "timestamp",
+    "type",
+    "wid",
+    "+appKey"
+   ],
+   "source_type": "function_return",
+   "builder_path": "ReqPhoneVerificationCode:start -> 拼接 signatureStr(无分隔符直拼) -> un.md5Encode(signatureStr) -> tHttpInfo 表单参数 signature -> RequestPost(palmapi)",
+   "crypto_entry_candidate": "un.md5Encode (native, libcocos2dlua.so; 算法为标准MD5,可离线复算)",
+   "value_shape": "hex(32)",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 22,
+   "related_endpoint_group": "HTTP-AUTH-PHONE",
+   "related_native_candidate": true,
+   "replay_relevant": true,
+   "related_endpoints": [
+    "HTTP-PHONE-001",
+    "HTTP-PHONE-002"
+   ],
+   "notes": "old路径(UrlConf.lua:121)签名串无 auto_reg; new路径(:122)含 auto_reg=0; appKey=XH.areaData:getPhoneloginAppKey()(区域配置下发)"
+  },
+  {
+   "field": "signature(手机验证码登录)",
+   "field_role": "sign",
+   "location": "body",
+   "input_fields": [
+    "app_id",
+    "areaid",
+    "auto_reg",
+    "code",
+    "lobbyid",
+    "phone",
+    "timestamp",
+    "wid",
+    "appKey"
+   ],
+   "input_order_hint": [
+    "app_id",
+    "areaid",
+    "auto_reg",
+    "code",
+    "lobbyid",
+    "phone",
+    "timestamp",
+    "wid",
+    "+appKey"
+   ],
+   "source_type": "function_return",
+   "builder_path": "ReqPhoneLogin:start -> signatureStr -> un.md5Encode -> signature -> RequestPost(REQ_VERIFICATION_PHONE_PWD_1/2)",
+   "crypto_entry_candidate": "un.md5Encode",
+   "value_shape": "hex(32)",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneLogin.lua",
+   "source_line": 17,
+   "related_endpoint_group": "HTTP-AUTH-PHONE",
+   "related_native_candidate": true,
+   "replay_relevant": true,
+   "related_endpoints": [
+    "HTTP-PHONE-003",
+    "HTTP-PHONE-004"
+   ]
+  },
+  {
+   "field": "sign(通用 HTTP 参数签名)",
+   "field_role": "sign",
+   "location": "query",
+   "input_fields": [
+    "全部请求参数(键排序,k=v 以 & 连接,空串跳过)"
+   ],
+   "input_order_hint": [
+    "table.sort(keys) 字典序"
+   ],
+   "source_type": "function_return",
+   "builder_path": "url.generate 组装 -> url.sign(params) 键排序拼接 -> un.sign(strParams) -> 注入请求",
+   "crypto_entry_candidate": "un.sign (native, libcocos2dlua.so; 算法未确认, 疑似 HMAC/MD5 变体)",
+   "value_shape": "unknown(HTTPS 密文未见样本)",
+   "source_file": "lua-src-apk/app/hotupdate/universe/Url.lua",
+   "source_line": 56,
+   "related_endpoint_group": "HTTP-BUSINESS",
+   "related_native_candidate": true,
+   "replay_relevant": true,
+   "related_endpoints": [
+    "transit.hzxuanming.com 业务接口群"
+   ],
+   "notes": "HTTPS 密文, 无流量样本; un.sign 为 Phase 3 native 目标"
+  }
+ ],
+ "endpoint_parameter_map": [
+  {
+   "endpoint_id": "HTTP-PHONE-001/002",
+   "parameter": "app_id",
+   "field_role": "business_parameter",
+   "location": "body",
+   "source_type": "constant",
+   "builder_path": "XH.areaData:getPhoneloginAppID() -> body.app_id",
+   "value_shape": "int",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 5,
+   "participates_in_signature": true,
+   "participates_in_encryption": false,
+   "crypto_entry_candidate": "un.md5Encode",
+   "related_native_candidate": false
+  },
+  {
+   "endpoint_id": "HTTP-PHONE-001/002",
+   "parameter": "areaid",
+   "field_role": "business_parameter",
+   "location": "body",
+   "source_type": "constant",
+   "builder_path": "XH.areaData:getAreaID() -> body.areaid",
+   "value_shape": "int(台州=7109,SRS 流量证实)",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 5,
+   "participates_in_signature": true,
+   "participates_in_encryption": false,
+   "crypto_entry_candidate": "un.md5Encode",
+   "related_native_candidate": false
+  },
+  {
+   "endpoint_id": "HTTP-PHONE-001/002",
+   "parameter": "lobbyid",
+   "field_role": "business_parameter",
+   "location": "body",
+   "source_type": "constant",
+   "builder_path": "XH.areaData:getLobbyID() -> body.lobbyid",
+   "value_shape": "int",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 5,
+   "participates_in_signature": true,
+   "participates_in_encryption": false,
+   "crypto_entry_candidate": "un.md5Encode",
+   "related_native_candidate": false
+  },
+  {
+   "endpoint_id": "HTTP-PHONE-001/002",
+   "parameter": "phone",
+   "field_role": "business_parameter",
+   "location": "body",
+   "source_type": "user_input",
+   "builder_path": "View 输入 -> start(type,phone,...) -> body.phone",
+   "value_shape": "11位手机号",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 5,
+   "participates_in_signature": true,
+   "participates_in_encryption": false,
+   "crypto_entry_candidate": "un.md5Encode",
+   "related_native_candidate": false
+  },
+  {
+   "endpoint_id": "HTTP-PHONE-001/002",
+   "parameter": "type",
+   "field_role": "business_parameter",
+   "location": "body",
+   "source_type": "constant",
+   "builder_path": "登录=pwd_get/绑定=bind",
+   "value_shape": "string",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 5,
+   "participates_in_signature": true,
+   "participates_in_encryption": false,
+   "crypto_entry_candidate": "un.md5Encode",
+   "related_native_candidate": false
+  },
+  {
+   "endpoint_id": "HTTP-PHONE-001/002",
+   "parameter": "timestamp",
+   "field_role": "timestamp",
+   "location": "body",
+   "source_type": "function_return",
+   "builder_path": "os.time() -> body.timestamp + 参与签名",
+   "value_shape": "unix秒",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 5,
+   "participates_in_signature": true,
+   "participates_in_encryption": false,
+   "crypto_entry_candidate": "un.md5Encode",
+   "related_native_candidate": false
+  },
+  {
+   "endpoint_id": "HTTP-PHONE-001/002",
+   "parameter": "wid",
+   "field_role": "device_binding",
+   "location": "body",
+   "source_type": "constant",
+   "builder_path": "XH.areaData:getAreaWindID() -> body.wid",
+   "value_shape": "int",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 5,
+   "participates_in_signature": true,
+   "participates_in_encryption": false,
+   "crypto_entry_candidate": "un.md5Encode",
+   "related_native_candidate": false
+  },
+  {
+   "endpoint_id": "HTTP-PHONE-001/002",
+   "parameter": "signature",
+   "field_role": "sign",
+   "location": "body",
+   "source_type": "function_return",
+   "builder_path": "md5(直拼+appKey) -> body.signature",
+   "value_shape": "hex(32)",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 5,
+   "participates_in_signature": true,
+   "participates_in_encryption": false,
+   "crypto_entry_candidate": "un.md5Encode",
+   "related_native_candidate": false
+  },
+  {
+   "endpoint_id": "SRS-GAMEM",
+   "parameter": "cmdid/msglen",
+   "field_role": "business_parameter",
+   "location": "body",
+   "source_type": "function_return",
+   "builder_path": "游戏内消息 -> GameMProtocol.ClientToServerMessage.writeUInt16(cmdid)+writeUInt16(msglen)+write(message) -> native XOR",
+   "value_shape": "u16le+u16le",
+   "source_file": "hotfix-decrypted/src/game/Common/Protocols/GameMProtocol.lua",
+   "source_line": 297,
+   "participates_in_signature": false,
+   "participates_in_encryption": true,
+   "crypto_entry_candidate": "un.network.TcpConnection native XOR",
+   "related_native_candidate": true
+  }
+ ],
+ "crypto_code_locations": [
+  {
+   "endpoint_id": "SRS-ALL",
+   "field": "frame_body",
+   "field_role": "encryptData",
+   "function": "un.network.TcpConnection.sendMessage/_onMsg (native 加解密)",
+   "builder_path": "IStream 序列化 -> native XOR(keystream 每连接/双向共用/逐帧重置) -> TCP; 密钥材料由 s2c xy=4 帧(17/33B)下发, 派生算法在 native",
+   "value_shape": "xor_stream",
+   "source_file": "lua-src-apk/app/Net/TcpConnection.lua",
+   "source_line": 12,
+   "jni_related": true,
+   "related_native_candidate": "libcocos2dlua.so un.network.TcpConnection",
+   "related_endpoint_group": "SRS-ALL",
+   "notes": "本阶段已从流量恢复全部主连接 keystream 前4-6字节并完成字段级解码; 完整密钥派生算法留 Phase 3"
+  },
+  {
+   "endpoint_id": "HTTP-PHONE-001",
+   "field": "signature",
+   "field_role": "sign",
+   "function": "un.md5Encode",
+   "builder_path": "signatureStr 直拼 -> un.md5Encode -> body.signature",
+   "value_shape": "hex(32)",
+   "source_file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua",
+   "source_line": 22,
+   "jni_related": true,
+   "related_native_candidate": "libcocos2dlua.so un.md5Encode(标准MD5)",
+   "related_endpoint_group": "HTTP-AUTH-PHONE"
+  },
+  {
+   "endpoint_id": "HTTP-BUSINESS",
+   "field": "sign",
+   "field_role": "sign",
+   "function": "un.sign",
+   "builder_path": "table.sort(keys) -> k=v&拼接 -> un.sign(strParams)",
+   "value_shape": "unknown",
+   "source_file": "lua-src-apk/app/hotupdate/universe/Url.lua",
+   "source_line": 56,
+   "jni_related": true,
+   "related_native_candidate": "libcocos2dlua.so un.sign",
+   "related_endpoint_group": "HTTP-BUSINESS"
+  }
+ ]
+}

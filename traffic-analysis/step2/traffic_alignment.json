@@ -1,0 +1,367 @@
+{
+ "traffic_source_available": true,
+ "matched_endpoints": [
+  "SRS-001",
+  "SRS-002",
+  "SRS-003",
+  "SRS-004",
+  "SRS-005",
+  "SRS-006",
+  "SRS-007",
+  "SRS-008",
+  "SRS-009",
+  "SRS-010",
+  "SRS-011",
+  "SRS-012",
+  "SRS-013",
+  "SRS-014",
+  "SRS-015",
+  "SRS-016",
+  "SRS-017",
+  "SRS-018",
+  "SRS-019",
+  "SRS-020",
+  "SRS-021",
+  "SRS-022",
+  "SRS-023",
+  "SRS-026",
+  "SRS-027",
+  "SRS-028",
+  "SRS-029",
+  "SRS-030",
+  "SRS-031",
+  "SRS-032",
+  "SRS-033",
+  "SRS-034",
+  "SRS-035",
+  "SRS-036",
+  "SRS-037",
+  "SRS-038",
+  "SRS-039",
+  "SRS-040",
+  "SRS-041",
+  "SRS-042",
+  "SRS-043",
+  "SRS-044",
+  "SRS-045",
+  "SRS-046",
+  "SRS-047",
+  "SRS-048",
+  "SRS-049",
+  "SRS-050",
+  "SRS-051",
+  "SRS-052",
+  "SRS-053",
+  "SRS-054",
+  "SRS-055",
+  "SRS-056",
+  "SRS-057",
+  "SRS-058",
+  "SRS-059",
+  "SRS-060",
+  "SRS-061",
+  "SRS-062",
+  "SRS-063",
+  "SRS-064",
+  "SRS-065",
+  "SRS-066",
+  "SRS-067",
+  "SRS-068",
+  "SRS-069",
+  "SRS-070",
+  "SRS-071",
+  "SRS-072",
+  "SRS-073",
+  "SRS-074",
+  "SRS-075",
+  "SRS-076",
+  "SRS-077",
+  "SRS-078",
+  "SRS-079",
+  "SRS-080",
+  "SRS-081",
+  "SRS-082",
+  "SRS-083",
+  "SRS-084",
+  "SRS-085",
+  "SRS-086",
+  "SRS-088",
+  "SRS-089",
+  "SRS-090",
+  "SRS-091",
+  "SRS-095",
+  "SRS-096",
+  "SRS-097",
+  "SRS-098",
+  "SRS-099",
+  "SRS-100",
+  "SRS-101",
+  "SRS-102",
+  "SRS-103",
+  "SRS-104",
+  "SRS-105",
+  "SRS-106",
+  "SRS-107",
+  "SRS-108",
+  "SRS-109",
+  "SRS-110",
+  "SRS-111",
+  "HTTPS-SNI-gxb-oss.imeete.com",
+  "HTTPS-SNI-gxb-oss.hzxuanming.com",
+  "HTTPS-SNI-hz-hylas.mengyoutech.com",
+  "HTTPS-SNI-shiming.hzxuanming.com",
+  "HTTPS-SNI-wechat.hzxuanming.com",
+  "HTTPS-SNI-te.hzxuanming.com",
+  "HTTPS-SNI-transit.hzxuanming.com",
+  "HTTPS-SNI-gxb-cos.hzxuanming.com",
+  "HTTPS-SNI-gxb-api.imeete.com",
+  "HTTPS-SNI-gxb-api-tx.imeete.com",
+  "HTTPS-SNI-gxb-monitor.hzxuanming.com",
+  "HTTPS-SNI-gxb-api-tx.hzxuanming.com",
+  "HTTPS-SNI-gxb-monitor.imeete.com",
+  "HTTPS-SNI-webact.tt2kj.com",
+  "HTTPS-SNI-dh-api.imeete.com",
+  "HTTPS-SNI-gxb-api.hzxuanming.com",
+  "HTTPS-SNI-confapi.mychuguan.com",
+  "HTTPS-SNI-fcm.bflyhd.cn",
+  "HTTPS-SNI-gopalmapi.hzxuanming.com",
+  "HTTPS-SNI-bfas.bianfeng.com",
+  "HTTPS-SNI-palmapi.hzxuanming.com"
+ ],
+ "unmatched_code_endpoints": {
+  "srs_code_only_count": 301,
+  "note": "协议索引 849 条二进制消息定义中 301 条未在任何场景流量出现; 含 DispatchProtocol(proc147,调度队列4-8)=旧金币调度链路,已被 MatchLinkProtocol(proc1006) 取代",
+  "http_code_only": [
+   {
+    "url": "https://palmstatic.hzxuanming.com/Download/Rule",
+    "file": "tools/luau8/lua-src-apk/app/Config/UrlConf.lua",
+    "line": 55,
+    "note": "REQ_GAME_RULE_IMAGE 规则图（抓包未出现）"
+   },
+   {
+    "url": "https://palmstatic.imeete.com/Download/avatar/newgold/%d.png",
+    "file": "tools/luau8/hotfix-decrypted/src/lobby/Modules/GoldNew/SubModules/PersonalCenter/Config.lua",
+    "line": 9,
+    "note": "金币场头像 CDN"
+   },
+   {
+    "url": "https://api.hzxuanming.com/iplooker/dat/find?",
+    "file": "tools/luau8/lua-src-apk/app/Config/UrlConf.lua",
+    "line": 59,
+    "note": "REQ_IS_FOREIGN_IP 海外网络判断"
+   },
+   {
+    "url": "https://wechatapi.hzxuanming.com/api/agent/bind_from_aid? 等 4 条",
+    "file": "tools/luau8/hotfix-decrypted/src/app/Config/UrlConf.lua",
+    "line": 86,
+    "note": "代理绑定/解绑/查询"
+   },
+   {
+    "url": "https://act.hzxuanming.com/hmq_share_send/getAward? 等",
+    "file": "tools/luau8/hotfix-decrypted/src/app/Config/UrlConf.lua",
+    "line": 99,
+    "note": "杭麻圈分享/砍价/迁移活动"
+   },
+   {
+    "url": "https://bfas.hzxuanming.com/v2/client",
+    "file": "tools/luau8/hotfix-decrypted/src/app/Config/UrlConf.lua",
+    "line": 102,
+    "note": "数据抛送（抓包中为 bfas.bianfeng.com 变体）"
+   },
+   {
+    "url": "https://trade.hzxuanming.com/v2/trade/order",
+    "file": "tools/luau8/hotfix-decrypted/src/app/Config/UrlConf.lua",
+    "line": 112,
+    "note": "车载 H5 支付"
+   },
+   {
+    "url": "https://kf.kkwan.cc/?",
+    "file": "tools/luau8/hotfix-decrypted/src/app/Config/UrlConf.lua",
+    "line": 83,
+    "note": "客服 H5"
+   },
+   {
+    "url": "https://hegui.bflyhd.cn/",
+    "file": "tools/luau8/hotfix-decrypted/src/app/Config/UrlConf.lua",
+    "line": 107,
+    "note": "合规入口"
+   },
+   {
+    "url": "https://downloadpage.bfnbgame.com/zhanlong/crm/clientConfig.json?",
+    "file": "tools/luau8/hotfix-decrypted/src/app/Config/UrlConf.lua",
+    "line": 109,
+    "note": "客服配置下载"
+   },
+   {
+    "url": "https://hw-confapi.mychuguan.com:4445/config_data/md5_list 等",
+    "file": "tools/luau8/hotfix-decrypted/src/app/Config/UrlConf.lua",
+    "line": 12,
+    "note": "海外（KW_DATA_IS_ABROAD_SRS）配置中心变体"
+   },
+   {
+    "url": "https://hw-sibyl.mengyoutech.com:4446/",
+    "file": "tools/luau8/hotfix-decrypted/src/app/Config/UrlConf.lua",
+    "line": 125,
+    "note": "海外金币场变体"
+   },
+   {
+    "url": "https://bj-sibyl.mengyoutech.com/hacaba/VIPConfig 等",
+    "file": "tools/luau8/hotfix-decrypted/src/lobby/Req/Sxvip/ReqSxvipConfig.lua",
+    "line": 26,
+    "note": "北京区 sxvip 直连"
+   },
+   {
+    "url": "https://webactivity.imeete.com/lswelfareredpacket/* 等",
+    "file": "tools/luau8/hotfix-decrypted/src/GameCommon/Code/GameTeaBusiness/CellReqRedbox.lua",
+    "line": 5,
+    "note": "丽水茶馆红包活动"
+   }
+  ]
+ },
+ "unmatched_traffic_endpoints": {
+  "srs_traffic_only": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    11009
+   ],
+   [
+    1,
+    11015
+   ],
+   [
+    1,
+    11820
+   ],
+   [
+    1,
+    50005
+   ],
+   [
+    116,
+    280
+   ],
+   [
+    116,
+    561
+   ],
+   [
+    116,
+    562
+   ],
+   [
+    116,
+    563
+   ]
+  ],
+  "note": "(proc,xy) 在流量出现但代码无定义; [0,1]/[0,3]/[0,4] 为 native 链路握手(xy=4 为密钥材料下发); (1,11136)/(1,11137) 为游戏房间通道心跳(GameM/LogicBase 未命名); (116,280)/(116,561-563) 为 newgold nyx protobuf 未收录消息",
+  "http_third_party": "78条明文HTTP全部第三方SDK(个推/搜狐cityjson/微信mmtls/快手HTTPDNS), 归 third_party 组不逐字段"
+ },
+ "matched_field_flows": [
+  {
+   "endpoint_id": "SRS(xy5,proc0)",
+   "field": "clienttype/usertype/areaid",
+   "field_role": "business_parameter",
+   "location": "body",
+   "traffic_value_shape": "u8/u8/u32le = 2/7/7109",
+   "code_builder_path": "PlayerConnect.bostream 前三字段",
+   "crypto_entry_candidate": "un.network.TcpConnection XOR",
+   "related_native_candidate": true,
+   "match_confidence": "high"
+  },
+  {
+   "endpoint_id": "SRS-GAMEM(11201)",
+   "field": "cmdid/msglen",
+   "field_role": "business_parameter",
+   "location": "body",
+   "traffic_value_shape": "u16le+u16le, msglen=len-4 恒成立",
+   "code_builder_path": "GameMProtocol.ClientToServerMessage.bostream",
+   "crypto_entry_candidate": "native XOR",
+   "related_native_candidate": true,
+   "match_confidence": "high"
+  },
+  {
+   "endpoint_id": "SRS-GAMEM cmd539",
+   "field": "nSeat/nMah",
+   "field_role": "business_parameter",
+   "location": "body",
+   "traffic_value_shape": "u8/u8, 与 s2c 广播 17/17 一致",
+   "code_builder_path": "GameProtocol.msgPlay.bostream(GameProtocol.lua:840)",
+   "crypto_entry_candidate": "native XOR",
+   "related_native_candidate": true,
+   "match_confidence": "high"
+  },
+  {
+   "endpoint_id": "SRS(1006,25100/25101)",
+   "field": "askid",
+   "field_role": "nonce",
+   "location": "body",
+   "traffic_value_shape": "int32=0, 46帧恒定",
+   "code_builder_path": "MatchLinkProtocol.ReqJoin.writeInt32(askid)",
+   "crypto_entry_candidate": "native XOR",
+   "related_native_candidate": true,
+   "match_confidence": "high"
+  },
+  {
+   "endpoint_id": "SRS(84,24/25)",
+   "field": "askid",
+   "field_role": "nonce",
+   "location": "body",
+   "traffic_value_shape": "int32 1..24 递增, 24对回显一致",
+   "code_builder_path": "RoomProtocol.ReqGetGoldRoomInfo.writeInt32(askid)",
+   "crypto_entry_candidate": "native XOR",
+   "related_native_candidate": true,
+   "match_confidence": "high"
+  },
+  {
+   "endpoint_id": "HTTP-PHONE-001",
+   "field": "signature",
+   "field_role": "sign",
+   "location": "body",
+   "traffic_value_shape": "HTTPS密文(仅SNI palmapi.hzxuanming.com @s02/s06)",
+   "code_builder_path": "signatureStr 直拼 -> un.md5Encode -> body.signature (ReqPhoneVerificationCode.lua:19-27)",
+   "crypto_entry_candidate": "un.md5Encode",
+   "related_native_candidate": true,
+   "match_confidence": "medium(端点SNI级+代码字段级)"
+  },
+  {
+   "endpoint_id": "SRS(proc0,xy15)",
+   "field": "nAppID/strlen",
+   "field_role": "business_parameter",
+   "location": "body",
+   "traffic_value_shape": "u16le 模块appid + u8 字符串长",
+   "code_builder_path": "SRSProtocol.RespSRSAddr.bistream(SRSProtocol.lua:516)",
+   "crypto_entry_candidate": "native XOR(与c2s同keystream)",
+   "related_native_candidate": true,
+   "match_confidence": "high"
+  },
+  {
+   "endpoint_id": "SRS(120,12)",
+   "field": "nAskId/nAreaTypeId/nProtoId/acData",
+   "field_role": "business_parameter",
+   "location": "body",
+   "traffic_value_shape": "i32*3 + u8string, acData=\"[]\"",
+   "code_builder_path": "TaskProtocol.RespTaskProtocol.bistream(TaskProtocol.lua:228)",
+   "crypto_entry_candidate": null,
+   "related_native_candidate": false,
+   "match_confidence": "high(s2c proc!=0 明文直接解析)"
+  }
+ ],
+ "notes": [
+  "s2c proc!=0 全明文, 任意消息可按 protocol_index_full.json 的 bistream 字段序列直接解析",
+  "c2s 及 s2c proc==0 为 XOR 流加密; keystreams_*.json 已给出各连接恢复的前缀(4-6字节), 全量恢复需 Phase 3 逆向 native 密钥派生",
+  "s05_emulator_gold_attempt.pcap 65GB 仅完成连接清单(inventory, 前2GB), 未做消息级解码; 模拟器金币场未进入对局",
+  "protobuf 通道: proc=1147(roommatch_cli, 0x80 flag 帧)与 proc=116(nyx_client) 消息体为 protobuf 明文, 定义在 protocol_index_full.json protobuf_messages(743条)"
+ ]
+}

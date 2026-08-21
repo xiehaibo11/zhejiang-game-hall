@@ -1,0 +1,84 @@
+
+
+local EventType = {}
+-------------------------------------------------------
+--【系统事件】
+--
+--loginScene
+EventType.loginMsgAckBackFunc = "loginMsgAckBackFunc"
+EventType.getVipRoomListMsgAckSucc = "getVipRoomListMsgAckSucc"
+-- lobbyScene
+EventType.refreshItemBaseMsgSucc = "refreshItemBaseMsgSucc"
+EventType.MSG_GAME_GAME_OPERTAION_ACK = "MSG_GAME_GAME_OPERTAION_ACK"
+EventType.MSG_REQUEST_BUY_DAOJU_ACK = "MSG_REQUEST_BUY_DAOJU_ACK"
+
+-- gamebase
+EventType.gameStart = "gameStart"
+
+EventType.GAME_PLAYER_JOIN_ROOM = "evt_player_join_room"
+
+EventType.GAME_PLAYER_EXIT_ROOM = "evt_player_exit_room"
+
+EventType.GAME_GAMEOVER = "evt_on_game_over_small_rslt"
+
+-- 剩余牌数变化
+EventType.GAME_CARD_LEFT_NUM_CHANGED = "evt_GAME_CARD_LEFT_NUM_CHANGED"
+
+-- 摆牌失败
+EventType.GAME_CARD_BAI_PAI_FAIL = "evt_GAME_CARD_BAI_PAI_FAIL"
+
+-- 回放将要进入新的步骤
+EventType.GAME_LOG_WILL_PLAY_NEW_OP = "evt_GAME_LOG_WILL_PLAY_NEW_OP"
+
+EventType.ON_PLAYER_INFO_CHANGED = "ON_PLAYER_INFO_CHANGED"
+
+EventType.GAME_RESULT_ON_SHOW = "GAME_RESULT_ON_SHOW"
+
+EventType.HAND_CARD_SELECT = "HAND_CARD_SELECT"
+
+EventType.GAME_DESK_BG_CHANGE = "GAME_DESK_BG_CHANGE"
+
+EventType.GAME_LOBBY_BG_CHANGE = "GAME_LOBBY_BG_CHANGE"
+
+EventType.GAME_LOBBY_SPINE_CHANGE = "GAME_LOBBY_SPINE_CHANGE"
+
+EventType.GAME_HANG_BIG_MODEL_CHANGE = "GAME_HANG_BIG_MODEL_CHANGE"
+
+EventType.SYSTEM_CLIENT_PARAM_CHANGED = "SYSTEM_CLIENT_PARAM_CHANGED"
+
+EventType.TUO_GUAN_CANCEL = "TUO_GUAN_CANCEL"
+EventType.TUO_GUAN_BEGAIN = "TUO_GUAN_BEGAIN"
+
+EventType.ON_PLAYER_HAS_AUDIO = "ON_PLAYER_HAS_AUDIO"
+EventType.ON_PLAYER_NO_AUDIO = "ON_PLAYER_NO_AUDIO"
+
+EventType.CLOSE_ALL_CLUB_SUB_LAYER = "CLOSE_ALL_CLUB_SUB_LAYER"
+EventType.CLOSE_MANAGER_CLUB_SUB_LAYER = "CLOSE_MANAGER_CLUB_SUB_LAYER"
+
+EventType.ROOM_QUICK_START_STATE_CHANGED = "ROOM_QUICK_START_STATE_CHANGED"
+
+-- 电话绑定
+EventType.ON_BIND_PHONE = "ON_BIND_PHONE"
+
+
+-- 应用事件
+EventType.APP_ENTER_FOREGROUND = "APP_ENTER_FOREGROUND"
+
+
+-----
+-- 道具
+-- 头像框刷新
+EventType.EQUIPT_ITEM_HEAD_FX = "EQUIPT_ITEM_HEAD_FX"
+
+
+--鲜花功能开关变动
+EventType.EVENT_NOTIFY_HAPPY_CARD_CLOSE_OR_OPEN = "EVENT_NOTIFY_HAPPY_CARD_CLOSE_OR_OPEN"
+
+--删除邮件
+EventType.EVENT_DELETE_MAIL_UNRECIEVE = "EVENT_DELETE_MAIL_UNRECIEVE"
+
+--换绑界面消息收发
+EventType.EVENT_CHANGEBUND_UPDATE = "EVENT_CHANGEBUND_UPDATE"
+EventType.EVENT_CHANGEBUND_BEGIN_COUNTDOWN = "EVENT_CHANGEBUND_BEGIN_COUNTDOWN"
+
+return EventType�	

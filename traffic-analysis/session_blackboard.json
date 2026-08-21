@@ -1,0 +1,341 @@
+{
+ "target_name": "浙江游戏大厅 com.xm.zjgamecenter v1.5.4",
+ "output_dir": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/traffic-analysis",
+ "created_at": "2026-08-20T13:03:35.797811+00:00",
+ "facts": [
+  {
+   "id": "F001",
+   "from_phase": "phase_1",
+   "category": "credential_leak",
+   "level": "PATTERN",
+   "priority": "CRITICAL",
+   "content": {
+    "type": "getui_push_appsecret",
+    "masked_value": "PUSH_APPSECRET=5EOx...AKW1",
+    "note": "个推 PUSH_APPID/APPKEY/APPSECRET 硬编码于 Manifest meta-data",
+    "file": "decompiled/apktool/AndroidManifest.xml:371-380"
+   },
+   "evidence": "step1/raw_secrets.json"
+  },
+  {
+   "id": "F002",
+   "from_phase": "phase_1",
+   "category": "credential_leak",
+   "level": "PATTERN",
+   "priority": "CRITICAL",
+   "content": {
+    "type": "zeus_plugin_appsecret",
+    "masked_value": "appSecretKey=eb7f...96a7",
+    "note": "ZEUS_PLUGIN_LIVE(抖音直播插件)appKey/appSecretKey 硬编码",
+    "file": "decompiled/apktool/AndroidManifest.xml:413"
+   },
+   "evidence": "step1/raw_secrets.json"
+  },
+  {
+   "id": "F003",
+   "from_phase": "phase_1",
+   "category": "credential_leak",
+   "level": "PATTERN",
+   "priority": "CRITICAL",
+   "content": {
+    "type": "cmic_yidonglogin_appkey",
+    "masked_value": "YIDONGLOGIN_APPKEY=307F...ED2D",
+    "note": "移动一键登录 AppKey 硬编码;配套 libsig_native.so",
+    "file": "decompiled/apktool/AndroidManifest.xml:366"
+   },
+   "evidence": "step1/raw_secrets.json"
+  },
+  {
+   "id": "F004",
+   "from_phase": "phase_1",
+   "category": "jni_entry",
+   "level": "PATTERN",
+   "priority": "HIGH",
+   "content": {
+    "type": "loadLibrary",
+    "value": "System.loadLibrary('cocos2dlua') 经 meta-data android.app.lib_name;libcocos2dlua.so(23.6MB)承载引擎+资源加密",
+    "file": "jadx/sources/org/cocos2dx/lib/Cocos2dxActivity.java:104"
+   },
+   "evidence": "step1/raw_native_bridges.json"
+  },
+  {
+   "id": "F005",
+   "from_phase": "phase_1",
+   "category": "jni_entry",
+   "level": "PATTERN",
+   "priority": "HIGH",
+   "content": {
+    "type": "native_crypto",
+    "value": "hdq::decrypt@0xca81ec / ResKey::getKey@0xca8f34 / blowfish_decrypt@0xca86ac / btea(XXTEA)@0xca8f44 均位于 libcocos2dlua.so;assets/src 897 个 luac 头部 'devaguopeifeiK' 证实自研加密",
+    "file": "assets-apk/lib/arm64-v8a/libcocos2dlua.so"
+   },
+   "evidence": "step1/entrypoints.json"
+  },
+  {
+   "id": "F006",
+   "from_phase": "phase_1",
+   "category": "jni_entry",
+   "level": "PATTERN",
+   "priority": "HIGH",
+   "content": {
+    "type": "loadLibrary_set",
+    "value": "10 个 so(双 ABI):cocos2dlua/fastvo/getuiext3/pangleflipped/sgcore/sig_native/Bugly×2/apkpatch/zeus_direct_dex;sgcore 为阿里聚安全(经快手 SDK 引入)",
+    "file": "decompiled/apktool/lib/"
+   },
+   "evidence": "step1/raw_native_bridges.json"
+  },
+  {
+   "id": "F007",
+   "from_phase": "phase_2",
+   "category": "signing_point",
+   "level": "CONFIRMED",
+   "priority": "HIGH",
+   "content": {
+    "type": "http_signature",
+    "note": "验证码接口 signature=un.md5Encode(参数键字典序无分隔拼接+appKey 拼尾)，appKey 明文于 AreaConfig.lua:182-183；通用 HTTP url.sign=键排序&拼接后调 native un.sign(Url.lua:41-56)",
+    "file": "hotfix-decrypted/src/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua:19-32; hotfix-decrypted/src/app/hotupdate/universe/Url.lua:41-56"
+   },
+   "evidence": "step2/protocol_map.json; step2/http_endpoints.json"
+  },
+  {
+   "id": "F008",
+   "from_phase": "phase_2",
+   "category": "native_target",
+   "level": "PATTERN",
+   "priority": "HIGH",
+   "content": {
+    "type": "srs_frame_crypto",
+    "note": "SRS 帧体加密下沉 native un.network.TcpConnection：c2s 全 proc 加密(XOR 流密钥)、s2c 仅 proc=0 加密其余明文；握手 fa60a522 回显+xy=4 下发 17 字节密钥材料",
+    "file": "libcocos2dlua.so; lua-src-apk/app/Net/TcpConnection.lua:9-25"
+   },
+   "evidence": "step2/frame_report.json; step2/messages_s02_login.json; step2/traffic_alignment.json E1/E2/E10"
+  },
+  {
+   "id": "F009",
+   "from_phase": "phase_2",
+   "category": "native_target",
+   "level": "CONFIRMED",
+   "priority": "HIGH",
+   "content": {
+    "type": "selected_so",
+    "so": "libcocos2dlua.so",
+    "path": "assets-apk/lib/arm64-v8a/libcocos2dlua.so",
+    "note": "SRS 帧加密、identify RC4、un.sign/un.md5Encode 均在其中；备选 libsig_native.so(cmic)"
+   },
+   "evidence": "step2/selected_native_target.json"
+  },
+  {
+   "id": "F101",
+   "from_phase": "phase_3",
+   "category": "crypto_finding",
+   "level": "CONFIRMED",
+   "priority": "HIGH",
+   "content": {
+    "type": "apk_luac_xxtea",
+    "algorithm": "XXTEA+长度前缀",
+    "so": "libcocos2dlua.so",
+    "symbols": "LuaStack::setXXTEAKeyAndSign@0x6d38a4, xxtea_decrypt@0x7cd980",
+    "fields": [
+     "assets/src/*.luac"
+    ],
+    "sign": "devaguopeifei",
+    "note": "已有可运行解密器 tools/decrypt_luac.py"
+   },
+   "evidence": "step3/crypto_native_analysis.json#CRYPTO-001"
+  },
+  {
+   "id": "F102",
+   "from_phase": "phase_3",
+   "category": "credential_leak",
+   "level": "CONFIRMED",
+   "priority": "CRITICAL",
+   "content": {
+    "type": "hardcoded_xxtea_key_in_so",
+    "so": "libcocos2dlua.so @0x131d42c (xxd 实测复核)",
+    "value": "f84c7b745c8c00ede9d6add6a605cf63",
+    "usage": "解密 assets/local/res.rpk -> 5 个 Blowfish 密钥 -> hdq 热更容器",
+    "symbols": "FileUtils::loadResKey@0xe69300, ResKey::load@0xca8df4, btea@0xca8f44, hdq::decrypt@0xca81ec, blowfish_decrypt@0xca86ac"
+   },
+   "evidence": "step3/crypto_native_analysis.json#CRYPTO-002/003; docs/hotfix-container-format.md"
+  },
+  {
+   "id": "F103",
+   "from_phase": "phase_3",
+   "category": "crypto_finding",
+   "level": "CONFIRMED",
+   "priority": "HIGH",
+   "content": {
+    "type": "srs_traffic_crypto",
+    "algorithm": "AES-256-CFB128 (OpenSSL AES_cfb128_encrypt, 反汇编确认)",
+    "so": "libcocos2dlua.so",
+    "symbols": "Encryption::encrypt@0x8f5740, decrypt@0x8f5914, setDefaultAesKey@0x8f5718, BaseProxy::setAesKey@0x90d54c, GuoPengFei::onRespKey@0x907edc",
+    "fields": [
+     "SRS 帧 payload",
+     "identify(RC4)"
+    ],
+    "default_key@0x11f55ec": "f362120513e389ff2311d7360123100705a210007acc023c3901da2ecb12448b",
+    "default_iv@0x11f560c": "15ff010034ab4cd355fea122084f1307",
+    "note": "SRS 帧不走 XXTEA;会话密钥经 SRS::ReqKey/RespKey 协商(RespKey: keyLen@+8, key@+9)"
+   },
+   "evidence": "step3/crypto_native_analysis.json#CRYPTO-005 + network_frame_hints"
+  },
+  {
+   "id": "F104",
+   "from_phase": "phase_3",
+   "category": "crypto_finding",
+   "level": "CONFIRMED",
+   "priority": "MEDIUM",
+   "content": {
+    "type": "srs_frame_header",
+    "header_size": 12,
+    "magic": "0x4001 (LE 01 40), 另有 0x8001 标志字",
+    "so": "libcocos2dlua.so",
+    "symbols": "Proxy33::packMessage@0x90d554, Proxy33::translateMessage@0x90d6fc",
+    "note": "佐证 Phase 2 srs_split 帧假设:magic/len(u16)/msgid/appid;无 CRC 字段证据;按帧头标志决定是否 Encryption::decrypt"
+   },
+   "evidence": "step3/crypto_native_analysis.json#network_frame_hints"
+  },
+  {
+   "id": "F105",
+   "from_phase": "phase_3",
+   "category": "runtime_needed",
+   "level": "PATTERN",
+   "priority": "MEDIUM",
+   "content": {
+    "type": "srs_session_key",
+    "what": "RespKey 协商的会话 AES key 是否每连接变化、帧标志位语义",
+    "how": "Phase 2 可用默认 key/IV 对 step2/flows/*.bin 试解 AES-256-CFB128;失败则按 12B 头明文结构从会话首帧提取 RespKey.key"
+   },
+   "evidence": "step3/crypto_native_analysis.json#network_frame_hints.phase2_action_suggestion"
+  },
+  {
+   "id": "F106",
+   "from_phase": "phase_3",
+   "category": "anti_debug",
+   "level": "PATTERN",
+   "priority": "MEDIUM",
+   "content": {
+    "type": "no_explicit_anti_debug_strings",
+    "scope": "libcocos2dlua/libsgcore/libsig_native/libgetuiext3",
+    "note": "ptrace/TracerPid/frida/xposed 关键词静态零命中;libsgcore(阿里聚安全,4 导出)为混淆风控黑盒,运行时复核"
+   },
+   "evidence": "step3/jni_analysis.json#native_protections"
+  },
+  {
+   "category": "signing_point",
+   "level": "CONFIRMED",
+   "priority": "HIGH",
+   "content": {
+    "type": "http_phone_signature",
+    "field": "signature",
+    "builder_path": "ReqPhoneVerificationCode.lua:19-22 signatureStr=app_id+areaid+auto_reg+lobbyid+phone+timestamp+type+wid 直拼(无分隔符),末尾追加 appKey 盐 -> un.md5Encode -> 表单 body.signature",
+    "file": "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua:22",
+    "traffic": "HTTPS 密文; palmapi.hzxuanming.com SNI 命中 s02_login/s06(4流)"
+   },
+   "evidence": "step2/protocol_map.json signature_fields[0]; step2/field_alignments.json",
+   "id": "F107",
+   "from_phase": "phase_2"
+  },
+  {
+   "category": "signing_point",
+   "level": "CONFIRMED",
+   "priority": "HIGH",
+   "content": {
+    "type": "http_generic_sign",
+    "field": "sign",
+    "builder_path": "url.sign: 键字典序 k=v & 拼接(空串跳过) -> un.sign(strParams) (native)",
+    "file": "lua-src-apk/app/hotupdate/universe/Url.lua:41-56"
+   },
+   "evidence": "step2/protocol_map.json signature_fields[2]",
+   "id": "F108",
+   "from_phase": "phase_2"
+  },
+  {
+   "category": "native_target",
+   "level": "CONFIRMED",
+   "priority": "HIGH",
+   "content": {
+    "type": "srs_channel_cipher",
+    "value": "SRS 帧体 XOR 流加密: 每连接 keystream、双向共用、逐帧重置; 密钥材料由 s2c proc0 xy=4 帧(17/33B)下发; 加解密在 native un.network.TcpConnection",
+    "file": "lua-src-apk/app/Net/TcpConnection.lua:12",
+    "so": "assets-apk/lib/arm64-v8a/libcocos2dlua.so"
+   },
+   "evidence": "step2/field_alignments.json srs_frame_format; step2/keystreams_*.json",
+   "id": "F109",
+   "from_phase": "phase_2"
+  },
+  {
+   "category": "native_target",
+   "level": "PATTERN",
+   "priority": "HIGH",
+   "content": {
+    "type": "un.sign/un.md5Encode",
+    "value": "HTTP 签名原语在 libcocos2dlua.so; md5Encode 疑为标准MD5(可离线复算验证), un.sign 算法未知",
+    "so": "assets-apk/lib/arm64-v8a/libcocos2dlua.so"
+   },
+   "evidence": "step2/protocol_map.json crypto_code_locations",
+   "id": "F110",
+   "from_phase": "phase_2"
+  }
+ ],
+ "intents": [
+  {
+   "id": "I001",
+   "from_phase": "phase_1",
+   "target_phase": "phase_2",
+   "priority": "HIGH",
+   "subject": "capture_verify",
+   "description": "Phase 2 实抓验证两点:① transit.hzxuanming.com HTTPS 是否有自校验(com.xm.zjgamecenter.cert.pem 用途);② SRS TCP 按 srsGroupID 分服的端口与帧格式(对齐 NetEngine.lua 与 SRSProtocol.lua)",
+   "consumed": true
+  },
+  {
+   "id": "I002",
+   "from_phase": "phase_1",
+   "target_phase": "phase_3",
+   "priority": "MEDIUM",
+   "subject": "native_crypto_detail",
+   "description": "Phase 3 对 libcocos2dlua.so 的 hdq/ResKey/blowfish/btea 四个符号做参数与调用点还原,确认 SRS 帧是否经 XXTEA",
+   "consumed": true,
+   "consumed_by": "phase_3"
+  },
+  {
+   "id": "I003",
+   "from_phase": "phase_2",
+   "target_phase": "phase_3",
+   "priority": "HIGH",
+   "subject": "srs_crypto_derivation",
+   "description": "追踪 libcocos2dlua.so un.network.TcpConnection 帧加密密钥派生：s2c xy=4 len=17 密钥材料的消费点、c2s XOR 流密钥模型(逐帧重置或连续流)、proc=0 s2c 加密；并提取 PlayerConnect.identify 的 RC4 默认 key(SRSProtocol.lua:81 注释)",
+   "consumed": true,
+   "consumed_by": "phase_3"
+  },
+  {
+   "id": "I004",
+   "from_phase": "phase_2",
+   "target_phase": "phase_3",
+   "priority": "MEDIUM",
+   "subject": "native_crypto_detail_ext",
+   "description": "承接 I002：还原 hdq::decrypt/blowfish/btea 调用点与参数；顺带核实 un.sign 内部算法(密钥/盐)",
+   "consumed": true,
+   "consumed_by": "phase_3"
+  },
+  {
+   "from_phase": "phase_2",
+   "target_phase": "phase_3",
+   "priority": "HIGH",
+   "subject": "native_trace",
+   "description": "SRS XOR 密钥派生: s2c proc0 xy=4 帧下发 17/33B 密钥材料 -> per-connection keystream(双向共用,逐帧重置); 已在流量侧恢复主连接 keystream 前4-6字节(step2/keystreams_*.json)可作为 native 验证样本; 目标 libcocos2dlua.so 中 un.network.TcpConnection 的 key setup/加解密函数",
+   "consumed": false,
+   "id": "I005"
+  },
+  {
+   "from_phase": "phase_2",
+   "target_phase": "phase_3",
+   "priority": "HIGH",
+   "subject": "native_trace",
+   "description": "un.sign(Url.lua:56) 与 un.md5Encode(ReqPhoneVerificationCode.lua:22) 的 native 实现定位与算法确认; 目标 libcocos2dlua.so(已收敛为 selected_native_target)",
+   "consumed": false,
+   "id": "I006"
+  }
+ ],
+ "hints": []
+}

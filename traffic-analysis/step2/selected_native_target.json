@@ -1,0 +1,98 @@
+{
+ "scan_meta": {
+  "tool": "resolve_native_target.py",
+  "generated_at": "2026-08-20T15:32:21+00:00"
+ },
+ "selection_status": "selected",
+ "selected_so_name": "libcocos2dlua.so",
+ "selected_so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libcocos2dlua.so",
+ "selection_reason": "Highest scored native target based on Phase 1 inventory/entrypoints and Phase 2 native hints: phase1_entrypoint, phase1_inventory; phase2: SRS XOR 通道 + un.md5Encode/un.sign 均位于该 so",
+ "related_fields": [
+  "srs_frame_body(XOR keystream)",
+  "signature(un.md5Encode)",
+  "sign(un.sign)",
+  "gamem_cmd/msglen"
+ ],
+ "related_endpoints": [
+  "SRS-ALL",
+  "HTTP-PHONE-001..004",
+  "HTTP-BUSINESS"
+ ],
+ "confidence": "high",
+ "alternatives": [
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libsig_native.so",
+   "so_name": "libsig_native.so",
+   "score": 8,
+   "reasons": [
+    "crypto_hint_in_entrypoints",
+    "phase1_entrypoint",
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/tan/mark/SigNativeId.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libapkpatch.so",
+   "so_name": "libapkpatch.so",
+   "score": 7,
+   "reasons": [
+    "phase1_entrypoint",
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/ymnsdk/replugin/PluginInterface.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libfastvo.so",
+   "so_name": "libfastvo.so",
+   "score": 5,
+   "reasons": [
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/bianfeng/fastvo/audio/spx/Speex.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libgetuiext3.so",
+   "so_name": "libgetuiext3.so",
+   "score": 5,
+   "reasons": [
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/igexin/push/extension/mod/SecurityUtils.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libpangleflipped.so",
+   "so_name": "libpangleflipped.so",
+   "score": 5,
+   "reasons": [
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/bytedance/pangle/flipped/FlippedV2Impl.java"
+   ]
+  }
+ ],
+ "phase2_alignment_reason": "SRS 帧 c2s 全 proc 加密、s2c 仅 proc=0 加密，握手与密钥材料下发(s2c xy=4 len=17)均在 native un.network.TcpConnection 内完成(Lua 封装 lua-src-apk/app/Net/TcpConnection.lua:9-25 仅为转发)；PlayerConnect.identify 的 RC4 默认 key(SRSProtocol.lua:81 注释)与 un.sign/un.md5Encode 同在 libcocos2dlua.so。恢复 c2s 密钥派生是伪造/重放/解密全量上行流量的唯一阻塞点。"
+}

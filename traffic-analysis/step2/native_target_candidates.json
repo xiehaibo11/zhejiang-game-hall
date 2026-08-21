@@ -1,0 +1,202 @@
+{
+ "scan_meta": {
+  "tool": "resolve_native_target.py",
+  "generated_at": "2026-08-20T15:32:21+00:00",
+  "output_dir": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/traffic-analysis",
+  "step_dir": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/traffic-analysis/step2",
+  "target_dir": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅",
+  "min_score": 1
+ },
+ "candidates": [
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libcocos2dlua.so",
+   "so_name": "libcocos2dlua.so",
+   "score": 16,
+   "reasons": [
+    "phase1_entrypoint",
+    "phase1_inventory",
+    "phase2_srs_xor_channel",
+    "phase2_http_sign_un.md5Encode",
+    "phase2_url_sign_un.sign"
+   ],
+   "related_fields": [
+    "srs_frame_body(XOR keystream)",
+    "signature(un.md5Encode)",
+    "sign(un.sign)",
+    "gamem_cmd/msglen"
+   ],
+   "related_endpoints": [
+    "SRS-ALL",
+    "HTTP-PHONE-001..004",
+    "HTTP-BUSINESS"
+   ],
+   "source_files": [
+    "lua-src-apk/app/Net/TcpConnection.lua:12",
+    "lua-src-apk/login/Req/PhoneLogin/ReqPhoneVerificationCode.lua:22",
+    "lua-src-apk/app/hotupdate/universe/Url.lua:56"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libsig_native.so",
+   "so_name": "libsig_native.so",
+   "score": 8,
+   "reasons": [
+    "crypto_hint_in_entrypoints",
+    "phase1_entrypoint",
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/tan/mark/SigNativeId.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libapkpatch.so",
+   "so_name": "libapkpatch.so",
+   "score": 7,
+   "reasons": [
+    "phase1_entrypoint",
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/ymnsdk/replugin/PluginInterface.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libfastvo.so",
+   "so_name": "libfastvo.so",
+   "score": 5,
+   "reasons": [
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/bianfeng/fastvo/audio/spx/Speex.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libgetuiext3.so",
+   "so_name": "libgetuiext3.so",
+   "score": 5,
+   "reasons": [
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/igexin/push/extension/mod/SecurityUtils.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libpangleflipped.so",
+   "so_name": "libpangleflipped.so",
+   "score": 5,
+   "reasons": [
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/bytedance/pangle/flipped/FlippedV2Impl.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libsgcore.so",
+   "so_name": "libsgcore.so",
+   "score": 5,
+   "reasons": [
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/yxcorp/kuaishou/addfp/android/Orange.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libzeus_direct_dex.so",
+   "so_name": "libzeus_direct_dex.so",
+   "score": 5,
+   "reasons": [
+    "phase1_inventory",
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/bytedance/pangle/dex/DirectDex.java"
+   ]
+  },
+  {
+   "so_path": "libbspatch.so",
+   "so_name": "libbspatch.so",
+   "score": 3,
+   "reasons": [
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/mbridge/msdk/mbdownload/a.java"
+   ]
+  },
+  {
+   "so_path": "libframesequencev2.so",
+   "so_name": "libframesequencev2.so",
+   "score": 3,
+   "reasons": [
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/kwad/sdk/glide/framesequence/FrameSequence.java"
+   ]
+  },
+  {
+   "so_path": "libkwappstatus.so",
+   "so_name": "libkwappstatus.so",
+   "score": 3,
+   "reasons": [
+    "raw_native_bridges_library"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": [
+    "jadx/sources/com/kwad/sdk/collector/d.java"
+   ]
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libBugly.so",
+   "so_name": "libBugly.so",
+   "score": 2,
+   "reasons": [
+    "phase1_inventory"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": []
+  },
+  {
+   "so_path": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/assets-apk/lib/arm64-v8a/libBugly_Native.so",
+   "so_name": "libBugly_Native.so",
+   "score": 2,
+   "reasons": [
+    "phase1_inventory"
+   ],
+   "related_fields": [],
+   "related_endpoints": [],
+   "source_files": []
+  }
+ ]
+}

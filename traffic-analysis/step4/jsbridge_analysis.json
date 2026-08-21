@@ -1,0 +1,206 @@
+{
+  "scan_summary": {
+    "target": "浙江游戏大厅 com.xm.zjgamecenter v1.5.4",
+    "analysis_mode": "static_only_offline",
+    "bridge_framework": "com/github/lzyzsd/jsbridge BridgeWebView v1.x (registerHandler + yy:// scheme 拦截, 集成方重打包为 com.bianfeng.jsbridge; 已停止维护)",
+    "addJavascriptInterface_selfdeveloped": 0,
+    "addJavascriptInterface_sdk": "7 个桥名 (sigandroid/sigandroidapk/sigPrivacy/sigVersion/KwaiAd/KwaiAdForThird/AMapAndroidLoc + Bugly 动态桥名), 均为 SDK 内页面自加载",
+    "total_selfdeveloped_handlers": 12,
+    "total_webview_activities": 9,
+    "key_context": "application usesCleartextTraffic=true (AndroidManifest.xml:43), 无 networkSecurityConfig; 多个 H5 Activity setMixedContentMode(0) ALLOW_ALL",
+    "path_base": "/Users/mosc/Downloads/ZJYX/浙江游戏大厅/"
+  },
+  "bridges": [
+    {
+      "id": "BRIDGE-001",
+      "type": "registerHandler",
+      "bridge_name": "encryptionParameters",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/roomlib/ui/RegWebViewMethodMaganer.java",
+      "source_line": 75,
+      "exposed_methods": ["encryptionParameters(H5 参数 + cp/userid/gcp_id/time -> 内部密钥 MD5 sign 返回)"],
+      "origin_control": "无 (BridgeWebView 无域名白名单)",
+      "risk_level": "高",
+      "evidence": "RegWebViewMethodMaganer.java:75-95; 签名预言机, 攻击者页面可为任意参数获取合法签名, 配合 currencyInterface(:41) 转发带签业务请求"
+    },
+    {
+      "id": "BRIDGE-002",
+      "type": "registerHandler",
+      "bridge_name": "payActionFromWeb",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/splitscreenwindow/ui/RegWebViewMethodMaganer.java",
+      "source_line": 48,
+      "exposed_methods": ["payActionFromWeb -> SplitScreenSdk.payWeb(str) 发起支付"],
+      "origin_control": "无",
+      "risk_level": "高",
+      "evidence": "ViewWebGroup.java:99-111 重复注册同组 handler"
+    },
+    {
+      "id": "BRIDGE-003",
+      "type": "registerHandler",
+      "bridge_name": "downLoadApp",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/splitscreenwindow/ui/RegWebViewMethodMaganer.java",
+      "source_line": 131,
+      "exposed_methods": ["downLoadApp(JS JSON 取 app_url -> Intent ACTION_VIEW 任意 URL + FLAG_NEW_TASK)"],
+      "origin_control": "无 scheme 白名单",
+      "risk_level": "高",
+      "evidence": "RegWebViewMethodMaganer.java:131-138"
+    },
+    {
+      "id": "BRIDGE-004",
+      "type": "registerHandler",
+      "bridge_name": "copyPasteboard",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/roomlib/ui/RegWebViewMethodMaganer.java",
+      "source_line": 133,
+      "exposed_methods": ["copyPasteboard(任意 JS 字符串写剪贴板)"],
+      "origin_control": "无",
+      "risk_level": "中",
+      "evidence": "配合 AppActivity deeplink 读剪贴板逻辑可成链 (VULN-015)"
+    },
+    {
+      "id": "BRIDGE-005",
+      "type": "registerHandler",
+      "bridge_name": "currencyInterface",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/roomlib/ui/RegWebViewMethodMaganer.java",
+      "source_line": 41,
+      "exposed_methods": ["currencyInterface(H5 参数转发 GameRoomWebRequest.startRequestWeb 带签请求)"],
+      "origin_control": "无",
+      "risk_level": "中",
+      "evidence": "与 BRIDGE-001 签名预言机联动"
+    },
+    {
+      "id": "BRIDGE-006",
+      "type": "registerHandler",
+      "bridge_name": "payInH5 / closePayWindow",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/paylib/ui/PaymentWebActivity.java",
+      "source_line": 83,
+      "exposed_methods": ["payInH5(JSONObject.pay_type -> WebpaysdkApi.buyNext)", "closePayWindow"],
+      "origin_control": "无",
+      "risk_level": "高",
+      "evidence": "PaymentWebActivity.java:83-101; 支付 Activity 未导出(Manifest:688-691), 但可经 GetuiActivity pkgName trampoline 拉起并注入 h5url (VULN-013)"
+    },
+    {
+      "id": "BRIDGE-007",
+      "type": "registerHandler",
+      "bridge_name": "closePayResultWindow",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/paylib/ui/AliWebPayActivty.java",
+      "source_line": 115,
+      "exposed_methods": ["closePayResultWindow -> ReflexCall 回 Lua"],
+      "origin_control": "无",
+      "risk_level": "中",
+      "evidence": "AliWebPayActivty.java:114-122; loadDataWithBaseURL(null, base64_html) 页面源为服务端响应"
+    },
+    {
+      "id": "BRIDGE-008",
+      "type": "registerHandler",
+      "bridge_name": "transUserData / closeH5Game / getHeight / getBottomHeight / isSupportDownLoadApp / getVersion / sendError / sendResource / openWebGame / closeGameRoom",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/splitscreenwindow/ui/RegWebViewMethodMaganer.java",
+      "source_line": 62,
+      "exposed_methods": ["10 个低危 handler (数据透传/尺寸/关闭)"],
+      "origin_control": "无",
+      "risk_level": "低",
+      "evidence": "RegWebViewMethodMaganer.java:62-147; roomlib 同名类 :104-133"
+    }
+  ],
+  "javascript_execution_points": [
+    {
+      "id": "JSEXEC-001",
+      "type": "loadUrl_javascript_scheme",
+      "call_site": "BridgeWebView.dispatchMessage / flushMessageQueue",
+      "source_file": "decompiled/jadx/sources/com/github/lzyzsd/jsbridge/BridgeWebView.java",
+      "source_line": 140,
+      "exposed_methods": ["loadUrl(\"javascript:WebViewJavascriptBridge._handleMessageFromNative(...)\")", "_fetchQueue() (:148)"],
+      "origin_control": "库内部, 对 %7B/%7D/%22 做非常规替换, native->JS 注入边角",
+      "risk_level": "低-中",
+      "evidence": "BridgeWebView.java:140-148"
+    },
+    {
+      "id": "JSEXEC-002",
+      "type": "loadUrl_javascript_scheme",
+      "call_site": "Cocos2dxWebViewHelper.evaluateJS",
+      "source_file": "decompiled/jadx/sources/org/cocos2dx/lib/Cocos2dxWebViewHelper.java",
+      "source_line": 349,
+      "exposed_methods": ["evaluateJS -> loadUrl(\"javascript:\"+str), JS 字符串源自 Lua"],
+      "origin_control": "Lua 层控制",
+      "risk_level": "中",
+      "evidence": "Cocos2dxWebViewHelper.java:349-359"
+    },
+    {
+      "id": "JSEXEC-003",
+      "type": "webview_url_loading",
+      "call_site": "Cocos2dxWebViewHelper.loadUrl/loadFile",
+      "source_file": "decompiled/jadx/sources/org/cocos2dx/lib/Cocos2dxWebViewHelper.java",
+      "source_line": 240,
+      "exposed_methods": ["loadUrl(int,String,boolean)", "loadFile(任意路径, file:// 可达本地)"],
+      "origin_control": "URL 由 Lua/服务器活动配置驱动(网络可控); shouldOverrideUrlLoading 无 Java 侧域名白名单, 交 native->Lua shouldStartLoading 回调",
+      "risk_level": "高",
+      "evidence": "Cocos2dxWebViewHelper.java:240-253; Cocos2dxWebView.java:60-85; lua-src-apk/lobby/Modules/** 10+ 模块使用"
+    },
+    {
+      "id": "JSEXEC-004",
+      "type": "webview_intent_extra_url",
+      "call_site": "YmnH5WebviewActivity / GameRoomWebActivity / PaymentWebActivity h5url extra",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/paylib/ui/PaymentWebActivity.java",
+      "source_line": 39,
+      "exposed_methods": ["url = YmnURLManager.getPaymentUrl() + intent.getStringExtra(\"h5url\")"],
+      "origin_control": "Activity 未导出, 但 GetuiActivity pkgName trampoline (VULN-013) 可注入",
+      "risk_level": "高",
+      "evidence": "PaymentWebActivity.java:39; YmnH5WebviewActivity.java:37,88; GameRoomWebActivity.java:41,88"
+    }
+  ],
+  "risks": [
+    {
+      "id": "JSBR-001",
+      "type": "no_origin_control",
+      "bridge_name": "全部 registerHandler",
+      "source_file": "decompiled/jadx/sources/com/github/lzyzsd/jsbridge/BridgeWebViewClient.java",
+      "source_line": 35,
+      "exposed_methods": ["yy:// scheme 拦截即分发, 无页面 origin 校验"],
+      "origin_control": "无",
+      "risk_level": "高",
+      "evidence": "任意加载进 BridgeWebView 的页面(含 cleartext MITM 篡改、iframe、跳转)均可 callHandler 全部 handler -> VULN-014"
+    },
+    {
+      "id": "JSBR-002",
+      "type": "webview_debug_enabled",
+      "bridge_name": "n/a",
+      "source_file": "decompiled/jadx/sources/com/github/lzyzsd/jsbridge/BridgeWebView.java",
+      "source_line": 76,
+      "exposed_methods": ["WebView.setWebContentsDebuggingEnabled(true) release 未关"],
+      "origin_control": "n/a",
+      "risk_level": "中",
+      "evidence": "BridgeWebView.java:76-78; USB 调试下可全量 inspect"
+    },
+    {
+      "id": "JSBR-003",
+      "type": "dangerous_webview_config",
+      "bridge_name": "n/a",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/h5library/ui/YmnH5WebviewActivity.java",
+      "source_line": 60,
+      "exposed_methods": ["setSafeBrowsingEnabled(false)", "setMixedContentMode(0) ALLOW_ALL (:81)", "setAllowFileAccess(true) (:64)", "setGeolocationEnabled(true) (:74)"],
+      "origin_control": "n/a",
+      "risk_level": "中",
+      "evidence": "同类配置见 YmnH5WebviewLand/ViewWebGroup/PaymentWeb/GameRoomWeb/Huodong/ShowPolicy 共 7 个 Activity -> VULN-020"
+    },
+    {
+      "id": "JSBR-004",
+      "type": "exported_trampoline_to_webview",
+      "bridge_name": "n/a",
+      "source_file": "decompiled/jadx/sources/com/bianfeng/privategetui/GetuiActivity.java",
+      "source_line": 17,
+      "exposed_methods": ["extra pkgName -> setClassName -> startActivity 任意内部组件"],
+      "origin_control": "无 (exported=true, Manifest:572-577)",
+      "risk_level": "高",
+      "evidence": "攻击链: GetuiActivity -> 拉起非导出 GameRoomWebActivity/PaymentWebActivity + 注入 h5url -> 攻击者页面获得全部 JS handler -> VULN-013/014 主链"
+    },
+    {
+      "id": "JSBR-005",
+      "type": "callback_id_probe",
+      "bridge_name": "yy://return/",
+      "source_file": "decompiled/jadx/sources/com/github/lzyzsd/jsbridge/BridgeWebView.java",
+      "source_line": 87,
+      "exposed_methods": ["handlerReturnData 按 callbackId 查表回调, 任意页面可构造 yy://return/ URL 探测回调 id"],
+      "origin_control": "无",
+      "risk_level": "低",
+      "evidence": "BridgeWebView.java:87-95"
+    }
+  ]
+}

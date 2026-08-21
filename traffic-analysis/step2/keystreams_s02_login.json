@@ -1,0 +1,226 @@
+{
+ "10.0.2.15:59950-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 3,
+  "frames_s2c": 2
+ },
+ "10.0.2.15:60058-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60118-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60152-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60156-198.18.1.112:7777": {
+  "keystream": {
+   "0": 173,
+   "1": 121,
+   "2": 32,
+   "3": 155
+  },
+  "coverage": 4,
+  "methods": [
+   "askid_echo(2\u7968)"
+  ],
+  "frames_c2s": 7,
+  "frames_s2c": 6
+ },
+ "10.0.2.15:60160-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60162-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60166-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60168-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 4,
+  "frames_s2c": 3
+ },
+ "10.0.2.15:60170-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 4,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60172-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 4,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60178-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60182-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 4,
+  "frames_s2c": 3
+ },
+ "10.0.2.15:60184-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60186-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60188-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60192-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60196-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60198-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60200-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 4,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60206-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60212-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 4,
+  "frames_s2c": 3
+ },
+ "10.0.2.15:60214-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60216-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60218-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 4,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60222-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 4,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60224-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60228-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 5,
+  "frames_s2c": 4
+ },
+ "10.0.2.15:60230-198.18.1.112:7777": {
+  "keystream": {},
+  "coverage": 0,
+  "methods": [],
+  "frames_c2s": 3,
+  "frames_s2c": 2
+ },
+ "10.0.2.15:60958-47.97.154.79:5722": {
+  "keystream": {
+   "0": 204,
+   "1": 31,
+   "2": 238,
+   "3": 18
+  },
+  "coverage": 4,
+  "methods": [
+   "askid_echo(55\u7968)"
+  ],
+  "frames_c2s": 108,
+  "frames_s2c": 112
+ }
+}

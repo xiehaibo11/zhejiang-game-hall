@@ -1,0 +1,3036 @@
+{
+ "scene": "s04_createroom",
+ "pcap": "s04_createroom.pcap",
+ "max_bytes": null,
+ "packets": 11639,
+ "tcp_flows": 126,
+ "elapsed_sec": 0.2,
+ "flows": [
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    5555
+   ],
+   "b": [
+    "10.0.2.2",
+    55108
+   ],
+   "pkts": 8628,
+   "bytes": 5422127,
+   "bytes_ab": 5412597,
+   "bytes_ba": 9530,
+   "first_ts": 1787230778.890242,
+   "last_ts": 1787231082.895882,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "57525445840200002f0700000600000000000000a8adabba",
+   "sample_ba": "4f4b41592f070000840200000000000000000000b0b4bea6434c53452f070000840200000000000000000000bcb3acba",
+   "n_payload_ab": 4286,
+   "n_payload_ba": 359
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    50744
+   ],
+   "b": [
+    "198.18.3.89",
+    443
+   ],
+   "pkts": 40,
+   "bytes": 22501,
+   "bytes_ab": 1685,
+   "bytes_ba": 20816,
+   "first_ts": 1787231078.692929,
+   "last_ts": 1787231094.675713,
+   "syn": true,
+   "sni": "wechat.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303546e26f1e3f4d53b10ae9ddbb6b7c726a952dabd24ea5e44e09ff86152ce3e5c20f052218ede525721b73eda7a4aa551596ac5752538d18cb5feb682ccc663ce8d0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300500200004c03032a09b246f9accdee07fbf806fb6eaf6c6b4267828a2570a689e5823ae0a9e47100c02f000024ff01000100000b000403000102002300000010000b000908687474702f312e31001700001603030f7c0b000f78000f",
+   "n_payload_ab": 3,
+   "n_payload_ba": 15
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    56236
+   ],
+   "b": [
+    "47.99.73.166",
+    5701
+   ],
+   "pkts": 746,
+   "bytes": 18923,
+   "bytes_ab": 6887,
+   "bytes_ba": 12036,
+   "first_ts": 1787230798.872105,
+   "last_ts": 1787231159.816765,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "014010000c62ee03000000003d4b8e0edd92a2668a27bb3c08a79aa3",
+   "sample_ba": "004004000d62ee034c27000000000000",
+   "n_payload_ab": 224,
+   "n_payload_ba": 161
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36580
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 44,
+   "bytes": 17996,
+   "bytes_ab": 2730,
+   "bytes_ba": 15266,
+   "first_ts": 1787231076.488048,
+   "last_ts": 1787231079.124766,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030319b4988e260264acecd599306d6b3dda2509ccde7c468f92a6a702179149b7cb2071f823216a83a3c8e80cf4576bca8aebec30788256b62b27724208cf1d5b3f1c0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300500200004c030303e82d0bc7fc7acfc1772e8fce2ca42cba9d48e28f155ba07da2abf3e007fcc200c02f000024ff01000100000b000403000102002300000010000b000908687474702f312e31001700001603030f800b000f7c000f",
+   "n_payload_ab": 6,
+   "n_payload_ba": 13
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    60484
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 49,
+   "bytes": 14165,
+   "bytes_ab": 12641,
+   "bytes_ba": 1524,
+   "first_ts": 1787230905.83481,
+   "last_ts": 1787230914.059592,
+   "syn": true,
+   "sni": "te.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03037538a27c1c07a6113fa4fe5d6338b769c59e068af2d0383224f5236a3ecf9f1d209993c0efc9196143ce0b80851059ca8ee0a880448c229d0f741a0299490f70790022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303948da8d4e5bd4f250231d1505fb493e762fd426de40e40e1de7e0cd693266b5a209993c0efc9196143ce0b80851059ca8ee0a880448c229d0f741a0299490f7079c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 12,
+   "n_payload_ba": 9
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36644
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 32,
+   "bytes": 13388,
+   "bytes_ab": 1308,
+   "bytes_ba": 12080,
+   "first_ts": 1787231078.690489,
+   "last_ts": 1787231079.408569,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030308fba12f2a3498dcbe9447835e76ff7f2ff26588e4181aba52f34942e3b0343c20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303ebf2a4218078eddd7899866d29c6c2304b651a86005ee2960572675b11e7454620df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 9
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36626
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 33,
+   "bytes": 12185,
+   "bytes_ab": 1387,
+   "bytes_ba": 10798,
+   "first_ts": 1787231078.669592,
+   "last_ts": 1787231137.294723,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303e840c4ff3410b5bcce9dd497568f1571477326a3483a6c9df509705d7187441020df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303006402000060030300218d9b32a5cac2cbfeeac5e9b8ef209a9dfcb83db4736cc300688c238cf78320df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 9
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    50392
+   ],
+   "b": [
+    "198.18.3.97",
+    443
+   ],
+   "pkts": 30,
+   "bytes": 11542,
+   "bytes_ab": 1697,
+   "bytes_ba": 9845,
+   "first_ts": 1787231078.492581,
+   "last_ts": 1787231079.408596,
+   "syn": true,
+   "sni": "webact.tt2kj.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030362f1bda42bdb03d85fd93490485532ab440ec93711272c2484f29fe7a3d9a1f820446a0ade43500775880253178e1aa90d34cbbe879e3604776d2dffb7a9041d140022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030054020000500303c2a26d15526db649532215bcbbbcea843d4955f702969c8724ee06be64ac8d1e00c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f6f0b00",
+   "n_payload_ab": 4,
+   "n_payload_ba": 9
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    60570
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 35,
+   "bytes": 11456,
+   "bytes_ab": 6126,
+   "bytes_ba": 5330,
+   "first_ts": 1787231076.488719,
+   "last_ts": 1787231079.13561,
+   "syn": true,
+   "sni": "te.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03031e54ff2553db44ca51aa9c4c9d4fb09b2250da86b5d38d9967e360d6af521567209993c0efc9196143ce0b80851059ca8ee0a880448c229d0f741a0299490f70790022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030054020000500303a4f955e24a1e3b77320b3aa74f92fef3c8f3189e20ae3f6c93987f916e9ddb8e00c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f7c0b00",
+   "n_payload_ab": 7,
+   "n_payload_ba": 8
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36578
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 34,
+   "bytes": 11135,
+   "bytes_ab": 2809,
+   "bytes_ba": 8326,
+   "first_ts": 1787231076.456386,
+   "last_ts": 1787231079.199295,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030396bc182a855e3ef7e6afa18456c1ac968a4c189cba4f4491b75f0690400af9e42071f823216a83a3c8e80cf4576bca8aebec30788256b62b27724208cf1d5b3f1c0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300500200004c03036bbd9d1b71b5966b8b8f75be2e1f11a082d37320d48eb8b7429950962baa698900c02f000024ff01000100000b000403000102002300000010000b000908687474702f312e31001700001603030f800b000f7c000f",
+   "n_payload_ab": 6,
+   "n_payload_ba": 8
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    50594
+   ],
+   "b": [
+    "198.18.3.89",
+    443
+   ],
+   "pkts": 31,
+   "bytes": 10656,
+   "bytes_ab": 1674,
+   "bytes_ba": 8982,
+   "first_ts": 1787230912.60941,
+   "last_ts": 1787230913.82496,
+   "syn": true,
+   "sni": "wechat.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03033cce2e1307cff4ba6d600b5413f3dbec16599f8a51fc8e5289e7ddfbc161267420763eba2fc915102dcf53bcc6979b13b6c8a843ff5d89f522893cd80fbbd2f82b0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303006402000060030328b5e4bbbd422daf56d84506f13c1cf5918485398bccf7940eb0668324ea5e7020763eba2fc915102dcf53bcc6979b13b6c8a843ff5d89f522893cd80fbbd2f82bc02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 8
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36508
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 35,
+   "bytes": 10050,
+   "bytes_ab": 2743,
+   "bytes_ba": 7307,
+   "first_ts": 1787230912.968392,
+   "last_ts": 1787231076.453084,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303c32d26fe1f8ec276bd2371867d285d9812772924e155877ddddf09ccf53675ee20fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaa0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300640200006003038e0eb93be19e43ad370934eb531d0537af69b3f682a7497827bafcdb5471af0520fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaac02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 6,
+   "n_payload_ba": 9
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    43426
+   ],
+   "b": [
+    "198.18.3.88",
+    443
+   ],
+   "pkts": 22,
+   "bytes": 7536,
+   "bytes_ab": 1055,
+   "bytes_ba": 6481,
+   "first_ts": 1787231078.480943,
+   "last_ts": 1787231094.51171,
+   "syn": true,
+   "sni": "transit.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03033ee52496da8ad5e9c47e04119bbf69e892cca64f4973361f96d98fe394eeb4f4201d6a8408325c0a969356651b85c4fe8de1c83aa543a71d889a0f8eb81b5638310022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030054020000500303f20780cdf5bb4176b16ebcbe475b1aa7aec019978378e9805d725c79978115e600c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f7c0b00",
+   "n_payload_ab": 3,
+   "n_payload_ba": 7
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    60554
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 28,
+   "bytes": 6884,
+   "bytes_ab": 2036,
+   "bytes_ba": 4848,
+   "first_ts": 1787231035.321785,
+   "last_ts": 1787231076.487207,
+   "syn": true,
+   "sni": "te.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030343ea38c7963f20cb72e63e9ffc5e1a89a70376298ef6a17ad4e3522d2327fa22209993c0efc9196143ce0b80851059ca8ee0a880448c229d0f741a0299490f70790022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303005402000050030357435a72059ff2937079580c44207bd80603b14715111ff8e4a2ea246010df3c00c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f7c0b00",
+   "n_payload_ab": 4,
+   "n_payload_ba": 7
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    60536
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 26,
+   "bytes": 6877,
+   "bytes_ab": 2029,
+   "bytes_ba": 4848,
+   "first_ts": 1787230988.432475,
+   "last_ts": 1787231035.319628,
+   "syn": true,
+   "sni": "te.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030355769aed6110b55558c154ad3e8cdb36f3d957c7942fd46bb571431ab03435d5209993c0efc9196143ce0b80851059ca8ee0a880448c229d0f741a0299490f70790022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030054020000500303b8806df5b6c9dc639c1b85ed18b901b7d7339b0389f5a804477a8c844723022e00c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f7c0b00",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    60994
+   ],
+   "b": [
+    "198.18.3.87",
+    443
+   ],
+   "pkts": 30,
+   "bytes": 6706,
+   "bytes_ab": 1418,
+   "bytes_ba": 5288,
+   "first_ts": 1787230911.953453,
+   "last_ts": 1787230913.68584,
+   "syn": true,
+   "sni": "fcm.bflyhd.cn",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030350fe902db68373afdf7b6e85e8e860860c2d79eda3609fc29bca4f70f4ded812202392e02bed4d80b3625215921783ba84d5ad45606acf46c61648f1210ee9e61a0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300540200005003036270613a367bc5ee7eae7067462a37afebe213d5695133ee20645f1d88d7ba2c00c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f6d0b00",
+   "n_payload_ab": 5,
+   "n_payload_ba": 7
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    41460
+   ],
+   "b": [
+    "198.18.3.82",
+    443
+   ],
+   "pkts": 20,
+   "bytes": 6604,
+   "bytes_ab": 1777,
+   "bytes_ba": 4827,
+   "first_ts": 1787231136.587424,
+   "last_ts": 1787231152.339566,
+   "syn": true,
+   "sni": "dh-api.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303b840b5914a4e814b5abcebeee916ccc2b11e0c5e9e1c1d524b11a87920851efa20eb27d6e36bd9cb0bca7d912d0cae014524cbcd7646b48c430b5b2343621ab8d70022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300500200004c03031d31562d150c01e20184ca41799e899d756a304ac2d5739d47b51194624c459400c02f000024ff01000100000b000403000102002300000010000b000908687474702f312e31001700001603030f680b000f64000f",
+   "n_payload_ab": 3,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54678
+   ],
+   "b": [
+    "198.18.3.94",
+    443
+   ],
+   "pkts": 26,
+   "bytes": 6573,
+   "bytes_ab": 919,
+   "bytes_ba": 5654,
+   "first_ts": 1787231076.541591,
+   "last_ts": 1787231078.437087,
+   "syn": true,
+   "sni": "gxb-api.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303892e1041402258af398df0cb24eb0a865407b9d88bbe16c4841702284be319aa000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c03037113781eab3c0e5a0e220c6d7573cf54c863ffd25592d0553266b8575de5765b204829038ab086e0d958de3a98eacc336080c90d4e8a25b469604aade2915c6b9ac030000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54606
+   ],
+   "b": [
+    "198.18.3.94",
+    443
+   ],
+   "pkts": 22,
+   "bytes": 6572,
+   "bytes_ab": 919,
+   "bytes_ba": 5653,
+   "first_ts": 1787230913.050604,
+   "last_ts": 1787230914.504748,
+   "syn": true,
+   "sni": "gxb-api.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03032734f5aee52a76600ba916ba915d17bc5250025dcc2c8a39200520c77c99cd0e000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c030342d0de506ec0660463ecf58dfcc10d11b7ec0be0726695d757c06b4c6a986a5020319db0657039350ee84b58d69738d9c127780074c437407191ffa44b593a8f1dc030000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54894
+   ],
+   "b": [
+    "198.18.0.218",
+    443
+   ],
+   "pkts": 30,
+   "bytes": 6377,
+   "bytes_ab": 1103,
+   "bytes_ba": 5274,
+   "first_ts": 1787230850.412973,
+   "last_ts": 1787230851.170019,
+   "syn": true,
+   "sni": "mumu.nie.netease.com",
+   "http_hint": null,
+   "sample_ab": "1603010108010001040303fed2f039220ddedaf6b932fa45c618c19db6a28f582250e8892a2fc3c29d47ab204cad775595272681c4914117a389e37563bb62d79e37cd00008d6c5ff970d89a0014130213011303c02cc02bcca9c030c02fcca8",
+   "sample_ba": "160303004e0200004a03032294f8c44025026cead759e77064eda2939c1f35f17446f953a0b990a779a0dd00c030000022ff0100010000000000000b000403000102002300000010000500030268320017000016030310040b001000000ffd00",
+   "n_payload_ab": 7,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    43446
+   ],
+   "b": [
+    "198.18.3.88",
+    443
+   ],
+   "pkts": 27,
+   "bytes": 6337,
+   "bytes_ab": 1067,
+   "bytes_ba": 5270,
+   "first_ts": 1787231078.666211,
+   "last_ts": 1787231079.745123,
+   "syn": true,
+   "sni": "transit.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030353af055d0c9c8472a2ab984db2ad79ea8660a5aa351f623a48a27ccfa0c90f0c20209cc8cf8f2a7355386e78bf9f4d6915c1db7910af57ce5d623c59591c3aacc20022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030054020000500303137f73cf530272c82332d45a119b95b63f257d609b89ca1bdc538b67928cc78200c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030f7c0b00",
+   "n_payload_ab": 4,
+   "n_payload_ba": 7
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    33978
+   ],
+   "b": [
+    "198.18.3.105",
+    443
+   ],
+   "pkts": 27,
+   "bytes": 6114,
+   "bytes_ab": 1461,
+   "bytes_ba": 4653,
+   "first_ts": 1787230919.179028,
+   "last_ts": 1787230920.968088,
+   "syn": true,
+   "sni": "gxb-monitor.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303d0dd26678439a97bc0a165de7e6d19c2994503c2341ebdc880d4754881911432000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "160303006c02000068030336dbfeafd9c1b916c01322a19be69fa86dd01f446a60e35b59bb2eec6c075e4120a52988f797a794a60143c272e37032ae14645f75507e15461b7985acb208ebd0c02f000020ff01000100000b0004030001020010",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    34100
+   ],
+   "b": [
+    "198.18.3.105",
+    443
+   ],
+   "pkts": 27,
+   "bytes": 6110,
+   "bytes_ab": 1457,
+   "bytes_ba": 4653,
+   "first_ts": 1787231079.169766,
+   "last_ts": 1787231080.916709,
+   "syn": true,
+   "sni": "gxb-monitor.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303785c1651788dc7a4b3deda48ffe9a7a92d7557168e3d6dd9cfd1332755ee4d14000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "160303006c020000680303dac19d0c751d3accaa124503108fb6686a431d0051e66748145cf8dc6fad2ec8200705629bb99eec41ca6ca2ae9e99ad450f1f643012931fed203528551136e109c02f000020ff01000100000b0004030001020010",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36816
+   ],
+   "b": [
+    "198.18.3.96",
+    443
+   ],
+   "pkts": 25,
+   "bytes": 6082,
+   "bytes_ab": 1449,
+   "bytes_ba": 4633,
+   "first_ts": 1787230914.428951,
+   "last_ts": 1787230917.161852,
+   "syn": true,
+   "sni": "gxb-monitor.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030361393cafb1a7f424274276e60dac6ad0dd70e4dd42708959b6d00bf97a3f4fd5000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "160303006c020000680303089c6bd061dfbaa7432cf816c811d1f49642a24eb4c2fcd7a5200670293bff302021e6ca184a3425569321196c9ba1a02b60ee4eb2dafda746d14dd83a22c40ad0c02f000020ff01000100000b0004030001020010",
+   "n_payload_ab": 4,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36888
+   ],
+   "b": [
+    "198.18.3.96",
+    443
+   ],
+   "pkts": 25,
+   "bytes": 6080,
+   "bytes_ab": 1447,
+   "bytes_ba": 4633,
+   "first_ts": 1787231077.917472,
+   "last_ts": 1787231080.652751,
+   "syn": true,
+   "sni": "gxb-monitor.imeete.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03031bfc2ec1fcbb6800e41fc3253b48618c3b3275c21b1ea656ebb32733ef21122f000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "160303006c020000680303f35cf74bda51a09340a1242e5d9311cbbe82522c09c3595e843cbb2bc75fe793206c2e1c33210cd79799df6c182b3492dc8d535d7b4cafbc1ed7449ebb86e77e3fc02f000020ff01000100000b0004030001020010",
+   "n_payload_ab": 4,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    48448
+   ],
+   "b": [
+    "198.18.3.103",
+    443
+   ],
+   "pkts": 24,
+   "bytes": 5825,
+   "bytes_ab": 924,
+   "bytes_ba": 4901,
+   "first_ts": 1787231076.53508,
+   "last_ts": 1787231078.437249,
+   "syn": true,
+   "sni": "gxb-api.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030367b197001ae756e0ca90b39399a9933455d8756826bc4f14edea898a4c0c7c72000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c03039655a799ce184e9ab2b6aaa3129ba38a62d04bb3e0ab44da88f14d133115f5fe20686f9915db483cdff7cfe8a54c07ff132359836556849fe035a4fe83204e731ac02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 6
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    43182
+   ],
+   "b": [
+    "198.18.1.233",
+    443
+   ],
+   "pkts": 29,
+   "bytes": 5778,
+   "bytes_ab": 1580,
+   "bytes_ba": 4198,
+   "first_ts": 1787231108.932278,
+   "last_ts": 1787231109.801435,
+   "syn": true,
+   "sni": "api-pro.mumu.163.com",
+   "http_hint": null,
+   "sample_ab": "160301010801000104030371479ce79c2c779f476fac89788811d25314163ab93aba0c9cae23a8ac49800f2016465a711c585a0cf71effdda56e5f91943e9d5b2d3a5c935a3d20c015fe42be0014130213011303c02cc02bcca9c030c02fcca8",
+   "sample_ba": "16030300520200004e0303a7701f9a3cd550e1bdbd1da2939b08e5f2ae5c037d30cf1361dac38561f6ffd800c02c000026ff0100010000000000000b00040300010200230000000500000010000500030268320017000016030308c20b0008be",
+   "n_payload_ab": 7,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    43006
+   ],
+   "b": [
+    "198.18.1.233",
+    443
+   ],
+   "pkts": 33,
+   "bytes": 5776,
+   "bytes_ab": 1579,
+   "bytes_ba": 4197,
+   "first_ts": 1787230875.765419,
+   "last_ts": 1787230876.645924,
+   "syn": true,
+   "sni": "api-pro.mumu.163.com",
+   "http_hint": null,
+   "sample_ab": "1603010108010001040303e67bc3313bb1508fee4d06423419c6dd1bf9fbdc083f9c8d8d21625a2517198c20000e558e79b062e9f203e663a00d51a12473a0372d25bebfdbe6724e4067f3690014130213011303c02cc02bcca9c030c02fcca8",
+   "sample_ba": "16030300520200004e03036db5575e600f869936fa68801314f1f4628d7381486ee04c3737864ae63d0f6200c02c000026ff0100010000000000000b00040300010200230000000500000010000500030268320017000016030308c20b0008be",
+   "n_payload_ab": 7,
+   "n_payload_ba": 8
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    43002
+   ],
+   "b": [
+    "198.18.1.233",
+    443
+   ],
+   "pkts": 34,
+   "bytes": 5775,
+   "bytes_ab": 1580,
+   "bytes_ba": 4195,
+   "first_ts": 1787230875.480162,
+   "last_ts": 1787230876.503859,
+   "syn": true,
+   "sni": "api-pro.mumu.163.com",
+   "http_hint": null,
+   "sample_ab": "1603010108010001040303f7208a8a60701a791d9361d1b751ff856765fe23b27de757065abaa746654a002006c3e4eab261b3f4c5a35f99900db4f99abe8314b239bfe59d5ae6050db4e2ab0014130213011303c02cc02bcca9c030c02fcca8",
+   "sample_ba": "16030300520200004e030323aab5bccd1fb92e526e1793b17885bcfc478a3c7fe5b31a25e83dffe123f99f00c02c000026ff0100010000000000000b00040300010200230000000500000010000500030268320017000016030308c20b0008be",
+   "n_payload_ab": 7,
+   "n_payload_ba": 8
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    48484
+   ],
+   "b": [
+    "198.18.3.95",
+    4445
+   ],
+   "pkts": 24,
+   "bytes": 5744,
+   "bytes_ab": 946,
+   "bytes_ba": 4798,
+   "first_ts": 1787231076.543226,
+   "last_ts": 1787231079.101216,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303d2b5db098dc2adb47160e63cc2a8f92175cdd1ec25f153de6f88405422c83aff20977724710b74e724dd26b68c2b1734b357eae7c388c41e9bf21c2baba8ae46080022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030054020000500303da4faf244eeaa060baec5de15f48441f73f9c156cefb9e09a824fb1a88b46bd100c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030ae40b00",
+   "n_payload_ab": 4,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    35796
+   ],
+   "b": [
+    "198.18.3.104",
+    443
+   ],
+   "pkts": 20,
+   "bytes": 5617,
+   "bytes_ab": 930,
+   "bytes_ba": 4687,
+   "first_ts": 1787230918.076346,
+   "last_ts": 1787230919.251039,
+   "syn": true,
+   "sni": "gxb-api-tx.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303e595c07368be1bebc7aea329d53c7a6ada90e7ebcbd340c94573a95f3edd9706000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c0303d70af89c34530a7bb80e4f6d0fb6c272f5543eadbcfa1045fb39d6ec43c7b149208e02d4b0643c6d2e5ba2d13906421e6c115033e3bdbe83871c0288bc84ffbbc3c02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 4
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    35866
+   ],
+   "b": [
+    "198.18.3.104",
+    443
+   ],
+   "pkts": 20,
+   "bytes": 5615,
+   "bytes_ab": 927,
+   "bytes_ba": 4688,
+   "first_ts": 1787231078.470966,
+   "last_ts": 1787231079.215692,
+   "syn": true,
+   "sni": "gxb-api-tx.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303fcba501431ece9c555ef45dfc4b7a87330cb12fa75b2b2fc840f8b4cd90b2e45000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "16030300700200006c0303f64e10af09d7a71b2bfb04c9239d13ea34d5d09606218bd4d89ddd48cae6048520be8ead0f95f6c1c9b63aac7255bd871e16066f7d98193bdcfdf5e08e86946485c02f000024ff0100010000000000000b00040300",
+   "n_payload_ab": 4,
+   "n_payload_ba": 4
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    48482
+   ],
+   "b": [
+    "198.18.3.95",
+    4445
+   ],
+   "pkts": 24,
+   "bytes": 5330,
+   "bytes_ab": 936,
+   "bytes_ba": 4394,
+   "first_ts": 1787231076.542831,
+   "last_ts": 1787231079.111949,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303ea2feb846c9a0612a5a8eba54f6394ad55eabb7c5a864be91c94eb993131431820b88f05988137a49ca9f7ed4a8364bcb494372ebf2b590cf9e2548b30e54bbfda0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300540200005003031e8d264063b9ac25cb67a1661135046859a9ca6bc7cdd0b64afc553690be670f00c02f000028ff0100010000000000000b000403000102002300000010000b000908687474702f312e31001700001603030ae40b00",
+   "n_payload_ab": 4,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    60454
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 25,
+   "bytes": 4814,
+   "bytes_ab": 4285,
+   "bytes_ba": 529,
+   "first_ts": 1787230841.192585,
+   "last_ts": 1787230905.833128,
+   "syn": true,
+   "sni": "te.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303ef794b3266d5c99c6d5d02352d27ce5f9428be7f10285ac868df79d3bf13a8ed209993c0efc9196143ce0b80851059ca8ee0a880448c229d0f741a0299490f70790022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300640200006003036a8fc22aa6df296da87e9021ec8781f031a7e183601455e96d33a6d750438fb9209993c0efc9196143ce0b80851059ca8ee0a880448c229d0f741a0299490f7079c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 6,
+   "n_payload_ba": 4
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36506
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 29,
+   "bytes": 4398,
+   "bytes_ab": 2723,
+   "bytes_ba": 1675,
+   "first_ts": 1787230912.82891,
+   "last_ts": 1787231076.452716,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303eed0925e3da1580960e0ef11013b02afd0bcf63ee8e02c735f8d38e049e7b3de20fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaa0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300640200006003035346fcf5d8a9f9530bfcaa91e02b96d460b2ded904a4ef9d4424869cc4cc89fa20fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaac02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 6,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36502
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 29,
+   "bytes": 4301,
+   "bytes_ab": 2763,
+   "bytes_ba": 1538,
+   "first_ts": 1787230912.611118,
+   "last_ts": 1787231076.452196,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303dcac38fad2aa2ad9eb6a83c7821afb675b30e05c037481ad75f63a11540c25b720fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaa0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300640200006003035d637a1addb95f4eb4ac6fa91bff7405fe2d2f5663c0f718c16e058c517d7f1220fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaac02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 6,
+   "n_payload_ba": 5
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36510
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 25,
+   "bytes": 4252,
+   "bytes_ab": 2210,
+   "bytes_ba": 2042,
+   "first_ts": 1787230912.968859,
+   "last_ts": 1787230914.237192,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03034807387b518374fca9cf33baa4fb64e7547ecfbf96d3b94d99b8f5a895c0b14d20fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaa0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300640200006003031b14a8bbc357011142fd7aa7dda4427b0c14d4aaa78b6e10e6ec0ba638bda48620fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaac02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 5,
+   "n_payload_ba": 4
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36634
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 20,
+   "bytes": 4225,
+   "bytes_ab": 1304,
+   "bytes_ba": 2921,
+   "first_ts": 1787231078.685125,
+   "last_ts": 1787231079.348586,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303a081f68a23413a63d18dcd0f3838696b0a1f1235d93f81d181a86086a710769a20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300640200006003037428afff9036b06fdce7562d02755bb63be34ca6214461ff0c85c9dd449631da20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    60510
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 24,
+   "bytes": 4030,
+   "bytes_ab": 3501,
+   "bytes_ba": 529,
+   "first_ts": 1787230914.177218,
+   "last_ts": 1787230988.424508,
+   "syn": true,
+   "sni": "te.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303733f614738c4f25becf22d2f981854800f2bd69755c3f06a54366bfac19e2af7209993c0efc9196143ce0b80851059ca8ee0a880448c229d0f741a0299490f70790022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303bde4d12f71dc9e52a06e23184b500d5353de0a31757ab7ae23393ce7f533a28d209993c0efc9196143ce0b80851059ca8ee0a880448c229d0f741a0299490f7079c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 5,
+   "n_payload_ba": 4
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36632
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 21,
+   "bytes": 3996,
+   "bytes_ab": 1286,
+   "bytes_ba": 2710,
+   "first_ts": 1787231078.684863,
+   "last_ts": 1787231079.382054,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030352a9a7778f30b5e4608351e48fe3096482485378ba5ee874393e8258941fb0fc20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300640200006003036fa508d85abf992be186cfda76cc7aa0d4b7c9269a4ca68bee527696801d293820df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    50610
+   ],
+   "b": [
+    "198.18.3.89",
+    443
+   ],
+   "pkts": 21,
+   "bytes": 3889,
+   "bytes_ab": 1673,
+   "bytes_ba": 2216,
+   "first_ts": 1787230913.24704,
+   "last_ts": 1787230914.920837,
+   "syn": true,
+   "sni": "wechat.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03030ac7518a87b9840ccd17555541305e3e476441d0c942f50c96864a8e711be1ea20763eba2fc915102dcf53bcc6979b13b6c8a843ff5d89f522893cd80fbbd2f82b0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303fe28a3c83cceca15739ecb631556c4a622395de971d3f3491a9ed9977d0345d020763eba2fc915102dcf53bcc6979b13b6c8a843ff5d89f522893cd80fbbd2f82bc02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36648
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 21,
+   "bytes": 3856,
+   "bytes_ab": 1283,
+   "bytes_ba": 2573,
+   "first_ts": 1787231078.691553,
+   "last_ts": 1787231079.453005,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03032900d4c04a484b0f7a83073fdb9ce392312c04ee08cac8bfde7232d8606ad93e20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300640200006003038251f3fc0720983cd7bc417f15b8ef337fff76f8055f649ada6ee6737161017e20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    50612
+   ],
+   "b": [
+    "198.18.3.89",
+    443
+   ],
+   "pkts": 21,
+   "bytes": 3819,
+   "bytes_ab": 1674,
+   "bytes_ba": 2145,
+   "first_ts": 1787230913.247424,
+   "last_ts": 1787230914.427336,
+   "syn": true,
+   "sni": "wechat.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303c7fba11f65dea63578eeef1bcd2d66c0764bca8ba3a81e357ef399e335176c4a20763eba2fc915102dcf53bcc6979b13b6c8a843ff5d89f522893cd80fbbd2f82b0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303bb3aea11cbf53b8069d8a5fda048fc550bd5bcdc72ea3e9030c24696b5a8308520763eba2fc915102dcf53bcc6979b13b6c8a843ff5d89f522893cd80fbbd2f82bc02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36610
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 21,
+   "bytes": 3774,
+   "bytes_ab": 1274,
+   "bytes_ba": 2500,
+   "first_ts": 1787231078.487283,
+   "last_ts": 1787231079.390758,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303d9a99a77aa374186c67306d438f02b3cf0881a31ba18d703753d49a49c930f8d20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303c6c1f56271c3629d6985d0645d586aea41d4f722f7a369bcdae883e09959075420df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36464
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 25,
+   "bytes": 3204,
+   "bytes_ab": 2062,
+   "bytes_ba": 1142,
+   "first_ts": 1787230838.125905,
+   "last_ts": 1787230912.609166,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303b1b87349b7b600f6003ecf923f9699054b7dba4d34f9a5154df5e16c0cd779e42037c53b33fd15c070478ca6d7dd3d711c7f1543446d9fe463f112bccb96f7f54b0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303272cd423aec18ed351672787939fa7655349c2c5721bd28eb3742d7b0ff102042037c53b33fd15c070478ca6d7dd3d711c7f1543446d9fe463f112bccb96f7f54bc02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 5,
+   "n_payload_ba": 4
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36642
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 17,
+   "bytes": 2499,
+   "bytes_ab": 1252,
+   "bytes_ba": 1247,
+   "first_ts": 1787231078.690434,
+   "last_ts": 1787231094.567685,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030383f96a1d618306348799d19e55b0e244305dcd94d498dad339378bb6c28e75d420df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "16030300640200006003036e54cc1cf8dd92247e0009c80deaa4b72bfe132f4a483879d7ff8d5b809fc7c320df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 3,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36624
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 2240,
+   "bytes_ab": 1308,
+   "bytes_ba": 932,
+   "first_ts": 1787231078.669435,
+   "last_ts": 1787231079.487723,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030301f0b324974a7c51e0489f41a52a84eabc3d1d053119f7f9e5011c1b08ad8c3b20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303ab14dc2b091dfd3479907aba0af3e5b51f39fa0dedb67695090406dbbd13bbfc20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36616
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 2210,
+   "bytes_ab": 1292,
+   "bytes_ba": 918,
+   "first_ts": 1787231078.491955,
+   "last_ts": 1787231079.304333,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303a748184dcfd527b7ce422e3b8ab2168ee993387ff05a9cb9ff3e66844461e20420df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303a0e1f20966f5736494db3646860470e628de17c53569c86acd11b1df4b25f30720df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36638
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 2020,
+   "bytes_ab": 1365,
+   "bytes_ba": 655,
+   "first_ts": 1787231078.688799,
+   "last_ts": 1787231079.59748,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030312b4144d78cc027cf00e7a77b6e198d66e2adc6fa76200d84296b3ca2e5d26ca20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303c3e04ac1f50b37db8604c7a0bad95844302da88a4bfde57b48eab9f7f93f4ee720df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36604
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 2016,
+   "bytes_ab": 1361,
+   "bytes_ba": 655,
+   "first_ts": 1787231078.484994,
+   "last_ts": 1787231079.313418,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03037df81a1d7192a2070247442e6c7037e0f829c3ee092cdd52d3ff9a7531bcb5fe20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303200b7ba9bc3aa57663b9ca8087080bf8e51ad029fbce0abdc77956f9b2731bb220df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36612
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 2016,
+   "bytes_ab": 1361,
+   "bytes_ba": 655,
+   "first_ts": 1787231078.487797,
+   "last_ts": 1787231079.309615,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303dbb3dc635781086b535bb897adbce0d6e48768e7ce0b857f92391b533001b28220df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303006402000060030303bdc06c5d7e85f155f13e5310a1b57aff671f1428e014cea6e1297d8b4bbbe020df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36640
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 2016,
+   "bytes_ab": 1361,
+   "bytes_ba": 655,
+   "first_ts": 1787231078.690118,
+   "last_ts": 1787231079.438534,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03038d5184a682cea2969500ef7bb4812fee6ee39bb9e9c97090e4949e35459462df20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303f43b04ccd368eb0853f33f74bf3f162ad62df88f1ebac92a676b034204ad934f20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36520
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 21,
+   "bytes": 1984,
+   "bytes_ab": 1297,
+   "bytes_ba": 687,
+   "first_ts": 1787230913.743938,
+   "last_ts": 1787231076.453445,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303fe6e04a1e88adc5152c85ea288cab84a5478d3dccf0f6dc6e9a7fe76d131361520fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaa0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303ee5748a518d6efc24ed171db8a6768e98bce3b8ed92c86950c8cece616c6984120fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaac02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36628
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 1972,
+   "bytes_ab": 1326,
+   "bytes_ba": 646,
+   "first_ts": 1787231078.670536,
+   "last_ts": 1787231079.500178,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030327b41bd75e1103e1d01c0375f7a7d088080428282e6f9b559897f2776720ac4920df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303d7d4ff63faa6318188e222727060d2feb889d410d8860413dfd85b340f35e48a20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36606
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 1965,
+   "bytes_ab": 1336,
+   "bytes_ba": 629,
+   "first_ts": 1787231078.485383,
+   "last_ts": 1787231079.298953,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03034eb4e5c305f2e87ee262038ee51d13db3d0aa16942a6ca2cc56b2160e37b837120df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303c61b9b482cc1acda749038c76c228ed00c03ae4ac2466fd55adef6776b53617420df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36614
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 17,
+   "bytes": 1965,
+   "bytes_ab": 1305,
+   "bytes_ba": 660,
+   "first_ts": 1787231078.488494,
+   "last_ts": 1787231094.464373,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303fac98c87a198633f26eb060aee02bfd3b7850cbda3279e28fd662d6a243a34ce20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303006402000060030304e13e0d53504412f234266a296d98c2f40aeae7aa5078c5c33fb506938a8a1c20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 3,
+   "n_payload_ba": 3
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36646
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 1965,
+   "bytes_ab": 1336,
+   "bytes_ba": 629,
+   "first_ts": 1787231078.691298,
+   "last_ts": 1787231079.350623,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303aa2e24d7676a690439e639f379ffe0eb2d56a1ba43c6faefbdd1a6a5f7f800c120df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303d08d0057de021a89bdcf1e10d07caf9767ac752f570e60d0deaa987d86c4d30320df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36622
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 1958,
+   "bytes_ab": 1326,
+   "bytes_ba": 632,
+   "first_ts": 1787231078.669397,
+   "last_ts": 1787231079.554935,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303951d8b182554a593e477678b424bf63a4d934ea3ed5e2c8eedc190aa0b1c783120df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303006402000060030330cb09df38e80972074b019c797e26dfdbe2b798098c4b4fa0c819d80cd1a37b20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36602
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 1956,
+   "bytes_ab": 1335,
+   "bytes_ba": 621,
+   "first_ts": 1787231078.484818,
+   "last_ts": 1787231079.318138,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03034553634a6c389a1f797fcf3bbe3f533fe7fd37d8f3031e8702fd0381fac84a1320df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303fbb46b78bcfeead6629e78760a272695f989423284b2a1b4eab963f97dfe533c20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36630
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 17,
+   "bytes": 1946,
+   "bytes_ab": 1287,
+   "bytes_ba": 659,
+   "first_ts": 1787231078.684477,
+   "last_ts": 1787231079.423896,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303423630692dbb77e59722c3cf010c5e34398b9abfd0125c07881cc6e34855fb7c20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303006402000060030319b8693b3d93c843952b8d69be00e87080f2c4b4857e44f6e6af2cb6c378883c20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36636
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 1927,
+   "bytes_ab": 1318,
+   "bytes_ba": 609,
+   "first_ts": 1787231078.687783,
+   "last_ts": 1787231079.400263,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303ca18525253dc401091da788e803a8fe0d0af586d9d3d65d39288dd70426c4ca720df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303006402000060030350855b8b231e54864e736a3de93f44813f4790999e9e310c8709a969389dc87120df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36504
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 1919,
+   "bytes_ab": 1266,
+   "bytes_ba": 653,
+   "first_ts": 1787230912.795292,
+   "last_ts": 1787230913.698618,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc03033b0d87f659bca2d4daedf8030de99ef4171ff0e18d37511ce6c80db9461485b020fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaa0022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "160303006402000060030374633bfb24bd08005478f083a796e60c68301797b5e95aa959ff964a8a1d6bb720fa0d62ece6c524d334ece5527fd772db90883331e25307bf6270cc1560b4dbaac02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36608
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 19,
+   "bytes": 1896,
+   "bytes_ab": 1311,
+   "bytes_ba": 585,
+   "first_ts": 1787231078.486851,
+   "last_ts": 1787231079.213909,
+   "syn": true,
+   "sni": "hz-hylas.mengyoutech.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc0303e439ed726b53540c3e02d11eb332ad151d7f4ad7a16aac7e8aee7de9db1da35f20df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae7500022130113021303c02bc02ccca9c02fc030cca8",
+   "sample_ba": "1603030064020000600303c576e5d089b909c1acf1e54631f5c8181f15bb2693ef5873bc20bdf615f319d520df11c164035d1b7450644a859e2ce97fc397245272d8b1080b9436121aeae750c02f000018ff010001000010000b000908687474",
+   "n_payload_ab": 4,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    50482
+   ],
+   "b": [
+    "198.18.3.89",
+    443
+   ],
+   "pkts": 7,
+   "bytes": 1106,
+   "bytes_ab": 1106,
+   "bytes_ba": 0,
+   "first_ts": 1787230912.607636,
+   "last_ts": 1787230912.608049,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "170303042e0000000000000002d02b3ee2209cccc03b80d190e579f7ac698d80b1d0a0e9c38e9b5883fa2687737a5d4e9abfd61fa68a93206ac5964210986cdc1cfd394b657cb75aca543fc67ce633bf1a0b63e3c0f2bf07d0759657723b3edc",
+   "sample_ba": "",
+   "n_payload_ab": 2,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54436
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787230786.294332,
+   "last_ts": 1787230786.976198,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b141b3fa1c590dc2a4fe04ad5055021326facd08029000000166a86fa42012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314378f0e56f554fec48b2ef2ab071e0c5fc1c1d942000000016a86fa4301261ad8247dc467475ec5434c27f4e9e746a27b385a2739d4af2d7b4bbaf562e8d1eb107f0d79eb83992a1dfe5013b3381185b6b17fc152aa",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54444
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787230815.361502,
+   "last_ts": 1787230815.946849,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14ad6d0e145919d1d8202f20f250261b6b2cb814b10000001a6a86fa5f012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314154366706fdf8fc0ea1cb92bd7ac426d93dc179d000000016a86fa6001261a0e3babd111e08f1e476a285e1029913c72c997e9c43b01c8b879d9b31f09407aceaa08bc66dbc6c4e6bcf62232fc27e9c6fbdb3c0335",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54456
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787230844.594541,
+   "last_ts": 1787230845.034301,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14eedbb1e354cb0b55319697a13e389983013f5ae80000001e6a86fa7c012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314af40ead170edcba54b1c89279ae29b5cd3bdccd6000000016a86fa7d01261a993889d492cead3de54aff1291b6c0de7b8c4fa087efc5708b3f7b76b7aded851b5f4a0f98801cb8ad542640144c74f5398b518afcf9",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54466
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787230873.474009,
+   "last_ts": 1787230873.91803,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14a9633bbc51229e6c8fe613230dcd8d7fb060f540000000226a86fa99012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a0720010003143f609ab046b17e8dabc27bcddae4a7ade4461349000000016a86fa9a01261a8c86ebb424dae6ac2443656c56cc164cda0753c00316039e7857dea3ec31c23b40b69cf99f5d4ac5bf6823fdafea495f89522023ba09",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54478
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787230902.391303,
+   "last_ts": 1787230902.797733,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b1418ebe2a6f3c3c3ed7a6507d62f014e03ced0cb22000000266a86fab6012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314ca8e0d7bd6fa6ed117a349bd8606cf92d8654f56000000016a86fab701261a07f2f5bae38129efb456aadbf062c3c09ab650e295b050c3d2054a58c48a371b381b0729f3ec26702c2fa9c66495c798c122c3cfc5f3",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54520
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787230931.198384,
+   "last_ts": 1787230931.637367,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14f6cd4fca94deeb9b9584432f44c87319ee734d2c0000002a6a86fad3012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a0720010003142901a8bcf160e0684efd28b691d37f8c77c26fc6000000016a86fad401261a45485003581b02b805f9ef5d004b4c3363b6296b66d2ac0569e3ebe52b648a193a3a5695f9080acac0d64f5bdc60a4c60688857e9a4f",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54528
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787230960.246367,
+   "last_ts": 1787230960.86544,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b148b9a788c759b8b72bc8d611227fb45cf7a0551650000002e6a86faf0012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a0720010003144278e06ce0e045e6e396e2bdf78ef43c43280593000000016a86faf101261a9c24c35512c620c0df724879200c31af435a9ab4b888ea98f6ba38d4aa8f655551e52c4cbe7b349b5dc410b8dd2c2b601c8e5ca9aaec",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54538
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 11,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787230989.291528,
+   "last_ts": 1787230989.738464,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b1457681f01a93d69313c89fdf0fccd46c2d864c75a000000326a86fb0d012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a07200100031418c46e050cc11a482f08d06de1d11461b0b1fd6f000000016a86fb0e01261ab04cfda6d5aecef1191c87bb16cf8361cd2039e422c8a69e9fa69045ff9ae28a3af3b71cb9be03bace195e026e784642bf53796abb65",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54546
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787231017.68662,
+   "last_ts": 1787231018.175757,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b140aa1ad2eecc1b7c0cf68fa1bf984725ca8c9b747000000366a86fb29012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314ffecc176256b85ff399402b7b4adc4358000c674000000016a86fb2a01261a2bb7ed386d246357bb29a0c78b18ccfd028ab123383420f9ddfc38167aa2489765c49ebd69ce0f3c01895786743425ef9af97a778f18",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54556
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787231046.67826,
+   "last_ts": 1787231047.14572,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14cc462c2d6eca57efcf3efe3be0a2f276aa96efb90000003a6a86fb46012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a07200100031419faba105d3419e2d99377a7d7f936353b59cce8000000016a86fb4701261aaf7a856037601e3d5c746f7c10d0dad37d576a4342a0e23e075c1881c51d3b48df374b37f0d224bce2c154abbb5d25c15700c6d191a5",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54564
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787231075.603122,
+   "last_ts": 1787231076.041033,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14462cc36b7c627904a977ed8de4697777fdefd2b10000003e6a86fb63012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314d8703dece842e615d3123d75b00ef9bd62e204d8000000016a86fb6401261aaf7d4cce3d4958ee5e433a3511844a62f2bf522bd57b1f97129874437c5350b65cce7925ae065923f7ffb79c22b89fbbccbc9f3db9bc",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54644
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787231104.555239,
+   "last_ts": 1787231105.034746,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14e9a846a55689dae89f57edcef7b94f7a1a30360e000000426a86fb80012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314e51cfd04308180d4b11d0a8711dc59785c6fed30000000016a86fb8101261ac82cc9fe13f1e2bdd3ef11d6ce27476335b2e12afc884f54be22fa60e82a0b9aa66dfeab4f62f3c689be478e44a04a86c3244ee3e44b",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54654
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787231133.576975,
+   "last_ts": 1787231133.998305,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14cf2858b9aeb602a49b4a72f4f218ad809c60ccd5000000466a86fb9d012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a0720010003144573c1384807b0fb3635c38725cfeca0e0b50b94000000016a86fb9e01261a4a4dd347c0ac5f87dbc498fcdd131ca7c9aea316aca5b6988f3af1f3f73370e66ba5364a238f67c5044550edd2b93e06050d943f62d0",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54664
+   ],
+   "b": [
+    "43.231.145.10",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 709,
+   "bytes_ab": 373,
+   "bytes_ba": 336,
+   "first_ts": 1787231162.452874,
+   "last_ts": 1787231162.858005,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14fc5ea073db00917fc09772b01c242078118479d50000004a6a86fbba012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a07200100031470edfa9b4ce577d565d5b60916d155aae91bda43000000016a86fbbb01261ae7455824bcc28d7035f057fbbdc97c2d02855472da4dd8a3bcedb00574152537b9749a7d7d9cf472afda373abeeb74d52608abe8dec0",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    53024
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 632,
+   "bytes_ab": 373,
+   "bytes_ba": 259,
+   "first_ts": 1787231105.65195,
+   "last_ts": 1787231106.232004,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b1499ded3122665aa83efa5336cd74938fa9ed3e268000000436a86fb81012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a0720010003141d31f95b3f7a43b6937e46f000e5041f3d6e361c000000016a86fb8200d91a6896ebca6673b084da4b5ee44d1b1fe1e37f636fecdc4adf09473eceea700c3c874aca3c30d99788972d506fa5a1a541615976bcfff6",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    53034
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 632,
+   "bytes_ab": 373,
+   "bytes_ba": 259,
+   "first_ts": 1787231134.608543,
+   "last_ts": 1787231135.109582,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14476c8e88bb14e57bb0a8edaf61d88370b88cbc86000000476a86fb9e012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a0720010003144e79816530798975028d6d66ce194c85e1cbf043000000016a86fb9f00d91a891ed913b7b85c9ee27b27e5cf661937d716728f411261121fce5e911ee5dee79a93aceac3fe2b49b13c898ead428224f2d7100defba",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    53044
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 632,
+   "bytes_ab": 373,
+   "bytes_ba": 259,
+   "first_ts": 1787231163.468805,
+   "last_ts": 1787231163.882865,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14afe942ba67dc79af667fa89d0a54b3947a7f79130000004b6a86fbbb012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a0720010003144ac85f02eab8f14fe0f81b3aca172211a5518c01000000016a86fbbc00d91aea4bd2caaa4fe16dac7d9f7b767a2175daf669c34b7ffdfa357c05ab5f5b1e041308db49b69c862f3731821232fa720b66b4acfaa248",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52816
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787230787.585494,
+   "last_ts": 1787230788.015335,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14124e56d28d39064d1bcba86201467dfb6b9ce081000000176a86fa43012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314b7367c087a491951d040cf65463551459ce3d722000000016a86fa4400d81a42612a71c5d8abc378c05aa6bc8c7dc1b9973ce788efdd38ddff1f53ab1adfc0bc74b10fd0fe4c5207dbacc2d6fe1620459c3aade5e2",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52824
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787230816.604893,
+   "last_ts": 1787230817.244499,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b148c4577e361d15aa3e8e1578b04d3b8d7aad3f47a0000001b6a86fa60012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314686b72941d0c5047fe0a3952736be62a51443f97000000016a86fa6100d81ac8857b11662c814704a7ae3c5eb076d54a96577303a4e53d4738334e392560269bc7631fa29324a354cab28ae691fe79cd852a5ab009",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52836
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787230845.645399,
+   "last_ts": 1787230846.128971,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14377bdd61f1ac21771ac9adb19551d6dd243ca97f0000001f6a86fa7d012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314d7798cf086047f907dc11dbdb8f6ffddd0ca2d06000000016a86fa7e00d81a2689ceefa66305a3ed285eb44934875d15b30d435532bb5b376b900101107b93bca431593952b93c262685137ab677e94cc194571e8a",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52846
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787230874.529478,
+   "last_ts": 1787230875.045163,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14e8d202b530e91666f6f7f6db1361a7036f5a8f45000000236a86fa9a012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314de8d8b07721167eb3715dcc28f2f01495ef9ae89000000016a86fa9b00d81adc232c392a908ecb7e6989a05d4b386555b14cbc24a55ebbd6f4e6dcbff950a1f2576193d5d54b44a9201cc2ca56cb7163fdfe3bfbd6",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52858
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787230903.409975,
+   "last_ts": 1787230903.845564,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b141079a40404435bfad7993d45ad19a5585db93fb4000000276a86fab7012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a07200100031426826537a5e1b62adb021e7ca587886c281086b0000000016a86fab800d81a8ea1cbeaf446e14bb60b493686a6d41ef3a1d3cd44a47553efe6ed229cbb533fd6a353e2be24f157411adf347916dbbc99c3ddee941b",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52900
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787230932.255334,
+   "last_ts": 1787230932.901122,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b146a4b509219e30043daf34e1821c6814d1d7755380000002b6a86fad4012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a0720010003148538a94435b58aac6d6dc3c7bc57d74e865e94c6000000016a86fad500d81aedb9a5774238ed0c7ad10b158e4a05d07b6dfc8301f2cea847cc75f19ec70ba071a6fb3f961385a5ecd5957d43b11e88fc6f7cd62980",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52908
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787230961.481636,
+   "last_ts": 1787230961.918962,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14a9ce5a705bc06c1b716088692796438968a58ada0000002f6a86faf1012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314f4d941b9d92df7d860f4163d512ee2516218cd1a000000016a86faf200d81a8d6cde3fc89d66d095ddf52af3462aed86db13378fb492dd58754aef9d6c52b0803d1190610974e6ce7fa16bc212ab273ea164f21543",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52918
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787230989.849892,
+   "last_ts": 1787230990.344513,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b141b74d5578ce2fb65747f81224f4bb9a77dc55ce6000000336a86fb0d012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a0720010003142cbdd465e7145445ac206d3a6bc62a2279b01b9a000000016a86fb0e00d81af6fafda6d5aecef1191e31bb15918361bca80bf1c7f9de31d8ca2cf28f798df5b50f2978c3cdc30578201c683fedc0e9eae3f1f6cf4c",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52926
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787231018.785262,
+   "last_ts": 1787231019.303957,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b147daa2a87d7d154a1c1c0bec16fecf7941b20b49f000000376a86fb2a012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a07200100031482d7702b0e40c63b340084bf343422900d647bfa000000016a86fb2b00d81a9e073c84126bb14bbf775ed2b595365d3feef5275a569f9aa3d36f1e6c1aea9a06ba2c73985d240455c6f7e2e9ff3f4015c31b44e28d",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52936
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787231047.756925,
+   "last_ts": 1787231048.259697,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b143d444f33b45829a32be0194bd251b6bce6648f120000003b6a86fb47012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314d692c48bf34deb05fac41e1835a011383252f34b000000016a86fb4800d81ab29593686eb98e825c7d00775a9cd418bff534b1c565a779ddb160a85f4e8f72135ab5c1431764329047d68c87f307d12bcbca7f2d0f",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    52958
+   ],
+   "b": [
+    "198.18.2.14",
+    5224
+   ],
+   "pkts": 10,
+   "bytes": 631,
+   "bytes_ab": 373,
+   "bytes_ba": 258,
+   "first_ts": 1787231076.651057,
+   "last_ts": 1787231077.21355,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14249a890fe603262e474a50e9cfa4c7a6f2d8b1930000003f6a86fb64012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "73ea68fb1a072001000314dff7426a7d6c6a086d5f33ab6d39ceb40cbc34c2000000016a86fb6500d81aa38e98a30a05d8fd01817a8721aa8ebac220bfb91e365e7dd7b639ed7758e43ea7816eeba1187c963e25b30da3eb900ee48c1ba50843",
+   "n_payload_ab": 1,
+   "n_payload_ba": 1
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    48376
+   ],
+   "b": [
+    "198.18.3.103",
+    443
+   ],
+   "pkts": 9,
+   "bytes": 517,
+   "bytes_ab": 517,
+   "bytes_ba": 0,
+   "first_ts": 1787230913.046784,
+   "last_ts": 1787230918.049073,
+   "syn": true,
+   "sni": "gxb-api.hzxuanming.com",
+   "http_hint": null,
+   "sample_ab": "1603010200010001fc030378f10bf755de414f96542aa384932cddf0dbdc97b6ae4161656b6ea9dcf2cfde000084c02cc03000a3009fcca9cca8ccaac0afc0adc0a3c09fc024c028006b006ac073c07700c400c3c00ac0140039003800880087",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    59972
+   ],
+   "b": [
+    "198.18.2.203",
+    5226
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230788.625949,
+   "last_ts": 1787230800.713747,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14a9886473c2483418f06cbe18753163530d64bfb7000000186a86fa44012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    59974
+   ],
+   "b": [
+    "198.18.2.203",
+    5226
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230801.742609,
+   "last_ts": 1787230813.838911,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14671a2335faf33fdc97f0ac06217cee306258a77b000000196a86fa51012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54640
+   ],
+   "b": [
+    "198.18.2.160",
+    5224
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230817.856306,
+   "last_ts": 1787230829.958231,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b148795b305ac01cb80aae6de23ea6f80e47033e8f40000001c6a86fa61012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    54642
+   ],
+   "b": [
+    "198.18.2.160",
+    5224
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230830.984659,
+   "last_ts": 1787230843.070588,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14214d2146264e28c2f245b2a68098e89e17a350db0000001d6a86fa6e012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    58530
+   ],
+   "b": [
+    "198.18.2.153",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230846.743122,
+   "last_ts": 1787230858.84251,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14d43ec7229cd6a98d27e50ad81cec6c841ef03189000000206a86fa7e012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    58534
+   ],
+   "b": [
+    "198.18.2.153",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230859.865775,
+   "last_ts": 1787230871.945845,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14bdca57205b2e0392ffd22f092e7a76126ac7cfb1000000216a86fa8b012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    58748
+   ],
+   "b": [
+    "198.18.2.160",
+    5227
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230875.654245,
+   "last_ts": 1787230887.748051,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b145776cf971af63c3140e9c5a4421a3592a066aeb0000000246a86fa9b012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    58752
+   ],
+   "b": [
+    "198.18.2.160",
+    5227
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230888.771293,
+   "last_ts": 1787230900.868731,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b1428bb99cb72f839170bb4f761860497f4a2fd1c28000000256a86faa8012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    43652
+   ],
+   "b": [
+    "198.18.2.176",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230904.454293,
+   "last_ts": 1787230916.547286,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14e17c0f76ba6c46a8b3ef9cf0b2adffa433f82d4d000000286a86fab8012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    43684
+   ],
+   "b": [
+    "198.18.2.176",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230917.563239,
+   "last_ts": 1787230929.678773,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b145694e63cc7bd4a8ea823ffa1a3f9838a9c94c552000000296a86fac5012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    42506
+   ],
+   "b": [
+    "198.18.2.185",
+    5227
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230933.514421,
+   "last_ts": 1787230945.60213,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14fc2f54a3da856b471749c1617e0ef4d122456fc50000002c6a86fad5012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    42508
+   ],
+   "b": [
+    "198.18.2.185",
+    5227
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230946.627262,
+   "last_ts": 1787230958.720756,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b145bdad6e1e29138421ddf295ba4178e7b47dc40c30000002d6a86fae2012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    33834
+   ],
+   "b": [
+    "198.18.2.171",
+    5226
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230962.5289,
+   "last_ts": 1787230974.625473,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b143c6bafeeda3d824ebb650af57cc9e124bbd0da45000000306a86faf2012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    33836
+   ],
+   "b": [
+    "198.18.2.171",
+    5226
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230975.666511,
+   "last_ts": 1787230987.772543,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b147eaaab105dfabbc24b3ca52469f9c749c693099b000000316a86faff012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    59552
+   ],
+   "b": [
+    "198.18.2.191",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787230990.951836,
+   "last_ts": 1787231003.052277,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14d64a92901c4365d90b4699dd7407324d02d4fea6000000346a86fb0e012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    59554
+   ],
+   "b": [
+    "198.18.2.191",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231004.068497,
+   "last_ts": 1787231016.162513,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b1465f013dae90bd7fa4843909ce80f025a951301a4000000356a86fb1c012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    39434
+   ],
+   "b": [
+    "198.18.2.185",
+    5226
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231019.915044,
+   "last_ts": 1787231032.000849,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b142f1a541e4fa47e7cac7cf8ba23e953c19e6f9ceb000000386a86fb2b012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    39436
+   ],
+   "b": [
+    "198.18.2.185",
+    5226
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231033.063158,
+   "last_ts": 1787231045.164587,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b147426eb2230e37cf3c8ae36d44c9686e669d4e259000000396a86fb39012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    42542
+   ],
+   "b": [
+    "198.18.2.185",
+    5227
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231048.871725,
+   "last_ts": 1787231060.973883,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b141fe799779d7e91835a1ffc6ab6f52137bbf6df9f0000003c6a86fb48012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    42544
+   ],
+   "b": [
+    "198.18.2.185",
+    5227
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231061.988732,
+   "last_ts": 1787231074.08176,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b1489760e0ac2e30dbb072af1d42b7bcc04189e91980000003d6a86fb55012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    48722
+   ],
+   "b": [
+    "198.18.2.153",
+    5226
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231077.818991,
+   "last_ts": 1787231089.90971,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b149f79e33b1eb5f335cb06ccee4a6332d399508852000000406a86fb65012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    48782
+   ],
+   "b": [
+    "198.18.2.153",
+    5226
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231090.93755,
+   "last_ts": 1787231103.032477,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b140053e82a01d83f1cd36a5c17f065d8909db52bf0000000416a86fb72012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    58602
+   ],
+   "b": [
+    "198.18.2.185",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231106.845626,
+   "last_ts": 1787231118.931754,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14b75f109baf8f60926cd225ddd4b6779f461dded2000000446a86fb82012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    58606
+   ],
+   "b": [
+    "198.18.2.185",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231119.960993,
+   "last_ts": 1787231132.055758,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14ea67103aa279bf49fa2046ffce4082ebd578c78d000000456a86fb8f012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    58612
+   ],
+   "b": [
+    "198.18.2.185",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231135.718447,
+   "last_ts": 1787231147.812635,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14607d6504a4a5ed28b9c30712961fc42db0586bca000000486a86fb9f012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    58616
+   ],
+   "b": [
+    "198.18.2.185",
+    5225
+   ],
+   "pkts": 9,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231148.843293,
+   "last_ts": 1787231160.955441,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b143ae00f1e5374621f01b5b870e6b0bdcb9d276215000000496a86fbac012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    48808
+   ],
+   "b": [
+    "198.18.2.153",
+    5226
+   ],
+   "pkts": 5,
+   "bytes": 373,
+   "bytes_ab": 373,
+   "bytes_ba": 0,
+   "first_ts": 1787231164.493885,
+   "last_ts": 1787231164.497622,
+   "syn": true,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "73ea68fb3f0704012036383166633638303436363563306137626564633061616634373662656639611b14d1423ac3dda545f5fcde3f66199c61fab780971e0000004c6a86fbbc012b600016313955354f7a54365a7041425662727733453378",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    46082
+   ],
+   "b": [
+    "43.153.165.235",
+    80
+   ],
+   "pkts": 8,
+   "bytes": 148,
+   "bytes_ab": 74,
+   "bytes_ba": 74,
+   "first_ts": 1787230805.567698,
+   "last_ts": 1787231115.708511,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "17f1040020aa1e900f1d18dd22292220568d2c3dcc204a4bf25545bba60566228ba02465be",
+   "sample_ba": "17f1040020f06be3da4525c24cc333170c5ef0fbcfcea912b2063850c2d601f3ba34aa2d3b",
+   "n_payload_ab": 2,
+   "n_payload_ba": 2
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36418
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 4,
+   "bytes": 31,
+   "bytes_ab": 31,
+   "bytes_ba": 0,
+   "first_ts": 1787230838.122507,
+   "last_ts": 1787230838.122812,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "150303001a0000000000000003e0dea964e37fc36b3654ea40e835ef16d510",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    36420
+   ],
+   "b": [
+    "198.18.3.86",
+    443
+   ],
+   "pkts": 4,
+   "bytes": 31,
+   "bytes_ab": 31,
+   "bytes_ba": 0,
+   "first_ts": 1787230838.12305,
+   "last_ts": 1787230838.123139,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "150303001a00000000000000026bbc64d95d6aa11928fc93c5c3fac9f0c3e8",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    60402
+   ],
+   "b": [
+    "198.18.1.111",
+    443
+   ],
+   "pkts": 4,
+   "bytes": 31,
+   "bytes_ab": 31,
+   "bytes_ba": 0,
+   "first_ts": 1787230841.190263,
+   "last_ts": 1787230841.190639,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "150303001a00000000000000061dbecb0e9c39784c7ca48cd7f198e452d72b",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    41200
+   ],
+   "b": [
+    "198.18.3.82",
+    443
+   ],
+   "pkts": 5,
+   "bytes": 31,
+   "bytes_ab": 31,
+   "bytes_ba": 0,
+   "first_ts": 1787230913.54698,
+   "last_ts": 1787230913.547323,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "150303001a0000000000000002de6bfc668c0ef41e0cee83c5817ca2715c06",
+   "sample_ba": "",
+   "n_payload_ab": 1,
+   "n_payload_ba": 0
+  },
+  {
+   "scene": "s04_createroom",
+   "a": [
+    "10.0.2.15",
+    35926
+   ],
+   "b": [
+    "198.18.2.161",
+    5224
+   ],
+   "pkts": 4,
+   "bytes": 0,
+   "bytes_ab": 0,
+   "bytes_ba": 0,
+   "first_ts": 1787230784.68552,
+   "last_ts": 1787230784.768443,
+   "syn": false,
+   "sni": null,
+   "http_hint": null,
+   "sample_ab": "",
+   "sample_ba": "",
+   "n_payload_ab": 0,
+   "n_payload_ba": 0
+  }
+ ],
+ "dns_map": {},
+ "dns_queries": {}
+}
