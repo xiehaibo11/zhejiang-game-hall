@@ -1,0 +1,69 @@
+
+Hp_slsb.png
+size: 822, 386
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+dzsb
+  rotate: false
+  xy: 572, 61
+  size: 220, 60
+  orig: 220, 60
+  offset: 0, 0
+  index: -1
+dzsl
+  rotate: false
+  xy: 384, 1
+  size: 218, 59
+  orig: 218, 59
+  offset: 0, 0
+  index: -1
+fx01
+  rotate: false
+  xy: 1, 5
+  size: 382, 380
+  orig: 382, 380
+  offset: 0, 0
+  index: -1
+fx2
+  rotate: false
+  xy: 384, 82
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+nmsb
+  rotate: false
+  xy: 572, 122
+  size: 220, 61
+  orig: 220, 61
+  offset: 0, 0
+  index: -1
+nmsl
+  rotate: false
+  xy: 603, 1
+  size: 218, 59
+  orig: 218, 59
+  offset: 0, 0
+  index: -1
+sbdi
+  rotate: false
+  xy: 384, 285
+  size: 412, 100
+  orig: 412, 100
+  offset: 0, 0
+  index: -1
+sldi
+  rotate: false
+  xy: 384, 184
+  size: 412, 100
+  orig: 412, 100
+  offset: 0, 0
+  index: -1
+sltg_5x
+  rotate: false
+  xy: 486, 101
+  size: 85, 82
+  orig: 85, 82
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+zzb_ap_fpwz.png
+size: 224,192
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx_k_glow_01
+  rotate: false
+  xy: 2, 18
+  size: 172, 172
+  orig: 172, 172
+  offset: 0, 0
+  index: -1
+ksg
+  rotate: false
+  xy: 176, 2
+  size: 46, 188
+  orig: 46, 198
+  offset: 0, 5
+  index: -1
+line_glow
+  rotate: false
+  xy: 2, 2
+  size: 31, 14
+  orig: 35, 34
+  offset: 3, 10
+  index: -1

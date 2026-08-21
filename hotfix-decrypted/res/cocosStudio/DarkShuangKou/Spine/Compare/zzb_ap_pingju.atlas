@@ -1,0 +1,90 @@
+
+zzb_ap_pingju.png
+size: 651,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx/4-3
+  rotate: true
+  xy: 362, 274
+  size: 244, 246
+  orig: 252, 261
+  offset: 4, 7
+  index: -1
+tx/4-4
+  rotate: true
+  xy: 294, 462
+  size: 56, 57
+  orig: 60, 61
+  offset: 3, 2
+  index: -1
+tx/btx1_00000
+  rotate: true
+  xy: 2, 94
+  size: 424, 167
+  orig: 424, 214
+  offset: 0, 46
+  index: -1
+tx/tx3_00011
+  rotate: true
+  xy: 171, 136
+  size: 382, 121
+  orig: 383, 121
+  offset: 0, 0
+  index: -1
+tx/tx3_00013
+  rotate: false
+  xy: 2, 2
+  size: 358, 90
+  orig: 358, 90
+  offset: 0, 0
+  index: -1
+tx/xg
+  rotate: true
+  xy: 639, 416
+  size: 102, 10
+  orig: 103, 10
+  offset: 0, 0
+  index: -1
+tx/xg2
+  rotate: true
+  xy: 610, 365
+  size: 153, 27
+  orig: 153, 27
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 467, 81
+  size: 180, 191
+  orig: 180, 192
+  offset: 0, 1
+  index: -1
+wenzi2
+  rotate: false
+  xy: 294, 96
+  size: 171, 176
+  orig: 172, 177
+  offset: 1, 0
+  index: -1
+zongzi
+  rotate: true
+  xy: 294, 411
+  size: 49, 55
+  orig: 61, 59
+  offset: 10, 2
+  index: -1
+zongzi2
+  rotate: false
+  xy: 610, 338
+  size: 25, 25
+  orig: 27, 27
+  offset: 1, 1
+  index: -1
+zongzi3
+  rotate: true
+  xy: 294, 364
+  size: 45, 51
+  orig: 48, 53
+  offset: 2, 1
+  index: -1

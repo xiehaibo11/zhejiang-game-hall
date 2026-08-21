@@ -1,0 +1,26 @@
+info face="Txt_z-export" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=70 base=26 scaleW=512 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="Txt_z-export.png"
+chars count=20
+char id=48 x=165 y=139 width=51 height=69 xoffset=0 yoffset=1 xadvance=48 page=0 chnl=0 letter="0"
+char id=49 x=269 y=52 width=36 height=68 xoffset=0 yoffset=1 xadvance=37 page=0 chnl=0 letter="1"
+char id=50 x=57 y=0 width=54 height=68 xoffset=0 yoffset=1 xadvance=48 page=0 chnl=0 letter="2"
+char id=51 x=217 y=139 width=51 height=69 xoffset=0 yoffset=1 xadvance=48 page=0 chnl=0 letter="3"
+char id=52 x=165 y=0 width=52 height=68 xoffset=0 yoffset=1 xadvance=48 page=0 chnl=0 letter="4"
+char id=53 x=112 y=70 width=52 height=67 xoffset=0 yoffset=3 xadvance=48 page=0 chnl=0 letter="5"
+char id=54 x=165 y=69 width=51 height=69 xoffset=0 yoffset=1 xadvance=48 page=0 chnl=0 letter="6"
+char id=55 x=218 y=0 width=50 height=66 xoffset=0 yoffset=3 xadvance=48 page=0 chnl=0 letter="7"
+char id=56 x=112 y=0 width=52 height=69 xoffset=0 yoffset=1 xadvance=48 page=0 chnl=0 letter="8"
+char id=57 x=217 y=69 width=51 height=69 xoffset=2 yoffset=1 xadvance=48 page=0 chnl=0 letter="9"
+char id=27599 x=0 y=0 width=56 height=54 xoffset=0 yoffset=16 xadvance=48 page=0 chnl=0 letter="每"
+char id=26085 x=269 y=0 width=50 height=51 xoffset=2 yoffset=19 xadvance=48 page=0 chnl=0 letter="日"
+char id=39046 x=0 y=107 width=55 height=53 xoffset=0 yoffset=17 xadvance=48 page=0 chnl=0 letter="领"
+char id=20215 x=56 y=107 width=55 height=53 xoffset=0 yoffset=17 xadvance=48 page=0 chnl=0 letter="价"
+char id=20540 x=0 y=161 width=55 height=53 xoffset=0 yoffset=17 xadvance=48 page=0 chnl=0 letter="值"
+char id=20803 x=0 y=55 width=56 height=51 xoffset=0 yoffset=19 xadvance=48 page=0 chnl=0 letter="元"
+char id=31036 x=56 y=161 width=54 height=53 xoffset=0 yoffset=17 xadvance=48 page=0 chnl=0 letter="礼"
+char id=21697 x=111 y=161 width=53 height=52 xoffset=0 yoffset=18 xadvance=48 page=0 chnl=0 letter="品"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

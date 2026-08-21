@@ -1,0 +1,48 @@
+
+zzb_dt_jfzs_rk.png
+size: 512, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b
+  rotate: true
+  xy: 2, 2
+  size: 56, 108
+  orig: 56, 108
+  offset: 0, 0
+  index: -1
+d
+  rotate: true
+  xy: 132, 63
+  size: 125, 148
+  orig: 125, 148
+  offset: 0, 0
+  index: -1
+glow1
+  rotate: false
+  xy: 2, 60
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+guangshu_0
+  rotate: true
+  xy: 132, 29
+  size: 32, 128
+  orig: 32, 128
+  offset: 0, 0
+  index: -1
+liang_0
+  rotate: false
+  xy: 262, 5
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+z
+  rotate: true
+  xy: 282, 36
+  size: 152, 40
+  orig: 152, 40
+  offset: 0, 0
+  index: -1

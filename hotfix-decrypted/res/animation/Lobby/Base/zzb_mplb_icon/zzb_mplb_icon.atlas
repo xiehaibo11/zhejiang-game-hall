@@ -1,0 +1,34 @@
+
+zzb_mplb_icon.png
+size: 338, 202
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+glow_6092
+  rotate: false
+  xy: 2, 2
+  size: 201, 198
+  orig: 256, 256
+  offset: 26, 28
+  index: -1
+mplb
+  rotate: false
+  xy: 205, 47
+  size: 131, 38
+  orig: 134, 41
+  offset: 2, 2
+  index: -1
+mplb2
+  rotate: false
+  xy: 205, 13
+  size: 86, 32
+  orig: 89, 34
+  offset: 2, 1
+  index: -1
+mplb3
+  rotate: true
+  xy: 205, 87
+  size: 113, 125
+  orig: 113, 125
+  offset: 0, 0
+  index: -1

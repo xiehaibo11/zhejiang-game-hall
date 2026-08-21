@@ -1,0 +1,41 @@
+
+zzb_ty_fei.png
+size: 94, 134
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Point
+  rotate: false
+  xy: 2, 3
+  size: 20, 20
+  orig: 24, 24
+  offset: 2, 2
+  index: -1
+Yuan
+  rotate: false
+  xy: 50, 38
+  size: 34, 34
+  orig: 36, 36
+  offset: 1, 1
+  index: -1
+eff/T_ring_001
+  rotate: true
+  xy: 50, 74
+  size: 58, 42
+  orig: 64, 64
+  offset: 3, 11
+  index: -1
+eff/fenxiang_fangkuai
+  rotate: false
+  xy: 50, 2
+  size: 34, 34
+  orig: 38, 38
+  offset: 2, 2
+  index: -1
+glow_bai
+  rotate: false
+  xy: 2, 25
+  size: 46, 107
+  orig: 58, 115
+  offset: 7, 2
+  index: -1

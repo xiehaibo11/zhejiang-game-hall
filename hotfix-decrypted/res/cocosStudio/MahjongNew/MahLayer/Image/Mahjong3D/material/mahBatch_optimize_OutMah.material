@@ -1,0 +1,22 @@
+material MahjongGourand
+{
+    technique normal
+    {
+        pass 0
+        {
+            shader
+            {
+                defines = MAX_POINT_LIGHT_NUM 1;MAX_SPOT_LIGHT_NUM 1;MAX_DIRECTIONAL_LIGHT_NUM 1;USE_BRDF;SIMULATE_BOUNCE_LIGHTS;HALF_LAMBERT
+                vertexShader = cocosStudio/MahjongNew/MahLayer/Image/Mahjong3D/material/mahBatch_optimize.vert
+                fragmentShader = cocosStudio/MahjongNew/MahLayer/Image/Mahjong3D/material/mahBatch_optimize.frag
+                sampler u_sampler0
+                {
+                    path = cocosStudio/MahjongNew/MahLayer/Image/Mahjong3D/material/maj_BRDFTex_OutMah.png
+                    enablePremultipliedAlpha = FALSE
+                    wrapS = CLAMP_TO_EDGE
+                    wrapT = CLAMP_TO_EDGE
+                }
+            }
+        }
+    }
+}

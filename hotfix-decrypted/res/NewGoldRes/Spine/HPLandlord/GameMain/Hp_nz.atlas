@@ -1,0 +1,62 @@
+
+Hp_nz.png
+size: 155, 161
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+00
+  rotate: true
+  xy: 108, 122
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+01
+  rotate: true
+  xy: 108, 83
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+02
+  rotate: true
+  xy: 108, 44
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+03
+  rotate: true
+  xy: 103, 5
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+04
+  rotate: true
+  xy: 1, 1
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+05
+  rotate: true
+  xy: 48, 1
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+naozhong
+  rotate: true
+  xy: 1, 62
+  size: 98, 106
+  orig: 98, 106
+  offset: 0, 0
+  index: -1
+yz
+  rotate: false
+  xy: 1, 40
+  size: 101, 21
+  orig: 101, 21
+  offset: 0, 0
+  index: -1

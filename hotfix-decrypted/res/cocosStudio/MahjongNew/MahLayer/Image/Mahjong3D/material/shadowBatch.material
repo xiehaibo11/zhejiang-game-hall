@@ -1,0 +1,14 @@
+material MahjongGourand
+{
+    technique normal
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = cocosStudio/MahjongNew/MahLayer/Image/Mahjong3D/material/shadowBatch.vert
+                fragmentShader = cocosStudio/MahjongNew/MahLayer/Image/Mahjong3D/material/shadowBatch.frag
+            }
+        }
+    }
+}

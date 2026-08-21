@@ -1,0 +1,76 @@
+
+zhadan.png
+size: 948,390
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+9
+  rotate: true
+  xy: 888, 284
+  size: 104, 58
+  orig: 104, 58
+  offset: 0, 0
+  index: -1
+a2
+  rotate: true
+  xy: 2, 57
+  size: 331, 106
+  orig: 331, 106
+  offset: 0, 0
+  index: -1
+tc_game_fire01
+  rotate: false
+  xy: 494, 3
+  size: 193, 190
+  orig: 193, 190
+  offset: 0, 0
+  index: -1
+tc_game_fire02
+  rotate: false
+  xy: 689, 3
+  size: 192, 190
+  orig: 192, 190
+  offset: 0, 0
+  index: -1
+tc_game_fire03
+  rotate: true
+  xy: 110, 2
+  size: 191, 190
+  orig: 191, 190
+  offset: 0, 0
+  index: -1
+tc_game_fire04
+  rotate: true
+  xy: 302, 2
+  size: 191, 190
+  orig: 191, 190
+  offset: 0, 0
+  index: -1
+tc_game_fire05
+  rotate: false
+  xy: 694, 195
+  size: 192, 193
+  orig: 192, 193
+  offset: 0, 0
+  index: -1
+tc_game_fire06
+  rotate: false
+  xy: 110, 195
+  size: 193, 193
+  orig: 193, 193
+  offset: 0, 0
+  index: -1
+tc_game_fire07
+  rotate: false
+  xy: 305, 195
+  size: 193, 193
+  orig: 193, 193
+  offset: 0, 0
+  index: -1
+tc_game_fire08
+  rotate: false
+  xy: 500, 195
+  size: 192, 193
+  orig: 192, 193
+  offset: 0, 0
+  index: -1

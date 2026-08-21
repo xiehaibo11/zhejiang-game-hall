@@ -1,0 +1,27 @@
+
+zzb_yxzx_shipin.png
+size: 176, 79
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BoFangShiPin
+  rotate: false
+  xy: 2, 2
+  size: 121, 32
+  orig: 123, 34
+  offset: 1, 1
+  index: -1
+BoFangShiPin2
+  rotate: false
+  xy: 125, 3
+  size: 30, 31
+  orig: 32, 33
+  offset: 1, 1
+  index: -1
+BoFangShiPin3
+  rotate: false
+  xy: 2, 36
+  size: 172, 41
+  orig: 174, 43
+  offset: 1, 1
+  index: -1

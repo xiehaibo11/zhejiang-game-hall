@@ -1,0 +1,41 @@
+
+zzb_hghl_icon.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4-1
+  rotate: false
+  xy: 347, 92
+  size: 18, 17
+  orig: 20, 20
+  offset: 1, 1
+  index: -1
+hghl
+  rotate: false
+  xy: 213, 70
+  size: 132, 39
+  orig: 134, 41
+  offset: 1, 1
+  index: -1
+hghl222
+  rotate: false
+  xy: 213, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+hghl3
+  rotate: false
+  xy: 2, 2
+  size: 106, 107
+  orig: 108, 109
+  offset: 1, 1
+  index: -1
+tx
+  rotate: false
+  xy: 110, 8
+  size: 101, 101
+  orig: 115, 115
+  offset: 7, 7
+  index: -1

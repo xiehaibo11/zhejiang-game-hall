@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>shisanyao_1.png</key>
+		<dict>
+			<key>height</key>
+			<integer>191</integer>
+			<key>offsetX</key>
+			<integer>-29</integer>
+			<key>offsetY</key>
+			<integer>1</integer>
+			<key>originalHeight</key>
+			<integer>430</integer>
+			<key>originalWidth</key>
+			<integer>1380</integer>
+			<key>width</key>
+			<integer>552</integer>
+			<key>x</key>
+			<integer>777</integer>
+			<key>y</key>
+			<integer>1</integer>
+		</dict>
+		<key>sicaishenpiao_1.png</key>
+		<dict>
+			<key>height</key>
+			<integer>245</integer>
+			<key>offsetX</key>
+			<integer>-5</integer>
+			<key>offsetY</key>
+			<integer>-4</integer>
+			<key>originalHeight</key>
+			<integer>430</integer>
+			<key>originalWidth</key>
+			<integer>1380</integer>
+			<key>width</key>
+			<integer>774</integer>
+			<key>x</key>
+			<integer>1</integer>
+			<key>y</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

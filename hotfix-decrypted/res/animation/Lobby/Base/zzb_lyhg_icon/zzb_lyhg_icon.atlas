@@ -1,0 +1,34 @@
+
+zzb_lyhg_icon.png
+size: 240, 138
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+4-1
+  rotate: false
+  xy: 116, 37
+  size: 16, 16
+  orig: 20, 20
+  offset: 2, 2
+  index: -1
+lyhg
+  rotate: true
+  xy: 199, 6
+  size: 130, 39
+  orig: 134, 41
+  offset: 2, 1
+  index: -1
+lyhg2
+  rotate: true
+  xy: 2, 2
+  size: 134, 112
+  orig: 205, 120
+  offset: 32, 8
+  index: -1
+tx
+  rotate: false
+  xy: 116, 55
+  size: 81, 81
+  orig: 115, 115
+  offset: 17, 17
+  index: -1

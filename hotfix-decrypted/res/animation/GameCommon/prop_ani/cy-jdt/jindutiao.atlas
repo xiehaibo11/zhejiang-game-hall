@@ -1,0 +1,55 @@
+
+jindutiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yy
+  rotate: false
+  xy: 224, 1
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+h-fire
+  rotate: false
+  xy: 1, 1
+  size: 92, 150
+  orig: 92, 150
+  offset: 0, 0
+  index: -1
+xx
+  rotate: false
+  xy: 95, 1
+  size: 66, 65
+  orig: 66, 65
+  offset: 0, 0
+  index: -1
+xx-ls
+  rotate: false
+  xy: 95, 68
+  size: 66, 65
+  orig: 66, 65
+  offset: 0, 0
+  index: -1
+l-g
+  rotate: false
+  xy: 1, 153
+  size: 110, 80
+  orig: 110, 80
+  offset: 0, 0
+  index: -1
+gt
+  rotate: false
+  xy: 1, 235
+  size: 105, 13
+  orig: 105, 13
+  offset: 0, 0
+  index: -1
+gtt
+  rotate: false
+  xy: 113, 135
+  size: 109, 27
+  orig: 109, 27
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>dx_ani_BG.png</key>
+		<dict>
+			<key>height</key>
+			<integer>106</integer>
+			<key>offsetX</key>
+			<integer>0</integer>
+			<key>offsetY</key>
+			<integer>0</integer>
+			<key>originalHeight</key>
+			<integer>106</integer>
+			<key>originalWidth</key>
+			<integer>105</integer>
+			<key>width</key>
+			<integer>105</integer>
+			<key>x</key>
+			<integer>117</integer>
+			<key>y</key>
+			<integer>1</integer>
+		</dict>
+		<key>dx_ani_ct.png</key>
+		<dict>
+			<key>height</key>
+			<integer>49</integer>
+			<key>offsetX</key>
+			<integer>0</integer>
+			<key>offsetY</key>
+			<integer>0</integer>
+			<key>originalHeight</key>
+			<integer>49</integer>
+			<key>originalWidth</key>
+			<integer>51</integer>
+			<key>width</key>
+			<integer>51</integer>
+			<key>x</key>
+			<integer>117</integer>
+			<key>y</key>
+			<integer>109</integer>
+		</dict>
+		<key>dx_ani_sd.png</key>
+		<dict>
+			<key>height</key>
+			<integer>136</integer>
+			<key>offsetX</key>
+			<integer>0</integer>
+			<key>offsetY</key>
+			<integer>0</integer>
+			<key>originalHeight</key>
+			<integer>136</integer>
+			<key>originalWidth</key>
+			<integer>114</integer>
+			<key>width</key>
+			<integer>114</integer>
+			<key>x</key>
+			<integer>1</integer>
+			<key>y</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

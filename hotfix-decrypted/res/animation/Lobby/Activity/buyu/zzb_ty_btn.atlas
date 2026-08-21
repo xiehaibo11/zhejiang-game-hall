@@ -1,0 +1,97 @@
+
+zzb_ty_btn.png
+size: 521, 239
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+btn
+  rotate: false
+  xy: 2, 85
+  size: 497, 152
+  orig: 499, 154
+  offset: 1, 1
+  index: -1
+btnz
+  rotate: false
+  xy: 2, 2
+  size: 304, 81
+  orig: 306, 83
+  offset: 1, 1
+  index: -1
+btsg/btsg_00001
+  rotate: false
+  xy: 501, 208
+  size: 18, 29
+  orig: 100, 34
+  offset: 2, 2
+  index: -1
+btsg/btsg_00002
+  rotate: false
+  xy: 348, 22
+  size: 28, 29
+  orig: 100, 34
+  offset: 2, 2
+  index: -1
+btsg/btsg_00003
+  rotate: false
+  xy: 308, 22
+  size: 38, 29
+  orig: 100, 34
+  offset: 3, 2
+  index: -1
+btsg/btsg_00004
+  rotate: true
+  xy: 468, 5
+  size: 39, 29
+  orig: 100, 34
+  offset: 12, 2
+  index: -1
+btsg/btsg_00005
+  rotate: true
+  xy: 436, 44
+  size: 39, 30
+  orig: 100, 34
+  offset: 22, 2
+  index: -1
+btsg/btsg_00006
+  rotate: false
+  xy: 394, 53
+  size: 40, 30
+  orig: 100, 34
+  offset: 31, 2
+  index: -1
+btsg/btsg_00007
+  rotate: false
+  xy: 308, 53
+  size: 41, 30
+  orig: 100, 34
+  offset: 41, 2
+  index: -1
+btsg/btsg_00008
+  rotate: false
+  xy: 351, 53
+  size: 41, 30
+  orig: 100, 34
+  offset: 51, 2
+  index: -1
+btsg/btsg_00009
+  rotate: true
+  xy: 468, 46
+  size: 37, 30
+  orig: 100, 34
+  offset: 60, 2
+  index: -1
+btsg/btsg_00010
+  rotate: true
+  xy: 378, 15
+  size: 27, 30
+  orig: 100, 34
+  offset: 70, 2
+  index: -1
+btsg/btsg_00011
+  rotate: false
+  xy: 501, 177
+  size: 18, 29
+  orig: 100, 34
+  offset: 79, 2
+  index: -1
