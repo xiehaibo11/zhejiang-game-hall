@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/tkay_dailog_background_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tkay.basead.ui.RoundCornerRelativeLayout android:id="@id/tkay_myoffer_rl_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="38.0dp" android:layout_marginBottom="28.0dp" android:layout_centerHorizontal="true">
+        <com.tkay.core.common.ui.component.RoundRelativeLayout android:id="@id/tkay_myoffer_rl_container" android:layout_width="match_parent" android:layout_height="310.0dp">
+            <com.tkay.basead.ui.PlayerView android:id="@id/tkay_myoffer_player_view_id" android:layout_width="match_parent" android:layout_height="162.0dp" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/tkay_myoffer_button_group" android:paddingLeft="12.0dp" android:paddingTop="12.0dp" android:paddingRight="12.0dp" android:paddingBottom="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <include android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="24.0dp" layout="@layout/tkay_myoffer_feedback_button" />
+                <com.tkay.basead.ui.CountDownView android:id="@id/tkay_myoffer_count_down_view_id" android:layout_width="@dimen/tkay_myoffer_half_screen_button_size" android:layout_height="@dimen/tkay_myoffer_half_screen_button_size" android:layout_marginLeft="12.0dp" android:layout_toLeftOf="@id/tkay_myoffer_btn_close_id" />
+                <com.tkay.basead.ui.CloseImageView android:id="@id/tkay_myoffer_btn_close_id" android:background="@drawable/tkay_myoffer_base_close_icon" android:layout_width="@dimen/tkay_myoffer_half_screen_button_size" android:layout_height="@dimen/tkay_myoffer_half_screen_button_size" android:layout_marginLeft="12.0dp" android:layout_alignParentRight="true" />
+            </LinearLayout>
+            <com.tkay.basead.ui.MuteImageView android:id="@id/tkay_myoffer_btn_mute_id" android:background="@drawable/tkay_myoffer_video_mute_icon" android:layout_width="@dimen/tkay_myoffer_half_screen_button_size" android:layout_height="@dimen/tkay_myoffer_half_screen_button_size" android:layout_marginLeft="12.0dp" android:layout_marginTop="12.0dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <com.tkay.basead.ui.PanelView android:id="@id/tkay_myoffer_banner_view_id" android:layout_width="match_parent" android:layout_height="162.0dp" android:layout_alignParentBottom="true" />
+        </com.tkay.core.common.ui.component.RoundRelativeLayout>
+    </com.tkay.basead.ui.RoundCornerRelativeLayout>
+</RelativeLayout>

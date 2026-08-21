@@ -1,0 +1,16 @@
+package com.tkay.network.gdt;
+
+import android.content.Context;
+import com.qq.e.ads.nativ.NativeUnifiedADData;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class GDTTYNativePatchAd extends GDTTYNativeAd {
+    @Override // com.tkay.nativead.unitgroup.api.CustomNativeAd, com.tkay.core.api.IATThirdPartyMaterial
+    public int getNativeType() {
+        return 2;
+    }
+
+    protected GDTTYNativePatchAd(Context context, NativeUnifiedADData nativeUnifiedADData, int i, int i2, int i3) {
+        super(context, nativeUnifiedADData, i, i2, i3);
+    }
+}

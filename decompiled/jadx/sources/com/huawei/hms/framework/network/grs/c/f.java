@@ -1,0 +1,303 @@
+package com.huawei.hms.framework.network.grs.c;
+
+import android.text.TextUtils;
+import com.huawei.hms.framework.common.Logger;
+import com.huawei.hms.framework.common.StringUtils;
+import cz.msebera.android.httpclient.HttpHeaders;
+import java.nio.ByteBuffer;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes.dex */
+public class f {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private static final String f2069a = "f";
+    private Map<String, List<String>> b;
+    private byte[] c;
+    private int d;
+    private long e;
+    private long f;
+    private long g;
+    private String h;
+    private int i;
+    private int j;
+    private String k;
+    private String l;
+    private String m;
+    private long n;
+    private Exception o;
+    private String p;
+    private int q;
+
+    public f(int i, Map<String, List<String>> map, byte[] bArr, long j) {
+        this.d = 0;
+        this.i = 2;
+        this.j = 9001;
+        this.k = "";
+        this.l = "";
+        this.m = "";
+        this.n = 0L;
+        this.d = i;
+        this.b = map;
+        this.c = ByteBuffer.wrap(bArr).array();
+        this.e = j;
+        q();
+    }
+
+    public f(Exception exc, long j) {
+        this.d = 0;
+        this.i = 2;
+        this.j = 9001;
+        this.k = "";
+        this.l = "";
+        this.m = "";
+        this.n = 0L;
+        this.o = exc;
+        this.e = j;
+    }
+
+    private void a(Map<String, String> map) {
+        long time;
+        if (map == null || map.size() <= 0) {
+            Logger.w(f2069a, "getExpireTime {headers == null} or {headers.size() <= 0}");
+            return;
+        }
+        if (map.containsKey("Cache-Control")) {
+            String str = map.get("Cache-Control");
+            if (TextUtils.isEmpty(str) || !str.contains("max-age=")) {
+                time = 0;
+            } else {
+                try {
+                    time = Long.parseLong(str.substring(str.indexOf("max-age=") + 8));
+                } catch (NumberFormatException e) {
+                    e = e;
+                    time = 0;
+                }
+                try {
+                    Logger.v(f2069a, "Cache-Control value{%s}", Long.valueOf(time));
+                } catch (NumberFormatException e2) {
+                    e = e2;
+                    Logger.w(f2069a, "getExpireTime addHeadersToResult NumberFormatException", e);
+                }
+            }
+        } else {
+            if (map.containsKey("Expires")) {
+                String str2 = map.get("Expires");
+                Logger.v(f2069a, "expires is{%s}", str2);
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss 'GMT'", Locale.ROOT);
+                String str3 = map.containsKey("Date") ? map.get("Date") : null;
+                try {
+                    time = (simpleDateFormat.parse(str2).getTime() - (TextUtils.isEmpty(str3) ? new Date() : simpleDateFormat.parse(str3)).getTime()) / 1000;
+                } catch (ParseException e3) {
+                    Logger.w(f2069a, "getExpireTime ParseException.", e3);
+                    time = 0;
+                }
+            } else {
+                Logger.i(f2069a, "response headers neither contains Cache-Control nor Expires.");
+            }
+            time = 0;
+        }
+        if (time <= 0 || time > 2592000) {
+            time = 86400;
+        }
+        long j = time * 1000;
+        Logger.v(f2069a, "convert expireTime{%s}", Long.valueOf(j));
+        b(String.valueOf(j + System.currentTimeMillis()));
+    }
+
+    private void b(int i) {
+        this.j = i;
+    }
+
+    private void b(String str) {
+        this.m = str;
+    }
+
+    private void b(Map<String, String> map) {
+        if (map == null || map.size() <= 0) {
+            Logger.w(f2069a, "getExpireTime {headers == null} or {headers.size() <= 0}");
+            return;
+        }
+        long j = 0;
+        if (map.containsKey(HttpHeaders.RETRY_AFTER)) {
+            String str = map.get(HttpHeaders.RETRY_AFTER);
+            if (!TextUtils.isEmpty(str)) {
+                try {
+                    j = Long.parseLong(str);
+                } catch (NumberFormatException e) {
+                    Logger.w(f2069a, "getRetryAfter addHeadersToResult NumberFormatException", e);
+                }
+            }
+        }
+        long j2 = j * 1000;
+        Logger.v(f2069a, "convert retry-afterTime{%s}", Long.valueOf(j2));
+        c(j2);
+    }
+
+    private void c(int i) {
+        this.i = i;
+    }
+
+    private void c(long j) {
+        this.n = j;
+    }
+
+    private void c(String str) {
+        this.k = str;
+    }
+
+    private void d(String str) {
+        this.l = str;
+    }
+
+    private void e(String str) {
+        this.h = str;
+    }
+
+    private void n() {
+        String str = "isSuccess";
+        if (!m()) {
+            Logger.i(f2069a, "GRSSDK parse server body all failed.");
+            c(2);
+            return;
+        }
+        try {
+            String strByte2Str = StringUtils.byte2Str(this.c);
+            JSONObject jSONObject = new JSONObject(strByte2Str);
+            int i = -1;
+            if (jSONObject.has("isSuccess")) {
+                i = jSONObject.getInt(str);
+            } else if (jSONObject.has("resultCode")) {
+                str = "resultCode";
+                i = jSONObject.getInt(str);
+            } else {
+                Logger.e(f2069a, "sth. wrong because server errorcode's key.");
+            }
+            c(i);
+            boolean z = i == 0 && strByte2Str.contains("services");
+            if (i != 1 && !z) {
+                c(2);
+                b(jSONObject.has("errorCode") ? jSONObject.getInt("errorCode") : 9001);
+                c(jSONObject.has("errorDesc") ? jSONObject.getString("errorDesc") : "");
+            } else {
+                e(jSONObject.getJSONObject("services").toString());
+                if (z) {
+                    d(jSONObject.has("errorList") ? jSONObject.getString("errorList") : "");
+                }
+            }
+        } catch (JSONException e) {
+            Logger.w(f2069a, "GrsResponse GrsResponse(String result) JSONException", e);
+            c(2);
+        }
+    }
+
+    private void o() {
+        if (m() || l()) {
+            Map<String, String> mapP = p();
+            try {
+                if (m()) {
+                    a(mapP);
+                }
+                if (l()) {
+                    b(mapP);
+                }
+            } catch (JSONException e) {
+                Logger.w(f2069a, "parseHeader catch JSONException", e);
+            }
+        }
+    }
+
+    private Map<String, String> p() {
+        HashMap map = new HashMap(16);
+        Map<String, List<String>> map2 = this.b;
+        if (map2 == null || map2.size() <= 0) {
+            Logger.v(f2069a, "parseRespHeaders {respHeaders == null} or {respHeaders.size() <= 0}");
+            return map;
+        }
+        for (Map.Entry<String, List<String>> entry : this.b.entrySet()) {
+            map.put(entry.getKey(), entry.getValue().get(0));
+        }
+        return map;
+    }
+
+    private void q() {
+        o();
+        n();
+    }
+
+    public String a() {
+        return this.m;
+    }
+
+    public void a(int i) {
+        this.q = i;
+    }
+
+    public void a(long j) {
+        this.g = j;
+    }
+
+    public void a(String str) {
+        this.p = str;
+    }
+
+    public int b() {
+        return this.d;
+    }
+
+    public void b(long j) {
+        this.f = j;
+    }
+
+    public int c() {
+        return this.j;
+    }
+
+    public Exception d() {
+        return this.o;
+    }
+
+    public int e() {
+        return this.i;
+    }
+
+    public long f() {
+        return this.g;
+    }
+
+    public long g() {
+        return this.f;
+    }
+
+    public long h() {
+        return this.e;
+    }
+
+    public String i() {
+        return this.h;
+    }
+
+    public long j() {
+        return this.n;
+    }
+
+    public String k() {
+        return this.p;
+    }
+
+    public boolean l() {
+        return this.d == 503;
+    }
+
+    public boolean m() {
+        return this.d == 200;
+    }
+}

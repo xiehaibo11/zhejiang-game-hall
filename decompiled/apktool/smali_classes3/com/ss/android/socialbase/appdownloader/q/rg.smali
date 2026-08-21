@@ -1,0 +1,42 @@
+.class public Lcom/ss/android/socialbase/appdownloader/q/rg;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/ss/android/socialbase/appdownloader/q/q;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public q()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public rg(Landroid/content/Context;)Lcom/ss/android/socialbase/appdownloader/q/hq;
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public rg()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method

@@ -1,0 +1,90 @@
+package com.tramini.plugin.a.d;
+
+import android.content.Context;
+import com.tramini.plugin.a.g.f;
+import java.util.HashMap;
+import java.util.Map;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class e extends a {
+    public static final int o = 10001;
+    private Context p;
+    private String q;
+    private JSONObject r;
+    private JSONObject s;
+
+    @Override // com.tramini.plugin.a.d.a
+    protected final int a() {
+        return 1;
+    }
+
+    @Override // com.tramini.plugin.a.d.a
+    public final boolean g() {
+        return false;
+    }
+
+    public e(Context context, String str, JSONObject jSONObject, JSONObject jSONObject2) {
+        this.p = context;
+        this.q = str;
+        this.r = jSONObject;
+        this.s = jSONObject2;
+    }
+
+    @Override // com.tramini.plugin.a.d.a
+    protected final String b() {
+        com.tramini.plugin.a.c.c cVar = com.tramini.plugin.b.b.a(this.p).b().e().get(this.q);
+        com.tramini.plugin.a.a.a();
+        return cVar != null ? cVar.f7839a : com.tramini.plugin.a.a.c();
+    }
+
+    @Override // com.tramini.plugin.a.d.a
+    protected final Map<String, String> c() {
+        HashMap map = new HashMap();
+        map.put("Content-Encoding", "gzip");
+        map.put("Content-Type", "application/json;charset=utf-8");
+        return map;
+    }
+
+    @Override // com.tramini.plugin.a.d.a
+    protected final byte[] d() {
+        return b(f());
+    }
+
+    @Override // com.tramini.plugin.a.d.a
+    protected final JSONObject e() {
+        JSONObject jSONObject = this.r;
+        return jSONObject == null ? super.e() : jSONObject;
+    }
+
+    @Override // com.tramini.plugin.a.d.a
+    protected final String f() {
+        JSONObject jSONObject = new JSONObject();
+        JSONObject jSONObjectE = e();
+        try {
+            jSONObjectE.put(a.j, "3");
+        } catch (Throwable unused) {
+        }
+        String strB = com.tramini.plugin.a.g.c.b(jSONObjectE.toString());
+        JSONArray jSONArray = new JSONArray();
+        jSONArray.put(this.s);
+        String strB2 = com.tramini.plugin.a.g.c.b(jSONArray.toString());
+        String strA = f.a("d_version=1.0&dt=" + strB2 + "&cm=" + strB);
+        try {
+            jSONObject.put("cm", strB);
+            jSONObject.put("dt", strB2);
+            jSONObject.put("d_version", "1.0");
+            jSONObject.put("d_sign", strA);
+            jSONObject.put("pl_c", "4");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return jSONObject.toString();
+    }
+
+    @Override // com.tramini.plugin.a.d.a
+    protected final Object a(String str) {
+        return str.trim();
+    }
+}

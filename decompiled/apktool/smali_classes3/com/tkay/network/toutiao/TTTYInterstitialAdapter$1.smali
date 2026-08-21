@@ -1,0 +1,188 @@
+.class final Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/bykv/vk/openvk/TTVfNative$InteractionViListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+
+# direct methods
+.method constructor <init>(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;)V
+    .locals 0
+
+    .line 55
+    iput-object p1, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onError(ILjava/lang/String;)V
+    .locals 1
+
+    .line 58
+    iget-object v0, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1, p2}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->notifyATLoadFail(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public final onInteractionViLoad(Lcom/bykv/vk/openvk/TTInteractionVi;)V
+    .locals 3
+
+    .line 63
+    iget-object v0, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-static {v0, p1}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->a(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;Lcom/bykv/vk/openvk/TTInteractionVi;)Lcom/bykv/vk/openvk/TTInteractionVi;
+
+    .line 65
+    :try_start_0
+    iget-object p1, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-static {p1}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->a(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;)Lcom/bykv/vk/openvk/TTInteractionVi;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Lcom/bykv/vk/openvk/TTInteractionVi;->getMediaExtraInfo()Ljava/util/Map;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    .line 67
+    iget-object v0, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-static {v0}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->b(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;)Ljava/util/Map;
+
+    move-result-object v0
+
+    if-nez v0, :cond_0
+
+    .line 68
+    iget-object v0, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    new-instance v1, Ljava/util/HashMap;
+
+    const/4 v2, 0x3
+
+    invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
+
+    invoke-static {v0, v1}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->a(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;Ljava/util/Map;)Ljava/util/Map;
+
+    .line 70
+    :cond_0
+    iget-object v0, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-static {v0}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->b(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;)Ljava/util/Map;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p1
+
+    .line 73
+    invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
+
+    .line 76
+    :cond_1
+    :goto_0
+    iget-object p1, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    iget-boolean p1, p1, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->h:Z
+
+    if-eqz p1, :cond_2
+
+    .line 78
+    :try_start_1
+    invoke-static {}, Lcom/tkay/network/toutiao/TTTYInitManager;->getInstance()Lcom/tkay/network/toutiao/TTTYInitManager;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-static {v0}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->b(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;)Ljava/util/Map;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-static {v1}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->a(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;)Lcom/bykv/vk/openvk/TTInteractionVi;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    iget-object v2, v2, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->mBiddingListener:Lcom/tkay/core/api/TYBiddingListener;
+
+    invoke-virtual {p1, v0, v1, v2}, Lcom/tkay/network/toutiao/TTTYInitManager;->a(Ljava/util/Map;Lcom/bykv/vk/openvk/TTClientBidding;Lcom/tkay/core/api/TYBiddingListener;)V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    :catchall_1
+    return-void
+
+    .line 83
+    :cond_2
+    :try_start_2
+    iget-object p1, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-static {p1}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->c(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;)Lcom/tkay/core/api/TYCustomLoadListener;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_3
+
+    .line 84
+    iget-object p1, p0, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter$1;->a:Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;
+
+    invoke-static {p1}, Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;->d(Lcom/tkay/network/toutiao/TTTYInterstitialAdapter;)Lcom/tkay/core/api/TYCustomLoadListener;
+
+    move-result-object p1
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Lcom/tkay/core/api/BaseAd;
+
+    invoke-interface {p1, v0}, Lcom/tkay/core/api/TYCustomLoadListener;->onAdCacheLoaded([Lcom/tkay/core/api/BaseAd;)V
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_2
+
+    :cond_3
+    return-void
+
+    :catchall_2
+    move-exception p1
+
+    .line 87
+    invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
+
+    return-void
+.end method

@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" android:installLocation="auto" package="com.xm.zjgamecenter" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-feature android:glEsVersion="0x20000"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission android:name="getui.permission.GetuiService.com.xm.zjgamecenter" android:protectionLevel="normal"/>
+    <permission android:name="com.xm.zjgamecenter.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.xm.zjgamecenter.push.permission.MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.xm.zjgamecenter.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="getui.permission.GetuiService.com.xm.zjgamecenter"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.xm.zjgamecenter.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE"/>
+    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.xm.zjgamecenter.push.permission.MESSAGE"/>
+    <uses-permission android:name="com.xm.zjgamecenter.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="com.xm.zjgamecenter.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <uses-permission android:name="com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application android:allowBackup="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="com.ymnsdk.replugin.YmnRepluginApplication" android:usesCleartextTraffic="true">
+        <meta-data android:name="android.app.lib_name" android:value="cocos2dlua"/>
+        <meta-data android:name="android.app.lib_name_cocos2dx" android:value="cocos2dcpp"/>
+        <meta-data android:name="android.notch_support" android:value="true"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <meta-data android:name="notch.config" android:value="portrait|landscape"/>
+        <meta-data android:name="ADD_PERMISSION_ACTIVITY_MAIN" android:value="org.cocos2dx.lua.AppActivity"/>
+        <meta-data android:name="sl_site" android:value="S005"/>
+        <meta-data android:name="sl_url_main" android:value="https://dh-api.imeete.com"/>
+        <meta-data android:name="sl_url_alternate" android:value="https://dh-api-bak.imeete.com"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|layoutDirection" android:label="@string/app_name" android:launchMode="singleTask" android:name="org.cocos2dx.lua.AppActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <data android:scheme="lscollection"/>
+                <data android:scheme="wzcollection"/>
+                <data android:scheme="shukewenzhoucollection"/>
+                <data android:scheme="hmqshare"/>
+                <data android:scheme="bfhmq"/>
+                <data android:scheme="kuailaitzcollection"/>
+                <data android:scheme="hzmj"/>
+                <data android:scheme="quzhoucollection"/>
+                <data android:scheme="ruiancollection"/>
+                <data android:scheme="bfzzmj"/>
+                <data android:scheme="bbhzmj"/>
+                <data android:scheme="yueqingcollection"/>
+                <data android:scheme="lscollection"/>
+                <data android:scheme="nbcollection"/>
+                <data android:scheme="ningbocollection"/>
+                <data android:scheme="jxmj"/>
+                <data android:scheme="yuepaicollection"/>
+                <data android:scheme="ypchongjimj"/>
+                <data android:scheme="zhejiangcollection"/>
+                <data android:scheme="sxcollection"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bianfeng.ymnsdk.sysfunc.EmptyActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="sysfunc_open_activity" android:value="com.bianfeng.addpermission.ui.AddPermissionActivity"/>
+        <activity android:name="com.bianfeng.addpermission.ui.AddPermissionActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="ADD_PERMISSION_ACTIVITY_MAIN" android:value="org.cocos2dx.lua.AppActivity"/>
+        <service android:enabled="true" android:excludeFromRecents="true" android:name="com.ymnsdk.replugin.service.HostService">
+            <intent-filter>
+                <action android:name="com.bianfeng.replugin.HostService"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.mainN1" android:exported="false" android:name="com.qihoo360.replugin.component.process.ProcessPitProviderUI"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.prN1" android:exported="false" android:name="com.xm.zjgamecenter.loader.p.ProviderN1"/>
+        <service android:exported="false" android:name="com.xm.zjgamecenter.loader.s.ServiceN1"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.main0" android:exported="false" android:name="com.qihoo360.replugin.component.process.ProcessPitProviderLoader0" android:process=":loader0"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.pr0" android:exported="false" android:name="com.xm.zjgamecenter.loader.p.Provider0" android:process=":loader0"/>
+        <service android:exported="false" android:name="com.xm.zjgamecenter.loader.s.Service0" android:process=":loader0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.Activity0_singleTask1" android:process=":loader0" android:screenOrientation="portrait" android:taskAffinity=":loader0" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.Activity0_singleInstance1" android:process=":loader0" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity0_task" android:process=":loader0" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity0_fullscreen" android:process=":loader0" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity0_translucent" android:process=":loader0" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity0_translucent_fullscreen" android:process=":loader0" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity0_dialog" android:process=":loader0" android:screenOrientation="portrait" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity0" android:process=":loader0" android:screenOrientation="portrait" android:taskAffinity=":loader0" android:theme="@android:style/Theme.NoTitleBar"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.main1" android:exported="false" android:name="com.qihoo360.replugin.component.process.ProcessPitProviderLoader1" android:process=":loader1"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.pr1" android:exported="false" android:name="com.xm.zjgamecenter.loader.p.Provider1" android:process=":loader1"/>
+        <service android:exported="false" android:name="com.xm.zjgamecenter.loader.s.Service1" android:process=":loader1"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.Activity1_singleTask1" android:process=":loader1" android:screenOrientation="portrait" android:taskAffinity=":loader1" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.Activity1_singleInstance1" android:process=":loader1" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity1_task" android:process=":loader1" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity1_fullscreen" android:process=":loader1" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity1_translucent" android:process=":loader1" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity1_translucent_fullscreen" android:process=":loader1" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity1_dialog" android:process=":loader1" android:screenOrientation="portrait" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.Activity1" android:process=":loader1" android:screenOrientation="portrait" android:taskAffinity=":loader1" android:theme="@android:style/Theme.NoTitleBar"/>
+        <provider android:authorities="com.xm.zjgamecenter.Plugin.NP.UIP" android:exported="false" android:name="com.qihoo360.replugin.component.provider.PluginPitProviderUI"/>
+        <service android:name="com.qihoo360.replugin.component.service.server.PluginPitServiceUI"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.pip" android:exported="false" android:name="com.qihoo360.replugin.packages.PluginFastInstallProvider"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.main" android:exported="false" android:name="com.qihoo360.replugin.component.process.ProcessPitProviderPersist" android:process=":GuardService"/>
+        <provider android:authorities="com.xm.zjgamecenter.Plugin.NP.PSP" android:exported="false" android:name="com.qihoo360.replugin.component.provider.PluginPitProviderPersist" android:process=":GuardService"/>
+        <provider android:authorities="com.xm.zjgamecenter.svcmanager" android:exported="false" android:multiprocess="false" android:name="com.qihoo360.mobilesafe.svcmanager.ServiceProvider" android:process=":GuardService"/>
+        <service android:name="com.qihoo360.replugin.component.service.server.PluginPitServiceGuard" android:process=":GuardService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1NRTS0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1NRTS1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1STPTS0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1STPTS1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1STTS0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1STTS1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityN1SITS0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityN1SITS1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityN1SITS2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1NRNTS0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1NRNTS1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1NRNTS2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1NRNTS3" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1NRNTS4" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1NRNTS5" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1STPNTS0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1STPNTS1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1STNTS0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1STNTS1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1STNTS2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityN1SINTS0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityN1SINTS1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0NRTS0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0NRTS1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0STPTS0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0STPTS1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0STTS0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0STTS1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0NRNTS0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0NRNTS1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0NRNTS2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0NRNTS3" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0NRNTS4" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0NRNTS5" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0STPNTS0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0STPNTS1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0STNTS0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0STNTS1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA0STNTS2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1NRTS0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1NRTS1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1STPTS0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1STPTS1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1STTS0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1STTS1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1NRNTS0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1NRNTS1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1NRNTS2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1NRNTS3" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1NRNTS4" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1NRNTS5" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1STPNTS0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1STPNTS1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1STNTS0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1STNTS1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityN1TA1STNTS2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0NRTS0" android:process=":p0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0NRTS1" android:process=":p0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0STPTS0" android:process=":p0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0STPTS1" android:process=":p0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0STTS0" android:process=":p0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0STTS1" android:process=":p0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP0SITS0" android:process=":p0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP0SITS1" android:process=":p0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP0SITS2" android:process=":p0" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0NRNTS0" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0NRNTS1" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0NRNTS2" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0NRNTS3" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0NRNTS4" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0NRNTS5" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0STPNTS0" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0STPNTS1" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0STNTS0" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0STNTS1" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0STNTS2" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP0SINTS0" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP0SINTS1" android:process=":p0" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0NRTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0NRTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0STPTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0STPTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0STTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0STTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0NRNTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0NRNTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0NRNTS2" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0NRNTS3" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0NRNTS4" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0NRNTS5" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0STPNTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0STPNTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0STNTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0STNTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA0STNTS2" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1NRTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1NRTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1STPTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1STPTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1STTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1STTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1NRNTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1NRNTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1NRNTS2" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1NRNTS3" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1NRNTS4" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1NRNTS5" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1STPNTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1STPNTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1STNTS0" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1STNTS1" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP0TA1STNTS2" android:process=":p0" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <provider android:authorities="com.xm.zjgamecenter.Plugin.NP.0" android:exported="false" android:name="com.qihoo360.replugin.component.provider.PluginPitProviderP0" android:process=":p0"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.mainN100" android:exported="false" android:name="com.qihoo360.replugin.component.process.ProcessPitProviderP0" android:process=":p0"/>
+        <service android:exported="false" android:name="com.qihoo360.replugin.component.service.server.PluginPitServiceP0" android:process=":p0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1NRTS0" android:process=":p1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1NRTS1" android:process=":p1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1STPTS0" android:process=":p1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1STPTS1" android:process=":p1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1STTS0" android:process=":p1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1STTS1" android:process=":p1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP1SITS0" android:process=":p1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP1SITS1" android:process=":p1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP1SITS2" android:process=":p1" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1NRNTS0" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1NRNTS1" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1NRNTS2" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1NRNTS3" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1NRNTS4" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1NRNTS5" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1STPNTS0" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1STPNTS1" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1STNTS0" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1STNTS1" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1STNTS2" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP1SINTS0" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP1SINTS1" android:process=":p1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0NRTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0NRTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0STPTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0STPTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0STTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0STTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0NRNTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0NRNTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0NRNTS2" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0NRNTS3" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0NRNTS4" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0NRNTS5" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0STPNTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0STPNTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0STNTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0STNTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA0STNTS2" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1NRTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1NRTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1STPTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1STPTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1STTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1STTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1NRNTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1NRNTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1NRNTS2" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1NRNTS3" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1NRNTS4" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1NRNTS5" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1STPNTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1STPNTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1STNTS0" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1STNTS1" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP1TA1STNTS2" android:process=":p1" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <provider android:authorities="com.xm.zjgamecenter.Plugin.NP.1" android:exported="false" android:name="com.qihoo360.replugin.component.provider.PluginPitProviderP1" android:process=":p1"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.mainN99" android:exported="false" android:name="com.qihoo360.replugin.component.process.ProcessPitProviderP1" android:process=":p1"/>
+        <service android:exported="false" android:name="com.qihoo360.replugin.component.service.server.PluginPitServiceP1" android:process=":p1"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2NRTS0" android:process=":p2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2NRTS1" android:process=":p2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2STPTS0" android:process=":p2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2STPTS1" android:process=":p2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2STTS0" android:process=":p2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2STTS1" android:process=":p2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP2SITS0" android:process=":p2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP2SITS1" android:process=":p2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP2SITS2" android:process=":p2" android:screenOrientation="landscape" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2NRNTS0" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2NRNTS1" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2NRNTS2" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2NRNTS3" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2NRNTS4" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2NRNTS5" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2STPNTS0" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2STPNTS1" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2STNTS0" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2STNTS1" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2STNTS2" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP2SINTS0" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleInstance" android:name="com.xm.zjgamecenter.loader.a.ActivityP2SINTS1" android:process=":p2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0NRTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0NRTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0STPTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0STPTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0STTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0STTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0NRNTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0NRNTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0NRNTS2" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0NRNTS3" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0NRNTS4" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0NRNTS5" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0STPNTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0STPNTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0STNTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0STNTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA0STNTS2" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t0" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1NRTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1NRTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1STPTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1STPTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1STTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1STTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1NRNTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1NRNTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1NRNTS2" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1NRNTS3" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1NRNTS4" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1NRNTS5" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1STPNTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1STPNTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1STNTS0" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1STNTS1" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.loader.a.ActivityP2TA1STNTS2" android:process=":p2" android:screenOrientation="landscape" android:taskAffinity=":t1" android:theme="@style/Theme.AppCompat"/>
+        <provider android:authorities="com.xm.zjgamecenter.Plugin.NP.2" android:exported="false" android:name="com.qihoo360.replugin.component.provider.PluginPitProviderP2" android:process=":p2"/>
+        <provider android:authorities="com.xm.zjgamecenter.loader.p.mainN98" android:exported="false" android:name="com.qihoo360.replugin.component.process.ProcessPitProviderP2" android:process=":p2"/>
+        <service android:exported="false" android:name="com.qihoo360.replugin.component.service.server.PluginPitServiceP2" android:process=":p2"/>
+        <meta-data android:name="TOPONAD_SPLASHAD_ID_JUHE" android:value="b6040b5a40c4b1"/>
+        <meta-data android:name="GX_GCP_ID" android:value="55012"/>
+        <meta-data android:name="PUSH_APP_PACKAGENAME" android:value="com.xm.zjgamecenter"/>
+        <meta-data android:name="TOPONAD_SOURCE_ID" android:value="358796x"/>
+        <meta-data android:name="PUSH_APP_MAIN_ACTIVITY" android:value="org.cocos2dx.lua.AppActivity"/>
+        <meta-data android:name="TOPONAD_UNIT_ID" android:value="274408x"/>
+        <meta-data android:name="GX_GCP_SERCERT" android:value="2rGwTuyRqcIbqnwEUq2BSoPmoa9FHZAQ"/>
+        <meta-data android:name="YIDONGLOGIN_APPKEY" android:value="307FF5F5C4ADE844727072F57CBDED2D"/>
+        <meta-data android:name="TOPON_APP_ID" android:value="a5f8cec9ca429e"/>
+        <meta-data android:name="TD_CONFIG_ID" android:value="8170"/>
+        <meta-data android:name="ANDPERMISSION_POLICY_GAME_URL" android:value="https://www.hzbianqu.com/game_center/game_rule/1/5040/3.html"/>
+        <meta-data android:name="TOPONAD_SPLASHAD_ID" android:value="887444715x"/>
+        <meta-data android:name="TD_SDK_APP_ID" android:value="1432"/>
+        <meta-data android:name="PUSH_APPKEY" android:value="YKnLvWv6fT9PU7ESUOwnj"/>
+        <meta-data android:name="FASTVO_STSSERVER" android:value="https://api.bianfeng.com"/>
+        <meta-data android:name="TOPON_APP_KEY" android:value="a39f2ffa40597816b6bef25dee06157d"/>
+        <meta-data android:name="TOPONAD_SPLASHAD_APPID" android:value="5068954x"/>
+        <meta-data android:name="TOPONAD_SPLASHAD_TYPE" android:value="pangle"/>
+        <meta-data android:name="PUSH_APPID" android:value="19U5OzT6ZpABVbrw3E3xC6"/>
+        <meta-data android:name="ANDPERMISSION_POLICY_USER_URL" android:value="https://www.hzbianqu.com/protocol.html"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="76067b120c44ecd701b587b8dc10777b"/>
+        <meta-data android:name="PUSH_APPSECRET" android:value="5EOxKWbBxG6e9bdG6rAKW1"/>
+        <meta-data android:name="ANDPERMISSION_POLICY_CONTENT" android:value="欢迎使用本产品！我们将根据《用户协议》和《隐私权政策》以及《儿童隐私保护声明》，来帮您了解我们在收集、使用、存储和共享您个人信息的情况以及您享有的相关权利。  根据《常见类型移动互联网应用程序必要个人信息范围规定》，本产品属于网络游戏类，主要功能为网络游戏产品和服务，必要个人信息为注册用户移动电话号码。 为了针对不同设备和软件版本为您提供适配的游戏服务功能、保障您的账号与使用安全，我们可能调用您的基础设备权限但不默认开启，将在实现功能或服务时逐项询问您是否允许使用该权限，您有权拒绝或同意后随时取消授权，具体权限调用情况见《隐私权政策》；  我们会采用业界先进的安全措施保护您的信息安全；  您可以查询、更正、删除、撤回授权个人信息，我们也提供账户注销的渠道；  未经您同意，我们不会从第三方处获取、共享或向其提供您的信息；"/>
+        <meta-data android:name="YIDONGLOGIN_PRIVACY" android:value="并使用本机号码校验"/>
+        <meta-data android:name="TOPONAD_SPLASHAD_APPKEY" android:value="9470fe25fe4c0515"/>
+        <meta-data android:name="YMNSDK_TYPE" android:value="ymnsdk_new"/>
+        <meta-data android:name="YMNSDK_TRADE_TYPE" android:value="ymnsdk_trade_new"/>
+        <meta-data android:name="TD_SDK_APP_KEY" android:value="bf139bdc29e8ea1da8d4b1542e26b2d8"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:exported="false" android:name="com.alipay.sdk.app.H5AuthActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:exported="true" android:launchMode="singleInstance" android:name="com.alipay.sdk.app.PayResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:exported="true" android:launchMode="singleTask" android:name="com.alipay.sdk.app.AlipayResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:exported="false" android:name="com.alipay.sdk.app.H5OpenAuthActivity" android:screenOrientation="behind" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:exported="false" android:name="com.alipay.sdk.app.APayEntranceActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.bianfeng.ymnsdk.sysfunc.screenshot.ScreenShotActivity" android:process=":screenshot" android:theme="@android:style/Theme.Holo.Light.Dialog"/>
+        <service android:name="com.bianfeng.ymnsdk.sysfunc.screenshot.ScreenShotService"/>
+        <provider android:authorities="com.xm.zjgamecenter.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:name="com.bianfeng.permission.AddPermissionDialog" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:alwaysRetainTaskState="true" android:exported="true" android:launchMode="singleTask" android:name="com.bianfeng.ymnsdk.ymnlink.YmnLinkActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="ymnsdk" android:scheme="ZheJiangCollection"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xm.zjgamecenter.wxapi.WXEntryActivity" android:taskAffinity="com.xm.zjgamecenter" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.bianfeng.addpermission.ui.AddPermissionDialog" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="ZEUS_PLUGIN_PANGLE" android:value="{                 apiVersionCode:5114,                 packageName:com.bykv.vk,                 minPluginVersion:5114,                 internalPath:1130496601,                 internalVersionCode:5114             }"/>
+        <meta-data android:name="ZEUS_PLUGIN_com.byted.csj.ext" android:value="{apiVersionCode:999,packageName:com.byted.csj.ext,minPluginVersion:1000,maxPluginVersion:999999999,internalPath:'',internalVersionCode:-1, appKey:'',appSecretKey:''}"/>
+        <meta-data android:name="ZEUS_PLUGIN_LIVE" android:value="{                 apiVersionCode:2050,                 packageName:com.byted.live.lite,                 minPluginVersion:205000,                 maxPluginVersion:209999,                 appKey:'9f64a31d9d0456d845733718c4c6934d',                 appSecretKey:'eb7fc60ac5ed4708e13d9c7f8e4096a7',                 isSupportLibIsolate:true,                 internalPath:'plugins/zeusliveplugin.apk',                 internalVersionCode:5  }"/>
+        <meta-data android:name="LIVE_API_VERSION_CODE" android:value="2050"/>
+        <activity android:configChanges="keyboard|orientation" android:exported="false" android:name="com.mbridge.msdk.activity.MBCommonActivity" android:screenOrientation="portrait" android:theme="@style/mbridge_transparent_common_activity_style"/>
+        <activity android:name="com.mbridge.msdk.out.LoadingActivity"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bykv.vk.openvk.stub.activity.Stub_Standard_Activity" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bykv.vk.openvk.stub.activity.Stub_Standard_Portrait_Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bykv.vk.openvk.stub.activity.Stub_Standard_Activity_T" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bykv.vk.openvk.stub.activity.Stub_Standard_Landscape_Activity" android:screenOrientation="landscape" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.bykv.vk.openvk.stub.activity.Stub_Activity" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.bykv.vk.openvk.stub.activity.Stub_SingleTask_Activity_T" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.bykv.vk.openvk.stub.activity.Stub_SingleTask_Activity" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:exported="false" android:name="com.ss.android.downloadlib.addownload.compliance.AppPrivacyPolicyActivity"/>
+        <activity android:exported="false" android:name="com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.downloadlib.activity.TTDelegateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.downloadlib.activity.JumpKllkActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$AppCompat" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$AppCompat_T" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_T_SingleTask1" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$AppCompat_T_SingleTop1" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Behind" android:screenOrientation="behind" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_T" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$AppCompat_Portrait" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.bytedance.android.openliveplugin.stub.activity.Stub_Standard_Activity_DouyinWebAuthorizeActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:exported="true" android:name="com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$AppCompat_SingleTask2" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.sigmob.sdk.base.common.TransparentAdActivity" android:theme="@style/sig_transparent_style"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.sigmob.sdk.base.common.AdActivity" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.mbridge.msdk.reward.player.MBRewardVideoActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:name="com.mbridge.msdk.interstitial.view.MBInterstitialActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.tkay.core.activity.TYGdprAuthActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.tkay.basead.ui.ATLandscapeActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.tkay.basead.ui.ATPortraitActivity" android:screenOrientation="sensorPortrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.tkay.basead.ui.ATLandscapeTranslucentActivity" android:screenOrientation="sensorLandscape" android:theme="@style/tkay_myoffer_half_screen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.tkay.basead.ui.ATPortraitTranslucentActivity" android:screenOrientation="sensorPortrait" android:theme="@style/tkay_myoffer_half_screen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.tkay.core.basead.ui.web.WebLandPageActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.tkay.basead.ui.RewardExitConfirmDialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:launchMode="standard" android:name="com.tkay.expressad.reward.player.TYRewardVideoActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.ADActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.PortraitADActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.LandscapeADActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.RewardvideoPortraitADActivity" android:theme="@android:style/Theme.Light.NoTitleBar">
+            <meta-data android:name="android.notch_support" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.RewardvideoLandscapeADActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar">
+            <meta-data android:name="android.notch_support" android:value="true"/>
+        </activity>
+        <activity android:multiprocess="true" android:name="com.qq.e.ads.DialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.AdWebViewActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.KsFullScreenVideoActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.KsFullScreenLandScapeVideoActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.KsRewardVideoActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.KSRewardLandScapeVideoActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.FeedDownloadActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$KsTrendsActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileVideoDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ChannelDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$EpisodeDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$RequestInstallPermissionActivity" android:theme="@style/TransparentDialogActivity">
+            <intent-filter>
+                <action android:name="intent.action.requestInstallPermission"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity1" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$GoodsPlayBackActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity2" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity3" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity4" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity5" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity6" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity7" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity8" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity9" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity10" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop1" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop2" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance1" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance2" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$DeveloperConfigActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivity" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTop1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTop2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTask1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTask2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleInstance1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleInstance2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.tkay.china.activity.TransparentActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.tkay.china.activity.ApkConfirmDialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <service android:exported="false" android:name="com.mbridge.msdk.shell.MBService">
+            <intent-filter>
+                <action android:name="com.mbridge.msdk.download.action"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.mbridge.msdk.foundation.aidl.VideoRequestService"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.appdownloader.DownloadHandlerService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.ss.android.socialbase.appdownloader.RetryJobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService" android:process=":downloader">
+            <intent-filter>
+                <action android:name="com.ss.android.socialbase.downloader.remote"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.notification.DownloadNotificationService" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.DownloadService" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService"/>
+        <service android:exported="false" android:multiprocess="true" android:name="com.qq.e.comm.DownloadService"/>
+        <service android:name="com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService"/>
+        <service android:name="com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService"/>
+        <service android:exported="false" android:name="com.kwad.sdk.api.proxy.app.DownloadService"/>
+        <service android:exported="false" android:name="com.kwad.sdk.api.proxy.app.ServiceProxyRemote" android:process=":kssdk_remote"/>
+        <service android:name="com.tkay.china.common.service.ApkDownloadService"/>
+        <receiver android:exported="false" android:name="com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+        <receiver android:exported="false" android:name="com.tkay.china.common.NotificationBroadcaseReceiver">
+            <intent-filter>
+                <action android:name="tkay_action_notification_click"/>
+                <action android:name="tkay_action_notification_cancel"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.xm.zjgamecenter.TTMultiProvider" android:exported="false" android:name="com.bykv.vk.openvk.multipro.TTMultiProvider"/>
+        <provider android:authorities="com.xm.zjgamecenter.TTFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.bykv.vk.openvk.TTFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/anythink_bk_tt_file_path"/>
+        </provider>
+        <provider android:authorities="com.xm.zjgamecenter.mbFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.mbridge.msdk.foundation.tools.MBFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/mb_provider_paths"/>
+        </provider>
+        <provider android:authorities="com.xm.zjgamecenter.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost" android:exported="false" android:name="com.bykv.vk.openvk.stub.server.DownloaderServerManager" android:process=":downloader"/>
+        <provider android:authorities="com.xm.zjgamecenter.pangle.servermanager.main" android:exported="false" android:name="com.bykv.vk.openvk.stub.server.MainServerManager"/>
+        <provider android:authorities="com.xm.zjgamecenter.pangle.provider.proxy.main" android:exported="false" android:name="com.bytedance.pangle.provider.MainProcessProviderProxy"/>
+        <provider android:authorities="com.xm.zjgamecenter.pangle.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.bytedance.pangle.FileProvider"/>
+        <provider android:authorities="com.xm.zjgamecenter.sigprovider" android:exported="false" android:grantUriPermissions="true" android:initOrder="200" android:name="com.sigmob.sdk.SigmobFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/sigmob_provider_paths"/>
+        </provider>
+        <provider android:authorities="com.xm.zjgamecenter.initprovider" android:exported="false" android:initOrder="100" android:name="com.tramini.plugin.api.TraminiContentProvider"/>
+        <provider android:authorities="com.xm.zjgamecenter.adFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.kwad.sdk.api.proxy.app.AdSdkFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/ksad_file_paths"/>
+        </provider>
+        <provider android:authorities="com.xm.zjgamecenter.tkay.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.tkay.china.common.ApkFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/tkay_file_paths"/>
+        </provider>
+        <meta-data android:name="sdkVersion" android:value="3000"/>
+        <meta-data android:name="sdk_version_vivo" android:value="484"/>
+        <meta-data android:name="local_iv" android:value="MzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsMzIsMzgsMzcsMzYsMzUsMzQsMzMsI0AzNCwzMiwzMywzNywzMywzNCwzMiwzMywzMywzMywzNCw0MSwzNSwzNSwzMiwzMiwjQDMzLDM0LDM1LDM2LDM3LDM4LDM5LDQwLDQxLDMyLDM4LDM3LDMzLDM1LDM0LDMzLCNAMzQsMzIsMzMsMzcsMzMsMzQsMzIsMzMsMzMsMzMsMzQsNDEsMzUsMzIsMzIsMzI"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:push" android:value="push:5.3.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:push:push" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:opendevice" android:value="opendevice:5.1.1.303"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:opendevice:push" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:5.3.0.301"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:base:hmscore" android:value="1"/>
+        <meta-data android:name="availableLoaded" android:value="yes"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.igexin.sdk.PushActivity" android:process=":pushservice" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.igexin.sdk.GActivity" android:process=":pushservice" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:name="com.igexin.sdk.GetuiActivity" android:process=":pushservice" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name="com.bianfeng.privategetui.GetuiActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.oppopush"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity android:configChanges="locale|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:name="com.huawei.hms.activity.BridgeActivity" android:screenOrientation="behind" android:theme="@style/Base_Translucent">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.huawei.hms.activity.EnableServiceActivity"/>
+        <service android:name="com.bianfeng.privategetui.YmnGetuiIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:label="PushService" android:name="com.bianfeng.privategetui.GetuiPushService" android:process=":pushservice"/>
+        <service android:exported="false" android:label="NotificationCenter" android:name="com.igexin.sdk.PushService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.service.message"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.igexin.sdk.HmsPushMessageService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.meizu.cloud.pushsdk.NotificationService" android:process=":pushservice"/>
+        <service android:exported="false" android:name="com.igexin.sdk.OppoPushService" android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.igexin.sdk.OppoAppPushService" android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"/>
+                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.vivo.push.sdk.service.CommandClientService" android:permission="com.push.permission.UPSTAGESERVICE" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler" android:permission="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE" android:process=":pushservice"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService" android:process=":pushservice"/>
+        <service android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.huawei.hms.support.api.push.service.HmsMsgService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.huawei.agconnect.core.ServiceDiscovery"/>
+        <receiver android:exported="false" android:name="com.bianfeng.privategetui.PushReceiver">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.JavEGwIGMB9g4gcKHXfB0A"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.igexin.sdk.PushReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.bianfeng.privategetui.ToMainActivityBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.meizu.cloud.pushsdk.MzPushSystemReceiver" android:permission="com.meizu.flyme.permission.PUSH">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.PUSH_SYSTEM"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.igexin.sdk.FlymePushReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.meizu.c2dm.intent.RECEIVE"/>
+                <category android:name="com.xm.zjgamecenter"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.igexin.sdk.VivoPushMessageReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.vivo.pushclient.action.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.igexin.sdk.MiuiPushReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:name="com.huawei.hms.support.api.push.PushMsgReceiver" android:permission="com.xm.zjgamecenter.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:name="com.huawei.hms.support.api.push.PushReceiver" android:permission="com.xm.zjgamecenter.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.xm.zjgamecenter.huawei.push.provider" android:exported="true" android:name="com.huawei.hms.support.api.push.PushProvider" android:permission="com.xm.zjgamecenter.permission.PUSH_PROVIDER" android:readPermission="com.xm.zjgamecenter.permission.PUSH_PROVIDER" android:writePermission="com.xm.zjgamecenter.permission.PUSH_WRITE_PROVIDER"/>
+        <provider android:authorities="com.xm.zjgamecenter.aaidinitprovider" android:exported="false" android:initOrder="500" android:name="com.huawei.hms.aaid.InitProvider"/>
+        <provider android:authorities="com.xm.zjgamecenter.hms.update.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.huawei.hms.update.provider.UpdateProvider"/>
+        <provider android:authorities="com.xm.zjgamecenter.hms.device.validate.spoofprovider" android:exported="false" android:grantUriPermissions="false" android:name="com.huawei.hms.device.provider.CheckHmsProvider"/>
+        <provider android:authorities="com.xm.zjgamecenter.updateSdk.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"/>
+        <provider android:authorities="com.xm.zjgamecenter.AGCInitializeProvider" android:exported="false" android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.bianfeng.roomlib.ui.GameRoomWebActivity" android:screenOrientation="behind" android:theme="@style/reslib_activityroomwebtheme"/>
+        <activity android:name="com.bianfeng.paylib.ui.AliWebPayActivty"/>
+        <activity android:name="com.bianfeng.paylib.ui.WxWebPayActivty" android:theme="@style/reslib_dialogactivitytheme"/>
+        <activity android:name="com.bianfeng.paylib.ui.WebpaysdkPaymentActivity" android:screenOrientation="behind" android:theme="@style/reslib_dialogactivitytheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.bianfeng.paylib.ui.PaymentWebActivity" android:screenOrientation="behind" android:theme="@style/reslib_activityroomwebtheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.bianfeng.splitscreenwindow.ui.YmnH5WebviewActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.bianfeng.splitscreenwindow.ui.YmnH5WebviewLandActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.bianfeng.replugin.HostProcessActivity" android:theme="@style/notitle"/>
+        <activity android:exported="true" android:name="com.xm.zjgamecenter.wxapi.WXPayEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.cmic.gen.sdk.view.GenLoginAuthActivity" android:theme="@style/ymnsdk_yidonglogin_AppTheme"/>
+        <provider android:authorities="com.xm.zjgamecenter.ymninit.authority" android:exported="false" android:initOrder="0" android:name="com.bianfeng.ymnsdk.util.YmnInitProvider"/>
+        <provider android:authorities="com.xm.zjgamecenter.tray" android:exported="false" android:initOrder="100" android:multiprocess="false" android:name="net.grandcentrix.tray.provider.TrayContentProvider"/>
+        <meta-data android:name="TD_CHANNEL_ID" android:value="33313"/>
+    </application>
+    <queries>
+        <package android:name="com.eg.android.AlipayGphone"/>
+        <package android:name="com.eg.android.AlipayGphoneRC"/>
+        <package android:name="hk.alipay.wallet"/>
+        <package android:name="hk.alipay.walletRC"/>
+        <intent>
+            <action android:name="*"/>
+            <data android:scheme="tbopen"/>
+        </intent>
+        <package android:name="com.tencent.mm"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <uses-permission android:name="freemme.permission.msa"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="com.xm.zjgamecenter.openadsdk.permission.TT_PANGOLIN"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <permission android:name="com.xm.zjgamecenter.openadsdk.permission.TT_PANGOLIN" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.xm.zjgamecenter.push.permission.MESSAGE"/>
+    <uses-permission android:name="com.xm.zjgamecenter.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.xm.zjgamecenter.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="com.xm.zjgamecenter.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission android:name="com.xm.zjgamecenter.permission.PUSH_PROVIDER"/>
+    <uses-permission android:name="getui.permission.GetuiService.com.xm.zjgamecenter"/>
+    <permission android:name="com.xm.zjgamecenter.push.permission.MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.xm.zjgamecenter.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.xm.zjgamecenter.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.xm.zjgamecenter.permission.PROCESS_PUSH_MSG" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.xm.zjgamecenter.permission.PUSH_PROVIDER" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.xm.zjgamecenter.permission.PUSH_WRITE_PROVIDER" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="getui.permission.GetuiService.com.xm.zjgamecenter" android:protectionLevel="normal"/>
+</manifest>

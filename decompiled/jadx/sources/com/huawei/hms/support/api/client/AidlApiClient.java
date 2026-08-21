@@ -1,0 +1,11 @@
+package com.huawei.hms.support.api.client;
+
+import com.huawei.hms.core.aidl.d;
+import java.util.List;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface AidlApiClient extends ApiClient {
+    List<String> getApiNameList();
+
+    d getService();
+}

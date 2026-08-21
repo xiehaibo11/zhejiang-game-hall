@@ -1,0 +1,10 @@
+package com.bykv.vk.openvk;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface TTClientBidding {
+    void loss(Double d, String str, String str2);
+
+    void setPrice(Double d);
+
+    void win(Double d);
+}

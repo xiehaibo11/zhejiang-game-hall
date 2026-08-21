@@ -1,0 +1,29 @@
+package com.xiaomi.mipush.sdk;
+
+/* JADX INFO: loaded from: classes4.dex */
+/* synthetic */ class k {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    static final /* synthetic */ int[] f8013a;
+
+    static {
+        int[] iArr = new int[e.values().length];
+        f8013a = iArr;
+        try {
+            iArr[e.ASSEMBLE_PUSH_HUAWEI.ordinal()] = 1;
+        } catch (NoSuchFieldError unused) {
+        }
+        try {
+            f8013a[e.ASSEMBLE_PUSH_FCM.ordinal()] = 2;
+        } catch (NoSuchFieldError unused2) {
+        }
+        try {
+            f8013a[e.ASSEMBLE_PUSH_COS.ordinal()] = 3;
+        } catch (NoSuchFieldError unused3) {
+        }
+        try {
+            f8013a[e.ASSEMBLE_PUSH_FTOS.ordinal()] = 4;
+        } catch (NoSuchFieldError unused4) {
+        }
+    }
+}

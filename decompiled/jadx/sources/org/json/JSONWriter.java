@@ -1,0 +1,156 @@
+package org.json;
+
+import java.io.IOException;
+import java.io.Writer;
+
+/* JADX INFO: loaded from: classes4.dex */
+public class JSONWriter {
+    private static final int maxdepth = 200;
+    private boolean comma = false;
+    protected char mode = 'i';
+    private final JSONObject[] stack = new JSONObject[200];
+    private int top = 0;
+    protected Writer writer;
+
+    public JSONWriter(Writer w) {
+        this.writer = w;
+    }
+
+    private JSONWriter append(String string) throws JSONException {
+        if (string == null) {
+            throw new JSONException("Null pointer");
+        }
+        char c = this.mode;
+        if (c == 'o' || c == 'a') {
+            try {
+                if (this.comma && this.mode == 'a') {
+                    this.writer.write(44);
+                }
+                this.writer.write(string);
+                if (this.mode == 'o') {
+                    this.mode = 'k';
+                }
+                this.comma = true;
+                return this;
+            } catch (IOException e) {
+                throw new JSONException(e);
+            }
+        }
+        throw new JSONException("Value out of sequence.");
+    }
+
+    public JSONWriter array() throws JSONException {
+        char c = this.mode;
+        if (c == 'i' || c == 'o' || c == 'a') {
+            push(null);
+            append("[");
+            this.comma = false;
+            return this;
+        }
+        throw new JSONException("Misplaced array.");
+    }
+
+    private JSONWriter end(char mode, char c) throws JSONException {
+        if (this.mode != mode) {
+            throw new JSONException(mode == 'a' ? "Misplaced endArray." : "Misplaced endObject.");
+        }
+        pop(mode);
+        try {
+            this.writer.write(c);
+            this.comma = true;
+            return this;
+        } catch (IOException e) {
+            throw new JSONException(e);
+        }
+    }
+
+    public JSONWriter endArray() throws JSONException {
+        return end('a', ']');
+    }
+
+    public JSONWriter endObject() throws JSONException {
+        return end('k', '}');
+    }
+
+    public JSONWriter key(String string) throws JSONException {
+        if (string == null) {
+            throw new JSONException("Null key.");
+        }
+        if (this.mode == 'k') {
+            try {
+                this.stack[this.top - 1].putOnce(string, Boolean.TRUE);
+                if (this.comma) {
+                    this.writer.write(44);
+                }
+                this.writer.write(JSONObject.quote(string));
+                this.writer.write(58);
+                this.comma = false;
+                this.mode = 'o';
+                return this;
+            } catch (IOException e) {
+                throw new JSONException(e);
+            }
+        }
+        throw new JSONException("Misplaced key.");
+    }
+
+    public JSONWriter object() throws JSONException {
+        if (this.mode == 'i') {
+            this.mode = 'o';
+        }
+        char c = this.mode;
+        if (c == 'o' || c == 'a') {
+            append("{");
+            push(new JSONObject());
+            this.comma = false;
+            return this;
+        }
+        throw new JSONException("Misplaced object.");
+    }
+
+    private void pop(char c) throws JSONException {
+        int i = this.top;
+        if (i <= 0) {
+            throw new JSONException("Nesting error.");
+        }
+        char c2 = 'a';
+        char m = this.stack[i + (-1)] == null ? 'a' : 'k';
+        if (m != c) {
+            throw new JSONException("Nesting error.");
+        }
+        this.top--;
+        int i2 = this.top;
+        if (i2 == 0) {
+            c2 = 'd';
+        } else if (this.stack[i2 - 1] != null) {
+            c2 = 'k';
+        }
+        this.mode = c2;
+    }
+
+    private void push(JSONObject jo) throws JSONException {
+        int i = this.top;
+        if (i >= 200) {
+            throw new JSONException("Nesting too deep.");
+        }
+        this.stack[i] = jo;
+        this.mode = jo == null ? 'a' : 'k';
+        this.top++;
+    }
+
+    public JSONWriter value(boolean b) throws JSONException {
+        return append(b ? "true" : "false");
+    }
+
+    public JSONWriter value(double d) throws JSONException {
+        return value(new Double(d));
+    }
+
+    public JSONWriter value(long l) throws JSONException {
+        return append(Long.toString(l));
+    }
+
+    public JSONWriter value(Object object) throws JSONException {
+        return append(JSONObject.valueToString(object));
+    }
+}

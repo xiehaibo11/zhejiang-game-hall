@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dialog_splitscreem_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/reslib_text_size_18" android:textStyle="bold" android:textColor="@color/reslib_white" android:gravity="center" android:background="@drawable/dialog_splitscreem_title_bg" android:layout_width="match_parent" android:layout_height="@dimen/reslib_px_53" android:text="提示" />
+    <TextView android:textSize="@dimen/reslib_text_size_18" android:textStyle="bold" android:gravity="center" android:id="@id/dialog_split_text" android:layout_width="match_parent" android:layout_height="@dimen/reslib_px_80" android:text="是否开启分屏模式？" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/reslib_px_40" android:layout_marginBottom="@dimen/reslib_px_6">
+        <Button android:textColor="@color/reslib_white" android:id="@id/dialog_split_cancel" android:background="@drawable/dialog_splitscreem_btn_bg" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/reslib_px_25" android:layout_marginRight="@dimen/reslib_px_10" android:text="取消" android:layout_weight="1.0" />
+        <Button android:textColor="@color/reslib_white" android:id="@id/dialog_split_sure" android:background="@drawable/dialog_splitscreem_btn_bg" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/reslib_px_10" android:layout_marginRight="@dimen/reslib_px_25" android:text="开启" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

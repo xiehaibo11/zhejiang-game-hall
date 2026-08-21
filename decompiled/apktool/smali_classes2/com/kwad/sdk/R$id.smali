@@ -1,0 +1,1419 @@
+.class public final Lcom/kwad/sdk/R$id;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/kwad/sdk/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "id"
+.end annotation
+
+
+# static fields
+.field public static final action_bar:I = 0x7f080006
+
+.field public static final action_bar_activity_content:I = 0x7f080007
+
+.field public static final action_bar_container:I = 0x7f080008
+
+.field public static final action_bar_root:I = 0x7f080009
+
+.field public static final action_bar_spinner:I = 0x7f08000a
+
+.field public static final action_bar_subtitle:I = 0x7f08000b
+
+.field public static final action_bar_title:I = 0x7f08000c
+
+.field public static final action_container:I = 0x7f08000d
+
+.field public static final action_context_bar:I = 0x7f08000e
+
+.field public static final action_divider:I = 0x7f08000f
+
+.field public static final action_image:I = 0x7f080010
+
+.field public static final action_menu_divider:I = 0x7f080011
+
+.field public static final action_menu_presenter:I = 0x7f080012
+
+.field public static final action_mode_bar:I = 0x7f080013
+
+.field public static final action_mode_bar_stub:I = 0x7f080014
+
+.field public static final action_mode_close_button:I = 0x7f080015
+
+.field public static final action_text:I = 0x7f080016
+
+.field public static final actions:I = 0x7f080017
+
+.field public static final activity_chooser_view_content:I = 0x7f080018
+
+.field public static final add:I = 0x7f080019
+
+.field public static final alertTitle:I = 0x7f08001a
+
+.field public static final async:I = 0x7f08001d
+
+.field public static final blocking:I = 0x7f080020
+
+.field public static final bold:I = 0x7f080021
+
+.field public static final bottom:I = 0x7f080022
+
+.field public static final buttonPanel:I = 0x7f080023
+
+.field public static final checkbox:I = 0x7f080028
+
+.field public static final chronometer:I = 0x7f080029
+
+.field public static final content:I = 0x7f08002f
+
+.field public static final contentPanel:I = 0x7f080030
+
+.field public static final custom:I = 0x7f080032
+
+.field public static final customPanel:I = 0x7f080033
+
+.field public static final decor_content_parent:I = 0x7f080035
+
+.field public static final default_activity_button:I = 0x7f080036
+
+.field public static final edit_query:I = 0x7f08003d
+
+.field public static final end:I = 0x7f08003e
+
+.field public static final expand_activities_button:I = 0x7f080042
+
+.field public static final expanded_menu:I = 0x7f080043
+
+.field public static final forever:I = 0x7f080049
+
+.field public static final group_divider:I = 0x7f08004b
+
+.field public static final home:I = 0x7f08004c
+
+.field public static final horizontal:I = 0x7f08004e
+
+.field public static final icon:I = 0x7f08004f
+
+.field public static final icon_group:I = 0x7f080050
+
+.field public static final image:I = 0x7f080052
+
+.field public static final info:I = 0x7f080053
+
+.field public static final italic:I = 0x7f080054
+
+.field public static final ksad_activity_apk_info_area_native:I = 0x7f08005a
+
+.field public static final ksad_ad_btn_sub_title:I = 0x7f08005b
+
+.field public static final ksad_ad_btn_title:I = 0x7f08005c
+
+.field public static final ksad_ad_cover:I = 0x7f08005d
+
+.field public static final ksad_ad_desc:I = 0x7f08005e
+
+.field public static final ksad_ad_desc_layout:I = 0x7f08005f
+
+.field public static final ksad_ad_developer_text:I = 0x7f080060
+
+.field public static final ksad_ad_dislike:I = 0x7f080061
+
+.field public static final ksad_ad_dislike_logo:I = 0x7f080062
+
+.field public static final ksad_ad_download_container:I = 0x7f080063
+
+.field public static final ksad_ad_endcard_appdesc:I = 0x7f080064
+
+.field public static final ksad_ad_endcard_appname:I = 0x7f080065
+
+.field public static final ksad_ad_endcard_appversion:I = 0x7f080066
+
+.field public static final ksad_ad_endcard_close_root:I = 0x7f080067
+
+.field public static final ksad_ad_endcard_icon:I = 0x7f080068
+
+.field public static final ksad_ad_endcard_line:I = 0x7f080069
+
+.field public static final ksad_ad_endcard_logo:I = 0x7f08006a
+
+.field public static final ksad_ad_endcard_second:I = 0x7f08006b
+
+.field public static final ksad_ad_h5_container:I = 0x7f08006c
+
+.field public static final ksad_ad_image:I = 0x7f08006d
+
+.field public static final ksad_ad_image_left:I = 0x7f08006e
+
+.field public static final ksad_ad_image_mid:I = 0x7f08006f
+
+.field public static final ksad_ad_image_right:I = 0x7f080070
+
+.field public static final ksad_ad_info:I = 0x7f080071
+
+.field public static final ksad_ad_interstitial_logo:I = 0x7f080072
+
+.field public static final ksad_ad_label_play_bar:I = 0x7f080073
+
+.field public static final ksad_ad_land_page_native:I = 0x7f080074
+
+.field public static final ksad_ad_light_convert_btn:I = 0x7f080075
+
+.field public static final ksad_ad_normal_container:I = 0x7f080076
+
+.field public static final ksad_ad_normal_convert_btn:I = 0x7f080077
+
+.field public static final ksad_ad_normal_des:I = 0x7f080078
+
+.field public static final ksad_ad_normal_logo:I = 0x7f080079
+
+.field public static final ksad_ad_normal_title:I = 0x7f08007a
+
+.field public static final ksad_ad_permission_text:I = 0x7f08007b
+
+.field public static final ksad_ad_privacy_text:I = 0x7f08007c
+
+.field public static final ksad_ad_title:I = 0x7f08007d
+
+.field public static final ksad_app_ad_desc:I = 0x7f08007e
+
+.field public static final ksad_app_container:I = 0x7f08007f
+
+.field public static final ksad_app_desc:I = 0x7f080080
+
+.field public static final ksad_app_download:I = 0x7f080081
+
+.field public static final ksad_app_download_btn:I = 0x7f080082
+
+.field public static final ksad_app_download_count:I = 0x7f080083
+
+.field public static final ksad_app_icon:I = 0x7f080084
+
+.field public static final ksad_app_introduce:I = 0x7f080085
+
+.field public static final ksad_app_name:I = 0x7f080086
+
+.field public static final ksad_app_score:I = 0x7f080087
+
+.field public static final ksad_app_title:I = 0x7f080088
+
+.field public static final ksad_author_animator:I = 0x7f080089
+
+.field public static final ksad_author_animator2:I = 0x7f08008a
+
+.field public static final ksad_author_arrow_down:I = 0x7f08008b
+
+.field public static final ksad_author_btn_follow:I = 0x7f08008c
+
+.field public static final ksad_author_icon:I = 0x7f08008d
+
+.field public static final ksad_author_icon_frame:I = 0x7f08008e
+
+.field public static final ksad_author_icon_layout:I = 0x7f08008f
+
+.field public static final ksad_author_icon_outer:I = 0x7f080090
+
+.field public static final ksad_author_name_txt:I = 0x7f080091
+
+.field public static final ksad_auto_close_btn:I = 0x7f080092
+
+.field public static final ksad_auto_close_text:I = 0x7f080093
+
+.field public static final ksad_back_icon:I = 0x7f080094
+
+.field public static final ksad_blur_end_cover:I = 0x7f080095
+
+.field public static final ksad_blur_video_cover:I = 0x7f080096
+
+.field public static final ksad_card_ad_desc:I = 0x7f080097
+
+.field public static final ksad_card_app_close:I = 0x7f080098
+
+.field public static final ksad_card_app_container:I = 0x7f080099
+
+.field public static final ksad_card_app_desc:I = 0x7f08009a
+
+.field public static final ksad_card_app_download_btn:I = 0x7f08009b
+
+.field public static final ksad_card_app_download_count:I = 0x7f08009c
+
+.field public static final ksad_card_app_icon:I = 0x7f08009d
+
+.field public static final ksad_card_app_name:I = 0x7f08009e
+
+.field public static final ksad_card_app_score:I = 0x7f08009f
+
+.field public static final ksad_card_app_score_container:I = 0x7f0800a0
+
+.field public static final ksad_card_close:I = 0x7f0800a1
+
+.field public static final ksad_card_h5_container:I = 0x7f0800a2
+
+.field public static final ksad_card_h5_open_btn:I = 0x7f0800a3
+
+.field public static final ksad_card_logo:I = 0x7f0800a4
+
+.field public static final ksad_card_tips_root:I = 0x7f0800a5
+
+.field public static final ksad_card_tips_title:I = 0x7f0800a6
+
+.field public static final ksad_card_tips_view:I = 0x7f0800a7
+
+.field public static final ksad_center:I = 0x7f0800a8
+
+.field public static final ksad_click_mask:I = 0x7f0800a9
+
+.field public static final ksad_close_btn:I = 0x7f0800aa
+
+.field public static final ksad_common_app_action:I = 0x7f0800ab
+
+.field public static final ksad_common_app_card_land_stub:I = 0x7f0800ac
+
+.field public static final ksad_common_app_card_root:I = 0x7f0800ad
+
+.field public static final ksad_common_app_card_stub:I = 0x7f0800ae
+
+.field public static final ksad_common_app_desc:I = 0x7f0800af
+
+.field public static final ksad_common_app_desc2:I = 0x7f0800b0
+
+.field public static final ksad_common_app_icon:I = 0x7f0800b1
+
+.field public static final ksad_common_app_install_container:I = 0x7f0800b2
+
+.field public static final ksad_common_app_logo:I = 0x7f0800b3
+
+.field public static final ksad_common_app_name:I = 0x7f0800b4
+
+.field public static final ksad_common_app_tags:I = 0x7f0800b5
+
+.field public static final ksad_compliance_view:I = 0x7f0800b6
+
+.field public static final ksad_container:I = 0x7f0800b7
+
+.field public static final ksad_continue_btn:I = 0x7f0800b8
+
+.field public static final ksad_coupon_dialog_bg:I = 0x7f0800b9
+
+.field public static final ksad_coupon_dialog_btn_action:I = 0x7f0800ba
+
+.field public static final ksad_coupon_dialog_card:I = 0x7f0800bb
+
+.field public static final ksad_coupon_dialog_content:I = 0x7f0800bc
+
+.field public static final ksad_coupon_dialog_desc:I = 0x7f0800bd
+
+.field public static final ksad_coupon_dialog_title:I = 0x7f0800be
+
+.field public static final ksad_data_flow_container:I = 0x7f0800bf
+
+.field public static final ksad_data_flow_play_btn:I = 0x7f0800c0
+
+.field public static final ksad_data_flow_play_tip:I = 0x7f0800c1
+
+.field public static final ksad_detail_call_btn:I = 0x7f0800c2
+
+.field public static final ksad_detail_close_btn:I = 0x7f0800c3
+
+.field public static final ksad_detail_reward_deep_task_view:I = 0x7f0800c4
+
+.field public static final ksad_detail_reward_deep_task_view_playend:I = 0x7f0800c5
+
+.field public static final ksad_detail_reward_icon:I = 0x7f0800c6
+
+.field public static final ksad_download_bar:I = 0x7f0800c7
+
+.field public static final ksad_download_bar_cover:I = 0x7f0800c8
+
+.field public static final ksad_download_container:I = 0x7f0800c9
+
+.field public static final ksad_download_control_bg_image:I = 0x7f0800ca
+
+.field public static final ksad_download_control_btn:I = 0x7f0800cb
+
+.field public static final ksad_download_control_view:I = 0x7f0800cc
+
+.field public static final ksad_download_icon:I = 0x7f0800cd
+
+.field public static final ksad_download_install:I = 0x7f0800ce
+
+.field public static final ksad_download_name:I = 0x7f0800cf
+
+.field public static final ksad_download_percent_num:I = 0x7f0800d0
+
+.field public static final ksad_download_progress:I = 0x7f0800d1
+
+.field public static final ksad_download_progress_cover:I = 0x7f0800d2
+
+.field public static final ksad_download_size:I = 0x7f0800d3
+
+.field public static final ksad_download_status:I = 0x7f0800d4
+
+.field public static final ksad_download_tips_web_card_webView:I = 0x7f0800d5
+
+.field public static final ksad_download_title_view:I = 0x7f0800d6
+
+.field public static final ksad_draw_h5_logo:I = 0x7f0800d7
+
+.field public static final ksad_draw_tailframe_logo:I = 0x7f0800d8
+
+.field public static final ksad_end_close_btn:I = 0x7f0800d9
+
+.field public static final ksad_end_left_call_btn:I = 0x7f0800da
+
+.field public static final ksad_end_reward_icon:I = 0x7f0800db
+
+.field public static final ksad_end_reward_icon_layout:I = 0x7f0800dc
+
+.field public static final ksad_end_right_call_btn:I = 0x7f0800dd
+
+.field public static final ksad_exit_intercept_content:I = 0x7f0800de
+
+.field public static final ksad_exit_intercept_content_layout:I = 0x7f0800df
+
+.field public static final ksad_exit_intercept_dialog_layout:I = 0x7f0800e0
+
+.field public static final ksad_fans_count:I = 0x7f0800e1
+
+.field public static final ksad_fans_hot_icon:I = 0x7f0800e2
+
+.field public static final ksad_feed_ad_label:I = 0x7f0800e3
+
+.field public static final ksad_feed_logo:I = 0x7f0800e4
+
+.field public static final ksad_feed_shake_bg:I = 0x7f0800e5
+
+.field public static final ksad_feed_shake_icon:I = 0x7f0800e6
+
+.field public static final ksad_feed_video_container:I = 0x7f0800e7
+
+.field public static final ksad_foreground_cover:I = 0x7f0800e8
+
+.field public static final ksad_h5_ad_desc:I = 0x7f0800e9
+
+.field public static final ksad_h5_container:I = 0x7f0800ea
+
+.field public static final ksad_h5_desc:I = 0x7f0800eb
+
+.field public static final ksad_h5_open:I = 0x7f0800ec
+
+.field public static final ksad_h5_open_btn:I = 0x7f0800ed
+
+.field public static final ksad_h5_open_cover:I = 0x7f0800ee
+
+.field public static final ksad_hand:I = 0x7f0800ef
+
+.field public static final ksad_image_container:I = 0x7f0800f0
+
+.field public static final ksad_info_container:I = 0x7f0800f1
+
+.field public static final ksad_inside_circle:I = 0x7f0800f2
+
+.field public static final ksad_install_cancel:I = 0x7f0800f3
+
+.field public static final ksad_install_tips_close:I = 0x7f0800f4
+
+.field public static final ksad_install_tips_content:I = 0x7f0800f5
+
+.field public static final ksad_install_tips_icon:I = 0x7f0800f6
+
+.field public static final ksad_install_tips_install:I = 0x7f0800f7
+
+.field public static final ksad_install_tv:I = 0x7f0800f8
+
+.field public static final ksad_interstitial_aggregate_convert:I = 0x7f0800f9
+
+.field public static final ksad_interstitial_aggregate_cut:I = 0x7f0800fa
+
+.field public static final ksad_interstitial_aggregate_refresh:I = 0x7f0800fb
+
+.field public static final ksad_interstitial_auto_close:I = 0x7f0800fc
+
+.field public static final ksad_interstitial_close_outer:I = 0x7f0800fd
+
+.field public static final ksad_interstitial_count_down:I = 0x7f0800fe
+
+.field public static final ksad_interstitial_desc:I = 0x7f0800ff
+
+.field public static final ksad_interstitial_download_btn:I = 0x7f080100
+
+.field public static final ksad_interstitial_full_bg:I = 0x7f080101
+
+.field public static final ksad_interstitial_guide_bg:I = 0x7f080102
+
+.field public static final ksad_interstitial_guide_bg_bg:I = 0x7f080103
+
+.field public static final ksad_interstitial_guide_button:I = 0x7f080104
+
+.field public static final ksad_interstitial_guide_button_img_1:I = 0x7f080105
+
+.field public static final ksad_interstitial_guide_button_img_2:I = 0x7f080106
+
+.field public static final ksad_interstitial_guide_button_img_3:I = 0x7f080107
+
+.field public static final ksad_interstitial_guide_button_layout:I = 0x7f080108
+
+.field public static final ksad_interstitial_guide_click_layout:I = 0x7f080109
+
+.field public static final ksad_interstitial_intercept_app_icon:I = 0x7f08010a
+
+.field public static final ksad_interstitial_intercept_app_title:I = 0x7f08010b
+
+.field public static final ksad_interstitial_intercept_dialog_btn_continue:I = 0x7f08010c
+
+.field public static final ksad_interstitial_intercept_dialog_btn_deny:I = 0x7f08010d
+
+.field public static final ksad_interstitial_intercept_dialog_desc:I = 0x7f08010e
+
+.field public static final ksad_interstitial_intercept_dialog_detail:I = 0x7f08010f
+
+.field public static final ksad_interstitial_logo:I = 0x7f080110
+
+.field public static final ksad_interstitial_mute:I = 0x7f080111
+
+.field public static final ksad_interstitial_name:I = 0x7f080112
+
+.field public static final ksad_interstitial_native:I = 0x7f080113
+
+.field public static final ksad_interstitial_native_container:I = 0x7f080114
+
+.field public static final ksad_interstitial_native_video_container:I = 0x7f080115
+
+.field public static final ksad_interstitial_play_end:I = 0x7f080116
+
+.field public static final ksad_interstitial_playable_timer:I = 0x7f080117
+
+.field public static final ksad_interstitial_playing:I = 0x7f080118
+
+.field public static final ksad_interstitial_tail_frame:I = 0x7f080119
+
+.field public static final ksad_interstitial_toast_container:I = 0x7f08011a
+
+.field public static final ksad_interstitial_video_blur:I = 0x7f08011b
+
+.field public static final ksad_js_bottom:I = 0x7f08011c
+
+.field public static final ksad_js_container:I = 0x7f08011d
+
+.field public static final ksad_js_full_card:I = 0x7f08011e
+
+.field public static final ksad_js_interact:I = 0x7f08011f
+
+.field public static final ksad_js_live_card:I = 0x7f080120
+
+.field public static final ksad_js_middle:I = 0x7f080121
+
+.field public static final ksad_js_reward_card:I = 0x7f080122
+
+.field public static final ksad_js_reward_image_card:I = 0x7f080123
+
+.field public static final ksad_js_task:I = 0x7f080124
+
+.field public static final ksad_js_tk_back_dialog:I = 0x7f080125
+
+.field public static final ksad_js_top:I = 0x7f080126
+
+.field public static final ksad_js_topfloor:I = 0x7f080127
+
+.field public static final ksad_kwad_titlebar:I = 0x7f080128
+
+.field public static final ksad_kwad_titlebar_title:I = 0x7f080129
+
+.field public static final ksad_kwad_web_navi_back:I = 0x7f08012a
+
+.field public static final ksad_kwad_web_navi_close:I = 0x7f08012b
+
+.field public static final ksad_kwad_web_title_bar:I = 0x7f08012c
+
+.field public static final ksad_land_page_logo:I = 0x7f08012d
+
+.field public static final ksad_land_page_root:I = 0x7f08012e
+
+.field public static final ksad_landing_page_container:I = 0x7f08012f
+
+.field public static final ksad_landing_page_root:I = 0x7f080130
+
+.field public static final ksad_landing_page_webview:I = 0x7f080131
+
+.field public static final ksad_left_slide:I = 0x7f080132
+
+.field public static final ksad_live_actionbar_btn:I = 0x7f080133
+
+.field public static final ksad_live_author_icon:I = 0x7f080134
+
+.field public static final ksad_live_bg_img:I = 0x7f080135
+
+.field public static final ksad_live_container:I = 0x7f080136
+
+.field public static final ksad_live_end_bg_mantle:I = 0x7f080137
+
+.field public static final ksad_live_end_bottom_action_btn:I = 0x7f080138
+
+.field public static final ksad_live_end_bottom_des_btn:I = 0x7f080139
+
+.field public static final ksad_live_end_bottom_divider:I = 0x7f08013a
+
+.field public static final ksad_live_end_bottom_title:I = 0x7f08013b
+
+.field public static final ksad_live_end_detail_layout:I = 0x7f08013c
+
+.field public static final ksad_live_end_detail_like_person_count:I = 0x7f08013d
+
+.field public static final ksad_live_end_detail_watch_person_count:I = 0x7f08013e
+
+.field public static final ksad_live_end_detail_watch_time:I = 0x7f08013f
+
+.field public static final ksad_live_end_page_author_icon:I = 0x7f080140
+
+.field public static final ksad_live_end_page_bg:I = 0x7f080141
+
+.field public static final ksad_live_end_page_close_btn:I = 0x7f080142
+
+.field public static final ksad_live_end_page_layout_root:I = 0x7f080143
+
+.field public static final ksad_live_end_text:I = 0x7f080144
+
+.field public static final ksad_live_end_top_divider:I = 0x7f080145
+
+.field public static final ksad_live_end_txt:I = 0x7f080146
+
+.field public static final ksad_live_subscribe_dialog_btn_close:I = 0x7f080147
+
+.field public static final ksad_live_subscribe_dialog_btn_continue:I = 0x7f080148
+
+.field public static final ksad_live_subscribe_dialog_btn_deny:I = 0x7f080149
+
+.field public static final ksad_live_subscribe_dialog_content:I = 0x7f08014a
+
+.field public static final ksad_live_subscribe_dialog_content_txt:I = 0x7f08014b
+
+.field public static final ksad_live_subscribe_dialog_icon:I = 0x7f08014c
+
+.field public static final ksad_live_subscribe_dialog_title:I = 0x7f08014d
+
+.field public static final ksad_live_subscribe_dialog_vide_detail:I = 0x7f08014e
+
+.field public static final ksad_live_subscribe_end_btn_close:I = 0x7f08014f
+
+.field public static final ksad_live_subscribe_end_btn_subscribe:I = 0x7f080150
+
+.field public static final ksad_live_subscribe_end_icon:I = 0x7f080151
+
+.field public static final ksad_live_subscribe_end_root:I = 0x7f080152
+
+.field public static final ksad_live_subscribe_end_start_time:I = 0x7f080153
+
+.field public static final ksad_live_subscribe_end_subscribe_count:I = 0x7f080154
+
+.field public static final ksad_live_subscribe_end_title:I = 0x7f080155
+
+.field public static final ksad_live_video_container:I = 0x7f080156
+
+.field public static final ksad_logo_container:I = 0x7f080157
+
+.field public static final ksad_logo_icon:I = 0x7f080158
+
+.field public static final ksad_logo_text:I = 0x7f080159
+
+.field public static final ksad_manual_tips_view:I = 0x7f08015a
+
+.field public static final ksad_message_toast_txt:I = 0x7f08015b
+
+.field public static final ksad_middle_end_card:I = 0x7f08015c
+
+.field public static final ksad_middle_end_card_webview_container:I = 0x7f08015d
+
+.field public static final ksad_multi_ad_container:I = 0x7f08015e
+
+.field public static final ksad_multi_ad_indicator:I = 0x7f08015f
+
+.field public static final ksad_no_title_common_content_layout:I = 0x7f080160
+
+.field public static final ksad_no_title_common_content_text:I = 0x7f080161
+
+.field public static final ksad_no_title_common_dialog_layout:I = 0x7f080162
+
+.field public static final ksad_no_title_common_negative_btn:I = 0x7f080163
+
+.field public static final ksad_no_title_common_positive_btn:I = 0x7f080164
+
+.field public static final ksad_normal_text:I = 0x7f080165
+
+.field public static final ksad_origin_live_bottom_layout:I = 0x7f080166
+
+.field public static final ksad_origin_live_bottom_text:I = 0x7f080167
+
+.field public static final ksad_outside_circle:I = 0x7f080168
+
+.field public static final ksad_play_detail_top_toolbar:I = 0x7f080169
+
+.field public static final ksad_play_end_top_toolbar:I = 0x7f08016a
+
+.field public static final ksad_play_end_web_card_container:I = 0x7f08016b
+
+.field public static final ksad_play_right_area:I = 0x7f08016c
+
+.field public static final ksad_play_right_area_bg_img:I = 0x7f08016d
+
+.field public static final ksad_play_right_area_container:I = 0x7f08016e
+
+.field public static final ksad_play_web_card_webView:I = 0x7f08016f
+
+.field public static final ksad_playabale_end_blur_img:I = 0x7f080170
+
+.field public static final ksad_playabale_end_btn_action:I = 0x7f080171
+
+.field public static final ksad_playabale_end_btn_container:I = 0x7f080172
+
+.field public static final ksad_playabale_end_card:I = 0x7f080173
+
+.field public static final ksad_playabale_end_content:I = 0x7f080174
+
+.field public static final ksad_playabale_end_desc:I = 0x7f080175
+
+.field public static final ksad_playabale_end_icon:I = 0x7f080176
+
+.field public static final ksad_playabale_end_title:I = 0x7f080177
+
+.field public static final ksad_playabale_logo:I = 0x7f080178
+
+.field public static final ksad_playabale_middle_divider:I = 0x7f080179
+
+.field public static final ksad_playabale_try:I = 0x7f08017a
+
+.field public static final ksad_playabel_pre_tips_icon:I = 0x7f08017b
+
+.field public static final ksad_playabel_pre_tips_text:I = 0x7f08017c
+
+.field public static final ksad_playable_activity_root:I = 0x7f08017d
+
+.field public static final ksad_playable_end_stub:I = 0x7f08017e
+
+.field public static final ksad_playable_end_tags:I = 0x7f08017f
+
+.field public static final ksad_playable_pre_tips_root:I = 0x7f080180
+
+.field public static final ksad_playable_pre_tips_stub:I = 0x7f080181
+
+.field public static final ksad_playable_webview:I = 0x7f080182
+
+.field public static final ksad_playend_native_container:I = 0x7f080183
+
+.field public static final ksad_playend_native_jinniu:I = 0x7f080184
+
+.field public static final ksad_pre_form_card:I = 0x7f080185
+
+.field public static final ksad_preload_container:I = 0x7f080186
+
+.field public static final ksad_product_price:I = 0x7f080187
+
+.field public static final ksad_progress_bar:I = 0x7f080188
+
+.field public static final ksad_progress_bg:I = 0x7f080189
+
+.field public static final ksad_push_ad_contaiber:I = 0x7f08018a
+
+.field public static final ksad_recycler_container:I = 0x7f08018b
+
+.field public static final ksad_recycler_view:I = 0x7f08018c
+
+.field public static final ksad_reward_apk_info_card_h5:I = 0x7f08018d
+
+.field public static final ksad_reward_apk_info_card_native_container:I = 0x7f08018e
+
+.field public static final ksad_reward_apk_info_card_root:I = 0x7f08018f
+
+.field public static final ksad_reward_apk_info_desc:I = 0x7f080190
+
+.field public static final ksad_reward_apk_info_desc_2:I = 0x7f080191
+
+.field public static final ksad_reward_apk_info_icon:I = 0x7f080192
+
+.field public static final ksad_reward_apk_info_install_action:I = 0x7f080193
+
+.field public static final ksad_reward_apk_info_install_container:I = 0x7f080194
+
+.field public static final ksad_reward_apk_info_install_start:I = 0x7f080195
+
+.field public static final ksad_reward_apk_info_name:I = 0x7f080196
+
+.field public static final ksad_reward_apk_info_score:I = 0x7f080197
+
+.field public static final ksad_reward_apk_info_stub:I = 0x7f080198
+
+.field public static final ksad_reward_apk_info_tags:I = 0x7f080199
+
+.field public static final ksad_reward_app_download_btn:I = 0x7f08019a
+
+.field public static final ksad_reward_btn_for_live_cover:I = 0x7f08019b
+
+.field public static final ksad_reward_close_extend_dialog_btn_continue:I = 0x7f08019c
+
+.field public static final ksad_reward_close_extend_dialog_btn_deny:I = 0x7f08019d
+
+.field public static final ksad_reward_close_extend_dialog_gift:I = 0x7f08019e
+
+.field public static final ksad_reward_close_extend_dialog_play_time_tips:I = 0x7f08019f
+
+.field public static final ksad_reward_deep_task_count_down:I = 0x7f0801a0
+
+.field public static final ksad_reward_deep_task_count_down_playend:I = 0x7f0801a1
+
+.field public static final ksad_reward_deep_task_sound_switch:I = 0x7f0801a2
+
+.field public static final ksad_reward_jinniu_btn_buy:I = 0x7f0801a3
+
+.field public static final ksad_reward_jinniu_card:I = 0x7f0801a4
+
+.field public static final ksad_reward_jinniu_coupon:I = 0x7f0801a5
+
+.field public static final ksad_reward_jinniu_coupon_layout:I = 0x7f0801a6
+
+.field public static final ksad_reward_jinniu_coupon_prefix:I = 0x7f0801a7
+
+.field public static final ksad_reward_jinniu_desc:I = 0x7f0801a8
+
+.field public static final ksad_reward_jinniu_dialog_btn_close:I = 0x7f0801a9
+
+.field public static final ksad_reward_jinniu_dialog_btn_continue:I = 0x7f0801aa
+
+.field public static final ksad_reward_jinniu_dialog_btn_deny:I = 0x7f0801ab
+
+.field public static final ksad_reward_jinniu_dialog_desc:I = 0x7f0801ac
+
+.field public static final ksad_reward_jinniu_dialog_detail:I = 0x7f0801ad
+
+.field public static final ksad_reward_jinniu_dialog_icon:I = 0x7f0801ae
+
+.field public static final ksad_reward_jinniu_dialog_play_time_tips:I = 0x7f0801af
+
+.field public static final ksad_reward_jinniu_dialog_title:I = 0x7f0801b0
+
+.field public static final ksad_reward_jinniu_end_btn_buy:I = 0x7f0801b1
+
+.field public static final ksad_reward_jinniu_end_btn_vide_detail:I = 0x7f0801b2
+
+.field public static final ksad_reward_jinniu_end_card:I = 0x7f0801b3
+
+.field public static final ksad_reward_jinniu_end_card_root:I = 0x7f0801b4
+
+.field public static final ksad_reward_jinniu_end_desc:I = 0x7f0801b5
+
+.field public static final ksad_reward_jinniu_end_icon:I = 0x7f0801b6
+
+.field public static final ksad_reward_jinniu_end_price:I = 0x7f0801b7
+
+.field public static final ksad_reward_jinniu_end_title:I = 0x7f0801b8
+
+.field public static final ksad_reward_jinniu_icon:I = 0x7f0801b9
+
+.field public static final ksad_reward_jinniu_light_sweep:I = 0x7f0801ba
+
+.field public static final ksad_reward_jinniu_price:I = 0x7f0801bb
+
+.field public static final ksad_reward_jinniu_price_layout:I = 0x7f0801bc
+
+.field public static final ksad_reward_jinniu_right_label:I = 0x7f0801bd
+
+.field public static final ksad_reward_jinniu_root:I = 0x7f0801be
+
+.field public static final ksad_reward_jinniu_text_area:I = 0x7f0801bf
+
+.field public static final ksad_reward_jinniu_title:I = 0x7f0801c0
+
+.field public static final ksad_reward_land_page_open_colon:I = 0x7f0801c1
+
+.field public static final ksad_reward_land_page_open_desc:I = 0x7f0801c2
+
+.field public static final ksad_reward_land_page_open_minute:I = 0x7f0801c3
+
+.field public static final ksad_reward_land_page_open_second:I = 0x7f0801c4
+
+.field public static final ksad_reward_land_page_open_tip:I = 0x7f0801c5
+
+.field public static final ksad_reward_live_kwai_logo:I = 0x7f0801c6
+
+.field public static final ksad_reward_live_subscribe_badge:I = 0x7f0801c7
+
+.field public static final ksad_reward_live_subscribe_btn_follow:I = 0x7f0801c8
+
+.field public static final ksad_reward_live_subscribe_count:I = 0x7f0801c9
+
+.field public static final ksad_reward_live_subscribe_desc:I = 0x7f0801ca
+
+.field public static final ksad_reward_live_subscribe_follower_area:I = 0x7f0801cb
+
+.field public static final ksad_reward_live_subscribe_follower_icon1:I = 0x7f0801cc
+
+.field public static final ksad_reward_live_subscribe_follower_icon2:I = 0x7f0801cd
+
+.field public static final ksad_reward_live_subscribe_follower_icon3:I = 0x7f0801ce
+
+.field public static final ksad_reward_live_subscribe_icon:I = 0x7f0801cf
+
+.field public static final ksad_reward_live_subscribe_kwai_logo:I = 0x7f0801d0
+
+.field public static final ksad_reward_live_subscribe_name:I = 0x7f0801d1
+
+.field public static final ksad_reward_live_subscribe_right:I = 0x7f0801d2
+
+.field public static final ksad_reward_live_subscribe_root:I = 0x7f0801d3
+
+.field public static final ksad_reward_live_subscribe_stub:I = 0x7f0801d4
+
+.field public static final ksad_reward_order_btn_buy:I = 0x7f0801d5
+
+.field public static final ksad_reward_order_card:I = 0x7f0801d6
+
+.field public static final ksad_reward_order_coupon:I = 0x7f0801d7
+
+.field public static final ksad_reward_order_coupon_list:I = 0x7f0801d8
+
+.field public static final ksad_reward_order_dialog_btn_close:I = 0x7f0801d9
+
+.field public static final ksad_reward_order_dialog_btn_deny:I = 0x7f0801da
+
+.field public static final ksad_reward_order_dialog_btn_view_detail:I = 0x7f0801db
+
+.field public static final ksad_reward_order_dialog_desc:I = 0x7f0801dc
+
+.field public static final ksad_reward_order_dialog_icon:I = 0x7f0801dd
+
+.field public static final ksad_reward_order_end_btn_buy:I = 0x7f0801de
+
+.field public static final ksad_reward_order_end_btn_close:I = 0x7f0801df
+
+.field public static final ksad_reward_order_end_card:I = 0x7f0801e0
+
+.field public static final ksad_reward_order_end_card_root:I = 0x7f0801e1
+
+.field public static final ksad_reward_order_end_desc:I = 0x7f0801e2
+
+.field public static final ksad_reward_order_end_icon:I = 0x7f0801e3
+
+.field public static final ksad_reward_order_end_price:I = 0x7f0801e4
+
+.field public static final ksad_reward_order_end_title:I = 0x7f0801e5
+
+.field public static final ksad_reward_order_icon:I = 0x7f0801e6
+
+.field public static final ksad_reward_order_kwai_logo:I = 0x7f0801e7
+
+.field public static final ksad_reward_order_price:I = 0x7f0801e8
+
+.field public static final ksad_reward_order_root:I = 0x7f0801e9
+
+.field public static final ksad_reward_order_text_area:I = 0x7f0801ea
+
+.field public static final ksad_reward_order_title:I = 0x7f0801eb
+
+.field public static final ksad_reward_origin_live_base1:I = 0x7f0801ec
+
+.field public static final ksad_reward_origin_live_base_stub:I = 0x7f0801ed
+
+.field public static final ksad_reward_origin_live_end_page_stub:I = 0x7f0801ee
+
+.field public static final ksad_reward_origin_live_relative:I = 0x7f0801ef
+
+.field public static final ksad_reward_origin_live_root:I = 0x7f0801f0
+
+.field public static final ksad_reward_origin_live_shop_stub:I = 0x7f0801f1
+
+.field public static final ksad_reward_play_layout:I = 0x7f0801f2
+
+.field public static final ksad_reward_preview_logo:I = 0x7f0801f3
+
+.field public static final ksad_reward_preview_skip_btn:I = 0x7f0801f4
+
+.field public static final ksad_reward_preview_skip_div:I = 0x7f0801f5
+
+.field public static final ksad_reward_preview_skip_layout:I = 0x7f0801f6
+
+.field public static final ksad_reward_preview_skip_time:I = 0x7f0801f7
+
+.field public static final ksad_reward_right_arrow:I = 0x7f0801f8
+
+.field public static final ksad_reward_task_dialog_abandon:I = 0x7f0801f9
+
+.field public static final ksad_reward_task_dialog_continue:I = 0x7f0801fa
+
+.field public static final ksad_reward_task_dialog_icon:I = 0x7f0801fb
+
+.field public static final ksad_reward_task_dialog_steps:I = 0x7f0801fc
+
+.field public static final ksad_reward_task_dialog_title:I = 0x7f0801fd
+
+.field public static final ksad_reward_task_step_item_icon:I = 0x7f0801fe
+
+.field public static final ksad_reward_task_step_item_icon_text:I = 0x7f0801ff
+
+.field public static final ksad_reward_task_step_item_text:I = 0x7f080200
+
+.field public static final ksad_reward_text_aera:I = 0x7f080201
+
+.field public static final ksad_reward_time_close_dialog_btn_continue:I = 0x7f080202
+
+.field public static final ksad_reward_time_close_dialog_btn_deny:I = 0x7f080203
+
+.field public static final ksad_reward_time_close_dialog_desc:I = 0x7f080204
+
+.field public static final ksad_reward_time_close_dialog_detail:I = 0x7f080205
+
+.field public static final ksad_reward_time_close_dialog_icon:I = 0x7f080206
+
+.field public static final ksad_reward_time_close_dialog_play_time_tips:I = 0x7f080207
+
+.field public static final ksad_reward_time_close_dialog_title:I = 0x7f080208
+
+.field public static final ksad_right_area_webview:I = 0x7f080209
+
+.field public static final ksad_right_area_webview_container:I = 0x7f08020a
+
+.field public static final ksad_right_close:I = 0x7f08020b
+
+.field public static final ksad_right_slide:I = 0x7f08020c
+
+.field public static final ksad_root_container:I = 0x7f08020d
+
+.field public static final ksad_rotate_action:I = 0x7f08020e
+
+.field public static final ksad_rotate_layout:I = 0x7f08020f
+
+.field public static final ksad_rotate_root:I = 0x7f080210
+
+.field public static final ksad_rotate_text:I = 0x7f080211
+
+.field public static final ksad_rotate_view:I = 0x7f080212
+
+.field public static final ksad_score_fifth:I = 0x7f080213
+
+.field public static final ksad_score_fourth:I = 0x7f080214
+
+.field public static final ksad_shake_action:I = 0x7f080215
+
+.field public static final ksad_shake_center_circle_area:I = 0x7f080216
+
+.field public static final ksad_shake_center_circle_area_bg:I = 0x7f080217
+
+.field public static final ksad_shake_center_icon:I = 0x7f080218
+
+.field public static final ksad_shake_center_root:I = 0x7f080219
+
+.field public static final ksad_shake_center_sub_title:I = 0x7f08021a
+
+.field public static final ksad_shake_center_title:I = 0x7f08021b
+
+.field public static final ksad_shake_layout:I = 0x7f08021c
+
+.field public static final ksad_shake_root:I = 0x7f08021d
+
+.field public static final ksad_shake_text:I = 0x7f08021e
+
+.field public static final ksad_shake_tips_label:I = 0x7f08021f
+
+.field public static final ksad_shake_view:I = 0x7f080220
+
+.field public static final ksad_skip_icon:I = 0x7f080221
+
+.field public static final ksad_skip_view_area:I = 0x7f080222
+
+.field public static final ksad_skip_view_divider:I = 0x7f080223
+
+.field public static final ksad_skip_view_skip:I = 0x7f080224
+
+.field public static final ksad_skip_view_timer:I = 0x7f080225
+
+.field public static final ksad_slide_layout:I = 0x7f080226
+
+.field public static final ksad_space:I = 0x7f080227
+
+.field public static final ksad_splash_actionbar_full_screen:I = 0x7f080228
+
+.field public static final ksad_splash_actionbar_native:I = 0x7f080229
+
+.field public static final ksad_splash_actionbar_native_root:I = 0x7f08022a
+
+.field public static final ksad_splash_actionbar_native_stub:I = 0x7f08022b
+
+.field public static final ksad_splash_actionbar_text:I = 0x7f08022c
+
+.field public static final ksad_splash_background:I = 0x7f08022d
+
+.field public static final ksad_splash_circle_skip_view:I = 0x7f08022e
+
+.field public static final ksad_splash_end_card_giftbox_view:I = 0x7f08022f
+
+.field public static final ksad_splash_end_card_native_bg:I = 0x7f080230
+
+.field public static final ksad_splash_end_card_native_dialog_root:I = 0x7f080231
+
+.field public static final ksad_splash_end_card_native_root:I = 0x7f080232
+
+.field public static final ksad_splash_end_card_native_view:I = 0x7f080233
+
+.field public static final ksad_splash_endcard_actionbar:I = 0x7f080234
+
+.field public static final ksad_splash_endcard_close_img:I = 0x7f080235
+
+.field public static final ksad_splash_endcard_view_stub:I = 0x7f080236
+
+.field public static final ksad_splash_foreground:I = 0x7f080237
+
+.field public static final ksad_splash_left_top_root:I = 0x7f080238
+
+.field public static final ksad_splash_left_top_view_stub:I = 0x7f080239
+
+.field public static final ksad_splash_logo_container:I = 0x7f08023a
+
+.field public static final ksad_splash_preload_tips:I = 0x7f08023b
+
+.field public static final ksad_splash_right_top_root:I = 0x7f08023c
+
+.field public static final ksad_splash_right_top_view_stub:I = 0x7f08023d
+
+.field public static final ksad_splash_root_container:I = 0x7f08023e
+
+.field public static final ksad_splash_skip_view:I = 0x7f08023f
+
+.field public static final ksad_splash_slideTouchView:I = 0x7f080240
+
+.field public static final ksad_splash_slideView:I = 0x7f080241
+
+.field public static final ksad_splash_slide_actiontext:I = 0x7f080242
+
+.field public static final ksad_splash_slide_title:I = 0x7f080243
+
+.field public static final ksad_splash_sound:I = 0x7f080244
+
+.field public static final ksad_splash_video_player:I = 0x7f080245
+
+.field public static final ksad_splash_web_card_webView:I = 0x7f080246
+
+.field public static final ksad_splash_webview_container:I = 0x7f080247
+
+.field public static final ksad_split_land_ad_feed_video:I = 0x7f080248
+
+.field public static final ksad_split_mini_close_btn:I = 0x7f080249
+
+.field public static final ksad_split_texture:I = 0x7f08024a
+
+.field public static final ksad_status_tv:I = 0x7f08024b
+
+.field public static final ksad_swipe:I = 0x7f08024c
+
+.field public static final ksad_tf_h5_ad_desc:I = 0x7f08024d
+
+.field public static final ksad_tf_h5_open_btn:I = 0x7f08024e
+
+.field public static final ksad_title:I = 0x7f08024f
+
+.field public static final ksad_tk_bg_view:I = 0x7f080250
+
+.field public static final ksad_tk_dialog_container:I = 0x7f080251
+
+.field public static final ksad_tk_root_container:I = 0x7f080252
+
+.field public static final ksad_tk_view:I = 0x7f080253
+
+.field public static final ksad_toast_view:I = 0x7f080254
+
+.field public static final ksad_top_flag_layout:I = 0x7f080255
+
+.field public static final ksad_top_layout:I = 0x7f080256
+
+.field public static final ksad_top_left:I = 0x7f080257
+
+.field public static final ksad_top_toolbar_close_tip:I = 0x7f080258
+
+.field public static final ksad_total_count_down_text:I = 0x7f080259
+
+.field public static final ksad_video_app_tail_frame:I = 0x7f08025a
+
+.field public static final ksad_video_blur_bg:I = 0x7f08025b
+
+.field public static final ksad_video_complete_app_container:I = 0x7f08025c
+
+.field public static final ksad_video_complete_app_icon:I = 0x7f08025d
+
+.field public static final ksad_video_complete_h5_container:I = 0x7f08025e
+
+.field public static final ksad_video_container:I = 0x7f08025f
+
+.field public static final ksad_video_control_button:I = 0x7f080260
+
+.field public static final ksad_video_control_container:I = 0x7f080261
+
+.field public static final ksad_video_control_fullscreen:I = 0x7f080262
+
+.field public static final ksad_video_control_fullscreen_container:I = 0x7f080263
+
+.field public static final ksad_video_control_fullscreen_title:I = 0x7f080264
+
+.field public static final ksad_video_control_play_button:I = 0x7f080265
+
+.field public static final ksad_video_control_play_duration:I = 0x7f080266
+
+.field public static final ksad_video_control_play_status:I = 0x7f080267
+
+.field public static final ksad_video_control_play_total:I = 0x7f080268
+
+.field public static final ksad_video_count_down:I = 0x7f080269
+
+.field public static final ksad_video_cover:I = 0x7f08026a
+
+.field public static final ksad_video_cover_image:I = 0x7f08026b
+
+.field public static final ksad_video_error_container:I = 0x7f08026c
+
+.field public static final ksad_video_fail_tip:I = 0x7f08026d
+
+.field public static final ksad_video_first_frame:I = 0x7f08026e
+
+.field public static final ksad_video_first_frame_container:I = 0x7f08026f
+
+.field public static final ksad_video_h5_tail_frame:I = 0x7f080270
+
+.field public static final ksad_video_immerse_text:I = 0x7f080271
+
+.field public static final ksad_video_immerse_text_container:I = 0x7f080272
+
+.field public static final ksad_video_network_unavailable:I = 0x7f080273
+
+.field public static final ksad_video_play_bar_app_landscape:I = 0x7f080274
+
+.field public static final ksad_video_play_bar_app_portrait:I = 0x7f080275
+
+.field public static final ksad_video_play_bar_h5:I = 0x7f080276
+
+.field public static final ksad_video_player:I = 0x7f080277
+
+.field public static final ksad_video_progress:I = 0x7f080278
+
+.field public static final ksad_video_root_container:I = 0x7f080279
+
+.field public static final ksad_video_sound_switch:I = 0x7f08027a
+
+.field public static final ksad_video_tail_frame:I = 0x7f08027b
+
+.field public static final ksad_video_tail_frame_container:I = 0x7f08027c
+
+.field public static final ksad_video_text_below:I = 0x7f08027d
+
+.field public static final ksad_video_text_below_action_bar:I = 0x7f08027e
+
+.field public static final ksad_video_text_below_action_icon:I = 0x7f08027f
+
+.field public static final ksad_video_text_below_action_icon_layout:I = 0x7f080280
+
+.field public static final ksad_video_text_below_action_title:I = 0x7f080281
+
+.field public static final ksad_video_tf_logo:I = 0x7f080282
+
+.field public static final ksad_video_thumb_container:I = 0x7f080283
+
+.field public static final ksad_video_thumb_image:I = 0x7f080284
+
+.field public static final ksad_video_thumb_img:I = 0x7f080285
+
+.field public static final ksad_video_thumb_left:I = 0x7f080286
+
+.field public static final ksad_video_thumb_mid:I = 0x7f080287
+
+.field public static final ksad_video_thumb_right:I = 0x7f080288
+
+.field public static final ksad_video_webView:I = 0x7f080289
+
+.field public static final ksad_video_webview:I = 0x7f08028a
+
+.field public static final ksad_web_bottom_card_webView:I = 0x7f08028b
+
+.field public static final ksad_web_card_container:I = 0x7f08028c
+
+.field public static final ksad_web_card_frame:I = 0x7f08028d
+
+.field public static final ksad_web_card_webView:I = 0x7f08028e
+
+.field public static final ksad_web_close_btn:I = 0x7f08028f
+
+.field public static final ksad_web_default_bottom_card_webView:I = 0x7f080290
+
+.field public static final ksad_web_download_container:I = 0x7f080291
+
+.field public static final ksad_web_download_progress:I = 0x7f080292
+
+.field public static final ksad_web_exit_intercept_negative_btn:I = 0x7f080293
+
+.field public static final ksad_web_exit_intercept_positive_btn:I = 0x7f080294
+
+.field public static final ksad_web_reward_task_layout:I = 0x7f080295
+
+.field public static final ksad_web_reward_task_text:I = 0x7f080296
+
+.field public static final ksad_web_tip_bar:I = 0x7f080297
+
+.field public static final ksad_web_tip_bar_textview:I = 0x7f080298
+
+.field public static final ksad_web_tip_close_btn:I = 0x7f080299
+
+.field public static final ksad_web_video_seek_bar:I = 0x7f08029a
+
+.field public static final kwad_actionbar_des_text:I = 0x7f08029b
+
+.field public static final kwad_actionbar_title:I = 0x7f08029c
+
+.field public static final left:I = 0x7f08029f
+
+.field public static final line1:I = 0x7f0802a1
+
+.field public static final line3:I = 0x7f0802a2
+
+.field public static final listMode:I = 0x7f0802a3
+
+.field public static final list_item:I = 0x7f0802a4
+
+.field public static final message:I = 0x7f08036a
+
+.field public static final monospace:I = 0x7f08036e
+
+.field public static final multiply:I = 0x7f080371
+
+.field public static final none:I = 0x7f08037d
+
+.field public static final normal:I = 0x7f08037e
+
+.field public static final notification_background:I = 0x7f08037f
+
+.field public static final notification_main_column:I = 0x7f080380
+
+.field public static final notification_main_column_container:I = 0x7f080381
+
+.field public static final parentPanel:I = 0x7f080384
+
+.field public static final progress_circular:I = 0x7f080389
+
+.field public static final progress_horizontal:I = 0x7f08038a
+
+.field public static final radio:I = 0x7f08038b
+
+.field public static final right:I = 0x7f08038c
+
+.field public static final right_icon:I = 0x7f08038d
+
+.field public static final right_side:I = 0x7f08038e
+
+.field public static final root:I = 0x7f08038f
+
+.field public static final sans:I = 0x7f080390
+
+.field public static final screen:I = 0x7f080394
+
+.field public static final scrollIndicatorDown:I = 0x7f080396
+
+.field public static final scrollIndicatorUp:I = 0x7f080397
+
+.field public static final scrollView:I = 0x7f080398
+
+.field public static final search_badge:I = 0x7f08039a
+
+.field public static final search_bar:I = 0x7f08039b
+
+.field public static final search_button:I = 0x7f08039c
+
+.field public static final search_close_btn:I = 0x7f08039d
+
+.field public static final search_edit_frame:I = 0x7f08039e
+
+.field public static final search_go_btn:I = 0x7f08039f
+
+.field public static final search_mag_icon:I = 0x7f0803a0
+
+.field public static final search_plate:I = 0x7f0803a1
+
+.field public static final search_src_text:I = 0x7f0803a2
+
+.field public static final search_voice_btn:I = 0x7f0803a3
+
+.field public static final select_dialog_listview:I = 0x7f0803a4
+
+.field public static final serif:I = 0x7f0803a6
+
+.field public static final shortcut:I = 0x7f0803a7
+
+.field public static final spacer:I = 0x7f0803d5
+
+.field public static final splash_end_card_view:I = 0x7f0803d6
+
+.field public static final splash_play_card_view:I = 0x7f0803d7
+
+.field public static final splash_tk_play_card_view:I = 0x7f0803d8
+
+.field public static final split_action_bar:I = 0x7f0803d9
+
+.field public static final src_atop:I = 0x7f0803da
+
+.field public static final src_in:I = 0x7f0803db
+
+.field public static final src_over:I = 0x7f0803dc
+
+.field public static final start:I = 0x7f0803dd
+
+.field public static final submenuarrow:I = 0x7f0803df
+
+.field public static final submit_area:I = 0x7f0803e0
+
+.field public static final tabMode:I = 0x7f0803e1
+
+.field public static final tag_transition_group:I = 0x7f0803e2
+
+.field public static final tag_unhandled_key_event_manager:I = 0x7f0803e3
+
+.field public static final tag_unhandled_key_listeners:I = 0x7f0803e4
+
+.field public static final text:I = 0x7f0803e5
+
+.field public static final text2:I = 0x7f0803e6
+
+.field public static final textSpacerNoButtons:I = 0x7f0803e7
+
+.field public static final textSpacerNoTitle:I = 0x7f0803e8
+
+.field public static final time:I = 0x7f0803ee
+
+.field public static final title:I = 0x7f0803ef
+
+.field public static final titleDividerNoCustom:I = 0x7f0803f0
+
+.field public static final title_template:I = 0x7f0803f2
+
+.field public static final top:I = 0x7f0804f2
+
+.field public static final topPanel:I = 0x7f0804f3
+
+.field public static final uniform:I = 0x7f080512
+
+.field public static final up:I = 0x7f080514
+
+.field public static final vertical:I = 0x7f080516
+
+.field public static final video_cover:I = 0x7f080517
+
+.field public static final view_stub_action_bar:I = 0x7f080519
+
+.field public static final view_stub_action_bar_landscape:I = 0x7f08051a
+
+.field public static final wrap_content:I = 0x7f08051d
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

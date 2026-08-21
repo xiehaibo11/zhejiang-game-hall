@@ -1,0 +1,53 @@
+package com.mbridge.msdk.foundation.same;
+
+/* JADX INFO: compiled from: CommonConst.java */
+/* JADX INFO: loaded from: classes2.dex */
+public final class a {
+    public static int A = 1;
+    public static int B = 2;
+    public static int C = 3;
+    public static String D = "0";
+    public static int E = 1;
+    public static int F = 0;
+    public static int G = 1;
+    public static int H = 2;
+    public static int I = 3;
+    public static int J = 4;
+    public static int K = 5;
+    public static int L = 6;
+    public static int M = 30000;
+    public static int N = 30000;
+    public static int O = 30000;
+    public static int P = 30000;
+    public static int Q = 30000;
+    public static int R = 30000;
+    public static int S = 0;
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static String f3397a = "mbridge";
+    public static String b = "";
+    public static String c = "";
+    public static String d = "";
+    public static String e = "";
+    public static String f = "2.3";
+    public static String g = "1";
+    public static boolean h = false;
+    public static boolean i = false;
+    public static boolean j = false;
+    public static boolean k = false;
+    public static String l = "2";
+    public static int m = 8;
+    public static String n = "click_x";
+    public static String o = "click_y";
+    public static String p = "cta_click_info";
+    public static String q = "click_senario";
+    public static String r = "click_ori";
+    public static String s = "click_scale";
+    public static String t = "";
+    public static String u = "";
+    public static int v = 60000;
+    public static int w = 10078;
+    public static int x = 10079;
+    public static int y = 10080;
+    public static int z = 10081;
+}

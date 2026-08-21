@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/show_policy_bg_rl" android:background="@drawable/show_policy_big_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/show_policy_ok_ll" android:layout_width="match_parent" android:layout_height="@dimen/px_65" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/sp_20" android:textStyle="bold" android:textColor="@color/show_permission_white" android:id="@id/privacypolicy_refuse" android:background="@drawable/show_policy_btn_cancel" android:paddingLeft="@dimen/px_25" android:paddingRight="@dimen/px_25" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="@dimen/px_10" android:text="拒    绝" />
+        <Button android:textSize="@dimen/sp_20" android:textStyle="bold" android:textColor="@color/show_permission_white" android:id="@id/privacypolicy_ok" android:background="@drawable/show_policy_btn_ok" android:paddingLeft="@dimen/px_25" android:paddingRight="@dimen/px_25" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="@dimen/px_10" android:text="允    许" />
+    </LinearLayout>
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/px_100" android:layout_below="@id/show_policy_title_tv">
+        <LinearLayout android:orientation="vertical" android:id="@id/show_policy_ll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px_30" android:layout_marginRight="@dimen/px_30">
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@color/show_policy_content_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/show_policy_content" android:padding="@dimen/px_10" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="@dimen/sp_30" android:textStyle="bold" android:textColor="@color/show_policy_title_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/show_policy_title_tv" android:padding="@dimen/px_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_show_policy_title" android:layout_alignParentTop="true" />
+    <TextView android:textColor="@color/show_policy_content_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/show_policy_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="点击查看《服务协议》和《游戏隐私政策》" android:layout_above="@id/show_policy_ok_ll" />
+</RelativeLayout>

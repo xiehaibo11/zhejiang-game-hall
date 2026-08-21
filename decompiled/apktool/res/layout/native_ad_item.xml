@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/native_ad2_rl" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/native_ad2_rlrl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <ImageView android:id="@id/native_ad2_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginLeft="15.0dp" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0dp" android:textColor="#ff333333" android:id="@id/native_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" android:maxLines="2" android:maxEms="5" android:layout_toRightOf="@id/native_ad2_icon" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0dp" android:textColor="#ff333333" android:id="@id/native_ad_install_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" android:maxLines="2" android:maxEms="5" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textColor="#ff666666" android:id="@id/native_ad_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="5.0dp" android:maxLines="2" android:layout_below="@id/native_ad2_rlrl" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="#ff666666" android:id="@id/native_ad_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="5.0dp" android:maxLines="2" android:layout_below="@id/native_ad_desc" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/native_ad_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/native_ad_content_image_area" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+package com.bytedance.pangle.download;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface IZeusDownloadListener {
+    void onFailed(Throwable th, int i, String str);
+
+    void onProgress(long j, long j2);
+
+    void onStart();
+
+    void onSuccess(String str, String str2, long j);
+}

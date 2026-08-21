@@ -1,0 +1,186 @@
+package com.meizu.cloud.pushsdk.d.f;
+
+import android.content.Context;
+import android.graphics.Point;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Build;
+import android.telephony.TelephonyManager;
+import android.view.Display;
+import android.view.WindowManager;
+import java.lang.reflect.Array;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.UUID;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class e {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private static final String f4597a = e.class.getSimpleName();
+
+    public static long a(String str) {
+        long j;
+        long j2 = 0;
+        int i = 0;
+        while (i < str.length()) {
+            char cCharAt = str.charAt(i);
+            if (cCharAt <= 127) {
+                j = 1;
+            } else if (cCharAt <= 2047) {
+                j = 2;
+            } else {
+                if (cCharAt >= 55296 && cCharAt <= 57343) {
+                    j2 += 4;
+                    i++;
+                } else if (cCharAt < 65535) {
+                    j = 3;
+                } else {
+                    j2 += 4;
+                }
+                i++;
+            }
+            j2 += j;
+            i++;
+        }
+        return j2;
+    }
+
+    private static Object a(Object obj) {
+        if (Build.VERSION.SDK_INT >= 19) {
+            return obj;
+        }
+        if (obj == null) {
+            return JSONObject.NULL;
+        }
+        if ((obj instanceof JSONObject) || (obj instanceof JSONArray)) {
+            return obj;
+        }
+        if (obj instanceof Collection) {
+            JSONArray jSONArray = new JSONArray();
+            Iterator it = ((Collection) obj).iterator();
+            while (it.hasNext()) {
+                jSONArray.put(a(it.next()));
+            }
+            return jSONArray;
+        }
+        if (obj.getClass().isArray()) {
+            JSONArray jSONArray2 = new JSONArray();
+            int length = Array.getLength(obj);
+            for (int i = 0; i < length; i++) {
+                jSONArray2.put(a(Array.get(obj, i)));
+            }
+            return jSONArray2;
+        }
+        if (obj instanceof Map) {
+            return a((Map) obj);
+        }
+        if ((obj instanceof Boolean) || (obj instanceof Byte) || (obj instanceof Character) || (obj instanceof Double) || (obj instanceof Float) || (obj instanceof Integer) || (obj instanceof Long) || (obj instanceof Short) || (obj instanceof String)) {
+            return obj;
+        }
+        if (obj.getClass().getPackage().getName().startsWith("java.")) {
+            return obj.toString();
+        }
+        return null;
+    }
+
+    public static String a() {
+        return Long.toString(System.currentTimeMillis());
+    }
+
+    public static JSONObject a(Map map) {
+        if (Build.VERSION.SDK_INT >= 19) {
+            return new JSONObject((Map<String, Object>) map);
+        }
+        JSONObject jSONObject = new JSONObject();
+        for (Map.Entry entry : map.entrySet()) {
+            String str = (String) entry.getKey();
+            Object objA = a(entry.getValue());
+            try {
+                jSONObject.put(str, objA);
+            } catch (JSONException e) {
+                c.a(f4597a, "Could not put key '%s' and value '%s' into new JSONObject: %s", str, objA, e);
+                e.printStackTrace();
+            }
+        }
+        return jSONObject;
+    }
+
+    public static boolean a(long j, long j2, long j3) {
+        return j > j2 - j3;
+    }
+
+    public static boolean a(Context context) {
+        try {
+            c.c(f4597a, "Checking tracker internet connectivity.", new Object[0]);
+            ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService("connectivity");
+            if (connectivityManager == null) {
+                return false;
+            }
+            NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+            boolean z = activeNetworkInfo != null && activeNetworkInfo.isConnected();
+            c.b(f4597a, "Tracker connection online: %s", Boolean.valueOf(z));
+            return z;
+        } catch (Exception e) {
+            c.a(f4597a, "Security exception checking connection: %s", e.toString());
+            return true;
+        }
+    }
+
+    public static String b() {
+        return UUID.randomUUID().toString();
+    }
+
+    public static String b(Context context) {
+        try {
+            TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService("phone");
+            if (telephonyManager != null) {
+                return telephonyManager.getNetworkOperatorName();
+            }
+            return null;
+        } catch (Exception e) {
+            c.a(f4597a, "getCarrier: %s", e.toString());
+            return null;
+        }
+    }
+
+    public static String c(Context context) {
+        try {
+            TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService("phone");
+            if (telephonyManager != null) {
+                return telephonyManager.getSimOperator();
+            }
+            return null;
+        } catch (Exception e) {
+            c.a(f4597a, "getOperator error " + e.getMessage(), new Object[0]);
+            return null;
+        }
+    }
+
+    public static Point d(Context context) {
+        Point point = new Point();
+        Display defaultDisplay = null;
+        try {
+            WindowManager windowManager = (WindowManager) context.getSystemService("window");
+            if (windowManager == null) {
+                return null;
+            }
+            defaultDisplay = windowManager.getDefaultDisplay();
+            Display.class.getMethod("getSize", Point.class);
+            defaultDisplay.getSize(point);
+        } catch (Exception unused) {
+            c.a(f4597a, "Display.getSize isn't available on older devices.", new Object[0]);
+            if (defaultDisplay != null) {
+                point.x = defaultDisplay.getWidth();
+                point.y = defaultDisplay.getHeight();
+            } else {
+                c.a(f4597a, "error get display", new Object[0]);
+            }
+        }
+        return point;
+    }
+}

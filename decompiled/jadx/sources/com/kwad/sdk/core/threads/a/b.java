@@ -1,0 +1,59 @@
+package com.kwad.sdk.core.threads.a;
+
+import android.os.SystemClock;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.RejectedExecutionHandler;
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class b extends ThreadPoolExecutor implements c {
+    public static volatile boolean avy;
+    private long avA;
+    private int avB;
+    private final ConcurrentHashMap<Runnable, Long> avz;
+
+    public b(int i, int i2, long j, TimeUnit timeUnit, BlockingQueue<Runnable> blockingQueue, ThreadFactory threadFactory) {
+        super(i, i2, j, timeUnit, blockingQueue, threadFactory);
+        this.avz = new ConcurrentHashMap<>();
+        this.avA = 0L;
+        this.avB = 0;
+    }
+
+    public b(int i, int i2, long j, TimeUnit timeUnit, BlockingQueue<Runnable> blockingQueue, ThreadFactory threadFactory, RejectedExecutionHandler rejectedExecutionHandler) {
+        super(i, i2, j, timeUnit, blockingQueue, threadFactory, rejectedExecutionHandler);
+        this.avz = new ConcurrentHashMap<>();
+        this.avA = 0L;
+        this.avB = 0;
+    }
+
+    @Override // com.kwad.sdk.core.threads.a.c
+    public final long Dl() {
+        return this.avA;
+    }
+
+    @Override // java.util.concurrent.ThreadPoolExecutor
+    protected final void beforeExecute(Thread thread, Runnable runnable) {
+        super.beforeExecute(thread, runnable);
+        if (avy && this.avz.containsKey(runnable) && this.avz.get(runnable) != null) {
+            long jElapsedRealtime = SystemClock.elapsedRealtime() - this.avz.get(runnable).longValue();
+            if (jElapsedRealtime >= 0 && jElapsedRealtime < 1800000) {
+                long j = this.avA;
+                int i = this.avB;
+                this.avA = ((j * ((long) i)) + jElapsedRealtime) / ((long) (i + 1));
+                this.avB = i + 1;
+            }
+            this.avz.remove(runnable);
+        }
+    }
+
+    @Override // java.util.concurrent.ThreadPoolExecutor, java.util.concurrent.Executor
+    public final void execute(Runnable runnable) {
+        if (avy) {
+            this.avz.put(runnable, Long.valueOf(SystemClock.elapsedRealtime()));
+        }
+        super.execute(runnable);
+    }
+}

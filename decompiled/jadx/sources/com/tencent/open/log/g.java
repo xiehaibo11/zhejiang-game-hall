@@ -1,0 +1,55 @@
+package com.tencent.open.log;
+
+import android.text.format.Time;
+import android.util.Log;
+import com.xiaomi.mipush.sdk.Constants;
+import cz.msebera.android.httpclient.message.TokenParser;
+
+/* JADX INFO: compiled from: ProGuard */
+/* JADX INFO: loaded from: classes3.dex */
+public final class g {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final g f5523a = new g();
+
+    public final String a(int i) {
+        return i != 1 ? i != 2 ? i != 4 ? i != 8 ? i != 16 ? i != 32 ? Constants.ACCEPT_TIME_SEPARATOR_SERVER : "A" : "E" : "W" : "I" : "D" : "V";
+    }
+
+    public String a(int i, Thread thread, long j, String str, String str2, Throwable th) {
+        long j2 = j % 1000;
+        Time time = new Time();
+        time.set(j);
+        StringBuilder sb = new StringBuilder();
+        sb.append(a(i));
+        sb.append('/');
+        sb.append(time.format("%Y-%m-%d %H:%M:%S"));
+        sb.append('.');
+        if (j2 < 10) {
+            sb.append(com.sigmob.sdk.archives.tar.e.V);
+        } else if (j2 < 100) {
+            sb.append('0');
+        }
+        sb.append(j2);
+        sb.append(TokenParser.SP);
+        sb.append('[');
+        if (thread == null) {
+            sb.append("N/A");
+        } else {
+            sb.append(thread.getName());
+        }
+        sb.append(']');
+        sb.append('[');
+        sb.append(str);
+        sb.append(']');
+        sb.append(TokenParser.SP);
+        sb.append(str2);
+        sb.append('\n');
+        if (th != null) {
+            sb.append("* Exception : \n");
+            sb.append(Log.getStackTraceString(th));
+            sb.append('\n');
+        }
+        return sb.toString();
+    }
+}

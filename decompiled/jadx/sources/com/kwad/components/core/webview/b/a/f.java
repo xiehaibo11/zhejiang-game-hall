@@ -1,0 +1,18 @@
+package com.kwad.components.core.webview.b.a;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class f implements com.kwad.sdk.core.webview.c.a {
+    @Override // com.kwad.sdk.core.webview.c.a
+    public final void a(String str, com.kwad.sdk.core.webview.c.c cVar) {
+        cVar.a(com.kwad.sdk.core.config.d.zw());
+    }
+
+    @Override // com.kwad.sdk.core.webview.c.a
+    public final String getKey() {
+        return "getKsAdConfig";
+    }
+
+    @Override // com.kwad.sdk.core.webview.c.a
+    public final void onDestroy() {
+    }
+}

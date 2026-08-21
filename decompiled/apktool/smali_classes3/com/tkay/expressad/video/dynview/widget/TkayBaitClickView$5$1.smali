@@ -1,0 +1,72 @@
+.class final Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5$1;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;->onAnimationEnd(Landroid/view/animation/Animation;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;
+
+
+# direct methods
+.method constructor <init>(Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;)V
+    .locals 0
+
+    .line 408
+    iput-object p1, p0, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5$1;->a:Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 411
+    iget-object v0, p0, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5$1;->a:Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;
+
+    iget-object v0, v0, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;->a:Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView;
+
+    invoke-static {v0}, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView;->b(Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView;)Lcom/tkay/expressad/video/dynview/widget/TYImageView;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 412
+    iget-object v0, p0, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5$1;->a:Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;
+
+    iget-object v0, v0, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;->a:Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView;
+
+    invoke-static {v0}, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView;->b(Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView;)Lcom/tkay/expressad/video/dynview/widget/TYImageView;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5$1;->a:Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;
+
+    iget-object v1, v1, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView$5;->a:Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView;
+
+    invoke-static {v1}, Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView;->c(Lcom/tkay/expressad/video/dynview/widget/TkayBaitClickView;)Landroid/view/animation/Animation;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Lcom/tkay/expressad/video/dynview/widget/TYImageView;->startAnimation(Landroid/view/animation/Animation;)V
+
+    :cond_0
+    return-void
+.end method

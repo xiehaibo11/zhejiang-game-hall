@@ -1,0 +1,71 @@
+package com.tkay.expressad.exoplayer;
+
+import android.os.Looper;
+import com.tkay.expressad.exoplayer.w;
+import com.tkay.expressad.exoplayer.x;
+
+/* JADX INFO: loaded from: classes3.dex */
+public interface h extends w {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    @Deprecated
+    public static final int f6609a = 1;
+
+    @Deprecated
+    public static final int b = 2;
+
+    @Deprecated
+    public static final int c = 3;
+
+    @Deprecated
+    public static final int d = 4;
+
+    @Deprecated
+    public static final int e = 0;
+
+    @Deprecated
+    public static final int f = 1;
+
+    @Deprecated
+    public static final int g = 2;
+
+    @Deprecated
+    public interface a extends w.c {
+    }
+
+    @Deprecated
+    public interface b extends x.b {
+    }
+
+    Looper a();
+
+    x a(x.b bVar);
+
+    void a(ac acVar);
+
+    void a(com.tkay.expressad.exoplayer.h.s sVar);
+
+    void a(com.tkay.expressad.exoplayer.h.s sVar, boolean z, boolean z2);
+
+    @Deprecated
+    void a(c... cVarArr);
+
+    @Deprecated
+    void b(c... cVarArr);
+
+    @Deprecated
+    public static final class c {
+
+        /* JADX INFO: renamed from: a, reason: collision with root package name */
+        public final x.b f6610a;
+        public final int b;
+        public final Object c;
+
+        @Deprecated
+        private c(x.b bVar, int i, Object obj) {
+            this.f6610a = bVar;
+            this.b = i;
+            this.c = obj;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.class public Lcom/ymnsdk/replugin/event/installplugin/RepluginInstallRequestEvent;
+.super Lcom/ymnsdk/replugin/event/base/SepperllitaEvent;
+.source "RepluginInstallRequestEvent.java"
+
+
+# direct methods
+.method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;)V
+    .locals 1
+
+    .line 14
+    invoke-direct {p0, p1}, Lcom/ymnsdk/replugin/event/base/SepperllitaEvent;-><init>(Landroid/app/Activity;)V
+
+    const-string v0, "push"
+
+    .line 15
+    invoke-virtual {p0, v0}, Lcom/ymnsdk/replugin/event/installplugin/RepluginInstallRequestEvent;->setAct(Ljava/lang/String;)V
+
+    const-string v0, "P1069"
+
+    .line 16
+    invoke-virtual {p0, v0}, Lcom/ymnsdk/replugin/event/installplugin/RepluginInstallRequestEvent;->setPg(Ljava/lang/String;)V
+
+    const-string v0, "BHF002"
+
+    .line 17
+    invoke-virtual {p0, v0}, Lcom/ymnsdk/replugin/event/installplugin/RepluginInstallRequestEvent;->setBlk(Ljava/lang/String;)V
+
+    const-string v0, "\u70b9\u51fb\u63d2\u4ef6icon"
+
+    .line 18
+    invoke-virtual {p0, v0}, Lcom/ymnsdk/replugin/event/installplugin/RepluginInstallRequestEvent;->setBl(Ljava/lang/String;)V
+
+    const-string v0, "\u5b89\u88c5\u63d2\u4ef6"
+
+    .line 19
+    invoke-virtual {p0, v0}, Lcom/ymnsdk/replugin/event/installplugin/RepluginInstallRequestEvent;->setLabel(Ljava/lang/String;)V
+
+    .line 20
+    new-instance v0, Lcom/ymnsdk/replugin/event/base/CustEvent;
+
+    invoke-direct {v0, p1}, Lcom/ymnsdk/replugin/event/base/CustEvent;-><init>(Landroid/app/Activity;)V
+
+    .line 21
+    invoke-virtual {v0, p2}, Lcom/ymnsdk/replugin/event/base/CustEvent;->setPlugin_id(Ljava/lang/String;)V
+
+    .line 22
+    invoke-static {}, Lcom/bianfeng/ymnsdk/utilslib/gson/GsonUtils;->getInstance()Lcom/bianfeng/ymnsdk/utilslib/gson/GsonUtils;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v0}, Lcom/bianfeng/ymnsdk/utilslib/gson/GsonUtils;->toJson(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lcom/ymnsdk/replugin/event/installplugin/RepluginInstallRequestEvent;->setCust(Ljava/lang/String;)V
+
+    return-void
+.end method

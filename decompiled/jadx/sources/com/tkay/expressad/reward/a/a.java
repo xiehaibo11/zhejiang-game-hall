@@ -1,0 +1,14 @@
+package com.tkay.expressad.reward.a;
+
+/* JADX INFO: loaded from: classes3.dex */
+public interface a {
+    void a(b bVar);
+
+    boolean a();
+
+    void b();
+
+    boolean c();
+
+    void d();
+}

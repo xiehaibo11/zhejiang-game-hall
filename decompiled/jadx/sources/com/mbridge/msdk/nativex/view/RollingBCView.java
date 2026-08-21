@@ -1,0 +1,77 @@
+package com.mbridge.msdk.nativex.view;
+
+import android.content.Context;
+import android.support.v4.view.ViewPager;
+import android.view.View;
+import com.mbridge.msdk.nativex.adapter.RollingAdapter;
+import com.mbridge.msdk.nativex.listener.RollingPagerListenrt;
+import com.mbridge.msdk.nativex.view.MBNativeRollView;
+import com.mbridge.msdk.out.Frame;
+import com.mbridge.msdk.out.NativeListener;
+import java.util.List;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class RollingBCView extends ViewPager {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private boolean f3840a;
+    private RollingPagerListenrt b;
+    private NativeListener.FilpListener c;
+
+    public void setFilpListening(NativeListener.FilpListener filpListener) {
+        this.c = filpListener;
+    }
+
+    public RollingBCView(Context context) {
+        super(context);
+        this.f3840a = true;
+        this.b = new RollingPagerListenrt();
+    }
+
+    @Override // android.support.v4.view.ViewPager, android.view.View
+    protected void onMeasure(int i, int i2) {
+        if (View.MeasureSpec.getMode(i2) == Integer.MIN_VALUE) {
+            int i3 = 0;
+            for (int i4 = 0; i4 < getChildCount(); i4++) {
+                View childAt = getChildAt(i4);
+                childAt.measure(i, View.MeasureSpec.makeMeasureSpec(0, 0));
+                int measuredHeight = childAt.getMeasuredHeight();
+                if (measuredHeight > i3) {
+                    i3 = measuredHeight;
+                }
+                if (measuredHeight > 10 && this.f3840a) {
+                    this.b.a(0);
+                    this.f3840a = false;
+                }
+            }
+            i2 = View.MeasureSpec.makeMeasureSpec(i3, 1073741824);
+        }
+        super.onMeasure(i, i2);
+    }
+
+    @Override // android.view.View
+    protected void onWindowVisibilityChanged(int i) {
+        super.onWindowVisibilityChanged(i);
+    }
+
+    public void setData(List<Frame> list, Context context, String str, MBNativeRollView.a aVar) {
+        if (list == null || list.size() == 0) {
+            throw new NegativeArraySizeException("ad date is null or size is 0");
+        }
+        RollingAdapter rollingAdapter = new RollingAdapter(list);
+        if (aVar != null) {
+            rollingAdapter.a(aVar);
+        }
+        setAdapter(rollingAdapter);
+        this.b.a(list, context, str);
+        NativeListener.FilpListener filpListener = this.c;
+        if (filpListener != null) {
+            this.b.a(filpListener);
+        }
+        setOnPageChangeListener(this.b);
+        if (this.f3840a) {
+            this.b.a(0);
+            this.f3840a = false;
+        }
+    }
+}

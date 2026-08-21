@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dialog_splitscreem_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/reslib_text_size_18" android:textStyle="bold" android:textColor="@color/reslib_white" android:gravity="center" android:background="@drawable/dialog_splitscreem_title_bg" android:layout_width="match_parent" android:layout_height="@dimen/reslib_px_53" android:text="提示" />
+    <TextView android:textSize="@dimen/reslib_text_size_18" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="@dimen/reslib_px_80" android:text="正在游戏中，暂时无法退出分屏模式，请在结束游戏后返回大厅操作。" />
+    <Button android:textColor="@color/reslib_white" android:id="@id/dialog_split_exit" android:background="@drawable/dialog_splitscreem_btn_bg" android:layout_width="match_parent" android:layout_height="@dimen/reslib_px_40" android:layout_margin="@dimen/reslib_px_15" android:text="确认" />
+</LinearLayout>

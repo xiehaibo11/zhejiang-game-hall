@@ -1,0 +1,103 @@
+.class public Lcom/qihoo360/replugin/component/service/server/IPluginServiceServer$Default;
+.super Ljava/lang/Object;
+.source "IPluginServiceServer.java"
+
+# interfaces
+.implements Lcom/qihoo360/replugin/component/service/server/IPluginServiceServer;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/qihoo360/replugin/component/service/server/IPluginServiceServer;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Default"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 14
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public asBinder()Landroid/os/IBinder;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public bindService(Landroid/content/Intent;Lcom/qihoo360/loader2/mgr/IServiceConnection;ILandroid/os/Messenger;)I
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public dump()Ljava/lang/String;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public startService(Landroid/content/Intent;Landroid/os/Messenger;)Landroid/content/ComponentName;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public stopService(Landroid/content/Intent;Landroid/os/Messenger;)I
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public unbindService(Lcom/qihoo360/loader2/mgr/IServiceConnection;)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    const/4 p1, 0x0
+
+    return p1
+.end method

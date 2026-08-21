@@ -1,0 +1,62 @@
+package com.huawei.hms.framework.network.grs.a;
+
+import android.content.Context;
+import android.content.pm.PackageManager;
+import com.huawei.hms.framework.common.Logger;
+import com.huawei.hms.framework.common.PLSharedPreferences;
+import java.util.Map;
+
+/* JADX INFO: loaded from: classes.dex */
+public class c {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private static final String f2055a = "c";
+    private PLSharedPreferences b;
+
+    public c(Context context, String str) {
+        this.b = null;
+        String packageName = context.getPackageName();
+        Logger.d(f2055a, "get pkgname from context is{%s}", packageName);
+        this.b = new PLSharedPreferences(context, str + packageName);
+        a(context);
+    }
+
+    private void a(Context context) {
+        try {
+            String string = Long.toString(context.getPackageManager().getPackageInfo(context.getPackageName(), 16384).versionCode);
+            String strA = a("version", "");
+            if (string.equals(strA)) {
+                return;
+            }
+            Logger.i(f2055a, "app version changed! old version{%s} and new version{%s}", strA, string);
+            c();
+            b("version", string);
+        } catch (PackageManager.NameNotFoundException unused) {
+            Logger.w(f2055a, "get app version failed and catch NameNotFoundException");
+        }
+    }
+
+    public String a(String str, String str2) {
+        return this.b.getString(str, str2);
+    }
+
+    public Map<String, ?> a() {
+        return this.b.getAll();
+    }
+
+    public void a(String str) {
+        this.b.remove(str);
+    }
+
+    public String b() {
+        return a("cp", "");
+    }
+
+    public void b(String str, String str2) {
+        this.b.putString(str, str2);
+    }
+
+    public void c() {
+        this.b.clear();
+    }
+}

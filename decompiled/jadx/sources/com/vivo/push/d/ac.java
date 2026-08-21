@@ -1,0 +1,27 @@
+package com.vivo.push.d;
+
+import java.util.List;
+
+/* JADX INFO: loaded from: classes4.dex */
+final class ac implements Runnable {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    final /* synthetic */ int f7905a;
+    final /* synthetic */ List b;
+    final /* synthetic */ List c;
+    final /* synthetic */ String d;
+    final /* synthetic */ aa e;
+
+    ac(aa aaVar, int i, List list, List list2, String str) {
+        this.e = aaVar;
+        this.f7905a = i;
+        this.b = list;
+        this.c = list2;
+        this.d = str;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        this.e.b.onSetAlias(this.e.f7928a, this.f7905a, this.b, this.c, this.d);
+    }
+}

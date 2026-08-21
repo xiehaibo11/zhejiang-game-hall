@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/show_policy_bg_rl" android:background="@drawable/show_policy_big_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sp_25" android:textStyle="bold" android:textColor="@color/show_policy_title_text" android:gravity="center" android:layout_gravity="center_horizontal" android:padding="@dimen/px_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_show_tips_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/show_policy_ll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px_30" android:layout_marginRight="@dimen/px_30">
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/show_policy_content_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/show_policy_content" android:padding="@dimen/px_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="未同意服务协议和游戏隐私策略将退出游戏，是否继续退出？" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/show_policy_ok_ll" android:layout_width="match_parent" android:layout_height="@dimen/px_65">
+        <Button android:textSize="@dimen/sp_20" android:textStyle="bold" android:textColor="@color/show_permission_white" android:id="@id/show_tips_proceed" android:background="@drawable/show_policy_btn_cancel" android:paddingLeft="@dimen/px_10" android:paddingRight="@dimen/px_10" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="@dimen/px_10" android:text="继续退出" />
+        <Button android:textSize="@dimen/sp_20" android:textStyle="bold" android:id="@id/show_tips_cancel" android:background="@drawable/show_tips_btn_cancel" android:paddingLeft="@dimen/px_25" android:paddingRight="@dimen/px_25" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="@dimen/px_10" android:text="取    消" />
+    </LinearLayout>
+</LinearLayout>

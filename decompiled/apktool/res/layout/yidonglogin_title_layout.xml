@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="40.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ff0086d0" android:id="@id/yidonglogin_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dp" android:text="X" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

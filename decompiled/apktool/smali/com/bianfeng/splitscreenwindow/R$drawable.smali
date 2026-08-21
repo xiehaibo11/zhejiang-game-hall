@@ -1,0 +1,82 @@
+.class public final Lcom/bianfeng/splitscreenwindow/R$drawable;
+.super Ljava/lang/Object;
+.source "R.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bianfeng/splitscreenwindow/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "drawable"
+.end annotation
+
+
+# static fields
+.field public static final dialog_splitscreem_bg:I
+
+.field public static final dialog_splitscreem_btn_bg:I
+
+.field public static final dialog_splitscreem_icon:I
+
+.field public static final dialog_splitscreem_title_bg:I
+
+.field public static final reslib_bianfeng_logo:I
+
+.field public static final reslib_progressbar:I
+
+.field public static final reslib_view:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 57
+    sget v0, Lcom/bianfeng/splitscreenlib/R$drawable;->dialog_splitscreem_bg:I
+
+    sput v0, Lcom/bianfeng/splitscreenwindow/R$drawable;->dialog_splitscreem_bg:I
+
+    .line 58
+    sget v0, Lcom/bianfeng/splitscreenlib/R$drawable;->dialog_splitscreem_btn_bg:I
+
+    sput v0, Lcom/bianfeng/splitscreenwindow/R$drawable;->dialog_splitscreem_btn_bg:I
+
+    .line 59
+    sget v0, Lcom/bianfeng/splitscreenlib/R$drawable;->dialog_splitscreem_icon:I
+
+    sput v0, Lcom/bianfeng/splitscreenwindow/R$drawable;->dialog_splitscreem_icon:I
+
+    .line 60
+    sget v0, Lcom/bianfeng/splitscreenlib/R$drawable;->dialog_splitscreem_title_bg:I
+
+    sput v0, Lcom/bianfeng/splitscreenwindow/R$drawable;->dialog_splitscreem_title_bg:I
+
+    .line 61
+    sget v0, Lcom/bianfeng/splitscreenlib/R$drawable;->reslib_bianfeng_logo:I
+
+    sput v0, Lcom/bianfeng/splitscreenwindow/R$drawable;->reslib_bianfeng_logo:I
+
+    .line 62
+    sget v0, Lcom/bianfeng/splitscreenlib/R$drawable;->reslib_progressbar:I
+
+    sput v0, Lcom/bianfeng/splitscreenwindow/R$drawable;->reslib_progressbar:I
+
+    .line 63
+    sget v0, Lcom/bianfeng/splitscreenlib/R$drawable;->reslib_view:I
+
+    sput v0, Lcom/bianfeng/splitscreenwindow/R$drawable;->reslib_view:I
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 56
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

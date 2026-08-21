@@ -1,0 +1,53 @@
+package com.kwad.sdk.core.b.a;
+
+import com.kwad.sdk.core.response.model.ABParams;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class a implements com.kwad.sdk.core.d<ABParams> {
+    private static void a(ABParams aBParams, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            return;
+        }
+        aBParams.videoBlackAreaClick = jSONObject.optInt("videoBlackAreaClick");
+        aBParams.videoBlackAreaNewStyle = jSONObject.optInt("videoBlackAreaNewStyle");
+        aBParams.drawActionBarTimes = jSONObject.optString("drawActionBarTimes");
+        if (aBParams.drawActionBarTimes == JSONObject.NULL) {
+            aBParams.drawActionBarTimes = "";
+        }
+        aBParams.showVideoAtH5 = jSONObject.optInt("showVideoAtH5");
+        aBParams.playableStyle = jSONObject.optInt("playableStyle");
+    }
+
+    private static JSONObject b(ABParams aBParams, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            jSONObject = new JSONObject();
+        }
+        if (aBParams.videoBlackAreaClick != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "videoBlackAreaClick", aBParams.videoBlackAreaClick);
+        }
+        if (aBParams.videoBlackAreaNewStyle != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "videoBlackAreaNewStyle", aBParams.videoBlackAreaNewStyle);
+        }
+        if (aBParams.drawActionBarTimes != null && !aBParams.drawActionBarTimes.equals("")) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "drawActionBarTimes", aBParams.drawActionBarTimes);
+        }
+        if (aBParams.showVideoAtH5 != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "showVideoAtH5", aBParams.showVideoAtH5);
+        }
+        if (aBParams.playableStyle != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "playableStyle", aBParams.playableStyle);
+        }
+        return jSONObject;
+    }
+
+    @Override // com.kwad.sdk.core.d
+    public final /* bridge */ /* synthetic */ void a(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        a((ABParams) bVar, jSONObject);
+    }
+
+    @Override // com.kwad.sdk.core.d
+    public final /* bridge */ /* synthetic */ JSONObject b(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        return b((ABParams) bVar, jSONObject);
+    }
+}
