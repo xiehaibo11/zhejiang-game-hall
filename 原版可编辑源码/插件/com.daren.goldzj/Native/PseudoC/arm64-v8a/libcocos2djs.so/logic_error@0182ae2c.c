@@ -1,0 +1,20 @@
+
+/* std::logic_error::logic_error(char const*) */
+
+void __thiscall std::logic_error::logic_error(logic_error *this,char *param_1)
+
+{
+  size_t sVar1;
+  size_t *psVar2;
+  
+  *(undefined ***)this = &PTR__invalid_argument_01cdf750;
+  sVar1 = strlen(param_1);
+  psVar2 = operator_new(sVar1 + 0x19);
+  *psVar2 = sVar1;
+  psVar2[1] = sVar1;
+  *(undefined4 *)(psVar2 + 2) = 0;
+  memcpy(psVar2 + 3,param_1,sVar1 + 1);
+  *(size_t **)(this + 8) = psVar2 + 3;
+  return;
+}
+

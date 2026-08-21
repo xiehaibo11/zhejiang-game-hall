@@ -1,0 +1,242 @@
+
+void FUN_00df295c(undefined8 *param_1)
+
+{
+  byte bVar1;
+  byte bVar2;
+  byte bVar3;
+  byte bVar4;
+  undefined1 auVar5 [16];
+  short sVar6;
+  undefined8 uVar7;
+  short sVar8;
+  short sVar9;
+  short sVar10;
+  undefined1 auVar11 [16];
+  undefined1 auVar12 [16];
+  undefined1 auVar13 [16];
+  undefined1 auVar14 [16];
+  undefined8 uVar15;
+  undefined1 auVar16 [16];
+  undefined1 auVar17 [16];
+  undefined8 uVar18;
+  undefined1 auVar19 [16];
+  undefined8 uVar20;
+  undefined1 uVar21;
+  undefined1 uVar22;
+  undefined1 uVar23;
+  undefined1 uVar24;
+  undefined1 uVar25;
+  undefined1 uVar26;
+  short sVar27;
+  short sVar28;
+  short sVar29;
+  short sVar30;
+  undefined1 uVar31;
+  undefined1 uVar32;
+  undefined1 uVar33;
+  undefined1 uVar34;
+  undefined1 uVar35;
+  undefined1 uVar36;
+  undefined1 uVar37;
+  undefined1 uVar38;
+  undefined1 uVar39;
+  undefined1 uVar40;
+  undefined1 uVar41;
+  undefined1 uVar42;
+  undefined1 uVar43;
+  undefined1 uVar44;
+  undefined1 uVar45;
+  undefined1 uVar46;
+  undefined1 uVar47;
+  undefined1 uVar48;
+  
+  uVar7 = param_1[-4];
+  bVar1 = *(byte *)((long)param_1 + -0x21);
+  bVar2 = *(byte *)((long)param_1 + -1);
+  bVar3 = *(byte *)((long)param_1 + 0x1f);
+  bVar4 = *(byte *)((long)param_1 + 0x3f);
+  sVar6 = (ushort)(byte)uVar7 - (ushort)bVar1;
+  sVar8 = (ushort)(byte)((ulong)uVar7 >> 8) - (ushort)bVar1;
+  sVar9 = (ushort)(byte)((ulong)uVar7 >> 0x10) - (ushort)bVar1;
+  sVar10 = (ushort)(byte)((ulong)uVar7 >> 0x18) - (ushort)bVar1;
+  sVar27 = (ushort)(byte)((ulong)uVar7 >> 0x20) - (ushort)bVar1;
+  sVar28 = (ushort)(byte)((ulong)uVar7 >> 0x28) - (ushort)bVar1;
+  sVar29 = (ushort)(byte)((ulong)uVar7 >> 0x30) - (ushort)bVar1;
+  sVar30 = (ushort)(byte)((ulong)uVar7 >> 0x38) - (ushort)bVar1;
+  bVar1 = *(byte *)((long)param_1 + 0x5f);
+  uVar31 = (undefined1)(sVar8 + (ushort)bVar2);
+  uVar32 = (undefined1)((ushort)(sVar8 + (ushort)bVar2) >> 8);
+  uVar33 = (undefined1)(sVar9 + (ushort)bVar2);
+  uVar34 = (undefined1)((ushort)(sVar9 + (ushort)bVar2) >> 8);
+  uVar35 = (undefined1)(sVar10 + (ushort)bVar2);
+  uVar36 = (undefined1)((ushort)(sVar10 + (ushort)bVar2) >> 8);
+  uVar37 = (undefined1)(sVar8 + (ushort)bVar3);
+  uVar38 = (undefined1)((ushort)(sVar8 + (ushort)bVar3) >> 8);
+  uVar39 = (undefined1)(sVar9 + (ushort)bVar3);
+  uVar40 = (undefined1)((ushort)(sVar9 + (ushort)bVar3) >> 8);
+  uVar41 = (undefined1)(sVar10 + (ushort)bVar3);
+  uVar42 = (undefined1)((ushort)(sVar10 + (ushort)bVar3) >> 8);
+  uVar43 = (undefined1)(sVar8 + (ushort)bVar4);
+  uVar44 = (undefined1)((ushort)(sVar8 + (ushort)bVar4) >> 8);
+  uVar45 = (undefined1)(sVar9 + (ushort)bVar4);
+  uVar46 = (undefined1)((ushort)(sVar9 + (ushort)bVar4) >> 8);
+  uVar47 = (undefined1)(sVar10 + (ushort)bVar4);
+  uVar48 = (undefined1)((ushort)(sVar10 + (ushort)bVar4) >> 8);
+  uVar21 = (undefined1)(sVar8 + (ushort)bVar1);
+  uVar22 = (undefined1)((ushort)(sVar8 + (ushort)bVar1) >> 8);
+  uVar23 = (undefined1)(sVar9 + (ushort)bVar1);
+  uVar24 = (undefined1)((ushort)(sVar9 + (ushort)bVar1) >> 8);
+  uVar25 = (undefined1)(sVar10 + (ushort)bVar1);
+  uVar26 = (undefined1)((ushort)(sVar10 + (ushort)bVar1) >> 8);
+  auVar13[2] = uVar31;
+  auVar13._0_2_ = sVar6 + (ushort)bVar2;
+  auVar13[3] = uVar32;
+  auVar13[4] = uVar33;
+  auVar13[5] = uVar34;
+  auVar13[6] = uVar35;
+  auVar13[7] = uVar36;
+  auVar13._8_2_ = sVar27 + (ushort)bVar2;
+  auVar13._10_2_ = sVar28 + (ushort)bVar2;
+  auVar13._12_2_ = sVar29 + (ushort)bVar2;
+  auVar13._14_2_ = sVar30 + (ushort)bVar2;
+  uVar15 = NEON_sqxtun(CONCAT17(uVar36,CONCAT16(uVar35,CONCAT15(uVar34,CONCAT14(uVar33,CONCAT13(
+                                                  uVar32,CONCAT12(uVar31,sVar6 + (ushort)bVar2))))))
+                       ,auVar13,2);
+  auVar16[2] = uVar37;
+  auVar16._0_2_ = sVar6 + (ushort)bVar3;
+  auVar16[3] = uVar38;
+  auVar16[4] = uVar39;
+  auVar16[5] = uVar40;
+  auVar16[6] = uVar41;
+  auVar16[7] = uVar42;
+  auVar16._8_2_ = sVar27 + (ushort)bVar3;
+  auVar16._10_2_ = sVar28 + (ushort)bVar3;
+  auVar16._12_2_ = sVar29 + (ushort)bVar3;
+  auVar16._14_2_ = sVar30 + (ushort)bVar3;
+  uVar18 = NEON_sqxtun(CONCAT17(uVar42,CONCAT16(uVar41,CONCAT15(uVar40,CONCAT14(uVar39,CONCAT13(
+                                                  uVar38,CONCAT12(uVar37,sVar6 + (ushort)bVar3))))))
+                       ,auVar16,2);
+  auVar19[2] = uVar43;
+  auVar19._0_2_ = sVar6 + (ushort)bVar4;
+  auVar19[3] = uVar44;
+  auVar19[4] = uVar45;
+  auVar19[5] = uVar46;
+  auVar19[6] = uVar47;
+  auVar19[7] = uVar48;
+  auVar19._8_2_ = sVar27 + (ushort)bVar4;
+  auVar19._10_2_ = sVar28 + (ushort)bVar4;
+  auVar19._12_2_ = sVar29 + (ushort)bVar4;
+  auVar19._14_2_ = sVar30 + (ushort)bVar4;
+  uVar20 = NEON_sqxtun(CONCAT17(uVar48,CONCAT16(uVar47,CONCAT15(uVar46,CONCAT14(uVar45,CONCAT13(
+                                                  uVar44,CONCAT12(uVar43,sVar6 + (ushort)bVar4))))))
+                       ,auVar19,2);
+  auVar11[2] = uVar21;
+  auVar11._0_2_ = sVar6 + (ushort)bVar1;
+  auVar11[3] = uVar22;
+  auVar11[4] = uVar23;
+  auVar11[5] = uVar24;
+  auVar11[6] = uVar25;
+  auVar11[7] = uVar26;
+  auVar11._8_2_ = sVar27 + (ushort)bVar1;
+  auVar11._10_2_ = sVar28 + (ushort)bVar1;
+  auVar11._12_2_ = sVar29 + (ushort)bVar1;
+  auVar11._14_2_ = sVar30 + (ushort)bVar1;
+  uVar7 = NEON_sqxtun(CONCAT17(uVar26,CONCAT16(uVar25,CONCAT15(uVar24,CONCAT14(uVar23,CONCAT13(
+                                                  uVar22,CONCAT12(uVar21,sVar6 + (ushort)bVar1))))))
+                      ,auVar11,2);
+  *param_1 = uVar15;
+  param_1[4] = uVar18;
+  param_1[8] = uVar20;
+  param_1[0xc] = uVar7;
+  bVar1 = *(byte *)((long)param_1 + 0x7f);
+  bVar2 = *(byte *)((long)param_1 + 0x9f);
+  bVar3 = *(byte *)((long)param_1 + 0xbf);
+  bVar4 = *(byte *)((long)param_1 + 0xdf);
+  uVar31 = (undefined1)(sVar8 + (ushort)bVar1);
+  uVar32 = (undefined1)((ushort)(sVar8 + (ushort)bVar1) >> 8);
+  uVar33 = (undefined1)(sVar9 + (ushort)bVar1);
+  uVar34 = (undefined1)((ushort)(sVar9 + (ushort)bVar1) >> 8);
+  uVar35 = (undefined1)(sVar10 + (ushort)bVar1);
+  uVar36 = (undefined1)((ushort)(sVar10 + (ushort)bVar1) >> 8);
+  uVar37 = (undefined1)(sVar8 + (ushort)bVar2);
+  uVar38 = (undefined1)((ushort)(sVar8 + (ushort)bVar2) >> 8);
+  uVar39 = (undefined1)(sVar9 + (ushort)bVar2);
+  uVar40 = (undefined1)((ushort)(sVar9 + (ushort)bVar2) >> 8);
+  uVar41 = (undefined1)(sVar10 + (ushort)bVar2);
+  uVar42 = (undefined1)((ushort)(sVar10 + (ushort)bVar2) >> 8);
+  uVar43 = (undefined1)(sVar8 + (ushort)bVar3);
+  uVar44 = (undefined1)((ushort)(sVar8 + (ushort)bVar3) >> 8);
+  uVar45 = (undefined1)(sVar9 + (ushort)bVar3);
+  uVar46 = (undefined1)((ushort)(sVar9 + (ushort)bVar3) >> 8);
+  uVar47 = (undefined1)(sVar10 + (ushort)bVar3);
+  uVar48 = (undefined1)((ushort)(sVar10 + (ushort)bVar3) >> 8);
+  uVar21 = (undefined1)(sVar8 + (ushort)bVar4);
+  uVar22 = (undefined1)((ushort)(sVar8 + (ushort)bVar4) >> 8);
+  uVar23 = (undefined1)(sVar9 + (ushort)bVar4);
+  uVar24 = (undefined1)((ushort)(sVar9 + (ushort)bVar4) >> 8);
+  uVar25 = (undefined1)(sVar10 + (ushort)bVar4);
+  uVar26 = (undefined1)((ushort)(sVar10 + (ushort)bVar4) >> 8);
+  auVar12[2] = uVar31;
+  auVar12._0_2_ = sVar6 + (ushort)bVar1;
+  auVar12[3] = uVar32;
+  auVar12[4] = uVar33;
+  auVar12[5] = uVar34;
+  auVar12[6] = uVar35;
+  auVar12[7] = uVar36;
+  auVar12._8_2_ = sVar27 + (ushort)bVar1;
+  auVar12._10_2_ = sVar28 + (ushort)bVar1;
+  auVar12._12_2_ = sVar29 + (ushort)bVar1;
+  auVar12._14_2_ = sVar30 + (ushort)bVar1;
+  uVar15 = NEON_sqxtun(CONCAT17(uVar36,CONCAT16(uVar35,CONCAT15(uVar34,CONCAT14(uVar33,CONCAT13(
+                                                  uVar32,CONCAT12(uVar31,sVar6 + (ushort)bVar1))))))
+                       ,auVar12,2);
+  auVar14[2] = uVar37;
+  auVar14._0_2_ = sVar6 + (ushort)bVar2;
+  auVar14[3] = uVar38;
+  auVar14[4] = uVar39;
+  auVar14[5] = uVar40;
+  auVar14[6] = uVar41;
+  auVar14[7] = uVar42;
+  auVar14._8_2_ = sVar27 + (ushort)bVar2;
+  auVar14._10_2_ = sVar28 + (ushort)bVar2;
+  auVar14._12_2_ = sVar29 + (ushort)bVar2;
+  auVar14._14_2_ = sVar30 + (ushort)bVar2;
+  uVar18 = NEON_sqxtun(CONCAT17(uVar42,CONCAT16(uVar41,CONCAT15(uVar40,CONCAT14(uVar39,CONCAT13(
+                                                  uVar38,CONCAT12(uVar37,sVar6 + (ushort)bVar2))))))
+                       ,auVar14,2);
+  auVar17[2] = uVar43;
+  auVar17._0_2_ = sVar6 + (ushort)bVar3;
+  auVar17[3] = uVar44;
+  auVar17[4] = uVar45;
+  auVar17[5] = uVar46;
+  auVar17[6] = uVar47;
+  auVar17[7] = uVar48;
+  auVar17._8_2_ = sVar27 + (ushort)bVar3;
+  auVar17._10_2_ = sVar28 + (ushort)bVar3;
+  auVar17._12_2_ = sVar29 + (ushort)bVar3;
+  auVar17._14_2_ = sVar30 + (ushort)bVar3;
+  uVar20 = NEON_sqxtun(CONCAT17(uVar48,CONCAT16(uVar47,CONCAT15(uVar46,CONCAT14(uVar45,CONCAT13(
+                                                  uVar44,CONCAT12(uVar43,sVar6 + (ushort)bVar3))))))
+                       ,auVar17,2);
+  auVar5[2] = uVar21;
+  auVar5._0_2_ = sVar6 + (ushort)bVar4;
+  auVar5[3] = uVar22;
+  auVar5[4] = uVar23;
+  auVar5[5] = uVar24;
+  auVar5[6] = uVar25;
+  auVar5[7] = uVar26;
+  auVar5._8_2_ = sVar27 + (ushort)bVar4;
+  auVar5._10_2_ = sVar28 + (ushort)bVar4;
+  auVar5._12_2_ = sVar29 + (ushort)bVar4;
+  auVar5._14_2_ = sVar30 + (ushort)bVar4;
+  uVar7 = NEON_sqxtun(CONCAT17(uVar26,CONCAT16(uVar25,CONCAT15(uVar24,CONCAT14(uVar23,CONCAT13(
+                                                  uVar22,CONCAT12(uVar21,sVar6 + (ushort)bVar4))))))
+                      ,auVar5,2);
+  param_1[0x10] = uVar15;
+  param_1[0x14] = uVar18;
+  param_1[0x18] = uVar20;
+  param_1[0x1c] = uVar7;
+  return;
+}
+

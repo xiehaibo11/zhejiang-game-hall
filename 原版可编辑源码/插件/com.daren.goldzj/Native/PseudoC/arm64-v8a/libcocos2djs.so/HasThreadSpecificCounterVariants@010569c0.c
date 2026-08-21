@@ -1,0 +1,11 @@
+
+/* v8::internal::RuntimeCallStats::HasThreadSpecificCounterVariants(v8::internal::RuntimeCallCounterId)
+    */
+
+bool __thiscall
+v8::internal::RuntimeCallStats::HasThreadSpecificCounterVariants(undefined8 param_1,int param_2)
+
+{
+  return param_2 - 0x42fU < 0x80;
+}
+

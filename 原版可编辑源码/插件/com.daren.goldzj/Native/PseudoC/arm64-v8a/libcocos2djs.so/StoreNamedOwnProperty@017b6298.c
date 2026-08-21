@@ -1,0 +1,102 @@
+
+/* v8::internal::interpreter::BytecodeArrayBuilder::StoreNamedOwnProperty(v8::internal::interpreter::Register,
+   v8::internal::AstRawString const*, int) */
+
+BytecodeArrayBuilder * __thiscall
+v8::internal::interpreter::BytecodeArrayBuilder::StoreNamedOwnProperty
+          (BytecodeArrayBuilder *this,int param_2,AstRawString *param_3,uint param_4)
+
+{
+  byte bVar1;
+  uint uVar2;
+  ulong uVar3;
+  ulong uVar4;
+  ulong uVar5;
+  byte bVar6;
+  BytecodeRegisterOptimizer *this_00;
+  ulong uVar7;
+  BytecodeNode local_68 [4];
+  int local_64;
+  uint uStack_60;
+  uint local_5c;
+  undefined4 uStack_58;
+  undefined4 local_54;
+  undefined4 uStack_50;
+  byte local_4c;
+  ulong local_48;
+  
+  uVar2 = ConstantArrayBuilder::Insert((ConstantArrayBuilder *)(this + 0x18),param_3);
+  this_00 = *(BytecodeRegisterOptimizer **)(this + 0x1a0);
+  if (this_00 != (BytecodeRegisterOptimizer *)0x0) {
+    BytecodeRegisterOptimizer::Materialize(this_00,*(RegisterInfo **)(this_00 + 0x10));
+    BytecodeRegisterOptimizer::PrepareOutputRegister(this_00,*(undefined4 *)(this_00 + 8));
+  }
+  if (this[0x1a8] == (BytecodeArrayBuilder)0x0) {
+    uVar4 = 0;
+    uVar5 = 0;
+    uVar3 = 0xffffffff00000000;
+  }
+  else {
+    uVar5 = *(ulong *)(this + 0x1a8);
+    this[0x1a8] = (BytecodeArrayBuilder)0x0;
+    *(undefined4 *)(this + 0x1ac) = 0xffffffff;
+    uVar3 = uVar5 & 0xffffffff00000000;
+    uVar4 = uVar5 & 0xffffff00;
+    uVar5 = uVar5 & 0xff;
+  }
+  uVar7 = uVar3 | uVar4 | uVar5;
+  if (*(long *)(this + 0x1a0) != 0) {
+    param_2 = BytecodeRegisterOptimizer::GetInputRegister();
+  }
+  local_64 = -5 - param_2;
+  bVar6 = 2;
+  bVar1 = bVar6;
+  if (0xffff < 0x7ffbU - param_2) {
+    bVar1 = 4;
+  }
+  if (0x7bU - param_2 < 0x100) {
+    bVar1 = 1;
+  }
+  if (bVar1 < 2) {
+    bVar1 = 1;
+  }
+  if (0xffff < uVar2) {
+    bVar6 = 4;
+  }
+  if (uVar2 < 0x100) {
+    bVar6 = 1;
+  }
+  if (bVar6 <= bVar1) {
+    bVar6 = bVar1;
+  }
+  local_4c = 2;
+  if (0xffff < param_4) {
+    local_4c = 4;
+  }
+  if (param_4 < 0x100) {
+    local_4c = 1;
+  }
+  local_68[0] = (BytecodeNode)0x2f;
+  if (local_4c <= bVar6) {
+    local_4c = bVar6;
+  }
+  uStack_58 = 0;
+  local_54 = 0;
+  uStack_50 = 3;
+  local_48 = uVar7;
+  if (this[0x1b0] != (BytecodeArrayBuilder)0x0) {
+    if ((int)uVar5 == 0) {
+      local_48 = *(ulong *)(this + 0x1b0);
+    }
+    else if (((int)uVar5 == 1) && (this[0x1b0] == (BytecodeArrayBuilder)0x2)) {
+      local_48 = uVar3 | uVar4 | 2;
+    }
+    this[0x1b0] = (BytecodeArrayBuilder)0x0;
+    *(undefined4 *)(this + 0x1b4) = 0xffffffff;
+  }
+  uStack_60 = uVar2;
+  local_5c = param_4;
+  BytecodeArrayWriter::Write((BytecodeArrayWriter *)(this + 0x110),local_68);
+  return this;
+}
+

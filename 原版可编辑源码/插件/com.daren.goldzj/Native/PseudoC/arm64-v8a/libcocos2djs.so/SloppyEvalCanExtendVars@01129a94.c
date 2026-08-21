@@ -1,0 +1,12 @@
+
+/* v8::internal::ScopeInfo::SloppyEvalCanExtendVars() const */
+
+uint __thiscall v8::internal::ScopeInfo::SloppyEvalCanExtendVars(ScopeInfo *this)
+
+{
+  if (1 < *(int *)(*(long *)this + 3)) {
+    return *(uint *)(*(long *)this + 7) >> 5 & 1;
+  }
+  return 0;
+}
+

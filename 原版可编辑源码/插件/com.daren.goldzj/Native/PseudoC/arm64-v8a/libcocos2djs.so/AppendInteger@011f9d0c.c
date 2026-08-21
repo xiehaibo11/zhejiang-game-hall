@@ -1,0 +1,60 @@
+
+/* v8::tracing::TracedValue::AppendInteger(int) */
+
+void __thiscall v8::tracing::TracedValue::AppendInteger(TracedValue *this,int param_1)
+
+{
+  __ndk1 *this_00;
+  ulong uVar1;
+  ulong extraout_x1;
+  basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>> bVar2;
+  basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>> *this_01;
+  TracedValue *pTVar3;
+  ulong uVar4;
+  byte local_48 [16];
+  void *local_38;
+  
+  this_00 = (__ndk1 *)(ulong)(uint)param_1;
+  if (this[0x20] != (TracedValue)0x0) {
+    this[0x20] = (TracedValue)0x0;
+    goto LAB_011f9db4;
+  }
+  this_01 = (basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>> *)
+            (this + 8);
+  bVar2 = *this_01;
+  if (((byte)bVar2 & 1) == 0) {
+    uVar4 = (ulong)((byte)bVar2 >> 1);
+    uVar1 = 0x16;
+    if (uVar4 == 0x16) goto LAB_011f9d6c;
+  }
+  else {
+    uVar4 = *(ulong *)(this + 0x10);
+    uVar1 = (*(ulong *)(this + 8) & 0xfffffffffffffffe) - 1;
+    if (uVar4 == uVar1) {
+LAB_011f9d6c:
+      std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>::
+      __grow_by(this_01,uVar1,1,uVar1,uVar1,0,0);
+      bVar2 = *this_01;
+      uVar1 = extraout_x1;
+    }
+  }
+  param_1 = (int)uVar1;
+  if (((byte)bVar2 & 1) == 0) {
+    pTVar3 = this + 9;
+    *this_01 = (basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>)
+               ((char)uVar4 * '\x02' + '\x02');
+  }
+  else {
+    pTVar3 = *(TracedValue **)(this + 0x18);
+    *(ulong *)(this + 0x10) = uVar4 + 1;
+  }
+  *(undefined2 *)(pTVar3 + uVar4) = 0x2c;
+LAB_011f9db4:
+  std::__ndk1::to_string(this_00,param_1);
+  FUN_011f9614(this + 8,local_48);
+  if ((local_48[0] & 1) != 0) {
+    operator_delete(local_38);
+  }
+  return;
+}
+

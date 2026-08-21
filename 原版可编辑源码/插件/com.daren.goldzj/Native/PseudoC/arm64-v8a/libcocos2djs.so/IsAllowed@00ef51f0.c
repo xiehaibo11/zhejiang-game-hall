@@ -1,0 +1,11 @@
+
+/* v8::internal::PerIsolateAssertScope<(v8::internal::PerIsolateAssertType)3,
+   false>::IsAllowed(v8::internal::Isolate*) */
+
+byte v8::internal::PerIsolateAssertScope<(v8::internal::PerIsolateAssertType)3,false>::IsAllowed
+               (Isolate *param_1)
+
+{
+  return (byte)param_1[0xb7d8] >> 3 & 1;
+}
+

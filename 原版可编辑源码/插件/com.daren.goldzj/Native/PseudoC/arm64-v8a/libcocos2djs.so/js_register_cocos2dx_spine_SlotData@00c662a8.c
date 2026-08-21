@@ -1,0 +1,56 @@
+
+/* js_register_cocos2dx_spine_SlotData(se::Object*) */
+
+undefined8 js_register_cocos2dx_spine_SlotData(Object *param_1)
+
+{
+  long lVar1;
+  Class *this;
+  basic_string local_40;
+  undefined7 uStack_3f;
+  undefined1 uStack_38;
+  undefined1 local_37;
+  undefined6 uStack_36;
+  void *local_30;
+  long local_28;
+  
+  lVar1 = tpidr_el0;
+  local_28 = *(long *)(lVar1 + 0x28);
+  uStack_36 = 0;
+  local_30 = (void *)0x0;
+  local_40 = (basic_string)0x10;
+  uStack_3f = 0x746144746f6c53;
+  uStack_38 = 0x61;
+  local_37 = 0;
+  this = (Class *)se::Class::create(&local_40,param_1,(Object *)0x0,
+                                    (_func_void_FunctionCallbackInfo_ptr *)0x0);
+  if (((byte)local_40 & 1) != 0) {
+    operator_delete(local_30);
+  }
+  se::Class::defineFunction(this,"getIndex",js_cocos2dx_spine_SlotData_getIndexRegistry);
+  se::Class::defineFunction(this,"getDarkColor",js_cocos2dx_spine_SlotData_getDarkColorRegistry);
+  se::Class::defineFunction
+            (this,"getAttachmentName",js_cocos2dx_spine_SlotData_getAttachmentNameRegistry);
+  se::Class::defineFunction(this,"getColor",js_cocos2dx_spine_SlotData_getColorRegistry);
+  se::Class::defineFunction(this,"getName",js_cocos2dx_spine_SlotData_getNameRegistry);
+  se::Class::defineFunction(this,"setBlendMode",js_cocos2dx_spine_SlotData_setBlendModeRegistry);
+  se::Class::defineFunction(this,"getBlendMode",js_cocos2dx_spine_SlotData_getBlendModeRegistry);
+  se::Class::defineFunction(this,"hasDarkColor",js_cocos2dx_spine_SlotData_hasDarkColorRegistry);
+  se::Class::defineFunction
+            (this,"setHasDarkColor",js_cocos2dx_spine_SlotData_setHasDarkColorRegistry);
+  se::Class::defineFunction
+            (this,"setAttachmentName",js_cocos2dx_spine_SlotData_setAttachmentNameRegistry);
+  se::Class::defineFunction(this,"getBoneData",js_cocos2dx_spine_SlotData_getBoneDataRegistry);
+  se::Class::install(this);
+  JSBClassType::registerClass<spine::SlotData>(this);
+  __jsb_spine_SlotData_proto = se::Class::getProto(this);
+  __jsb_spine_SlotData_class = this;
+  se::ScriptEngine::getInstance();
+  se::ScriptEngine::clearException();
+  if (*(long *)(lVar1 + 0x28) == local_28) {
+    return 1;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+

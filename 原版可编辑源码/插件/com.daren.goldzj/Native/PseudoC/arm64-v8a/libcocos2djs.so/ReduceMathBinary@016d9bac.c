@@ -1,0 +1,70 @@
+
+/* v8::internal::compiler::JSCallReducer::ReduceMathBinary(v8::internal::compiler::Node*,
+   v8::internal::compiler::Operator const*) */
+
+undefined8 __thiscall
+v8::internal::compiler::JSCallReducer::ReduceMathBinary
+          (JSCallReducer *this,Node *param_1,Operator *param_2)
+
+{
+  long lVar1;
+  undefined8 uVar2;
+  Node *pNVar3;
+  Node *pNVar4;
+  Zone *pZVar5;
+  undefined **local_c8 [4];
+  undefined8 local_a8;
+  undefined8 uStack_a0;
+  Node *local_90;
+  byte local_88;
+  Node *local_80;
+  long local_78;
+  long local_70;
+  undefined8 local_68;
+  Zone *pZStack_60;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  
+  lVar1 = CallParametersOf(*(Operator **)param_1);
+  if ((*(byte *)(lVar1 + 3) >> 4 & 1) == 0) {
+    if (*(int *)(*(long *)param_1 + 0x14) < 3) {
+      uVar2 = JSGraph::NaNConstant(*(JSGraph **)(this + 0x10));
+      (**(code **)(**(long **)(this + 8) + 0x20))(*(long **)(this + 8),param_1,uVar2,0,0);
+    }
+    else {
+      pZVar5 = *(Zone **)(this + 0x20);
+      GraphAssembler::GraphAssembler
+                ((GraphAssembler *)local_c8,*(JSGraph **)(this + 0x10),pZVar5,(Schedule *)0x0);
+      local_78 = 0;
+      local_70 = 0;
+      local_68 = 0;
+      local_c8[0] = &PTR__JSCallReducerAssembler_01ccd380;
+      local_90 = param_1;
+      pZStack_60 = pZVar5;
+      pNVar3 = (Node *)NodeProperties::GetEffectInput(param_1,0);
+      pNVar4 = (Node *)NodeProperties::GetControlInput(param_1,0);
+      GraphAssembler::InitializeEffectControl((GraphAssembler *)local_c8,pNVar3,pNVar4);
+      local_88 = NodeProperties::IsExceptionalCall(param_1,&local_80);
+      local_88 = local_88 & 1;
+      uVar2 = JSCallReducerAssembler::ReduceMathBinary((JSCallReducerAssembler *)local_c8,param_2);
+      (**(code **)(**(long **)(this + 8) + 0x20))
+                (*(long **)(this + 8),local_90,uVar2,local_a8,uStack_a0);
+      if ((local_88 != 0) && (local_78 != local_70)) {
+        JSCallReducerAssembler::MergeExceptionalPaths();
+        (**(code **)(**(long **)(this + 8) + 0x20))
+                  (*(long **)(this + 8),local_80,local_58,uStack_50,local_48);
+      }
+      if (local_78 != 0) {
+        local_70 = local_78;
+      }
+      local_c8[0] = &PTR__JSCallReducerAssembler_01ccd380;
+      GraphAssembler::~GraphAssembler((GraphAssembler *)local_c8);
+    }
+  }
+  else {
+    uVar2 = 0;
+  }
+  return uVar2;
+}
+

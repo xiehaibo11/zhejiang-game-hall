@@ -1,0 +1,78 @@
+
+/* std::__ndk1::enable_if<__is_forward_iterator<int*>::value&&is_constructible<int,
+   std::__ndk1::iterator_traits<int*>::reference>::value, void>::type std::__ndk1::vector<int,
+   std::__ndk1::allocator<int> >::assign<int*>(int*, int*) */
+
+void __thiscall
+std::__ndk1::vector<int,std::__ndk1::allocator<int>>::assign<int*>
+          (vector<int,std::__ndk1::allocator<int>> *this,int *param_1,int *param_2)
+
+{
+  int *__src;
+  long lVar1;
+  ulong uVar2;
+  size_t sVar3;
+  void *pvVar4;
+  ulong uVar5;
+  
+  lVar1 = *(long *)(this + 0x10);
+  pvVar4 = *(void **)this;
+  sVar3 = (long)param_2 - (long)param_1;
+  uVar5 = (long)sVar3 >> 2;
+  if ((ulong)(lVar1 - (long)pvVar4 >> 2) < uVar5) {
+    if (pvVar4 != (void *)0x0) {
+      *(void **)(this + 8) = pvVar4;
+      operator_delete(pvVar4);
+      lVar1 = 0;
+      *(undefined8 *)this = 0;
+      *(undefined8 *)(this + 8) = 0;
+      *(undefined8 *)(this + 0x10) = 0;
+    }
+    if (uVar5 >> 0x3e != 0) {
+LAB_00d10608:
+                    /* WARNING: Subroutine does not return */
+      abort();
+    }
+    if ((ulong)(lVar1 >> 2) < 0x1fffffffffffffff) {
+      uVar2 = lVar1 >> 1;
+      if ((uVar5 <= uVar2) && (uVar5 = uVar2, uVar2 >> 0x3e != 0)) goto LAB_00d10608;
+    }
+    else {
+      uVar5 = 0x3fffffffffffffff;
+    }
+    pvVar4 = operator_new(uVar5 * 4);
+    *(void **)this = pvVar4;
+    *(void **)(this + 8) = pvVar4;
+    *(void **)(this + 0x10) = (void *)((long)pvVar4 + uVar5 * 4);
+    if ((long)sVar3 < 1) {
+      return;
+    }
+    memcpy(pvVar4,param_1,sVar3);
+    pvVar4 = (void *)((long)pvVar4 + sVar3);
+  }
+  else {
+    uVar2 = *(long *)(this + 8) - (long)pvVar4 >> 2;
+    __src = (int *)((long)param_1 + (*(long *)(this + 8) - (long)pvVar4));
+    if (uVar5 <= uVar2) {
+      __src = param_2;
+    }
+    sVar3 = (long)__src - (long)param_1;
+    if (sVar3 != 0) {
+      memmove(pvVar4,param_1,sVar3);
+    }
+    if (uVar2 < uVar5) {
+      sVar3 = (long)param_2 - (long)__src;
+      if ((long)sVar3 < 1) {
+        return;
+      }
+      memcpy(*(void **)(this + 8),__src,sVar3);
+      pvVar4 = (void *)(*(long *)(this + 8) + sVar3);
+    }
+    else {
+      pvVar4 = (void *)((long)pvVar4 + ((long)sVar3 >> 2) * 4);
+    }
+  }
+  *(void **)(this + 8) = pvVar4;
+  return;
+}
+

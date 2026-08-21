@@ -1,0 +1,25 @@
+
+int X509v3_get_ext_by_OBJ(stack_st_X509_EXTENSION *x,ASN1_OBJECT *obj,int lastpos)
+
+{
+  uint uVar1;
+  int iVar2;
+  int iVar3;
+  undefined8 *puVar4;
+  
+                    /* try { // try from 00b5df44 to 00c5df4b has its CatchHandler @ 00b5e230 */
+  if (x != (stack_st_X509_EXTENSION *)0x0) {
+                    /* try { // try from 00b5df4c to 00c5e0d7 has its CatchHandler @ 00b5def4 */
+    iVar2 = OPENSSL_sk_num(x);
+    for (uVar1 = lastpos + 1U & ((int)(lastpos + 1U) >> 0x1f ^ 0xffffffffU); (int)uVar1 < iVar2;
+        uVar1 = uVar1 + 1) {
+      puVar4 = (undefined8 *)OPENSSL_sk_value(x,uVar1);
+      iVar3 = OBJ_cmp((ASN1_OBJECT *)*puVar4,obj);
+      if (iVar3 == 0) {
+        return uVar1;
+      }
+    }
+  }
+  return -1;
+}
+

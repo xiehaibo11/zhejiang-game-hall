@@ -1,0 +1,78 @@
+
+bool FUN_01794b64(undefined8 *param_1)
+
+{
+  bool bVar1;
+  long lVar2;
+  
+  bVar1 = false;
+  switch(*(undefined2 *)((Operator *)*param_1 + 0x10)) {
+  case 7:
+  case 0xc:
+  case 0xd:
+  case 0x24:
+  case 0x38:
+  case 0x3b:
+  case 0x3e:
+  case 0xea:
+  case 0xeb:
+  case 0xee:
+  case 0xf1:
+  case 0xf2:
+  case 0xf5:
+  case 0x18c:
+  case 0x18d:
+  case 0x18e:
+  case 399:
+  case 400:
+  case 0x191:
+  case 0x192:
+  case 0x193:
+  case 0x194:
+  case 0x195:
+  case 0x196:
+  case 0x197:
+  case 0x198:
+  case 0x199:
+  case 0x19a:
+  case 0x19b:
+  case 0x19c:
+  case 0x19d:
+  case 0x19e:
+  case 0x19f:
+  case 0x1a0:
+  case 0x1a1:
+  case 0x1a2:
+  case 0x1a3:
+  case 0x1a4:
+  case 0x1a5:
+  case 0x1a6:
+  case 0x1a7:
+  case 0x1a8:
+  case 0x1a9:
+  case 0x1aa:
+  case 0x1ab:
+  case 0x1ac:
+  case 0x1b6:
+  case 0x1b8:
+  case 0x1cf:
+  case 0x1e1:
+  case 0x1e2:
+  case 0x1e3:
+  case 0x1e7:
+  case 0x1e8:
+  case 0x1ef:
+  case 0x1f0:
+  case 0x1f7:
+  case 0x1f8:
+    break;
+  default:
+    bVar1 = true;
+    break;
+  case 0x31:
+    lVar2 = v8::internal::compiler::CallDescriptorOf((Operator *)*param_1);
+    bVar1 = (*(byte *)(lVar2 + 0x48) & 0x10) == 0;
+  }
+  return bVar1;
+}
+

@@ -1,0 +1,28 @@
+
+/* v8::internal::interpreter::ConstantArrayBuilder::InsertDeferred() */
+
+undefined4 v8::internal::interpreter::ConstantArrayBuilder::InsertDeferred(void)
+
+{
+  undefined4 uVar1;
+  long *in_x0;
+  long lVar2;
+  undefined8 in_x1;
+  
+  lVar2 = *in_x0;
+  if ((*(long *)(lVar2 + 8) - *(long *)(lVar2 + 0x10) ==
+       *(long *)(lVar2 + 0x28) - *(long *)(lVar2 + 0x20) >> 4) &&
+     (lVar2 = in_x0[1],
+     *(long *)(lVar2 + 8) - *(long *)(lVar2 + 0x10) ==
+     *(long *)(lVar2 + 0x28) - *(long *)(lVar2 + 0x20) >> 4)) {
+    lVar2 = in_x0[2];
+    if (*(long *)(lVar2 + 8) - *(long *)(lVar2 + 0x10) ==
+        *(long *)(lVar2 + 0x28) - *(long *)(lVar2 + 0x20) >> 4) {
+                    /* WARNING: Subroutine does not return */
+      V8_Fatal("unreachable code");
+    }
+  }
+  uVar1 = ConstantArraySlice::Allocate(lVar2,in_x1,0,1);
+  return uVar1;
+}
+

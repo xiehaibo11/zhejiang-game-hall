@@ -1,0 +1,42 @@
+
+/* v8::internal::LargeObjectSpace::LargeObjectSpace(v8::internal::Heap*,
+   v8::internal::AllocationSpace) */
+
+void __thiscall
+v8::internal::LargeObjectSpace::LargeObjectSpace
+          (LargeObjectSpace *this,undefined8 param_1,undefined4 param_3)
+
+{
+  undefined8 *puVar1;
+  
+  puVar1 = operator_new(0x30);
+  puVar1[1] = 0;
+  *puVar1 = 0;
+  puVar1[3] = 0;
+  puVar1[2] = 0;
+  *puVar1 = &PTR__FreeList_01caa258;
+  puVar1[5] = 0;
+  puVar1[4] = 0;
+  *(undefined8 **)(this + 0x60) = puVar1;
+  *(undefined ***)this = &PTR__Space_01ca9d00;
+  this[0x38] = (LargeObjectSpace)0x0;
+  *(undefined8 *)(this + 0x28) = 0;
+  *(undefined8 *)(this + 0x20) = 0;
+  *(undefined8 *)(this + 0x18) = 0;
+  *(undefined8 *)(this + 0x10) = 0;
+  *(undefined8 *)(this + 8) = 0;
+  *(undefined8 *)(this + 0x40) = param_1;
+  *(undefined4 *)(this + 0x48) = param_3;
+  *(undefined8 *)(this + 0x50) = 0;
+  *(undefined8 *)(this + 0x58) = 0;
+  puVar1 = operator_new__(0x10);
+  *(undefined8 **)(this + 0x30) = puVar1;
+  *puVar1 = 0;
+  puVar1[1] = 0;
+  *(undefined ***)this = &PTR__LargeObjectSpace_01ca9990;
+  *(undefined8 *)(this + 0x68) = 0;
+  *(undefined4 *)(this + 0x70) = 0;
+  *(undefined8 *)(this + 0x78) = 0;
+  return;
+}
+

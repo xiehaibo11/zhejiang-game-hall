@@ -1,0 +1,43 @@
+
+void bn_sqr_normal(ulong *param_1,ulong *param_2,int param_3,ulong *param_4)
+
+{
+  bool bVar1;
+  int iVar2;
+  ulong uVar3;
+  int num;
+  ulong *rp;
+  ulong *ap;
+  ulong *puVar4;
+  
+                    /* try { // try from 00aff5c0 to 00bff5c7 has its CatchHandler @ 00aff604 */
+                    /* try { // try from 00aff5c8 to 00bff623 has its CatchHandler @ 00aff540 */
+  param_1[(long)param_3 * 2 + -1] = 0;
+  *param_1 = 0;
+  if (1 < param_3) {
+                    /* catch() { ... } // from try @ 00aff5c0 with catch @ 00aff604 */
+    uVar3 = bn_mul_words(param_1 + 1,param_2 + 1,(int)((long)param_3 + -1),*param_2);
+    (param_1 + 1)[(long)param_3 + -1] = uVar3;
+    if (param_3 + -2 != 0) {
+      puVar4 = param_1 + param_3;
+      rp = param_1 + 3;
+      ap = param_2 + 2;
+      num = param_3 + -2;
+      do {
+        puVar4 = puVar4 + 1;
+        uVar3 = bn_mul_add_words(rp,ap,num,ap[-1]);
+        *puVar4 = uVar3;
+        rp = rp + 2;
+        iVar2 = num + -1;
+        ap = ap + 1;
+        bVar1 = 0 < num;
+        num = iVar2;
+      } while (iVar2 != 0 && bVar1);
+    }
+  }
+  bn_add_words(param_1,param_1,param_1,param_3 << 1);
+  bn_sqr_words(param_4,param_2,param_3);
+  bn_add_words(param_1,param_1,param_4,param_3 << 1);
+  return;
+}
+

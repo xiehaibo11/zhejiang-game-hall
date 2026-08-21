@@ -1,0 +1,34 @@
+
+void FUN_00a1b6ac(long param_1,long param_2)
+
+{
+  long lVar1;
+  long lVar2;
+  long lVar3;
+  undefined1 auVar4 [16];
+  
+  auVar4 = FUN_00a18e40();
+  lVar2 = *(long *)(param_1 + 0x3a8);
+  *(long *)(param_1 + 0x958) = param_2;
+  if (lVar2 < 1) {
+    return;
+  }
+  if (*(long *)(param_1 + 0xa28) != 0 || *(long *)(param_1 + 0xa20) != 0) {
+    lVar3 = param_2 - *(long *)(param_1 + 0xa30);
+    if (lVar3 < lVar2) {
+      return;
+    }
+    lVar1 = 0;
+    if (lVar2 != 0) {
+      lVar1 = (lVar3 * 1000) / lVar2;
+    }
+    lVar2 = FUN_00a18ea0(auVar4._0_8_,auVar4._8_8_);
+    if (lVar2 < lVar1) {
+      return;
+    }
+  }
+  *(undefined1 (*) [16])(param_1 + 0xa20) = auVar4;
+  *(long *)(param_1 + 0xa30) = param_2;
+  return;
+}
+

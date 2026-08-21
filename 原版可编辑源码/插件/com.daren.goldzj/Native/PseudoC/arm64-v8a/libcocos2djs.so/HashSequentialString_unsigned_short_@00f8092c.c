@@ -1,0 +1,92 @@
+
+/* unsigned int v8::internal::StringHasher::HashSequentialString<unsigned short>(unsigned short
+   const*, int, unsigned long) */
+
+uint v8::internal::StringHasher::HashSequentialString<unsigned_short>
+               (ushort *param_1,int param_2,ulong param_3)
+
+{
+  uint uVar1;
+  uint uVar2;
+  uint uVar3;
+  ushort *puVar4;
+  ulong uVar5;
+  long lVar6;
+  
+  uVar2 = (uint)param_3;
+  if (param_2 < 1) {
+    if (param_2 == 0) goto LAB_00f80a1c;
+    uVar5 = (ulong)param_2;
+  }
+  else {
+    uVar3 = *param_1 - 0x30;
+    if (uVar3 < 10) {
+      if (param_2 == 1) {
+LAB_00f8094c:
+        uVar2 = MakeArrayIndexHash(uVar3,param_2);
+        return uVar2;
+      }
+      if (*param_1 != 0x30) {
+        if (param_2 < 0xb) {
+          lVar6 = (ulong)(uint)param_2 - 1;
+          puVar4 = param_1;
+          do {
+            puVar4 = puVar4 + 1;
+            uVar1 = *puVar4 - 0x30;
+            if ((9 < uVar1) || (0x19999999U - ((int)(*puVar4 - 0x2d) >> 3) < uVar3))
+            goto LAB_00f809bc;
+            uVar3 = uVar1 + uVar3 * 10;
+            lVar6 = lVar6 + -1;
+          } while (lVar6 != 0);
+          goto LAB_00f8094c;
+        }
+LAB_00f809bc:
+        if (param_2 < 0x11) {
+          uVar3 = 0;
+          if (param_2 != 0) {
+            uVar5 = 0;
+            lVar6 = (long)param_2 << 1;
+            uVar2 = (uint)*param_1;
+            do {
+              if (uVar2 - 0x30 < 10) {
+                uVar5 = (ulong)(uVar2 - 0x30) + uVar5 * 10;
+                uVar3 = (uint)(uVar5 >> 0x35 != 0) << 2;
+              }
+              else {
+                uVar3 = 4;
+              }
+              do {
+                uVar2 = ((int)param_3 + uVar2) * 0x401;
+                param_1 = param_1 + 1;
+                lVar6 = lVar6 + -2;
+                uVar2 = uVar2 ^ uVar2 >> 6;
+                param_3 = (ulong)uVar2;
+                if (lVar6 == 0) goto LAB_00f80a90;
+                uVar2 = (uint)*param_1;
+              } while (uVar3 != 0);
+            } while( true );
+          }
+LAB_00f80a90:
+          uVar2 = (uVar2 * 9 ^ uVar2 * 9 >> 0xb) * 0x8001;
+          return uVar3 | ((int)((uVar2 & 0x1fffffff) - 1) >> 0x1f & 0x1bU | uVar2) << 3 | 2;
+        }
+      }
+    }
+    if (0x3fff < param_2) {
+      return param_2 << 2 | 6;
+    }
+    uVar5 = (ulong)(uint)param_2;
+  }
+  lVar6 = uVar5 << 1;
+  do {
+    lVar6 = lVar6 + -2;
+    uVar2 = ((int)param_3 + (uint)*param_1) * 0x401;
+    uVar2 = uVar2 ^ uVar2 >> 6;
+    param_3 = (ulong)uVar2;
+    param_1 = param_1 + 1;
+  } while (lVar6 != 0);
+LAB_00f80a1c:
+  uVar2 = (uVar2 * 9 ^ uVar2 * 9 >> 0xb) * 0x8001;
+  return ((int)((uVar2 & 0x1fffffff) - 1) >> 0x1f & 0x1bU | uVar2) << 3 | 6;
+}
+

@@ -1,0 +1,26 @@
+
+/* std::__ndk1::__function::__func<v8::internal::compiler::JSCallReducerAssembler::Forever(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,
+   v8::internal::HeapNumber> >,
+   std::__ndk1::function<v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,
+   v8::internal::HeapNumber> > (v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,
+   v8::internal::HeapNumber> >)>
+   const&)::{lambda(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,
+   v8::internal::HeapNumber> >)#1},
+   std::__ndk1::allocator<v8::internal::compiler::JSCallReducerAssembler::Forever(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,
+   v8::internal::HeapNumber> >,
+   std::__ndk1::function<v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,
+   v8::internal::HeapNumber> > (v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,
+   v8::internal::HeapNumber> >)>
+   const&)::{lambda(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,
+   v8::internal::HeapNumber> >)#1}>, v8::internal::TNode<v8::internal::Oddball>
+   (v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi, v8::internal::HeapNumber>
+   >)>::destroy() */
+
+void std::__ndk1::__function::
+     __func<v8::internal::compiler::JSCallReducerAssembler::Forever(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,v8::internal::HeapNumber>>,std::__ndk1::function<v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,v8::internal::HeapNumber>>(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,v8::internal::HeapNumber>>)>const&)::{lambda(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,v8::internal::HeapNumber>>)#1},std::__ndk1::allocator<v8::internal::compiler::JSCallReducerAssembler::Forever(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,v8::internal::HeapNumber>>,std::__ndk1::function<v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,v8::internal::HeapNumber>>(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,v8::internal::HeapNumber>>)>const&)::{lambda(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,v8::internal::HeapNumber>>)#1}>,v8::internal::TNode<v8::internal::Oddball>(v8::internal::TNode<v8::internal::UnionT<v8::internal::Smi,v8::internal::HeapNumber>>)>
+     ::destroy(void)
+
+{
+  return;
+}
+

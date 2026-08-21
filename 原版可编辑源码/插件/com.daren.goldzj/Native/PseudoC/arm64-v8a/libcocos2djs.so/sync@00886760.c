@@ -1,0 +1,9 @@
+
+/* std::__ndk1::basic_streambuf<char, std::__ndk1::char_traits<char> >::sync() */
+
+undefined8 std::__ndk1::basic_streambuf<char,std::__ndk1::char_traits<char>>::sync(void)
+
+{
+  return 0;
+}
+

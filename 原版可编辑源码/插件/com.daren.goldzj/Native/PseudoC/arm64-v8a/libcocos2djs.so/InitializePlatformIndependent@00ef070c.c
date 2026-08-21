@@ -1,0 +1,30 @@
+
+/* v8::internal::I64ToBigIntDescriptor::InitializePlatformIndependent(v8::internal::CallInterfaceDescriptorData*)
+    */
+
+void __thiscall
+v8::internal::I64ToBigIntDescriptor::InitializePlatformIndependent
+          (I64ToBigIntDescriptor *this,CallInterfaceDescriptorData *param_1)
+
+{
+  undefined4 *puVar1;
+  long *plVar2;
+  
+  *(undefined4 *)(param_1 + 0xc) = 1;
+  *(undefined8 *)(param_1 + 4) = 0x100000001;
+  puVar1 = operator_new__(4,(nothrow_t *)&std::nothrow);
+  if (puVar1 == (undefined4 *)0x0) {
+    plVar2 = (long *)V8::GetCurrentPlatform();
+    (**(code **)(*plVar2 + 0x18))();
+    puVar1 = operator_new__(4,(nothrow_t *)&std::nothrow);
+    if (puVar1 == (undefined4 *)0x0) {
+                    /* WARNING: Subroutine does not return */
+      FatalProcessOutOfMemory((Isolate *)0x0,"NewArray");
+    }
+  }
+  *puVar1 = 0;
+  *(undefined4 **)(param_1 + 0x20) = puVar1;
+  *puVar1 = 0x4050708;
+  return;
+}
+

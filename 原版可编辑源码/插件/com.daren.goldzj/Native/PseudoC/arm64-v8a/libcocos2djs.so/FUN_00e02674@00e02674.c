@@ -1,0 +1,15 @@
+
+void FUN_00e02674(void)
+
+{
+  if (PTR_LOOP_01d2b748 != VP8GetCPUInfo) {
+    DAT_01d547f0 = FUN_00e026e8;
+    DAT_01d54868 = FUN_00e02004;
+    DAT_01d54860 = FUN_00e027f4;
+    DAT_01d54878 = FUN_00e02948;
+    DAT_01d54870 = FUN_00e02410;
+    PTR_LOOP_01d2b748 = VP8GetCPUInfo;
+  }
+  return;
+}
+

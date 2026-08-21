@@ -1,0 +1,156 @@
+
+undefined8 TIFFYCbCrToRGBInit(long *param_1,float *param_2,float *param_3)
+
+{
+  int *piVar1;
+  int iVar2;
+  int iVar3;
+  int iVar4;
+  int iVar5;
+  int iVar6;
+  int iVar7;
+  long lVar8;
+  int iVar9;
+  int iVar10;
+  int iVar11;
+  int iVar12;
+  int iVar13;
+  float fVar14;
+  float fVar15;
+  float fVar16;
+  float fVar17;
+  float fVar18;
+  float fVar19;
+  float fVar20;
+  int iVar21;
+  int iVar23;
+  int iVar24;
+  undefined1 auVar22 [16];
+  int iVar25;
+  int iVar26;
+  int iVar29;
+  int iVar30;
+  undefined1 auVar27 [16];
+  int iVar31;
+  undefined1 auVar28 [16];
+  
+  _TIFFmemset(param_1 + 6,0,0x100);
+  param_1[0x27] = 0xf0e0d0c0b0a0908;
+  param_1[0x26] = 0x706050403020100;
+  param_1[0x29] = 0x1f1e1d1c1b1a1918;
+  param_1[0x28] = 0x1716151413121110;
+  param_1[0x2b] = 0x2f2e2d2c2b2a2928;
+  param_1[0x2a] = 0x2726252423222120;
+  param_1[0x2d] = 0x3f3e3d3c3b3a3938;
+  param_1[0x2c] = 0x3736353433323130;
+  param_1[0x37] = -0x7071727374757678;
+  param_1[0x36] = -0x78797a7b7c7d7e80;
+  param_1[0x39] = -0x6061626364656668;
+  param_1[0x38] = -0x68696a6b6c6d6e70;
+  param_1[0x3b] = -0x5051525354555658;
+  param_1[0x3a] = -0x58595a5b5c5d5e60;
+  param_1[0x3d] = -0x4041424344454648;
+  param_1[0x3c] = -0x48494a4b4c4d4e50;
+  param_1[0x3f] = -0x3031323334353638;
+  param_1[0x3e] = -0x38393a3b3c3d3e40;
+  param_1[0x41] = -0x2021222324252628;
+  param_1[0x40] = -0x28292a2b2c2d2e30;
+  param_1[0x2f] = 0x4f4e4d4c4b4a4948;
+  param_1[0x2e] = 0x4746454443424140;
+  param_1[0x31] = 0x5f5e5d5c5b5a5958;
+  param_1[0x30] = 0x5756555453525150;
+  param_1[0x33] = 0x6f6e6d6c6b6a6968;
+  param_1[0x32] = 0x6766656463626160;
+  param_1[0x35] = 0x7f7e7d7c7b7a7978;
+  param_1[0x34] = 0x7776757473727170;
+  *param_1 = (long)(param_1 + 0x26);
+  param_1[0x43] = -0x1011121314151618;
+  param_1[0x42] = -0x18191a1b1c1d1e20;
+  param_1[0x45] = -0x1020304050608;
+  param_1[0x44] = -0x8090a0b0c0d0e10;
+  _TIFFmemset(param_1 + 0x46,0xff,0x200);
+  param_1[3] = (long)(param_1 + 0x186);
+  param_1[4] = (long)(param_1 + 0x206);
+  param_1[1] = (long)(param_1 + 0x86);
+  param_1[2] = (long)(param_1 + 0x106);
+  param_1[5] = (long)(param_1 + 0x286);
+  fVar14 = *param_2;
+  fVar15 = param_2[2];
+  iVar5 = (int)*param_3;
+  fVar19 = param_3[1] - *param_3;
+  fVar18 = 2.0 - (fVar14 + fVar14);
+  fVar20 = 2.0 - (fVar15 + fVar15);
+  iVar3 = (int)(param_3[4] + -128.0);
+  fVar16 = (param_3[5] + -128.0) - (param_3[4] + -128.0);
+  iVar9 = (int)(param_3[2] + -128.0);
+  fVar17 = (param_3[3] + -128.0) - (param_3[2] + -128.0);
+  iVar12 = -0x7e;
+  iVar13 = -0x7d;
+  iVar10 = -0x80;
+  iVar11 = -0x7f;
+  iVar4 = (int)(fVar18 * 65536.0 + 0.5);
+  if (fVar16 == 0.0) {
+    fVar16 = 1.0;
+  }
+  iVar6 = (int)(fVar20 * 65536.0 + 0.5);
+  if (fVar17 == 0.0) {
+    fVar17 = 1.0;
+  }
+  if (fVar19 == 0.0) {
+    fVar19 = 1.0;
+  }
+  iVar7 = (int)(((fVar15 * fVar20) / param_2[1]) * 65536.0 + 0.5);
+  iVar2 = -(int)(((fVar14 * fVar18) / param_2[1]) * 65536.0 + 0.5);
+  lVar8 = 0x830;
+  do {
+    auVar27._0_4_ = iVar10 - iVar9;
+    auVar27._4_4_ = iVar11 - iVar9;
+    auVar27._8_4_ = iVar12 - iVar9;
+    auVar27._12_4_ = iVar13 - iVar9;
+    auVar22._0_4_ = iVar10 - iVar3;
+    auVar22._4_4_ = iVar11 - iVar3;
+    auVar22._8_4_ = iVar12 - iVar3;
+    auVar22._12_4_ = iVar13 - iVar3;
+    auVar27 = NEON_scvtf(auVar27,4);
+    auVar22 = NEON_scvtf(auVar22,4);
+    iVar26 = (int)((auVar27._0_4_ * 127.0) / fVar17);
+    iVar29 = (int)((auVar27._4_4_ * 127.0) / fVar17);
+    iVar30 = (int)((auVar27._8_4_ * 127.0) / fVar17);
+    iVar31 = (int)((auVar27._12_4_ * 127.0) / fVar17);
+    iVar21 = (int)((auVar22._0_4_ * 127.0) / fVar16);
+    iVar23 = (int)((auVar22._4_4_ * 127.0) / fVar16);
+    iVar24 = (int)((auVar22._8_4_ * 127.0) / fVar16);
+    iVar25 = (int)((auVar22._12_4_ * 127.0) / fVar16);
+    piVar1 = (int *)((long)param_1 + lVar8);
+    piVar1[-0xfe] = iVar4 * iVar24 + 0x8000 >> 0x10;
+    piVar1[-0xfd] = iVar4 * iVar25 + 0x8000 >> 0x10;
+    piVar1[-0x100] = iVar4 * iVar21 + 0x8000 >> 0x10;
+    piVar1[-0xff] = iVar4 * iVar23 + 0x8000 >> 0x10;
+    piVar1[2] = iVar6 * iVar30 + 0x8000 >> 0x10;
+    piVar1[3] = iVar6 * iVar31 + 0x8000 >> 0x10;
+    *piVar1 = iVar6 * iVar26 + 0x8000 >> 0x10;
+    piVar1[1] = iVar6 * iVar29 + 0x8000 >> 0x10;
+    auVar28._0_4_ = (iVar10 + 0x80) - iVar5;
+    auVar28._4_4_ = (iVar11 + 0x80) - iVar5;
+    auVar28._8_4_ = (iVar12 + 0x80) - iVar5;
+    auVar28._12_4_ = (iVar13 + 0x80) - iVar5;
+    auVar22 = NEON_scvtf(auVar28,4);
+    piVar1[0x102] = iVar2 * iVar24;
+    piVar1[0x103] = iVar2 * iVar25;
+    piVar1[0x100] = iVar2 * iVar21;
+    piVar1[0x101] = iVar2 * iVar23;
+    lVar8 = lVar8 + 0x10;
+    iVar10 = iVar10 + 4;
+    iVar11 = iVar11 + 4;
+    iVar12 = iVar12 + 4;
+    iVar13 = iVar13 + 4;
+    *(ulong *)(piVar1 + 0x202) = CONCAT44(0x8000 - iVar7 * iVar31,0x8000 - iVar7 * iVar30);
+    *(ulong *)(piVar1 + 0x200) = CONCAT44(0x8000 - iVar7 * iVar29,0x8000 - iVar7 * iVar26);
+    piVar1[0x302] = (int)((auVar22._8_4_ * 255.0) / fVar19);
+    piVar1[0x303] = (int)((auVar22._12_4_ * 255.0) / fVar19);
+    piVar1[0x300] = (int)((auVar22._0_4_ * 255.0) / fVar19);
+    piVar1[0x301] = (int)((auVar22._4_4_ * 255.0) / fVar19);
+  } while (lVar8 != 0xc30);
+  return 0;
+}
+

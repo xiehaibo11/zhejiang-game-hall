@@ -1,0 +1,192 @@
+
+/* v8::internal::compiler::WasmGraphBuilder::BuildI32AsmjsRemS(v8::internal::compiler::Node*,
+   v8::internal::compiler::Node*) */
+
+undefined8 __thiscall
+v8::internal::compiler::WasmGraphBuilder::BuildI32AsmjsRemS
+          (WasmGraphBuilder *this,Node *param_1,Node *param_2)
+
+{
+  CommonOperatorBuilder *this_00;
+  MachineOperatorBuilder *this_01;
+  MachineGraph *this_02;
+  Node *pNVar1;
+  Operator *pOVar2;
+  Operator *pOVar3;
+  Operator *pOVar4;
+  Node *pNVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  Node *pNVar8;
+  Node *pNVar9;
+  Node *pNVar10;
+  Node *pNVar11;
+  Operator *pOVar12;
+  Operator *pOVar13;
+  Node *pNVar14;
+  undefined8 uVar15;
+  Graph *pGVar16;
+  WasmGraphBuilder *pWVar17;
+  Graph *this_03;
+  Graph *this_04;
+  Node *local_78;
+  Node *pNStack_70;
+  Node *local_68;
+  
+  pWVar17 = this + 8;
+  this_02 = *(MachineGraph **)pWVar17;
+  this_00 = *(CommonOperatorBuilder **)(this_02 + 8);
+  this_01 = *(MachineOperatorBuilder **)(this_02 + 0x10);
+  pNVar1 = (Node *)MachineGraph::Int32Constant(this_02,0);
+  if (*(short *)(*(long *)param_2 + 0x10) == 0x17) {
+    if (*(int *)(*(long *)param_2 + 0x2c) + 1U < 2) {
+      return pNVar1;
+    }
+    pGVar16 = (Graph *)**(undefined8 **)(this + 8);
+    pOVar2 = (Operator *)MachineOperatorBuilder::Int32Mod(this_01);
+    local_68 = (Node *)**(undefined8 **)(this + 0x18);
+    local_78 = param_1;
+    pNStack_70 = param_2;
+  }
+  else {
+    uVar15 = MachineGraph::Int32Constant(*(MachineGraph **)pWVar17,-1);
+    pOVar3 = (Operator *)CommonOperatorBuilder::Merge(this_00,2);
+    pOVar2 = (Operator *)CommonOperatorBuilder::Phi(this_00,4,2);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)MachineOperatorBuilder::Int32LessThan(this_01);
+    local_78 = pNVar1;
+    pNStack_70 = param_2;
+    pNVar5 = (Node *)Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::Branch(this_00,1,1);
+    pNStack_70 = *(Node **)(**(long **)pWVar17 + 8);
+    local_78 = pNVar5;
+    pNVar5 = (Node *)Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::IfTrue(this_00);
+    local_78 = pNVar5;
+    uVar6 = Graph::NewNode(pGVar16,pOVar4,1,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)MachineOperatorBuilder::Int32Add(this_01);
+    local_78 = param_2;
+    pNStack_70 = (Node *)uVar15;
+    uVar7 = Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)MachineOperatorBuilder::Word32And(this_01);
+    local_78 = param_2;
+    pNStack_70 = (Node *)uVar7;
+    pNVar8 = (Node *)Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::Branch(this_00,0,1);
+    local_78 = pNVar8;
+    pNStack_70 = (Node *)uVar6;
+    pNVar8 = (Node *)Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::IfTrue(this_00);
+    local_78 = pNVar8;
+    pNVar9 = (Node *)Graph::NewNode(pGVar16,pOVar4,1,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)MachineOperatorBuilder::Int32Mod(this_01);
+    local_78 = param_1;
+    pNStack_70 = param_2;
+    local_68 = pNVar9;
+    pNVar10 = (Node *)Graph::NewNode(pGVar16,pOVar4,3,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::IfFalse(this_00);
+    local_78 = pNVar8;
+    uVar6 = Graph::NewNode(pGVar16,pOVar4,1,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)MachineOperatorBuilder::Int32LessThan(this_01);
+    local_78 = param_1;
+    pNStack_70 = pNVar1;
+    pNVar8 = (Node *)Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::Branch(this_00,2,1);
+    local_78 = pNVar8;
+    pNStack_70 = (Node *)uVar6;
+    pNVar8 = (Node *)Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::IfTrue(this_00);
+    local_78 = pNVar8;
+    pNVar11 = (Node *)Graph::NewNode(pGVar16,pOVar4,1,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)MachineOperatorBuilder::Int32Sub(this_01);
+    this_03 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar12 = (Operator *)MachineOperatorBuilder::Word32And(this_01);
+    this_04 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar13 = (Operator *)MachineOperatorBuilder::Int32Sub(this_01);
+    local_78 = pNVar1;
+    pNStack_70 = param_1;
+    local_78 = (Node *)Graph::NewNode(this_04,pOVar13,2,&local_78,false);
+    pNStack_70 = (Node *)uVar7;
+    pNStack_70 = (Node *)Graph::NewNode(this_03,pOVar12,2,&local_78,false);
+    local_78 = pNVar1;
+    pNVar14 = (Node *)Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::IfFalse(this_00);
+    local_78 = pNVar8;
+    uVar6 = Graph::NewNode(pGVar16,pOVar4,1,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)MachineOperatorBuilder::Word32And(this_01);
+    local_78 = param_1;
+    pNStack_70 = (Node *)uVar7;
+    uVar7 = Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    local_78 = pNVar11;
+    pNStack_70 = (Node *)uVar6;
+    uVar6 = Graph::NewNode((Graph *)**(undefined8 **)pWVar17,pOVar3,2,&local_78,false);
+    local_78 = pNVar14;
+    pNStack_70 = (Node *)uVar7;
+    local_68 = (Node *)uVar6;
+    uVar7 = Graph::NewNode((Graph *)**(undefined8 **)pWVar17,pOVar2,3,&local_78,false);
+    local_78 = pNVar9;
+    pNStack_70 = (Node *)uVar6;
+    pNVar8 = (Node *)Graph::NewNode((Graph *)**(undefined8 **)pWVar17,pOVar3,2,&local_78,false);
+    local_78 = pNVar10;
+    pNStack_70 = (Node *)uVar7;
+    local_68 = pNVar8;
+    pNVar9 = (Node *)Graph::NewNode((Graph *)**(undefined8 **)pWVar17,pOVar2,3,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::IfFalse(this_00);
+    local_78 = pNVar5;
+    uVar6 = Graph::NewNode(pGVar16,pOVar4,1,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)MachineOperatorBuilder::Int32LessThan(this_01);
+    local_78 = param_2;
+    pNStack_70 = (Node *)uVar15;
+    pNVar5 = (Node *)Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::Branch(this_00,1,1);
+    local_78 = pNVar5;
+    pNStack_70 = (Node *)uVar6;
+    pNVar5 = (Node *)Graph::NewNode(pGVar16,pOVar4,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::IfTrue(this_00);
+    local_78 = pNVar5;
+    pNVar10 = (Node *)Graph::NewNode(pGVar16,pOVar4,1,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)MachineOperatorBuilder::Int32Mod(this_01);
+    local_78 = param_1;
+    pNStack_70 = param_2;
+    local_68 = pNVar10;
+    pNVar11 = (Node *)Graph::NewNode(pGVar16,pOVar4,3,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    pOVar4 = (Operator *)CommonOperatorBuilder::IfFalse(this_00);
+    local_78 = pNVar5;
+    pNStack_70 = (Node *)Graph::NewNode(pGVar16,pOVar4,1,&local_78,false);
+    local_78 = pNVar10;
+    uVar15 = Graph::NewNode((Graph *)**(undefined8 **)pWVar17,pOVar3,2,&local_78,false);
+    local_78 = pNVar11;
+    pNStack_70 = pNVar1;
+    local_68 = (Node *)uVar15;
+    pNVar1 = (Node *)Graph::NewNode((Graph *)**(undefined8 **)pWVar17,pOVar2,3,&local_78,false);
+    local_78 = pNVar8;
+    pNStack_70 = (Node *)uVar15;
+    local_68 = (Node *)Graph::NewNode((Graph *)**(undefined8 **)pWVar17,pOVar3,2,&local_78,false);
+    pGVar16 = (Graph *)**(undefined8 **)pWVar17;
+    local_78 = pNVar9;
+    pNStack_70 = pNVar1;
+  }
+  uVar15 = Graph::NewNode(pGVar16,pOVar2,3,&local_78,false);
+  return uVar15;
+}
+

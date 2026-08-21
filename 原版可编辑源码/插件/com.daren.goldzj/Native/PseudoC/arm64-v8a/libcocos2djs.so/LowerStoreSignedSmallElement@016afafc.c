@@ -1,0 +1,99 @@
+
+/* v8::internal::compiler::EffectControlLinearizer::LowerStoreSignedSmallElement(v8::internal::compiler::Node*)
+    */
+
+void __thiscall
+v8::internal::compiler::EffectControlLinearizer::LowerStoreSignedSmallElement
+          (EffectControlLinearizer *this,Node *param_1)
+
+{
+  GraphAssembler *this_00;
+  Node *pNVar1;
+  long lVar2;
+  uint uVar3;
+  AccessBuilder *pAVar4;
+  Node *pNVar5;
+  Node *pNVar6;
+  Node *pNVar7;
+  AccessBuilder *this_01;
+  Node *pNVar8;
+  ElementAccess aEStack_e0 [8];
+  ulong local_d8;
+  undefined2 local_d0;
+  undefined1 local_ce;
+  GraphAssemblerLabel local_c8 [4];
+  undefined4 local_c4;
+  BasicBlock *local_c0;
+  undefined8 uStack_b8;
+  FieldAccess local_90 [4];
+  undefined4 local_8c;
+  undefined8 local_88;
+  undefined8 uStack_80;
+  long local_58;
+  
+  lVar2 = tpidr_el0;
+  local_58 = *(long *)(lVar2 + 0x28);
+  pNVar5 = param_1 + 0x20;
+  if ((~*(uint *)(param_1 + 0x14) & 0xf000000) == 0) {
+    pNVar5 = (Node *)(*(long *)pNVar5 + 0x10);
+  }
+  pNVar7 = *(Node **)pNVar5;
+  pNVar1 = *(Node **)(pNVar5 + 8);
+  pNVar8 = *(Node **)(pNVar5 + 0x10);
+  this_00 = (GraphAssembler *)(this + 0x38);
+  AccessBuilder::ForMap((AccessBuilder *)this);
+  pAVar4 = (AccessBuilder *)GraphAssembler::LoadField(this_00,local_90,pNVar7);
+  AccessBuilder::ForMapBitField2(pAVar4);
+  pNVar5 = (Node *)GraphAssembler::LoadField(this_00,local_90,(Node *)pAVar4);
+  pNVar6 = (Node *)GraphAssembler::Int32Constant(this_00,0xf8);
+  pNVar5 = (Node *)GraphAssembler::Word32And(this_00,pNVar5,pNVar6);
+  pNVar6 = (Node *)GraphAssembler::Int32Constant(this_00,3);
+  pAVar4 = (AccessBuilder *)GraphAssembler::Word32Shr(this_00,pNVar5,pNVar6);
+  AccessBuilder::ForJSObjectElements(pAVar4);
+  pNVar5 = (Node *)GraphAssembler::LoadField(this_00,local_90,pNVar7);
+  local_88 = GraphAssembler::NewBasicBlock(this_00,false);
+  uStack_80 = 0;
+  local_90[0] = (FieldAccess)0x0;
+  local_8c = 1;
+  local_c0 = (BasicBlock *)GraphAssembler::NewBasicBlock(this_00,false);
+  uStack_b8 = 0;
+  local_c8[0] = (GraphAssemblerLabel)0x0;
+  local_c4 = 1;
+  pNVar7 = (Node *)GraphAssembler::Int32Constant(this_00,3);
+  pNVar7 = (Node *)GraphAssembler::Int32LessThan(this_00,pNVar7,(Node *)pAVar4);
+  GraphAssembler::GotoIf<>(this_00,pNVar7,(GraphAssemblerLabel *)local_90);
+  AccessBuilder::ForFixedArrayElement(this_01);
+  uVar3 = BitsetType::SignedSmall();
+  local_d8 = (ulong)(uVar3 | 1);
+  local_d0 = 0x206;
+  local_ce = 0;
+  if (*(char *)(*(long *)(*(long *)this + 0x10) + 0x10) == '\x05') {
+    pNVar7 = (Node *)GraphAssembler::Int32Constant(this_00,1);
+    pNVar7 = (Node *)GraphAssembler::Word32Shl(this_00,pNVar8,pNVar7);
+    pNVar7 = (Node *)GraphAssembler::BitcastWord32ToWord64(this_00,pNVar7);
+  }
+  else {
+    pNVar7 = (Node *)GraphAssembler::IntPtrConstant(this_00,1);
+    pNVar7 = (Node *)GraphAssembler::WordShl(this_00,pNVar8,pNVar7);
+  }
+  GraphAssembler::StoreElement(this_00,aEStack_e0,pNVar5,pNVar1,pNVar7);
+  GraphAssembler::MergeState<>(this_00,local_c8);
+  GraphAssembler::GotoBasicBlock(this_00,local_c0);
+  *(undefined8 *)(this + 0x58) = 0;
+  *(undefined8 *)(this + 0x60) = 0;
+  GraphAssembler::Bind<0ul>(this_00,(GraphAssemblerLabel *)local_90);
+  pAVar4 = (AccessBuilder *)GraphAssembler::ChangeInt32ToFloat64(this_00,pNVar8);
+  AccessBuilder::ForFixedDoubleArrayElement(pAVar4);
+  GraphAssembler::StoreElement(this_00,aEStack_e0,pNVar5,pNVar1,(Node *)pAVar4);
+  GraphAssembler::MergeState<>(this_00,local_c8);
+  GraphAssembler::GotoBasicBlock(this_00,local_c0);
+  *(undefined8 *)(this + 0x58) = 0;
+  *(undefined8 *)(this + 0x60) = 0;
+  GraphAssembler::Bind<0ul>(this_00,local_c8);
+  if (*(long *)(lVar2 + 0x28) == local_58) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+

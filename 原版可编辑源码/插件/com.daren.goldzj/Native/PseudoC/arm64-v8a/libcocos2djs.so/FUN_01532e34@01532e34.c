@@ -1,0 +1,120 @@
+
+void FUN_01532e34(long *param_1,ulong param_2)
+
+{
+  ulong uVar1;
+  undefined8 *puVar2;
+  ulong uVar3;
+  Zone *this;
+  ulong uVar4;
+  long *plVar5;
+  long *plVar6;
+  ulong uVar7;
+  long *plVar8;
+  long *plVar9;
+  undefined2 uVar10;
+  undefined8 uVar11;
+  ulong uVar12;
+  
+  if (param_2 == 0) {
+    *param_1 = 0;
+    param_1[1] = 0;
+  }
+  else {
+    this = (Zone *)param_1[2];
+    uVar3 = param_2 * 8;
+    puVar2 = *(undefined8 **)(this + 0x10);
+    if (uVar3 < (ulong)(*(long *)(this + 0x18) - (long)puVar2) ||
+        uVar3 - (*(long *)(this + 0x18) - (long)puVar2) == 0) {
+      *(undefined8 **)(this + 0x10) = puVar2 + param_2;
+    }
+    else {
+      puVar2 = (undefined8 *)v8::internal::Zone::NewExpand(this,uVar3);
+    }
+    uVar3 = param_2 - 1;
+    *param_1 = (long)puVar2;
+    param_1[1] = param_2;
+    *puVar2 = 0;
+    if (uVar3 != 0) {
+      uVar4 = 1;
+      do {
+        *(undefined8 *)(*param_1 + uVar4 * 8) = 0;
+        uVar4 = uVar4 + 1;
+      } while (param_2 != uVar4);
+    }
+    plVar5 = (long *)param_1[3];
+    if (plVar5 != (long *)0x0) {
+      uVar4 = plVar5[1];
+      uVar11 = CONCAT17(POPCOUNT((char)(param_2 >> 0x38)),
+                        CONCAT16(POPCOUNT((char)(param_2 >> 0x30)),
+                                 CONCAT15(POPCOUNT((char)(param_2 >> 0x28)),
+                                          CONCAT14(POPCOUNT((char)(param_2 >> 0x20)),
+                                                   CONCAT13(POPCOUNT((char)(param_2 >> 0x18)),
+                                                            CONCAT12(POPCOUNT((char)(param_2 >> 0x10
+                                                                                    )),
+                                                                     CONCAT11(POPCOUNT((char)(
+                                                  param_2 >> 8)),POPCOUNT((char)param_2))))))));
+      uVar10 = NEON_uaddlv(uVar11,1);
+      uVar12 = CONCAT62((int6)((ulong)uVar11 >> 0x10),uVar10);
+      if ((uVar12 & 0xffffffff) < 2) {
+        uVar4 = uVar4 & uVar3;
+      }
+      else if (param_2 <= uVar4) {
+        uVar7 = 0;
+        if (param_2 != 0) {
+          uVar7 = uVar4 / param_2;
+        }
+        uVar4 = uVar4 - uVar7 * param_2;
+      }
+      *(long **)(*param_1 + uVar4 * 8) = param_1 + 3;
+      plVar6 = (long *)*plVar5;
+joined_r0x01532ee8:
+      if (plVar6 != (long *)0x0) {
+        do {
+          uVar7 = plVar6[1];
+          if ((uVar12 & 0xffffffff) < 2) {
+            uVar7 = uVar7 & uVar3;
+LAB_01532f28:
+            if (uVar7 == uVar4) goto LAB_01532ef0;
+LAB_01532f30:
+            plVar9 = plVar6;
+            if (*(long *)(*param_1 + uVar7 * 8) == 0) goto LAB_01532f8c;
+            do {
+              plVar8 = plVar9;
+              plVar9 = (long *)*plVar8;
+              if (plVar9 == (long *)0x0) break;
+            } while ((int)plVar6[2] == (int)plVar9[2]);
+            *plVar5 = (long)plVar9;
+            *plVar8 = **(long **)(*param_1 + uVar7 * 8);
+            **(undefined8 **)(*param_1 + uVar7 * 8) = plVar6;
+            plVar9 = (long *)*plVar5;
+          }
+          else {
+            if (uVar7 < param_2) goto LAB_01532f28;
+            uVar1 = 0;
+            if (param_2 != 0) {
+              uVar1 = uVar7 / param_2;
+            }
+            uVar7 = uVar7 - uVar1 * param_2;
+            if (uVar7 != uVar4) goto LAB_01532f30;
+LAB_01532ef0:
+            plVar9 = (long *)*plVar6;
+            plVar5 = plVar6;
+          }
+          plVar6 = plVar9;
+          if (plVar6 == (long *)0x0) {
+            return;
+          }
+        } while( true );
+      }
+    }
+  }
+  return;
+LAB_01532f8c:
+  *(long **)(*param_1 + uVar7 * 8) = plVar5;
+  plVar5 = plVar6;
+  plVar6 = (long *)*plVar6;
+  uVar4 = uVar7;
+  goto joined_r0x01532ee8;
+}
+

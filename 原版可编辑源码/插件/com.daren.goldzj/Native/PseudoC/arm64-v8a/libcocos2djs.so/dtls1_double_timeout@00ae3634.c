@@ -1,0 +1,32 @@
+
+void dtls1_double_timeout(SSL *param_1)
+
+{
+  ushort uVar1;
+  BIO *bp;
+  _func_3150 *p_Var2;
+  
+  p_Var2 = param_1->msg_callback;
+                    /* catch() { ... } // from try @ 00ae2b58 with catch @ 00ae3648
+                       catch() { ... } // from try @ 00ae356c with catch @ 00ae3648 */
+                    /* catch() { ... } // from try @ 00ae28fc with catch @ 00ae364c */
+                    /* catch() { ... } // from try @ 00ae28a4 with catch @ 00ae3650 */
+  uVar1 = *(short *)(p_Var2 + 0x1f8) << 1;
+  if (0x3b < uVar1) {
+    uVar1 = 0x3c;
+  }
+                    /* catch() { ... } // from try @ 00ae2820 with catch @ 00ae3664 */
+  *(ushort *)(p_Var2 + 0x1f8) = uVar1;
+                    /* catch() { ... } // from try @ 00ae2f60 with catch @ 00ae3670 */
+  if ((*(long *)(p_Var2 + 0x1e8) == 0) && (*(long *)(p_Var2 + 0x1f0) == 0)) {
+    *(undefined2 *)(p_Var2 + 0x1f8) = 1;
+  }
+  gettimeofday((timeval *)(p_Var2 + 0x1e8),(__timezone_ptr_t)0x0);
+  p_Var2 = param_1->msg_callback;
+                    /* catch() { ... } // from try @ 00ae28e0 with catch @ 00ae369c */
+  *(ulong *)(p_Var2 + 0x1e8) = *(long *)(p_Var2 + 0x1e8) + (ulong)*(ushort *)(p_Var2 + 0x1f8);
+  bp = SSL_get_rbio(param_1);
+  BIO_ctrl(bp,0x2d,0,param_1->msg_callback + 0x1e8);
+  return;
+}
+

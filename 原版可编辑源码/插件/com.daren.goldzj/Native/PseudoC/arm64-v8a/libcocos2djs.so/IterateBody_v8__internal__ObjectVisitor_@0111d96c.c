@@ -1,0 +1,55 @@
+
+/* void 
+   v8::internal::WasmInstanceObject::BodyDescriptor::IterateBody<v8::internal::ObjectVisitor>(v8::internal::Map,
+   v8::internal::HeapObject, int, v8::internal::ObjectVisitor*) */
+
+void v8::internal::WasmInstanceObject::BodyDescriptor::IterateBody<v8::internal::ObjectVisitor>
+               (long param_1,long param_2,int param_3,long *param_4)
+
+{
+  int iVar1;
+  long lVar2;
+  long lVar3;
+  long lVar4;
+  
+  (**(code **)(*param_4 + 0x10))(param_4,param_2,param_2 + 3,param_2 + 0xb);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x2b);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x37);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x6f);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x73);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x77);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x7b);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x7f);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x83);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x87);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x8b);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x8f);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x93);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x97);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x9b);
+  (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + 0x9f);
+  if (*(short *)(param_1 + 7) == 0x421) {
+    iVar1 = 0xc;
+  }
+  else {
+    iVar1 = JSObject::GetHeaderSize(*(short *)(param_1 + 7),*(char *)(param_1 + 9) < '\0');
+  }
+  lVar3 = param_2 + -1;
+  lVar2 = (ulong)*(byte *)(param_1 + 4) * 4;
+  if (iVar1 < (int)lVar2) {
+    lVar4 = (long)iVar1;
+    (**(code **)(*param_4 + 0x10))(param_4,param_2,param_2 + 0xc3,lVar3 + lVar4);
+    do {
+      (**(code **)(*param_4 + 0x28))(param_4,param_2,param_2 + lVar4 + -1);
+      lVar4 = lVar4 + 8;
+    } while (lVar4 < lVar2);
+  }
+  else {
+    lVar2 = 0xc4;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0111dbc8. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (**(code **)(*param_4 + 0x10))(param_4,param_2,lVar3 + lVar2,lVar3 + param_3);
+  return;
+}
+

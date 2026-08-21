@@ -1,0 +1,14 @@
+
+void png_default_write_data(long param_1,void *param_2,size_t param_3)
+
+{
+  size_t sVar1;
+  
+  if ((param_1 != 0) &&
+     (sVar1 = fwrite(param_2,1,param_3,*(FILE **)(param_1 + 0x140)), sVar1 != param_3)) {
+                    /* WARNING: Subroutine does not return */
+    png_error(param_1,"Write Error");
+  }
+  return;
+}
+

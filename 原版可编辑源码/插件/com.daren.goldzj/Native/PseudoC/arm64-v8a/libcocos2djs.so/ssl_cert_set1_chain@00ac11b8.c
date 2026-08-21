@@ -1,0 +1,28 @@
+
+undefined8 ssl_cert_set1_chain(undefined8 param_1,undefined8 param_2,long param_3)
+
+{
+  int iVar1;
+  long lVar2;
+  undefined8 uVar3;
+  
+  if (param_3 != 0) {
+    lVar2 = X509_chain_up_ref(param_3);
+    uVar3 = 0;
+    if (lVar2 != 0) {
+      iVar1 = ssl_cert_set0_chain(param_1,param_2,lVar2);
+      if (iVar1 == 0) {
+        OPENSSL_sk_pop_free(lVar2,X509_free);
+        uVar3 = 0;
+      }
+      else {
+                    /* try { // try from 00ac11f8 to 00bc122b has its CatchHandler @ 00ac1430 */
+        uVar3 = 1;
+      }
+    }
+    return uVar3;
+  }
+  uVar3 = ssl_cert_set0_chain(param_1,param_2);
+  return uVar3;
+}
+

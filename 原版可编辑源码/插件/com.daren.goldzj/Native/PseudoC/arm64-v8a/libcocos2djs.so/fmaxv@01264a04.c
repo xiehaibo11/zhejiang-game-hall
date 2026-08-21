@@ -1,0 +1,27 @@
+
+/* v8::internal::Assembler::fmaxv(v8::internal::VRegister const&, v8::internal::VRegister const&) */
+
+void __thiscall
+v8::internal::Assembler::fmaxv(Assembler *this,VRegister *param_1,VRegister *param_2)
+
+{
+  int iVar1;
+  uint uVar2;
+  
+  iVar1 = (int)((ulong)*(undefined8 *)param_2 >> 0x20);
+  if (*(int *)(param_2 + 0xc) == 2) {
+    uVar2 = 0x40400000;
+    if (iVar1 != 0x80) {
+      uVar2 = 0;
+    }
+  }
+  else if (*(int *)(param_2 + 0xc) == 1) {
+    uVar2 = (uint)(iVar1 == 0x40) << 0x16;
+  }
+  else {
+    uVar2 = 0x40000000;
+  }
+  Emit(this,uVar2 | (int)*(undefined8 *)param_2 << 5 | *(uint *)param_1 | 0x2e30f800);
+  return;
+}
+

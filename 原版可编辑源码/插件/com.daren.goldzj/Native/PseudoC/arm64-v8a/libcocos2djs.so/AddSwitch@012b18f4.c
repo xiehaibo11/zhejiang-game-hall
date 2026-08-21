@@ -1,0 +1,49 @@
+
+/* v8::internal::compiler::Schedule::AddSwitch(v8::internal::compiler::BasicBlock*,
+   v8::internal::compiler::Node*, v8::internal::compiler::BasicBlock**, unsigned long) */
+
+void __thiscall
+v8::internal::compiler::Schedule::AddSwitch
+          (Schedule *this,BasicBlock *param_1,Node *param_2,BasicBlock **param_3,ulong param_4)
+
+{
+  undefined8 *puVar1;
+  long lVar2;
+  ulong uVar3;
+  ulong uVar4;
+  vector<v8::internal::compiler::BasicBlock*,v8::internal::ZoneAllocator<v8::internal::compiler::BasicBlock*>>
+  *this_00;
+  BasicBlock *this_01;
+  
+  *(undefined4 *)(param_1 + 0x34) = 4;
+  for (; param_4 != 0; param_4 = param_4 - 1) {
+    this_01 = *param_3;
+    BasicBlock::AddSuccessor(param_1,this_01);
+    BasicBlock::AddPredecessor(this_01,param_1);
+    param_3 = param_3 + 1;
+  }
+  if ((*(long *)(param_1 + 0x40) != *(long *)(param_1 + 0x48)) &&
+     (puVar1 = (undefined8 *)(*(long *)(param_1 + 0x48) + -8), (Node *)*puVar1 == param_2)) {
+    *(undefined8 **)(param_1 + 0x48) = puVar1;
+  }
+  *(Node **)(param_1 + 0x38) = param_2;
+  this_00 = (vector<v8::internal::compiler::BasicBlock*,v8::internal::ZoneAllocator<v8::internal::compiler::BasicBlock*>>
+             *)(this + 0x28);
+  lVar2 = *(long *)this_00;
+  uVar4 = *(long *)(this + 0x30) - lVar2 >> 3;
+  if (uVar4 <= ((ulong)*(uint *)(param_2 + 0x14) & 0xffffff)) {
+    uVar3 = (ulong)((int)((ulong)*(uint *)(param_2 + 0x14) & 0xffffff) + 1);
+    if (uVar4 < uVar3) {
+      std::__ndk1::
+      vector<v8::internal::compiler::BasicBlock*,v8::internal::ZoneAllocator<v8::internal::compiler::BasicBlock*>>
+      ::__append(this_00,uVar3 - uVar4);
+      lVar2 = *(long *)this_00;
+    }
+    else if (uVar4 != uVar3) {
+      *(ulong *)(this + 0x30) = lVar2 + uVar3 * 8;
+    }
+  }
+  *(BasicBlock **)(lVar2 + ((ulong)*(uint *)(param_2 + 0x14) & 0xffffff) * 8) = param_1;
+  return;
+}
+

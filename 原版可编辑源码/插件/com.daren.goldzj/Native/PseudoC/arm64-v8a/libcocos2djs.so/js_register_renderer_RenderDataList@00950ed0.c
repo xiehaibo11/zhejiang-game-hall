@@ -1,0 +1,58 @@
+
+/* js_register_renderer_RenderDataList(se::Object*) */
+
+undefined8 js_register_renderer_RenderDataList(Object *param_1)
+
+{
+  long lVar1;
+  Class *this;
+  basic_string local_48;
+  undefined6 uStack_47;
+  undefined1 uStack_41;
+  undefined1 uStack_40;
+  undefined6 uStack_3f;
+  undefined1 local_39;
+  void *local_38;
+  Class *local_30;
+  long local_28;
+  
+  lVar1 = tpidr_el0;
+  local_28 = *(long *)(lVar1 + 0x28);
+                    /* try { // try from 00950ef4 to 00a50efb has its CatchHandler @ 00951754 */
+                    /* try { // try from 00950efc to 00a50fbb has its CatchHandler @ 009508b8 */
+  local_38 = (void *)0x0;
+  local_48 = (basic_string)0x1c;
+  uStack_3f = 0x7473694c6174;
+  uStack_47 = 0x7265646e6552;
+  uStack_41 = 0x44;
+  uStack_40 = 0x61;
+  local_39 = 0;
+  this = (Class *)se::Class::create(&local_48,param_1,(Object *)0x0,
+                                    js_renderer_RenderDataList_constructorRegistry);
+  if (((byte)local_48 & 1) != 0) {
+    operator_delete(local_38);
+  }
+  se::Class::defineFunction(this,"updateMesh",js_renderer_RenderDataList_updateMeshRegistry);
+  se::Class::defineFunction(this,"clear",js_renderer_RenderDataList_clearRegistry);
+  se::Class::defineFinalizeFunction(this,js_cocos2d_renderer_RenderDataList_finalizeRegistry);
+  se::Class::install(this);
+  local_48 = SUB81(this,0);
+  uStack_47 = (undefined6)((ulong)this >> 8);
+  uStack_41 = (undefined1)((ulong)this >> 0x38);
+  local_30 = (Class *)0x1879827;
+  std::__ndk1::
+  __hash_table<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,se::Class*>,std::__ndk1::__unordered_map_hasher<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,se::Class*>,std::__ndk1::hash<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>>,true>,std::__ndk1::__unordered_map_equal<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,se::Class*>,std::__ndk1::equal_to<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>>,true>,std::__ndk1::allocator<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,se::Class*>>>
+  ::__emplace_unique_impl<char_const*&,se::Class*&>(JSBClassType::__jsbClassTypeMap,&local_30);
+  __jsb_cocos2d_renderer_RenderDataList_proto = se::Class::getProto(this);
+  __jsb_cocos2d_renderer_RenderDataList_class = this;
+                    /* try { // try from 00950fbc to 00a50fc3 has its CatchHandler @ 00951750 */
+                    /* try { // try from 00950fc4 to 00a51083 has its CatchHandler @ 009508b8 */
+  se::ScriptEngine::getInstance();
+  se::ScriptEngine::clearException();
+  if (*(long *)(lVar1 + 0x28) == local_28) {
+    return 1;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+

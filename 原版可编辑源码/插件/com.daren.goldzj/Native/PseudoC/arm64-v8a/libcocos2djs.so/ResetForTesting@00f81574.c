@@ -1,0 +1,134 @@
+
+/* v8::internal::GCTracer::ResetForTesting() */
+
+void __thiscall v8::internal::GCTracer::ResetForTesting(GCTracer *this)
+
+{
+  long lVar1;
+  undefined8 uVar2;
+  uint uStack_4fc;
+  uint uStack_4e4;
+  uint uStack_4cc;
+  uint uStack_4b4;
+  uint uStack_49c;
+  uint uStack_484;
+  uint uStack_46c;
+  uint uStack_454;
+  uint uStack_43c;
+  undefined1 auStack_424 [7];
+  undefined1 auStack_41d [981];
+  long local_48;
+  
+  lVar1 = tpidr_el0;
+  local_48 = *(long *)(lVar1 + 0x28);
+  memset(auStack_41d,0,0x3d4);
+  *(undefined8 *)(this + 8) = 0x1500000004;
+  *(undefined8 *)(this + 0x10) = 0;
+  *(undefined8 *)(this + 0x20) = 0;
+  *(undefined8 *)(this + 0x18) = 0;
+  this[0x28] = (GCTracer)0x0;
+  memcpy(this + 0x29,auStack_424,0x3db);
+  *(undefined8 *)(this + 0x40c) = 0;
+  *(ulong *)(this + 0x404) = (ulong)uStack_43c;
+  *(undefined8 *)(this + 0x414) = 0;
+  *(undefined8 *)(this + 0x424) = 0;
+  *(ulong *)(this + 0x41c) = (ulong)uStack_454;
+  *(undefined8 *)(this + 0x42c) = 0;
+  *(undefined8 *)(this + 0x43c) = 0;
+  *(ulong *)(this + 0x434) = (ulong)uStack_46c;
+  *(undefined8 *)(this + 0x444) = 0;
+  *(undefined8 *)(this + 0x454) = 0;
+  *(ulong *)(this + 0x44c) = (ulong)uStack_484;
+  *(undefined8 *)(this + 0x45c) = 0;
+  *(undefined8 *)(this + 0x46c) = 0;
+  *(ulong *)(this + 0x464) = (ulong)uStack_49c;
+  *(undefined8 *)(this + 0x474) = 0;
+  *(undefined8 *)(this + 0x484) = 0;
+  *(ulong *)(this + 0x47c) = (ulong)uStack_4b4;
+  *(undefined8 *)(this + 0x48c) = 0;
+  *(undefined8 *)(this + 0x49c) = 0;
+  *(ulong *)(this + 0x494) = (ulong)uStack_4cc;
+  *(undefined8 *)(this + 0x4a4) = 0;
+  *(undefined8 *)(this + 0x4b4) = 0;
+  *(ulong *)(this + 0x4ac) = (ulong)uStack_4e4;
+  *(undefined8 *)(this + 0x4bc) = 0;
+  *(undefined8 *)(this + 0x4cc) = 0;
+  *(ulong *)(this + 0x4c4) = (ulong)uStack_4fc;
+  *(undefined8 *)(this + 0x4d4) = 0;
+  uVar2 = Heap::MonotonicallyIncreasingTimeInMs();
+  *(undefined8 *)(this + 0x20) = uVar2;
+  memcpy(this + 0x4e0,this + 8,0x4d8);
+  *(undefined8 *)(this + 0x9e8) = 0;
+  *(undefined8 *)(this + 0x9e0) = 0;
+  *(undefined4 *)(this + 0x9f0) = 0;
+  *(undefined8 *)(this + 0xa00) = 0;
+  *(undefined8 *)(this + 0x9f8) = 0;
+  *(undefined4 *)(this + 0xa08) = 0;
+  *(undefined8 *)(this + 0xa18) = 0;
+  *(undefined8 *)(this + 0xa10) = 0;
+  *(undefined4 *)(this + 0xa20) = 0;
+  *(undefined8 *)(this + 0xa30) = 0;
+  *(undefined8 *)(this + 0xa28) = 0;
+  *(undefined4 *)(this + 0xa38) = 0;
+  *(undefined8 *)(this + 0xa48) = 0;
+  *(undefined8 *)(this + 0xa40) = 0;
+  *(undefined4 *)(this + 0xa50) = 0;
+  *(undefined8 *)(this + 0xa60) = 0;
+  *(undefined8 *)(this + 0xa58) = 0;
+  *(undefined4 *)(this + 0xa68) = 0;
+  *(undefined8 *)(this + 0xa78) = 0;
+  *(undefined8 *)(this + 0xa70) = 0;
+  *(undefined4 *)(this + 0xa80) = 0;
+  *(undefined8 *)(this + 0xa90) = 0;
+  *(undefined8 *)(this + 0xa88) = 0;
+  *(undefined4 *)(this + 0xa98) = 0;
+  *(undefined4 *)(this + 0xab0) = 0;
+  *(undefined8 *)(this + 0xaa8) = 0;
+  *(undefined8 *)(this + 0xaa0) = 0;
+  *(undefined8 *)(this + 0xac0) = 0;
+  *(undefined8 *)(this + 0xab8) = 0;
+  *(undefined4 *)(this + 0xac8) = 0;
+  *(undefined8 *)(this + 0x9c0) = 0;
+  *(undefined8 *)(this + 0x9b8) = 0;
+  *(undefined8 *)(this + 0xbe0) = 0;
+  *(undefined8 *)(this + 0xc88) = 0;
+  *(undefined8 *)(this + 0xd30) = 0;
+  *(undefined8 *)(this + 0xe80) = 0;
+  *(undefined8 *)(this + 0xdd8) = 0;
+  *(undefined8 *)(this + 0xf28) = 0;
+  *(undefined8 *)(this + 0xfd0) = 0;
+  *(undefined8 *)(this + 0x1078) = 0;
+  *(undefined8 *)(this + 0x10d0) = 0;
+  *(undefined8 *)(this + 0x1128) = 0;
+  *(undefined8 *)(this + 0xb10) = 0;
+  *(undefined4 *)(this + 0xb18) = 0;
+  *(undefined8 *)(this + 0xae0) = 0;
+  *(undefined8 *)(this + 0xad8) = 0;
+  *(undefined8 *)(this + 0xad0) = 0;
+  *(undefined8 *)(this + 0xb00) = 0;
+  *(undefined8 *)(this + 0xaf8) = 0;
+  *(undefined8 *)(this + 0xaf0) = 0;
+  *(undefined8 *)(this + 0xb28) = 0;
+  *(undefined8 *)(this + 0xb20) = 0;
+  *(undefined8 *)(this + 0xb38) = 0;
+  *(undefined8 *)(this + 0xb30) = 0x3ff0000000000000;
+  base::Mutex::Lock((Mutex *)(this + 0x1130));
+  *(undefined8 *)(this + 0x11a8) = 0;
+  *(undefined8 *)(this + 0x1190) = 0;
+  *(undefined8 *)(this + 0x1188) = 0;
+  *(undefined8 *)(this + 0x11a0) = 0;
+  *(undefined8 *)(this + 0x1198) = 0;
+  *(undefined8 *)(this + 0x1170) = 0;
+  *(undefined8 *)(this + 0x1168) = 0;
+  *(undefined8 *)(this + 0x1180) = 0;
+  *(undefined8 *)(this + 0x1178) = 0;
+  *(undefined8 *)(this + 0x1160) = 0;
+  *(undefined8 *)(this + 0x1158) = 0;
+  base::Mutex::Unlock((Mutex *)(this + 0x1130));
+  if (*(long *)(lVar1 + 0x28) == local_48) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+

@@ -1,0 +1,15 @@
+
+/* v8::internal::compiler::JSIntrinsicLowering::Change(v8::internal::compiler::Node*,
+   v8::internal::compiler::Operator const*) */
+
+Node * __thiscall
+v8::internal::compiler::JSIntrinsicLowering::Change
+          (JSIntrinsicLowering *this,Node *param_1,Operator *param_2)
+
+{
+  (**(code **)(**(long **)(this + 8) + 0x20))(*(long **)(this + 8),param_1,param_1,0,0);
+  NodeProperties::RemoveNonValueInputs(param_1);
+  NodeProperties::ChangeOp(param_1,param_2);
+  return param_1;
+}
+

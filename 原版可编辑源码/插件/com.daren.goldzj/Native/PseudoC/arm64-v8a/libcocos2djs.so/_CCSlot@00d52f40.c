@@ -1,0 +1,30 @@
+
+/* dragonBones::CCSlot::~CCSlot() */
+
+void __thiscall dragonBones::CCSlot::~CCSlot(CCSlot *this)
+
+{
+  void *pvVar1;
+  
+  *(undefined ***)this = &PTR__CCSlot_01c919b8;
+  _onClear(this);
+  cocos2d::Mat4::~Mat4((Mat4 *)(this + 0x204));
+  cocos2d::Mat4::~Mat4((Mat4 *)(this + 0x188));
+  pvVar1 = *(void **)(this + 0x140);
+  *(undefined ***)this = &PTR__Slot_01c90888;
+  if (pvVar1 != (void *)0x0) {
+    *(void **)(this + 0x148) = pvVar1;
+    operator_delete(pvVar1);
+  }
+  pvVar1 = *(void **)(this + 0x128);
+  if (pvVar1 != (void *)0x0) {
+    *(void **)(this + 0x130) = pvVar1;
+    operator_delete(pvVar1);
+  }
+  if (((byte)this[0x78] & 1) != 0) {
+    operator_delete(*(void **)(this + 0x88));
+  }
+  BaseObject::~BaseObject((BaseObject *)this);
+  return;
+}
+

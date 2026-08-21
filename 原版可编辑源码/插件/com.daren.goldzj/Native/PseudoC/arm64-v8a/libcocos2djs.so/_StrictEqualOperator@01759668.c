@@ -1,0 +1,14 @@
+
+/* v8::internal::compiler::JSOperatorGlobalCache::StrictEqualOperator<(v8::internal::CompareOperationHint)3>::~StrictEqualOperator()
+    */
+
+void __thiscall
+v8::internal::compiler::JSOperatorGlobalCache::
+StrictEqualOperator<(v8::internal::CompareOperationHint)3>::~StrictEqualOperator
+          (StrictEqualOperator<(v8::internal::CompareOperationHint)3> *this)
+
+{
+                    /* WARNING: Subroutine does not return */
+  V8_Fatal("unreachable code");
+}
+

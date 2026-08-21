@@ -1,0 +1,21 @@
+
+/* cocos2d::Rect::containsPoint(cocos2d::Vec2 const&) const */
+
+undefined8 __thiscall cocos2d::Rect::containsPoint(Rect *this,Vec2 *param_1)
+
+{
+  if (*(float *)param_1 < *(float *)this) {
+    return 0;
+  }
+  if (*(float *)this + *(float *)(this + 8) < *(float *)param_1) {
+    return 0;
+  }
+  if (*(float *)(param_1 + 4) < *(float *)(this + 4)) {
+    return 0;
+  }
+  if (*(float *)(this + 4) + *(float *)(this + 0xc) < *(float *)(param_1 + 4)) {
+    return 0;
+  }
+  return 1;
+}
+

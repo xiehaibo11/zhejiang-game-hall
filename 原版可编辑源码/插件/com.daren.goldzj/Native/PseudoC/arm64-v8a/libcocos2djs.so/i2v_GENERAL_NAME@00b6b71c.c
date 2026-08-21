@@ -1,0 +1,149 @@
+
+stack_st_CONF_VALUE *
+i2v_GENERAL_NAME(X509V3_EXT_METHOD *method,GENERAL_NAME *gen,stack_st_CONF_VALUE *ret)
+
+{
+  int iVar1;
+  char *pcVar2;
+  size_t sVar3;
+  char *value;
+  ASN1_IA5STRING *pAVar4;
+  ASN1_STRING *pAVar5;
+  char acStack_148 [8];
+  char local_140 [256];
+  stack_st_CONF_VALUE *local_38;
+  
+  local_38 = ret;
+  switch(gen->type) {
+  case 0:
+    pcVar2 = "othername";
+                    /* try { // try from 00b6b764 to 00c6b76b has its CatchHandler @ 00b6b85c */
+    value = "<unsupported>";
+    break;
+  case 1:
+                    /* try { // try from 00b6b76c to 00c6b7e7 has its CatchHandler @ 00b6b6b0 */
+    pAVar4 = (gen->d).rfc822Name;
+    pcVar2 = "email";
+    goto LAB_00b6b7dc;
+  case 2:
+    pAVar4 = (gen->d).rfc822Name;
+    pcVar2 = "DNS";
+    goto LAB_00b6b7dc;
+  case 3:
+    pcVar2 = "X400Name";
+    value = "<unsupported>";
+    break;
+  case 4:
+    X509_NAME_oneline((gen->d).directoryName,local_140,0x100);
+    pcVar2 = "DirName";
+    goto LAB_00b6b9fc;
+  case 5:
+    pcVar2 = "EdiPartyName";
+    value = "<unsupported>";
+    break;
+  case 6:
+    pAVar4 = (gen->d).rfc822Name;
+    pcVar2 = "URI";
+LAB_00b6b7dc:
+    X509V3_add_value_uchar(pcVar2,(char *)pAVar4->data,&local_38);
+    return local_38;
+                    /* try { // try from 00b6b7e8 to 00c6b7ef has its CatchHandler @ 00b6b844 */
+  case 7:
+                    /* try { // try from 00b6b7f0 to 00c6b833 has its CatchHandler @ 00b6b6b0 */
+    iVar1 = *(int *)&((gen->d).ediPartyName)->nameAssigner;
+    pAVar5 = ((gen->d).ediPartyName)->partyName;
+    if (iVar1 == 0x10) {
+      local_140[0] = '\0';
+                    /* catch() { ... } // from try @ 00b6b764 with catch @ 00b6b85c
+                       catch() { ... } // from try @ 00b6b834 with catch @ 00b6b85c */
+      BIO_snprintf(acStack_148,5,"%X",
+                   (ulong)CONCAT11((char)pAVar5->length,*(undefined1 *)((long)&pAVar5->length + 1)))
+      ;
+      strcat(local_140,acStack_148);
+      sVar3 = strlen(local_140);
+      (local_140 + sVar3)[0] = ':';
+      (local_140 + sVar3)[1] = '\0';
+      BIO_snprintf(acStack_148,5,"%X",
+                   (ulong)CONCAT11(*(undefined1 *)((long)&pAVar5->length + 2),
+                                   *(undefined1 *)((long)&pAVar5->length + 3)));
+      strcat(local_140,acStack_148);
+      sVar3 = strlen(local_140);
+      (local_140 + sVar3)[0] = ':';
+      (local_140 + sVar3)[1] = '\0';
+      BIO_snprintf(acStack_148,5,"%X",
+                   (ulong)CONCAT11((char)pAVar5->type,*(undefined1 *)((long)&pAVar5->type + 1)));
+      strcat(local_140,acStack_148);
+      sVar3 = strlen(local_140);
+      (local_140 + sVar3)[0] = ':';
+      (local_140 + sVar3)[1] = '\0';
+      BIO_snprintf(acStack_148,5,"%X",
+                   (ulong)CONCAT11(*(undefined1 *)((long)&pAVar5->type + 2),
+                                   *(undefined1 *)((long)&pAVar5->type + 3)));
+      strcat(local_140,acStack_148);
+      sVar3 = strlen(local_140);
+      (local_140 + sVar3)[0] = ':';
+      (local_140 + sVar3)[1] = '\0';
+      BIO_snprintf(acStack_148,5,"%X",
+                   (ulong)CONCAT11(*(undefined1 *)&pAVar5->data,
+                                   *(undefined1 *)((long)&pAVar5->data + 1)));
+      strcat(local_140,acStack_148);
+      sVar3 = strlen(local_140);
+      (local_140 + sVar3)[0] = ':';
+      (local_140 + sVar3)[1] = '\0';
+      BIO_snprintf(acStack_148,5,"%X",
+                   (ulong)CONCAT11(*(undefined1 *)((long)&pAVar5->data + 2),
+                                   *(undefined1 *)((long)&pAVar5->data + 3)));
+      strcat(local_140,acStack_148);
+                    /* catch() { ... } // from try @ 00b6b9e8 with catch @ 00b6b990 */
+      sVar3 = strlen(local_140);
+      (local_140 + sVar3)[0] = ':';
+      (local_140 + sVar3)[1] = '\0';
+      BIO_snprintf(acStack_148,5,"%X",
+                   (ulong)CONCAT11(*(undefined1 *)((long)&pAVar5->data + 4),
+                                   *(undefined1 *)((long)&pAVar5->data + 5)));
+      strcat(local_140,acStack_148);
+      sVar3 = strlen(local_140);
+                    /* try { // try from 00b6b9c8 to 00c6b9cf has its CatchHandler @ 00b6ba00 */
+      (local_140 + sVar3)[0] = ':';
+      (local_140 + sVar3)[1] = '\0';
+                    /* try { // try from 00b6b9d4 to 00c6b9e7 has its CatchHandler @ 00b6ba08 */
+      BIO_snprintf(acStack_148,5,"%X",
+                   (ulong)CONCAT11(*(undefined1 *)((long)&pAVar5->data + 6),
+                                   *(undefined1 *)((long)&pAVar5->data + 7)));
+                    /* try { // try from 00b6b9e8 to 00c6ba37 has its CatchHandler @ 00b6b990 */
+      strcat(local_140,acStack_148);
+    }
+    else {
+      if (iVar1 != 4) {
+        pcVar2 = "IP Address";
+        value = "<invalid>";
+        break;
+      }
+      BIO_snprintf(local_140,0x100,"%d.%d.%d.%d",(ulong)(byte)pAVar5->length,
+                   (ulong)*(byte *)((long)&pAVar5->length + 1),
+                   (ulong)*(byte *)((long)&pAVar5->length + 2),
+                   (ulong)*(byte *)((long)&pAVar5->length + 3));
+    }
+    pcVar2 = "IP Address";
+    goto LAB_00b6b9fc;
+  case 8:
+                    /* try { // try from 00b6b834 to 00c6b83b has its CatchHandler @ 00b6b85c */
+                    /* try { // try from 00b6b83c to 00c6b843 has its CatchHandler @ 00b6b844 */
+    i2t_ASN1_OBJECT(local_140,0x100,(gen->d).registeredID);
+                    /* catch() { ... } // from try @ 00b6b7e8 with catch @ 00b6b844
+                       catch() { ... } // from try @ 00b6b83c with catch @ 00b6b844
+                       try { // try from 00b6b844 to 00c6b86f has its CatchHandler @ 00b6b6b0 */
+    pcVar2 = "Registered ID";
+LAB_00b6b9fc:
+    value = local_140;
+    break;
+  default:
+    goto switchD_00b6b754_default;
+  }
+                    /* catch() { ... } // from try @ 00b6b9c8 with catch @ 00b6ba00 */
+  X509V3_add_value(pcVar2,value,&local_38);
+switchD_00b6b754_default:
+                    /* catch() { ... } // from try @ 00b6b9d4 with catch @ 00b6ba08 */
+  return local_38;
+}
+

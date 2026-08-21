@@ -1,0 +1,72 @@
+
+/* void cocos2d::volumeRampMulti<3, 6, int, short, int, int, int>(int*, unsigned long, short const*,
+   int*, int*, int const*, int*, int) */
+
+void cocos2d::volumeRampMulti<3,6,int,short,int,int,int>
+               (int *param_1,ulong param_2,short *param_3,int *param_4,int *param_5,int *param_6,
+               int *param_7,int param_8)
+
+{
+  short *psVar1;
+  short sVar2;
+  short sVar3;
+  short sVar4;
+  short sVar5;
+  short sVar6;
+  short sVar7;
+  int iVar8;
+  
+  if (param_4 == (int *)0x0) {
+    iVar8 = *param_5;
+    do {
+      param_2 = param_2 - 1;
+      *param_1 = *param_1 + (iVar8 >> 0x10) * (int)*param_3;
+      param_1[1] = param_1[1] + (*param_5 >> 0x10) * (int)param_3[1];
+      param_1[2] = param_1[2] + (*param_5 >> 0x10) * (int)param_3[2];
+                    /* try { // try from 00a8a730 to 00b8a813 has its CatchHandler @ 00a8a62c */
+      param_1[3] = param_1[3] + (*param_5 >> 0x10) * (int)param_3[3];
+      param_1[4] = param_1[4] + (*param_5 >> 0x10) * (int)param_3[4];
+      psVar1 = param_3 + 5;
+      param_3 = param_3 + 6;
+      param_1[5] = param_1[5] + (*param_5 >> 0x10) * (int)*psVar1;
+      param_1 = param_1 + 6;
+      iVar8 = *param_5 + *param_6;
+      *param_5 = iVar8;
+    } while (param_2 != 0);
+  }
+  else {
+    do {
+      sVar2 = *param_3;
+      param_2 = param_2 - 1;
+      *param_1 = *param_1 + (*param_5 >> 0x10) * (int)sVar2;
+      sVar3 = param_3[1];
+      param_1[1] = param_1[1] + (*param_5 >> 0x10) * (int)sVar3;
+      sVar4 = param_3[2];
+                    /* try { // try from 00a8a62c to 00b8a67f has its CatchHandler @ 00a8a62c
+                       catch() { ... } // from try @ 00a8a62c with catch @ 00a8a62c
+                       catch() { ... } // from try @ 00a8a730 with catch @ 00a8a62c */
+      param_1[2] = param_1[2] + (*param_5 >> 0x10) * (int)sVar4;
+      sVar5 = param_3[3];
+      param_1[3] = param_1[3] + (*param_5 >> 0x10) * (int)sVar5;
+      sVar6 = param_3[4];
+      param_1[4] = param_1[4] + (*param_5 >> 0x10) * (int)sVar6;
+      sVar7 = param_3[5];
+      param_3 = param_3 + 6;
+      param_1[5] = param_1[5] + (*param_5 >> 0x10) * (int)sVar7;
+                    /* try { // try from 00a8a680 to 00b8a697 has its CatchHandler @ 00a8a7ac */
+      *param_5 = *param_5 + *param_6;
+                    /* try { // try from 00a8a6a0 to 00b8a6ab has its CatchHandler @ 00a8a7a8 */
+                    /* try { // try from 00a8a6ac to 00b8a6b7 has its CatchHandler @ 00a8a7a4 */
+                    /* try { // try from 00a8a6b8 to 00b8a72f has its CatchHandler @ 00a8a7bc */
+      *param_4 = *param_4 +
+                 (*param_7 >> 0x10) *
+                 ((((int)sVar3 + (int)sVar2 + (int)sVar4 + (int)sVar5 + (int)sVar6 + (int)sVar7) *
+                  0x1000) / 6 >> 0xc);
+      param_1 = param_1 + 6;
+      *param_7 = *param_7 + param_8;
+      param_4 = param_4 + 1;
+    } while (param_2 != 0);
+  }
+  return;
+}
+

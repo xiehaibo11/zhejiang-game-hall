@@ -1,0 +1,25 @@
+
+/* std::__ndk1::__function::__func<std::__ndk1::__bind<void
+   (cocos2d::renderer::ForwardRenderer::*)(cocos2d::renderer::View const&,
+   std::__ndk1::vector<cocos2d::renderer::BaseRenderer::StageItem,
+   std::__ndk1::allocator<cocos2d::renderer::BaseRenderer::StageItem> > const&),
+   cocos2d::renderer::ForwardRenderer*, std::__ndk1::placeholders::__ph<1> const&,
+   std::__ndk1::placeholders::__ph<2> const&>, std::__ndk1::allocator<std::__ndk1::__bind<void
+   (cocos2d::renderer::ForwardRenderer::*)(cocos2d::renderer::View const&,
+   std::__ndk1::vector<cocos2d::renderer::BaseRenderer::StageItem,
+   std::__ndk1::allocator<cocos2d::renderer::BaseRenderer::StageItem> > const&),
+   cocos2d::renderer::ForwardRenderer*, std::__ndk1::placeholders::__ph<1> const&,
+   std::__ndk1::placeholders::__ph<2> const&> >, void (cocos2d::renderer::View const&,
+   std::__ndk1::vector<cocos2d::renderer::BaseRenderer::StageItem,
+   std::__ndk1::allocator<cocos2d::renderer::BaseRenderer::StageItem> >&)>::target_type() const */
+
+pointer_____offset_0x10___ *
+std::__ndk1::__function::
+__func<std::__ndk1::__bind<void(cocos2d::renderer::ForwardRenderer::*)(cocos2d::renderer::View_const&,std::__ndk1::vector<cocos2d::renderer::BaseRenderer::StageItem,std::__ndk1::allocator<cocos2d::renderer::BaseRenderer::StageItem>>const&),cocos2d::renderer::ForwardRenderer*,std::__ndk1::placeholders::__ph<1>const&,std::__ndk1::placeholders::__ph<2>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(cocos2d::renderer::ForwardRenderer::*)(cocos2d::renderer::View_const&,std::__ndk1::vector<cocos2d::renderer::BaseRenderer::StageItem,std::__ndk1::allocator<cocos2d::renderer::BaseRenderer::StageItem>>const&),cocos2d::renderer::ForwardRenderer*,std::__ndk1::placeholders::__ph<1>const&,std::__ndk1::placeholders::__ph<2>const&>>,void(cocos2d::renderer::View_const&,std::__ndk1::vector<cocos2d::renderer::BaseRenderer::StageItem,std::__ndk1::allocator<cocos2d::renderer::BaseRenderer::StageItem>>&)>
+::target_type(void)
+
+{
+  return &__bind<void(cocos2d::renderer::ForwardRenderer::*)(cocos2d::renderer::View_const&,std::__ndk1::vector<cocos2d::renderer::BaseRenderer::StageItem,std::__ndk1::allocator<cocos2d::renderer::BaseRenderer::StageItem>>const&),cocos2d::renderer::ForwardRenderer*,std::__ndk1::placeholders::__ph<1>const&,std::__ndk1::placeholders::__ph<2>const&>
+          ::typeinfo;
+}
+

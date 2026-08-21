@@ -1,0 +1,13 @@
+
+/* v8::internal::BigIntToI32PairDescriptor::InitializePlatformSpecific(v8::internal::CallInterfaceDescriptorData*)
+    */
+
+void __thiscall
+v8::internal::BigIntToI32PairDescriptor::InitializePlatformSpecific
+          (BigIntToI32PairDescriptor *this,CallInterfaceDescriptorData *param_1)
+
+{
+  CallInterfaceDescriptor::DefaultInitializePlatformSpecific(param_1,1);
+  return;
+}
+

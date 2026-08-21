@@ -1,0 +1,57 @@
+
+undefined8 FUN_00dd5b0c(long param_1)
+
+{
+  int iVar1;
+  int *piVar2;
+  undefined8 uVar3;
+  char *pcVar4;
+  
+  iVar1 = _TIFFMergeFields(param_1,&DAT_01c925c0,5);
+  if (iVar1 == 0) {
+    uVar3 = *(undefined8 *)(param_1 + 0x3b8);
+    pcVar4 = "Merging common CCITT Fax codec-specific tags failed";
+  }
+  else {
+    piVar2 = _TIFFmalloc(0x98);
+    *(int **)(param_1 + 0x350) = piVar2;
+    if (piVar2 != (int *)0x0) {
+      iVar1 = *(int *)(param_1 + 0xc);
+      *piVar2 = iVar1;
+      *(undefined8 *)(piVar2 + 10) = *(undefined8 *)(param_1 + 0x410);
+      *(undefined8 *)(piVar2 + 0xc) = *(undefined8 *)(param_1 + 0x408);
+      *(code **)(param_1 + 0x410) = FUN_00dd7414;
+      *(code **)(param_1 + 0x408) = FUN_00dd7580;
+      *(undefined8 *)(piVar2 + 0xe) = *(undefined8 *)(param_1 + 0x418);
+      *(code **)(param_1 + 0x418) = FUN_00dd77cc;
+      piVar2[8] = 0;
+      if (iVar1 == 0) {
+        *(uint *)(param_1 + 0x10) = *(uint *)(param_1 + 0x10) | 0x100;
+      }
+      piVar2[0x18] = 0;
+      piVar2[0x19] = 0;
+      TIFFSetField(param_1,0x10004,_TIFFFax3fillruns);
+      *(undefined8 *)(*(long *)(param_1 + 0x350) + 0x80) = 0;
+      *(code **)(param_1 + 0x2d8) = FUN_00dd79f8;
+      *(code **)(param_1 + 0x2c8) = FUN_00dd79f8;
+      *(code **)(param_1 + 0x2c0) = FUN_00dd79f0;
+      *(code **)(param_1 + 0x2e8) = FUN_00dd84bc;
+      *(code **)(param_1 + 0x2d0) = FUN_00dd7bd4;
+      *(code **)(param_1 + 0x2f0) = FUN_00dd8554;
+      *(code **)(param_1 + 0x300) = FUN_00dd85c4;
+      *(code **)(param_1 + 0x2f8) = FUN_00dd7c24;
+      *(code **)(param_1 + 0x310) = FUN_00dd85c4;
+      *(code **)(param_1 + 0x308) = FUN_00dd7c24;
+      *(code **)(param_1 + 800) = FUN_00dd85c4;
+      *(code **)(param_1 + 0x318) = FUN_00dd7c24;
+      *(code **)(param_1 + 0x328) = FUN_00dd8950;
+      *(code **)(param_1 + 0x338) = FUN_00dd8a48;
+      return 1;
+    }
+    uVar3 = *(undefined8 *)(param_1 + 0x3b8);
+    pcVar4 = "No space for state block";
+  }
+  TIFFErrorExt(uVar3,"InitCCITTFax3",pcVar4);
+  return 0;
+}
+
