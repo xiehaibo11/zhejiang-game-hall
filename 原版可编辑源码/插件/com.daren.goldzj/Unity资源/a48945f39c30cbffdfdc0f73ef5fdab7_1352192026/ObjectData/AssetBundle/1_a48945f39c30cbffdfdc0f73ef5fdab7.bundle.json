@@ -1,0 +1,62 @@
+{
+  "m_Name": "a48945f39c30cbffdfdc0f73ef5fdab7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 4189244565979130408
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -1002337425518791008
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1399081556523003099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4379508596605317356
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -4902130343968708863
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuyingxiongzhuan/effect/material/noise_3.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4379508596605317356
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a48945f39c30cbffdfdc0f73ef5fdab7.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle",
+    "b2a2195cedb333f600bf33582edac524.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

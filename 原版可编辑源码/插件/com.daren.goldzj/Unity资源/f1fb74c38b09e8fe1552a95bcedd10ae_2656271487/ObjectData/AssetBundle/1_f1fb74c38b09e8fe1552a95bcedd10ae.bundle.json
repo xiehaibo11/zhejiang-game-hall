@@ -1,0 +1,101 @@
+{
+  "m_Name": "f1fb74c38b09e8fe1552a95bcedd10ae.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2002833956986875909
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2131965760747858400
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2002833956986875909
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5403556809063290378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5056643464258790954
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 884522461359656298
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2002833956986875909
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2131965760747858400
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7901227835437751156
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/font/font_fontclipjqjbhuode/fontclipjqjbhuode.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2131965760747858400
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/font_fontclipjqjbhuode/fontclipjqjbhuode.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2002833956986875909
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/font_fontclipjqjbhuode/fontclipjqjbhuode.prefab",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5403556809063290378
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f1fb74c38b09e8fe1552a95bcedd10ae.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

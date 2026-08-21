@@ -1,0 +1,134 @@
+{
+  "m_Name": "5f9c67e131f0b34c236b0a3efcd2d266.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": 2645930622517515784
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8210105461917743037
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8036984814638083895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5950654937730552113
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5346947259944091916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4589730845355287955
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3950542072654910475
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3662601709079005694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3262963201000844294
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2980734898041658437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2683858759492664911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1748682679394660114
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1321984303106443156
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -33750312257880693
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1005369082944395458
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1481522948624124702
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1788121079303535026
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3299739118622769811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7900863278149645019
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8033908967420458014
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6564834872205903518
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -7771705871459973087
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -287216348762634236
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/moontreasurebox1/effect/prefab/effect_box_xuli_2.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 24,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3299739118622769811
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5f9c67e131f0b34c236b0a3efcd2d266.bundle",
+  "m_Dependencies": [
+    "4d650a79df2c4afdbfed9bf4651a5707.bundle",
+    "5d51fbcac2fb7be6229d5908110f39ce.bundle",
+    "b15c34c7cc779fd2af7b157e5f09b3a2.bundle",
+    "cf3e15c08e34e0c97070502205faf4e8.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

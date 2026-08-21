@@ -1,0 +1,234 @@
+{
+  "m_Name": "e1817db1badb6a08f0cc02a01c2f02e1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -32334636312002778
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2536735564327876064
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -1639054234971412948
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -5575540886284654277
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -3782566337151006479
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8829599708144574376
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8609843346059899627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7604938592001970326
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7375075634076722991
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7359503783179663457
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7318596541601414632
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7130251806577824618
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4865512287704311747
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4476006240667148129
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2896876168183807272
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2612444675506382031
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2122924240840597717
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2047850904759529521
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1977176137225878125
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1606083126877450293
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1516024726362124579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -59028076837213592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 978633943945131431
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1515946197955612825
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1523405125785952790
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1597458825471183864
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1828467671744924904
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2415564683383822152
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2437361091089389845
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3136956106986333131
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3247130417921093980
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3553280611795192640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3757983597420523428
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4318039210467171355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4428380067938381560
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4778954225508697363
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5772622941595982302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6694885916721741049
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7426248238135334653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8033767163197142123
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8080902245063601748
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8438357071895230329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8515861378283914904
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9079022883209103187
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9183436109670501144
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/login/logingroup/tencentlogin.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 49,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3757983597420523428
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e1817db1badb6a08f0cc02a01c2f02e1.bundle",
+  "m_Dependencies": [
+    "20d648468bc485e34907875e79896cad.bundle",
+    "85cd66e37160b6b7476a956a145ad94b.bundle",
+    "afc896b0fdd42116db596182410ccffb.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

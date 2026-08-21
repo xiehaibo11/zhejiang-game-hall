@@ -1,0 +1,101 @@
+{
+  "m_Name": "edb8cf4ea143943ff31a16f65b5b3e3e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7089737875631049260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8676230763550416378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7089737875631049260
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9185273704210945987
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2577223783749522739
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6669920339598883699
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7089737875631049260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8676230763550416378
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_godgeneralskill/godgeneralskill.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8676230763550416378
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_godgeneralskill/godgeneralskill.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7089737875631049260
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_godgeneralskill/godgeneralskill.prefab",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2577223783749522739
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "edb8cf4ea143943ff31a16f65b5b3e3e.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

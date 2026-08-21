@@ -1,0 +1,143 @@
+{
+  "m_Name": "78c56f3da095e62a122d413832034eb0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -8073106090128993234
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8544100383583043014
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7877587562658407544
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7509112887965570620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6416276677168979623
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5040047664071751126
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3499723842373899377
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2888108405338119379
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2857591545767626739
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -837184595608593284
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -684252738287116423
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -405489301958275610
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1756472397778376910
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2190163192467810220
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2322704020225220384
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5705155548504589647
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6539090167441321351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8922306677060492851
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -2570386899595872639
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 3637707357853280537
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7392462065443832564
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/playerineraction/interactionitems/playerinteraction_10083.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 26,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7877587562658407544
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "78c56f3da095e62a122d413832034eb0.bundle",
+  "m_Dependencies": [
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "76ffbb15e038e8dbc399184cebadf1ef.bundle",
+    "7887f6ad5376628ec7ba8d76c711df1f.bundle",
+    "9a525b36141024e2e13eebc0865829a7.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

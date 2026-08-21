@@ -1,0 +1,13 @@
+
+/* dragonBones::CCArmatureDisplay::dbUpdate() */
+
+void __thiscall dragonBones::CCArmatureDisplay::dbUpdate(CCArmatureDisplay *this)
+
+{
+  if ((DragonBones::debugDraw != (CCArmatureDisplay)0x0) || (this[0x2f9] != (CCArmatureDisplay)0x0))
+  {
+    this[0x2f9] = DragonBones::debugDraw;
+  }
+  return;
+}
+

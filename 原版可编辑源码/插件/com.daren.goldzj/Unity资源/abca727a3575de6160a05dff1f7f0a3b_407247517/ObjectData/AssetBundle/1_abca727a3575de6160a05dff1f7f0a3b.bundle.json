@@ -1,0 +1,106 @@
+{
+  "m_Name": "abca727a3575de6160a05dff1f7f0a3b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7939270342209913074
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7384486306313809210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -341837638607147650
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7253607104537993315
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7253607104537993315
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7939270342209913074
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/fuyunjianglinpanel_ani/fuyunjianglinpanel.anim",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7253607104537993315
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/fuyunjianglinpanel_ani/fuyunjianglinpanel.controller",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -341837638607147650
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/fuyunjianglinpanel_ani/reduceprice.anim",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7939270342209913074
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/fuyunjianglinpanel_ani/reduceprice.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7384486306313809210
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "abca727a3575de6160a05dff1f7f0a3b.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

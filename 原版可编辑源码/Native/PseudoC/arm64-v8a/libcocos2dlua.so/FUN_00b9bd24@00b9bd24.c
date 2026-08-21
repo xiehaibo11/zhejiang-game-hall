@@ -1,0 +1,21 @@
+
+bool FUN_00b9bd24(long param_1,long param_2)
+
+{
+  bool bVar1;
+  int iVar2;
+  CMAC_CTX *out;
+  
+                    /* try { // try from 00b9bd30 to 00c9bd37 has its CatchHandler @ 00b9c6e8 */
+  out = CMAC_CTX_new();
+  *(CMAC_CTX **)(param_1 + 0x28) = out;
+  bVar1 = false;
+  if (out != (CMAC_CTX *)0x0) {
+    *(undefined4 *)(param_1 + 0x48) = 0;
+    iVar2 = CMAC_CTX_copy(out,*(CMAC_CTX **)(param_2 + 0x28));
+    bVar1 = iVar2 != 0;
+  }
+                    /* try { // try from 00b9bd58 to 00c9bd6b has its CatchHandler @ 00b9c5dc */
+  return bVar1;
+}
+

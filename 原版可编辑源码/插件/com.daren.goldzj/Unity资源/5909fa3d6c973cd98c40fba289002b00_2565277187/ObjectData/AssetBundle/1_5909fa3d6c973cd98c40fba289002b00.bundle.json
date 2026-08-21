@@ -1,0 +1,122 @@
+{
+  "m_Name": "5909fa3d6c973cd98c40fba289002b00.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7484130764849203639
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4465675279717096626
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8092111224605117967
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4465675279717096626
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8967463351621167689
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7484130764849203639
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/063_\u4e71\u4e16\u4e89\u9738/animation/body.controller",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8092111224605117967
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/063_\u4e71\u4e16\u4e89\u9738/animation/body1.controller",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8967463351621167689
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/063_\u4e71\u4e16\u4e89\u9738/animation/lszb2_ruchanganimation.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7484130764849203639
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/063_\u4e71\u4e16\u4e89\u9738/animation/lszb_ruchanganimation.anim",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4465675279717096626
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5909fa3d6c973cd98c40fba289002b00.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

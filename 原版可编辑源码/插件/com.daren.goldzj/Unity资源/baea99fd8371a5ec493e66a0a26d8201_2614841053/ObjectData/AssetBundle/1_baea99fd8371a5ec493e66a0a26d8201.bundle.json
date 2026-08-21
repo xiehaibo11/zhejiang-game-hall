@@ -1,0 +1,131 @@
+{
+  "m_Name": "baea99fd8371a5ec493e66a0a26d8201.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -852814855214157154
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 7656418363703851711
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7358583137956256873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7654112497289885061
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6084612610885743742
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5179381031259300484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4862026354373736857
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4622199510600934383
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3872272249026422964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2135464442132922846
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1754265108880814265
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1137430339587347904
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2365853408876197694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3733660690358954020
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5091769092342076497
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5205466626483028428
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6456701078167354170
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6998128281147333793
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7054325494203368537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8650905242007458414
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9189867698419388345
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5000061197217100564
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -6677349241685422022
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/festivalromance/effect/prefab/uieffect_item_raoguang_huang.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 23,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6456701078167354170
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "baea99fd8371a5ec493e66a0a26d8201.bundle",
+  "m_Dependencies": [
+    "305522586703e514744a54008a37a05f.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "904bdecef62aaf8fb876410d8c67e731.bundle",
+    "a33648ad22f734c524ae520f78ce29a7.bundle",
+    "f52f75b5b790eb3cb104dc7f403f4a65.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

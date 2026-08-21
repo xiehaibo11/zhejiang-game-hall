@@ -1,0 +1,64 @@
+
+/* std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >
+   cocos2d::JniHelper::getJNISignature<std::__ndk1::basic_string<char,
+   std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >,
+   float>(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>,
+   std::__ndk1::allocator<char> >, float) */
+
+void cocos2d::JniHelper::
+     getJNISignature<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,float>
+               (undefined8 *param_1)
+
+{
+  ulong uVar1;
+  long lVar2;
+  char *pcVar3;
+  undefined8 *puVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>> local_68 [8];
+  ulong local_60;
+  char *local_58;
+  basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>> local_50 [16];
+  void *local_40;
+  long local_38;
+  
+  lVar2 = tpidr_el0;
+  local_38 = *(long *)(lVar2 + 0x28);
+                    /* try { // try from 00dee1c4 to 00eee21b has its CatchHandler @ 00dee5a4 */
+  std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>::
+  basic_string<decltype(nullptr)>(local_50,"Ljava/lang/String;");
+  std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>::
+  basic_string<decltype(nullptr)>(local_68,"F");
+  uVar1 = (ulong)((byte)local_68[0] >> 1);
+  pcVar3 = (char *)((ulong)local_68 | 1);
+  if (((byte)local_68[0] & 1) != 0) {
+    uVar1 = local_60;
+    pcVar3 = local_58;
+  }
+  puVar4 = (undefined8 *)
+           std::__ndk1::
+           basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>::append
+                     (local_50,pcVar3,uVar1);
+  uVar6 = puVar4[1];
+  uVar5 = *puVar4;
+  param_1[2] = puVar4[2];
+  param_1[1] = uVar6;
+  *param_1 = uVar5;
+  puVar4[1] = 0;
+  puVar4[2] = 0;
+  *puVar4 = 0;
+  if (((byte)local_68[0] & 1) != 0) {
+    operator_delete(local_58);
+  }
+  if (((byte)local_50[0] & 1) != 0) {
+    operator_delete(local_40);
+  }
+                    /* try { // try from 00dee248 to 00eee253 has its CatchHandler @ 00dee590 */
+  if (*(long *)(lVar2 + 0x28) != local_38) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+

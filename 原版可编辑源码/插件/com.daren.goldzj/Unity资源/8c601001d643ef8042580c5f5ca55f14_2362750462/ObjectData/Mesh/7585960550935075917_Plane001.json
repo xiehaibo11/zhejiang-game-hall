@@ -1,0 +1,283 @@
+{
+  "m_Name": "Plane001",
+  "m_SubMeshes": [
+    {
+      "firstByte": 0,
+      "indexCount": 30,
+      "topology": 0,
+      "baseVertex": 0,
+      "firstVertex": 0,
+      "vertexCount": 12,
+      "localAABB": {
+        "m_Center": {
+          "x": -0.011147618293762207,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_Extent": {
+          "x": 0.4888523817062378,
+          "y": 0.38774871826171875,
+          "z": 3.389806835230047e-08
+        }
+      }
+    }
+  ],
+  "m_Shapes": {
+    "vertices": [],
+    "shapes": [],
+    "channels": [],
+    "fullWeights": []
+  },
+  "m_BindPose": [],
+  "m_BoneNameHashes": [],
+  "m_RootBoneNameHash": 0,
+  "m_BonesAABB": [],
+  "m_VariableBoneCountWeights": {
+    "m_Data": []
+  },
+  "m_MeshCompression": 0,
+  "m_IsReadable": false,
+  "m_KeepVertices": true,
+  "m_KeepIndices": true,
+  "m_IndexFormat": 0,
+  "m_IndexBuffer": [
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    3,
+    0,
+    2,
+    0,
+    1,
+    0,
+    3,
+    0,
+    1,
+    0,
+    4,
+    0,
+    3,
+    0,
+    4,
+    0,
+    5,
+    0,
+    3,
+    0,
+    5,
+    0,
+    6,
+    0,
+    7,
+    0,
+    6,
+    0,
+    5,
+    0,
+    7,
+    0,
+    5,
+    0,
+    8,
+    0,
+    7,
+    0,
+    8,
+    0,
+    9,
+    0,
+    7,
+    0,
+    9,
+    0,
+    10,
+    0,
+    9,
+    0,
+    8,
+    0,
+    11,
+    0
+  ],
+  "m_VertexData": {
+    "m_VertexCount": 12,
+    "m_Channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "m_DataSize": {
+      "_binaryLength": 576,
+      "_binarySha256": "ede47cdc30801b19ca9b54e8b5bec594ab280bba018e650b773a1eff3afdb413"
+    }
+  },
+  "m_CompressedMesh": {
+    "m_Vertices": {
+      "m_NumItems": 0,
+      "m_Range": 0.0,
+      "m_Start": 0.0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_UV": {
+      "m_NumItems": 0,
+      "m_Range": 0.0,
+      "m_Start": 0.0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_Normals": {
+      "m_NumItems": 0,
+      "m_Range": 0.0,
+      "m_Start": 0.0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_Tangents": {
+      "m_NumItems": 0,
+      "m_Range": 0.0,
+      "m_Start": 0.0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_Weights": {
+      "m_NumItems": 0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_NormalSigns": {
+      "m_NumItems": 0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_TangentSigns": {
+      "m_NumItems": 0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_FloatColors": {
+      "m_NumItems": 0,
+      "m_Range": 0.0,
+      "m_Start": 0.0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_BoneIndices": {
+      "m_NumItems": 0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_Triangles": {
+      "m_NumItems": 0,
+      "m_Data": [],
+      "m_BitSize": 0
+    },
+    "m_UVInfo": 0
+  },
+  "m_LocalAABB": {
+    "m_Center": {
+      "x": -0.011147618293762207,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "m_Extent": {
+      "x": 0.4888523817062378,
+      "y": 0.38774871826171875,
+      "z": 3.389806835230047e-08
+    }
+  },
+  "m_MeshUsageFlags": 0,
+  "m_BakedConvexCollisionMesh": [],
+  "m_BakedTriangleCollisionMesh": [],
+  "m_MeshMetrics[0]": 1.0000001192092896,
+  "m_MeshMetrics[1]": 1.0,
+  "m_StreamData": {
+    "offset": 0,
+    "size": 0,
+    "path": ""
+  }
+}

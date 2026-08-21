@@ -1,0 +1,63 @@
+{
+  "m_Name": "e7231db090c6b44f8ca7be9a7eb38894.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -7398211996926769448
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8350231276208144243
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -5876287802038250715
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -3026604119853564863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6011815199766927453
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/hotfighter/effect/material/liuguang 6.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6011815199766927453
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e7231db090c6b44f8ca7be9a7eb38894.bundle",
+  "m_Dependencies": [
+    "2ab7f8ced0d4b9d60f0bb614395e07dd.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "775f7f058f1c08a4df385df69663f653.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

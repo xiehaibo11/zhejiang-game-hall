@@ -1,0 +1,63 @@
+{
+  "m_Name": "4a8a617a9463904adf141529d6509808.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6828967575030125836
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 4157589701290527307
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8626965207361859710
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 5841259708807682639
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2523401879486180403
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/pass/effect/material/noise_04.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6828967575030125836
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4a8a617a9463904adf141529d6509808.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "732a1d638545af56dc91c6cd6ef02012.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

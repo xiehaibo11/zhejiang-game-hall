@@ -1,0 +1,110 @@
+{
+  "m_Name": "4a278b8e6fddb34b64d42804aa3f602b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 6826910213712399383
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8440601824500833499
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6958188541839372983
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5008820222764639296
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3907214556437410989
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1164132348229565101
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -466286684560992290
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1366864978921650
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4033116267730472351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4651091210786916749
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4758024943160193845
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5024484418543261940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7984130422340184960
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8723599536235742952
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4450168054747796646
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -2075255048033915098
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/paotaieffect/skill_water.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 18,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4758024943160193845
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4a278b8e6fddb34b64d42804aa3f602b.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "76a52e490668b9406a8c0f2f58b486bb.bundle",
+    "db1d7d25521e58e3cb28beb6f3873518.bundle",
+    "eb5db2566db95d94f70f3a3461d7e1e8.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

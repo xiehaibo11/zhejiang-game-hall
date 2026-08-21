@@ -1,0 +1,87 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2659692457331447626
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5109685466281838345
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8704935607234647562
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -805609165325213421
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3548765652436486224
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8539347679388886845
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5896290815397498239
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3931351408125003069
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7578780487064298754
+    }
+  ],
+  "m_BindComs_Name": [
+    "mGoldNum",
+    "mBtnBuy",
+    "mBuyPrice",
+    "mBtnBuyDisCount",
+    "mBuyOldPrice",
+    "mBuyDisCountPrice",
+    "mDiscountPrice",
+    "mBuffCommponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 8133995264767183239
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mGiftItem"
+  ],
+  "hotfixClassFullName": "GameHotFix.MartialGod.MartialGodGiftItem",
+  "m_ClassName": "MartialGodGiftItem"
+}

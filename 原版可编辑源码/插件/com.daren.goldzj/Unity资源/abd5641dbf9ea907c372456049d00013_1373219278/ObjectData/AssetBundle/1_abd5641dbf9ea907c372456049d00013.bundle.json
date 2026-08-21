@@ -1,0 +1,131 @@
+{
+  "m_Name": "abd5641dbf9ea907c372456049d00013.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4577197206954446056
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -110611430967186752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6401036676483293980
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5062427311418124730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6401036676483293980
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8269691358984718733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -110611430967186752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2748991748440118179
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5477916454344346182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6401036676483293980
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_shenqidiscount/img_sqdhsz_bg.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4577197206954446056
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_shenqidiscount/img_sqdhsz_jinbidui.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5062427311418124730
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_shenqidiscount/shenqidiscount.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -110611430967186752
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_shenqidiscount/shenqidiscount.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6401036676483293980
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_shenqidiscount/shenqidiscount.prefab",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5477916454344346182
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "abd5641dbf9ea907c372456049d00013.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

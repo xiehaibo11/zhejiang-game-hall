@@ -1,0 +1,37 @@
+{
+  "m_Name": "aeb213a9fd50c3fae34030494d39b903.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1861896771440670592
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/sound/buyusound/boss_siwang_zhagnyu.mp3",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1861896771440670592
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "aeb213a9fd50c3fae34030494d39b903.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

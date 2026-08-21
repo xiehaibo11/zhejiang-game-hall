@@ -1,0 +1,253 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3044999465623342027
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3195324625117624525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2704450250984720179
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2399887512417507124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2899884299067972085
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8583633900785516713
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3430053798026641726
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3881118746429503284
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6942797600028546931
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1027169455150640464
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5324132204264725906
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7712249149780038339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4772990249194574216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6357341006890974385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -129170693287632908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4772990249194574216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9113419860153102494
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1985233154133490672
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -12357725615004992
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1171312926469539554
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5991361087725679247
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5183096407589957365
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -904614671857780036
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -620844243029548618
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2651061770664449148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7407050892610696255
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8798510305729983030
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1203419591911038233
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_RankPanelBG",
+    "m_RankLevelIcon",
+    "m_RankGoldLabelTitle",
+    "m_RankTimeLabelTitle",
+    "m_RankGoldLabel",
+    "m_RankGoldBG",
+    "m_RankTimeLabel",
+    "m_RankTimeBG",
+    "m_RankFenGeLabel",
+    "m_RankFenGeBG",
+    "m_RankFenGeIcon",
+    "m_RankFenGeArrow",
+    "m_RankFenGeMask",
+    "m_FenGeTweenPosition",
+    "m_FenGeArrow",
+    "m_RankItemsParent",
+    "m_RankTipLabel",
+    "m_RankTipIcon",
+    "m_RankSettleTitle",
+    "m_BtnOpenReward",
+    "m_BtnOpenRewardFlag",
+    "m_RankRewardPanelPos",
+    "m_UpgradeEffect",
+    "m_BtnClose",
+    "m_TianTITip",
+    "m_TianTiAnimator",
+    "m_TianTiMul"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    202.0,
+    106.0
+  ],
+  "m_BindFloat_Name": [
+    "m_ItemsLayoutStartPosY",
+    "m_FenGeTopLimitPosY"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -1858092526635991511
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7586663408254434942
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -464726184155218978
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7622607383760763908
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6554818779986261420
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4793706923312186007
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6795810167712036485
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4954230993063572168
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7255591109067256302
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2776823830141334711
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7987830956124466843
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 6351182929573601820
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8494115861829263439
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -692782912057543697
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3326287381042080927
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4890497066770119557
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "m_RankItems",
+    "m_RankTipIconEffect"
+  ],
+  "hotfixClassFullName": "GameHotFix.LeagueRanking.LeagueRankingMainRankPanel",
+  "m_ClassName": "LeagueRankingMainRankPanel"
+}

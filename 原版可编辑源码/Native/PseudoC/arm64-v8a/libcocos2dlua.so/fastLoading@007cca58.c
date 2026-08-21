@@ -1,0 +1,33 @@
+
+/* cocos2d::EnhanceAPI::fastLoading(int) */
+
+undefined4 cocos2d::EnhanceAPI::fastLoading(int param_1)
+
+{
+  long lVar1;
+  undefined4 uVar2;
+  ulong uVar3;
+  _jclass *local_40;
+  _jmethodID *p_Stack_38;
+  undefined8 local_30;
+  long local_28;
+  
+  lVar1 = tpidr_el0;
+  local_28 = *(long *)(lVar1 + 0x28);
+  uVar3 = JniHelper::getStaticMethodInfo
+                    ((JniMethodInfo_ *)&local_40,"org.cocos2dx.lib.Cocos2dxHelper","fastLoading",
+                     "(I)I");
+  if ((uVar3 & 1) == 0) {
+    uVar2 = 0xffffffff;
+  }
+  else {
+    uVar2 = _JNIEnv::CallStaticIntMethod(local_40,p_Stack_38,local_30,(ulong)(uint)param_1);
+    (**(code **)(*(long *)local_40 + 0xb8))(local_40,p_Stack_38);
+  }
+  if (*(long *)(lVar1 + 0x28) == local_28) {
+    return uVar2;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+

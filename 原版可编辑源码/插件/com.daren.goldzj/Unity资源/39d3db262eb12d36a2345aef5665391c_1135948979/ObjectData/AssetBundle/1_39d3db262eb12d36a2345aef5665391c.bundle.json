@@ -1,0 +1,48 @@
+{
+  "m_Name": "39d3db262eb12d36a2345aef5665391c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1507374223241264725
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3793922191874968617
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2206068401867346075
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleediting/art/effect/texture/materials/weli (147)/weli (147).mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3793922191874968617
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "39d3db262eb12d36a2345aef5665391c.bundle",
+  "m_Dependencies": [
+    "1d8b02f56782e5d78fa4b718b72fe6ad.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

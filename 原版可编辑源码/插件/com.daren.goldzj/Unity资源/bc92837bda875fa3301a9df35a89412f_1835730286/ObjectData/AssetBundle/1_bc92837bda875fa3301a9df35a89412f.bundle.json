@@ -1,0 +1,82 @@
+{
+  "m_Name": "bc92837bda875fa3301a9df35a89412f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8569348898752325617
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1073347284221634598
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2749810883118639089
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1451218213917840240
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_263_\u7aef\u5348\u70ae\u53f0/texture_npot/img_py_bt_dwak.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8569348898752325617
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_263_\u7aef\u5348\u70ae\u53f0/texture_npot/img_py_bt_dwak.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1073347284221634598
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_263_\u7aef\u5348\u70ae\u53f0/texture_npot/img_py_dwak.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1451218213917840240
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_263_\u7aef\u5348\u70ae\u53f0/texture_npot/img_py_dwak.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2749810883118639089
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "bc92837bda875fa3301a9df35a89412f.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

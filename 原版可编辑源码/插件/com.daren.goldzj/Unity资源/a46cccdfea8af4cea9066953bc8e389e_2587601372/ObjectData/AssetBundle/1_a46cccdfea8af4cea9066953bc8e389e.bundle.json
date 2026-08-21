@@ -1,0 +1,126 @@
+{
+  "m_Name": "a46cccdfea8af4cea9066953bc8e389e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 3243050869791830525
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3097841575995397734
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -8051061303117959786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7600970373800205172
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7083661571983600800
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4516639201296102044
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2665283748880018605
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2460919840015310787
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2212507638494138301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -250898410166421320
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 297734185475093193
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2784127841564343454
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2930105109724907236
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4634776713696649826
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4753947141233880812
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4851811195392909870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6101877968191685036
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6478773377811442078
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6559768200437178184
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8695646727634856246
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8770303057635381161
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -6677349241685422022
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/pass/effect/prefab/effect_raoguang_lv.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 22,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8695646727634856246
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a46cccdfea8af4cea9066953bc8e389e.bundle",
+  "m_Dependencies": [
+    "577d99afa6f88bc9f09d133427089f88.bundle",
+    "904bdecef62aaf8fb876410d8c67e731.bundle",
+    "9247b0b2e3f247029cc5fa313894724c.bundle",
+    "fe9de61bdf45d5c6f2977d2a83cf0b57.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

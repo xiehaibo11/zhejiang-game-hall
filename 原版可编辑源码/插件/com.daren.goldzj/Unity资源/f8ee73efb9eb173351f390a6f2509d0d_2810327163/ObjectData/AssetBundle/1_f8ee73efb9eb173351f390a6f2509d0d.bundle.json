@@ -1,0 +1,41 @@
+{
+  "m_Name": "f8ee73efb9eb173351f390a6f2509d0d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2623812221680519614
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/returningplayer/effect/animation/goods_open.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2623812221680519614
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f8ee73efb9eb173351f390a6f2509d0d.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

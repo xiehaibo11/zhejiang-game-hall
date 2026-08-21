@@ -1,0 +1,60 @@
+{
+  "m_Name": "359710fa4c1c9de1b020c1e948291ac3.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3273091507347465912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1250739311358272959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8214651616676517267
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8736056264597222040
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/goldenpagoda/effect/rig/shijiata@chuchang_cam.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1250739311358272959
+        }
+      }
+    ],
+    [
+      "assets/bundleresources/panel/goldenpagoda/effect/rig/shijiata@chuchang_cam.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8214651616676517267
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "359710fa4c1c9de1b020c1e948291ac3.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,174 @@
+{
+  "m_Name": "50d30838a2d0e774400eb6ce915d4f4b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8856746915532152387
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 266965578054919004
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7436334919544510738
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9121579419704274986
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9121579419704274986
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3603962641800986753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8856746915532152387
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2377182563629400671
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 266965578054919004
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3603962641800986753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7436334919544510738
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9121579419704274986
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8856746915532152387
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9121579419704274986
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 266965578054919004
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_276/caiyuangungun.atlas.txt",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 266965578054919004
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_276/caiyuangungun.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9121579419704274986
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_276/caiyuangungun.skel.bytes",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3603962641800986753
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_276/caiyuangungun_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7436334919544510738
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_276/caiyuangungun_material.mat",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8856746915532152387
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_276/caiyuangungun_skeletondata.asset",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2377182563629400671
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "50d30838a2d0e774400eb6ce915d4f4b.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

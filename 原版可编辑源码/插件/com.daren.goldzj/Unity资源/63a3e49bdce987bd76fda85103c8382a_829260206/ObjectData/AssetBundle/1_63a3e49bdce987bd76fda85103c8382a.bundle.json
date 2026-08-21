@@ -1,0 +1,129 @@
+{
+  "m_Name": "63a3e49bdce987bd76fda85103c8382a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7510215788144080179
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8796638229347897717
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1303057818012482977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2733641432893674209
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1303057818012482977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7510215788144080179
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2157946931101234068
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/fukazhongzin_nq_ani/fukanewplayerwelfareview.controller",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8796638229347897717
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/fukazhongzin_nq_ani/fukataskview.anim",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1303057818012482977
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/fukazhongzin_nq_ani/fukataskview.controller",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2733641432893674209
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/fukazhongzin_nq_ani/fukawelfaretaskitem.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7510215788144080179
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/fukazhongzin_nq_ani/fukawelfaretaskitem.controller",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2157946931101234068
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "63a3e49bdce987bd76fda85103c8382a.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

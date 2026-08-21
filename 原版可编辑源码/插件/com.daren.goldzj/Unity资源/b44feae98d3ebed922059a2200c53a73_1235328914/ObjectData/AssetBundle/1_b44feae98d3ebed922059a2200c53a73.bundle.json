@@ -1,0 +1,174 @@
+{
+  "m_Name": "b44feae98d3ebed922059a2200c53a73.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8272499258540228868
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2834542898994179101
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -731011021979576666
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2895503152704104558
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8272499258540228868
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5610346859065234352
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -731011021979576666
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2895503152704104558
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -731011021979576666
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5610346859065234352
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2834542898994179101
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1887258079474639252
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -731011021979576666
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2895503152704104558
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8272499258540228868
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_200/spinecannon_200.atlas.txt",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8272499258540228868
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_200/spinecannon_200.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -731011021979576666
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_200/spinecannon_200.skel.bytes",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5610346859065234352
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_200/spinecannon_200_atlas.asset",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2834542898994179101
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_200/spinecannon_200_material.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2895503152704104558
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_200/spinecannon_200_skeletondata.asset",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1887258079474639252
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b44feae98d3ebed922059a2200c53a73.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

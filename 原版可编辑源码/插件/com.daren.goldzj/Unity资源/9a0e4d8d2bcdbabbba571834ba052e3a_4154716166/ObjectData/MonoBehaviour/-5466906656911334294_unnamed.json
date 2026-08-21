@@ -1,0 +1,43 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2839436939323096989
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8278719512727382636
+  },
+  "m_Name": "",
+  "group": 0,
+  "activeSprite": {
+    "m_FileID": 0,
+    "m_PathID": -6985153906543108906
+  },
+  "activeAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "animator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "startsActive": 0,
+  "instantTween": 0,
+  "optionCanBeNone": 0,
+  "onChange": [],
+  "checkSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "checkAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "eventReceiver": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "functionName": "OnActivate",
+  "startsChecked": 0
+}

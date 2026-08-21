@@ -1,0 +1,180 @@
+{
+  "m_Name": "473869b78db2bf9d17aef80bfe4251c6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": -6577433369843549172
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 1379451200201600796
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -454697137361868388
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -3507557265320495935
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8151939715377395137
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8040682031210028040
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7605447928337896079
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5878015435489293385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4871711734487554223
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4797563909394483492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4730844792139583147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3020054365429687861
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1405726096691185894
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1277421221666705080
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1215361950296569288
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -478337941680446700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -40209444003505172
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 988668803578935495
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1514287733524997358
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1726027893373038166
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3257514157886927303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4161771254065436068
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5109068795276322405
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5457941291727102065
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7221865663582569470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7412494273393413418
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7472663463423597450
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9019206496805833666
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5226745466443985728
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/newyearlimitedtimeskin3/effect/prefab/uieffect_jiemian (2).prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 35,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7605447928337896079
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "473869b78db2bf9d17aef80bfe4251c6.bundle",
+  "m_Dependencies": [
+    "24ca43509cbffa2e88d533884e0641a4.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8ec0eace10fc2cae3ae18908b3c0f973.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "da245e683a8732e87ed3e856de2e8a38.bundle",
+    "fb72ce364279339794b7dcaefb40df35.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

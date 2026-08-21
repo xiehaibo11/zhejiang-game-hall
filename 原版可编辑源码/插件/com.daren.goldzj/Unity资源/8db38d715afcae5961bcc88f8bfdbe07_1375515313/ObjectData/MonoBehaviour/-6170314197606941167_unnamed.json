@@ -1,0 +1,126 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2727582414148265218
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8483651453931799761
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7107383108934030900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2826670890963907867
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4248075938732170534
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4001077546861599866
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5316146151314811573
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8963417562316305691
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8946796937346653751
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4938130211220816413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1547663552018348077
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1894302141283830220
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4135382727622476463
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7236178587850047006
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8476286801682538996
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2102272053335612305
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6330176265042936691
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8131665603293685255
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2915175356557801855
+    }
+  ],
+  "m_BindComs_Name": [
+    "ItemLocks",
+    "NormalItemNum",
+    "SeniorItemNum",
+    "NormalItemGetted",
+    "SeniorItemGetted",
+    "NormalItemUnDraw",
+    "SeniorItemUnDraw",
+    "SeniorItemLocked",
+    "UnReachLevel",
+    "ReachLevel",
+    "UnReachPoint",
+    "ReachPoint",
+    "ReachProcessImg",
+    "ItemContain",
+    "LevelNum",
+    "NormalUndrawAni",
+    "SeniorUndrawAni",
+    "UnLockLevelAwardAnimator"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Succulent.SucculentDevelopmentItem",
+  "m_ClassName": "SucculentDevelopmentItem"
+}

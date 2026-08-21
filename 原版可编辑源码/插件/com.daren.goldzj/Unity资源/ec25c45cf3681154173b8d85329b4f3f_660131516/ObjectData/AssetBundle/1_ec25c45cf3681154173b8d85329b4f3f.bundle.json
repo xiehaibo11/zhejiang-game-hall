@@ -1,0 +1,53 @@
+{
+  "m_Name": "ec25c45cf3681154173b8d85329b4f3f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4191440406983194234
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -7787909087988421924
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2512993346262427523
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/materials/bg_01_sj.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4191440406983194234
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ec25c45cf3681154173b8d85329b4f3f.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "1bdcf72414b9a79fcdc65a0bc785d5b4.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

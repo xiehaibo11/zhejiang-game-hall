@@ -1,0 +1,67 @@
+{
+  "m_Name": "a3cd9661b09ac487b88d16d04fae33d8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -6746917637980165012
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3805250598248422127
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -8718332428069453440
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 2512787184318100909
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -355621610849337858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1691260027037450543
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/materials/noise_add_ws 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1691260027037450543
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a3cd9661b09ac487b88d16d04fae33d8.bundle",
+  "m_Dependencies": [
+    "00161cfbd63abcb693b0168a13351560.bundle",
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "1162df3591f13f5b97896c0f7062275a.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

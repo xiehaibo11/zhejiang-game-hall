@@ -1,0 +1,52 @@
+{
+  "m_Name": "2428435badf998b47ce1735a2fe78e3b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 588723697389252236
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -7894073203964557644
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3904558864070305165
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4698745504162590931
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/hungryloong/effects/material/rrby_noise_069_ab01 4.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 588723697389252236
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2428435badf998b47ce1735a2fe78e3b.bundle",
+  "m_Dependencies": [
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

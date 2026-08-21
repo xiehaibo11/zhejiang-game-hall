@@ -1,0 +1,142 @@
+{
+  "m_Name": "6468f247210bca3d6d0db14d6f739200.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8009370540123152982
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6362888620485694928
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5049217892858109711
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4280239830436881493
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3670595323273896997
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2336931988264524974
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2080363305966700981
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 192187062508726604
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 699281009071432283
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1451255197589777267
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3024164969706728487
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3396189760305409307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3429514716160114403
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6385461832366956306
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8531518265083313662
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8747733195566040496
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6225729864611108174
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4628283947505898260
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3471562358433601455
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 4219874752380895140
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -7669539958961367769
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 6390486283436574961
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/moontreasurebox1/moontreasureboxrewarditem.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 26,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6362888620485694928
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6468f247210bca3d6d0db14d6f739200.bundle",
+  "m_Dependencies": [
+    "42b60d6994fac5041f10cd42ad6c73fe.bundle",
+    "77dbd21f99b98978952c49e0cce9d652.bundle",
+    "cd002e944b869c610561deee3c3ef704.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

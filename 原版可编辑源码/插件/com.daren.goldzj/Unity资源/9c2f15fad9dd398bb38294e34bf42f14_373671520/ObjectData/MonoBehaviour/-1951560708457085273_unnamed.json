@@ -1,0 +1,75 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1101859179963701434
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2111095310757542105
+  },
+  "m_Name": "",
+  "leftAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": -5167574586678594056
+    },
+    "relative": 0.0,
+    "absolute": -72
+  },
+  "rightAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": -5167574586678594056
+    },
+    "relative": 0.0,
+    "absolute": 8
+  },
+  "bottomAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": -5167574586678594056
+    },
+    "relative": 0.0,
+    "absolute": -7
+  },
+  "topAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": -5167574586678594056
+    },
+    "relative": 1.0,
+    "absolute": 13
+  },
+  "updateAnchors": 1,
+  "mColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "mPivot": 4,
+  "mWidth": 80,
+  "mHeight": 80,
+  "mDepth": 2,
+  "autoResizeBoxCollider": 0,
+  "hideIfOffScreen": 0,
+  "keepAspectRatio": 1,
+  "aspectRatio": 1.0,
+  "mType": 0,
+  "mFillDirection": 4,
+  "mFillAmount": 1.0,
+  "mInvert": 0,
+  "mFlip": 0,
+  "centerType": 1,
+  "leftType": 1,
+  "rightType": 1,
+  "bottomType": 1,
+  "topType": 1,
+  "mAtlas": {
+    "m_FileID": 6,
+    "m_PathID": -2133949159106840444
+  },
+  "mSpriteName": "10001",
+  "mFillCenter": 1
+}

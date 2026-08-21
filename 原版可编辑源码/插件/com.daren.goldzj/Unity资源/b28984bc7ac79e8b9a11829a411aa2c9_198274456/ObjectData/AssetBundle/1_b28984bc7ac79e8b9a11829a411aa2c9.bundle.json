@@ -1,0 +1,37 @@
+{
+  "m_Name": "b28984bc7ac79e8b9a11829a411aa2c9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4215585172668562102
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/texture/purplediamondgreatgiftv2/img_zzdfs_dik.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4215585172668562102
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b28984bc7ac79e8b9a11829a411aa2c9.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

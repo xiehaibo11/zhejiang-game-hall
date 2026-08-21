@@ -1,0 +1,131 @@
+{
+  "m_Name": "e468471a9cb2a2def8ae5be686c84b33.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8152954194407611351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4127833933927684273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7046040282802111542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7584696908337740942
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8764254669438720694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8152954194407611351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5322717492407700131
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8152954194407611351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7584696908337740942
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1363711106495743317
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_templeexplorehelp/img_smtm_lchk_door.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5322717492407700131
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_templeexplorehelp/img_smtm_lchk_tx.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1363711106495743317
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_templeexplorehelp/templeexplorehelp.mat",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7584696908337740942
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_templeexplorehelp/templeexplorehelp.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8152954194407611351
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_templeexplorehelp/templeexplorehelp.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8764254669438720694
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e468471a9cb2a2def8ae5be686c84b33.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

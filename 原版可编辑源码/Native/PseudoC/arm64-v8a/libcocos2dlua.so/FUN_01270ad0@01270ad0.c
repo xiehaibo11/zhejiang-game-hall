@@ -1,0 +1,72 @@
+
+void FUN_01270ad0(void)
+
+{
+  DAT_01795be0 = 8;
+  DAT_01795be1 = 8;
+  DAT_01795be2 = 8;
+  DAT_01795be3 = 8;
+  DAT_01795be4 = 8;
+  DAT_01795be5 = 8;
+  DAT_01795be6 = 8;
+  DAT_01795be7 = 8;
+  DAT_01795be8 = 8;
+  DAT_01795be9 = 8;
+  DAT_01795bea = 8;
+  DAT_01795beb = 8;
+  DAT_01795bec = 8;
+  DAT_01795bed = 8;
+  DAT_01795bee = 8;
+  DAT_01795bef = 8;
+  DAT_01795bf0 = 8;
+  DAT_01795bf1 = 8;
+  DAT_01795bf2 = 8;
+  DAT_01795bf3 = 8;
+  DAT_01795bf4 = 8;
+  DAT_01795bf5 = 8;
+  DAT_01795bf6 = 8;
+  DAT_01795bf7 = 8;
+  DAT_01795bf8 = 8;
+  DAT_01795bf9 = 8;
+  DAT_01795bfa = 8;
+  DAT_01795bfb = 8;
+  DAT_01795bfc = 8;
+  DAT_01795bfd = 8;
+  DAT_01795bfe = 8;
+  DAT_01795bff = 8;
+  DAT_01795c20 = 8;
+  DAT_01795c21 = 8;
+  DAT_01795c22 = 8;
+  DAT_01795c23 = 8;
+  DAT_01795c24 = 8;
+  DAT_01795c25 = 8;
+  DAT_01795c26 = 8;
+  DAT_01795c27 = 8;
+  DAT_01795c28 = 8;
+  DAT_01795c29 = 8;
+  DAT_01795c2a = 8;
+  DAT_01795c2b = 8;
+  DAT_01795c2c = 8;
+  DAT_01795c2d = 8;
+  DAT_01795c2e = 8;
+  DAT_01795c2f = 8;
+  DAT_01795c30 = 8;
+  DAT_01795c31 = 8;
+  DAT_01795c32 = 8;
+  DAT_01795c33 = 8;
+  DAT_01795c34 = 8;
+  DAT_01795c35 = 8;
+  DAT_01795c36 = 8;
+  DAT_01795c37 = 8;
+  DAT_01795c38 = 8;
+  DAT_01795c39 = 8;
+  DAT_01795c3a = 8;
+  DAT_01795c3b = 8;
+  DAT_01795c3c = 8;
+  DAT_01795c3d = 8;
+  DAT_01795c3e = 8;
+  DAT_01795c3f = 8;
+  DAT_01795c40 = 8;
+  return;
+}
+

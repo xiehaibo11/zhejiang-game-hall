@@ -1,0 +1,103 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -817954789257875442
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8835374999630420938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2771189072996485578
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_LabelGoldNum",
+    "m_EffectParent"
+  ],
+  "m_BindInt": [
+    1
+  ],
+  "m_BindInt_Name": [
+    "m_ScaleType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 1,
+          "m_PathID": -2473275834854056289
+        },
+        {
+          "m_FileID": 4,
+          "m_PathID": 8834040619514564810
+        },
+        {
+          "m_FileID": 5,
+          "m_PathID": 4119610047673355637
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        {
+          "m_FileID": 6,
+          "m_PathID": 6266799358448028034
+        },
+        {
+          "m_FileID": 6,
+          "m_PathID": 5388486411552544054
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "m_FontAssets",
+    "m_EffectPrefabs",
+    "m_EffectTexts"
+  ],
+  "hotfixClassFullName": "GameHotFix.BossShouFen.BossShouFenScoreNum",
+  "m_ClassName": "BossShouFenScoreNum"
+}

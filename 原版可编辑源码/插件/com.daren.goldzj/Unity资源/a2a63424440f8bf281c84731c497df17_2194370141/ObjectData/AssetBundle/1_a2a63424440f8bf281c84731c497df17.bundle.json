@@ -1,0 +1,82 @@
+{
+  "m_Name": "a2a63424440f8bf281c84731c497df17.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7577706059135293099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5535468799832620087
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4709721827514844613
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6577021440497680677
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/texture_npot/img_py_bt_qlxr.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6577021440497680677
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/texture_npot/img_py_bt_qlxr.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4709721827514844613
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/texture_npot/trail_01.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7577706059135293099
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/texture_npot/trail_03.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5535468799832620087
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a2a63424440f8bf281c84731c497df17.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

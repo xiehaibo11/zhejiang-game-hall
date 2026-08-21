@@ -1,0 +1,48 @@
+{
+  "m_Name": "d515f8bf2ab595d973ba1ac4fe1d8750.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3368873479431210069
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5886587194674446378
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/shengongbao/material/godgeneral_sgb_21.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5886587194674446378
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d515f8bf2ab595d973ba1ac4fe1d8750.bundle",
+  "m_Dependencies": [
+    "2a226194e6d301f1d8940b87160233af.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

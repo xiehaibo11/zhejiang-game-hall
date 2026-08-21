@@ -1,0 +1,101 @@
+{
+  "m_Name": "b12ad30d28784bd9bf43482b3b968668.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1868805075143407627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4544858405358079470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4544858405358079470
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2172863190555265709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1868805075143407627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1697498001321240069
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4544858405358079470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5318077365107297926
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_wushendoubleweeklycard/wushendoubleweeklycard.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1868805075143407627
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_wushendoubleweeklycard/wushendoubleweeklycard.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4544858405358079470
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_wushendoubleweeklycard/wushendoubleweeklycard.prefab",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1697498001321240069
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b12ad30d28784bd9bf43482b3b968668.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

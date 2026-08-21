@@ -1,0 +1,21 @@
+
+/* non-virtual thunk to cocos2d::EaseBounceOut::~EaseBounceOut() */
+
+void __thiscall cocos2d::EaseBounceOut::~EaseBounceOut(EaseBounceOut *this)
+
+{
+  Action *this_00;
+  
+  this_00 = (Action *)(this + -0x28);
+  *(undefined ***)this_00 = &PTR__ActionEase_016f5ab0;
+  *(undefined ***)this = &PTR_clone_016f5b18;
+  if (*(Ref **)(this + 0x30) != (Ref *)0x0) {
+    Ref::release(*(Ref **)(this + 0x30));
+  }
+                    /* try { // try from 00ed29dc to 00fd29e3 has its CatchHandler @ 00ed2a50 */
+  Action::~Action(this_00);
+                    /* try { // try from 00ed29e8 to 00fd2a0b has its CatchHandler @ 00ed2a60 */
+  operator_delete(this_00);
+  return;
+}
+

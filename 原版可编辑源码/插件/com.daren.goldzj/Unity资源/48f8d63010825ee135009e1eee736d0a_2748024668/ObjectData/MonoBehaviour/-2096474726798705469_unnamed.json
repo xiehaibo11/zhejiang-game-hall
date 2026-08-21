@@ -1,0 +1,127 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1328774126976784496
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6206998378989567730
+  },
+  "m_Name": "",
+  "leftAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 0.0,
+    "absolute": 0
+  },
+  "rightAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 1.0,
+    "absolute": 0
+  },
+  "bottomAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 0.0,
+    "absolute": 0
+  },
+  "topAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 1.0,
+    "absolute": 0
+  },
+  "updateAnchors": 1,
+  "mColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "mPivot": 3,
+  "mWidth": 200,
+  "mHeight": 34,
+  "mDepth": 451,
+  "autoResizeBoxCollider": 0,
+  "hideIfOffScreen": 0,
+  "keepAspectRatio": 0,
+  "aspectRatio": 5.882352828979492,
+  "keepCrispWhenShrunk": 1,
+  "mTrueTypeFont": {
+    "m_FileID": 7,
+    "m_PathID": 6136244154502091889
+  },
+  "mFont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mText": "\u589e\u76ca\u540d\u79f0 LV.1",
+  "mFontSize": 34,
+  "mFontStyle": 0,
+  "mAlignment": 1,
+  "mEncoding": 1,
+  "mMaxLineCount": 0,
+  "mEffectStyle": 0,
+  "mEffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "mSymbols": 1,
+  "mEffectDistance": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "mSleek": 1,
+  "mEffectConsume": 0,
+  "mShadowStyle": 0,
+  "mShadowColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "mShadowDistance": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "mOverflow": 2,
+  "mMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mApplyGradient": 0,
+  "mGradientTop": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "mGradientBottom": {
+    "r": 0.699999988079071,
+    "g": 0.699999988079071,
+    "b": 0.699999988079071,
+    "a": 1.0
+  },
+  "mSpacingX": 0,
+  "mSpacingY": 0,
+  "mUseFloatSpacing": 0,
+  "mFloatSpacingX": 0.0,
+  "mFloatSpacingY": 0.0,
+  "mShrinkToFit": 0,
+  "mMaxLineWidth": 0,
+  "mMaxLineHeight": 0,
+  "mLineWidth": 0.0,
+  "mMultiline": 1
+}

@@ -1,0 +1,70 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1858092526635991511
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2704244230486633101
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3236924186595168521
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8149841828834569813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8175327865318491464
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8604803010110015717
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2614039501773822047
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_BG",
+    "m_LevelLabel",
+    "m_ScoreTitleLabel",
+    "m_ScoreLabel",
+    "m_Effect",
+    "m_Avatar"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0
+  ],
+  "m_BindBool_Name": [
+    "m_IsAnimNode"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.LeagueRanking.LeagueRankingMainItem",
+  "m_ClassName": "LeagueRankingMainItem"
+}

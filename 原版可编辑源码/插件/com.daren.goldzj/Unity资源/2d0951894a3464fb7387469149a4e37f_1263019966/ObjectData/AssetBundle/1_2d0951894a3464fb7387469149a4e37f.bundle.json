@@ -1,0 +1,48 @@
+{
+  "m_Name": "2d0951894a3464fb7387469149a4e37f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8258733449493414729
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7824686038127704640
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cannoncenter/effect/material/point_009_zq.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8258733449493414729
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2d0951894a3464fb7387469149a4e37f.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

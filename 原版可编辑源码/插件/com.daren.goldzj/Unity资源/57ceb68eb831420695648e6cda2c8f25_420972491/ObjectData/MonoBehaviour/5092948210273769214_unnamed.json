@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2049976854631397906
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6334149376014830852
+  },
+  "m_Name": "",
+  "hiddenList": [
+    {
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 7685325541836023837
+      },
+      "expensive": 0
+    },
+    {
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": -7848487525532779232
+      },
+      "expensive": 1
+    },
+    {
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": -7668340184628980369
+      },
+      "expensive": 0
+    }
+  ],
+  "optimizedList": [
+    {
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 8907368392497786021
+      },
+      "optType": 0,
+      "high": 100,
+      "mid": 50,
+      "low": 0,
+      "veryLow": 0
+    },
+    {
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 1008538644535250126
+      },
+      "optType": 0,
+      "high": 100,
+      "mid": 50,
+      "low": 0,
+      "veryLow": 0
+    }
+  ]
+}

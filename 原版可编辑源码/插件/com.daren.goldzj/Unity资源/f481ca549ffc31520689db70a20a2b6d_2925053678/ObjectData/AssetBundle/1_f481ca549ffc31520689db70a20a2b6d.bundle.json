@@ -1,0 +1,63 @@
+{
+  "m_Name": "f481ca549ffc31520689db70a20a2b6d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -1552507706963524852
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8542186160373561977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4919401151647631837
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1454319939581168802
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -8117314732795054818
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/pass/effect/material/glow 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4919401151647631837
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f481ca549ffc31520689db70a20a2b6d.bundle",
+  "m_Dependencies": [
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "79de40a31396735ff83f5a0836ae7039.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,53 @@
+{
+  "m_Name": "e63873be73c495d0cd067f9c69cdf60d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5404348982560188753
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8084638684011838929
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1206428723208057991
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cannoncenter/effect/material/pt_sp_txt_sjcg_ab1 2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5404348982560188753
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e63873be73c495d0cd067f9c69cdf60d.bundle",
+  "m_Dependencies": [
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "9bb860b958b21614a451ed6b1ac5c917.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

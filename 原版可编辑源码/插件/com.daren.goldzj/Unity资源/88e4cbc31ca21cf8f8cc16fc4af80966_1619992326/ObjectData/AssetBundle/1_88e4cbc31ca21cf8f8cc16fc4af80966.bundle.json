@@ -1,0 +1,37 @@
+{
+  "m_Name": "88e4cbc31ca21cf8f8cc16fc4af80966.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4786182451186656314
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/sound/buyusound/common_shuzishangzhang.mp3",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4786182451186656314
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "88e4cbc31ca21cf8f8cc16fc4af80966.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

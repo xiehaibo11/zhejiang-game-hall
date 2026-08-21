@@ -1,0 +1,43 @@
+{
+  "m_Name": "c467938a4bf299c4ae46d898fab4bb9c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4465434113992864642
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3558841807380790938
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/wealthcome/effect/animation/wealthcomepanel_open.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4465434113992864642
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c467938a4bf299c4ae46d898fab4bb9c.bundle",
+  "m_Dependencies": [
+    "ff49905026a8d6ac7ff38f336a5521b8.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

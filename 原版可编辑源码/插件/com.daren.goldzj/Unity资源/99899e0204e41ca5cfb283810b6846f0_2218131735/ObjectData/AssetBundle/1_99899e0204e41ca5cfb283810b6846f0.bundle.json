@@ -1,0 +1,41 @@
+{
+  "m_Name": "99899e0204e41ca5cfb283810b6846f0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -182402084201273560
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/streetstorm/effect/animator/steptemp_chaoji.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -182402084201273560
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "99899e0204e41ca5cfb283810b6846f0.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

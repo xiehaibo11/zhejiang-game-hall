@@ -1,0 +1,84 @@
+{
+  "m_Name": "287fd1b152f8f6d633c601f1754b577c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7986387687800982092
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6415016129159030946
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3561485704191927441
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3053964791422770536
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2641441837654430186
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3293686932517559312
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7859867403163444849
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8461390072029401706
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8922306677060492851
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3410604967112087226
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -282790237077921049
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/playerineraction/interactionitems/playerinteraction_10081.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2641441837654430186
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "287fd1b152f8f6d633c601f1754b577c.bundle",
+  "m_Dependencies": [
+    "62a37c079589f23f969043ea54a42f1b.bundle",
+    "b4c439752ba5126dcdb1a7137cba06e3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

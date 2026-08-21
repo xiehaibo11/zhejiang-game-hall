@@ -1,0 +1,20 @@
+{
+  "m_Name": "common_shuzishangzhang_10",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 1.5858277082443237,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-f54362e8e6e7f2f033396b4af0b68642/CAB-f54362e8e6e7f2f033396b4af0b68642.resource",
+    "m_Offset": 0,
+    "m_Size": 22816
+  },
+  "m_CompressionFormat": 1
+}

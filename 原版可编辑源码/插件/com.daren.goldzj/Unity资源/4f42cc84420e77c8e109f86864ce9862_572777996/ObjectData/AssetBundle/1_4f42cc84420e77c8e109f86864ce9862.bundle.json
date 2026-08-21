@@ -1,0 +1,37 @@
+{
+  "m_Name": "4f42cc84420e77c8e109f86864ce9862.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3556611270113069987
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/gameactivity/fantasytreasurehunt/effect/texture/img_jchd_qhtb_bt.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3556611270113069987
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4f42cc84420e77c8e109f86864ce9862.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,108 @@
+{
+  "m_Name": "f8af44ab27eec4a53d50e5f2a762d776.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4048635020351994348
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1996073791676397422
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1513267979019042691
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4189635665152679460
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7411755905012295985
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8482316754555017341
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -725121867334110611
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -7657888043664166480
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 7627689200615030940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6069088461937413323
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1996073791676397422
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2044549930375200585
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/184_liuxuande/cannonsoul/animation/appera_ui_camera.anim",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2044549930375200585
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/184_liuxuande/cannonsoul/animation/liuxuande_soul_enterscene.controller",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6069088461937413323
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/184_liuxuande/cannonsoul/animation/liuxuande_soul_ingame.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4048635020351994348
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f8af44ab27eec4a53d50e5f2a762d776.bundle",
+  "m_Dependencies": [
+    "0bdf091760967488a6bd967283fc917c.bundle",
+    "357a33b3e8fdc6541f4dd5fe9ff2f036.bundle",
+    "7cdf3b49d66186a7ad223b10d9f8f2bd.bundle",
+    "b81dbb816bf228ea62288e70a7c39f31.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

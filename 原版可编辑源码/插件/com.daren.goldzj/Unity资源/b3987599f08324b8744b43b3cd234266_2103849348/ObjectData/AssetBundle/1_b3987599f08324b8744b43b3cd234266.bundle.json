@@ -1,0 +1,190 @@
+{
+  "m_Name": "b3987599f08324b8744b43b3cd234266.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -7405808290529937796
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3341835541010868483
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2883754122375462902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7138952399543344928
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4710397088194962898
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4087825011277265255
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1639616737282158912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1326188021205359011
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -657477701292886207
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -292883777034718514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3703309398024068742
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4487854038007052050
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5413612609899367333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6057510240830208730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6883428607189265229
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7060557835925490806
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7117477890993072112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8713613745068565843
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9004715252882429709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9220262998871364191
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1204281463520322553
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -868653064341020783
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7220586808748705098
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7724976837103683285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6513482352223019362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2618349265204248038
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1326188021205359011
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -657477701292886207
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -292883777034718514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 336875036844319562
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 738544502036249683
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2198152081377126048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3243748192331785924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6969128059724294907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7117477890993072112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8713613745068565843
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/112_quanhuangzhenba/shenqi/timeline/timeline_shenqi.playable",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 16,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6513482352223019362
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/112_quanhuangzhenba/shenqi/timeline/timeline_shenqi_lili_1.playable",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 20,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6883428607189265229
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b3987599f08324b8744b43b3cd234266.bundle",
+  "m_Dependencies": [
+    "1580c6eea83dc07f962ba4072021ffdc.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

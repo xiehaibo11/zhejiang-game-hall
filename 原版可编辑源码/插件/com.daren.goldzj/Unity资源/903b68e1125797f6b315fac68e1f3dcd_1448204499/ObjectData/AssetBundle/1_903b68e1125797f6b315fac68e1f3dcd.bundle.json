@@ -1,0 +1,37 @@
+{
+  "m_Name": "903b68e1125797f6b315fac68e1f3dcd.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1814739266650364241
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/textures/accumulatedcharge/img_lchd_banner_sj_2004.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1814739266650364241
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "903b68e1125797f6b315fac68e1f3dcd.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,70 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4288733843142718544
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -277190597121967197
+  },
+  "m_Name": "",
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": 4393755836293696279
+  },
+  "mSprites": [
+    {
+      "name": "img_lstx_bg",
+      "x": 0,
+      "y": 345,
+      "width": 732,
+      "height": 328,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_lstx_bt",
+      "x": 0,
+      "y": 674,
+      "width": 502,
+      "height": 206,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 1,
+      "paddingRight": 1,
+      "paddingTop": 1,
+      "paddingBottom": 1
+    },
+    {
+      "name": "img_lstx_lihui",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 344,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  ],
+  "mPixelSize": 1.0,
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mCoordinates": 0,
+  "sprites": []
+}

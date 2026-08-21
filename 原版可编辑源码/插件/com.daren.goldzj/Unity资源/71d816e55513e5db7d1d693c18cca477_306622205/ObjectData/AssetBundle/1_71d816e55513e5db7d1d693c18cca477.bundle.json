@@ -1,0 +1,106 @@
+{
+  "m_Name": "71d816e55513e5db7d1d693c18cca477.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5621008637253204931
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2589946482816022000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3409987683025042037
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2554494987067398509
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5621008637253204931
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2554494987067398509
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/chengjiuxitong_ani/achievementitem.anim",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2554494987067398509
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chengjiuxitong_ani/achievementitem.controller",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3409987683025042037
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chengjiuxitong_ani/achievementsystempanelnew.anim",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5621008637253204931
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chengjiuxitong_ani/achievementsystempanelnew.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2589946482816022000
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "71d816e55513e5db7d1d693c18cca477.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

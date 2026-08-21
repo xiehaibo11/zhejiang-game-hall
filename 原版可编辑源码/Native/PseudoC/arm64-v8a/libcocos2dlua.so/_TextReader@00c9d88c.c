@@ -1,0 +1,10 @@
+
+/* non-virtual thunk to cocostudio::TextReader::~TextReader() */
+
+void __thiscall cocostudio::TextReader::~TextReader(TextReader *this)
+
+{
+  WidgetReader::~WidgetReader((WidgetReader *)(this + -0x28));
+  return;
+}
+

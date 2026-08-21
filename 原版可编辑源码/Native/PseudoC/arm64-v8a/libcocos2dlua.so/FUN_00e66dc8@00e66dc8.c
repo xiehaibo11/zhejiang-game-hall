@@ -1,0 +1,12 @@
+
+void FUN_00e66dc8(undefined8 *param_1)
+
+{
+  *param_1 = &PTR_FUN_016f3968;
+  if ((*(byte *)(param_1 + 3) & 1) == 0) {
+    return;
+  }
+  operator_delete((void *)param_1[5]);
+  return;
+}
+

@@ -1,0 +1,53 @@
+{
+  "m_Name": "434ee6312ce5493292c28074531fbb70.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 329703087528995118
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2541795602063062122
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6674342499386898996
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/lobby/effect/material/mask_424_box_09_2 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 329703087528995118
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "434ee6312ce5493292c28074531fbb70.bundle",
+  "m_Dependencies": [
+    "0ea7bff42d91c320d6af67cfb1527444.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

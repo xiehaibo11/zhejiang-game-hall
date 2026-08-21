@@ -1,0 +1,41 @@
+{
+  "m_Name": "4fa8746073dc22acb2a2cc76f8d10247.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5415309914513843692
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollect/tour/effect/animation/simple_task.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5415309914513843692
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4fa8746073dc22acb2a2cc76f8d10247.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

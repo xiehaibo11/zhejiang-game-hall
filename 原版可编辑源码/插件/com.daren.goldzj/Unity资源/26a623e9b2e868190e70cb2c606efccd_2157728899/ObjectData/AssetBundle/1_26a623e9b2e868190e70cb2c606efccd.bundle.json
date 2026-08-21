@@ -1,0 +1,52 @@
+{
+  "m_Name": "26a623e9b2e868190e70cb2c606efccd.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9028111159680302163
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8274877417642162758
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3017589804450012307
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/playerineraction/spine/xihongshi/xihongshi_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9028111159680302163
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "26a623e9b2e868190e70cb2c606efccd.bundle",
+  "m_Dependencies": [
+    "7dc9ea9a1d96774759e7929be72e82a9.bundle",
+    "e8ead74879526324faebeff052d84018.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

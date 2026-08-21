@@ -1,0 +1,48 @@
+{
+  "m_Name": "739f4fb0ee94c36fbe87d148d7455fec.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3391825809240099143
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7386118089053983859
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/cannoneffect/new folder/zi 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3391825809240099143
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "739f4fb0ee94c36fbe87d148d7455fec.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "897ee81b285f3bd643d1efaa0e22d187.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

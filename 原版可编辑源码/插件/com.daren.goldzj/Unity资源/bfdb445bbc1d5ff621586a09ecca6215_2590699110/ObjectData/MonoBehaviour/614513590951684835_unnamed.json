@@ -1,0 +1,97 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7813523580546633347
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4940268333295532661
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5264907673454896433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1837712588909237886
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3917837724357402393
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3364712343580765144
+    }
+  ],
+  "m_BindComs_Name": [
+    "Normal",
+    "Pay",
+    "BtnGet",
+    "BtnBuyGet",
+    "LoopScrollItem"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -503610173199261182
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1463599013616464836
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2703928148956012352
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4861437966612180301
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 846017666521022127
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6495223022135856046
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "RewardItems",
+    "ItemLight"
+  ],
+  "hotfixClassFullName": "GameHotFix.JuneFestival.JuneFestivalClockingItem",
+  "m_ClassName": "JuneFestivalClockingItem"
+}

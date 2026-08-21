@@ -1,0 +1,309 @@
+{
+  "m_Name": "534bd421ee1b8cb0bd9671a942973c45.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4259805364559862822
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -7171569660952452703
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4452167747990929222
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6868534131624329611
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7557326451855387902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5481259580607589452
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8323144630309591417
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6762617580130085581
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2704294417084055436
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8333276821699180348
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -8288613251834898390
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4452167747990929222
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3532880561906389806
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -459622481728925551
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 7731732373910862947
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -459622481728925551
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4037253274495289945
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 7731732373910862947
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7899708116299889934
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -8284353289791547462
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6762617580130085581
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9119291344035575257
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1781884586009831567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -459622481728925551
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5481259580607589452
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6637839631873209893
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6868534131624329611
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/rrby_zuiqiangwangzhe_1.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2704294417084055436
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/rrby_zuiqiangwangzhe_2.mat",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7557326451855387902
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/rrby_zuiqiangwangzhe_huo.mat",
+      {
+        "preloadIndex": 26,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9119291344035575257
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/rrby_zuiqiangwangzhe_tx 1.mat",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3532880561906389806
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/rrby_zuiqiangwangzhe_tx_glow.mat",
+      {
+        "preloadIndex": 31,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6637839631873209893
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/rrby_zuiqiangwangzhe_tx_liudong.mat",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4037253274495289945
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/rrby_zuiqiangwangzhe_xingxing.mat",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7899708116299889934
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/zuiqiangwangzhe_jm.mat",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8333276821699180348
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/zuiqiangwangzhe_jm2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4259805364559862822
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/zuiqiangwangzhe_zhezhao.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6868534131624329611
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/zuiqiangwangzhe_zhezhao2.png",
+      {
+        "preloadIndex": 29,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -459622481728925551
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/zuiqiangwangzhe_zhezhao3.png",
+      {
+        "preloadIndex": 25,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6762617580130085581
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/zuiqiangwangzhe/zuiqiangwangzhe_zhezhao4.png",
+      {
+        "preloadIndex": 30,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5481259580607589452
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "534bd421ee1b8cb0bd9671a942973c45.bundle",
+  "m_Dependencies": [
+    "22a628c0b644360b77528577dcdb9990.bundle",
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "a27c35d01bb8355d6212589acd9ee1f5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

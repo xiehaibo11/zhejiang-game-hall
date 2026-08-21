@@ -1,0 +1,107 @@
+{
+  "m_Name": "273db2ac266661883f7ddc9883ad9879.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8639745863082973568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8030669580752403597
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5782158229435805236
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4788823748589984321
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4418138868740508570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3887507326915364056
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2721057240997044864
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2647137723887696359
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2309841110578630702
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2305313338678403734
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2552142177985932148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3306691276048843951
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8047899018579712336
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2086480607527760770
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 59038021946930451
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonnew/20243/spinecannon_20243.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 18,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5782158229435805236
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "273db2ac266661883f7ddc9883ad9879.bundle",
+  "m_Dependencies": [
+    "1d0297507fa3e9ae3a49948bd455b11e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

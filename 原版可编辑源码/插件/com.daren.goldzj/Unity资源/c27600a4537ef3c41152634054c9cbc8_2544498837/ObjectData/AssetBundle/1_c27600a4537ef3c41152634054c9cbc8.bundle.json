@@ -1,0 +1,37 @@
+{
+  "m_Name": "c27600a4537ef3c41152634054c9cbc8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1529719222939505139
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/textures/bosslaixinew/boss/bosslaixi_wanshouwujiang_iconnew.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1529719222939505139
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c27600a4537ef3c41152634054c9cbc8.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

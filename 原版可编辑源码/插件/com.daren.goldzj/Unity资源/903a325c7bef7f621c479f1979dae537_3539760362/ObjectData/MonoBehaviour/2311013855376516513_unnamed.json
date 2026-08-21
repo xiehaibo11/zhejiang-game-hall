@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4116199846273059374
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4046197310713196584
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5773098262480392600
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 382439540599354217
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6433758337953429314
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8719456923168367030
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -164075502262755373
+    }
+  ],
+  "m_BindComs_Name": [
+    "gotoObj",
+    "get",
+    "getted",
+    "number",
+    "title",
+    "item"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShenQiMiZong.ShenQiMiZongTaskItem",
+  "m_ClassName": "ShenQiMiZongTaskItem"
+}

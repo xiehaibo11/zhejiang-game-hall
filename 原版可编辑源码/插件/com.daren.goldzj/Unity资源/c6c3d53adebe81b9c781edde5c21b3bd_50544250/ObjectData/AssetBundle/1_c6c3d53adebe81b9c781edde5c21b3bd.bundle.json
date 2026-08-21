@@ -1,0 +1,58 @@
+{
+  "m_Name": "c6c3d53adebe81b9c781edde5c21b3bd.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 815725887686307039
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -2428953732364499839
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4566850421292694526
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4475046396167398436
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollectsystem/effect/materials/glow_07_ab.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4566850421292694526
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c6c3d53adebe81b9c781edde5c21b3bd.bundle",
+  "m_Dependencies": [
+    "38b2e28d58d933698b24e508b1bfeb89.bundle",
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

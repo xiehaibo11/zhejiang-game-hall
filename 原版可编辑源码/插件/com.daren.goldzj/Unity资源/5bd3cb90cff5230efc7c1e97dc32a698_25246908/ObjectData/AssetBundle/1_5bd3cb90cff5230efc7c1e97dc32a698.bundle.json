@@ -1,0 +1,37 @@
+{
+  "m_Name": "5bd3cb90cff5230efc7c1e97dc32a698.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8893488153394396316
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/playerineraction/spine/jidan/jidan.atlas.txt",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8893488153394396316
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5bd3cb90cff5230efc7c1e97dc32a698.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

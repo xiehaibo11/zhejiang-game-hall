@@ -1,0 +1,27 @@
+
+Souchu.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shanaa
+  rotate: false
+  xy: 0, 0
+  size: 78, 62
+  orig: 80, 67
+  offset: 1, 2
+  index: -1
+z1
+  rotate: false
+  xy: 139, 16
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+z2
+  rotate: false
+  xy: 80, 5
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1

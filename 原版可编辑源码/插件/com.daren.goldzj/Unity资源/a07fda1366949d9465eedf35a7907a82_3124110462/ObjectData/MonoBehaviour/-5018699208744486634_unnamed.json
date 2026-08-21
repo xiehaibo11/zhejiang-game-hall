@@ -1,0 +1,56 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8948794541175313128
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5476039929053205801
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1245862260544839378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3666384411360835178
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8446604669949638946
+    }
+  ],
+  "m_BindComs_Name": [
+    "mSelcetLevel",
+    "mUnSelcetLevel",
+    "mSelectBg",
+    "mLockObj"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.RoadOfImperial.RoadOfImperialLevelBtnComponent",
+  "m_ClassName": "RoadOfImperialLevelBtnComponent"
+}

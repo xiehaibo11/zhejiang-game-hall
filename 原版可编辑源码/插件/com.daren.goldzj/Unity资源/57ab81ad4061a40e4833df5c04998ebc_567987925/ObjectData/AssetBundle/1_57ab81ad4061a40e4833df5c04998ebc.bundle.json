@@ -1,0 +1,84 @@
+{
+  "m_Name": "57ab81ad4061a40e4833df5c04998ebc.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -6111632133073393262
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1623166368541656540
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8016564062012270316
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7057329705778395689
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5405585525328646878
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4360123985650155934
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3716152696115650137
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2785152154718090310
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2372263759962536809
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8341623857942695878
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8784327091908967374
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/bullet/bullet_305.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2372263759962536809
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "57ab81ad4061a40e4833df5c04998ebc.bundle",
+  "m_Dependencies": [
+    "33663b8277a6aa747d3d264f5d35fbf7.bundle",
+    "5553bbffd4c1f4d81d2d8d2d5fd05d38.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

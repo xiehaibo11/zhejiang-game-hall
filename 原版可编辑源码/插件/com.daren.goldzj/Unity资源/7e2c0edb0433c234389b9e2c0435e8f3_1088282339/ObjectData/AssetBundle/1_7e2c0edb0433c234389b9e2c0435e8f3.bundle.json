@@ -1,0 +1,37 @@
+{
+  "m_Name": "7e2c0edb0433c234389b9e2c0435e8f3.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8748697353416125449
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bosschallengeskin4v2/texture/bosschallenge_title6.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8748697353416125449
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7e2c0edb0433c234389b9e2c0435e8f3.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

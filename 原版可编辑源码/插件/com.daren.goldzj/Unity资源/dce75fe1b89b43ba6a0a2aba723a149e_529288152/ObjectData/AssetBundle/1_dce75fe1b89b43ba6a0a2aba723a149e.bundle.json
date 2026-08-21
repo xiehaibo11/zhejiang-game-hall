@@ -1,0 +1,37 @@
+{
+  "m_Name": "dce75fe1b89b43ba6a0a2aba723a149e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1233274472956197258
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/gameactivity/rocketsprint/effect/texture/hjcc_yuchang.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1233274472956197258
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "dce75fe1b89b43ba6a0a2aba723a149e.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

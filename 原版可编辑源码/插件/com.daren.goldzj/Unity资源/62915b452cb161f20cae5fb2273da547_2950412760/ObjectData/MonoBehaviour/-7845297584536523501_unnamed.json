@@ -1,0 +1,133 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6108025987347452758
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 504783451205776655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1521712496834878778
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7749058624975977671
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6358704591255182190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3391209371750387329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4669155983632820025
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8987572834549250796
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5770405520305800879
+    }
+  ],
+  "m_BindComs_Name": [
+    "TaskTitle",
+    "TaskProgressSlider",
+    "BtnGetReward",
+    "BtnGoFinish",
+    "BtnAlreadyFinish",
+    "AwardListBG2",
+    "AwardListBG3",
+    "jinDu"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -7154397975880774881
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1331776127941505907
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4401067069746722496
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2479685496309482806
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6402680001527093869
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -8949419202071211337
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6439082392693436008
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3579722899990416750
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1422338680577108952
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3658924783586677730
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "RewardItems2",
+    "RewardItems3",
+    "Effects"
+  ],
+  "hotfixClassFullName": "GameHotFix.Base.TaskListItemComponent",
+  "m_ClassName": "TaskListItemComponent"
+}

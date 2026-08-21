@@ -1,0 +1,71 @@
+{
+  "m_Name": "ffcd250defd20b521880f2758dab99be.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9034541503034822986
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5599192834978620617
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4899220259834361003
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4691300648971768279
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 964134021386809593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1366124752061509362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3302024600660328039
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8157377691989176260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/flagofcommandroom/effect/prefab/uieffect_hlzq_item.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 964134021386809593
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ffcd250defd20b521880f2758dab99be.bundle",
+  "m_Dependencies": [
+    "55ebb8054f8955d83215e11a7594ae23.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

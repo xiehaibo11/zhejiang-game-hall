@@ -1,0 +1,185 @@
+{
+  "m_Name": "21323dffd373a59b584d035d82d1acf3.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7401226113771827838
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7401226113771827838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4214757075296657827
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1660021082998481451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3417968435031907409
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 743597798278857973
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4365293159029986915
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6910361210848044960
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7984028162790466237
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1660021082998481451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 743597798278857973
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4214757075296657827
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4365293159029986915
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6910361210848044960
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/115_lixiaolong/rig/1.0/lixiaolong.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3417968435031907409
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/115_lixiaolong/rig/1.0/lixiaolong_d.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7401226113771827838
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/115_lixiaolong/rig/1.0/lixiaolong_m_arnold.png",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4214757075296657827
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/115_lixiaolong/rig/1.0/lixiaolong_n.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1660021082998481451
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/115_lixiaolong/rig/1.0/paibian.mat",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7984028162790466237
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/115_lixiaolong/rig/1.0/paibian_d.png",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4365293159029986915
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/115_lixiaolong/rig/1.0/paibian_m_arnold.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 743597798278857973
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/115_lixiaolong/rig/1.0/paibian_n.png",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6910361210848044960
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "21323dffd373a59b584d035d82d1acf3.bundle",
+  "m_Dependencies": [
+    "34a5d6e35247fd6b42e6a85ab2ae2951.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

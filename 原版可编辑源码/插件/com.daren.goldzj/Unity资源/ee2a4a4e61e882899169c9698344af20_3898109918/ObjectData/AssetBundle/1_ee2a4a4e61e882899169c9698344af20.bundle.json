@@ -1,0 +1,71 @@
+{
+  "m_Name": "ee2a4a4e61e882899169c9698344af20.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4115996954115055992
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 84731779288682403
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7866856442226269013
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 84731779288682403
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/072_haitanxingxing/material/htxx_glow_3.mat",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7866856442226269013
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/072_haitanxingxing/material/htxx_glow_4.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4115996954115055992
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ee2a4a4e61e882899169c9698344af20.bundle",
+  "m_Dependencies": [
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

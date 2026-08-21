@@ -1,0 +1,188 @@
+{
+  "m_Name": "22cc718445559328133eb42cc8a73a60.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1312801843650416015
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6122244476524673842
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6602229894965673389
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4333667026093759146
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5299730515880983659
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 6073682758896857520
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7580762163237830887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2530006629629970796
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7588886654455371575
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 3398584659528127998
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -3198079607885481298
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2503356246587344316
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 5447832019044817165
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -1002337425518791008
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/077_\u70ae\u9b42\u949c\u60e0&\u795e\u5c06\u949c\u60e0\u793c\u5305/material/btn.mat",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2530006629629970796
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/077_\u70ae\u9b42\u949c\u60e0&\u795e\u5c06\u949c\u60e0\u793c\u5305/material/mask_title_1.mat",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5299730515880983659
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/077_\u70ae\u9b42\u949c\u60e0&\u795e\u5c06\u949c\u60e0\u793c\u5305/material/mask_title_2.mat",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7588886654455371575
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/077_\u70ae\u9b42\u949c\u60e0&\u795e\u5c06\u949c\u60e0\u793c\u5305/material/noise_1.mat",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2503356246587344316
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/077_\u70ae\u9b42\u949c\u60e0&\u795e\u5c06\u949c\u60e0\u793c\u5305/material/quanquan.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1312801843650416015
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/077_\u70ae\u9b42\u949c\u60e0&\u795e\u5c06\u949c\u60e0\u793c\u5305/material/quanquan1.mat",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6602229894965673389
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "22cc718445559328133eb42cc8a73a60.bundle",
+  "m_Dependencies": [
+    "00baf169f054fd57777844fd6967b2cc.bundle",
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle",
+    "b106d588a821ee75a336b087d7f9d718.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

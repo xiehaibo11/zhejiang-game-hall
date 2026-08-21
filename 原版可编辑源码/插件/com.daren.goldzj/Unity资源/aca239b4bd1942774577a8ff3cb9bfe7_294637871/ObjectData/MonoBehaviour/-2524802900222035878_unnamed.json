@@ -1,0 +1,119 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2984142614833276598
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1773958601081205668
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -516916276381612333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1210773879670045907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2031212228582700298
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1953885969806360940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3458101568156030407
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4413959718677167146
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3896379743923001699
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3119973287594247801
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1953885969806360940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1730679607942657321
+    }
+  ],
+  "m_BindComs_Name": [
+    "container",
+    "cloneItem",
+    "closeBtn",
+    "tipObj",
+    "redTestBtn",
+    "curSignDayLabel",
+    "dragonObj",
+    "caishenObj",
+    "tailObj",
+    "redObj",
+    "boxObj"
+  ],
+  "m_BindInt": [
+    0,
+    0,
+    0,
+    -1
+  ],
+  "m_BindInt_Name": [
+    "lastShowDay",
+    "monthDataCount",
+    "panelType",
+    "curMaxDepth"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "m_BindBool_Name": [
+    "isScroll",
+    "isCreateSuccess",
+    "isNeedInitData",
+    "isHas3DObj",
+    "IsNeedChangeZ"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": []
+    }
+  ],
+  "m_BindObjList_Name": [
+    "allSignDay"
+  ],
+  "hotfixClassFullName": "GameHotFix.DailySign.ThirteenSignDaysPanel",
+  "m_ClassName": "ThirteenSignDaysPanel"
+}

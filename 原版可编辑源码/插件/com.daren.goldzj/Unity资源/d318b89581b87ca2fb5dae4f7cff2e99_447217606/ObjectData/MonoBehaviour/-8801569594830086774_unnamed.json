@@ -1,0 +1,63 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7295454156642987741
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4789303345684156678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8095933671760861805
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7426973389163048658
+    }
+  ],
+  "m_BindComs_Name": [
+    "TipBuffAdd",
+    "TipZhiZunProp",
+    "JingYanBuffAdd"
+  ],
+  "m_BindInt": [
+    500,
+    0,
+    0
+  ],
+  "m_BindInt_Name": [
+    "IconType",
+    "TimeStyle",
+    "m_ThreadTimer"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1
+  ],
+  "m_BindBool_Name": [
+    "HideIconWhenTimeout"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShoppingMall.ShoppingMallButton",
+  "m_ClassName": "ShoppingMallButton"
+}

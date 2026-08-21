@@ -1,0 +1,174 @@
+{
+  "m_Name": "971364942f6a8fda82548772b64283b7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2352729922539600182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2649921111141237921
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4916865010722750677
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5693528327260978348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2649921111141237921
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6492049938680097215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5693528327260978348
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6492049938680097215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2352729922539600182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1796622247023459820
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2649921111141237921
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4916865010722750677
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5693528327260978348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2352729922539600182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5693528327260978348
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/sourcespine/\u70ae\u53f0\u590f\u65e5\u7fc5\u8180\u8f93\u51fav3.6/xiarichibang.atlas.txt",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2649921111141237921
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/sourcespine/\u70ae\u53f0\u590f\u65e5\u7fc5\u8180\u8f93\u51fav3.6/xiarichibang.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5693528327260978348
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/sourcespine/\u70ae\u53f0\u590f\u65e5\u7fc5\u8180\u8f93\u51fav3.6/xiarichibang.skel.bytes",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6492049938680097215
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/sourcespine/\u70ae\u53f0\u590f\u65e5\u7fc5\u8180\u8f93\u51fav3.6/xiarichibang_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4916865010722750677
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/sourcespine/\u70ae\u53f0\u590f\u65e5\u7fc5\u8180\u8f93\u51fav3.6/xiarichibang_material.mat",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2352729922539600182
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_067_\u590f\u65e5\u70ae\u53f0/sourcespine/\u70ae\u53f0\u590f\u65e5\u7fc5\u8180\u8f93\u51fav3.6/xiarichibang_skeletondata.asset",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1796622247023459820
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "971364942f6a8fda82548772b64283b7.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

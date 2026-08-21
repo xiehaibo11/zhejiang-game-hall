@@ -1,0 +1,105 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1873750980407485832
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4981105990607496642
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -980611191310955456
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3356586479284826650
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -563554637641352670
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8510839615034536537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5208687803156359785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3825216466330491973
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1433173964318445862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2670545272151386922
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6750588056281390097
+    }
+  ],
+  "m_BindComs_Name": [
+    "sellout",
+    "pic",
+    "buffDetails",
+    "getCount",
+    "get",
+    "price",
+    "limitCount",
+    "icon",
+    "percent",
+    "table"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -106935553123730055
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2157488000951217116
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1838248394190671262
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "rewards"
+  ],
+  "hotfixClassFullName": "GameHotFix.LimitTrial.LimitTrialGiftItem",
+  "m_ClassName": "LimitTrialGiftItem"
+}

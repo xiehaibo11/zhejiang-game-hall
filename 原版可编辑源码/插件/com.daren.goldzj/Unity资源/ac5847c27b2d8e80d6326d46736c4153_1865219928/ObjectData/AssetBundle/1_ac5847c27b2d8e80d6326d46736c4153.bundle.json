@@ -1,0 +1,37 @@
+{
+  "m_Name": "ac5847c27b2d8e80d6326d46736c4153.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4693921790696717995
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/texture/ui_xylb_bqdj.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4693921790696717995
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ac5847c27b2d8e80d6326d46736c4153.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,62 @@
+{
+  "m_Name": "7cf646f0afe28641dafb849c43f49187.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 4157589701290527307
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -5726514384329709830
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1680663411104479156
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8853052449738137148
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 6947738827762810693
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/materials/rrby_mask_300_add01_lk.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8853052449738137148
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7cf646f0afe28641dafb849c43f49187.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "732a1d638545af56dc91c6cd6ef02012.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

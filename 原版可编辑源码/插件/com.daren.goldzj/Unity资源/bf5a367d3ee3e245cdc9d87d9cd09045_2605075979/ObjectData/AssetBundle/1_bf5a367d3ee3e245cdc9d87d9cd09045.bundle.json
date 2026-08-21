@@ -1,0 +1,158 @@
+{
+  "m_Name": "bf5a367d3ee3e245cdc9d87d9cd09045.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7069627558363578393
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6891068690860552119
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6634772242269115008
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6585052537144473281
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4818966785725114986
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4062486638538166409
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2975207229563724086
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -302960587633322567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 703693175683406746
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1440504130586728256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1795891357562879180
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2620515056886714091
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3403730825727327561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3513383036031620758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3932057729493631275
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4363065785522729456
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5806073622837162425
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6775220458302875947
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7355022562707631586
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7579800857861318056
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7702304501969644206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8691471190571445896
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6412593343540956330
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 2572051063543559489
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5283777822209504163
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -324149516533321004
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/gumulimitedgiftpanelv2/effect/prefab/new/gumu_fenwei_jinbi.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 30,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2620515056886714091
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "bf5a367d3ee3e245cdc9d87d9cd09045.bundle",
+  "m_Dependencies": [
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "efa99c91ee7dc541212056d6d02ca1ad.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

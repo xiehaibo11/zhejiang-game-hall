@@ -1,0 +1,37 @@
+{
+  "m_Name": "5c14ee77fd4df7329438d14a8d7da539.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2571197551350121562
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/paotaieffect/animation/rrby_uieffect_kuangbao_l1_start.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2571197551350121562
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5c14ee77fd4df7329438d14a8d7da539.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

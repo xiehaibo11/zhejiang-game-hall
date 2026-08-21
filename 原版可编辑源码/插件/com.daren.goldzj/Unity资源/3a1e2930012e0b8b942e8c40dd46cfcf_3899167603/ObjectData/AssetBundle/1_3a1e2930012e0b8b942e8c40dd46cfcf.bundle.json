@@ -1,0 +1,48 @@
+{
+  "m_Name": "3a1e2930012e0b8b942e8c40dd46cfcf.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -1547154808340256043
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8535894735196641218
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/fengshenpuzzle/effect/material/mask_01.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8535894735196641218
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3a1e2930012e0b8b942e8c40dd46cfcf.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "dea9f970c9c80c850d0b41825a45cfc6.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

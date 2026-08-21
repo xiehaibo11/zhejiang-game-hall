@@ -1,0 +1,84 @@
+{
+  "m_Name": "4830739f8d50c464002301dd6e54a44f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7779562709401304214
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6020011975053161317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4765198788894391182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 106537518563953043
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 801308321175865472
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 995443580997164721
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6844366874602216484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7220142882348487346
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7620413825784629122
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8422467808122799315
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 502121427563946719
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5191718474626212017
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/streetstormgift/effect/prefab/uieffect_saoguang_buttom_2_1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 106537518563953043
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4830739f8d50c464002301dd6e54a44f.bundle",
+  "m_Dependencies": [
+    "732a1d638545af56dc91c6cd6ef02012.bundle",
+    "e99d648b2d448e3922f6fe0fd5592d6a.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

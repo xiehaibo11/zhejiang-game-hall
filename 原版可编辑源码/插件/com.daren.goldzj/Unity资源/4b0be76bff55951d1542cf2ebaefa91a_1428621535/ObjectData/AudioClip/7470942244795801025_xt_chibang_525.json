@@ -1,0 +1,20 @@
+{
+  "m_Name": "xt_chibang_525",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 4.524988651275635,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-64cbdf3c3a0a55e9e1b5b33efc58040c/CAB-64cbdf3c3a0a55e9e1b5b33efc58040c.resource",
+    "m_Offset": 0,
+    "m_Size": 34176
+  },
+  "m_CompressionFormat": 1
+}

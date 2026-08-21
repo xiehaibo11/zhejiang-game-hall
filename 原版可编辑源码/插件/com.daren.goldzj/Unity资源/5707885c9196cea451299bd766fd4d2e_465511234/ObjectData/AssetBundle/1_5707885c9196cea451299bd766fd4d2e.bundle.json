@@ -1,0 +1,178 @@
+{
+  "m_Name": "5707885c9196cea451299bd766fd4d2e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 424540799046352916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 515264729511069187
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 424540799046352916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3685983738934828783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6660843348190570451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3685983738934828783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35468920914189078
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5893686257813130752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8568405583254419836
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3685983738934828783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35468920914189078
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 424540799046352916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 515264729511069187
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3271656399662157751
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3646589373677975231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6768983482958045937
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_feedbackcenter/atlas_feedbackcenter.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 515264729511069187
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_feedbackcenter/atlas_feedbackcenter.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 424540799046352916
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_feedbackcenter/atlas_feedbackcenter.prefab",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3271656399662157751
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_feedbackcenter/atlas_feedbackcenter2.mat",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 35468920914189078
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_feedbackcenter/atlas_feedbackcenter2.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3685983738934828783
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_feedbackcenter/atlas_feedbackcenter2.prefab",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5893686257813130752
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5707885c9196cea451299bd766fd4d2e.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

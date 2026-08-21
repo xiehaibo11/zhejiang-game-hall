@@ -1,0 +1,92 @@
+{
+  "m_Name": "7a2144076b592c3121d6a9e93522fefb.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5743923357868699835
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3506116031020058295
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3452366211471172942
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3299085879179938488
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3159455940390118770
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1205328022559879855
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -843208847235945384
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4682025564663504
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 292726106811816141
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4390444751026928419
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8081201350292998580
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6395612512760148451
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2609857276020246383
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/pass/effect/prefab/effect_sjdh_saoguang.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 14,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -843208847235945384
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7a2144076b592c3121d6a9e93522fefb.bundle",
+  "m_Dependencies": [
+    "3f5c4de534a3b36eb058805be30a0e43.bundle",
+    "728df9e21dfbfa0f1e10e9b05c3da36c.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

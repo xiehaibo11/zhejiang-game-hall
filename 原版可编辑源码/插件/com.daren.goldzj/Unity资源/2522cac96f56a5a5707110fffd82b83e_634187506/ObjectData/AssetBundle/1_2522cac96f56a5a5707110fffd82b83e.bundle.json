@@ -1,0 +1,174 @@
+{
+  "m_Name": "2522cac96f56a5a5707110fffd82b83e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2653380801647577286
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5207323578180143884
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 990973248869597443
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4748534534163195764
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 990973248869597443
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5207323578180143884
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 990973248869597443
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2653380801647577286
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4270584166364991355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4643281771839251108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4748534534163195764
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5207323578180143884
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 990973248869597443
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4643281771839251108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4748534534163195764
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/fx/spine/wing/wing_524/baihuchibang.atlas.txt",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5207323578180143884
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/wing_524/baihuchibang.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 990973248869597443
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/wing_524/baihuchibang.skel.bytes",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2653380801647577286
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/wing_524/baihuchibang_atlas.asset",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4643281771839251108
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/wing_524/baihuchibang_material.mat",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4748534534163195764
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/wing_524/baihuchibang_skeletondata.asset",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4270584166364991355
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2522cac96f56a5a5707110fffd82b83e.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

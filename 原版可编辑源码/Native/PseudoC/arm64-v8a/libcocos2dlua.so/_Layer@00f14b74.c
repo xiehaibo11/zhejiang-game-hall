@@ -1,0 +1,10 @@
+
+/* cocos2d::Layer::~Layer() */
+
+void __thiscall cocos2d::Layer::~Layer(Layer *this)
+
+{
+  Node::~Node((Node *)this);
+  return;
+}
+

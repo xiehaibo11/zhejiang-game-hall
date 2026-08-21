@@ -1,0 +1,186 @@
+{
+  "m_Name": "aa98114d837b83af107280976f2301a0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -273068921415553084
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2947291029736967504
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5933641122993312202
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8061622598944424210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8873817408174788090
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8327627448565776692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -421621786578223524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 657899113419613826
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7505957479848079335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9069368542953709152
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2199380430077808958
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1187720380984381238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1405227598712336146
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7621983463329727492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8168814709104932527
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/124_jiangtaigong/fbx/plane_bancvlinde.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5933641122993312202
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/124_jiangtaigong/fbx/plane_bancvlinde.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8061622598944424210
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/124_jiangtaigong/fbx/plane_banqiejiao.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7505957479848079335
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/124_jiangtaigong/fbx/plane_banqiejiao.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -421621786578223524
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/124_jiangtaigong/fbx/plane_tixing.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1187720380984381238
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/124_jiangtaigong/fbx/plane_tixing.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2199380430077808958
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "aa98114d837b83af107280976f2301a0.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

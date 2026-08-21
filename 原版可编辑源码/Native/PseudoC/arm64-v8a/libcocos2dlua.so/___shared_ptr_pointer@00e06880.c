@@ -1,0 +1,19 @@
+
+/* std::__ndk1::__shared_ptr_pointer<cocos2d::network::Downloader*,
+   std::__ndk1::default_delete<cocos2d::network::Downloader>,
+   std::__ndk1::allocator<cocos2d::network::Downloader> >::~__shared_ptr_pointer() */
+
+void __thiscall
+std::__ndk1::
+__shared_ptr_pointer<cocos2d::network::Downloader*,std::__ndk1::default_delete<cocos2d::network::Downloader>,std::__ndk1::allocator<cocos2d::network::Downloader>>
+::~__shared_ptr_pointer
+          (__shared_ptr_pointer<cocos2d::network::Downloader*,std::__ndk1::default_delete<cocos2d::network::Downloader>,std::__ndk1::allocator<cocos2d::network::Downloader>>
+           *this)
+
+{
+                    /* try { // try from 00e06888 to 00f06acb has its CatchHandler @ 00e06ee8 */
+  __shared_weak_count::~__shared_weak_count((__shared_weak_count *)this);
+  operator_delete(this);
+  return;
+}
+

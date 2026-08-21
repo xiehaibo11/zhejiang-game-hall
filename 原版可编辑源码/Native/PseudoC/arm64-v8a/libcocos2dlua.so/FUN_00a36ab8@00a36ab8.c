@@ -1,0 +1,89 @@
+
+int FUN_00a36ab8(long *param_1,long *param_2,long *param_3,long param_4,int param_5)
+
+{
+  ulong uVar1;
+  undefined4 uVar2;
+  int iVar3;
+  long lVar4;
+  void *__src;
+  long lVar5;
+  size_t sVar6;
+  long lVar7;
+  ulong uVar8;
+  undefined8 uVar9;
+  undefined8 uVar10;
+  ulong local_68;
+  
+                    /* try { // try from 00a36ac8 to 00b36b4b has its CatchHandler @ 00a36ac8
+                       catch() { ... } // from try @ 00a36ac8 with catch @ 00a36ac8
+                       catch() { ... } // from try @ 00a36bb8 with catch @ 00a36ac8 */
+  __src = (void *)*param_1;
+  uVar2 = *(undefined4 *)((long)param_2 + (long)param_5 * 4 + 0x260);
+  lVar7 = *(long *)(*param_2 + 0x218);
+  uVar8 = param_1[2];
+  sVar6 = uVar8;
+  if ((((*(byte *)(param_2[0x80] + 0x7c) & 1) != 0) || ((int)param_2[0x30] == 2)) &&
+     ((int)param_2[0x47] != 0x14)) {
+    if (0x3fff < uVar8) {
+      sVar6 = 0x4000;
+    }
+    memcpy((void *)(*param_2 + 0x4b09),__src,sVar6);
+                    /* try { // try from 00a36b4c to 00b36b53 has its CatchHandler @ 00a36c0c */
+    __src = (void *)(*param_2 + 0x4b09);
+  }
+                    /* try { // try from 00a36b54 to 00b36b7f has its CatchHandler @ 00a36c20 */
+  iVar3 = FUN_00a38cd0(param_2,uVar2,__src,sVar6,&local_68);
+  if (iVar3 == 0) {
+                    /* try { // try from 00a36bb8 to 00b36c5b has its CatchHandler @ 00a36ac8 */
+    uVar1 = uVar8 - param_4;
+    if (local_68 <= uVar8 - param_4) {
+      uVar1 = local_68;
+    }
+    lVar5 = local_68 - uVar1;
+    if ((*(char *)(*param_2 + 0x628) != '\0') &&
+       (FUN_00a38860(*param_2,2,__src,uVar1,param_2), lVar5 != 0)) {
+      FUN_00a38860(*param_2,4,(long)__src + uVar1,lVar5,param_2);
+    }
+                    /* catch() { ... } // from try @ 00a36b4c with catch @ 00a36c0c */
+    *param_3 = *param_3 + local_68;
+    if (lVar7 == 0) {
+      if (uVar8 != local_68) {
+        return 0x37;
+      }
+      FUN_00a2cd90(param_2);
+    }
+    else {
+                    /* catch() { ... } // from try @ 00a36ba0 with catch @ 00a36c1c */
+                    /* catch() { ... } // from try @ 00a36b54 with catch @ 00a36c20 */
+      *(long *)(lVar7 + 0x30) = *(long *)(lVar7 + 0x30) + lVar5;
+      if (uVar8 - local_68 != 0) {
+        lVar5 = *param_2;
+        lVar4 = *param_1;
+                    /* try { // try from 00a36c5c to 00b36cab has its CatchHandler @ 00a36c5c
+                       catch() { ... } // from try @ 00a36c5c with catch @ 00a36c5c
+                       catch() { ... } // from try @ 00a36ce4 with catch @ 00a36c5c
+                       catch() { ... } // from try @ 00a36d28 with catch @ 00a36c5c */
+        uVar10 = *(undefined8 *)(lVar5 + 0x8d18);
+        uVar9 = *(undefined8 *)(lVar5 + 0x8d10);
+        *(undefined8 *)(lVar7 + 0x68) = *(undefined8 *)(lVar7 + 0x10);
+        *(undefined8 *)(lVar7 + 0x70) = *(undefined8 *)(lVar7 + 8);
+        *(undefined8 *)(lVar7 + 0x60) = uVar10;
+        *(undefined8 *)(lVar7 + 0x58) = uVar9;
+        *(code **)(lVar5 + 0x8d10) = FUN_00a36ca4;
+        *(long **)(lVar5 + 0x8d18) = param_2;
+        *(ulong *)(lVar7 + 8) = uVar8 - local_68;
+        *(ulong *)(lVar7 + 0x10) = lVar4 + local_68;
+        *(long **)(lVar7 + 0x80) = param_1;
+        *(undefined4 *)(lVar7 + 0x78) = 1;
+        return 0;
+      }
+      *(undefined4 *)(lVar7 + 0x78) = 2;
+    }
+  }
+  (*(code *)PTR_free_01769a00)(*param_1);
+  (*(code *)PTR_free_01769a00)(param_1);
+                    /* try { // try from 00a36ba0 to 00b36bb7 has its CatchHandler @ 00a36c1c */
+  return iVar3;
+}
+

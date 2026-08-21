@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1298815677921900180
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3132086629373905341
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3485057886316006000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7737354222188139135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3083529853706170182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3664326760770390394
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6487545397595960102
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3377579520490862055
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4238187120255051470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6092121864370635692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8042804226624197709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -517300906781168836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5438899067602790290
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5099128738506811762
+    }
+  ],
+  "m_BindComs_Name": [
+    "bgNormal",
+    "bgFree",
+    "btnBuy",
+    "btnFree",
+    "btnBuyed",
+    "tag",
+    "goldicon",
+    "txtLimit",
+    "txtPrice",
+    "txtPercent",
+    "txtGold",
+    "item",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BossChallenge.BossChallengeShopItem",
+  "m_ClassName": "BossChallengeShopItem"
+}

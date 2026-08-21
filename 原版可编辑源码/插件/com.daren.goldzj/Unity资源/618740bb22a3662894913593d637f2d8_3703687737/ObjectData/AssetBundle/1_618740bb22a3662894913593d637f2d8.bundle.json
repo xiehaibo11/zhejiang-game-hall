@@ -1,0 +1,122 @@
+{
+  "m_Name": "618740bb22a3662894913593d637f2d8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2235795828105160057
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5209304350042796907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2235795828105160057
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6346165419781444908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4055806396066826112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4055806396066826112
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5c01\u795e\u795e\u5c06\u7279\u60e0\u793c\u5305/animation/chaozhianimation.anim",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4055806396066826112
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5c01\u795e\u795e\u5c06\u7279\u60e0\u793c\u5305/animation/fengshengodgiftitem.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5209304350042796907
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5c01\u795e\u795e\u5c06\u7279\u60e0\u793c\u5305/animation/ruchang_fengshentehuianimation.anim",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2235795828105160057
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5c01\u795e\u795e\u5c06\u7279\u60e0\u793c\u5305/animation/superinfo.controller",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6346165419781444908
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "618740bb22a3662894913593d637f2d8.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

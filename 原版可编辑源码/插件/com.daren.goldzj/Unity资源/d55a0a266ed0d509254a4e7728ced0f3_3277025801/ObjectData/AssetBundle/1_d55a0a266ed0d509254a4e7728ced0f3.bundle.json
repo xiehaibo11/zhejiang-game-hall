@@ -1,0 +1,63 @@
+{
+  "m_Name": "d55a0a266ed0d509254a4e7728ced0f3.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 329703087528995118
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8941301657485761184
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7779799472890028239
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2180028157113139922
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 208143832877997610
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2239357855621419321
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7658166820050983881
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/lobby/effect/prefab/ui_effect_zzbz/effect_saoguang_2.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2239357855621419321
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d55a0a266ed0d509254a4e7728ced0f3.bundle",
+  "m_Dependencies": [
+    "434ee6312ce5493292c28074531fbb70.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,82 @@
+{
+  "m_Name": "a0cb77811d1b8f6cc3976e5fb7a1ccd6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4967605284435086798
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4715251319006927575
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1824497165713113033
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7978820163620040752
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/090_baoqingtian/texture/star.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4715251319006927575
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/090_baoqingtian/texture/star_2.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4967605284435086798
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/090_baoqingtian/texture/ui_paibian_glow.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7978820163620040752
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/090_baoqingtian/texture/ui_paibian_glow.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1824497165713113033
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a0cb77811d1b8f6cc3976e5fb7a1ccd6.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

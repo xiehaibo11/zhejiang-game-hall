@@ -1,0 +1,53 @@
+{
+  "m_Name": "9a6cd6d34e49e74cf80905bf46c1ce98.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -998243848914621302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4493655740265569050
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -8636602812435040123
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bosschallengeskin2/material/rrby_ui_570_bosschallenge_ 13.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4493655740265569050
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9a6cd6d34e49e74cf80905bf46c1ce98.bundle",
+  "m_Dependencies": [
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

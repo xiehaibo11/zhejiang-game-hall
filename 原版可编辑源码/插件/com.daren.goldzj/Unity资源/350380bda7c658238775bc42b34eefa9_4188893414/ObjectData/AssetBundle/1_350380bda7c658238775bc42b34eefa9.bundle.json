@@ -1,0 +1,45 @@
+{
+  "m_Name": "350380bda7c658238775bc42b34eefa9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8171460854997019595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/wealthtrain/effect/animation/new_ruchang/caifulieche_uiappear_animation.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8171460854997019595
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "350380bda7c658238775bc42b34eefa9.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

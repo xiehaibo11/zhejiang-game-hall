@@ -1,0 +1,131 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4331501946850696376
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7569593491211742961
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8805073935303938608
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1612527555264299980
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1144022973405779216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9006981750136288471
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5715044634526181621
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -393463559123463075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3430668138098070589
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1432140262773908282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1532356681256519803
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -830592594873186002
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -278750986306535683
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3420473589390212917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7193849876865719970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4494860485001528477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5811586991066824065
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -494006530916524978
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1132274403257830585
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7812958851459641348
+    }
+  ],
+  "m_BindComs_Name": [
+    "txtTaskName",
+    "txtProgressInfo",
+    "txtRefreshPrice",
+    "txtTaskReward",
+    "txtTestId",
+    "txtRefreshCountdown",
+    "progressBar",
+    "rewardGridComp",
+    "btnRefresh",
+    "btnClaim",
+    "superscriptNew",
+    "btnGoToComplete",
+    "objRootTask",
+    "objRootCountdown",
+    "effRefresh",
+    "effRefreshNew",
+    "imgTaskRank",
+    "imgBg",
+    "animator"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.StruggleOfThreeKingdoms.StruggleOfThreeKingdomsChallengeTaskItem",
+  "m_ClassName": "StruggleOfThreeKingdomsChallengeTaskItem"
+}

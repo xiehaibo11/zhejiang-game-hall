@@ -1,0 +1,58 @@
+{
+  "m_Name": "2109788884a06caa209cab4fa8f99b66.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 3219344920026785087
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7274391233677258811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8141543171021894134
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 1699704455217313855
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/collectionpaidgift/optionalgift/effect/material/noise 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8141543171021894134
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2109788884a06caa209cab4fa8f99b66.bundle",
+  "m_Dependencies": [
+    "14da93d387c72baeaaa3ace9979409ba.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle",
+    "f501a247a40e4d2e03ea82af632dc157.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,37 @@
+{
+  "m_Name": "abe8d9c3c78a7d62541ebaa47fa96c19.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1045045769639802088
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/070_\u795e\u5668\u5b9d\u5178\u6362\u76ae/texture/paohunbaodian1.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1045045769639802088
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "abe8d9c3c78a7d62541ebaa47fa96c19.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,37 @@
+{
+  "m_Name": "b2b0f1297d107b10fa877ed1d660314e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4468095148070576888
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/texture/gmlimitedgiftbg/bg_xshl_dabeijing.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4468095148070576888
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b2b0f1297d107b10fa877ed1d660314e.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

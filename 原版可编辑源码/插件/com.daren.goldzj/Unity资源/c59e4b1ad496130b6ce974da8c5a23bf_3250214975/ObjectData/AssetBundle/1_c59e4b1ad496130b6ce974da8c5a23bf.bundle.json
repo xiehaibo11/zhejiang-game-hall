@@ -1,0 +1,37 @@
+{
+  "m_Name": "c59e4b1ad496130b6ce974da8c5a23bf.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4662234530080186013
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/martialgod/sound/sound_10002/sd_ws_ultimateskill_10002.ogg",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4662234530080186013
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c59e4b1ad496130b6ce974da8c5a23bf.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

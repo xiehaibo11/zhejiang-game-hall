@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_ui_BossLaixi",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 3.0652379989624023,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-fa59c7fa0f3fa27bead4cac227014b3d/CAB-fa59c7fa0f3fa27bead4cac227014b3d.resource",
+    "m_Offset": 0,
+    "m_Size": 23648
+  },
+  "m_CompressionFormat": 1
+}

@@ -1,0 +1,41 @@
+
+bixin.png
+size: 209,276
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s1
+  rotate: false
+  xy: 124, 131
+  size: 59, 51
+  orig: 59, 51
+  offset: 0, 0
+  index: -1
+s3
+  rotate: false
+  xy: 154, 23
+  size: 53, 106
+  orig: 53, 106
+  offset: 0, 0
+  index: -1
+s4
+  rotate: false
+  xy: 124, 184
+  size: 76, 90
+  orig: 76, 90
+  offset: 0, 0
+  index: -1
+x2
+  rotate: true
+  xy: 2, 124
+  size: 150, 120
+  orig: 150, 120
+  offset: 0, 0
+  index: -1
+x21
+  rotate: false
+  xy: 2, 2
+  size: 150, 120
+  orig: 150, 120
+  offset: 0, 0
+  index: -1

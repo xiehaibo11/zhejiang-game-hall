@@ -1,0 +1,78 @@
+{
+  "m_Name": "62a531c6b73f91c7ad489b55a7e305cc.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7103096382708482773
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4706708822629611253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 708479109685452828
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2143103956367703449
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2899948757388712046
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/fbx/circle.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7103096382708482773
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/fbx/circle.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 708479109685452828
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "62a531c6b73f91c7ad489b55a7e305cc.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

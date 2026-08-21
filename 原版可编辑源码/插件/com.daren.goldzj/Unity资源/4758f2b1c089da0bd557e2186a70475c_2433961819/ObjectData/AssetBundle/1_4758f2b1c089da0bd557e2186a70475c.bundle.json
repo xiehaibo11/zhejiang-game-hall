@@ -1,0 +1,37 @@
+{
+  "m_Name": "4758f2b1c089da0bd557e2186a70475c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2004907345146435690
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/textures/bosslaixinew/boss/bosslaixi_munaiyi_iconnew.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2004907345146435690
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4758f2b1c089da0bd557e2186a70475c.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,192 @@
+{
+  "m_Name": "5656c557b7d4ada5937d27ea5ce18bb2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 6,
+      "m_PathID": 1612066013789554694
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -2568117594435308289
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8551416134732866297
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8323176230043910296
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8045083038611168858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7769754274052127097
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7319935401807350064
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6596536608001860237
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6015387048694197389
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5512085139415942577
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4700150069275102504
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4040807425181537907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3706396058662818500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2829953117324394941
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2642459507813151778
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2077010780075245760
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -856886751254240475
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -813084890985111296
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -720193074570021196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -45614276777751145
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 60294929814531538
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 129176980429096733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 881258762490982511
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1410156138664428238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1442919862102816790
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4896135601016615819
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5910806128631204464
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5935543776323059086
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6966880492726145541
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7436671301756475419
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7539036984825069521
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7794572727064604815
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6550183758525492344
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8477348491934440278
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5446633328526415604
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -2075255048033915098
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/paotaieffect/skill_fire.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 38,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8323176230043910296
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5656c557b7d4ada5937d27ea5ce18bb2.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "76a52e490668b9406a8c0f2f58b486bb.bundle",
+    "7b14c45d02b38b42ef458a5625854151.bundle",
+    "db1d7d25521e58e3cb28beb6f3873518.bundle",
+    "eb5db2566db95d94f70f3a3461d7e1e8.bundle",
+    "fd6a08a7217be0ef703c4cb4e1f40d55.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,43 @@
+{
+  "m_Name": "7d7b90fb952baea31b36ee85f1e8fe2e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4681583345956644617
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6998526603294680854
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/flagofcommandroom/effect/animation/baoji_ani.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4681583345956644617
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7d7b90fb952baea31b36ee85f1e8fe2e.bundle",
+  "m_Dependencies": [
+    "f3d942b9ae140fdca942f1b17f9da666.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

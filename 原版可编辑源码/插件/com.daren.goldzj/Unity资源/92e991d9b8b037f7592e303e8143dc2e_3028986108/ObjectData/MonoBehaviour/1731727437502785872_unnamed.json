@@ -1,0 +1,134 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2542033443101760213
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9112823717017421322
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8174124855592934805
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -918248795728736441
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3446274298912615527
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2873628995265130599
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8854477545695536051
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3763216084533573923
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7823361931410476689
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9161701140486439245
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5805584865628333869
+    }
+  ],
+  "m_BindComs_Name": [
+    "mGet",
+    "mIcon",
+    "mName",
+    "mStar",
+    "mKuang",
+    "mQuality",
+    "mNameBg",
+    "mNew",
+    "mScoreLabel",
+    "mKaiPaiAni"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -4063973250113495431
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6718672171060638217
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8395451350164270776
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        {
+          "m_FileID": 12,
+          "m_PathID": 7980798244289136231
+        },
+        {
+          "m_FileID": 2,
+          "m_PathID": 6296578614085382670
+        },
+        {
+          "m_FileID": 13,
+          "m_PathID": 3911395961413544344
+        },
+        {
+          "m_FileID": 14,
+          "m_PathID": -3516276272196435995
+        },
+        {
+          "m_FileID": 15,
+          "m_PathID": -496733436037688659
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mEffectList",
+    "mCardAtlasList"
+  ],
+  "hotfixClassFullName": "GameHotFix.CardCollectSystem.CardCollectSystemOpenCardItem",
+  "m_ClassName": "CardCollectSystemOpenCardItem"
+}

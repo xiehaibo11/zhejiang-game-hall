@@ -1,0 +1,168 @@
+{
+  "m_Name": "79ee5cfa485e924b172e10c527f39769.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 2548288460312145337
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3279739097733353418
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4605786434687266067
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -5711398115459923334
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9076599875543246492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7215124468636863104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6951661378497556732
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6599744710175887512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6432900521612316841
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5240567784079399953
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4970564193302888643
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4937635751359187788
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4915572098252430088
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4327788509936267932
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3444029274086471502
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3403836095903309451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3329214649152645838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2742695762370586026
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2452615333085862104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2419853497645425290
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 539427152429524322
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 618726321378213809
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1595944502443412840
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4402616628241016997
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5209887516914466262
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5525029169181041167
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7103169729673629896
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7130216149363731108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8417836985331171138
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8523662352983515174
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 2094276102396655796
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 7827201888797209737
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/goldenpagoda/effect/prefabs/uieffect_hjbt_luodian.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 32,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3329214649152645838
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "79ee5cfa485e924b172e10c527f39769.bundle",
+  "m_Dependencies": [
+    "352daa16fa5766d7d105add84a2059cb.bundle",
+    "36919b88898b4718b9338d06acc802fa.bundle",
+    "809cc881cef5cf1b13990fc6cf884524.bundle",
+    "b4959248dc80ff175ce7cd9846f6006d.bundle",
+    "eadc0ccdb3d0f64138e6a5738e31cfc7.bundle",
+    "ff8dd17fe6e7857a2012b04288979fb6.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

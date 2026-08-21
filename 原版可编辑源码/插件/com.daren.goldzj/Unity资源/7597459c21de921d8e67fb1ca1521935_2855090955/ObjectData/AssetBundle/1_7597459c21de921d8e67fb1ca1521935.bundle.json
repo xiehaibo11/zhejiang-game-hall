@@ -1,0 +1,104 @@
+{
+  "m_Name": "7597459c21de921d8e67fb1ca1521935.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4203346323680812282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4682180507145495038
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4203346323680812282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3977987771731276955
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4682180507145495038
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4203346323680812282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1433213517361559130
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/res/ui/views/common/font/font_ty_dajiang_yellow/font_ty_dajiang_yellow.fontsettings",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3977987771731276955
+        }
+      }
+    ],
+    [
+      "assets/res/ui/views/common/font/font_ty_dajiang_yellow/font_ty_dajiang_yellow.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4682180507145495038
+        }
+      }
+    ],
+    [
+      "assets/res/ui/views/common/font/font_ty_dajiang_yellow/font_ty_dajiang_yellow.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4203346323680812282
+        }
+      }
+    ],
+    [
+      "assets/res/ui/views/common/font/font_ty_dajiang_yellow/font_ty_dajiang_yellow.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1433213517361559130
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7597459c21de921d8e67fb1ca1521935.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

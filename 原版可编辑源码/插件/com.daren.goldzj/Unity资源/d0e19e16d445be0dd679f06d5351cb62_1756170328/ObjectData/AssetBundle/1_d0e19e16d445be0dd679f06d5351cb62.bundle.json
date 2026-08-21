@@ -1,0 +1,180 @@
+{
+  "m_Name": "d0e19e16d445be0dd679f06d5351cb62.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 6,
+      "m_PathID": -3653389107954289390
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8465177293048489948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6109944964655720338
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5934078671328555958
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4549777083755478127
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4430629457545918233
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4010672292600937715
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3667116780106234245
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3489188833570660866
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3245560614466482278
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2576561731042526972
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2573235059880024662
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1779985261328847710
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1561912190031300804
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1130044948749185447
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -816155471375121364
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -747896878397339579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 774139383460000583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1341825169231588746
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1433608708908975442
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2386638318243270626
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2700450893524200824
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3171374437222969579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4073227588390416819
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7721911716351290832
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8086145554297073273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8136694741205981247
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -279668493928681716
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 6634638804679473750
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6465411584471562000
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -8065067780111900732
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/prefab/xylb/effect_idle_ldl.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 35,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5934078671328555958
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d0e19e16d445be0dd679f06d5351cb62.bundle",
+  "m_Dependencies": [
+    "3340d35f4d60d93e87be92accb1a2cb8.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "b823735b32f7de9ad48007178138efdb.bundle",
+    "df842e277a8edc6466b991d0afce2a26.bundle",
+    "eb73823ced60f6ea9d2ae36c0491875b.bundle",
+    "f38db3b1c0ab7b91fc9b5a4b3824f3cb.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

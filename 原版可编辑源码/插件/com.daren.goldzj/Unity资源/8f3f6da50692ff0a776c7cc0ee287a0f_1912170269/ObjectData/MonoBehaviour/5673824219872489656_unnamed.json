@@ -1,0 +1,127 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6161060830249031550
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6206998378989567730
+  },
+  "m_Name": "",
+  "leftAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 0.0,
+    "absolute": 0
+  },
+  "rightAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 1.0,
+    "absolute": 0
+  },
+  "bottomAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 0.0,
+    "absolute": 0
+  },
+  "topAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 1.0,
+    "absolute": 0
+  },
+  "updateAnchors": 1,
+  "mColor": {
+    "r": 1.0,
+    "g": 0.9686275124549866,
+    "b": 0.803921639919281,
+    "a": 1.0
+  },
+  "mPivot": 0,
+  "mWidth": 715,
+  "mHeight": 266,
+  "mDepth": 1,
+  "autoResizeBoxCollider": 0,
+  "hideIfOffScreen": 0,
+  "keepAspectRatio": 0,
+  "aspectRatio": 2.687969923019409,
+  "keepCrispWhenShrunk": 1,
+  "mTrueTypeFont": {
+    "m_FileID": 3,
+    "m_PathID": 6136244154502091889
+  },
+  "mFont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mText": "\u4e00.\u56de\u5f52\u6d3b\u52a8\u53c2\u4e0e\u6761\u4ef6\n(1)\u73a9\u5bb6\u70ae\u500d>1000\u500d\n(2)\u8fde\u7eed\u672a\u767b\u5f55\u6e38\u620f\u5929\u6570\n(3)\u8ddd\u79bb\u4e0a1\u6b21\u6fc0\u6d3b\u56de\u5f52\u6d3b\u52a8>45\u5929\n\u4e8c.\u56de\u5f52\u6d3b\u52a8\u6301\u7eed\u671f\u95f4,\u60a8\u5c06\u4eab\u6709\u4e30\u5bcc\u7684\u56de\u5f52\u798f\u5229\u548c\u7279\u6743,\u5e2e\u4f60\u91cd\u65b0\u627e\u56de\u6355\u9c7c\u7684\u4e50\u8da3\n",
+  "mFontSize": 26,
+  "mFontStyle": 0,
+  "mAlignment": 1,
+  "mEncoding": 1,
+  "mMaxLineCount": 0,
+  "mEffectStyle": 0,
+  "mEffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "mSymbols": 1,
+  "mEffectDistance": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "mSleek": 1,
+  "mEffectConsume": 0,
+  "mShadowStyle": 0,
+  "mShadowColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "mShadowDistance": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "mOverflow": 3,
+  "mMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mApplyGradient": 0,
+  "mGradientTop": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "mGradientBottom": {
+    "r": 0.699999988079071,
+    "g": 0.699999988079071,
+    "b": 0.699999988079071,
+    "a": 1.0
+  },
+  "mSpacingX": 0,
+  "mSpacingY": 12,
+  "mUseFloatSpacing": 0,
+  "mFloatSpacingX": 0.0,
+  "mFloatSpacingY": 0.0,
+  "mShrinkToFit": 0,
+  "mMaxLineWidth": 0,
+  "mMaxLineHeight": 0,
+  "mLineWidth": 0.0,
+  "mMultiline": 1
+}

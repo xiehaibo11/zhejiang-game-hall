@@ -1,0 +1,37 @@
+{
+  "m_Name": "f8ea0eb49e8724f7f805a0dcf77624fa.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4352476317213959848
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/martialgod/sound/sound_10002/sd_martialgod_show_bgm_10002.ogg",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4352476317213959848
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f8ea0eb49e8724f7f805a0dcf77624fa.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

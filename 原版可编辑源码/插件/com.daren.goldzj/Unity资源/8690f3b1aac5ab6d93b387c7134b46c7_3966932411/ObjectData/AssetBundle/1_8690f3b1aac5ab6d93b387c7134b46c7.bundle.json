@@ -1,0 +1,232 @@
+{
+  "m_Name": "8690f3b1aac5ab6d93b387c7134b46c7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1672256756204552687
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4329223641872418479
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8958723743693032758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2252815884134435642
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7168530623951890195
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1168185361723294106
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1250200855253033314
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3903480614524959002
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6737824447957548150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8636263380038538935
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1912205659972290979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5436309710882951081
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4339293018712654920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1427680887402946518
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/108_wusong/texture/bg_3.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5436309710882951081
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/bg_4.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4329223641872418479
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/bg_5.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2252815884134435642
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/bg_6.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1427680887402946518
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/bg_7.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3903480614524959002
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/bg_8.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1912205659972290979
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/bg_cao_01.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1250200855253033314
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/cao_02.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8636263380038538935
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/caodi.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4339293018712654920
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/jingyanggang_glow.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1168185361723294106
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/qianjing_cao.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1672256756204552687
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/qianjing_shu_01.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7168530623951890195
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/qianjing_shu_02.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8958723743693032758
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/108_wusong/texture/wushong_glow.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6737824447957548150
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8690f3b1aac5ab6d93b387c7134b46c7.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

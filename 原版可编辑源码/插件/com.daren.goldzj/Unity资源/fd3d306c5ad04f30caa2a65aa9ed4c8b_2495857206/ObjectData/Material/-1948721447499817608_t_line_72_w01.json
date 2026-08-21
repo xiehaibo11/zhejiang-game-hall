@@ -1,0 +1,156 @@
+{
+  "m_Name": "t_line_72_w01",
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": -4730247912671202803
+  },
+  "m_ValidKeywords": [],
+  "m_InvalidKeywords": [
+    "_OPACITY_ON",
+    "_USERPARTICLEALPHA_ON"
+  ],
+  "m_LightmapFlags": 4,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": false,
+  "m_CustomRenderQueue": 3000,
+  "stringTagMap": [],
+  "disabledShaderPasses": [],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_MainTex",
+        {
+          "m_Texture": {
+            "m_FileID": 2,
+            "m_PathID": 4123015910624272882
+          },
+          "m_Scale": {
+            "x": 0.699999988079071,
+            "y": -1.0
+          },
+          "m_Offset": {
+            "x": 0.11999999731779099,
+            "y": 0.3199999928474426
+          }
+        }
+      ],
+      [
+        "_NoiseTex",
+        {
+          "m_Texture": {
+            "m_FileID": 3,
+            "m_PathID": 3604890079111026036
+          },
+          "m_Scale": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Ints": [],
+    "m_Floats": [
+      [
+        "_AlphaScale",
+        1.0
+      ],
+      [
+        "_MainColorExp",
+        1.0
+      ],
+      [
+        "_MainTexAphaOrParAlpSwitch",
+        0.0
+      ],
+      [
+        "_Noise",
+        0.30000001192092896
+      ],
+      [
+        "_NoiseExp",
+        3.200000047683716
+      ],
+      [
+        "_OffMainTexAlpha",
+        0.0
+      ],
+      [
+        "_Opacity",
+        1.0
+      ],
+      [
+        "_UserColor",
+        0.0
+      ],
+      [
+        "_UserParticleAlpha",
+        1.0
+      ],
+      [
+        "_ainTexUVScale",
+        1.0
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_MainColor",
+        {
+          "r": 1.0,
+          "g": 0.029411792755126953,
+          "b": 0.029411792755126953,
+          "a": 1.0
+        }
+      ],
+      [
+        "_MainColorBlack",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_MainColorLight",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_MainTexMove_xyz",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_NoiseSpeed",
+        {
+          "r": -1.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_NoiseSpeed_small",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ]
+    ]
+  },
+  "m_BuildTextureStacks": []
+}

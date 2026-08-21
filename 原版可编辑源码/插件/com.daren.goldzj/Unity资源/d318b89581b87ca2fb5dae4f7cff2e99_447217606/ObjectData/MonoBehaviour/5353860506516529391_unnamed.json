@@ -1,0 +1,86 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1506951810236450748
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1455967620871418602
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2964225961921904697
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5870878135448077882
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7206675327202035934
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2062209812494949239
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1945562565570488062
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -559370074256549026
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6343152778689163809
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4595579633130069427
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3073476392028820277
+    }
+  ],
+  "m_BindComs_Name": [
+    "YuanBao",
+    "AddYuanBao",
+    "AddZiZhuan",
+    "AddLongJing",
+    "Gold",
+    "Shell",
+    "Quan",
+    "TextYuanBao",
+    "TextZiZhuan",
+    "TextLongJing"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Lobby.MoneyInfo",
+  "m_ClassName": "MoneyInfo"
+}

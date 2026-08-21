@@ -1,0 +1,115 @@
+
+void FUN_00159040(long param_1,undefined8 *param_2)
+
+{
+  void *pvVar1;
+  ulong uVar2;
+  long lVar3;
+  ulong uVar4;
+  long *plVar5;
+  
+  lVar3 = param_2[1];
+  uVar4 = lVar3 + 1;
+  if (uVar4 < (ulong)param_2[2]) {
+    pvVar1 = (void *)*param_2;
+  }
+  else {
+    uVar2 = param_2[2] << 1;
+    if (uVar4 <= uVar2) {
+      uVar4 = uVar2;
+    }
+    param_2[2] = uVar4;
+    pvVar1 = realloc((void *)*param_2,uVar4);
+    *param_2 = pvVar1;
+    if (pvVar1 == (void *)0x0) goto LAB_00159290;
+    lVar3 = param_2[1];
+    uVar4 = lVar3 + 1;
+  }
+  param_2[1] = uVar4;
+  *(undefined1 *)((long)pvVar1 + lVar3) = 0x5b;
+  plVar5 = *(long **)(param_1 + 0x10);
+  (**(code **)(*plVar5 + 0x20))(plVar5,param_2);
+  if (*(char *)((long)plVar5 + 9) != '\x01') {
+    (**(code **)(*plVar5 + 0x28))(plVar5,param_2);
+  }
+  lVar3 = param_2[1];
+  uVar4 = lVar3 + 5;
+  if (uVar4 < (ulong)param_2[2]) {
+    pvVar1 = (void *)*param_2;
+  }
+  else {
+    uVar2 = param_2[2] << 1;
+    if (uVar4 <= uVar2) {
+      uVar4 = uVar2;
+    }
+    param_2[2] = uVar4;
+    pvVar1 = realloc((void *)*param_2,uVar4);
+    *param_2 = pvVar1;
+    if (pvVar1 == (void *)0x0) goto LAB_00159290;
+    lVar3 = param_2[1];
+  }
+  *(undefined1 *)((undefined4 *)((long)pvVar1 + lVar3) + 1) = 0x20;
+  *(undefined4 *)((long)pvVar1 + lVar3) = 0x2e2e2e20;
+  plVar5 = *(long **)(param_1 + 0x18);
+  lVar3 = *plVar5;
+  param_2[1] = param_2[1] + 5;
+  (**(code **)(lVar3 + 0x20))(plVar5,param_2);
+  if (*(char *)((long)plVar5 + 9) != '\x01') {
+    (**(code **)(*plVar5 + 0x28))(plVar5,param_2);
+  }
+  lVar3 = param_2[1];
+  uVar4 = lVar3 + 1;
+  if (uVar4 < (ulong)param_2[2]) {
+    pvVar1 = (void *)*param_2;
+  }
+  else {
+    uVar2 = param_2[2] << 1;
+    if (uVar4 <= uVar2) {
+      uVar4 = uVar2;
+    }
+    param_2[2] = uVar4;
+    pvVar1 = realloc((void *)*param_2,uVar4);
+    *param_2 = pvVar1;
+    if (pvVar1 == (void *)0x0) goto LAB_00159290;
+    lVar3 = param_2[1];
+    uVar4 = lVar3 + 1;
+  }
+  param_2[1] = uVar4;
+  *(undefined1 *)((long)pvVar1 + lVar3) = 0x5d;
+  plVar5 = *(long **)(param_1 + 0x20);
+  if (1 < *(byte *)(plVar5 + 1) - 0x49) {
+    lVar3 = param_2[1];
+    uVar4 = lVar3 + 3;
+    if (uVar4 < (ulong)param_2[2]) {
+      pvVar1 = (void *)*param_2;
+    }
+    else {
+      uVar2 = param_2[2] << 1;
+      if (uVar4 <= uVar2) {
+        uVar4 = uVar2;
+      }
+      param_2[2] = uVar4;
+      pvVar1 = realloc((void *)*param_2,uVar4);
+      *param_2 = pvVar1;
+      if (pvVar1 == (void *)0x0) {
+LAB_00159290:
+                    /* WARNING: Subroutine does not return */
+        std::terminate();
+      }
+      lVar3 = param_2[1];
+    }
+    *(undefined1 *)((undefined2 *)((long)pvVar1 + lVar3) + 1) = 0x20;
+    *(undefined2 *)((long)pvVar1 + lVar3) = 0x3d20;
+    plVar5 = *(long **)(param_1 + 0x20);
+    param_2[1] = param_2[1] + 3;
+  }
+  (**(code **)(*plVar5 + 0x20))(plVar5,param_2);
+  if (*(char *)((long)plVar5 + 9) == '\x01') {
+    return;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0015928c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (**(code **)(*plVar5 + 0x28))(plVar5,param_2);
+  return;
+}
+

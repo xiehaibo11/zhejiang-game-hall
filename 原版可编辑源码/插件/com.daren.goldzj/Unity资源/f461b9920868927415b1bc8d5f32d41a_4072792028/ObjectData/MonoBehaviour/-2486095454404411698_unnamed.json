@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5662174557255274194
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5224114657516765545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5890946168009835977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5662174557255274194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1598663096553671615
+    }
+  ],
+  "m_BindComs_Name": [
+    "Select",
+    "UnSelect",
+    "m_Choose",
+    "Lock"
+  ],
+  "m_BindInt": [
+    1
+  ],
+  "m_BindInt_Name": [
+    "ArtfactID"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0
+  ],
+  "m_BindBool_Name": [
+    "isLock"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShuiHuSeason.ShuiHuExchangeArtfact",
+  "m_ClassName": "ShuiHuExchangeArtfact"
+}

@@ -1,0 +1,154 @@
+{
+  "m_Name": "e6596b17303350ce4ec0a6af0e0a52f4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 2770948572453351817
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7555287300881198437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5083663513575844695
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1299894567979800302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1229090493020839403
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1911814815840235054
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3969741000357026303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5732389981085434204
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5814053010197491876
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 2837468237847643005
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3024033363154212613
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -1410882115912049734
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8045582327593055191
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -4549000350268801325
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 7877151022217248428
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -7461289759364406039
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 4302347505019417943
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5814053010197491876
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1299894567979800302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5814053010197491876
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_fantasyworkshop5/fantasyworkshop5.mat",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1299894567979800302
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_fantasyworkshop5/fantasyworkshop5.png",
+      {
+        "preloadIndex": 19,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5814053010197491876
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_fantasyworkshop5/fantasyworkshop5.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 19,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1911814815840235054
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e6596b17303350ce4ec0a6af0e0a52f4.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8a67ef503892ec4b4b1b697efbe68bef.bundle",
+    "935d0ab606808719ddc876a08de6b0c4.bundle",
+    "bffd748b164522dcb0cc153ca78c3ca7.bundle",
+    "d1e512122cae797530f2a5ab810f9489.bundle",
+    "f8c878fe9b493432aa8a37592b277714.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

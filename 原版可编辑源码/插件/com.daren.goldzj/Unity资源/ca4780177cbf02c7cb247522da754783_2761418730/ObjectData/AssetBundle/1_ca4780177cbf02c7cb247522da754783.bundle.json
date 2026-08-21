@@ -1,0 +1,56 @@
+{
+  "m_Name": "ca4780177cbf02c7cb247522da754783.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2616294844570784011
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2979773397035397777
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2616294844570784011
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/shengdanpaotai/preview/cannon_shengdan_bullet.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2979773397035397777
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shengdanpaotai/preview/\u5b50\u5f39\u79fb\u52a8.anim",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2616294844570784011
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ca4780177cbf02c7cb247522da754783.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

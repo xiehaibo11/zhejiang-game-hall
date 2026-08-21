@@ -1,0 +1,132 @@
+{
+  "m_Name": "3723c7aaa4a8b7be8496a4c069b6d298.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7716316088369743149
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2923171490185118786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3861974289321053579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4034327294259419748
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9174231014603798732
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5087284492664803746
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2376736235887435440
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -813214618702171567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111111286333692093
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3774694293068614792
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/059_shengdanlaoren/fbx/shanxin.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5087284492664803746
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/059_shengdanlaoren/fbx/shanxin.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -813214618702171567
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/059_shengdanlaoren/fbx/shuiquan.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3861974289321053579
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/059_shengdanlaoren/fbx/shuiquan.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2923171490185118786
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3723c7aaa4a8b7be8496a4c069b6d298.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

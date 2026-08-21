@@ -1,0 +1,52 @@
+{
+  "m_Name": "d3891b414060d8e8c8a381ebb9f4fac3.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6813592709580818462
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1945379305546599402
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/074_\u5dc5\u5cf0\u7b49\u7ea7/texture/peaklevel_1.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6813592709580818462
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/074_\u5dc5\u5cf0\u7b49\u7ea7/texture/peaklevel_title.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1945379305546599402
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d3891b414060d8e8c8a381ebb9f4fac3.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,67 @@
+{
+  "m_Name": "b66c79b12baea6220b6c1131865d2729.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9167874581314921508
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8986946057838624408
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5856856586111211343
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/res/fx/commontexture/haircolornshiftmap_0.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9167874581314921508
+        }
+      }
+    ],
+    [
+      "assets/res/fx/commontexture/hairnoise.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8986946057838624408
+        }
+      }
+    ],
+    [
+      "assets/res/fx/commontexture/toufa_mask.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5856856586111211343
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b66c79b12baea6220b6c1131865d2729.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

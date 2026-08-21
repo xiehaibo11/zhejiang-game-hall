@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3797273823322312803
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -638497018134719672
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8402444283388489160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2893232915596599449
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8741347782143328514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5764191471454868496
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2094815623633602382
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8784609604232077590
+    }
+  ],
+  "m_BindComs_Name": [
+    "mLock",
+    "mUnLock",
+    "mBuffDesc",
+    "LockBuffDesc",
+    "mTipsPanel",
+    "mMask",
+    "mBtnTips"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.CannonCenter.CannonSoulGroupBuffItem",
+  "m_ClassName": "CannonSoulGroupBuffItem"
+}

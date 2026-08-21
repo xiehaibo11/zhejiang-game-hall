@@ -1,0 +1,105 @@
+
+/* cocos2d::PhysicsJointPin::construct(cocos2d::PhysicsBody*, cocos2d::PhysicsBody*, cocos2d::Vec2
+   const&) */
+
+PhysicsJoint *
+cocos2d::PhysicsJointPin::construct(PhysicsBody *param_1,PhysicsBody *param_2,Vec2 *param_3)
+
+{
+  long lVar1;
+  PhysicsJoint *pPVar2;
+  undefined8 *puVar3;
+  long lVar4;
+  undefined8 uVar5;
+  PhysicsJoint *local_50;
+  long local_48;
+  
+  lVar1 = tpidr_el0;
+  local_48 = *(long *)(lVar1 + 0x28);
+  pPVar2 = operator_new(0x78,(nothrow_t *)&std::nothrow);
+  if (pPVar2 != (PhysicsJoint *)0x0) {
+    pPVar2[0x58] = (PhysicsJoint)0x0;
+    *(undefined ***)pPVar2 = &PTR___cxa_pure_virtual_017250a0;
+    *(undefined8 *)(pPVar2 + 0x10) = 0;
+    *(undefined8 *)(pPVar2 + 8) = 0;
+    *(undefined8 *)(pPVar2 + 0x20) = 0;
+    *(undefined8 *)(pPVar2 + 0x18) = 0;
+    *(undefined8 *)(pPVar2 + 0x30) = 0;
+    *(undefined8 *)(pPVar2 + 0x28) = 0;
+    *(undefined8 *)(pPVar2 + 0x40) = 0;
+    *(undefined8 *)(pPVar2 + 0x38) = 0;
+    *(undefined8 *)(pPVar2 + 0x50) = 0;
+    *(undefined8 *)(pPVar2 + 0x48) = 0;
+    *(undefined2 *)(pPVar2 + 0x59) = 1;
+    *(undefined4 *)(pPVar2 + 0x5c) = 0;
+    *(undefined4 *)(pPVar2 + 0x60) = 0x7f7fffff;
+    pPVar2[100] = (PhysicsJoint)0x1;
+    puVar3 = operator_new(0x90);
+    puVar3[0xf] = 0;
+    puVar3[0xe] = 0;
+    puVar3[0x11] = 0;
+    puVar3[0x10] = 0;
+    puVar3[0xb] = 0;
+    puVar3[10] = 0;
+    puVar3[0xd] = 0;
+    puVar3[0xc] = 0;
+    puVar3[7] = 0;
+    puVar3[6] = 0;
+    puVar3[9] = 0;
+    puVar3[8] = 0;
+    puVar3[3] = 0;
+    puVar3[2] = 0;
+    puVar3[5] = 0;
+    puVar3[4] = 0;
+    puVar3[1] = 0;
+    *puVar3 = 0;
+    *(undefined8 **)(pPVar2 + 0x50) = puVar3;
+    *(undefined8 *)(pPVar2 + 0x68) = 0;
+    *(undefined8 *)(pPVar2 + 0x70) = 0;
+    *(PhysicsBody **)(pPVar2 + 0x38) = param_1;
+    *(PhysicsBody **)(pPVar2 + 0x40) = param_2;
+    *(undefined ***)pPVar2 = &PTR__PhysicsJoint_01725158;
+    puVar3 = *(undefined8 **)(param_1 + 0x58);
+    if (puVar3 < *(undefined8 **)(param_1 + 0x60)) {
+      *puVar3 = pPVar2;
+                    /* catch(type#1 @ 00000000) { ... } // from try @ 010037e4 with catch @ 01003960
+                        */
+      *(undefined8 **)(param_1 + 0x58) = puVar3 + 1;
+                    /* catch(type#1 @ 00000000) { ... } // from try @ 010039c0 with catch @ 01003964
+                       catch(type#1 @ 00000000) { ... } // from try @ 01003b8c with catch @ 01003964
+                        */
+    }
+    else {
+      local_50 = pPVar2;
+      std::__ndk1::vector<cocos2d::PhysicsJoint*,std::__ndk1::allocator<cocos2d::PhysicsJoint*>>::
+      __push_back_slow_path<cocos2d::PhysicsJoint*>
+                ((vector<cocos2d::PhysicsJoint*,std::__ndk1::allocator<cocos2d::PhysicsJoint*>> *)
+                 (param_1 + 0x50),&local_50);
+    }
+    lVar4 = *(long *)(pPVar2 + 0x40);
+    puVar3 = *(undefined8 **)(lVar4 + 0x58);
+    if (puVar3 < *(undefined8 **)(lVar4 + 0x60)) {
+      *puVar3 = pPVar2;
+      *(undefined8 **)(lVar4 + 0x58) = puVar3 + 1;
+      local_50 = pPVar2;
+    }
+    else {
+      local_50 = pPVar2;
+      std::__ndk1::vector<cocos2d::PhysicsJoint*,std::__ndk1::allocator<cocos2d::PhysicsJoint*>>::
+      __push_back_slow_path<cocos2d::PhysicsJoint*>
+                ((vector<cocos2d::PhysicsJoint*,std::__ndk1::allocator<cocos2d::PhysicsJoint*>> *)
+                 (lVar4 + 0x50),&local_50);
+    }
+    uVar5 = *(undefined8 *)param_3;
+    pPVar2[0x65] = (PhysicsJoint)0x0;
+    *(undefined8 *)(pPVar2 + 0x68) = uVar5;
+  }
+                    /* try { // try from 010039b8 to 011039bf has its CatchHandler @ 01003c98 */
+  if (*(long *)(lVar1 + 0x28) == local_48) {
+                    /* try { // try from 010039c0 to 01103b1b has its CatchHandler @ 01003964 */
+    return pPVar2;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+

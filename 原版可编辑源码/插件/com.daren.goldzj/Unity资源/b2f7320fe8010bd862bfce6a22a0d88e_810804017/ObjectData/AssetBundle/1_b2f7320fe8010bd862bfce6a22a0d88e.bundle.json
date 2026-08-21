@@ -1,0 +1,142 @@
+{
+  "m_Name": "b2f7320fe8010bd862bfce6a22a0d88e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1232462765076884364
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2890435109565001286
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3919446872989293267
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6628392662619388502
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5289885875084004849
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4522542419837700245
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7554607283011391744
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3536722725411048359
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/216_dianshichengjin/texture/t_dscj_cloud_001.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1232462765076884364
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/216_dianshichengjin/texture/t_dscj_daoguang_001.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7554607283011391744
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/216_dianshichengjin/texture/t_dscj_decal_001.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3919446872989293267
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/216_dianshichengjin/texture/t_dscj_decal_002.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4522542419837700245
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/216_dianshichengjin/texture/t_dscj_decal_003.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5289885875084004849
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/216_dianshichengjin/texture/t_dscj_decal_004.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6628392662619388502
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/216_dianshichengjin/texture/t_dscj_decal_005.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2890435109565001286
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/216_dianshichengjin/texture/t_dscj_glow_001.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3536722725411048359
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b2f7320fe8010bd862bfce6a22a0d88e.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

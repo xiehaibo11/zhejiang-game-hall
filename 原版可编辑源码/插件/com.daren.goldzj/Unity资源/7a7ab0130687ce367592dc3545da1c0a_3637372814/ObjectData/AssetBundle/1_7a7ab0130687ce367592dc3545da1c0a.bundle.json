@@ -1,0 +1,105 @@
+{
+  "m_Name": "7a7ab0130687ce367592dc3545da1c0a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8642471544901552544
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8460528983131228114
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7492766856018082811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6687928391871102646
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6444387467223348122
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5066289223984036272
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4308923400891491725
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4088585705897415470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2952098366300052920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2093127446560665838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -894509514803857207
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 507199901815193695
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 522041674860357223
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4083820920869938579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4626800356572014047
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4977945313288040333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6427154177388988328
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7987076963882544080
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/lobby/uieffect_jinbi1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 18,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7492766856018082811
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7a7ab0130687ce367592dc3545da1c0a.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

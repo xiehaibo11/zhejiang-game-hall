@@ -1,0 +1,88 @@
+{
+  "m_Name": "e533c065cce37558eecd44b7b33cb30f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -2170434744286254924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7209191752058034062
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4489365091408943813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3822092582502739501
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3428542060400383400
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3115193122236420273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2656902358364737731
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -830431965323576314
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 21256970814785137
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5365209945072032162
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5471255102975546278
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7404169091863313640
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8395637117246247637
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/hotfighter/surprisecatchbox/effect/prefabs/box_effect_saoguang_2.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 13,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3428542060400383400
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e533c065cce37558eecd44b7b33cb30f.bundle",
+  "m_Dependencies": [
+    "cc42e574b5b5b3276103a5f5d9132804.bundle",
+    "d328f6996db06c160111f82354af4f53.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

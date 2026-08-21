@@ -1,0 +1,84 @@
+{
+  "m_Name": "a5cfafb61f9adae142ec82d3dcaa36b0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 6024443427005136239
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8935347664441447824
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8049675961902837877
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7979975027907877725
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2682374363505252703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -325971893733991851
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 206989093523089509
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6595982763007560937
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8406341484579169165
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8700955205025845273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 948681262686915641
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/eightgodcome/spine/eightgodspine_2.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 206989093523089509
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a5cfafb61f9adae142ec82d3dcaa36b0.bundle",
+  "m_Dependencies": [
+    "46f86ec541f29952976d766226aaebd2.bundle",
+    "e5c63e7931d60adc555ca48c23329a92.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

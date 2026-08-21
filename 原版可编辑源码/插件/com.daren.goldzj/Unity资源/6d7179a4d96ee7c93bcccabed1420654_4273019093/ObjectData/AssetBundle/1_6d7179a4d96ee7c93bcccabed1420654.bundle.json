@@ -1,0 +1,101 @@
+{
+  "m_Name": "6d7179a4d96ee7c93bcccabed1420654.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3347132656311098768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2380495048434420398
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1054997978205833372
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 884522461359656298
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5367259348863828515
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7590860548244414619
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1054997978205833372
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1054997978205833372
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7590860548244414619
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/font/font_shuihulianji/shuihulianji.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7590860548244414619
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/font_shuihulianji/shuihulianji.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1054997978205833372
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/font_shuihulianji/shuihulianji.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5367259348863828515
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6d7179a4d96ee7c93bcccabed1420654.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

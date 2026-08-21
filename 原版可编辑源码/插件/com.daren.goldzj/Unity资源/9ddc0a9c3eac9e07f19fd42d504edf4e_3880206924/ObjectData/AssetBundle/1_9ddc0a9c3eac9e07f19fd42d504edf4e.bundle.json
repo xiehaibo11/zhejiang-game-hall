@@ -1,0 +1,195 @@
+{
+  "m_Name": "9ddc0a9c3eac9e07f19fd42d504edf4e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -8157377691989176260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8891952576840925546
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8869317257716900798
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8630637976781713958
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7717806047348979167
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7012089885257519090
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6872631457409670814
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6791623815240845492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6696734563237877627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5612390468754780065
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4521090102871166580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4096109420742147500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2705430181508715189
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2646362542857845867
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1354274219912631690
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1138043966888648192
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1086350477096073524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -468613897257585524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 376326781435431773
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 719349411321639911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1194524944508355105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2557985749105333868
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3702542881065964641
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4161644627183104111
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4497741765080056640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5587794465513039830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7717239996836885753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8301953195091859597
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1815766621309959125
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5324888391488856973
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -5628380240218148314
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 8317064620672144596
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -7669539958961367769
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 6390486283436574961
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/permanentcannonwinggift/reward_1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 39,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6872631457409670814
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9ddc0a9c3eac9e07f19fd42d504edf4e.bundle",
+  "m_Dependencies": [
+    "0c56e7fbe613fe71c8a8dc24310b366a.bundle",
+    "55ebb8054f8955d83215e11a7594ae23.bundle",
+    "77dbd21f99b98978952c49e0cce9d652.bundle",
+    "87d4be085bb65ce3641cb706893abc8c.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

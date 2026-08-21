@@ -1,0 +1,173 @@
+{
+  "m_Name": "4ef9895d3dd0aca6e59a5870195d5d04.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 812692396960468316
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -4483230943465155746
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -8154330813517830433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8219227822365289477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7552900439215982658
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7527446772988594964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6923938744595201355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6226537501692052360
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4335254536875376888
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2682539119921353847
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1193948246441812046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -199381136472288360
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -76224362102299549
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 615201866482874863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1248068414934640973
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2995643753035686066
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4184514046454978937
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4242074887384898332
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4587845139688643349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5398725857741577598
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6521754026026780022
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6845004902760681550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6912627572292837065
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6932784605856124329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7279181971823427892
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7548281990777441134
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8301557487173724687
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8558566559790363508
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4321064385673254412
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -4463663216267741890
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -3515185795460741296
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 994984457347749141
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/shengongbao/prefab/shengongbao_special_ingameeffect_01.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 33,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8558566559790363508
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4ef9895d3dd0aca6e59a5870195d5d04.bundle",
+  "m_Dependencies": [
+    "34d9b6566050bd87eff14e4e10840e84.bundle",
+    "6d711edb3dd029bde6bcc00350b3fe0e.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "911c805a9246b5b75a3d06ace8774e99.bundle",
+    "cf48e2b4ea7ca24dc3e9d7e5b2533690.bundle",
+    "dfa031abb142bb9ca203e85d9ed8220a.bundle",
+    "f7684d4467fd31cf4b8ea3dccb79af7c.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

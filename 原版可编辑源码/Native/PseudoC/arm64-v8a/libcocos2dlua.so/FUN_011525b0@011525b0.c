@@ -1,0 +1,23 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_011525b0(void)
+
+{
+  if (PTR_LOOP_01781678 != VP8GetCPUInfo) {
+    pcRam0000000001796268 = FUN_01151cc0;
+    _DAT_01796260 = FUN_011512c0;
+    pcRam0000000001796278 = FUN_01151dc8;
+    _DAT_01796270 = FUN_011517bc;
+    pcRam0000000001796298 = FUN_01151cc0;
+    _DAT_01796290 = FUN_011524a8;
+    pcRam00000000017962a8 = FUN_01151ed0;
+    _DAT_017962a0 = FUN_01151dc8;
+    DAT_017962b0 = FUN_011523a8;
+    pcRam0000000001796288 = FUN_011523a8;
+    _DAT_01796280 = FUN_01151ed0;
+    PTR_LOOP_01781678 = VP8GetCPUInfo;
+  }
+  return;
+}
+

@@ -1,0 +1,132 @@
+{
+  "m_Name": "23b8d5899840171d8bad56171e033107.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8069091577056689440
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4560033264169740973
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2836927401568117799
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1536076170321727031
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -168684641139075477
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8703296640137471801
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6256198380257402323
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5486599306494261237
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3782162749248844964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6976962007482311921
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/061_\u795e\u5c06\u8bd5\u70bc/fbx/sanjiaokuang.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4560033264169740973
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/061_\u795e\u5c06\u8bd5\u70bc/fbx/sanjiaokuang.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -168684641139075477
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/061_\u795e\u5c06\u8bd5\u70bc/fbx/waikuang.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6256198380257402323
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/061_\u795e\u5c06\u8bd5\u70bc/fbx/waikuang.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5486599306494261237
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "23b8d5899840171d8bad56171e033107.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

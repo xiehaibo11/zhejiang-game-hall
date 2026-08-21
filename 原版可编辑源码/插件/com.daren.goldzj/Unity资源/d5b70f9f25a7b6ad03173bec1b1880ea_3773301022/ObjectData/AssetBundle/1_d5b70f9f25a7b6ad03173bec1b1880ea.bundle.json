@@ -1,0 +1,37 @@
+{
+  "m_Name": "d5b70f9f25a7b6ad03173bec1b1880ea.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2582601389459637939
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/shengdanlaoren/tex/trail_306_sdlr.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2582601389459637939
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d5b70f9f25a7b6ad03173bec1b1880ea.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

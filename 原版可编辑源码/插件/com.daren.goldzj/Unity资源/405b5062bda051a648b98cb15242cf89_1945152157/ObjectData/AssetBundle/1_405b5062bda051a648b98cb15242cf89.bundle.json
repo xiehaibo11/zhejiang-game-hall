@@ -1,0 +1,94 @@
+{
+  "m_Name": "405b5062bda051a648b98cb15242cf89.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8032943554180048312
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -562637643547485156
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 252186192396251373
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8611342412292562446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8032943554180048312
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8611342412292562446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 252186192396251373
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/shoufencamera/cameratransplantdefault.anim",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8611342412292562446
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/shoufencamera/shoufencamera.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -562637643547485156
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/shoufencamera/shoufencameranormal.anim",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8032943554180048312
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/shoufencamera/shoufencameraold.anim",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 252186192396251373
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "405b5062bda051a648b98cb15242cf89.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

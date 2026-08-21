@@ -1,0 +1,58 @@
+{
+  "m_Name": "d4647ea6886c6780ec66574c8139200c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2631060793783233094
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8477339885598294800
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4898600930264565638
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7037555963489843090
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/flagofcommandroom/effect/material/noise_382_hlzq.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2631060793783233094
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d4647ea6886c6780ec66574c8139200c.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "2503f6b86d80a66d9e0bfc1627f47c3a.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

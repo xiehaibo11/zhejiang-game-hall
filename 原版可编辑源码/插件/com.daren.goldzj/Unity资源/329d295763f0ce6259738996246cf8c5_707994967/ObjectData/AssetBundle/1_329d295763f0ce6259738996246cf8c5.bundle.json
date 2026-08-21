@@ -1,0 +1,144 @@
+{
+  "m_Name": "329d295763f0ce6259738996246cf8c5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7214063162410182020
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -524736787269997441
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1431125259937715600
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2996136804750836409
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7987930245197915622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8271159163460034163
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1219167229933264106
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8695477102118500613
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8498178825222719117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7295954685735091377
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2337744045823548316
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1595149961627497104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8378075285770277943
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/zhongqiupaotai/fbx/plane.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2337744045823548316
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/zhongqiupaotai/fbx/plane.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1595149961627497104
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/zhongqiupaotai/fbx/quan0904.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7987930245197915622
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/zhongqiupaotai/fbx/quan0904.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1431125259937715600
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/zhongqiupaotai/fbx/quan0904.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7214063162410182020
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "329d295763f0ce6259738996246cf8c5.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "6846d0c95005f0386bc86217f488ebd7.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

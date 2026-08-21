@@ -1,0 +1,37 @@
+{
+  "m_Name": "b4e59e57322ecdc7b7d75d4a224fedf7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7730145556683865902
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/junefestival/effect/texture/mask_002_button_lyqd.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7730145556683865902
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b4e59e57322ecdc7b7d75d4a224fedf7.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

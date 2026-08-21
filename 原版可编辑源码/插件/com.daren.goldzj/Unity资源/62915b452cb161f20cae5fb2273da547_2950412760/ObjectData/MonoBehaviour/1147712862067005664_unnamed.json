@@ -1,0 +1,79 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8136946761538596689
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6108025987347452758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1190106976599632240
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7663471688122569049
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8529425387370730407
+    }
+  ],
+  "m_BindComs_Name": [
+    "prefabItem",
+    "LabTimeLimit",
+    "BannerTexture",
+    "ScrollParent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4398093623805986644
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5242010203270371700
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3904052849198127688
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6097602575461414164
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "AreaPos"
+  ],
+  "hotfixClassFullName": "GameHotFix.GameActivity.NewRechargeByDayPanel",
+  "m_ClassName": "NewRechargeByDayPanel"
+}

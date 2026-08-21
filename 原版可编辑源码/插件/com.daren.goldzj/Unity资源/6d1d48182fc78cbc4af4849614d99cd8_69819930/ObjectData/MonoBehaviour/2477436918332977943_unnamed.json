@@ -1,0 +1,123 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1981955324229905392
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7257114629874695378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4637452814562774849
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3127257853045234941
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8701837611955897883
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4639122726171158267
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5455539033194173814
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7015272430493431292
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1023166814795410606
+    }
+  ],
+  "m_BindComs_Name": [
+    "mGroupName",
+    "mGroupIcon",
+    "mGroupProgress",
+    "mGroupReward",
+    "mTips",
+    "mGridAll",
+    "mGridTop",
+    "mGridBottom"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -5679373665621175264
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4062910862861204430
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1247349105923278176
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -9194301988731259515
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -9039577925841209998
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1927976408202500492
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6542818113090106334
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4998061926829220858
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8283275910243968941
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 9160245505907921329
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mCardList"
+  ],
+  "hotfixClassFullName": "GameHotFix.CardCollectSystem.CardCollectSystemUniversalCardItem",
+  "m_ClassName": "CardCollectSystemUniversalCardItem"
+}

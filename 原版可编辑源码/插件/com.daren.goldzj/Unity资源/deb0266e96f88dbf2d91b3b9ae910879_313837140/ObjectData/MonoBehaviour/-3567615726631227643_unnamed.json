@@ -1,0 +1,54 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 211270319355548299
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [],
+  "m_BindComs_Name": [],
+  "m_BindInt": [
+    0
+  ],
+  "m_BindInt_Name": [
+    "mItemId"
+  ],
+  "m_BindLong": [
+    0
+  ],
+  "m_BindLong_Name": [
+    "mItemCount"
+  ],
+  "m_BindFloat": [
+    0.0,
+    0.0
+  ],
+  "m_BindFloat_Name": [
+    "mItemWidth",
+    "mItemHeight"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1,
+    0
+  ],
+  "m_BindBool_Name": [
+    "IsShowTip",
+    "CanNumOverWidth"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Base.IconItemComponent",
+  "m_ClassName": "IconItemComponent"
+}

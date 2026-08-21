@@ -1,0 +1,48 @@
+{
+  "m_Name": "3124e75bf6e791be4b3a606ee1889c66.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1027556610215048661
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2724071406261652549
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/surprisewheel/effect/material/fazhen 2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1027556610215048661
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3124e75bf6e791be4b3a606ee1889c66.bundle",
+  "m_Dependencies": [
+    "00baf169f054fd57777844fd6967b2cc.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

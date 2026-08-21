@@ -1,0 +1,101 @@
+{
+  "m_Name": "5798a0ee95406c644a5ada08adc51f1e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2128524440045639290
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5149217722003030766
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4407333123281469816
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2128524440045639290
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1849173081635306437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5149217722003030766
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9183386625736966704
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5149217722003030766
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_vipspecialnotice/vipspecialnotice.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2128524440045639290
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_vipspecialnotice/vipspecialnotice.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5149217722003030766
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_vipspecialnotice/vipspecialnotice.prefab",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9183386625736966704
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5798a0ee95406c644a5ada08adc51f1e.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

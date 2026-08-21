@@ -1,0 +1,91 @@
+{
+  "m_Name": "3b792187eaadbd164c505a23a197c05c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4622290688016810283
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3659868102260133035
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1589492343911555551
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1007466035271766479
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -240873138514700417
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 349746389593382154
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2449613455672683367
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3816017386760933385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5676855643618789253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7076508254991973248
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5918915762159776063
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6649740888954811198
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/spinecannon/spinecannon_267.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 14,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1589492343911555551
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3b792187eaadbd164c505a23a197c05c.bundle",
+  "m_Dependencies": [
+    "02427571698b1320961abace3be6c0f5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

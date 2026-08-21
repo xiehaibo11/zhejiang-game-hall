@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4941230706744153176
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4556229458748416846
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1192071862187701988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4458325533705803470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9062268285037454136
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5262082084250092668
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5262082084250092668
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6681419774516504485
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4542037089566512683
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2673728331554096495
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 481148800749788614
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_BtnBuy",
+    "m_LabelAdd",
+    "m_LabelAddCoin",
+    "m_SpriteShade",
+    "m_EffectFenWei",
+    "m_EffectSaoGuang",
+    "m_EffectChange",
+    "m_TweenAlpha",
+    "m_LabelAnimator",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -7319104618011203692
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7318726042783572714
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "m_RewardList"
+  ],
+  "hotfixClassFullName": "GameHotFix.NewYearLimitedTime.SpecialPackageItem",
+  "m_ClassName": "SpecialPackageItem"
+}

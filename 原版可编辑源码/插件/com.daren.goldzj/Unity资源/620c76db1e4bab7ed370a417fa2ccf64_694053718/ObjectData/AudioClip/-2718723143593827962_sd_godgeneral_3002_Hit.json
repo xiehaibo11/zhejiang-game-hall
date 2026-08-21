@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_godgeneral_3002_Hit",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 48000,
+  "m_BitsPerSample": 16,
+  "m_Length": 1.130062460899353,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-27360867488556ddf4782f2c53ace693/CAB-27360867488556ddf4782f2c53ace693.resource",
+    "m_Offset": 0,
+    "m_Size": 12800
+  },
+  "m_CompressionFormat": 1
+}

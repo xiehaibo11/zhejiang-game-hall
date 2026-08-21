@@ -1,0 +1,52 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -529892332288870469
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [],
+  "m_BindComs_Name": [],
+  "m_BindInt": [
+    0
+  ],
+  "m_BindInt_Name": [
+    "WingStartAnimation"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    1.0
+  ],
+  "m_BindFloat_Name": [
+    "M_CustomDuration"
+  ],
+  "m_BindString": [
+    "Opening",
+    "animation"
+  ],
+  "m_BindString_Name": [
+    "OpeningAnimName",
+    "PutongAnimName"
+  ],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1
+  ],
+  "m_BindBool_Name": [
+    "CustomDuration"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Game.SpineWing",
+  "m_ClassName": "SpineWing"
+}

@@ -1,0 +1,96 @@
+{
+  "m_Name": "39d6673459f138db09159d3321533e9f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -324149516533321004
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6670709292310662659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6137523866115684492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5377578029142137610
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2206254692203031052
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1488544396340405926
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4150112761152166720
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5520432420290944075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6490392442715903465
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6894706642601850158
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7101025313647048016
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/flagofcommandroom/effect/prefab/hlzq_uieffect_jinbi.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 15,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7101025313647048016
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "39d6673459f138db09159d3321533e9f.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "995d38e1d832d293b073eae581422473.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

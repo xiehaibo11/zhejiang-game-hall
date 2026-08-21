@@ -1,0 +1,43 @@
+{
+  "m_Name": "bb24aad055a395f0e71ab32838c19533.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -9027625931017490652
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4180199328280136814
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/supremethrone/effect/animation/shuzi.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4180199328280136814
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "bb24aad055a395f0e71ab32838c19533.bundle",
+  "m_Dependencies": [
+    "7c5855ac50b090af4efdcddd4cfb8bb7.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

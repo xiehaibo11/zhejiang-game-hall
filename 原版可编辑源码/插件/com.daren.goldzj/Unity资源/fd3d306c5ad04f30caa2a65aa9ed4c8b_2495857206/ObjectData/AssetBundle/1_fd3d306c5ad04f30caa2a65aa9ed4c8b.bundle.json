@@ -1,0 +1,53 @@
+{
+  "m_Name": "fd3d306c5ad04f30caa2a65aa9ed4c8b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 3604890079111026036
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4730247912671202803
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4123015910624272882
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1948721447499817608
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleediting/art/effect/texture/materials/t_line_72/t_line_72_w01.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1948721447499817608
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "fd3d306c5ad04f30caa2a65aa9ed4c8b.bundle",
+  "m_Dependencies": [
+    "0ccb728f0dff32decbc869d7716136fe.bundle",
+    "23f0e076a93aa22648e31043c2ce2f7b.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,92 @@
+{
+  "m_Name": "e55105cd707a8505235ff94424aef283.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2170434744286254924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4607454888248187379
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1904574749940644368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -819084357833717540
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -103773169135219301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2991666959848568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1744410736057693825
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3395184190813809857
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3726434881425501817
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4522319459716146430
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4775630151546311933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7690126221699449403
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -117267409423442321
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/hotfighter/surprisecatchbox/effect/prefabs/box_effect_anniu_1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 14,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -103773169135219301
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e55105cd707a8505235ff94424aef283.bundle",
+  "m_Dependencies": [
+    "835d9461343c02e834112ccc26f0135d.bundle",
+    "cc42e574b5b5b3276103a5f5d9132804.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,67 @@
+{
+  "m_Name": "26e5ff5b37dc389b23bfdd1d8faf43c6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2689305416666588060
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3057257362552618578
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1821549958739297312
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/184_liuxuande/texture_npot/bg_lxd.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1821549958739297312
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/184_liuxuande/texture_npot/img_lxd_tyjy.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3057257362552618578
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/184_liuxuande/texture_npot/trail_01_lxd.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2689305416666588060
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "26e5ff5b37dc389b23bfdd1d8faf43c6.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

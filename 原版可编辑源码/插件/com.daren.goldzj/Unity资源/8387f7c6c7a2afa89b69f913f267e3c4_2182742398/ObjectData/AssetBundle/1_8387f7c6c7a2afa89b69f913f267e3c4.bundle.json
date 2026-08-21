@@ -1,0 +1,92 @@
+{
+  "m_Name": "8387f7c6c7a2afa89b69f913f267e3c4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6140739481308358681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5699827582888195311
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4551390520758680903
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4020363988062822442
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1498025984286727090
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1326188021205359011
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -657477701292886207
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -292883777034718514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1779113842404135309
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3129360023083613528
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5755875080766606637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7971835300758337825
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6597126512531232579
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4777148145905783038
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/doublecannomul/effect/animation/gameobjecttimeline2.playable",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 14,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4551390520758680903
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8387f7c6c7a2afa89b69f913f267e3c4.bundle",
+  "m_Dependencies": [
+    "491f158535ef74e7e4bc9870aa14cdf7.bundle",
+    "683bccac5636f462ae2708ef0184ad1e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

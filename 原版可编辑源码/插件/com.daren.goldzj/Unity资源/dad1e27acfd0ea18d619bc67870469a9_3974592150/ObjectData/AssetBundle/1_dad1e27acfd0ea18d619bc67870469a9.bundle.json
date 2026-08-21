@@ -1,0 +1,37 @@
+{
+  "m_Name": "dad1e27acfd0ea18d619bc67870469a9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7010061844748573215
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/sound/buyusound/sd_boss_dragon_shoufen01.ogg",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7010061844748573215
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "dad1e27acfd0ea18d619bc67870469a9.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

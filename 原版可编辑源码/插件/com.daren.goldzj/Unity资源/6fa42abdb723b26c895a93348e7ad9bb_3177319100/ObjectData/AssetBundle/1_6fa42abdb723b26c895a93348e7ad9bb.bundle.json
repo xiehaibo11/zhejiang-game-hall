@@ -1,0 +1,58 @@
+{
+  "m_Name": "6fa42abdb723b26c895a93348e7ad9bb.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 7935361759792054173
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3106933407896836978
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2119088702981205122
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -5139368280952571159
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/cannoneffect/new folder/trail_403_add_001 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2119088702981205122
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6fa42abdb723b26c895a93348e7ad9bb.bundle",
+  "m_Dependencies": [
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

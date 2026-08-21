@@ -1,0 +1,53 @@
+{
+  "m_Name": "6babc8b22a00e9f4a9ce221b0fe6bd8b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1139234170265132771
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/effect/animation/\u4e3b\u754c\u9762open.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1139234170265132771
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6babc8b22a00e9f4a9ce221b0fe6bd8b.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

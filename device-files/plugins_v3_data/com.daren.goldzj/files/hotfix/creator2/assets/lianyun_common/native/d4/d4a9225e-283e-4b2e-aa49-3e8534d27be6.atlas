@@ -1,0 +1,62 @@
+
+Brick.png
+size: 112,260
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 52, 94
+  size: 79, 27
+  orig: 79, 27
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 81, 94
+  size: 79, 27
+  orig: 79, 27
+  offset: 0, 0
+  index: -1
+381-1
+  rotate: false
+  xy: 2, 175
+  size: 108, 83
+  orig: 128, 128
+  offset: 4, 26
+  index: -1
+xing
+  rotate: false
+  xy: 2, 7
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+z1
+  rotate: false
+  xy: 2, 99
+  size: 48, 74
+  orig: 48, 75
+  offset: 0, 0
+  index: -1
+z2
+  rotate: false
+  xy: 2, 21
+  size: 46, 76
+  orig: 46, 76
+  offset: 0, 0
+  index: -1
+z3
+  rotate: true
+  xy: 50, 2
+  size: 44, 47
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+z4
+  rotate: false
+  xy: 50, 48
+  size: 51, 44
+  orig: 52, 56
+  offset: 0, 12
+  index: -1

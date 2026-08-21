@@ -1,0 +1,122 @@
+{
+  "m_Name": "rrby_glow_528_Add",
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 7296479318064699542
+  },
+  "m_ValidKeywords": [],
+  "m_InvalidKeywords": [
+    "_MAINTEXAPHAORPARALPSWITCH_ON",
+    "_OPACITY_ON"
+  ],
+  "m_LightmapFlags": 4,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": false,
+  "m_CustomRenderQueue": -1,
+  "stringTagMap": [],
+  "disabledShaderPasses": [],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_MainTex",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 6732543556285324221
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Ints": [],
+    "m_Floats": [
+      [
+        "_AlphaScale",
+        3.0
+      ],
+      [
+        "_InvFade",
+        1.0
+      ],
+      [
+        "_MainColorExp",
+        1.0
+      ],
+      [
+        "_MainTexAphaOrParAlpSwitch",
+        1.0
+      ],
+      [
+        "_OffMainTexAlpha",
+        0.0
+      ],
+      [
+        "_Opacity",
+        1.0
+      ],
+      [
+        "_UserColor",
+        0.0
+      ],
+      [
+        "_ainTexUVScale",
+        1.0
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_MainColor",
+        {
+          "r": 0.5,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        }
+      ],
+      [
+        "_MainColorBlack",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_MainColorLight",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_MainTexMove_xyz",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_TintColor",
+        {
+          "r": 0.6132075786590576,
+          "g": 0.5582503080368042,
+          "b": 0.5582503080368042,
+          "a": 0.800000011920929
+        }
+      ]
+    ]
+  },
+  "m_BuildTextureStacks": []
+}

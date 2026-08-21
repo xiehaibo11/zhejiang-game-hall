@@ -1,0 +1,67 @@
+{
+  "m_Name": "5af89d513288db17fa06054220cfdd88.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 5,
+      "m_PathID": -2991909538592573577
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -4067215843594718356
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -764685967073051711
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -6914356739943112278
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 508182675113716842
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5478246004666730960
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactfengshenbangpanel/effect/material/nvwa_glow_01_03_nvwa 2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -764685967073051711
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5af89d513288db17fa06054220cfdd88.bundle",
+  "m_Dependencies": [
+    "1162df3591f13f5b97896c0f7062275a.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle",
+    "a0e1a03dac9d741f285c1c3cb7591506.bundle",
+    "d024d69d968a14146e217691b7478e79.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

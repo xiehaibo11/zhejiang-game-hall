@@ -1,0 +1,97 @@
+
+hd_bingtong01.png
+size: 407,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bucket
+  rotate: false
+  xy: 91, 31
+  size: 85, 77
+  orig: 85, 83
+  offset: 0, 0
+  index: -1
+bucket2
+  rotate: false
+  xy: 178, 18
+  size: 69, 20
+  orig: 72, 21
+  offset: 1, 1
+  index: -1
+eye
+  rotate: false
+  xy: 91, 3
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+fx01
+  rotate: true
+  xy: 370, 39
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+ice
+  rotate: true
+  xy: 178, 40
+  size: 68, 69
+  orig: 68, 69
+  offset: 0, 0
+  index: -1
+ice2
+  rotate: false
+  xy: 370, 50
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+ice3
+  rotate: false
+  xy: 119, 12
+  size: 56, 17
+  orig: 56, 17
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 366, 69
+  size: 39, 39
+  orig: 45, 43
+  offset: 3, 2
+  index: -1
+water01
+  rotate: true
+  xy: 2, 25
+  size: 83, 87
+  orig: 83, 87
+  offset: 0, 0
+  index: -1
+water02
+  rotate: false
+  xy: 312, 6
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+water03
+  rotate: false
+  xy: 249, 4
+  size: 61, 58
+  orig: 61, 58
+  offset: 0, 0
+  index: -1
+water04
+  rotate: false
+  xy: 249, 64
+  size: 115, 44
+  orig: 115, 44
+  offset: 0, 0
+  index: -1
+water05
+  rotate: false
+  xy: 2, 2
+  size: 79, 21
+  orig: 79, 21
+  offset: 0, 0
+  index: -1

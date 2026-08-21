@@ -1,0 +1,50 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4842440958300640288
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7195049361282813344
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7657704014127079073
+    }
+  ],
+  "m_BindComs_Name": [
+    "txtCount",
+    "btnAdd"
+  ],
+  "m_BindInt": [
+    1
+  ],
+  "m_BindInt_Name": [
+    "moneyType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BossChallengeV2.BossChallengeMoneyInfoV2",
+  "m_ClassName": "BossChallengeMoneyInfoV2"
+}

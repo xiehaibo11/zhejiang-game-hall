@@ -1,0 +1,67 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5413708668434615747
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 233439040495154621
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4346392144181995951
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5329129136922731929
+    }
+  ],
+  "m_BindComs_Name": [
+    "textText",
+    "fontGold",
+    "fontSilver"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [
+    "200"
+  ],
+  "m_BindString_Name": [
+    "text"
+  ],
+  "m_BindVector3": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  ],
+  "m_BindVector3_Name": [
+    "position"
+  ],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1
+  ],
+  "m_BindBool_Name": [
+    "isJin"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Game.CoinAnimation",
+  "m_ClassName": "CoinAnimation"
+}

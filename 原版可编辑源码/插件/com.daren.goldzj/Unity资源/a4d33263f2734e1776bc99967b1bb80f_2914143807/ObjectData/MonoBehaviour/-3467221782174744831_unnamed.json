@@ -1,0 +1,75 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2970484824722755287
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2111095310757542105
+  },
+  "m_Name": "",
+  "leftAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": -8827749333569972336
+    },
+    "relative": 0.0,
+    "absolute": -41
+  },
+  "rightAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": -8827749333569972336
+    },
+    "relative": 0.0,
+    "absolute": -3
+  },
+  "bottomAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 0.0,
+    "absolute": 0
+  },
+  "topAnchor": {
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "relative": 1.0,
+    "absolute": 0
+  },
+  "updateAnchors": 1,
+  "mColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "mPivot": 4,
+  "mWidth": 38,
+  "mHeight": 38,
+  "mDepth": 11,
+  "autoResizeBoxCollider": 0,
+  "hideIfOffScreen": 0,
+  "keepAspectRatio": 0,
+  "aspectRatio": 1.0,
+  "mType": 0,
+  "mFillDirection": 4,
+  "mFillAmount": 1.0,
+  "mInvert": 0,
+  "mFlip": 0,
+  "centerType": 1,
+  "leftType": 1,
+  "rightType": 1,
+  "bottomType": 1,
+  "topType": 1,
+  "mAtlas": {
+    "m_FileID": 2,
+    "m_PathID": -1523509057870393602
+  },
+  "mSpriteName": "icon_qmzks_diamond",
+  "mFillCenter": 1
+}

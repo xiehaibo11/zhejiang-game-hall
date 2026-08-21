@@ -1,0 +1,63 @@
+{
+  "m_Name": "2258b8258b5fef16089759b0f56281e9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4907936442819238111
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1416758510159648947
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 6913235311680990194
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 2691668669809475030
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneralboss/1004/materials/linchong_mao.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4907936442819238111
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2258b8258b5fef16089759b0f56281e9.bundle",
+  "m_Dependencies": [
+    "34a5d6e35247fd6b42e6a85ab2ae2951.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "6bf5c36ca05c71a8a1a4eb7f96187276.bundle",
+    "b48c1a5d37295fc60598e4b9e73b35f4.bundle",
+    "dfea2dd65b4f296573dfb6024de03ef5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

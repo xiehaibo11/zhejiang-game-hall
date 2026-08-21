@@ -1,0 +1,58 @@
+{
+  "m_Name": "a3147468428a9120fbcb3712575dddc2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 507505866578672950
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8869168866089575405
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 2030583308229429924
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8965760252039835355
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactjingubang/effect/materials/bg_02.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 507505866578672950
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a3147468428a9120fbcb3712575dddc2.bundle",
+  "m_Dependencies": [
+    "25b00968e46e3fe88e5bcfa8e34cac75.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle",
+    "f7c73944770e7ae2f1f57d129be8b6a0.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

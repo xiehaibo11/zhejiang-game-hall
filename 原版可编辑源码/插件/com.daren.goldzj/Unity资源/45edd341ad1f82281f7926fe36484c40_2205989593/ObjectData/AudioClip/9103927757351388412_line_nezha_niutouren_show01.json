@@ -1,0 +1,20 @@
+{
+  "m_Name": "line_nezha_niutouren_show01",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 1.5938094854354858,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-7c90100d09836b1b024d3d6fcc0f96e3/CAB-7c90100d09836b1b024d3d6fcc0f96e3.resource",
+    "m_Offset": 0,
+    "m_Size": 12992
+  },
+  "m_CompressionFormat": 1
+}

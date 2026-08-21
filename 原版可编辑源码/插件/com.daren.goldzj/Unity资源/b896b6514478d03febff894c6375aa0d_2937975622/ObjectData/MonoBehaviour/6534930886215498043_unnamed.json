@@ -1,0 +1,58 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1555726805240214113
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8889813426356898333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4095987822535079588
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_Camera",
+    "m_UITexture"
+  ],
+  "m_BindInt": [
+    24,
+    8,
+    200
+  ],
+  "m_BindInt_Name": [
+    "m_DepthBuffer",
+    "m_GraphicsFormat",
+    "m_FullScreenOffsetX"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1
+  ],
+  "m_BindBool_Name": [
+    "m_NoNeedFollowScale"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Base.CameraRenderTexture",
+  "m_ClassName": "CameraRenderTexture"
+}

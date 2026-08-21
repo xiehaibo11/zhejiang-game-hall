@@ -1,0 +1,37 @@
+{
+  "m_Name": "9ebb3a6cf177e1453994089501d09e11.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4433842273928562967
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/108_wusong/ui_atlas/ui_simage/img_yxn_bosslx_wsdh_bg04.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4433842273928562967
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9ebb3a6cf177e1453994089501d09e11.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

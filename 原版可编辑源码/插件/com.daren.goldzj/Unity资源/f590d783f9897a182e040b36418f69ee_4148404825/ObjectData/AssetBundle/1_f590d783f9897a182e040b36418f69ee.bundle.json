@@ -1,0 +1,132 @@
+{
+  "m_Name": "f590d783f9897a182e040b36418f69ee.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7894447602038536366
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2681195646757481768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -693099619855096508
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7512629434353373638
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8122436015142323892
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3735363387136602984
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2159319319611498555
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -597623111918629835
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 877631103839018705
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4715006716961191090
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/jiashapaotai/fbx/jiashatuowei.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3735363387136602984
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/jiashapaotai/fbx/jiashatuowei.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 877631103839018705
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/jiashapaotai/fbx/jiashatuowei2.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7512629434353373638
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/jiashapaotai/fbx/jiashatuowei2.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8122436015142323892
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f590d783f9897a182e040b36418f69ee.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

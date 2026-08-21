@@ -1,0 +1,157 @@
+{
+  "m_Name": "c626b512992c176d7c3391dcb5e524da.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3194425660798101543
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 436886678774957811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5138180208220305040
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5654467283408197610
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8907670847849901911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2509706331404035710
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7495803631724846301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -259909157640711043
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5668542411186402480
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/191_huoqubing/texture_npot/bg_hqb_01.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -259909157640711043
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/texture_npot/line_hqb_01.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5654467283408197610
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/texture_npot/mask_hqb_07.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5138180208220305040
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/texture_npot/mask_hqb_08.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5668542411186402480
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/texture_npot/noise_hqb_01.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2509706331404035710
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/texture_npot/ramp_hqb_02.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7495803631724846301
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/texture_npot/zi_hqb_01.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3194425660798101543
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/texture_npot/zi_hqb_02.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8907670847849901911
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/191_huoqubing/texture_npot/zi_hqb_03.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 436886678774957811
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c626b512992c176d7c3391dcb5e524da.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,29 @@
+{
+  "m_Name": "VideoPlayerTexture",
+  "m_ForcedFallbackFormat": 4,
+  "m_DownscaleFallback": false,
+  "m_IsAlphaChannelOptional": false,
+  "m_Width": 1600,
+  "m_Height": 900,
+  "m_AntiAliasing": 1,
+  "m_MipCount": -1,
+  "m_DepthStencilFormat": 92,
+  "m_ColorFormat": 8,
+  "m_MipMap": false,
+  "m_GenerateMips": true,
+  "m_SRGB": false,
+  "m_UseDynamicScale": false,
+  "m_BindMS": false,
+  "m_EnableCompatibleFormat": true,
+  "m_TextureSettings": {
+    "m_FilterMode": 1,
+    "m_Aniso": 0,
+    "m_MipBias": 0.0,
+    "m_WrapU": 1,
+    "m_WrapV": 1,
+    "m_WrapW": 1
+  },
+  "m_Dimension": 2,
+  "m_VolumeDepth": 1,
+  "m_ShadowSamplingMode": 2
+}

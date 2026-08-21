@@ -1,0 +1,183 @@
+{
+  "m_Name": "fd0f60ea048d88c998ea4c895db1ed2d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -5175487575781004213
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3130571389306137787
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3121018567381513411
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 483537344268508113
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7878440194786784805
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7766135915162805809
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7722676537970181995
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6809461221607727071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6165322949136911226
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5992678487673524870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5829914506062706108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5701496328753296703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5653384478363634744
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3743413655051502533
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3630140300375203537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2087941364185552423
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2037967653335534194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1048265074181744326
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 385270422464467678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 862388522106034114
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2168918515368364637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3393151319953750985
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3716123398140368476
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3992253427032725988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4478706037583524487
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4482767813980006169
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5925731377914051261
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6254011359419422809
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7242313755109500214
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7772454575591792895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9093820009634913055
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4679616757859685708
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3408890334189085104
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 72160378792446083
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 6513025285515337726
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonnew/20249/common_paokou_pt_20249.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 36,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9093820009634913055
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "fd0f60ea048d88c998ea4c895db1ed2d.bundle",
+  "m_Dependencies": [
+    "2221f465365983bcadd3c3cc1e6819cf.bundle",
+    "703b7ac1c9dbba834dd46663d2202b51.bundle",
+    "779cf8420dbd8f6b8cba012ec1b8aa03.bundle",
+    "c09348f0eaf1f72bc1458cc1f292adeb.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

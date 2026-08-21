@@ -1,0 +1,84 @@
+{
+  "m_Name": "9e93ab9ced7de1a814613f34af6e61f9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2604883305076474411
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2976693587746060996
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5452534119685130635
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4001461716586038634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3415973036078948252
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1421554823468154650
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1093275099240578606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -991773718621856173
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2691056420720031933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/inifnitybufftips.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1093275099240578606
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9e93ab9ced7de1a814613f34af6e61f9.bundle",
+  "m_Dependencies": [
+    "bce717606827031694d7f50d95c4de97.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

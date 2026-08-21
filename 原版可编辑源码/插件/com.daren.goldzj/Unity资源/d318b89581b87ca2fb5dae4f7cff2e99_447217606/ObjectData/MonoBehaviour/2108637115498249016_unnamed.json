@@ -1,0 +1,85 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8076305502312792177
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9123422426279880752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2705673699234014880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5531522647725476935
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5557502922538970924
+    }
+  ],
+  "m_BindComs_Name": [
+    "gameSubIcon",
+    "redPoint",
+    "subIcon",
+    "IconTag"
+  ],
+  "m_BindInt": [
+    1188,
+    0
+  ],
+  "m_BindInt_Name": [
+    "IconType",
+    "TimeStyle"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -2129914733372032519
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -340555920460290564
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2117638822878043702
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5295102362189780192
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "subIconsRedPoint"
+  ],
+  "hotfixClassFullName": "GameHotFix.GrowPath.GrowCollectionPage",
+  "m_ClassName": "GrowCollectionPage"
+}

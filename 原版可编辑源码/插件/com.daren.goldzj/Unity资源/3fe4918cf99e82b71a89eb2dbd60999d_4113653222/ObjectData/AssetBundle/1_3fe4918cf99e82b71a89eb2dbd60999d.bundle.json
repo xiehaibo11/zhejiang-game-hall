@@ -1,0 +1,62 @@
+{
+  "m_Name": "3fe4918cf99e82b71a89eb2dbd60999d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -5538438001147903015
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2759871900591905195
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3481498002993055813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -496398841926453659
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -570287529119163122
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/daji/material/godgeneral_dj_03.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -496398841926453659
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3fe4918cf99e82b71a89eb2dbd60999d.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "cb45c02cd043a74f9143912729215292.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

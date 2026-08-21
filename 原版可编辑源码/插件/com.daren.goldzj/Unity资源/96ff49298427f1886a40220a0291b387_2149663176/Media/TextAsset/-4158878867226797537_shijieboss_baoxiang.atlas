@@ -1,0 +1,104 @@
+
+shijieboss_baoxiang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinbi
+  rotate: true
+  xy: 2, 625
+  size: 212, 123
+  orig: 212, 123
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 209, 864
+  size: 220, 112
+  orig: 220, 112
+  offset: 0, 0
+  index: -1
+lv2_box
+  rotate: true
+  xy: 127, 661
+  size: 176, 134
+  orig: 176, 134
+  offset: 0, 0
+  index: -1
+lv2_top1
+  rotate: false
+  xy: 431, 851
+  size: 183, 125
+  orig: 183, 125
+  offset: 0, 0
+  index: -1
+lv2_top2
+  rotate: false
+  xy: 591, 729
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+lv3_box
+  rotate: false
+  xy: 801, 838
+  size: 177, 138
+  orig: 177, 138
+  offset: 0, 0
+  index: -1
+lv3_top1
+  rotate: false
+  xy: 616, 851
+  size: 183, 125
+  orig: 183, 125
+  offset: 0, 0
+  index: -1
+lv3_top2
+  rotate: false
+  xy: 263, 639
+  size: 148, 108
+  orig: 148, 108
+  offset: 0, 0
+  index: -1
+lv4_box
+  rotate: true
+  xy: 2, 56
+  size: 185, 139
+  orig: 185, 139
+  offset: 0, 0
+  index: -1
+lv4_top1
+  rotate: true
+  xy: 2, 432
+  size: 191, 125
+  orig: 191, 125
+  offset: 0, 0
+  index: -1
+lv4_top2
+  rotate: false
+  xy: 429, 740
+  size: 160, 109
+  orig: 160, 109
+  offset: 0, 0
+  index: -1
+lv5_box
+  rotate: true
+  xy: 2, 243
+  size: 187, 140
+  orig: 187, 140
+  offset: 0, 0
+  index: -1
+lv5_top1
+  rotate: false
+  xy: 2, 839
+  size: 205, 137
+  orig: 205, 137
+  offset: 0, 0
+  index: -1
+lv5_top2
+  rotate: false
+  xy: 263, 749
+  size: 164, 113
+  orig: 164, 113
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,53 @@
+{
+  "m_Name": "9f14a45370a698142d952503a775f5ca.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7787909087988421924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1940637968200910873
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -8552340379332938633
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/hotfighter/surprisecatchbox/effect/material/mask_mask_424.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1940637968200910873
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9f14a45370a698142d952503a775f5ca.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

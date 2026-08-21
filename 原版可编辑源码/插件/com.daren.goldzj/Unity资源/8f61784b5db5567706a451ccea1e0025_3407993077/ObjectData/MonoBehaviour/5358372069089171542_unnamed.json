@@ -1,0 +1,87 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3679499115976635381
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  ],
+  "m_BindComs_Name": [
+    "TopScaleAni",
+    "ScaleAni",
+    "ComboNum"
+  ],
+  "m_BindInt": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    -1
+  ],
+  "m_BindInt_Name": [
+    "mStatus",
+    "realmaxNum",
+    "maxNum",
+    "nowNum",
+    "addNum",
+    "comboIndex",
+    "panelType",
+    "curMaxDepth"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    0.0,
+    1.0
+  ],
+  "m_BindFloat_Name": [
+    "lastTime",
+    "upNextTime"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "m_BindBool_Name": [
+    "haveLoad",
+    "haveEnd",
+    "isHaveCombo",
+    "isHas3DObj",
+    "IsNeedChangeZ"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BossShouFen.BossComboView",
+  "m_ClassName": "BossComboView"
+}

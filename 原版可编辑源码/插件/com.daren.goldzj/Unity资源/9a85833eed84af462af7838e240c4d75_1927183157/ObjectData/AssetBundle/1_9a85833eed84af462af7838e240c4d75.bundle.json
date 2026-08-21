@@ -1,0 +1,82 @@
+{
+  "m_Name": "9a85833eed84af462af7838e240c4d75.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2581725736873230720
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7556683678648767681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1225047011060886526
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5531219510800235073
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/likuipaotai/texture/glow_0001.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1225047011060886526
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/likuipaotai/texture/img_py_bt_hxf.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5531219510800235073
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/likuipaotai/texture/img_py_hxf.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2581725736873230720
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/likuipaotai/texture/jiu_01.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7556683678648767681
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9a85833eed84af462af7838e240c4d75.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

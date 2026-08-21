@@ -1,0 +1,43 @@
+{
+  "m_Name": "84076eeee06409d49a1988c1aa24db3c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1698193343975870287
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2879341643270604127
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/streetstorm/effect/animator/streetstormmainpanel_multag.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1698193343975870287
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "84076eeee06409d49a1988c1aa24db3c.bundle",
+  "m_Dependencies": [
+    "a735920c6a500d028c7d048dcc77ac43.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

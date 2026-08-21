@@ -1,0 +1,48 @@
+{
+  "m_Name": "2e7b1b0042eb81af12b25112a7f0bd95.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -5971189250274270260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1518005926155785734
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1068488077423576560
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/masterkey/effects/materials/rrby_ui_550_csxl_2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1518005926155785734
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2e7b1b0042eb81af12b25112a7f0bd95.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "f80c6e510bdb9e3ebd7d700bb44d486c.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

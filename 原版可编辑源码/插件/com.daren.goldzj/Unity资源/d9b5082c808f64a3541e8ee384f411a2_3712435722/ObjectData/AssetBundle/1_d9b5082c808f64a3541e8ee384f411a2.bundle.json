@@ -1,0 +1,163 @@
+{
+  "m_Name": "d9b5082c808f64a3541e8ee384f411a2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1217658883222310470
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 313808986957683376
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2953457967532788718
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6380295120049641593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8988687464379866187
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8312810619450497182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691781187817991254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7686406313286687098
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7409111273688137038
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7057769786024758710
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6936538029425586810
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6741636175231786911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6377791500991815770
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6319473020780173645
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6015912848807037496
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5222640012114859948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4667698871735477825
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3807799046404468962
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1828605392358159853
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1277696795361579559
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1143416255618930029
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -367684365096752516
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 119895201091997254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 124452590847446487
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 315546493546572379
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2798175090049211234
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4214769446139230762
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5066597256781653271
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6396453245705525670
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8094456521151475091
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8712485851857582780
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonnew/20244/paotai20244_putong_zidan.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 32,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6396453245705525670
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d9b5082c808f64a3541e8ee384f411a2.bundle",
+  "m_Dependencies": [
+    "9bb6f55e45d4d5366a0e215a1297a9fd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

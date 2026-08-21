@@ -1,0 +1,96 @@
+{
+  "m_Name": "545ef2c88fc8ee38f533e54469c16443.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 1073589012800305252
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2754906053195171726
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6294100929196610970
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5958061866923112362
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7590183486258736000
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4306907350806236056
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2332908310352789013
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8266519172696055844
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/046_qitiandasheng/rig/1.0/qitiandasheng.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5958061866923112362
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/046_qitiandasheng/rig/1.0/qitiandasheng_wuqi.mat",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8266519172696055844
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "545ef2c88fc8ee38f533e54469c16443.bundle",
+  "m_Dependencies": [
+    "34a5d6e35247fd6b42e6a85ab2ae2951.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "e3e4a078f978b523a2892b5b0b114cbf.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

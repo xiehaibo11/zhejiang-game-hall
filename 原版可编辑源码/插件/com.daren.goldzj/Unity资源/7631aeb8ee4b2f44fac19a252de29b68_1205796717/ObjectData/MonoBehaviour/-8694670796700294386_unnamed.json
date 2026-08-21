@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2059320664599721885
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3639149444338544721
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1161130719286045519
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6477553461878895882
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -490232861187793764
+    }
+  ],
+  "m_BindComs_Name": [
+    "mProbLabel",
+    "mDoorIdleEffect",
+    "mDoorHighEffect",
+    "mDoorOpenEffect"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4473190559308815436
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6578861348987486625
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mDoorExploreEffects"
+  ],
+  "hotfixClassFullName": "GameHotFix.TempleExplore.TempleExploreDoorItem",
+  "m_ClassName": "TempleExploreDoorItem"
+}

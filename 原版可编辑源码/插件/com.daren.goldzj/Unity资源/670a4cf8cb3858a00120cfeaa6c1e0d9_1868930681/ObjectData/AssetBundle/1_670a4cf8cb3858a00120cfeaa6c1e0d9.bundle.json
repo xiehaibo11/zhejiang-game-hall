@@ -1,0 +1,203 @@
+{
+  "m_Name": "670a4cf8cb3858a00120cfeaa6c1e0d9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7984492762265843700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691676500807756964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6820487938940212786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6750300835060219162
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6738472652355748598
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6220595513303507763
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5996354887576356630
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5383063294181660710
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5310698000584810679
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4810855352967426727
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4642062008329829896
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4433182334135407000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4168226872328375929
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3237341089593984498
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2901953680072303832
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1184424845255111089
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -667116039271521769
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -424340154251973639
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 230487153503640904
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1136408857557106071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1206887983505703994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1787678332248251776
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3253277021561109514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3478236175602759753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4148872120287144791
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4578370934684412242
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5929047747104956493
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7093938409504748948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7127707587132500968
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7686277680452877067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8584255915939726934
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6584386142572782167
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3491962781431003282
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8087818748039608436
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 501024573815389110
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1524313234384525097
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -6923479532609212048
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/cannoneffect/cannoneffect_kuangbao.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 41,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5996354887576356630
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "670a4cf8cb3858a00120cfeaa6c1e0d9.bundle",
+  "m_Dependencies": [
+    "00baf169f054fd57777844fd6967b2cc.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle",
+    "86d10f79035af6800537514973fd0710.bundle",
+    "995d38e1d832d293b073eae581422473.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

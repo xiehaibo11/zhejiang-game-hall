@@ -1,0 +1,36 @@
+
+undefined8 ssl3_setup_read_buffer(long param_1)
+
+{
+  ulong uVar1;
+  int iVar2;
+  void *pvVar3;
+  ulong uVar4;
+  
+                    /* catch() { ... } // from try @ 00acab48 with catch @ 00acab10 */
+  pvVar3 = *(void **)(param_1 + 0x3b8);
+  if (pvVar3 == (void *)0x0) {
+    uVar4 = (ulong)((*(uint *)(*(long *)(*(long *)(param_1 + 8) + 0xc0) + 0x68) & 8) + 0x4148);
+    iVar2 = ssl_allow_compression(param_1);
+                    /* try { // try from 00acab40 to 00bcab47 has its CatchHandler @ 00acab64 */
+                    /* try { // try from 00acab48 to 00bcabbb has its CatchHandler @ 00acab10 */
+    if (iVar2 != 0) {
+      uVar4 = uVar4 | 0x400;
+    }
+    uVar1 = *(ulong *)(param_1 + 0x3c0);
+    if (*(ulong *)(param_1 + 0x3c0) <= uVar4) {
+      uVar1 = uVar4;
+    }
+                    /* catch() { ... } // from try @ 00acab40 with catch @ 00acab64 */
+    pvVar3 = CRYPTO_malloc((int)uVar1,"ssl/record/ssl3_buffer.c",0x3f);
+    if (pvVar3 == (void *)0x0) {
+      ERR_put_error(0x14,0x9c,0x41,"ssl/record/ssl3_buffer.c",0x49);
+      return 0;
+    }
+    *(void **)(param_1 + 0x3b8) = pvVar3;
+    *(ulong *)(param_1 + 0x3c8) = uVar1;
+  }
+  *(void **)(param_1 + 0x10d8) = pvVar3;
+  return 1;
+}
+

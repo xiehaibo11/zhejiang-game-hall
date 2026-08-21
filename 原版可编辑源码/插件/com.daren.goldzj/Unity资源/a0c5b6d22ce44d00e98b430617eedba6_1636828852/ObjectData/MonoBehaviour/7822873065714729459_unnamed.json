@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 362743616475286952
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4958938033508109970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8350188806986623717
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4156745385360922488
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8336372262543626714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6542753936215573453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5349467702011350496
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1240111202158613705
+    }
+  ],
+  "m_BindComs_Name": [
+    "LoadingGo",
+    "SkinLobbyGo",
+    "SkinGameGo",
+    "GameBgTexture",
+    "ElkSpine",
+    "SkinZhiZunGameGo",
+    "ZhiZunElkSpine"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Base.LoadingPanel",
+  "m_ClassName": "LoadingPanel"
+}

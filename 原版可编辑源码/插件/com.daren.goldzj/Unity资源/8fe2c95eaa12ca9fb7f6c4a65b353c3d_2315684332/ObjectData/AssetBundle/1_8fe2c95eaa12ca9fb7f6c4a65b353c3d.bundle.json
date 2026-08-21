@@ -1,0 +1,146 @@
+{
+  "m_Name": "8fe2c95eaa12ca9fb7f6c4a65b353c3d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 7072237908890457613
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8416380111618237268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8264449037870708503
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7773464691087362880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7723879680633755101
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6826481479138411023
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5938460433218910355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5706964243605704069
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5525174923439602697
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5348072454967708545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1414350236065976049
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1064135255489988932
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 292212401500699260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1341809962281998364
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1949329951331882099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2626561063831353863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3456619437166405377
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4124507010967633598
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5628778882083959517
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6869046747882216561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8203157789623728842
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8582125700535022409
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8691218766611051873
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6969990671181531077
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5606152093570490554
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 6854627785931633401
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/festivalromance/smallgame/effect/effecct_saoguang_title.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 27,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5348072454967708545
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8fe2c95eaa12ca9fb7f6c4a65b353c3d.bundle",
+  "m_Dependencies": [
+    "0af3d6600ad7727af8c7eb3fab6be853.bundle",
+    "54385b163745ef4b0ceb4892a4069bbe.bundle",
+    "88618f3c9dd5d7ca0ec9c15c94c3e652.bundle",
+    "990ae461d7ac2e46ae207d5f1c92fedf.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

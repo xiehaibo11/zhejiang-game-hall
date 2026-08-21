@@ -1,0 +1,220 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4358736341046836077
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 5,
+      "m_PathID": 3223364247328606313
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": false,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 6,
+    "m_PathID": 6118138795469198431
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6183770737758002728
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3831471904857373782
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5326176222704026166
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2968288056254544508
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2802898970213110991
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6395599841872356362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8437996227715365937
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6997548910358957157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3378740594417071618
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1730295521967097892
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4062692416772610049
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7249119250368232794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1922382678514669419
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 473806762983617748
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8230357980154118415
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3656078741660697455
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4148545260751803257
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3292779374385456543
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 232839517047988351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1101551126302171351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1094178315437792248
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2886814675459037181
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5597781596480605557
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3318304939381252081
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2869570255809490558
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7131929649821110032
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7725045756994639226
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5543224555037085666
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3293789102789632300
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4110766913085828435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8304376337468481285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5068979572041922893
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5723831884725452263
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2676239024311339879
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": 232839517047988351
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": 0.13149943947792053,
+      "y": -0.06711900234222412,
+      "z": -1.9371509552001953e-07
+    },
+    "m_Extent": {
+      "x": 1.0707486867904663,
+      "y": 0.6012411117553711,
+      "z": 0.3796736001968384
+    }
+  },
+  "m_DirtyAABB": false
+}

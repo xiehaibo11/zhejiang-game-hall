@@ -1,0 +1,89 @@
+{
+  "m_Name": "3cca077ccfa35dc1176e7cf4b0f73a52.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 8441363725185936755
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5742169577372301674
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1717046333867155753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1216879979658105250
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1009307702867904269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1324443718062973577
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2378201028553280519
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3589270866505420800
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3998769137410424987
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5531544069559633836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8338909496557133400
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6630728411200997145
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4359662463725062728
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/supremethrone/effect/prefab/uieffect_saoguang_btn_01.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 13,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3589270866505420800
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3cca077ccfa35dc1176e7cf4b0f73a52.bundle",
+  "m_Dependencies": [
+    "98be9c6cd24f2a6e83d1323ee5f9833a.bundle",
+    "c5d21c0aea59b9f791b61dad6db6a534.bundle",
+    "d8b8602aeae53423c36477819b11a91d.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

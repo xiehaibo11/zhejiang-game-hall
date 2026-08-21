@@ -1,0 +1,43 @@
+{
+  "m_Name": "41d31e9ff06db769c5581014e6a8f7cf.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5278513541822236771
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8540644402626271186
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollectsystem/effect/animation/mainani.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5278513541822236771
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "41d31e9ff06db769c5581014e6a8f7cf.bundle",
+  "m_Dependencies": [
+    "816cc561ab3a69cf6aecf1528c5504d5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

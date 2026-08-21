@@ -1,0 +1,60 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2555532819936163460
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4255285326460816760
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5734187135901225256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8570869596297708539
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2555532819936163460
+    }
+  ],
+  "m_BindComs_Name": [
+    "_BtnClose",
+    "_LabelDesc",
+    "_BtnRule",
+    "_RulePanel"
+  ],
+  "m_BindInt": [
+    300000537
+  ],
+  "m_BindInt_Name": [
+    "_RuleID"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Succulent.CommonRuleTipsPanel",
+  "m_ClassName": "CommonRuleTipsPanel"
+}

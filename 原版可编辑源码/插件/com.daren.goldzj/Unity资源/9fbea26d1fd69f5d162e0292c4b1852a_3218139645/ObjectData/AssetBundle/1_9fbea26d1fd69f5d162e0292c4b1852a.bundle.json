@@ -1,0 +1,57 @@
+{
+  "m_Name": "9fbea26d1fd69f5d162e0292c4b1852a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -1687543902741472635
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1295688778994986171
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1536408445062208574
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8952923194494593555
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/gumulimitedgiftpanel/effect/material/rrby_noise_002_bxkh 6.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8952923194494593555
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9fbea26d1fd69f5d162e0292c4b1852a.bundle",
+  "m_Dependencies": [
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

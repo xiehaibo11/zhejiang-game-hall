@@ -1,0 +1,53 @@
+{
+  "m_Name": "5ab82f9f1610b754c7388a7808c07c72.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 4671903458333255541
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8996076897256620947
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3192962932273268096
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godchalleng/effect/material/mask_sjtz_1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3192962932273268096
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5ab82f9f1610b754c7388a7808c07c72.bundle",
+  "m_Dependencies": [
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "eb356dd4d8ad2e00922e2ef903beb288.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

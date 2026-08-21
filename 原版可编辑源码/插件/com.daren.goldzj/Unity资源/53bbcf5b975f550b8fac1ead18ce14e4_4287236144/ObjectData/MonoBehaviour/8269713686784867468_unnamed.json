@@ -1,0 +1,112 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5623452100619501992
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9119076591091764254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7734774648845337444
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1216667000860470291
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1410156070311397306
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1943244927144503188
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6235546546117917915
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3188066629111910349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4561466995778451677
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7680768736174703937
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -641108376137075253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2361307526200095701
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6618055572652528856
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5488507648289177386
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3443101788456340071
+    }
+  ],
+  "m_BindComs_Name": [
+    "mInfo",
+    "mBg",
+    "mFullNode",
+    "mNoFullNode",
+    "mEffect",
+    "mShowLevel",
+    "mFireCount",
+    "mProgressLabel",
+    "mProgress",
+    "mCanGetClick",
+    "mFullLabel",
+    "LabCountDown",
+    "GoRedPoint",
+    "lootNumberObj"
+  ],
+  "m_BindInt": [
+    1197,
+    0
+  ],
+  "m_BindInt_Name": [
+    "IconType",
+    "TimeStyle"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ColorfulPass.BtnColorfulPass",
+  "m_ClassName": "BtnColorfulPass"
+}

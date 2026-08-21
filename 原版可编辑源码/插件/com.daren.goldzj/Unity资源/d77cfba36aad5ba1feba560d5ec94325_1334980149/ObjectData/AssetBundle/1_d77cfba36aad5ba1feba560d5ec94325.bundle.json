@@ -1,0 +1,58 @@
+{
+  "m_Name": "d77cfba36aad5ba1feba560d5ec94325.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6857544289284930010
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2974844472328874135
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 7413486420477133269
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -8199796239832592901
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bosschallengeskin4/material/rrby_ui_570_bosschallenge_ 9.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6857544289284930010
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d77cfba36aad5ba1feba560d5ec94325.bundle",
+  "m_Dependencies": [
+    "22a628c0b644360b77528577dcdb9990.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "775f7f058f1c08a4df385df69663f653.bundle",
+    "cfa2c0ca2ae69606393dda517f9c30fc.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

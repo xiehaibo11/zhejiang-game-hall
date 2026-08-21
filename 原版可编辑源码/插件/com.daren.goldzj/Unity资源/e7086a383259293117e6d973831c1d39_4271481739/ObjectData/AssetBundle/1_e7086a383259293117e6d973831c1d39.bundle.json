@@ -1,0 +1,143 @@
+{
+  "m_Name": "e7086a383259293117e6d973831c1d39.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4280562722325660827
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6688781979260154908
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8389492830013361427
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3346530787636088054
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3320632364129391619
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2265470454888359480
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2156470839233960898
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1595776673522532970
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -992931688360942246
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6403355347693718484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3955249965062344662
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6688781979260154908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3750619693103154946
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3968604016914218396
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4290792955341561129
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9073472541246496879
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/095_feitianxiannv/animation/beijing.anim",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6688781979260154908
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/095_feitianxiannv/animation/feitianxiannv_camera.controller",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9073472541246496879
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/095_feitianxiannv/animation/feitianxiannv_scene.controller",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3955249965062344662
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/095_feitianxiannv/animation/miansha_rongjie.anim",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3750619693103154946
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/095_feitianxiannv/animation/position.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4280562722325660827
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e7086a383259293117e6d973831c1d39.bundle",
+  "m_Dependencies": [
+    "e3a82fb864470c1d1ebf7ee2119ffa0d.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

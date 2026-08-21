@@ -1,0 +1,283 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7765083988677733448
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2183557443212013454
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7628873634236953615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 371145539892266465
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -739066688305690133
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7311857105340709399
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2650756602207847589
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7424290987975776894
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3872530412801800028
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3300855716008399815
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3867552404087080085
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8179862040535226427
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2057272646576761619
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7555483646318335953
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2763101480573740901
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7776257144646492769
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -476809456609640773
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7385700489986830297
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1614160840642447374
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4379496442682585928
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5287926526343464899
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1757945674227326726
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3119505908834156118
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7473155581459574979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9131530311368747275
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7365972326571525402
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4827461873413818238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2971557124597749702
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6178814450226941427
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7065459410345545722
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6956205668794878918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1361769402169375645
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8451761179496209900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6430469879792905964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3858895452532223490
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -184458866992952425
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1219311484367163982
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4402088706185869638
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7808788394524959858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6633049870726357651
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 76011042383506623
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2883069070685749462
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -562257402097501818
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2431827964354211411
+    }
+  ],
+  "m_BindComs_Name": [
+    "BtnClose",
+    "BtnExit",
+    "BtnSound",
+    "BtnMusic",
+    "BtnMute",
+    "BtnEffect",
+    "BtnSever",
+    "FeedBackRedDotCount",
+    "AppVer",
+    "ResVer",
+    "ZhuXiaoBtn",
+    "UserServiceBtn",
+    "PrivacyBtn",
+    "ChildrenPrivacyBtn",
+    "privateInfo1Btn",
+    "privateInfo2Btn",
+    "debugBtn",
+    "ScreenView",
+    "SelectScreen1",
+    "SelectState1",
+    "SelectScreen2",
+    "SelectState2",
+    "SelectScreen3",
+    "SelectState3",
+    "SelectScreen4",
+    "SelectState4",
+    "GameSettingTrans",
+    "QualitySettingTrans",
+    "QualityBtn_High",
+    "QualityBtn_Mid",
+    "QualityBtn_Low",
+    "QualityBtn_VeryLow",
+    "QualityBtn_Auto",
+    "QualityState_High",
+    "QualityState_Mid",
+    "QualityState_Low",
+    "QualityState_VeryLow",
+    "QualityState_Auto",
+    "QualityAutoLabel",
+    "SelectStateFps30",
+    "SelectStateFps45",
+    "SelectStateFps60",
+    "BtnSelectFps30",
+    "BtnSelectFps45",
+    "BtnSelectFps60"
+  ],
+  "m_BindInt": [
+    500,
+    60,
+    0
+  ],
+  "m_BindInt_Name": [
+    "guiBtnW",
+    "guiBtnH",
+    "BuglySwtich"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [
+    "\u8bf7\u8f93\u5165\u9ad8\u5ea6",
+    "\u8bf7\u8f93\u5165\u5bbd\u5ea6",
+    "\u8bf7\u8f93\u5165\u9ad8\u5ea6"
+  ],
+  "m_BindString_Name": [
+    "singleHeightToEdit",
+    "doubleWidthToEdit",
+    "doubleHeightToEdit"
+  ],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0,
+    0
+  ],
+  "m_BindBool_Name": [
+    "resolutionAreaState",
+    "QualityAreaState"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Set.SetPanel",
+  "m_ClassName": "SetPanel"
+}

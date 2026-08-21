@@ -1,0 +1,173 @@
+{
+  "m_Name": "67a7c6ff7ea4dc1ca48e9b5d00cf82b8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 5,
+      "m_PathID": 4112159416671419154
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -8309601285589229234
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8486112244907780362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8828406397833422083
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8796437945092271718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7559473792772210860
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7160818186259958733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4264175922480532241
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3505928148907526567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1397494759802827457
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -319567241393754904
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -261829308207316196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -22768827951080897
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 477815297356942729
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1267093625194524122
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1323010330352376637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1397156047902508765
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1595875977254662528
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1790324953486373805
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2646617884843366716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5191020503709854371
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5671857627203212177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5876173867032104240
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5932555539431893329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6377280714199940782
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 4605622647528069076
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8658139015562713672
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 6395612512760148451
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/struggleofthreekingdoms/effect_39/prefab/effect_right_glow.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 33,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5932555539431893329
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "67a7c6ff7ea4dc1ca48e9b5d00cf82b8.bundle",
+  "m_Dependencies": [
+    "0ed482bdc6a07bb2d4356762a4293f43.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "728df9e21dfbfa0f1e10e9b05c3da36c.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "a57e041f60a5b993c72219c3b96a8d57.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle",
+    "f866dd840fe9d088005a5d45e84d67c2.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

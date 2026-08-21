@@ -1,0 +1,185 @@
+{
+  "m_Name": "be191c1c309ac95cb79a52321729f671.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4937487861482621599
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1466326010493387783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4796891862413594189
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 482011486020719215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1466326010493387783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4796891862413594189
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1966908610198586917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3768110343970208099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7206351784924526716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1090483902133752594
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4937487861482621599
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/zhandoutongxingzhengv2_ani/battlepasspanel_growth_view_v2.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4937487861482621599
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/zhandoutongxingzhengv2_ani/battlepasspanel_growth_view_v2.controller",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1090483902133752594
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/zhandoutongxingzhengv2_ani/zhandoutongxingzheng_jiangli_v2 1.anim",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1466326010493387783
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/zhandoutongxingzhengv2_ani/zhandoutongxingzheng_jiangli_v2.controller",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 482011486020719215
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/zhandoutongxingzhengv2_ani/zhandoutongxingzheng_renwu_v2.controller",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7206351784924526716
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/zhandoutongxingzhengv2_ani/zhandoutongxingzheng_shangdian_v2.anim",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4796891862413594189
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/zhandoutongxingzhengv2_ani/zhandoutongxingzheng_shangdian_v2.controller",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1966908610198586917
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "be191c1c309ac95cb79a52321729f671.bundle",
+  "m_Dependencies": [
+    "eaeea93e28cea69ad7c4793e9717ee41.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

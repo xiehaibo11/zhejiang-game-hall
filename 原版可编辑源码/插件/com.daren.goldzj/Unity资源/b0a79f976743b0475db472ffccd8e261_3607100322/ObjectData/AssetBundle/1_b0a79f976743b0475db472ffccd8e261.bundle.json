@@ -1,0 +1,58 @@
+{
+  "m_Name": "b0a79f976743b0475db472ffccd8e261.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -7199648044370370074
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4788374316369000739
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -252436316212805150
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2388964080238649968
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shenqimizong/material/jgtj_24.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4788374316369000739
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b0a79f976743b0475db472ffccd8e261.bundle",
+  "m_Dependencies": [
+    "4205426884cacf0c194fa84e339b86be.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle",
+    "adb59a18fbff2a5b484a02dbe98be099.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

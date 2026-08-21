@@ -1,0 +1,20 @@
+{
+  "m_Name": "\u540d\u5c06\u8bd5\u70bc_\u4fdd\u62a4\u7f69",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 48000,
+  "m_BitsPerSample": 16,
+  "m_Length": 1.4661458730697632,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-703741188ff8cac9de963ecb9810c96a/CAB-703741188ff8cac9de963ecb9810c96a.resource",
+    "m_Offset": 0,
+    "m_Size": 18528
+  },
+  "m_CompressionFormat": 1
+}

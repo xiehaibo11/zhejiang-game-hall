@@ -1,0 +1,57 @@
+{
+  "m_Name": "687fb77c6ba28d12ec8264bfa750edf8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1077288068119730913
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 42529462810692712
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -570287529119163122
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8380168838048882949
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/permanentcannonwinggift/effect/rrby_smoke_lysd 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1077288068119730913
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "687fb77c6ba28d12ec8264bfa750edf8.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "a27c35d01bb8355d6212589acd9ee1f5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

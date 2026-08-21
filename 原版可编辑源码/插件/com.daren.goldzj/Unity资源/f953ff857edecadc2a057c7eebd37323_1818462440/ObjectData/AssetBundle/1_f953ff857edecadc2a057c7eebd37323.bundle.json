@@ -1,0 +1,52 @@
+{
+  "m_Name": "f953ff857edecadc2a057c7eebd37323.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1330878682585569424
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5425271028850947533
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/059_shengdanlaoren2/texture/ui_eff_shengdan_shandian.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5425271028850947533
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/059_shengdanlaoren2/texture/ui_eff_shengdan_trail.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1330878682585569424
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f953ff857edecadc2a057c7eebd37323.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

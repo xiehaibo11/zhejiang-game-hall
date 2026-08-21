@@ -1,0 +1,69 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7681128131000442674
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8721072623913557102
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5954295081424962442
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4704633923375429860
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8041438759999577210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7413152127070394129
+    }
+  ],
+  "m_BindComs_Name": [
+    "GoRedPoint",
+    "SpNormal",
+    "LabNormal",
+    "SpGray",
+    "LabGray"
+  ],
+  "m_BindInt": [
+    0
+  ],
+  "m_BindInt_Name": [
+    "mBtnStatus"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0
+  ],
+  "m_BindBool_Name": [
+    "mIsChangeDepth"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Base.CommonButtonComponent",
+  "m_ClassName": "CommonButtonComponent"
+}

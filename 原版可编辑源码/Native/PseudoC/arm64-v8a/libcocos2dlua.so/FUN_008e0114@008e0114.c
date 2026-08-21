@@ -1,0 +1,41 @@
+
+undefined8 FUN_008e0114(lua_State *param_1)
+
+{
+  bool bVar1;
+  int iVar2;
+  GComponent *this;
+  ulong uVar3;
+  GObject *pGVar4;
+  GObject *unaff_x21;
+  
+  this = (GComponent *)tolua_tousertype(param_1,1,0);
+  iVar2 = lua_gettop(param_1);
+  if (iVar2 + -1 == 2) {
+    if (param_1 != (lua_State *)0x0) {
+      iVar2 = lua_gettop(param_1);
+      if ((iVar2 < 2) ||
+         (uVar3 = luaval_is_usertype(param_1,2,"fairygui.GObject",0), (uVar3 & 1) == 0)) {
+        bVar1 = false;
+      }
+      else {
+        unaff_x21 = (GObject *)tolua_tousertype(param_1,2,0);
+        bVar1 = true;
+      }
+      iVar2 = lua_gettop(param_1);
+      if (((2 < iVar2) &&
+          (uVar3 = luaval_is_usertype(param_1,3,"fairygui.GObject",0), (uVar3 & 1) != 0)) &&
+         (pGVar4 = (GObject *)tolua_tousertype(param_1,3,0), bVar1)) {
+        fairygui::GComponent::swapChildren(this,unaff_x21,pGVar4);
+        return 0;
+      }
+    }
+    tolua_error(param_1,"invalid arguments in function \'lua_fairygui_GComponent_swapChildren\'",0);
+  }
+  else {
+    luaL_error(param_1,"%s has wrong number of arguments: %d, was expecting %d \n",
+               "fairygui.GComponent:swapChildren",iVar2 + -1,2);
+  }
+  return 0;
+}
+

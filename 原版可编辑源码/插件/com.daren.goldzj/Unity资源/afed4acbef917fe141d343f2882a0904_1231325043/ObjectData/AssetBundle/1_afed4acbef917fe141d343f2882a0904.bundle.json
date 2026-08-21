@@ -1,0 +1,127 @@
+{
+  "m_Name": "afed4acbef917fe141d343f2882a0904.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5190678397152448366
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6367900946132994051
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6367900946132994051
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5592807467241116960
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3843906805504816927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6065612615758707150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2622481692021041505
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u6781\u9650\u8bd5\u70bc/texture_npot/limittrial_btn.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6065612615758707150
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u6781\u9650\u8bd5\u70bc/texture_npot/limittrial_btn2.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2622481692021041505
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u6781\u9650\u8bd5\u70bc/texture_npot/limittrial_title2_mask.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3843906805504816927
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u6781\u9650\u8bd5\u70bc/texture_npot/limittrial_title_mask.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5190678397152448366
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u6781\u9650\u8bd5\u70bc/texture_npot/limittrialjl.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6367900946132994051
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u6781\u9650\u8bd5\u70bc/texture_npot/mask_title_bt.mat",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5592807467241116960
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "afed4acbef917fe141d343f2882a0904.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

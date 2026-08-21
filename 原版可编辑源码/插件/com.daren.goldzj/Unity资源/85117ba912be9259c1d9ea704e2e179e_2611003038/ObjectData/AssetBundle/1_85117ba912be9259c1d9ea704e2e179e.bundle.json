@@ -1,0 +1,129 @@
+{
+  "m_Name": "85117ba912be9259c1d9ea704e2e179e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -594437855266375491
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3836241919185554168
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1046800608083292954
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8532802449497984025
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7204546257023229233
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6780647917025499569
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1302086622790182506
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3768954274869232153
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8045338545213625425
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1086150890751919823
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7296479318064699542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3836241919185554168
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/uieffect/danzhuminigame/labaji/dengguang.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8045338545213625425
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/uieffect/danzhuminigame/labaji/jinqiu_long01.anim",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3836241919185554168
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/uieffect/danzhuminigame/labaji/jinqiu_long01.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -594437855266375491
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/uieffect/danzhuminigame/labaji/shandian.fbx",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7204546257023229233
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/uieffect/danzhuminigame/labaji/shandian.fbx",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8532802449497984025
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "85117ba912be9259c1d9ea704e2e179e.bundle",
+  "m_Dependencies": [
+    "22a628c0b644360b77528577dcdb9990.bundle",
+    "3743bfa104306b5eab3b6f84cfddc104.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

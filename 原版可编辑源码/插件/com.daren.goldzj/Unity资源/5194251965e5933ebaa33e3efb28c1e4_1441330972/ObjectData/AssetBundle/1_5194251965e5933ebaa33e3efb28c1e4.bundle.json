@@ -1,0 +1,155 @@
+{
+  "m_Name": "5194251965e5933ebaa33e3efb28c1e4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 6412593343540956330
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8688025313579985383
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8679637402647021191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8471642601108249320
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8379393621652603335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8187120883847932045
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7207818216619324723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6545755880063859196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5639664609714670013
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5386412461159633294
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3520624052113878478
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3419585400132002969
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2183728638003195598
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1220161215826059355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -566353939723155006
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 726172493107599012
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 892416304019102962
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1441343703362876498
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1543044325845733448
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2887669727981966649
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3357022200562802929
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4084288579749854818
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7941670991350576512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9060808127950923604
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 751934968783473048
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 9190734317042510720
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8955557398063370579
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -1401268814421825314
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/purchasegoldpackage/effect/prefab/uieffect_icon_idle.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 29,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3419585400132002969
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5194251965e5933ebaa33e3efb28c1e4.bundle",
+  "m_Dependencies": [
+    "26a6b938b62ca97407505014ebd71fdb.bundle",
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle",
+    "e6cb3784d27b86b84a11dafa542cfb26.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

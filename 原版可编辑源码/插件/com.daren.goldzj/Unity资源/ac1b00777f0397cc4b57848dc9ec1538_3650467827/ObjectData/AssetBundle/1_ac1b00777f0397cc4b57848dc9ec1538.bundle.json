@@ -1,0 +1,163 @@
+{
+  "m_Name": "ac1b00777f0397cc4b57848dc9ec1538.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 6,
+      "m_PathID": 4527497690832738936
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4849568498039501105
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8541975515407385776
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -6817039837061762603
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4520133510608150107
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2787728970888940474
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9123744484842380375
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -2479502652119042880
+    },
+    {
+      "m_FileID": 8,
+      "m_PathID": -5876287802038250715
+    },
+    {
+      "m_FileID": 9,
+      "m_PathID": 3088203281148658946
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6975919720393163179
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -3809943008289184525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -244768364433557494
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 1268937170608096262
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/res/ui/views/kingsystem/effect/materials/point502_twxt_sj.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4849568498039501105
+        }
+      }
+    ],
+    [
+      "assets/res/ui/views/kingsystem/effect/materials/star_add_cjxt 1.mat",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6975919720393163179
+        }
+      }
+    ],
+    [
+      "assets/res/ui/views/kingsystem/effect/materials/trail701_twxt_sj_2.mat",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2787728970888940474
+        }
+      }
+    ],
+    [
+      "assets/res/ui/views/kingsystem/effect/materials/trails803_twxt_sj.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9123744484842380375
+        }
+      }
+    ],
+    [
+      "assets/res/ui/views/kingsystem/effect/materials/ui_eff_tianwang_baodian.mat",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -244768364433557494
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ac1b00777f0397cc4b57848dc9ec1538.bundle",
+  "m_Dependencies": [
+    "2ab7f8ced0d4b9d60f0bb614395e07dd.bundle",
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle",
+    "ad2923650fd5cb34db5369982d36beb5.bundle",
+    "d479ed2037e7aafb23c271a15487c7df.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

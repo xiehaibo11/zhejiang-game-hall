@@ -1,0 +1,8 @@
+
+void FUN_010079cc(long param_1)
+
+{
+  cpPinJointSetDist(*(undefined4 *)(param_1 + 0x10),**(undefined8 **)(*(long *)(param_1 + 8) + 8));
+  return;
+}
+

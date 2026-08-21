@@ -1,0 +1,48 @@
+{
+  "m_Name": "28ef6e6473b4f8cd45b7ae38bc16a685.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3217811812055604591
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1077262458457858129
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/wingspine/wing_907009/materials/smoke_0001_ab.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1077262458457858129
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "28ef6e6473b4f8cd45b7ae38bc16a685.bundle",
+  "m_Dependencies": [
+    "30b0356d69aae6d334f873b41c2f2e63.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,84 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4928149374655946104
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3548242830702806505
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5162774674847354550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4256561414226561124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7342987075208918200
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3339937207028027988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3535383896191532993
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8526538863761908355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4400712766589738156
+    }
+  ],
+  "m_BindComs_Name": [
+    "CaiJinGo",
+    "LuckyGo",
+    "BuyuGo",
+    "LabCountDown",
+    "LabReward",
+    "ProgressCaiJin",
+    "ProgressLucky",
+    "mFreeGoldBuff"
+  ],
+  "m_BindInt": [
+    0,
+    0,
+    0
+  ],
+  "m_BindInt_Name": [
+    "_threadTimer",
+    "activityId",
+    "activityType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GoodWelfareUltra.GameActivityGoodWelfareUltraView",
+  "m_ClassName": "GameActivityGoodWelfareUltraView"
+}

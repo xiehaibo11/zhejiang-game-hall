@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_littlegame_JTFB_level_reward",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 48000,
+  "m_BitsPerSample": 16,
+  "m_Length": 2.784062385559082,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-447175b03f24778fec04110d3734acda/CAB-447175b03f24778fec04110d3734acda.resource",
+    "m_Offset": 0,
+    "m_Size": 40768
+  },
+  "m_CompressionFormat": 1
+}

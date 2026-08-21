@@ -1,0 +1,60 @@
+{
+  "m_Name": "ee0c8874fabc0656f7f2e2d266b9ec5a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6840083595521406726
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1820765046834969414
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6300116302514317431
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7480155659510845684
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/goldenpagoda/effect/rig/shijiata@tuchu2_cam.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6840083595521406726
+        }
+      }
+    ],
+    [
+      "assets/bundleresources/panel/goldenpagoda/effect/rig/shijiata@tuchu2_cam.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1820765046834969414
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ee0c8874fabc0656f7f2e2d266b9ec5a.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

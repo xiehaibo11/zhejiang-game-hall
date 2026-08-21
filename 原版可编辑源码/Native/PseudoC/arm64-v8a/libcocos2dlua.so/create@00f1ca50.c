@@ -1,0 +1,77 @@
+
+/* cocos2d::MenuItem::create(cocos2d::Ref*, void (cocos2d::Ref::*)(cocos2d::Ref*)) */
+
+Node * __thiscall cocos2d::MenuItem::create(MenuItem *this,Ref *param_1,_func_void_Ref_ptr *param_2)
+
+{
+  long lVar1;
+  Node *this_00;
+  code *pcVar2;
+  undefined **local_b0;
+  Ref *local_a8;
+  _func_void_Ref_ptr *p_Stack_a0;
+  MenuItem *local_98;
+  long *local_90;
+  long local_80 [4];
+  long *local_60;
+  long local_48;
+  
+  lVar1 = tpidr_el0;
+  local_48 = *(long *)(lVar1 + 0x28);
+                    /* try { // try from 00f1ca80 to 0101cad3 has its CatchHandler @ 00f1ccd0 */
+  this_00 = operator_new(0x330,(nothrow_t *)&std::nothrow);
+  if (this_00 != (Node *)0x0) {
+    Node::Node(this_00);
+    *(undefined2 *)(this_00 + 0x2f8) = 0;
+    *(undefined8 *)(this_00 + 800) = 0;
+    *(undefined ***)this_00 = &PTR__MenuItem_01704528;
+  }
+  local_b0 = &PTR_FUN_016d1d18;
+  local_80[0] = 0x3f0000003f000000;
+  local_a8 = param_1;
+  p_Stack_a0 = param_2;
+  local_98 = this;
+  local_90 = (long *)&local_b0;
+  (**(code **)(*(long *)this_00 + 0x148))(this_00,local_80);
+  if (local_90 == (long *)0x0) {
+    local_60 = (long *)0x0;
+  }
+  else if (&local_b0 == (undefined ***)local_90) {
+    local_60 = local_80;
+    (**(code **)(*local_90 + 0x18))(local_90,local_80);
+  }
+  else {
+                    /* try { // try from 00f1cb0c to 0101cb13 has its CatchHandler @ 00f1cc3c */
+    local_60 = (long *)(**(code **)(*local_90 + 0x10))();
+                    /* try { // try from 00f1cb14 to 0101cb4b has its CatchHandler @ 00f1c714 */
+  }
+  FUN_00dad434(local_80,this_00 + 0x300);
+                    /* try { // try from 00f1cb4c to 0101cb7b has its CatchHandler @ 00f1ccd0 */
+  if (local_80 == local_60) {
+    pcVar2 = *(code **)(*local_60 + 0x20);
+LAB_00f1cb6c:
+    (*pcVar2)();
+  }
+  else if (local_60 != (long *)0x0) {
+    pcVar2 = *(code **)(*local_60 + 0x28);
+    goto LAB_00f1cb6c;
+  }
+  *(undefined2 *)(this_00 + 0x2f8) = 0x100;
+                    /* try { // try from 00f1cb7c to 0101cc23 has its CatchHandler @ 00f1c714 */
+  if (&local_b0 == (undefined ***)local_90) {
+    pcVar2 = *(code **)(*local_90 + 0x20);
+  }
+  else {
+    if (local_90 == (long *)0x0) goto LAB_00f1cba4;
+    pcVar2 = *(code **)(*local_90 + 0x28);
+  }
+  (*pcVar2)();
+LAB_00f1cba4:
+  Ref::autorelease((Ref *)this_00);
+  if (*(long *)(lVar1 + 0x28) == local_48) {
+    return this_00;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+

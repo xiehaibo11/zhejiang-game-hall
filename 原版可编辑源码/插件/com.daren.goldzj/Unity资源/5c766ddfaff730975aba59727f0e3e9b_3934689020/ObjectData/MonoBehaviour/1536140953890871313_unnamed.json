@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5036833256832061945
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 523554939867969055
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7539773628762663297
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3367339684614029822
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 776923128735716588
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6839090860514339299
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7959443781665744932
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2657730020374826794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2752786585423262734
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7380633562818402169
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3322166451274352171
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4259679993180774610
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7294267174458059565
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1939920534597679651
+    }
+  ],
+  "m_BindComs_Name": [
+    "awardNormal",
+    "awardSuper",
+    "tagGetedNormal",
+    "tagGetedSuper",
+    "tagCanGetedNormal",
+    "tagCanGetedSuper",
+    "tagLock",
+    "tagDark",
+    "tagLight",
+    "txtLevel",
+    "txtLevel2",
+    "effectBigNormal",
+    "effectBigSuper"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.CardCollectTour.CardCollectTourPassItem",
+  "m_ClassName": "CardCollectTourPassItem"
+}

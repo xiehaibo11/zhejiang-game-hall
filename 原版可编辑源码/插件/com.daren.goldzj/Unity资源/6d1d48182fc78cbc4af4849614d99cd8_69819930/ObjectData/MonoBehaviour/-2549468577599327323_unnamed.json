@@ -1,0 +1,81 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -633290353282886765
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8026046655399472559
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1332261597542974664
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7615775052169737880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2311443703685609819
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3927054901906716142
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2234118891823660158
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5163868416530764957
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1981955324229905392
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4857073400511174128
+    }
+  ],
+  "m_BindComs_Name": [
+    "mCardIcon",
+    "mCloseBtn",
+    "mCountdownTime",
+    "mHideShowBtn",
+    "mSelect",
+    "mChangeBtn",
+    "mGrid",
+    "mCardGroupItem",
+    "mTips"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.CardCollectSystem.CardCollectSystemUniversalCardPanel",
+  "m_ClassName": "CardCollectSystemUniversalCardPanel"
+}

@@ -1,0 +1,217 @@
+{
+  "m_Name": "5c076375637e0a5ac0a59ceb8fb76c8d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5125489028452668891
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2810063937972832732
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4541178432081222383
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3787687785081952616
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2174524484033044730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3789023362993745115
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -49447037249218714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5820181664957790000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4145847638413313285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7724826502238155498
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3191654908783511998
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -790942054088653965
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3562917908845018461
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/bg_001.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5820181664957790000
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/bg_002.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -790942054088653965
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/bg_003_1.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3789023362993745115
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/ditu_01.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3562917908845018461
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/ditu_02.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7724826502238155498
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/long_04.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3787687785081952616
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/ramp_01.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4145847638413313285
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/t_cloud_001.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5125489028452668891
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/t_trail_001.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2810063937972832732
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/t_trail_004.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4541178432081222383
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/trail_002.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -49447037249218714
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/trail_003.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2174524484033044730
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/193_hanwudi/texture_npot/trail_703.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3191654908783511998
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5c076375637e0a5ac0a59ceb8fb76c8d.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

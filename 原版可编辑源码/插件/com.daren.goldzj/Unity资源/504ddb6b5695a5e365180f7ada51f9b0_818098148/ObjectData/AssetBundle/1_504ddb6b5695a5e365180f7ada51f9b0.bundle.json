@@ -1,0 +1,78 @@
+{
+  "m_Name": "504ddb6b5695a5e365180f7ada51f9b0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8817169158671623724
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4407516312638778615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -74435179647586953
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2535231886046353151
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6304171338461135671
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/115_lixiaolong/fbx/shanxin.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4407516312638778615
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/115_lixiaolong/fbx/shanxin.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6304171338461135671
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "504ddb6b5695a5e365180f7ada51f9b0.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

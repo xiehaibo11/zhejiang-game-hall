@@ -1,0 +1,757 @@
+{
+  "m_Name": "38b2e28d58d933698b24e508b1bfeb89.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1740143518109169247
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8817331215211088461
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5818876641401979183
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1267235263787905860
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1932980534918592758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3504513336029732592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8813612721549851507
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7497017778840340635
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 735320389473112300
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8364183576638227516
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6599533974469826179
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5262738886771930058
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 27737556914661468
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7464020601420102137
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -894847946354889451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1989486625457820055
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3619235339735673733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 546630528699741720
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8599904348145461184
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8484748162381601102
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1194210032321128367
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2265628246060179678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1398690696962382895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2428953732364499839
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6760236500406256951
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1755114508247232541
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1167971128639890611
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6022702436636380385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9089940028708368568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7467455465707511682
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7111800932590085037
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3605727250496469527
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3328034722705831005
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -166147114880360729
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1115182182589830736
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1630046772114504272
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6606986716761134747
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8838351901257924524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7561027175330586709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4143393541857900957
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8819102615351562428
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5618261167776215362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3565910751551241648
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1368632530842326722
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3732242629109049077
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4236914932922771307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6404134514842749270
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6799525841252918099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8532152690424638862
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/commontexture/ramp/3123123123.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 27737556914661468
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_001.png",
+      {
+        "preloadIndex": 40,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8819102615351562428
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_003.png",
+      {
+        "preloadIndex": 24,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6760236500406256951
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_007.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3504513336029732592
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_009.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8813612721549851507
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_010.png",
+      {
+        "preloadIndex": 23,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2428953732364499839
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_011.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8364183576638227516
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_012.png",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3619235339735673733
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_013 1.png",
+      {
+        "preloadIndex": 47,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6799525841252918099
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_013.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7497017778840340635
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_014.png",
+      {
+        "preloadIndex": 21,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2265628246060179678
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_015.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1267235263787905860
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_015_c.png",
+      {
+        "preloadIndex": 36,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6606986716761134747
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_015_c_1.png",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8599904348145461184
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_016.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1932980534918592758
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_016_c.png",
+      {
+        "preloadIndex": 25,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1755114508247232541
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_017.png",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 546630528699741720
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_017_c.png",
+      {
+        "preloadIndex": 30,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7111800932590085037
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_017_c1.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -894847946354889451
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_018.png",
+      {
+        "preloadIndex": 48,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8532152690424638862
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_018_c.png",
+      {
+        "preloadIndex": 34,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1115182182589830736
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_019.png",
+      {
+        "preloadIndex": 42,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3565910751551241648
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_019_c.png",
+      {
+        "preloadIndex": 29,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7467455465707511682
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_020.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6599533974469826179
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_020_c.png",
+      {
+        "preloadIndex": 35,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1630046772114504272
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_021.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1740143518109169247
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_021_c.png",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1989486625457820055
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_022_c.png",
+      {
+        "preloadIndex": 37,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8838351901257924524
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_023_c.png",
+      {
+        "preloadIndex": 43,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1368632530842326722
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_024_c.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5262738886771930058
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_025_c.png",
+      {
+        "preloadIndex": 28,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9089940028708368568
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_026.png",
+      {
+        "preloadIndex": 38,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7561027175330586709
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_026_fjpf.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 735320389473112300
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_026_lhtq.png",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1398690696962382895
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_027.png",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1194210032321128367
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_027_lhtq.png",
+      {
+        "preloadIndex": 41,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5618261167776215362
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_028.png",
+      {
+        "preloadIndex": 27,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6022702436636380385
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_028_lhtq.png",
+      {
+        "preloadIndex": 45,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4236914932922771307
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_030_c.png",
+      {
+        "preloadIndex": 26,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1167971128639890611
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_031.png",
+      {
+        "preloadIndex": 39,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4143393541857900957
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_031_c.png",
+      {
+        "preloadIndex": 32,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3328034722705831005
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_032.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7464020601420102137
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_033.png",
+      {
+        "preloadIndex": 31,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3605727250496469527
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_034.png",
+      {
+        "preloadIndex": 19,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8484748162381601102
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_034_c.png.meta.png",
+      {
+        "preloadIndex": 46,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6404134514842749270
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_036.png",
+      {
+        "preloadIndex": 33,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -166147114880360729
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_037_c.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5818876641401979183
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_point_01.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8817331215211088461
+        }
+      }
+    ],
+    [
+      "assets/arts/commontexture/ramp/ramp_point_02.png",
+      {
+        "preloadIndex": 44,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3732242629109049077
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "38b2e28d58d933698b24e508b1bfeb89.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

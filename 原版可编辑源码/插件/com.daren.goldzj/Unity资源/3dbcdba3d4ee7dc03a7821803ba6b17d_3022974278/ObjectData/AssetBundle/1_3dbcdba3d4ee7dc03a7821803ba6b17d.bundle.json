@@ -1,0 +1,175 @@
+{
+  "m_Name": "3dbcdba3d4ee7dc03a7821803ba6b17d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 9138771807065137275
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9026618549388773537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691676500807756964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7375164618533287234
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7116023714914296050
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5482812699897522301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4573427775316572401
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2921922316307534486
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2606772450058937841
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2538866727621011982
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1391000491358153800
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1152455505494555735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 730739741026982370
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 943434971459610499
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1643364806226784097
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2220591691918165482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2242901857197453929
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2879465405009968868
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3275265681482755855
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4316979848059665165
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5690922306316880105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5893974491290001452
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6012341778111874347
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6483131157769621103
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6843696583443075488
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7034270626930376626
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8988825486126765054
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3595446884448218959
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 9138065717085997927
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 2358157515250373900
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 5280890172330597675
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/killfishmulraterewardtag/martialgodrewardtag.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 34,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7116023714914296050
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3dbcdba3d4ee7dc03a7821803ba6b17d.bundle",
+  "m_Dependencies": [
+    "3f0b83ea63fcf93102cac0aed402137d.bundle",
+    "48e6de6b192417fe7d8533b880528789.bundle",
+    "6ed851de3d6fd43e2cdc78350c4e8238.bundle",
+    "907aaf98b9dce0c963914b915a77c0fa.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

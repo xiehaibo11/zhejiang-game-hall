@@ -1,0 +1,52 @@
+{
+  "m_Name": "6a64c3e70e9142d8a8f90869ee3c1e42.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8969328795043927893
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6336405481764695621
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7702782387793337650
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/versionupdate/spine/skeleton_skeletondata.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8969328795043927893
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6a64c3e70e9142d8a8f90869ee3c1e42.bundle",
+  "m_Dependencies": [
+    "80bae44d6d85fbc4dfa19349c65174ab.bundle",
+    "aae906627328fcb933233bc269568823.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

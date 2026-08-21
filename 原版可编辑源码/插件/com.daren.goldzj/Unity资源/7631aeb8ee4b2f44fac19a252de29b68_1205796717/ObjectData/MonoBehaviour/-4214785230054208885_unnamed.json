@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5435058230587017699
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6457552272789472023
+  },
+  "m_Name": "",
+  "method": 0,
+  "style": 0,
+  "animationCurve": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 2.0,
+        "outSlope": 2.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "ignoreTimeScale": 1,
+  "delay": 0.0,
+  "duration": 0.699999988079071,
+  "steeperCurves": 0,
+  "tweenGroup": 0,
+  "onFinished": [],
+  "eventReceiver": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "callWhenFinished": "",
+  "from": {
+    "x": 53.400001525878906,
+    "y": 307.20001220703125,
+    "z": 0.0
+  },
+  "to": {
+    "x": -49.0,
+    "y": 92.0,
+    "z": 0.0
+  },
+  "worldSpace": 0
+}

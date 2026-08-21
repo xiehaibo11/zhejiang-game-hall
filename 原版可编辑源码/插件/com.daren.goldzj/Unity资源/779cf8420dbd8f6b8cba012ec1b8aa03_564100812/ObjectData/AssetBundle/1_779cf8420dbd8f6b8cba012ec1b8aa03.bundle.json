@@ -1,0 +1,287 @@
+{
+  "m_Name": "779cf8420dbd8f6b8cba012ec1b8aa03.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3530848878602027779
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 72160378792446083
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2960357222752489879
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4122824379429137300
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5917036788438882273
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8859675422005266148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6172308733078518917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5574817012625487538
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1550992725694340565
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5235753477736763560
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7397299885843277002
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6550991393153879148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3874346801025562382
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2576019231289415695
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1381062309990820578
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4886781598577692952
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8995704315005928179
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2391534762263472735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2352692700810708116
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2466643651912856046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7076669395758351534
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5616890814503158074
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4003135995014683477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2305629945989887569
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2560482163417302334
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3435311376601835645
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/line_shexian_01.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5574817012625487538
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/line_shexian_01.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1550992725694340565
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/plane_001.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2960357222752489879
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/plane_001.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 72160378792446083
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/plane_luoxuan.fbx",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2466643651912856046
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/plane_luoxuan.fbx",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8995704315005928179
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/ring_001.fbx",
+      {
+        "preloadIndex": 30,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3435311376601835645
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/ring_001.fbx",
+      {
+        "preloadIndex": 30,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4003135995014683477
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/yuantong_001.fbx",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1381062309990820578
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/fbx/yuantong_001.fbx",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3874346801025562382
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "779cf8420dbd8f6b8cba012ec1b8aa03.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8b35ecee62bccfa14df72aeca97478e9.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

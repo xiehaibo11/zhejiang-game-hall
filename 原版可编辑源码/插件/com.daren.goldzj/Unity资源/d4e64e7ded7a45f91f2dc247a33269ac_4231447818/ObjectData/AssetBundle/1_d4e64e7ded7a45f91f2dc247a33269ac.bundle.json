@@ -1,0 +1,58 @@
+{
+  "m_Name": "d4e64e7ded7a45f91f2dc247a33269ac.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 8997950324624240230
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 2677158624497426361
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7259013917156949883
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2255798334377284485
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/fengshenpuzzle/effect/material/noise.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2255798334377284485
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d4e64e7ded7a45f91f2dc247a33269ac.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "657c5f3642506e3b2d515e66a3323827.bundle",
+    "6725bfa915df598bccedb8e607d52480.bundle",
+    "9434e33794e4cec9b5350f1662674aed.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,86 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1861473679139730639
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4298380751534792229
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8309234648091359159
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8560676762029670010
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4985645806530599577
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7446448241579002449
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4434414700542155592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 689171887698357820
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3915132123572137434
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8875620812771217154
+    }
+  ],
+  "m_BindComs_Name": [
+    "btnClose",
+    "btnOK",
+    "btnSave",
+    "btnSendClient",
+    "btnSendServer",
+    "inputXYID",
+    "inputXYJson",
+    "inputMark",
+    "txtXYName",
+    "_gridCompBind"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.DebugModel.DebugProtocolPanel",
+  "m_ClassName": "DebugProtocolPanel"
+}

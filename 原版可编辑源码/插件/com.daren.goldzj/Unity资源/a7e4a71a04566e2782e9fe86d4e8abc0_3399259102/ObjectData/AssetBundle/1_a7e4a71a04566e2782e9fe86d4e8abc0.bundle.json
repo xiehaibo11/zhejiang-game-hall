@@ -1,0 +1,150 @@
+{
+  "m_Name": "a7e4a71a04566e2782e9fe86d4e8abc0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8721314357024136700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8202791647420327861
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6063004173064485874
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5500865033947273198
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5445257256557905208
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5277370538099378221
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3740078491015217194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3143853360112997294
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -406455756897177474
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 84134803688477013
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 96632991738563410
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 162489456082725492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 272947723187400753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 797432687818409254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1493017694671836392
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1754913953954183324
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2388182926501317463
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3191935907940730904
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3924982503811736620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6069781241002741216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6258802306331578528
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7428672316913472517
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7637461016734111690
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7880297524662103633
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -5421894792698611241
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6238514460290565305
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 539624798237957630
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 300247564625692073
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactprayv2/effect/prefab/ui_effect_fahai_fenwei.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 28,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1493017694671836392
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a7e4a71a04566e2782e9fe86d4e8abc0.bundle",
+  "m_Dependencies": [
+    "0a74cd72e3d2eb46ce430c40f25e84f9.bundle",
+    "b752fb31562bb6a6b5930551108ae83b.bundle",
+    "dc7fdc08a7ba06e5975aabd914cf36e8.bundle",
+    "ee30215828f56873eb26ab98edd87807.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

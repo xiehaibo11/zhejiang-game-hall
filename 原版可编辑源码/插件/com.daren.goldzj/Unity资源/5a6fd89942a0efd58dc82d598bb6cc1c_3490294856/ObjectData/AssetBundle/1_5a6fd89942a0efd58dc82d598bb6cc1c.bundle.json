@@ -1,0 +1,83 @@
+{
+  "m_Name": "5a6fd89942a0efd58dc82d598bb6cc1c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 543216768531247451
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3625700460848113653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5217833106581576646
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2810520168365507746
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1590208622682261107
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2603243527583448208
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3212242766877021218
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7102391722896438922
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8649086877606225603
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9149279816056915793
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/laixidoubleflag.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5217833106581576646
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5a6fd89942a0efd58dc82d598bb6cc1c.bundle",
+  "m_Dependencies": [
+    "67810173795e9be092ff37331691d648.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

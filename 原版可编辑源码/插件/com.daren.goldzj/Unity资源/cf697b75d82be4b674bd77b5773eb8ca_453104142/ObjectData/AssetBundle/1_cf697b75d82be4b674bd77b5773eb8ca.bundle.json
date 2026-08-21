@@ -1,0 +1,62 @@
+{
+  "m_Name": "cf697b75d82be4b674bd77b5773eb8ca.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": 337025051458800568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4692557602119298626
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -1997015010128285755
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1295688778994986171
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1744894701660081330
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/materials/rrby_object_t004_wssj.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4692557602119298626
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "cf697b75d82be4b674bd77b5773eb8ca.bundle",
+  "m_Dependencies": [
+    "5f28c69fab8363a6d133521f863bcf69.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

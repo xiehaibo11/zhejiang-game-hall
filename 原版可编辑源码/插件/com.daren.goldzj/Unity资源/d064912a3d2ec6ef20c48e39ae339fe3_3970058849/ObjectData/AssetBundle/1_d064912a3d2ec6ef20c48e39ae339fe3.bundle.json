@@ -1,0 +1,67 @@
+{
+  "m_Name": "d064912a3d2ec6ef20c48e39ae339fe3.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -574500169150961862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 619784073531427810
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3520919257507561654
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/0_\u5929\u738b\u795e\u5668\u795e\u5ba0\u70ae\u9b42/\u70ae\u9b42_\u5367\u9f99\u8bf8\u845b/\u5367\u9f99\u8bf8\u845b_\u70ae\u9b42\u754c\u9762/texture_npot/bg_03.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3520919257507561654
+        }
+      }
+    ],
+    [
+      "assets/arts/0_\u5929\u738b\u795e\u5668\u795e\u5ba0\u70ae\u9b42/\u70ae\u9b42_\u5367\u9f99\u8bf8\u845b/\u5367\u9f99\u8bf8\u845b_\u70ae\u9b42\u754c\u9762/texture_npot/ring_01.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -574500169150961862
+        }
+      }
+    ],
+    [
+      "assets/arts/0_\u5929\u738b\u795e\u5668\u795e\u5ba0\u70ae\u9b42/\u70ae\u9b42_\u5367\u9f99\u8bf8\u845b/\u5367\u9f99\u8bf8\u845b_\u70ae\u9b42\u754c\u9762/texture_npot/ring_08.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 619784073531427810
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d064912a3d2ec6ef20c48e39ae339fe3.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

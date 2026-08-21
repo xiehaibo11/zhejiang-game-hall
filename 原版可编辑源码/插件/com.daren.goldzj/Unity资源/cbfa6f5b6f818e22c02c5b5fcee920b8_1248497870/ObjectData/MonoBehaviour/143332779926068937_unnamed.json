@@ -1,0 +1,70 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3710917303306576317
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -277190597121967197
+  },
+  "m_Name": "",
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": 2520930594513578590
+  },
+  "mSprites": [
+    {
+      "name": "bg_hytc_zd",
+      "x": 0,
+      "y": 878,
+      "width": 442,
+      "height": 68,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 1,
+      "paddingRight": 1,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_ygjx",
+      "x": 0,
+      "y": 217,
+      "width": 480,
+      "height": 660,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "title_zhztcg",
+      "x": 0,
+      "y": 0,
+      "width": 900,
+      "height": 216,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  ],
+  "mPixelSize": 1.0,
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mCoordinates": 0,
+  "sprites": []
+}

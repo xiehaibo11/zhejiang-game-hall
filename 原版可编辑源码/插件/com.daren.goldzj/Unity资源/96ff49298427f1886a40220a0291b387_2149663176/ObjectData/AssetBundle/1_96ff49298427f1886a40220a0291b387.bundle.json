@@ -1,0 +1,174 @@
+{
+  "m_Name": "96ff49298427f1886a40220a0291b387.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4158878867226797537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -671116437083813495
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1295771174119931476
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6810696046787711451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4158878867226797537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -671116437083813495
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2229301699617088813
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6810696046787711451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4158878867226797537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1494753197912586549
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -671116437083813495
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1295771174119931476
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2229301699617088813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6810696046787711451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -671116437083813495
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/spine/shijieboss_baoxiang/shijieboss_baoxiang.atlas.txt",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4158878867226797537
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/shijieboss_baoxiang/shijieboss_baoxiang.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -671116437083813495
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/shijieboss_baoxiang/shijieboss_baoxiang.skel.bytes",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1295771174119931476
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/shijieboss_baoxiang/shijieboss_baoxiang_atlas.asset",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2229301699617088813
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/shijieboss_baoxiang/shijieboss_baoxiang_material.mat",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6810696046787711451
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/shijieboss_baoxiang/shijieboss_baoxiang_skeletondata.asset",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1494753197912586549
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "96ff49298427f1886a40220a0291b387.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

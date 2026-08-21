@@ -1,0 +1,79 @@
+{
+  "m_Name": "976c38751f33944e5ee3932c30e7172a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8121245016230636295
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7509770120771260948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4681608262769189999
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2567082250911346482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -799569672314611071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2039520867353421681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4064689995157622025
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6289754548465851706
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7289544101255234223
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4278611902414801532
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/gameactivity/shenjiangtask/effect/prefab/effecct_saoguang.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 11,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4681608262769189999
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "976c38751f33944e5ee3932c30e7172a.bundle",
+  "m_Dependencies": [
+    "ad98fc33b8c7875e57ef6f09d13443aa.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

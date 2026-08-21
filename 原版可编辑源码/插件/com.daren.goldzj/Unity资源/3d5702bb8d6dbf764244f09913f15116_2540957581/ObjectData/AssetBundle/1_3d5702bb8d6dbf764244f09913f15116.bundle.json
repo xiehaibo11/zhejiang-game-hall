@@ -1,0 +1,547 @@
+{
+  "m_Name": "3d5702bb8d6dbf764244f09913f15116.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 71057179073111699
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5685221599333192758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2876413402106729914
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2286125462440158143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4967653449106980918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7157638515084935301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5224452683553402303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5754541569008860075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7138073009949155716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7075321742155126395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -648520402164287964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6906923031501821104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8247231418205169352
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1153123074969724831
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5202949466426518347
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8893306005880246434
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3279943445976911318
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7505888668228686392
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6813441354506529328
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2033365702007267152
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5289993182847944344
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5479042319431939319
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3032158256200939854
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8337296961247012618
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1899919511696102029
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3669135638498149487
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2199053463585857435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7288778801210789640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9170326245028982849
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1668842028951611919
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5659255287478898786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7231883059101432899
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5508008038734949804
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1505978897117460733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2430644091879628801
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/bg_01_gef.png",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8893306005880246434
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/glow_02_gef.png",
+      {
+        "preloadIndex": 24,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1899919511696102029
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/glow_1_gef.png",
+      {
+        "preloadIndex": 19,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2033365702007267152
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/heibaishan_01_gef.png",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7505888668228686392
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/heibaishan_02_gef.png",
+      {
+        "preloadIndex": 26,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2199053463585857435
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/heibaishan_03_gef.png",
+      {
+        "preloadIndex": 30,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5659255287478898786
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/heibaishan_04_gef.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 71057179073111699
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/heibaishan_05_gef.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2286125462440158143
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/heibaishan_06_gef.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7075321742155126395
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/img_sf_yxjs_gef.png",
+      {
+        "preloadIndex": 25,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3669135638498149487
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/img_sf_zlyj_gef.png",
+      {
+        "preloadIndex": 21,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5479042319431939319
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/lizi_01_gef.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -648520402164287964
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/mask_01_gef.png",
+      {
+        "preloadIndex": 23,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8337296961247012618
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/mask_02_gef.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8247231418205169352
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/mask_03_gef.png",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3279943445976911318
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/mask_05_gef.png",
+      {
+        "preloadIndex": 27,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7288778801210789640
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/mask_06_gef.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7138073009949155716
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/obj_caidai_01.png",
+      {
+        "preloadIndex": 28,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9170326245028982849
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_01_gef.png",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3032158256200939854
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_02_gef.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4967653449106980918
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_03_gef.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5685221599333192758
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_04_gef.png",
+      {
+        "preloadIndex": 29,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1668842028951611919
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_05_gef.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5754541569008860075
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_06_gef.png",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6813441354506529328
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_07_gef.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5202949466426518347
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_08_gef.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2876413402106729914
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_09_gef.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7157638515084935301
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_10_gef.png",
+      {
+        "preloadIndex": 31,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7231883059101432899
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_11_gef.png",
+      {
+        "preloadIndex": 33,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1505978897117460733
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_12_gef.png",
+      {
+        "preloadIndex": 32,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5508008038734949804
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_13_gef.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6906923031501821104
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/other_14_gef.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5224452683553402303
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/plane_01_gef.png",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5289993182847944344
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/ramp_01_gef.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1153123074969724831
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/128_gaoerfujiemie/texture/yezi_01.png",
+      {
+        "preloadIndex": 34,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2430644091879628801
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3d5702bb8d6dbf764244f09913f15116.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

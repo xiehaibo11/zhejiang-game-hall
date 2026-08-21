@@ -1,0 +1,156 @@
+{
+  "m_Name": "49208605ae37df37652e034a8a718c86.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4025642621333160686
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4273779748642602418
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4025642621333160686
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8366232629651238679
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7172780934991593655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4350376598055092178
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7172780934991593655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8366232629651238679
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1819635526047619089
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u8d22\u5bcc\u65e5\u7b7e/animation/jianglijiemian.anim",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7172780934991593655
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u8d22\u5bcc\u65e5\u7b7e/animation/jinbidoudong.anim",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4025642621333160686
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u8d22\u5bcc\u65e5\u7b7e/animation/moneydaysignaccumulatepanelctrl.controller",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4350376598055092178
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u8d22\u5bcc\u65e5\u7b7e/animation/moneydaysignboxctrl.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4273779748642602418
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u8d22\u5bcc\u65e5\u7b7e/animation/moneydaysignmainani.anim",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8366232629651238679
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u8d22\u5bcc\u65e5\u7b7e/animation/moneydaysignmainpanelctrl.controller",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1819635526047619089
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "49208605ae37df37652e034a8a718c86.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,68 @@
+{
+  "m_Name": "e292d1219ad256a0d3b3cdf7f9cd6933.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -4142827483994770150
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 2677158624497426361
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -2265628246060179678
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 415939679278330134
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8647391948974059403
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -2018724619845525590
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/materials/noise_01_sj_lk 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8647391948974059403
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e292d1219ad256a0d3b3cdf7f9cd6933.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "14da93d387c72baeaaa3ace9979409ba.bundle",
+    "38b2e28d58d933698b24e508b1bfeb89.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "657c5f3642506e3b2d515e66a3323827.bundle",
+    "b899c7b6e9b6cc6461ee648c152ef80f.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

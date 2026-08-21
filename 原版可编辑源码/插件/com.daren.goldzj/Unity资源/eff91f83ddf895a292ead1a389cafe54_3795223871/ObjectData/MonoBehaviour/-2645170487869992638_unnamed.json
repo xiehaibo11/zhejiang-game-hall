@@ -1,0 +1,96 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5666508750005788202
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4185992639238661566
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1071595350491710378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1277315324120872909
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8415926638627013994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1756380241478955940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4587744830969656563
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2694317193193309190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4855733061437337374
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9075394573023984
+    }
+  ],
+  "m_BindComs_Name": [
+    "mIcon",
+    "mName",
+    "mprogressLabel",
+    "mRewardNum",
+    "mProgressBar",
+    "mSelfBtn",
+    "mCanGet",
+    "mNew",
+    "mRewardOject"
+  ],
+  "m_BindInt": [
+    0
+  ],
+  "m_BindInt_Name": [
+    "mGroupType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 10,
+          "m_PathID": 4900458804178725715
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mAtlasList"
+  ],
+  "hotfixClassFullName": "GameHotFix.CardCollectSystem.CardCollectSystemGroupItem",
+  "m_ClassName": "CardCollectSystemGroupItem"
+}

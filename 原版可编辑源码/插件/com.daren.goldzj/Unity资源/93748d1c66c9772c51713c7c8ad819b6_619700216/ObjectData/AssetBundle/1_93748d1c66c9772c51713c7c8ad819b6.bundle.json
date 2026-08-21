@@ -1,0 +1,143 @@
+{
+  "m_Name": "93748d1c66c9772c51713c7c8ad819b6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 1496059431826430580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7666927251857929702
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6512898910950229843
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5147418648522303737
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4992798612740501000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2035669456263801703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1987996180447499446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 116136598691237257
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 451768182262893773
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 546790046153213725
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1495760577561884992
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1526301242579541795
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1854097594047050425
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3657182356916428063
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3913586032897416956
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5104846041018588189
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6573388366373348988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6660323378749940567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6905773382541698838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3097841575995397734
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -4904103585872232556
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -8847138082073251767
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactpray/effect/prefab/ui_eff_lyxz_reward_glow_blue.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 26,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1495760577561884992
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "93748d1c66c9772c51713c7c8ad819b6.bundle",
+  "m_Dependencies": [
+    "2d7c7f56cb6a54a13e02e01b5835cc60.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "885a281b83756887f085be2ccc5cbe01.bundle",
+    "a927c5391194bb9e7d1a64ea52d56239.bundle",
+    "fe9de61bdf45d5c6f2977d2a83cf0b57.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

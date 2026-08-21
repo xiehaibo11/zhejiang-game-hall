@@ -1,0 +1,186 @@
+{
+  "m_Name": "2f5573b4abd924f0ff99587cbaa41a38.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9001891264635458847
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8741956708180958276
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1916930323947351724
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1057155239341253956
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1670665393919882176
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6738044556515087722
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5546244585379410793
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2208974459285000594
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1749931169397864661
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9155308779800404595
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6107067648672494794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5143277693437660723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1355123349979420087
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1347642112520712212
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3781925281318121437
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/144_pangzibianshen/fbx/ms_plane_001.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9001891264635458847
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/144_pangzibianshen/fbx/ms_plane_001.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1670665393919882176
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/144_pangzibianshen/fbx/plane_003.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5143277693437660723
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/144_pangzibianshen/fbx/plane_003.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6107067648672494794
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/144_pangzibianshen/fbx/ring_002.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6738044556515087722
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/144_pangzibianshen/fbx/ring_002.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9155308779800404595
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2f5573b4abd924f0ff99587cbaa41a38.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

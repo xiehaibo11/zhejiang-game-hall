@@ -1,0 +1,53 @@
+{
+  "m_Name": "c93aa65a487bebd657d39a51c66b43ce.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7002719651412121641
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -351862259214041089
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1112168753273211959
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/fengshenpuzzle/effect/material/yuan.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7002719651412121641
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c93aa65a487bebd657d39a51c66b43ce.bundle",
+  "m_Dependencies": [
+    "22a628c0b644360b77528577dcdb9990.bundle",
+    "4a1481b399b08a77152d7632f6180c8d.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

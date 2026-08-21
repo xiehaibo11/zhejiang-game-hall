@@ -1,0 +1,116 @@
+{
+  "m_Name": "e0957a35470c7e0cea482da5c69e2a29.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8934382896164224960
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6718874374080360857
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8934382896164224960
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6738624786430806731
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2558016865542595447
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -196595868052933998
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6718874374080360857
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6718874374080360857
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3017586776493921754
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_bulletgift/bulletgift.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8934382896164224960
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_bulletgift/bulletgift.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6718874374080360857
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_bulletgift/bulletgift.prefab",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2558016865542595447
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_bulletgift/img_fpbj_bg.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3017586776493921754
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e0957a35470c7e0cea482da5c69e2a29.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

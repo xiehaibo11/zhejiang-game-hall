@@ -1,0 +1,232 @@
+{
+  "m_Name": "45891ee3974c362f65f67b93e6907d88.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -5399005526455027341
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 791736122295211575
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6362500967012332908
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7254302252829658243
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8689695652370929165
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8514083562708810328
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8134072225410188698
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8117864296985937907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7252657562867445494
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6378905683993439786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6299172992651844507
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6035173097377417889
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3932193516278188480
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3413046556375108214
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3255397705432342053
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2787136568495705385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2520411654290638936
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2136712912124514116
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1561089464939091470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1538981354968842484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -663313395006068852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 30793911793339918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 676004958499974725
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1079829836292317705
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1625806519095205429
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2191687075890441927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2299550469343226484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2716203856905852305
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3147001923238542072
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3445711365774455648
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3547543190092232893
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3561568563010398965
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4061315118967726538
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4373669714528264937
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4432127575220539752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6554456567509305518
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6880509388809192232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7466818930597937477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8498497997788862587
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9213331432167100311
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -6445396180038134822
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 7056446851012685671
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -2075255048033915098
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -7087172461970689292
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1460839105706815981
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/paotaieffect/skill_kuangbao_eff (1).prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 48,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4373669714528264937
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "45891ee3974c362f65f67b93e6907d88.bundle",
+  "m_Dependencies": [
+    "2b5f4c163ece770636d0d7421899ae1d.bundle",
+    "455b57f75f437c95234c0f7f59f324c6.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "65f8b4540958ee3891a27325b89cf113.bundle",
+    "7b14c45d02b38b42ef458a5625854151.bundle",
+    "eb5db2566db95d94f70f3a3461d7e1e8.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

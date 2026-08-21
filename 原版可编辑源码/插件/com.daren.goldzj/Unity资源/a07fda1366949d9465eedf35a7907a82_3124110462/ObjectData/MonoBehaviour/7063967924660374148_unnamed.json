@@ -1,0 +1,86 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3151482849372652519
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8294960962862932075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5010816964853384870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7573222610533234969
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2388202403457654916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 349253191151183456
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4497976115317486802
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4155966877857995229
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1932403699002432661
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8984556113563512824
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7531281522317446320
+    }
+  ],
+  "m_BindComs_Name": [
+    "mBtnBuy",
+    "mBtnBuyPrice",
+    "mBtnBuyed",
+    "mRewardItem",
+    "mGoldNum",
+    "mDiscount",
+    "mLimitCount",
+    "mFreeObj",
+    "mBuyObj",
+    "mBuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.RoadOfImperial.RoadOfImperialGiftItem",
+  "m_ClassName": "RoadOfImperialGiftItem"
+}

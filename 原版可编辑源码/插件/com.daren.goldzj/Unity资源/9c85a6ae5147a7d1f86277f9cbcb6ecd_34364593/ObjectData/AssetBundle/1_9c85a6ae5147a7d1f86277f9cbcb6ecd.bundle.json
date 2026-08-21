@@ -1,0 +1,202 @@
+{
+  "m_Name": "9c85a6ae5147a7d1f86277f9cbcb6ecd.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": -6527956321217443465
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8245770090436678703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8211336751435465537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6761427975682360351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6447547200911787977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6380265089141749757
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6366066449333186337
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6332451288521799713
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4964390982924043600
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4658163992155660803
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3825824507643559772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3042109447653606015
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2643954138234071704
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2212735894732569653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1130992602767385464
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -947621382295568270
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -427512752398908582
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -225529469946209161
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1264222952628125149
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2099008123167704670
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2290150639399786390
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2970025401327943195
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3376235788995644890
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5535127623953683405
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6274330534475797522
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7340734745312578519
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7728450933693534588
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7946653052776299058
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8003920470041986605
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8864037065042114983
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8897016615602743066
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9095496769376386015
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -9141616331238675036
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8166999339307491
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 964007059502991621
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1525658686066341846
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2377106783968996454
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4745208183915643822
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 82804389747998722
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonnew/20241/cannonlaserbz_20241.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 41,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6447547200911787977
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9c85a6ae5147a7d1f86277f9cbcb6ecd.bundle",
+  "m_Dependencies": [
+    "0ed482bdc6a07bb2d4356762a4293f43.bundle",
+    "82fd0d0d19527f439db7cf09b865a457.bundle",
+    "911c805a9246b5b75a3d06ace8774e99.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,185 @@
+{
+  "m_Name": "2e0b6acf28a216a1da9dd0130fefe9e7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3473065406821356038
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 65704835919222959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1198169167680287034
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2169172495315695506
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5368633550791603880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1198169167680287034
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2169172495315695506
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6050337335431542016
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3473065406821356038
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5128050901167404662
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5840370291291969475
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5840370291291969475
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5128050901167404662
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 65704835919222959
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/rig/liangshanpaotai/liangshanpaotai.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5368633550791603880
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/rig/liangshanpaotai/liangshanpaotai_chibang.mat",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6050337335431542016
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/rig/liangshanpaotai/liangshanpaotai_chibang_d.png",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5128050901167404662
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/rig/liangshanpaotai/liangshanpaotai_chibang_m_arnold.png",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5840370291291969475
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/rig/liangshanpaotai/liangshanpaotai_chibang_n.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3473065406821356038
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/rig/liangshanpaotai/liangshanpaotai_d.png",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 65704835919222959
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/rig/liangshanpaotai/liangshanpaotai_m_arnold.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1198169167680287034
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/rig/liangshanpaotai/liangshanpaotai_n.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2169172495315695506
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2e0b6acf28a216a1da9dd0130fefe9e7.bundle",
+  "m_Dependencies": [
+    "34a5d6e35247fd6b42e6a85ab2ae2951.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,65 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -54581145384225278
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2411634904277354031
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5000785716000102947
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8322610068917714465
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 266288825056125287
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2969551483125617040
+    }
+  ],
+  "m_BindComs_Name": [
+    "bg",
+    "txtPercent",
+    "tagGeted",
+    "tagSelect",
+    "effectSelect"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [
+    "xstz_tmzz_img_icon"
+  ],
+  "m_BindString_Name": [
+    "BgSpriteNamePrefix"
+  ],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BossChallenge.BossChallengePoolItem3",
+  "m_ClassName": "BossChallengePoolItem3"
+}

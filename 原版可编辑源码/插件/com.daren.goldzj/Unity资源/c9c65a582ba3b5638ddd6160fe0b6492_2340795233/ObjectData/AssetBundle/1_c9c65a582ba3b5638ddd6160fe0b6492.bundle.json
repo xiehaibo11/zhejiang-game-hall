@@ -1,0 +1,62 @@
+{
+  "m_Name": "c9c65a582ba3b5638ddd6160fe0b6492.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1596808082454347159
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -487069785277258288
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -487069785277258288
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/031_caishen/shoufenprefab/caishen_yuanbao.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -487069785277258288
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/031_caishen/shoufenprefab/caishen_yuanbao_ab.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1596808082454347159
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c9c65a582ba3b5638ddd6160fe0b6492.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

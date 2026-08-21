@@ -1,0 +1,48 @@
+{
+  "m_Name": "327db2c00c3ee4a80321a4b5262a4f39.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3851433613298558287
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3881357758061376001
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonsoulprefab/cannonsoul_3001/bulletlazerprefab/effect/materials/pahun_09.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3881357758061376001
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "327db2c00c3ee4a80321a4b5262a4f39.bundle",
+  "m_Dependencies": [
+    "08ef058b6e7c2e6313663a404b10057e.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

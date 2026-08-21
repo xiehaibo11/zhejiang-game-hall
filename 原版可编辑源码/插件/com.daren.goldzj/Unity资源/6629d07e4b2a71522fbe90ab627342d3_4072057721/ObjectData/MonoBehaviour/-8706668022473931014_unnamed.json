@@ -1,0 +1,235 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2504828707857706460
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4415499580455340469
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1320359513431999087
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1115249079226699273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8234110996093980216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8652651509955633269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3263008058279115735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -363583376546132489
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3198137176901539523
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4235284614339056675
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8805250789296194710
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1229584537495281785
+    }
+  ],
+  "m_BindComs_Name": [
+    "txtLotteryCount",
+    "btnOnce",
+    "btnTen",
+    "btnMore",
+    "btnPreview",
+    "toggleJump",
+    "previewTexture",
+    "grid",
+    "animator",
+    "animationEvent",
+    "effectTen"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4924852023338464135
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6583198170512366725
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4714950896385396971
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2235177786169340984
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6197190292679207451
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1639845453753303133
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7703144911046122488
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3442832619368931267
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8403989684439827323
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4931440559463604055
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3587796369285934468
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3938075870944673074
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1948825212665221444
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3453262779135456090
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7868612271525594390
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2288677329818991219
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1923448742155486077
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5482086492235501428
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6119131589625077184
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1502711830267852651
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5254086763391846221
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7155156552596904911
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3479279690882683899
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1014933002102936874
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3495907501639208638
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4491844097282629862
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -7282018396633732537
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7099563956076711822
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4065147898200786624
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8443999289851755151
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8972065198657546117
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1207799041701665232
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8433539600446603662
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "lights",
+    "previewTextures"
+  ],
+  "hotfixClassFullName": "GameHotFix.HotFighter.HotFighterLotteryPanel",
+  "m_ClassName": "HotFighterLotteryPanel"
+}

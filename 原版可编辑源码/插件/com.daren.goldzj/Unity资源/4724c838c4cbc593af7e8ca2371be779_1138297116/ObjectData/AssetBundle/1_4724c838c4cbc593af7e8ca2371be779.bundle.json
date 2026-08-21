@@ -1,0 +1,53 @@
+{
+  "m_Name": "4724c838c4cbc593af7e8ca2371be779.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6830111421324746137
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -7396659140212401765
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2898332735971265728
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollectsystem/effect/materials/saogunag_04_add.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6830111421324746137
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4724c838c4cbc593af7e8ca2371be779.bundle",
+  "m_Dependencies": [
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "7a820e71ea80ccf08096472345131925.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

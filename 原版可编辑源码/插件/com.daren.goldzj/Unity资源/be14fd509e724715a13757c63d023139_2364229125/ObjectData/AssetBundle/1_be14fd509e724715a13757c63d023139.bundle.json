@@ -1,0 +1,306 @@
+{
+  "m_Name": "be14fd509e724715a13757c63d023139.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3564686545729054762
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2553896076658051533
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 602730682166812895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5509463327040301936
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8544856241505144935
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8522079732279491186
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8102418166529471415
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2086908354449261374
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -995075653446195821
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -3060866309267009772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8522079732279491186
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 602730682166812895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2604332931446655643
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5509463327040301936
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4549883647190048692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4719155894190362074
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8462370078633614231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4549883647190048692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9018244369596362534
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6581459295331360040
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2553896076658051533
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3564686545729054762
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8544856241505144935
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8710045540212001746
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8462370078633614231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6581459295331360040
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/streetstorm_ani/active_cai.anim",
+      {
+        "preloadIndex": 30,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8710045540212001746
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/kaipao_0.anim",
+      {
+        "preloadIndex": 33,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6581459295331360040
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/kaipao_1.anim",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8544856241505144935
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/kaipao_2.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3564686545729054762
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/kaipao_3.anim",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2553896076658051533
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/pao.controller",
+      {
+        "preloadIndex": 25,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9018244369596362534
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/player_move.controller",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4719155894190362074
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/player_tp_begin.anim",
+      {
+        "preloadIndex": 31,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8462370078633614231
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/player_tp_end.anim",
+      {
+        "preloadIndex": 23,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4549883647190048692
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/player_tp_idle.anim",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5509463327040301936
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/streetstormwheelpanel_ani_skin2.controller",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2604332931446655643
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/zhuanpan_close.anim",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 602730682166812895
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/streetstorm_ani/zhuanpan_open_skin2.anim",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8522079732279491186
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "be14fd509e724715a13757c63d023139.bundle",
+  "m_Dependencies": [
+    "07f93074f7037fad78cb0b83ed6d34f4.bundle",
+    "477f2089ba541e4634b4730e7424f405.bundle",
+    "d5baf09d57934f2e15bc9c4c0aba283f.bundle",
+    "ef4ae83677dfa7e085cc14946c79b126.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,62 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3609113431834218464
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7420801608318602393
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3036184357982969943
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2180407862697381583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5725909460845821162
+    }
+  ],
+  "m_BindComs_Name": [
+    "Icon",
+    "Number",
+    "Select",
+    "Collider"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0,
+    1
+  ],
+  "m_BindBool_Name": [
+    "IsSelected",
+    "IsShowTip"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShenMiBaoZangV2.ShenMiBaoZangV2AwordBox",
+  "m_ClassName": "ShenMiBaoZangV2AwordBox"
+}

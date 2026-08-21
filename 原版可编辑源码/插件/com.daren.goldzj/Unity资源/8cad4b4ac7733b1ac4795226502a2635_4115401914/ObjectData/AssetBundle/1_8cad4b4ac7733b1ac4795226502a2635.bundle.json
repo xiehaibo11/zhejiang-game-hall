@@ -1,0 +1,182 @@
+{
+  "m_Name": "8cad4b4ac7733b1ac4795226502a2635.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2272108649221316592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -417158212271468474
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7227850273784393927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9036398155130650486
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -447485322688408658
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6705175934331642296
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2272108649221316592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7227850273784393927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6705175934331642296
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1508883185443949235
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8916723238346318846
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8916723238346318846
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/chaozhishouchongpanel/btnshouchongv4_label.anim",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8916723238346318846
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chaozhishouchongpanel/btnshouchongv4_label.controller",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1508883185443949235
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chaozhishouchongpanel/btnshouchongv4_sprite.anim",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7227850273784393927
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chaozhishouchongpanel/btnshouchongv4_sprite.controller",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9036398155130650486
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chaozhishouchongpanel/chaozhishouchongpanelv4.anim",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2272108649221316592
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chaozhishouchongpanel/chaozhishouchongpanelv4.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -417158212271468474
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chaozhishouchongpanel/continuepaytag.anim",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6705175934331642296
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/chaozhishouchongpanel/continuepaytag.controller",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -447485322688408658
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8cad4b4ac7733b1ac4795226502a2635.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

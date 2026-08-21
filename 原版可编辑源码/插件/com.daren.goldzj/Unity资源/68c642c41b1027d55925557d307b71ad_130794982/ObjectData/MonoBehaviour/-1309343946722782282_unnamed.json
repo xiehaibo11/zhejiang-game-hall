@@ -1,0 +1,81 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5615060545857616818
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5103800083752732179
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6921489240842264402
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 456239294317207215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7873602689924278210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -356242584120851190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3451214399989049134
+    }
+  ],
+  "m_BindComs_Name": [
+    "txtTask",
+    "txtProgress",
+    "btnGo",
+    "btnGray",
+    "btnGet",
+    "progress"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 3030466535873603067
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5781363927297349249
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "iconitemsBind"
+  ],
+  "hotfixClassFullName": "GameHotFix.GloryCelebration.GloryCelebrationBoxMasterItem",
+  "m_ClassName": "GloryCelebrationBoxMasterItem"
+}

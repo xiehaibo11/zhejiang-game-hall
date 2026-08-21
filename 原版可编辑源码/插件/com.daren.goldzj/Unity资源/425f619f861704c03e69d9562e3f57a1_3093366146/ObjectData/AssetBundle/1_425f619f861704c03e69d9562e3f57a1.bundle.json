@@ -1,0 +1,62 @@
+{
+  "m_Name": "425f619f861704c03e69d9562e3f57a1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3287875927409518957
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -4636561278831807349
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8044423323590095286
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -900061415700099628
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneralboss/1003/materials1.0/yifu_1003_shengji.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3287875927409518957
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "425f619f861704c03e69d9562e3f57a1.bundle",
+  "m_Dependencies": [
+    "34a5d6e35247fd6b42e6a85ab2ae2951.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "6cb5d80ffdd8ea559c6467c04adfecd8.bundle",
+    "ab77b9a1db7869db1f5db094caceafb9.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,53 @@
+{
+  "m_Name": "69bc237507186d55851feb07e197b773.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7943859018904955923
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7747836869333161333
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -6901520493822040230
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/celebratecny/effect/material/yanhua.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7943859018904955923
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "69bc237507186d55851feb07e197b773.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "d479ed2037e7aafb23c271a15487c7df.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,174 @@
+{
+  "m_Name": "94e4c52b328b2c0d67ff9610a854b801.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8337567127999125175
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7545115244840264362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7156548372628367640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6212045215653393838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5126155980171348279
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7549097801111514848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8337567127999125175
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7545115244840264362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7156548372628367640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6212045215653393838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7545115244840264362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7156548372628367640
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7549097801111514848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6212045215653393838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7545115244840264362
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleediting/spine/chilongrongyan/chilongrongyan.atlas.txt",
+      {
+        "preloadIndex": 19,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6212045215653393838
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/chilongrongyan/chilongrongyan.png",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7545115244840264362
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/chilongrongyan/chilongrongyan.skel.bytes",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7549097801111514848
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/chilongrongyan/chilongrongyan_atlas.asset",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8337567127999125175
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/chilongrongyan/chilongrongyan_material.mat",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7156548372628367640
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/chilongrongyan/chilongrongyan_skeletondata.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5126155980171348279
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "94e4c52b328b2c0d67ff9610a854b801.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

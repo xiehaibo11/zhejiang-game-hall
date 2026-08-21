@@ -1,0 +1,58 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3375834729155270468
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6498788287438281543
+  },
+  "m_Name": "",
+  "label": {
+    "m_FileID": 0,
+    "m_PathID": 6973678329063755722
+  },
+  "inputType": 0,
+  "onReturnKey": 0,
+  "keyboardType": 0,
+  "hideInput": 0,
+  "validation": 0,
+  "characterLimit": 0,
+  "savedAs": "",
+  "selectOnTab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "activeTextColor": {
+    "r": 0.886274516582489,
+    "g": 0.9921568632125854,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "caretColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 0.800000011920929
+  },
+  "selectionColor": {
+    "r": 1.0,
+    "g": 0.8745098114013672,
+    "b": 0.5529412031173706,
+    "a": 0.5
+  },
+  "onSubmit": [
+    {
+      "mTarget": {
+        "m_FileID": 0,
+        "m_PathID": 9098994200199373055
+      },
+      "mMethodName": "RemoveFocus",
+      "mParameters": [],
+      "oneShot": 0
+    }
+  ],
+  "onChange": [],
+  "mValue": ""
+}

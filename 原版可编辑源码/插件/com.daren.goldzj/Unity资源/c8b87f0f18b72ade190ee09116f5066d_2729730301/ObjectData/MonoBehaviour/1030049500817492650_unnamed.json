@@ -1,0 +1,115 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3844060811677535223
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7836225559617562663
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8180975350094076221
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2643335607736973047
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2641337562874334098
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6905630685613757090
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2966606690310771818
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6040632926692836718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5643963142163733149
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 15731473180773860
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1608907467822810934
+    }
+  ],
+  "m_BindComs_Name": [
+    "progressGo",
+    "maskObj",
+    "topPanel",
+    "mChildUIWidget",
+    "nameLabelGold",
+    "nameLabelPurple",
+    "nameLabelBlue",
+    "levelLabel",
+    "iconSprite",
+    "background"
+  ],
+  "m_BindInt": [
+    0,
+    10
+  ],
+  "m_BindInt_Name": [
+    "flyInTweenGroup",
+    "effectDepth"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "areas"
+  ],
+  "hotfixClassFullName": "GameHotFix.AchievementSystem.AtlasItem",
+  "m_ClassName": "AtlasItem"
+}

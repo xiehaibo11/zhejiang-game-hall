@@ -1,0 +1,207 @@
+{
+  "m_Name": "8bb82753df5833ca805b5248df4149b9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": 2569363954308252926
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -1605309064993884578
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 3180995904782872369
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -1696695277036707467
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4420451988354095883
+    },
+    {
+      "m_FileID": 8,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7593115041759064009
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7159745194505290384
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6678661157949447726
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6013075490259880310
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5193452292816919596
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4670742294041526303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4665748669811036219
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4598902866721847678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4410385407327522129
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3069155161321716948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2356257827534636811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1138836832660842945
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1097001459286851440
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1029928807448702801
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -865601474422023794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -151891941172053582
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 949102945085272963
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2265988075674718702
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2783865407203522268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2970047702333564419
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3776138668021509507
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4222061376835040096
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5471113999616348956
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5522022166485189975
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6083781572572499453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7179405527379263706
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7749260708860665661
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7817060565681039688
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8466342610518723554
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8497965214504355165
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8796831740346455274
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8094336623963104557
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4898700960348410336
+    },
+    {
+      "m_FileID": 9,
+      "m_PathID": -3028262590891060031
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/profile/titleframe/titleframeseteffect_32261.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 41,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1097001459286851440
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8bb82753df5833ca805b5248df4149b9.bundle",
+  "m_Dependencies": [
+    "358386a9eb9b9310baa49a50c6f8ff00.bundle",
+    "58570ea8bf388bd7249a09154270f417.bundle",
+    "87c178fa432c7d8aa83672c357f94613.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "9a55aa77ee2699dea563cf4a1838e3b7.bundle",
+    "9a7e6a35d3f1fe72dcec8e740e289a1e.bundle",
+    "9e13a7932ef48f2041a9645883a42335.bundle",
+    "c2e3372da7ca377859c870d6f853e5fe.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

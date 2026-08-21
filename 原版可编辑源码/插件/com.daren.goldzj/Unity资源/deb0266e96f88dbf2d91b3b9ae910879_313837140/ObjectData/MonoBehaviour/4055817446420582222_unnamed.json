@@ -1,0 +1,164 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8464806536690453010
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 412278791979213876
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8651735222171461071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3868028722569679252
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1008286956196759205
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1339547155148837897
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -611567008666946728
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8198276740343293718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3014846630297325454
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -94299171714596467
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2670305123054988930
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2537696962732108978
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5166504890637216993
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4317904019654853899
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7664174740298517752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9054489915246220386
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_ActivityTime",
+    "m_LimitCount",
+    "m_LeftRedrawCount",
+    "m_PackageListParent",
+    "m_Bottom",
+    "m_FirecrackerListParent",
+    "m_BtnRedrawNormal",
+    "m_BtnRedrawGray",
+    "m_RedrawNormalTable",
+    "m_RedrawGrayTable",
+    "m_BtnFreeRedraw",
+    "m_LabelFree",
+    "m_ChangeEffect",
+    "m_PanelAnimator",
+    "m_IgniteTipAnimator"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -6429890670327771050
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4941230706744153176
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6108801905780643142
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 2060919111271356584
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 923452513367676654
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 460392075065428352
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 7225413201084937012
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6601107264244071137
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 9005197703221997006
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "m_PackageList",
+    "m_FirecrackerList",
+    "m_FirecrackerAnimator"
+  ],
+  "hotfixClassFullName": "GameHotFix.NewYearLimitedTime.SpecialPackagePanel",
+  "m_ClassName": "SpecialPackagePanel"
+}

@@ -1,0 +1,31 @@
+
+/* std::__ndk1::__function::__func<std::__ndk1::__bind<void
+   (fairygui::GTree::*)(fairygui::EventContext*), fairygui::GTree*,
+   std::__ndk1::placeholders::__ph<1> const&>, std::__ndk1::allocator<std::__ndk1::__bind<void
+   (fairygui::GTree::*)(fairygui::EventContext*), fairygui::GTree*,
+   std::__ndk1::placeholders::__ph<1> const&> >, void
+   (fairygui::EventContext*)>::target(std::type_info const&) const */
+
+__func<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>>,void(fairygui::EventContext*)>
+* __thiscall
+std::__ndk1::__function::
+__func<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>>,void(fairygui::EventContext*)>
+::target(__func<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>>,void(fairygui::EventContext*)>
+         *this,type_info *param_1)
+
+{
+  __func<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>>,void(fairygui::EventContext*)>
+  *p_Var1;
+  
+  p_Var1 = this + 8;
+                    /* catch() { ... } // from try @ 00a8eac4 with catch @ 00a8eb5c */
+                    /* catch() { ... } // from try @ 00a8eadc with catch @ 00a8eb60 */
+  if (*(char **)(param_1 + 8) !=
+      "NSt6__ndk16__bindIMN8fairygui5GTreeEFvPNS1_12EventContextEEJPS2_RKNS_12placeholders4__phILi1EEEEEE"
+     ) {
+    p_Var1 = (__func<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(fairygui::GTree::*)(fairygui::EventContext*),fairygui::GTree*,std::__ndk1::placeholders::__ph<1>const&>>,void(fairygui::EventContext*)>
+              *)0x0;
+  }
+  return p_Var1;
+}
+

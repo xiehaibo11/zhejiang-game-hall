@@ -1,0 +1,37 @@
+{
+  "m_Name": "7ee2cd9307e384c336a9f8bd59ac4b7a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6953471018893867840
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactprayv2/effect/textures/artifactprayv2_item.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6953471018893867840
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7ee2cd9307e384c336a9f8bd59ac4b7a.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

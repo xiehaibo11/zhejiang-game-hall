@@ -1,0 +1,95 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4266321637827779926
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2317846374028443633
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 539579521951493651
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1606494051943013061
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 608229697853647031
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8750614228163518411
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1618405044024191753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3609542699833097678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6620319837796544829
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4591921532497432212
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8418885229077287774
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7459242835109952286
+    }
+  ],
+  "m_BindComs_Name": [
+    "commonBoxs",
+    "commonBoxsIcon",
+    "commonBoxsNumberLabel",
+    "commonbuyPriceLabel",
+    "commonfreeTask",
+    "firstBoxs",
+    "firstBoxsIcon",
+    "firstAwardPart",
+    "WaitReword",
+    "OptionalBox",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [
+    0
+  ],
+  "m_BindInt_Name": [
+    "LockState"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShenMiBaoZangV2.ShenMiBaoZangV2ItemBox",
+  "m_ClassName": "ShenMiBaoZangV2ItemBox"
+}

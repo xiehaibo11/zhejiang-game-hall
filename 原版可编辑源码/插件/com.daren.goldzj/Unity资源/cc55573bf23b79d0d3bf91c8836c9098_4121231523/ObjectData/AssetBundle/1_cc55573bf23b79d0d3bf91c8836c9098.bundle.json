@@ -1,0 +1,52 @@
+{
+  "m_Name": "cc55573bf23b79d0d3bf91c8836c9098.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 7292508190360397906
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7288267468846361039
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8701318741592554446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/emoji/normal/lol/jichubiaoqing_daxiao_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8701318741592554446
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "cc55573bf23b79d0d3bf91c8836c9098.bundle",
+  "m_Dependencies": [
+    "8037224c5c54a3df481389796dfb7c51.bundle",
+    "8ab1564f5cfd7907340f8177c848f27e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

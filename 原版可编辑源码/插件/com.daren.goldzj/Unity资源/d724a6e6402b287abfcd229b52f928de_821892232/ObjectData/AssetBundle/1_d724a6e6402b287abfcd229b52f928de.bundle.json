@@ -1,0 +1,83 @@
+{
+  "m_Name": "d724a6e6402b287abfcd229b52f928de.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8815033899091586514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7557869673063902407
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7309935411769502653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -859912447264385302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 217526948317860563
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4547889391037467972
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5374868239985644995
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5653924858518012813
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 593452766542537941
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyufiledfx/skill/buyu_fx_luckystar.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -859912447264385302
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d724a6e6402b287abfcd229b52f928de.bundle",
+  "m_Dependencies": [
+    "07da3d4909f20d607753d6fbd03e8389.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

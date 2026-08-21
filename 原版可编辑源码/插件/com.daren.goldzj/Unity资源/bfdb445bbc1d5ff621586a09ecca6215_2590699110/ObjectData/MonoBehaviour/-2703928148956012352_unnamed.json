@@ -1,0 +1,76 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3190403479655616281
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6109855343298373730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4700849801456497561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1217363408386563195
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 976566111040759500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3662709078224167269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1301308733064139281
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4777863965987798348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4524051673241369602
+    }
+  ],
+  "m_BindComs_Name": [
+    "IconItem",
+    "Day",
+    "DayTime",
+    "Activate",
+    "HadGet",
+    "Expired",
+    "Lock",
+    "Light"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.JuneFestival.ClockingRewardItem",
+  "m_ClassName": "ClockingRewardItem"
+}

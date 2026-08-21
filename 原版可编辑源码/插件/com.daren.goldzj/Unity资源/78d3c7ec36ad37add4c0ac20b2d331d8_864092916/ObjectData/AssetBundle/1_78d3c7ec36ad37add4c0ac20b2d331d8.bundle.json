@@ -1,0 +1,53 @@
+{
+  "m_Name": "78d3c7ec36ad37add4c0ac20b2d331d8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1764302383733602819
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6474223355823125922
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/junefestival/effect/material/rrby_ui_013_add_hyhg_nq 4.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6474223355823125922
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "78d3c7ec36ad37add4c0ac20b2d331d8.bundle",
+  "m_Dependencies": [
+    "2a54646ae2f9a1de43e6e21620d626f0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8302033850027404168
+  },
+  "m_Name": "shijieboss_baoxiang_SkeletonData",
+  "atlasAssets": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2229301699617088813
+    }
+  ],
+  "scale": 0.009999999776482582,
+  "skeletonJSON": {
+    "m_FileID": 0,
+    "m_PathID": 1295771174119931476
+  },
+  "fromAnimation": [],
+  "toAnimation": [],
+  "duration": [],
+  "defaultMix": 0.20000000298023224,
+  "controller": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "m_Name": "8072c99a56acc80628d2a9bb0054a4d1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -645815231588823330
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/textures/accumulatedcharge/img_lchd_banner_sq_11_mi.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -645815231588823330
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8072c99a56acc80628d2a9bb0054a4d1.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

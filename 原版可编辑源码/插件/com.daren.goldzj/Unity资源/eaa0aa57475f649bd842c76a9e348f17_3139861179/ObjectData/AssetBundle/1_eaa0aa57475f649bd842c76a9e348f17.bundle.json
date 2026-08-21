@@ -1,0 +1,37 @@
+{
+  "m_Name": "eaa0aa57475f649bd842c76a9e348f17.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5014155107265912526
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuangchongli/effect/texture/xinchunshuangchongli_mask.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5014155107265912526
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "eaa0aa57475f649bd842c76a9e348f17.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

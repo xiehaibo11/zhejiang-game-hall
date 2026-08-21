@@ -1,0 +1,48 @@
+{
+  "m_Name": "3cc4db2d986ebd9d4e5678894d9768df.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4378358511211172053
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5232349242757771585
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuangchongli/effect/material/fire_scl_2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5232349242757771585
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3cc4db2d986ebd9d4e5678894d9768df.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "a27c35d01bb8355d6212589acd9ee1f5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

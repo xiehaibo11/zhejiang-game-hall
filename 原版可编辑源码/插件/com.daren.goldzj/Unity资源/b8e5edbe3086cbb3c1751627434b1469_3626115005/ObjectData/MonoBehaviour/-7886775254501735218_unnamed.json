@@ -1,0 +1,130 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3950087367775140503
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -277190597121967197
+  },
+  "m_Name": "",
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": -5460634457477963127
+  },
+  "mSprites": [
+    {
+      "name": "img_jjgm_gjjj_bg",
+      "x": 0,
+      "y": 435,
+      "width": 741,
+      "height": 384,
+      "borderLeft": 500,
+      "borderRight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_jjgm_gjjj_bg1",
+      "x": 824,
+      "y": 193,
+      "width": 181,
+      "height": 183,
+      "borderLeft": 20,
+      "borderRight": 20,
+      "borderTop": 20,
+      "borderBottom": 20,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_jjgm_gjjj_huaxian",
+      "x": 0,
+      "y": 956,
+      "width": 367,
+      "height": 27,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_jjgm_hhjj_bg",
+      "x": 0,
+      "y": 0,
+      "width": 823,
+      "height": 434,
+      "borderLeft": 600,
+      "borderRight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_jjgm_hhjj_bg1",
+      "x": 824,
+      "y": 0,
+      "width": 181,
+      "height": 192,
+      "borderLeft": 20,
+      "borderRight": 20,
+      "borderTop": 20,
+      "borderBottom": 20,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_jjgm_hhjj_huaxian",
+      "x": 0,
+      "y": 984,
+      "width": 367,
+      "height": 21,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_jjgm_xiangou",
+      "x": 0,
+      "y": 820,
+      "width": 315,
+      "height": 135,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  ],
+  "mPixelSize": 1.0,
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mCoordinates": 0,
+  "sprites": []
+}

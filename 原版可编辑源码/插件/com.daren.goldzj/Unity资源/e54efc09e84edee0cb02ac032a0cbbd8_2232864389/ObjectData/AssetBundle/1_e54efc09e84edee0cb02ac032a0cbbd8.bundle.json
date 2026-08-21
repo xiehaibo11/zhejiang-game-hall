@@ -1,0 +1,170 @@
+{
+  "m_Name": "e54efc09e84edee0cb02ac032a0cbbd8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 10210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8770614714852826468
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8508803410332392059
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7862171974684068963
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7851582131328408060
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6948708036616683301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6799385648782648966
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6443550379553914837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5543493878985403303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5222297201002137791
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4275577528347453428
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3090089519650089128
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2585717718199781190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1826925501236811824
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 43145238478594278
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 245743031492615634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 622289139774314539
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 739285427916426224
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1004868114583277219
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1122541310562842346
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2072646810298931858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2207856773695813149
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3308993918032232794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3759795043678372846
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5193967673818710907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7115118272319113234
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7769880251137656741
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4270948633959499434
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -343148581768407970
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 862096308024325998
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3284316715988645883
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3427455735428317022
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -8949967971396055146
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/luckycrit/effect/prefab/xybj_fenwei_jiemian_zhuandong.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 33,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5222297201002137791
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e54efc09e84edee0cb02ac032a0cbbd8.bundle",
+  "m_Dependencies": [
+    "00baf169f054fd57777844fd6967b2cc.bundle",
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "85e06737cd7696439dccb7af3afd4358.bundle",
+    "c2f802da3350de6f28bdb13995af52de.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

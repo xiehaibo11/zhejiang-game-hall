@@ -1,0 +1,105 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4167819074093073177
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6043829744733173344
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7682033052557253536
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 158094330269187127
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4205770767920787356
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3011303579200972910
+    }
+  ],
+  "m_BindComs_Name": [
+    "btnRule",
+    "txtTime",
+    "btnClose",
+    "subRoot",
+    "selectionGroup"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 3105765148654546680
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6054897210274588759
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1606714941378627540
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4935503589847212994
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1997253714347806383
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8281421181331414513
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2345416511776399720
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8451529530451634391
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "subBtns",
+    "redPoints"
+  ],
+  "hotfixClassFullName": "GameHotFix.HotFighter.HotFighterMainPanel",
+  "m_ClassName": "HotFighterMainPanel"
+}

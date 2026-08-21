@@ -1,0 +1,48 @@
+{
+  "m_Name": "e372fc56573449a9eaf3e5341ae89559.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1605654111667634826
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6771738392448226062
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cannoncenter/effect/material/sequence_702_add_2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6771738392448226062
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e372fc56573449a9eaf3e5341ae89559.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "a33648ad22f734c524ae520f78ce29a7.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

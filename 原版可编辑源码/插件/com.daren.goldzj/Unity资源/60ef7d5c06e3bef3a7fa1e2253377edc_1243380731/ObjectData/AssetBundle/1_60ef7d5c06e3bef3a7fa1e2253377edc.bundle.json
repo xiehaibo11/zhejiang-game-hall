@@ -1,0 +1,131 @@
+{
+  "m_Name": "60ef7d5c06e3bef3a7fa1e2253377edc.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -7059210480382705243
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2284794355982762094
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1670665393919882176
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 3041161287048182494
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8133801635668546981
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5789041441973538567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3759483593976140966
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3608429832453533595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3434013348089687171
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2866625804715752278
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2172127517059322672
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2103299852251174663
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2805669662769214254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3608768577262170403
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6829933998585437519
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7347132348082570964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7356571279122671678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7901696957107241572
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8731903446925130880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9004277950129246307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9162955707865921273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9204208368838791964
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/newspringtreasurehunt/effect/prefab/uieffect_xcxb_open.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 23,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7356571279122671678
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "60ef7d5c06e3bef3a7fa1e2253377edc.bundle",
+  "m_Dependencies": [
+    "2f5573b4abd924f0ff99587cbaa41a38.bundle",
+    "a032a222103b7c667520987d6db0f161.bundle",
+    "ba57d99ca38d9ec687a759a4f7847e75.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle",
+    "ee4b711a657c68a2ac04b8f860b73df6.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

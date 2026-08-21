@@ -1,0 +1,127 @@
+{
+  "m_Name": "c3f355bab696a39161abbe7af0049c8e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3178066328101992982
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5937737549331740505
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5804318336298160112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4787278997419126486
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4976833758036193192
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3862021932933880427
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4269740182001969509
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/textures/15_daoguang/rrby_daoguang_006.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4976833758036193192
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/15_daoguang/rrby_daoguang_007.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4787278997419126486
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/15_daoguang/rrby_daoguang_044.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5937737549331740505
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/15_daoguang/rrby_daoguang_051.tga",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3178066328101992982
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/15_daoguang/rrby_daoguang_g01.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4269740182001969509
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/15_daoguang/rrby_daoguang_g02.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3862021932933880427
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/15_daoguang/rrby_daoguang_g05.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5804318336298160112
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c3f355bab696a39161abbe7af0049c8e.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

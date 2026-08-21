@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7332364315088429230
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2302604382827609654
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7790821910560690722
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6873834991317605091
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8009852816426940081
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1390934654903648319
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8629212870287466797
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1014439150379812692
+    }
+  ],
+  "m_BindComs_Name": [
+    "mBtnClose",
+    "mSpineRoot",
+    "mGodName",
+    "mGodTitleBg",
+    "mGodBuffDesc",
+    "mRemainTime",
+    "mGodDesc"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.EightGodCome.GodDetailsPanel",
+  "m_ClassName": "GodDetailsPanel"
+}

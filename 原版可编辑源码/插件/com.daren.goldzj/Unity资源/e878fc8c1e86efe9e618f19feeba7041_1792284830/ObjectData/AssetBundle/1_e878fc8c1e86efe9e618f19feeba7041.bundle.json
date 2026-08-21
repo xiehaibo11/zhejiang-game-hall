@@ -1,0 +1,53 @@
+{
+  "m_Name": "e878fc8c1e86efe9e618f19feeba7041.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -7164644689590510018
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5151532143056548617
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuyingxiongzhuan/effect/material/saoguang_01.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5151532143056548617
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e878fc8c1e86efe9e618f19feeba7041.bundle",
+  "m_Dependencies": [
+    "38c638a1f5c316164a621d856e5f897e.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

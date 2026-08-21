@@ -1,0 +1,58 @@
+{
+  "m_Name": "7964f078f84d71f809b8923cee8d954f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -4595785910531349845
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8552340379332938633
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -8437098079156315690
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5775768306658728045
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bulletgift/effect/materials/mask_04.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5775768306658728045
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7964f078f84d71f809b8923cee8d954f.bundle",
+  "m_Dependencies": [
+    "2e430bfdbce080ba10f18899791b58ac.bundle",
+    "5b2edc1194d4512ec0b044b0a453c553.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

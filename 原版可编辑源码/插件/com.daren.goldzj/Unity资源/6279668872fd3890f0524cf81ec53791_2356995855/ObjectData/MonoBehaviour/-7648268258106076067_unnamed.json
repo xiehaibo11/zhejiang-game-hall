@@ -1,0 +1,121 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1775005078194837398
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8690931913729664096
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7618697236903733759
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7441136480339232723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4128818292684688392
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7517455551945800906
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4921856231616211436
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6762661995895256794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4962704549188113561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3124531638001779017
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -850054133653462066
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3562827756762381959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2155479561835122638
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4703818962831714517
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6759343378988156453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7436572682307117956
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8758625927617392461
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -512015445154987943
+    }
+  ],
+  "m_BindComs_Name": [
+    "Btn1LevelLock",
+    "Btn10LevelLock",
+    "Btn30LevelLock",
+    "mArtifactPreview",
+    "_ArtifactPreviewScene",
+    "ArtifactIcon",
+    "CannonIcon",
+    "WingIcon",
+    "NameLabel",
+    "UnLockLabel",
+    "CannonWingPreview",
+    "NowSeason",
+    "Progress",
+    "Item",
+    "ItemGrid",
+    "BtnUnLock",
+    "UnLockAll"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BattlePass.PageOverview",
+  "m_ClassName": "PageOverview"
+}

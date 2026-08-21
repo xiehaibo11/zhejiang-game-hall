@@ -1,0 +1,118 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4197019103867394935
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 9,
+      "m_PathID": 4483218015255801062
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5618495376993565373
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2595940775627509807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5123204664946312592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4678160728261254721
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -280270889091942776
+    }
+  ],
+  "m_BindComs_Name": [
+    "BaoZangBox",
+    "mBtnClose",
+    "mCountDown",
+    "mBody",
+    "mBG",
+    "TaskPart"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4414454787499617698
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2305300226094221886
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2799508368618335716
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7362101079803468476
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7812726451815251729
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -412176388169593700
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7520520620675745129
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1992404769271193429
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8823274680541758358
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1050918556791736321
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "_ShenMiBaoZangBoxListBind",
+    "AwardBoxsIL"
+  ],
+  "hotfixClassFullName": "GameHotFix.ShenMiBaoZangV2.ShenMiBaoZangV2Panel",
+  "m_ClassName": "ShenMiBaoZangV2Panel"
+}

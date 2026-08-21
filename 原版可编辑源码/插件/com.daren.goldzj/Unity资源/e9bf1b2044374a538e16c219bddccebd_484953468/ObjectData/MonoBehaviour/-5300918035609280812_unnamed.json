@@ -1,0 +1,177 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5177442369773394444
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8562962366685945035
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6092453291378468814
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7347300583044519057
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4518033281526566647
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3390183684447386001
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7972632763900929094
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9208481829793966058
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -720902168541606374
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6572501715435004117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2031006755972438325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3582669529785041976
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8200428768972887046
+    },
+    {
+      "m_FileID": 10,
+      "m_PathID": -1482395025841691970
+    }
+  ],
+  "m_BindComs_Name": [
+    "EffBonusBgFailed",
+    "EffBonusBgSuccess",
+    "EffSelectedFailed",
+    "SuperScript",
+    "EffSelectedSuccess",
+    "ImgBg",
+    "ObjBonusAnimRoot",
+    "ObjLock",
+    "ObjMask",
+    "OutlineEff",
+    "TxtBonus",
+    "FontPositive",
+    "FontNegative"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    0.800000011920929
+  ],
+  "m_BindFloat_Name": [
+    "AnimDuration"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.2734358310699463,
+          "outSlope": 0.2734358310699463,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.3333333432674408
+        },
+        {
+          "time": 0.8837912082672119,
+          "value": 0.24166017770767212,
+          "inSlope": 0.8575149178504944,
+          "outSlope": 0.8575149178504944,
+          "weightedMode": 0,
+          "inWeight": 0.3333333432674408,
+          "outWeight": 0.30806976556777954
+        },
+        {
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 6.5256667137146,
+          "outSlope": 6.5256667137146,
+          "weightedMode": 0,
+          "inWeight": 0.3333333432674408,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.9088146686553955,
+          "outSlope": 0.9088146686553955,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.3333333432674408
+        },
+        {
+          "time": 0.8111779689788818,
+          "value": 0.7372104525566101,
+          "inSlope": 0.12961702048778534,
+          "outSlope": 0.12961702048778534,
+          "weightedMode": 0,
+          "inWeight": 0.3333333432674408,
+          "outWeight": 0.1835140883922577
+        },
+        {
+          "time": 1.0008544921875,
+          "value": 0.01042938232421875,
+          "inSlope": -3.8316869735717773,
+          "outSlope": -3.8316869735717773,
+          "weightedMode": 0,
+          "inWeight": 0.3333333432674408,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    }
+  ],
+  "m_BindCurve_Name": [
+    "PosCurve",
+    "ScaleCurve"
+  ],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.LuckyCrit.LuckCritSlotItem",
+  "m_ClassName": "LuckCritSlotItem"
+}

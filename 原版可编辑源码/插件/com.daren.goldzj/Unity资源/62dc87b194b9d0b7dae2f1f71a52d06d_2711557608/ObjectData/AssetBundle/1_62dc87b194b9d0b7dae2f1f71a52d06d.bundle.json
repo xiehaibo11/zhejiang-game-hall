@@ -1,0 +1,48 @@
+{
+  "m_Name": "62dc87b194b9d0b7dae2f1f71a52d06d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 4370521590332040418
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1338288163871488867
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/playerineraction/spine/dianyan/dianyan_material.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1338288163871488867
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "62dc87b194b9d0b7dae2f1f71a52d06d.bundle",
+  "m_Dependencies": [
+    "1e0a212e04a1641ab2fdfce08ef1b5a4.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

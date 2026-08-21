@@ -1,0 +1,76 @@
+
+sanshanwuyue.png
+size: 2018,1038
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/bd
+  rotate: false
+  xy: 1875, 341
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img/gx_00
+  rotate: false
+  xy: 1105, 706
+  size: 812, 330
+  orig: 812, 750
+  offset: 0, 103
+  index: -1
+img/sswy/fniao_00
+  rotate: true
+  xy: 1875, 443
+  size: 261, 141
+  orig: 1624, 750
+  offset: 759, 555
+  index: -1
+img/sswy/he_00
+  rotate: true
+  xy: 1919, 884
+  size: 152, 86
+  orig: 163, 96
+  offset: 5, 0
+  index: -1
+img/sswy/houshan_00
+  rotate: false
+  xy: 977, 181
+  size: 650, 318
+  orig: 1624, 750
+  offset: 369, 432
+  index: -1
+img/sswy/niao_00
+  rotate: false
+  xy: 977, 28
+  size: 639, 151
+  orig: 1624, 750
+  offset: 629, 379
+  index: -1
+img/sswy/shanf_00
+  rotate: true
+  xy: 1629, 16
+  size: 483, 244
+  orig: 1624, 750
+  offset: 576, 241
+  index: -1
+img/sswy/shanshu_00
+  rotate: false
+  xy: 2, 520
+  size: 1101, 516
+  orig: 1624, 750
+  offset: 282, 234
+  index: -1
+img/sswy/shui_00
+  rotate: false
+  xy: 2, 2
+  size: 973, 516
+  orig: 1624, 750
+  offset: 355, 234
+  index: -1
+img/sswy/sswy_00
+  rotate: false
+  xy: 1105, 501
+  size: 711, 203
+  orig: 745, 220
+  offset: 22, 17
+  index: -1

@@ -1,0 +1,43 @@
+{
+  "m_Name": "81d98221350977af17b5d0b535dbd3d9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -6243321749393133391
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2043984604463805127
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/diamondgreatgiftv2/effect/animation/jiesuo_anim.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2043984604463805127
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "81d98221350977af17b5d0b535dbd3d9.bundle",
+  "m_Dependencies": [
+    "6bff3284176e745881e1849c55f589c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

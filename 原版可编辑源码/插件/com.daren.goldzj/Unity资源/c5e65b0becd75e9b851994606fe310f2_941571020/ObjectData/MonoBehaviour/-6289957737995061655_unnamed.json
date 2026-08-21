@@ -1,0 +1,132 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1549708944463551092
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7856118347066117656
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1146648238994596034
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6956626996415695239
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 452680094518578159
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3301572857084294107
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6145883462927265477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3433221132134385847
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4898062406423934779
+    }
+  ],
+  "m_BindComs_Name": [
+    "prefabItem",
+    "Banner",
+    "LabelTotalItem",
+    "iconTotalItem",
+    "wingCon",
+    "checkAllBoxBtn",
+    "labelCountDown",
+    "ScrollParent"
+  ],
+  "m_BindInt": [
+    0,
+    0,
+    0
+  ],
+  "m_BindInt_Name": [
+    "nowSelectItemID",
+    "activityId",
+    "activityType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0
+  ],
+  "m_BindBool_Name": [
+    "SpecialRewardLoaded"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": []
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1420121459875036072
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8661970899979472784
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -473186063803480266
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1773826528534585197
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -2146256860141233153
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6181485484039332225
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7927590008298583667
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "cloneGameObject",
+    "AreaPos",
+    "exchangeBtn"
+  ],
+  "hotfixClassFullName": "GameHotFix.GuMuTanMiV2.GameActivityGuMuTanMiExchangeViewV2",
+  "m_ClassName": "GameActivityGuMuTanMiExchangeViewV2"
+}

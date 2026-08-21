@@ -1,0 +1,197 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8997579113932575809
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2383920067460237944
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 938858489174405517
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2734925092430804000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6120870207458353725
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4768517634657085026
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -538174486454189634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2780221064587303339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2148000345324150632
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8986283393283345837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 343167168476263938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 920386606999775993
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6462851977272288237
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9146544012848606676
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 201501317459369001
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8639471304884878684
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1425735094520001524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4540338208963816323
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2767705127260012097
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6315637031761990249
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3933153268856505210
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_ScrollView",
+    "m_Previous",
+    "m_Next",
+    "m_OpenActShow",
+    "m_NewYearDay0",
+    "m_CountDownDay0",
+    "m_BtnOpen",
+    "m_SpOpen",
+    "m_BtnLookReward",
+    "m_NextTime",
+    "m_NextTip",
+    "m_RewardTip",
+    "m_CountDownDay1",
+    "m_IconItem",
+    "m_GridDay1",
+    "m_BtnGetReward",
+    "m_GridDay2",
+    "m_CountDownDay2",
+    "m_BtnGoTo",
+    "m_CountDownDay3"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 3851835300782160479
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4374468437988053521
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1679994370181540940
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 3109353751644504133
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1883461478365968008
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6240694349502076345
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 582736279281973643
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1967513402609488360
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4649920460370108040
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -737620769234537608
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7424172229267592450
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "m_DayPages",
+    "m_EndTags",
+    "m_CountDownList"
+  ],
+  "hotfixClassFullName": "GameHotFix.CelebrateCNY.CNYCelebratePanel",
+  "m_ClassName": "CNYCelebratePanel"
+}

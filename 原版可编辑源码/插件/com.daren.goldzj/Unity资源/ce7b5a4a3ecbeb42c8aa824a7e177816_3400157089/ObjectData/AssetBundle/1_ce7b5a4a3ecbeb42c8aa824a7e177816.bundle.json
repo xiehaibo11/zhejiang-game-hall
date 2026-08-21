@@ -1,0 +1,53 @@
+{
+  "m_Name": "ce7b5a4a3ecbeb42c8aa824a7e177816.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5863245956589001843
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8552340379332938633
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 9033825192493571412
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/collectionpaidgift/optionalgift/effect/material/title_saoguang.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5863245956589001843
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ce7b5a4a3ecbeb42c8aa824a7e177816.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "825914a7a36589aad3c90e144ba2eed2.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

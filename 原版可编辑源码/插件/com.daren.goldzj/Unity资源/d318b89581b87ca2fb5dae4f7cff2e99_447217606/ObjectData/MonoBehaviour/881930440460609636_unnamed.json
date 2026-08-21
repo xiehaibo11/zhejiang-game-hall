@@ -1,0 +1,108 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7526348799564711621
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3401555740658954120
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3767451279022563979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5658807008690402127
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7990571293803541615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -330664919511510694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5437914454688203075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5199146375732781079
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3852756196287130597
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3351143479393459838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8103581039857395008
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2474777469448958423
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5295102362189780192
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_Lobby",
+    "m_Game",
+    "m_LevelLab",
+    "m_Progress",
+    "m_ProgressLab",
+    "m_InfoTweener",
+    "m_LabNeedExp",
+    "m_IconItem",
+    "m_Sprite",
+    "m_Sprite1",
+    "LabCountDown",
+    "GoRedPoint"
+  ],
+  "m_BindInt": [
+    1227,
+    1,
+    0
+  ],
+  "m_BindInt_Name": [
+    "IconType",
+    "TimeStyle",
+    "m_ThreadTimer"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1
+  ],
+  "m_BindBool_Name": [
+    "HideIconWhenTimeout"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.PeakLevel.BtnPeakLevel",
+  "m_ClassName": "BtnPeakLevel"
+}

@@ -1,0 +1,15 @@
+
+/* btConvexInternalAabbCachingShape::~btConvexInternalAabbCachingShape() */
+
+void __thiscall
+btConvexInternalAabbCachingShape::~btConvexInternalAabbCachingShape
+          (btConvexInternalAabbCachingShape *this)
+
+{
+  code *pcVar1;
+  
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)SoftwareBreakpoint(1,0x1226fd4);
+  (*pcVar1)();
+}
+

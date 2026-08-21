@@ -1,0 +1,43 @@
+{
+  "m_Name": "da143cbb7e015c0d87066a84bd09ca2e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7195851371165087795
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7631443704242015131
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/duobaoqibing/effect/animation/btns.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7195851371165087795
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "da143cbb7e015c0d87066a84bd09ca2e.bundle",
+  "m_Dependencies": [
+    "b8c62fad7874020d78ed210ed4a11b12.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

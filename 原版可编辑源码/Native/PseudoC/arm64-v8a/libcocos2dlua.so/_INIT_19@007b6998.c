@@ -1,0 +1,15 @@
+
+void _INIT_19(void)
+
+{
+  DAT_01782630 = 0;
+  DAT_01782638 = 0;
+  DAT_01782648 = 0x3f000000;
+  DAT_01782640 = 0x3f0000003dcccccd;
+  DAT_01782658 = 0;
+  DAT_01782660 = 0;
+  DAT_01782650 = 0;
+  __cxa_atexit(FUN_00a9a798,&DAT_01782650,&PTR_LOOP_016979c0);
+  return;
+}
+

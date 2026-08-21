@@ -1,0 +1,53 @@
+{
+  "m_Name": "ff2784cf2c63317fc5ab4d9d19b1a9ef.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3980794492435541467
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -8159180123125853552
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactdiscount/effect/material/kj_saoguang_title_003.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3980794492435541467
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ff2784cf2c63317fc5ab4d9d19b1a9ef.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle",
+    "f17117b503f2cf5c0d677fd0bd957376.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

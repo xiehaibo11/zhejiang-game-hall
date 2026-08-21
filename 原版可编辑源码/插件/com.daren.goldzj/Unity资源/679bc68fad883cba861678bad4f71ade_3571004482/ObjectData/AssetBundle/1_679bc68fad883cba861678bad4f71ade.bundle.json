@@ -1,0 +1,370 @@
+{
+  "m_Name": "679bc68fad883cba861678bad4f71ade.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7498528166723836137
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1175769290608886541
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8135357655857598788
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3402326900820713491
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4169124435173962637
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2218065584365227104
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7817930551585480409
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3430642799756929594
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2241724979132564486
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3430642799756929594
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 83637387562047264
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8298284886247035069
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4452167747990929222
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6585041621110554827
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4567641862143701203
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7703647920030718791
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5674501095631101851
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4449181106673366460
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3976076751990659155
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5971800352668008889
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5704293111658918851
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3790268307634159725
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7611268682897841904
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2228341800635305260
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1320132576234071641
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1175769290608886541
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7672762774030876704
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1666860393910439689
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -75988927719839738
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6681118873936708343
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6120424116143278569
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6068306354402915944
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_020_g01.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7498528166723836137
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_020_g02.mat",
+      {
+        "preloadIndex": 33,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1320132576234071641
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_400_yumao.mat",
+      {
+        "preloadIndex": 42,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6120424116143278569
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_633_add.mat",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4169124435173962637
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_634_add.mat",
+      {
+        "preloadIndex": 36,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7672762774030876704
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_635_add.mat",
+      {
+        "preloadIndex": 39,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -75988927719839738
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_636_add.mat",
+      {
+        "preloadIndex": 27,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5704293111658918851
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_637_add.mat",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 83637387562047264
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_800.mat",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6585041621110554827
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_801_add.mat",
+      {
+        "preloadIndex": 24,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3976076751990659155
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_g01_ab.mat",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2241724979132564486
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_g01_add.mat",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7817930551585480409
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_jtfb_02.mat",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8135357655857598788
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_l_09_25.mat",
+      {
+        "preloadIndex": 30,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7611268682897841904
+        }
+      }
+    ],
+    [
+      "assets/effect/textures/13_object/materials/rrby_object_l_09_26.mat",
+      {
+        "preloadIndex": 21,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5674501095631101851
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "679bc68fad883cba861678bad4f71ade.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "da1a669413460b3aeb1baa21213bb2a9.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

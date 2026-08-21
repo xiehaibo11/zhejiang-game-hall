@@ -1,0 +1,53 @@
+{
+  "m_Name": "ccf59328cf80f23481610837618d8499.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 4479928202845965429
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5892330197763654569
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/colorfulpass/effect/texture/saoguang_2 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5892330197763654569
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ccf59328cf80f23481610837618d8499.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle",
+    "a0e66aec7b79f34d0c9a674adf0c5727.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

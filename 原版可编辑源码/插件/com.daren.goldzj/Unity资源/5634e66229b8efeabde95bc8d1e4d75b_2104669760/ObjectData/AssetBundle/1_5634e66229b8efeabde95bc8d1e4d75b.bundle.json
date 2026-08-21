@@ -1,0 +1,48 @@
+{
+  "m_Name": "5634e66229b8efeabde95bc8d1e4d75b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5627681519180369092
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8852854724898688341
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/emoji/vip/burningincense/guizubiaoqing_yiwen_material.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5627681519180369092
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5634e66229b8efeabde95bc8d1e4d75b.bundle",
+  "m_Dependencies": [
+    "08a3407c347bb0cde7c2fb4d62fb2910.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

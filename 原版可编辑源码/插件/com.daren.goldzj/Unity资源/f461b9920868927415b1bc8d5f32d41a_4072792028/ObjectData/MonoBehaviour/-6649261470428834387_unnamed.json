@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7671412443317234246
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5045240695904207265
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5237521238773475924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7739957216350004835
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8538766932782901024
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7671412443317234246
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8495099026763280026
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5308048436090396489
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3813943724066884263
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4281525923674042161
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5243289166559915506
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6638283066288544831
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8819266571622023823
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2150221581496898869
+    }
+  ],
+  "m_BindComs_Name": [
+    "LeftCount",
+    "SelectBuyNum",
+    "NameTitle",
+    "SelectClipsText",
+    "BtnSelect",
+    "BtnCheckBox",
+    "Check",
+    "selectUi",
+    "SoldOut",
+    "ExchangeTip",
+    "TipsBg",
+    "IconSprite",
+    "ExpectSprite"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShuiHuSeason.ShuiHuExchangeItem",
+  "m_ClassName": "ShuiHuExchangeItem"
+}

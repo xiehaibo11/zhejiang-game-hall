@@ -1,0 +1,156 @@
+{
+  "m_Name": "4f0d900da4581e9a72aecccb12247275.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4567499326318374176
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5419240910986032490
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5199333406181719117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5419240910986032490
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2068985618558737136
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2275185275453007409
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2068985618558737136
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4567499326318374176
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -453367506116499680
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/078_\u6797\u51b2\u53cc\u5c06\u4e70\u4e00\u9001\u4e00\u793c\u5305/animation/multiplebuyicon.controller",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -453367506116499680
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/078_\u6797\u51b2\u53cc\u5c06\u4e70\u4e00\u9001\u4e00\u793c\u5305/animation/multiplebuyicon_open_ani.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4567499326318374176
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/078_\u6797\u51b2\u53cc\u5c06\u4e70\u4e00\u9001\u4e00\u793c\u5305/animation/multiplebuymainpanel_open_ani.anim",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2068985618558737136
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/078_\u6797\u51b2\u53cc\u5c06\u4e70\u4e00\u9001\u4e00\u793c\u5305/animation/multiplebuymainpanel_open_ani.controller",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2275185275453007409
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/078_\u6797\u51b2\u53cc\u5c06\u4e70\u4e00\u9001\u4e00\u793c\u5305/animation/task_idel_ani.anim",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5419240910986032490
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/078_\u6797\u51b2\u53cc\u5c06\u4e70\u4e00\u9001\u4e00\u793c\u5305/animation/task_idel_ani.controller",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5199333406181719117
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4f0d900da4581e9a72aecccb12247275.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

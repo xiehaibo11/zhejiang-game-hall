@@ -1,0 +1,85 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3095674560685562183
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -277190597121967197
+  },
+  "m_Name": "",
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": 8810149195089647555
+  },
+  "mSprites": [
+    {
+      "name": "img_yj_DianShiChengJin",
+      "x": 0,
+      "y": 634,
+      "width": 262,
+      "height": 304,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 12,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_yj_LaoFuZi",
+      "x": 259,
+      "y": 317,
+      "width": 262,
+      "height": 296,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 20,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_yj_LinDaiYu",
+      "x": 0,
+      "y": 317,
+      "width": 258,
+      "height": 316,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 4,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "img_yj_TaiYiZhenRen",
+      "x": 0,
+      "y": 0,
+      "width": 262,
+      "height": 316,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  ],
+  "mPixelSize": 1.0,
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mCoordinates": 0,
+  "sprites": []
+}

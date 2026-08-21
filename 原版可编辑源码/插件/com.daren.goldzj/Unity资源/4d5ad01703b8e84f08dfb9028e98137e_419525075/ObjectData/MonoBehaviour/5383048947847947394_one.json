@@ -1,0 +1,62 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5833018095569713451
+  },
+  "m_Name": "one",
+  "m_Version": 3,
+  "m_AnimClip": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Locked": 0,
+  "m_Muted": 1,
+  "m_CustomPlayableFullTypename": "",
+  "m_Curves": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Parent": {
+    "m_FileID": 0,
+    "m_PathID": -8466281963202933489
+  },
+  "m_Children": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7715858477666359354
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1871299617613763610
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4871568879393423313
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4928761257604340099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4599989046618180963
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6511955213336278733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8762036612474814957
+    }
+  ],
+  "m_Clips": [],
+  "m_Markers": {
+    "m_Objects": []
+  }
+}

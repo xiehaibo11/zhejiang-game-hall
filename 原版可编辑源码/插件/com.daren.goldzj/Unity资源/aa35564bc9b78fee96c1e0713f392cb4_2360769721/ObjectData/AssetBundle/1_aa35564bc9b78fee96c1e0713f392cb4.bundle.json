@@ -1,0 +1,63 @@
+{
+  "m_Name": "aa35564bc9b78fee96c1e0713f392cb4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 993685577516033977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 120180397574756251
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3387561724570104953
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -2622805837823965393
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 4461398366039778355
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/doublecannomul/effect/material/qiliu1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 120180397574756251
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "aa35564bc9b78fee96c1e0713f392cb4.bundle",
+  "m_Dependencies": [
+    "14da93d387c72baeaaa3ace9979409ba.bundle",
+    "30ca0f12278d23b2aac00ef66aca7114.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

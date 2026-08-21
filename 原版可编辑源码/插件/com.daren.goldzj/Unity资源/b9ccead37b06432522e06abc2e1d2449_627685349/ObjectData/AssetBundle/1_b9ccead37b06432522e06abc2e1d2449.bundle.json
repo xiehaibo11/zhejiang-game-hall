@@ -1,0 +1,48 @@
+{
+  "m_Name": "b9ccead37b06432522e06abc2e1d2449.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1264717836956531138
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8506695246358491957
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2577850156150016306
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactprayv2/effect/animation/daiji.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1264717836956531138
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b9ccead37b06432522e06abc2e1d2449.bundle",
+  "m_Dependencies": [
+    "7873638817ac2339f8d3070a5b2e1f29.bundle",
+    "884908df33054b7cabf4e9f28a6bc310.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

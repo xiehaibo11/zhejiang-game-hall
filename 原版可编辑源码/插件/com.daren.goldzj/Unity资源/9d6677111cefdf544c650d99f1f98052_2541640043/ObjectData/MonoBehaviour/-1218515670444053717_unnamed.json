@@ -1,0 +1,70 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1327540425290693051
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -277190597121967197
+  },
+  "m_Name": "",
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": -5460984400118300410
+  },
+  "mSprites": [
+    {
+      "name": "cygg_ty_img_bg1",
+      "x": 0,
+      "y": 0,
+      "width": 1109,
+      "height": 473,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "cygg_ty_img_bg2",
+      "x": 1110,
+      "y": 0,
+      "width": 885,
+      "height": 305,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 69,
+      "paddingRight": 70,
+      "paddingTop": 359,
+      "paddingBottom": 360
+    },
+    {
+      "name": "cygg_ty_img_bg3",
+      "x": 0,
+      "y": 474,
+      "width": 1079,
+      "height": 245,
+      "borderLeft": 110,
+      "borderRight": 110,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 484,
+      "paddingRight": 485,
+      "paddingTop": 901,
+      "paddingBottom": 902
+    }
+  ],
+  "mPixelSize": 1.0,
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mCoordinates": 0,
+  "sprites": []
+}

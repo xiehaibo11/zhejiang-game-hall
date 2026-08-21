@@ -1,0 +1,17 @@
+
+/* std::__ndk1::ios_base::clear(unsigned int) */
+
+void __thiscall std::__ndk1::ios_base::clear(ios_base *this,uint param_1)
+
+{
+  uint uVar1;
+  
+  uVar1 = *(long *)(this + 0x28) == 0 | param_1;
+  *(uint *)(this + 0x20) = uVar1;
+  if ((*(uint *)(this + 0x24) & uVar1) == 0) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_011dac54("ios_base::clear");
+}
+

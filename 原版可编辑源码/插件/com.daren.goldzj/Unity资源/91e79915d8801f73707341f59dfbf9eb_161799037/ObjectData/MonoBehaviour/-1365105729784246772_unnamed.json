@@ -1,0 +1,60 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4701490589069992200
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4085297162695908160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3114049964899015357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8827993414504493801
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8661066030189043466
+    }
+  ],
+  "m_BindComs_Name": [
+    "mCommon",
+    "mWithNum",
+    "mRedPointNum",
+    "mFull"
+  ],
+  "m_BindInt": [
+    0
+  ],
+  "m_BindInt_Name": [
+    "mRedPointType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Base.RedPointComponent",
+  "m_ClassName": "RedPointComponent"
+}

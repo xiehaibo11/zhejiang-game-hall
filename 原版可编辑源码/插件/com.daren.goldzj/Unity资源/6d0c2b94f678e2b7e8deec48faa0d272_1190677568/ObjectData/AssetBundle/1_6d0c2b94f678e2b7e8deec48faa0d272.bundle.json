@@ -1,0 +1,100 @@
+{
+  "m_Name": "6d0c2b94f678e2b7e8deec48faa0d272.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -1287127305265953440
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8555206649569640032
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8213844731839422500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7905059299885426082
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6847435640954489688
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6478416532406988825
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4953286863698596209
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3351682373730759511
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1711696960429025187
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1540770147037178817
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2225174527872074302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2458345717797134512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3465095258640222426
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3686409311946831615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6739957556844599580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7209728596049182504
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonsoulprefab/cannonsoul_3003/bulletlazerprefab/cannon_hqb_flame_01.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 16,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6847435640954489688
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6d0c2b94f678e2b7e8deec48faa0d272.bundle",
+  "m_Dependencies": [
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "aec6d23d2cc9f12e1b3a935afe6b8c66.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

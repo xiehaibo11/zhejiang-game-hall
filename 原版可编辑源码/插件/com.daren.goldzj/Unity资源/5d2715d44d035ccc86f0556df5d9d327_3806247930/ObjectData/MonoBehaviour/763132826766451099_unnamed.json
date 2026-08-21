@@ -1,0 +1,121 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8487200445609774706
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4380947356415281008
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4494783958041065143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4962546790198358438
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4680949037360669659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 299987475603201132
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4825178520454110248
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7652784065214033591
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3309188827273540362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6052692607149730492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7384003894089594599
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8190683789196339031
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -620545732910859054
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4028617993028282188
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 454462012640107078
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2711491094724587914
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7329193747038774748
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9085526413856109517
+    }
+  ],
+  "m_BindComs_Name": [
+    "rewardIconItem",
+    "rewardIconNum",
+    "gettedMark",
+    "yiLingQuSprite",
+    "Locked",
+    "Doing",
+    "NotGet",
+    "Getted",
+    "TaskIndexLabel",
+    "TaskGoalLabel",
+    "TaskProgressLabel",
+    "DoingTaskBg",
+    "NotDoingTaskBg",
+    "btnGoTo",
+    "btnGetReward",
+    "doingTaskEffect",
+    "rewardRaoGuangEffect"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GameActivity.CarnivalChallenge.CarnivalChallengeTaskItem",
+  "m_ClassName": "CarnivalChallengeTaskItem"
+}

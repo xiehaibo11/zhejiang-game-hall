@@ -1,0 +1,101 @@
+{
+  "m_Name": "a0945b72dc0a73164e09f8fdb983600b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7217320152854511839
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2424293741704784521
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7217320152854511839
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2225226130966148837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2424293741704784521
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5033590960835397254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6580729777763816140
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7217320152854511839
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_goldentreegamemain/goldentreegamemain.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2424293741704784521
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_goldentreegamemain/goldentreegamemain.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7217320152854511839
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_goldentreegamemain/goldentreegamemain.prefab",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2225226130966148837
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a0945b72dc0a73164e09f8fdb983600b.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

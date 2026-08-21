@@ -1,0 +1,174 @@
+{
+  "m_Name": "2ab8a4090f804f9a9faab1b6bb12550a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5439676399812095433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4805672932931364454
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5027477807444055336
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6658635799137092554
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4805672932931364454
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6658635799137092554
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5485677292856378213
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5439676399812095433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4805672932931364454
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8105626980628252780
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5485677292856378213
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5439676399812095433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4805672932931364454
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5027477807444055336
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6658635799137092554
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/baixuegongzhupaotai/rig/\u767d\u96ea\u516c\u4e3b\u70ae\u53f0\u8f93\u51fav3.6/baixuegongzhupaotai.atlas.txt",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6658635799137092554
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/baixuegongzhupaotai/rig/\u767d\u96ea\u516c\u4e3b\u70ae\u53f0\u8f93\u51fav3.6/baixuegongzhupaotai.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4805672932931364454
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/baixuegongzhupaotai/rig/\u767d\u96ea\u516c\u4e3b\u70ae\u53f0\u8f93\u51fav3.6/baixuegongzhupaotai.skel.bytes",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5485677292856378213
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/baixuegongzhupaotai/rig/\u767d\u96ea\u516c\u4e3b\u70ae\u53f0\u8f93\u51fav3.6/baixuegongzhupaotai_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5027477807444055336
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/baixuegongzhupaotai/rig/\u767d\u96ea\u516c\u4e3b\u70ae\u53f0\u8f93\u51fav3.6/baixuegongzhupaotai_material.mat",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5439676399812095433
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/baixuegongzhupaotai/rig/\u767d\u96ea\u516c\u4e3b\u70ae\u53f0\u8f93\u51fav3.6/baixuegongzhupaotai_skeletondata.asset",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8105626980628252780
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2ab8a4090f804f9a9faab1b6bb12550a.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

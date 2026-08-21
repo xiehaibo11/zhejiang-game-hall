@@ -1,0 +1,116 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2536492870762896484
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5186016890480364500
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": false,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 0,
+    "m_PathID": 904352287888822771
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4446202454874678702
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7882432210381789428
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8499850480733659222
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6703192469297348492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2860097652284842581
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1535730116808839359
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2171886820074127981
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7367492437445493501
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": -4446202454874678702
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": -0.036304865032434464,
+      "y": 0.15209394693374634,
+      "z": 0.03823906183242798
+    },
+    "m_Extent": {
+      "x": 0.019259948283433914,
+      "y": 0.01545301079750061,
+      "z": 0.027386978268623352
+    }
+  },
+  "m_DirtyAABB": false
+}

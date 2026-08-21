@@ -1,0 +1,200 @@
+{
+  "m_Name": "2543128f228f966f8a812e16147ae909.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9106312237640263780
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8781394751761191435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8223226922976445344
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7232673386888297225
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5178276426427571901
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5073941249297986979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4511755244165264581
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4293183001201863836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3554084176839309008
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3093349619047842242
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1344355134524224
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 54646364602632480
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 103052715512784035
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1194321625651659776
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3392445770093296787
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3970898343944189988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5404953611445737934
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5723570537559496305
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5753258522348287845
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5830334563519685568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5852857770796264814
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6343495512513265160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6876792826214088860
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6969980139708013991
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7763031929991910828
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8455705878501374420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8455776410417016787
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8694648620370633887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8728399693394911813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9160120003520425621
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 730519933796909451
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4334241059958935388
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -7906362748706860077
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6395612512760148451
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 3925177648129476951
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6448397113171927341
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/supremethrone/effect/prefab/effect_glow.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 40,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8781394751761191435
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2543128f228f966f8a812e16147ae909.bundle",
+  "m_Dependencies": [
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "728df9e21dfbfa0f1e10e9b05c3da36c.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "9bb6f55e45d4d5366a0e215a1297a9fd.bundle",
+    "b5779f4b67fbd4a0d2e00b71fe550a29.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

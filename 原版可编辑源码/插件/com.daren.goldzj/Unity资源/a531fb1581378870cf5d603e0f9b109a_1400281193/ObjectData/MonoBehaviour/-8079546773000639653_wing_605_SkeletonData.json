@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8302033850027404168
+  },
+  "m_Name": "wing_605_SkeletonData",
+  "atlasAssets": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8945888197112738496
+    }
+  ],
+  "scale": 1.0,
+  "skeletonJSON": {
+    "m_FileID": 0,
+    "m_PathID": 4370085969706854192
+  },
+  "fromAnimation": [],
+  "toAnimation": [],
+  "duration": [],
+  "defaultMix": 0.20000000298023224,
+  "controller": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

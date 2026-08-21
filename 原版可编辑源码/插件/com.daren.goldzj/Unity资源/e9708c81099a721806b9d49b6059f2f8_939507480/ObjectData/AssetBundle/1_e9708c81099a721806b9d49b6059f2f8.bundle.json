@@ -1,0 +1,43 @@
+{
+  "m_Name": "e9708c81099a721806b9d49b6059f2f8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7332917750201849159
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4981472337870791382
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneraldiscount/effect/animation/savebg_idle.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7332917750201849159
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e9708c81099a721806b9d49b6059f2f8.bundle",
+  "m_Dependencies": [
+    "7af84a8ecda183f3b862163ff0802c58.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,101 @@
+{
+  "m_Name": "434fd803cfa36a79151feca83e2ad3b1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8365665784036584472
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8303399875712090372
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6493326104429712103
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7480138669327329998
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7683285863695697322
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7683285863695697322
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7480138669327329998
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7683285863695697322
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_seasoncannonsoul/seasoncannonsoul.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7480138669327329998
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_seasoncannonsoul/seasoncannonsoul.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7683285863695697322
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_seasoncannonsoul/seasoncannonsoul.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8303399875712090372
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "434fd803cfa36a79151feca83e2ad3b1.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

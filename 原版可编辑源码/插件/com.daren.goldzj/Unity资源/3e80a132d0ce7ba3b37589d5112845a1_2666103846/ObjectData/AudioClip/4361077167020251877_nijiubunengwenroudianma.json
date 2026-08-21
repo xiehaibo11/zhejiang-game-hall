@@ -1,0 +1,20 @@
+{
+  "m_Name": "nijiubunengwenroudianma",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 3.2275736331939697,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-47625190d4e63a827f4c7e7f14eeaede/CAB-47625190d4e63a827f4c7e7f14eeaede.resource",
+    "m_Offset": 0,
+    "m_Size": 22272
+  },
+  "m_CompressionFormat": 1
+}

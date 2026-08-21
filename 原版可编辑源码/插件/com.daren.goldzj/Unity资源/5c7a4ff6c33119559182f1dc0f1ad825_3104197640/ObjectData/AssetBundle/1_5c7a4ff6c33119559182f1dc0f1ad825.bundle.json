@@ -1,0 +1,48 @@
+{
+  "m_Name": "5c7a4ff6c33119559182f1dc0f1ad825.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 152120898336306048
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8124002206448869816
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4262844684538419497
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/playerineraction/hd_baozha.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 152120898336306048
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5c7a4ff6c33119559182f1dc0f1ad825.bundle",
+  "m_Dependencies": [
+    "0964ad649f15c763a7f8f771d9274b71.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

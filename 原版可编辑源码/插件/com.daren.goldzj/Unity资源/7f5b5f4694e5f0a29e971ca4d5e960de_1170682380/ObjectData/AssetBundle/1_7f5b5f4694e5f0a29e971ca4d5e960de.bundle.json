@@ -1,0 +1,101 @@
+{
+  "m_Name": "7f5b5f4694e5f0a29e971ca4d5e960de.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8155095786981155988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4993208533547985071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 195877248240664546
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 884522461359656298
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4135692550042467600
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5014933726054441184
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5014933726054441184
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8155095786981155988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5014933726054441184
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/font/font_fontjinbi/fontjinbi.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8155095786981155988
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/font_fontjinbi/fontjinbi.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5014933726054441184
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/font_fontjinbi/fontjinbi.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4135692550042467600
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7f5b5f4694e5f0a29e971ca4d5e960de.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

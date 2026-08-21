@@ -1,0 +1,62 @@
+{
+  "m_Name": "2d2b9dc756782c67cab99dc2e761949a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3171242789821563246
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -67957771820152458
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5785983645388545934
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -67957771820152458
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/104_fahai/shenqi/animation/fahai_shengqi.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3171242789821563246
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/104_fahai/shenqi/animation/fahai_specialskill1_sq.anim",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -67957771820152458
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2d2b9dc756782c67cab99dc2e761949a.bundle",
+  "m_Dependencies": [
+    "44dc573aa12b4acd434e88834b9bd38b.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

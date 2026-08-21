@@ -1,0 +1,63 @@
+{
+  "m_Name": "99e4911cbe593fea8890a36387b61a5e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 3503913409239825069
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1794973823921352687
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1110278575432324256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1735007472869366732
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4702566127634384442
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5877644856872229920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6499851374206268178
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollect/tour/effect/prefab/saoguang_txzl_goumai1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1735007472869366732
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "99e4911cbe593fea8890a36387b61a5e.bundle",
+  "m_Dependencies": [
+    "263f7395f0b3eef06850cf4622cddb6b.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

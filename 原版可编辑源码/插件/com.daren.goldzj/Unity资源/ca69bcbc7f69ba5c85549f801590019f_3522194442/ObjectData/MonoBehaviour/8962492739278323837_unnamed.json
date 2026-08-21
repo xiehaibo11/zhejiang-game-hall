@@ -1,0 +1,82 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 808789958453717669
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4401635683873416293
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7127500148571013511
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -606692538990370775
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6076237388835047715
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3223990540005770465
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3305478984308696127
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1855561443572841846
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1212436098422414488
+    }
+  ],
+  "m_BindComs_Name": [
+    "mInfo",
+    "mDesc",
+    "mIconItem",
+    "mCanGetClick",
+    "mCountDownRoot",
+    "countDown",
+    "LabCountDown",
+    "mRedPointComponent"
+  ],
+  "m_BindInt": [
+    1208,
+    0
+  ],
+  "m_BindInt_Name": [
+    "IconType",
+    "TimeStyle"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.LimitTrial.BtnLimitTrial",
+  "m_ClassName": "BtnLimitTrial"
+}

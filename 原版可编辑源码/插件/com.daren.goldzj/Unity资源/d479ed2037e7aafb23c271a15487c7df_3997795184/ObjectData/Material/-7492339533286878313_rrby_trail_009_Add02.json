@@ -1,0 +1,372 @@
+{
+  "m_Name": "rrby_trail_009_Add02",
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": -4452167747990929222
+  },
+  "m_ValidKeywords": [],
+  "m_InvalidKeywords": [
+    "_AIRDISTORTIONSWITCH1_OFF",
+    "_CUSTOM2XYKEY_MESH",
+    "_DISSLOVE_ON_ON",
+    "_FRESNELKEY_OFF",
+    "_IF_MODEDEPTHFADE1_OFF",
+    "_MASKCUSTOMDATAKEY2_OFF"
+  ],
+  "m_LightmapFlags": 0,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": false,
+  "m_CustomRenderQueue": 3000,
+  "stringTagMap": [],
+  "disabledShaderPasses": [],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_Disslove",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_tex_A",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 6377844482778665099
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_tex_B",
+        {
+          "m_Texture": {
+            "m_FileID": 4,
+            "m_PathID": -6195482604857267240
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Ints": [],
+    "m_Floats": [
+      [
+        "_AirDistortionSwitch1",
+        0.0
+      ],
+      [
+        "_AirDistortionTex_U1",
+        0.0
+      ],
+      [
+        "_AirDistortionTex_V1",
+        0.0
+      ],
+      [
+        "_AirDistortion_Intensity1",
+        0.0
+      ],
+      [
+        "_Atex_U_speed",
+        -4.5
+      ],
+      [
+        "_Atex_V_speed",
+        0.0
+      ],
+      [
+        "_Btex_U_speed",
+        0.0
+      ],
+      [
+        "_Btex_V_speed",
+        0.0
+      ],
+      [
+        "_BumpScale",
+        1.0
+      ],
+      [
+        "_CullMode",
+        0.0
+      ],
+      [
+        "_Custom2xyKey",
+        0.0
+      ],
+      [
+        "_Cutoff",
+        0.5
+      ],
+      [
+        "_DepthFade",
+        0.0
+      ],
+      [
+        "_DestortionIntensity",
+        0.20000000298023224
+      ],
+      [
+        "_DestortionTex_U1",
+        -0.30000001192092896
+      ],
+      [
+        "_DestortionTex_V1",
+        0.0
+      ],
+      [
+        "_DestortionToVertexOffset",
+        0.0
+      ],
+      [
+        "_DetailNormalMapScale",
+        1.0
+      ],
+      [
+        "_Disslove_on",
+        1.0
+      ],
+      [
+        "_DissolveIntensityCustom1z",
+        0.0
+      ],
+      [
+        "_DissolveTex_U1",
+        0.0
+      ],
+      [
+        "_DissolveTex_V1",
+        0.0
+      ],
+      [
+        "_Dst",
+        1.0
+      ],
+      [
+        "_DstBlend",
+        0.0
+      ],
+      [
+        "_FresnelKey",
+        0.0
+      ],
+      [
+        "_FresnelPower",
+        2.0
+      ],
+      [
+        "_FresnelScale",
+        1.0
+      ],
+      [
+        "_GlossMapScale",
+        1.0
+      ],
+      [
+        "_Glossiness",
+        0.5
+      ],
+      [
+        "_GlossyReflections",
+        1.0
+      ],
+      [
+        "_LineWidth",
+        0.0
+      ],
+      [
+        "_MainTexToDissolve1",
+        0.0
+      ],
+      [
+        "_MainTex_U",
+        -0.5
+      ],
+      [
+        "_MainTex_V",
+        0.0
+      ],
+      [
+        "_MaskCustomDataKey2",
+        1.0
+      ],
+      [
+        "_MaskTex02_U1",
+        0.0
+      ],
+      [
+        "_MaskTex02_V1",
+        0.0
+      ],
+      [
+        "_MaskTex_U1",
+        0.0
+      ],
+      [
+        "_MaskTex_V1",
+        0.0
+      ],
+      [
+        "_Metallic",
+        0.0
+      ],
+      [
+        "_Mode",
+        0.0
+      ],
+      [
+        "_ModeFresnel_Bias1",
+        0.0
+      ],
+      [
+        "_ModeFresnel_Power1",
+        0.0
+      ],
+      [
+        "_ModeFresnel_Scale1",
+        1.0
+      ],
+      [
+        "_OcclusionStrength",
+        1.0
+      ],
+      [
+        "_Parallax",
+        0.019999999552965164
+      ],
+      [
+        "_SmoothnessTextureChannel",
+        0.0
+      ],
+      [
+        "_SoftaDissolve",
+        0.0
+      ],
+      [
+        "_SpecularHighlights",
+        1.0
+      ],
+      [
+        "_SrcBlend",
+        1.0
+      ],
+      [
+        "_Switch_SDR",
+        0.0
+      ],
+      [
+        "_Tile1",
+        0.0
+      ],
+      [
+        "_Tile2",
+        0.0
+      ],
+      [
+        "_Tile3",
+        0.0
+      ],
+      [
+        "_UVSec",
+        0.0
+      ],
+      [
+        "_VertexOffsetIntensity",
+        0.0
+      ],
+      [
+        "_VertexOffsetTex_U1",
+        0.0
+      ],
+      [
+        "_VertexOffsetTex_V1",
+        0.0
+      ],
+      [
+        "_ZWrite",
+        0.0
+      ],
+      [
+        "__dirty",
+        0.0
+      ],
+      [
+        "_if_ModeDepthFade1",
+        0.0
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_Color",
+        {
+          "r": 1.738742470741272,
+          "g": 0.8192703127861023,
+          "b": 0.3362661898136139,
+          "a": 0.6117647290229797
+        }
+      ],
+      [
+        "_DissolveLineColor",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_DuffuseColor",
+        {
+          "r": 0.6556731462478638,
+          "g": 3.2111172676086426,
+          "b": 2.8916866779327393,
+          "a": 1.0
+        }
+      ],
+      [
+        "_EmissionColor",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_FresnelColor",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ]
+    ]
+  },
+  "m_BuildTextureStacks": []
+}

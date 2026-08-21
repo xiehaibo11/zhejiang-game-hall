@@ -1,0 +1,43 @@
+{
+  "m_Name": "b2a6002d54861c35c6b143514ead1039.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 3315324586705994317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6185508084163113535
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/common3d/animation/common3dartifactctrl_12_mi.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6185508084163113535
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b2a6002d54861c35c6b143514ead1039.bundle",
+  "m_Dependencies": [
+    "0cc4095e4bec0a5eca89b76c60b99442.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,116 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8641634951210629783
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 4,
+      "m_PathID": -9054390330809353643
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": false,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 5,
+    "m_PathID": 5654804559238332001
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8311486004459793014
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1389871413210451607
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4681046871486480058
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6413069706019642109
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4042173657731363574
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8539265151736200376
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6237321366670554056
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4372475791620275141
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": 8311486004459793014
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": -0.018311738967895508,
+      "y": -0.030097484588623047,
+      "z": -0.023287177085876465
+    },
+    "m_Extent": {
+      "x": 0.48645758628845215,
+      "y": 0.3346361517906189,
+      "z": 0.34236961603164673
+    }
+  },
+  "m_DirtyAABB": false
+}

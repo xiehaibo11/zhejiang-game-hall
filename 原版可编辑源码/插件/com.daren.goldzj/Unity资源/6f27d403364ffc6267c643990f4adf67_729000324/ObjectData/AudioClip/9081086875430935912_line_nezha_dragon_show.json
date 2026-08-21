@@ -1,0 +1,20 @@
+{
+  "m_Name": "line_nezha_dragon_show",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 2.881405830383301,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-4881f7bca2f7eaef91cbc99b9dd2c2f5/CAB-4881f7bca2f7eaef91cbc99b9dd2c2f5.resource",
+    "m_Offset": 0,
+    "m_Size": 19520
+  },
+  "m_CompressionFormat": 1
+}

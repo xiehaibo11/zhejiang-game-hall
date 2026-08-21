@@ -1,0 +1,53 @@
+{
+  "m_Name": "957389ab7d328d48a6915ecbc6d09bf6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -8562864937295131376
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3109156378480955105
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7621608062054332262
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3738509212867847894
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollectsystem/effect/animation/kapai.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3738509212867847894
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "957389ab7d328d48a6915ecbc6d09bf6.bundle",
+  "m_Dependencies": [
+    "0c400f4a3716286dd93b360d1906007c.bundle",
+    "2bbbc16fe9ba218b3769ed09ef592a9d.bundle",
+    "57939b5f43b68609f64c481d5874b051.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

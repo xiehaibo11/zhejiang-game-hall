@@ -1,0 +1,116 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7800013552820837582
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3186481232949215975
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3240798505672657026
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2024842860982768807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7464758389006126204
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2440940192544712687
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3653624140566213598
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6669243481777593249
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3933672732076089119
+    }
+  ],
+  "m_BindComs_Name": [
+    "PaoBeiTip",
+    "PaoBeiTip_New",
+    "BtnGo",
+    "BtnGo_New",
+    "DayTip",
+    "DayTip_New",
+    "BossItemV1",
+    "BossItemV2"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -6451853216111870535
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3296058331610684363
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7190657172483106918
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8273330490100803646
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 6749743154865066745
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1104461879376274134
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2412480212372011612
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "BossImgList",
+    "BossImgList2"
+  ],
+  "hotfixClassFullName": "GameHotFix.JuneFestival.JuneFestivalIntegralDropPanel",
+  "m_ClassName": "JuneFestivalIntegralDropPanel"
+}

@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_skin_show_bgm_3006",
+  "m_LoadType": 0,
+  "m_Channels": 2,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 40.421043395996094,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": true,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-d4daaa80aedd19ffff5735fa10772426/CAB-d4daaa80aedd19ffff5735fa10772426.resource",
+    "m_Offset": 0,
+    "m_Size": 2202560
+  },
+  "m_CompressionFormat": 1
+}

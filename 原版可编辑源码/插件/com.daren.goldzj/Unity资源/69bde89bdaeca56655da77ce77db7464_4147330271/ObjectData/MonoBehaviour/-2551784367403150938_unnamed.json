@@ -1,0 +1,79 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 952439751501552113
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1305942736313214007
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2326156973414106193
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2553336143492412153
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5459817886616931791
+    }
+  ],
+  "m_BindComs_Name": [
+    "ButtonClose",
+    "Checkbox",
+    "CheckboxDuiHao",
+    "hotKeyDesc"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -4785402731645001618
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 649632973439592527
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4401163686896758701
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1557962411432776403
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "skillHotKey"
+  ],
+  "hotfixClassFullName": "GameHotFix.Game.KeyboardTipsPanel",
+  "m_ClassName": "KeyboardTipsPanel"
+}

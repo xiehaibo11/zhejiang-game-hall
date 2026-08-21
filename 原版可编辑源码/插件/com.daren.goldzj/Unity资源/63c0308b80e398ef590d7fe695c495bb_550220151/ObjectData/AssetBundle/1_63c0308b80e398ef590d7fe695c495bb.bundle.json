@@ -1,0 +1,83 @@
+{
+  "m_Name": "63c0308b80e398ef590d7fe695c495bb.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4058818988767853067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 373875396499200511
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4058818988767853067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5254703599629863423
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 373875396499200511
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/godzillaactmainpanel/gslzz_zhujiemian_chuxian.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4058818988767853067
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/godzillaactmainpanel/gslzz_zhujiemian_chuxian.controller",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5254703599629863423
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/godzillaactmainpanel/gslzz_zhujiemian_yeqian.anim",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 373875396499200511
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "63c0308b80e398ef590d7fe695c495bb.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

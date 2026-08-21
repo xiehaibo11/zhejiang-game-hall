@@ -1,0 +1,132 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4281751058367054494
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4181606022091935261
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4359800218350575705
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6518452458223060264
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4269661377247164684
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7026986680930401287
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8974022778571813839
+    }
+  ],
+  "m_BindComs_Name": [
+    "prefabItem",
+    "Banner",
+    "wingCon",
+    "BtnGotoExchange",
+    "BannerTexture",
+    "ScrollParent"
+  ],
+  "m_BindInt": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "m_BindInt_Name": [
+    "nowSelectItemID",
+    "actVersion",
+    "activityId",
+    "activityType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0
+  ],
+  "m_BindBool_Name": [
+    "SpecialRewardLoaded"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": []
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 9195390862320578762
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 144157474140124961
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1331771780419075659
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3586101385214144344
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 2893084482292395560
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7934283927835919341
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7043866838979087501
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1690551925375962581
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3307302364655062841
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "cloneGameObject",
+    "AreaPos",
+    "taskBtn"
+  ],
+  "hotfixClassFullName": "GameHotFix.GuMuTanMiV2.GameActivityGuMuTanMiViewV2",
+  "m_ClassName": "GameActivityGuMuTanMiViewV2"
+}

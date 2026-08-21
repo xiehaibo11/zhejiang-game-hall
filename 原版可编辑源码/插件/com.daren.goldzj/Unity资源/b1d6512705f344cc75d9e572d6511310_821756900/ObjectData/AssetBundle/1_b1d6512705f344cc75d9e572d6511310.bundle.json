@@ -1,0 +1,197 @@
+{
+  "m_Name": "b1d6512705f344cc75d9e572d6511310.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -2229526002915457182
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -2107168536166499979
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8663161526097727323
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -5421894792698611241
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 6238514460290565305
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9113586590518689538
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8356604228858550829
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8050333509737553151
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7778704688654852817
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7353230044097398374
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6659567207683152025
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6526539945210952609
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6444305003123006077
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6225279618758755872
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5072970299355584381
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4599621297258848189
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4448235765010842735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3955287333093619192
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3449213244935795823
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1535829765802612431
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -615655530613422046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -410576088330287429
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 387788260257739751
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 592188946272548558
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 853382936948797932
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1219438019676254958
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2040161686862417924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2776386679999540930
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3098011531647915146
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4684108354205963497
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5520194127298177761
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6081353122154382716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6841453938695887825
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7033232933381257587
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7949707628367142599
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9100419995627422159
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 300247564625692073
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -1895168769817094882
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactpray/apmodel/apspine_4.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 39,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1535829765802612431
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b1d6512705f344cc75d9e572d6511310.bundle",
+  "m_Dependencies": [
+    "22041b62d144081659ca34616d2f2cef.bundle",
+    "8f438367d30d11bf4d0ca138f0473ccd.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "b752fb31562bb6a6b5930551108ae83b.bundle",
+    "dc7fdc08a7ba06e5975aabd914cf36e8.bundle",
+    "e5f33fe860e0005e42f8cb466fb815ef.bundle",
+    "ee30215828f56873eb26ab98edd87807.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

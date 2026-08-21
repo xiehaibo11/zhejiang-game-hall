@@ -1,0 +1,28 @@
+
+/* std::__ndk1::__function::__func<std::__ndk1::__bind<void (universe::network::Network::*)(float),
+   universe::network::Network*&, std::__ndk1::placeholders::__ph<1> const&>,
+   std::__ndk1::allocator<std::__ndk1::__bind<void (universe::network::Network::*)(float),
+   universe::network::Network*&, std::__ndk1::placeholders::__ph<1> const&> >, void
+   (float)>::target(std::type_info const&) const */
+
+__func<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>>,void(float)>
+* __thiscall
+std::__ndk1::__function::
+__func<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>>,void(float)>
+::target(__func<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>>,void(float)>
+         *this,type_info *param_1)
+
+{
+  __func<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>>,void(float)>
+  *p_Var1;
+  
+  p_Var1 = this + 8;
+  if (*(char **)(param_1 + 8) !=
+      "NSt6__ndk16__bindIMN8universe7network7NetworkEFvfEJRPS3_RKNS_12placeholders4__phILi1EEEEEE")
+  {
+    p_Var1 = (__func<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>,std::__ndk1::allocator<std::__ndk1::__bind<void(universe::network::Network::*)(float),universe::network::Network*&,std::__ndk1::placeholders::__ph<1>const&>>,void(float)>
+              *)0x0;
+  }
+  return p_Var1;
+}
+

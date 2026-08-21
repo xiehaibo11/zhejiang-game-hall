@@ -1,0 +1,248 @@
+
+/* std::__ndk1::pair<std::__ndk1::__hash_iterator<std::__ndk1::__hash_node<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,
+   std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >,
+   std::__ndk1::list<cocos2d::PUAbstractNode*, std::__ndk1::allocator<cocos2d::PUAbstractNode*> > >,
+   void*>*>, bool>
+   std::__ndk1::__hash_table<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,
+   std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >,
+   std::__ndk1::list<cocos2d::PUAbstractNode*, std::__ndk1::allocator<cocos2d::PUAbstractNode*> > >,
+   std::__ndk1::__unordered_map_hasher<std::__ndk1::basic_string<char,
+   std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >,
+   std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>,
+   std::__ndk1::allocator<char> >, std::__ndk1::list<cocos2d::PUAbstractNode*,
+   std::__ndk1::allocator<cocos2d::PUAbstractNode*> > >,
+   std::__ndk1::hash<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>,
+   std::__ndk1::allocator<char> > >, true>,
+   std::__ndk1::__unordered_map_equal<std::__ndk1::basic_string<char,
+   std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >,
+   std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>,
+   std::__ndk1::allocator<char> >, std::__ndk1::list<cocos2d::PUAbstractNode*,
+   std::__ndk1::allocator<cocos2d::PUAbstractNode*> > >,
+   std::__ndk1::equal_to<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>,
+   std::__ndk1::allocator<char> > >, true>,
+   std::__ndk1::allocator<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,
+   std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >,
+   std::__ndk1::list<cocos2d::PUAbstractNode*, std::__ndk1::allocator<cocos2d::PUAbstractNode*> > >
+   > >::__emplace_unique_key_args<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>,
+   std::__ndk1::allocator<char> >, std::__ndk1::piecewise_construct_t const&,
+   std::__ndk1::tuple<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>,
+   std::__ndk1::allocator<char> > const&>, std::__ndk1::tuple<> >(std::__ndk1::basic_string<char,
+   std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&,
+   std::__ndk1::piecewise_construct_t const&, std::__ndk1::tuple<std::__ndk1::basic_string<char,
+   std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&>&&, std::__ndk1::tuple<>&&)
+    */
+
+long * std::__ndk1::
+       __hash_table<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::list<cocos2d::PUAbstractNode*,std::__ndk1::allocator<cocos2d::PUAbstractNode*>>>,std::__ndk1::__unordered_map_hasher<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::list<cocos2d::PUAbstractNode*,std::__ndk1::allocator<cocos2d::PUAbstractNode*>>>,std::__ndk1::hash<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>>,true>,std::__ndk1::__unordered_map_equal<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::list<cocos2d::PUAbstractNode*,std::__ndk1::allocator<cocos2d::PUAbstractNode*>>>,std::__ndk1::equal_to<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>>,true>,std::__ndk1::allocator<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::list<cocos2d::PUAbstractNode*,std::__ndk1::allocator<cocos2d::PUAbstractNode*>>>>>
+       ::
+       __emplace_unique_key_args<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::piecewise_construct_t_const&,std::__ndk1::tuple<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>const&>,std::__ndk1::tuple<>>
+                 (basic_string *param_1,piecewise_construct_t *param_2,tuple *param_3,tuple *param_4
+                 )
+
+{
+  size_t sVar1;
+  piecewise_construct_t *ppVar2;
+  byte bVar3;
+  ulong uVar4;
+  long lVar5;
+  size_t __n;
+  uint uVar6;
+  ulong uVar7;
+  void *__s1;
+  undefined8 uVar8;
+  undefined8 *puVar9;
+  ulong uVar10;
+  long *plVar11;
+  basic_string *pbVar12;
+  ulong uVar13;
+  long lVar14;
+  long *plVar15;
+  ulong uVar16;
+  ulong unaff_x27;
+  undefined2 uVar17;
+  __murmur2_or_cityhash<unsigned_long,64ul> a_Stack_70 [8];
+  long local_68;
+  
+  lVar5 = tpidr_el0;
+  local_68 = *(long *)(lVar5 + 0x28);
+  uVar7 = *(ulong *)(param_2 + 8);
+  ppVar2 = *(piecewise_construct_t **)(param_2 + 0x10);
+  if (((byte)*param_2 & 1) == 0) {
+    ppVar2 = param_2 + 1;
+    uVar7 = (ulong)((byte)*param_2 >> 1);
+  }
+  uVar7 = __murmur2_or_cityhash<unsigned_long,64ul>::operator()(a_Stack_70,ppVar2,uVar7);
+  uVar16 = *(ulong *)(param_1 + 8);
+  if (uVar16 != 0) {
+                    /* catch() { ... } // from try @ 00e43890 with catch @ 00e43958 */
+    uVar8 = CONCAT17(POPCOUNT((char)(uVar16 >> 0x38)),
+                     CONCAT16(POPCOUNT((char)(uVar16 >> 0x30)),
+                              CONCAT15(POPCOUNT((char)(uVar16 >> 0x28)),
+                                       CONCAT14(POPCOUNT((char)(uVar16 >> 0x20)),
+                                                CONCAT13(POPCOUNT((char)(uVar16 >> 0x18)),
+                                                         CONCAT12(POPCOUNT((char)(uVar16 >> 0x10)),
+                                                                  CONCAT11(POPCOUNT((char)(uVar16 >>
+                                                                                          8)),
+                                                                           POPCOUNT((char)uVar16))))
+                                               ))));
+    uVar17 = NEON_uaddlv(uVar8,1);
+    uVar13 = CONCAT62((int6)((ulong)uVar8 >> 0x10),uVar17) & 0xffffffff;
+    if (uVar13 < 2) {
+      unaff_x27 = uVar16 - 1 & uVar7;
+    }
+    else {
+      unaff_x27 = uVar7;
+                    /* try { // try from 00e43974 to 00f439c3 has its CatchHandler @ 00e43974
+                       catch() { ... } // from try @ 00e43974 with catch @ 00e43974
+                       catch() { ... } // from try @ 00e439c8 with catch @ 00e43974
+                       catch() { ... } // from try @ 00e43a00 with catch @ 00e43974 */
+      if (uVar16 <= uVar7) {
+        uVar10 = 0;
+        if (uVar16 != 0) {
+          uVar10 = uVar7 / uVar16;
+        }
+        unaff_x27 = uVar7 - uVar10 * uVar16;
+      }
+    }
+    puVar9 = *(undefined8 **)(*(long *)param_1 + unaff_x27 * 8);
+    if ((puVar9 != (undefined8 *)0x0) && (plVar15 = (long *)*puVar9, plVar15 != (long *)0x0)) {
+      __n = (ulong)((byte)*param_2 >> 1);
+      ppVar2 = param_2 + 1;
+      if (((byte)*param_2 & 1) != 0) {
+                    /* try { // try from 00e439c4 to 00f439c7 has its CatchHandler @ 00e43a58 */
+        __n = *(size_t *)(param_2 + 8);
+        ppVar2 = *(piecewise_construct_t **)(param_2 + 0x10);
+      }
+      do {
+        uVar10 = plVar15[1];
+        if (uVar10 != uVar7) {
+          if (uVar13 < 2) {
+            uVar10 = uVar10 & uVar16 - 1;
+          }
+          else if (uVar16 <= uVar10) {
+            uVar4 = 0;
+            if (uVar16 != 0) {
+              uVar4 = uVar10 / uVar16;
+            }
+                    /* try { // try from 00e439f8 to 00f439ff has its CatchHandler @ 00e43a54 */
+            if (uVar10 - uVar4 * uVar16 == unaff_x27) goto LAB_00e43a14;
+            break;
+          }
+          if (uVar10 != unaff_x27) break;
+        }
+LAB_00e43a14:
+        bVar3 = *(byte *)(plVar15 + 2);
+        sVar1 = (ulong)(bVar3 >> 1);
+        if ((bVar3 & 1) != 0) {
+          sVar1 = plVar15[3];
+        }
+        if (sVar1 == __n) {
+          __s1 = (void *)plVar15[4];
+          if ((bVar3 & 1) == 0) {
+            __s1 = (void *)((long)plVar15 + 0x11);
+          }
+          if ((bVar3 & 1) == 0) {
+            if (__n != 0) {
+              uVar10 = 0;
+                    /* catch() { ... } // from try @ 00e439f8 with catch @ 00e43a54 */
+                    /* catch() { ... } // from try @ 00e439c4 with catch @ 00e43a58 */
+              while (*(piecewise_construct_t *)((long)plVar15 + uVar10 + 0x11) == ppVar2[uVar10]) {
+                uVar10 = uVar10 + 1;
+                if (bVar3 >> 1 == uVar10) goto LAB_00e43a84;
+              }
+              goto LAB_00e439cc;
+            }
+          }
+          else if (__n != 0) {
+            uVar6 = memcmp(__s1,ppVar2,__n);
+            __s1 = (void *)(ulong)uVar6;
+            if (uVar6 != 0) goto LAB_00e439cc;
+          }
+LAB_00e43a84:
+          uVar8 = 0;
+          goto LAB_00e43bb8;
+        }
+LAB_00e439cc:
+        plVar15 = (long *)*plVar15;
+      } while (plVar15 != (long *)0x0);
+    }
+  }
+  plVar15 = operator_new(0x40);
+  __s1 = (void *)basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>::
+                 basic_string((basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>
+                               *)(plVar15 + 2),*(basic_string **)param_4);
+                    /* try { // try from 00e43aa8 to 00f43b0b has its CatchHandler @ 00e43aa8
+                       catch() { ... } // from try @ 00e43aa8 with catch @ 00e43aa8
+                       catch() { ... } // from try @ 00e43b14 with catch @ 00e43aa8 */
+  plVar15[6] = (long)(plVar15 + 5);
+  plVar15[7] = 0;
+  plVar15[5] = (long)(plVar15 + 5);
+  *plVar15 = 0;
+  plVar15[1] = uVar7;
+  if ((uVar16 == 0) ||
+     (*(float *)(param_1 + 0x20) * (float)uVar16 < (float)(*(long *)(param_1 + 0x18) + 1))) {
+    uVar16 = (ulong)(uVar16 < 3 || (uVar16 & uVar16 - 1) != 0) | uVar16 << 1;
+    uVar13 = (ulong)((float)(*(long *)(param_1 + 0x18) + 1) / *(float *)(param_1 + 0x20));
+    if (uVar13 <= uVar16) {
+      uVar13 = uVar16;
+    }
+                    /* try { // try from 00e43b0c to 00f43b13 has its CatchHandler @ 00e43b54 */
+    __s1 = (void *)rehash((__hash_table<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::list<cocos2d::PUAbstractNode*,std::__ndk1::allocator<cocos2d::PUAbstractNode*>>>,std::__ndk1::__unordered_map_hasher<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::list<cocos2d::PUAbstractNode*,std::__ndk1::allocator<cocos2d::PUAbstractNode*>>>,std::__ndk1::hash<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>>,true>,std::__ndk1::__unordered_map_equal<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::list<cocos2d::PUAbstractNode*,std::__ndk1::allocator<cocos2d::PUAbstractNode*>>>,std::__ndk1::equal_to<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>>,true>,std::__ndk1::allocator<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char,std::__ndk1::char_traits<char>,std::__ndk1::allocator<char>>,std::__ndk1::list<cocos2d::PUAbstractNode*,std::__ndk1::allocator<cocos2d::PUAbstractNode*>>>>>
+                           *)param_1,uVar13);
+    uVar16 = *(ulong *)(param_1 + 8);
+                    /* try { // try from 00e43b14 to 00f43b67 has its CatchHandler @ 00e43aa8 */
+    if ((uVar16 & uVar16 - 1) == 0) {
+      unaff_x27 = uVar16 - 1 & uVar7;
+    }
+    else {
+      unaff_x27 = uVar7;
+      if (uVar16 <= uVar7) {
+        uVar13 = 0;
+        if (uVar16 != 0) {
+          uVar13 = uVar7 / uVar16;
+        }
+        unaff_x27 = uVar7 - uVar13 * uVar16;
+      }
+    }
+  }
+  lVar14 = *(long *)param_1;
+  plVar11 = *(long **)(lVar14 + unaff_x27 * 8);
+  if (plVar11 == (long *)0x0) {
+    pbVar12 = param_1 + 0x10;
+    *plVar15 = *(long *)pbVar12;
+    *(long **)pbVar12 = plVar15;
+                    /* try { // try from 00e43b68 to 00f43be7 has its CatchHandler @ 00e43b68
+                       catch() { ... } // from try @ 00e43b68 with catch @ 00e43b68
+                       catch() { ... } // from try @ 00e43e38 with catch @ 00e43b68 */
+    *(basic_string **)(lVar14 + unaff_x27 * 8) = pbVar12;
+    if (*plVar15 == 0) goto LAB_00e43ba8;
+    uVar7 = *(ulong *)(*plVar15 + 8);
+    if ((uVar16 & uVar16 - 1) == 0) {
+      uVar7 = uVar7 & uVar16 - 1;
+    }
+    else if (uVar16 <= uVar7) {
+      uVar13 = 0;
+      if (uVar16 != 0) {
+        uVar13 = uVar7 / uVar16;
+      }
+      uVar7 = uVar7 - uVar13 * uVar16;
+    }
+    plVar11 = (long *)(*(long *)param_1 + uVar7 * 8);
+  }
+  else {
+    *plVar15 = *plVar11;
+                    /* catch() { ... } // from try @ 00e43b0c with catch @ 00e43b54 */
+  }
+  *plVar11 = (long)plVar15;
+LAB_00e43ba8:
+  uVar8 = 1;
+  *(long *)(param_1 + 0x18) = *(long *)(param_1 + 0x18) + 1;
+LAB_00e43bb8:
+  if (*(long *)(lVar5 + 0x28) != local_68) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(__s1,uVar8);
+  }
+                    /* try { // try from 00e43be8 to 00f43bef has its CatchHandler @ 00e43e78 */
+  return plVar15;
+}
+

@@ -1,0 +1,91 @@
+{
+  "m_Name": "6217e6c3f9e0292d7646491d7f53e251.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4070126268591098880
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 107862044721249160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8683777901317953491
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8516435616586888757
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5531324307442014763
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 793703258129897385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3204554767960046456
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3632118297427013852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5173597283575192460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8503984141224538144
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9140661754788062363
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/common/commoncannonpreview.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 14,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3204554767960046456
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6217e6c3f9e0292d7646491d7f53e251.bundle",
+  "m_Dependencies": [
+    "71fce0e5df941bf059e16b0f7b543981.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

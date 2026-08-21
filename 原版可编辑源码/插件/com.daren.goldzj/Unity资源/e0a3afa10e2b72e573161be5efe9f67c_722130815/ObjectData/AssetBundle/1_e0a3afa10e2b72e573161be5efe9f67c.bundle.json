@@ -1,0 +1,186 @@
+{
+  "m_Name": "e0a3afa10e2b72e573161be5efe9f67c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 10210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8978871280234203923
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8862968790575572706
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8553182808452643986
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8508928530960585498
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7099571243954298127
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5551496694965080604
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5476826618951769991
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4972195132474380100
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4962721160893277041
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4864186300788499051
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4839457183875008796
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4211775707583787799
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3910638759757016344
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2346019860006886917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2263039123273371718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -583602498159746716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -312521932805782338
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 742911786923476432
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 925586102783932848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1187294906658966126
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2438567692411054323
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2492585291016488197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3841094029181570547
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5282724979877238788
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5389178787901650772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6294582440993367193
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7052274057339556276
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7352907069976430046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8384412934725776528
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8599821223488253738
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8800656794379241723
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7037614207214710250
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8609156646091227216
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 2177833998611451019
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7982832150285332601
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/wealthtrain/effect/prefab/huoche_ruchang_effect_wealthtrain_left.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 37,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6294582440993367193
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e0a3afa10e2b72e573161be5efe9f67c.bundle",
+  "m_Dependencies": [
+    "29caee0f0884d06ea1f7ad82c020e9d8.bundle",
+    "4041c8ac8b13a2b684556ba129b094d2.bundle",
+    "461f7981ffa623f7d3d7a906b6ed4585.bundle",
+    "bc3161cf020e975be7430c1b1f39f3ba.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

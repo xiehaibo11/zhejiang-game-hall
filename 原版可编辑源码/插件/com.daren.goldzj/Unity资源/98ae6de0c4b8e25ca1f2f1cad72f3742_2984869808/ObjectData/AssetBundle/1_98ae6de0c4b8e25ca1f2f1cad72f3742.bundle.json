@@ -1,0 +1,84 @@
+{
+  "m_Name": "98ae6de0c4b8e25ca1f2f1cad72f3742.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -1168518011070445532
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3695594093193781658
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8588962528084186880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7456440083904003142
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6874833534678854392
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6800015136122694857
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3811789433065725853
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3663984501055571249
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3025202979907646324
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7042078911819636151
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8217461225771751510
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8956345395067028631
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/returningplayer/effect/prefab/uieffect_jindutiao.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7456440083904003142
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "98ae6de0c4b8e25ca1f2f1cad72f3742.bundle",
+  "m_Dependencies": [
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "7b14c45d02b38b42ef458a5625854151.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

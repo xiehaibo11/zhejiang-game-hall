@@ -1,0 +1,78 @@
+{
+  "m_Name": "8706ee05c5812277305131ef59bb5d90.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6527548739635167255
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5469050828561221196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1197915351989738380
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5744033393763777988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8844221215639830467
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/068_fengbaojishen/pifu/fbx/trail_fjpf_2.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8844221215639830467
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/068_fengbaojishen/pifu/fbx/trail_fjpf_2.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5744033393763777988
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8706ee05c5812277305131ef59bb5d90.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

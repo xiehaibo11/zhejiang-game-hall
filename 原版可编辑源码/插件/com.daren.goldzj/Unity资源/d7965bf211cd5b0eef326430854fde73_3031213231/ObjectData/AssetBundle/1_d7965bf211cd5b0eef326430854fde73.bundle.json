@@ -1,0 +1,155 @@
+{
+  "m_Name": "d7965bf211cd5b0eef326430854fde73.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2107168536166499979
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8663161526097727323
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -5421894792698611241
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 6238514460290565305
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8835211684072313970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7949265121280602256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2584392488299778119
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2113768548801110723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1933311416391374973
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1816361969314354243
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1034140947209314552
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -258529990775428510
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 439727829264760025
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 449771143633955101
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 955460384083016015
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1642921746814008306
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1898187850935411900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2402427736749257283
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2656062948159882887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2833255795828693108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5219054424726380335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5504956023727978661
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5517655075834800184
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5870234544675888348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6522440996317634933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7232936583362475426
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8090259608339892919
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8657443300124506192
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 300247564625692073
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactprayv2/effect/prefab/ui_effect_tslj_fenwei.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 29,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5870234544675888348
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d7965bf211cd5b0eef326430854fde73.bundle",
+  "m_Dependencies": [
+    "22041b62d144081659ca34616d2f2cef.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "b752fb31562bb6a6b5930551108ae83b.bundle",
+    "dc7fdc08a7ba06e5975aabd914cf36e8.bundle",
+    "ee30215828f56873eb26ab98edd87807.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

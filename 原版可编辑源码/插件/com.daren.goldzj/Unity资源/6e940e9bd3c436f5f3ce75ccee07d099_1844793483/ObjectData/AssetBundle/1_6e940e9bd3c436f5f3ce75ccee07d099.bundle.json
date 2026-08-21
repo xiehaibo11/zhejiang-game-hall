@@ -1,0 +1,172 @@
+{
+  "m_Name": "6e940e9bd3c436f5f3ce75ccee07d099.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -477799913187665173
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1274838734643053003
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8878773147486675650
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2376317989603119827
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1462552295819786516
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7710845716748825736
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4894857852018720270
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4295631668028786797
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7286457291064215157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8736726434582492416
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/906027/texture/glow_yry_02.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -477799913187665173
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/texture/glow_yry_04.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8736726434582492416
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/texture/glow_yry_06.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4295631668028786797
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/texture/mask_801_clamp.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8878773147486675650
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/texture/other_hulu.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7286457291064215157
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/texture/other_yry_01.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1462552295819786516
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/texture/other_yry_02.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4894857852018720270
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/texture/other_yry_03.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7710845716748825736
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/texture/ui_gsay.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2376317989603119827
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906027/texture/ui_ryst.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1274838734643053003
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6e940e9bd3c436f5f3ce75ccee07d099.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

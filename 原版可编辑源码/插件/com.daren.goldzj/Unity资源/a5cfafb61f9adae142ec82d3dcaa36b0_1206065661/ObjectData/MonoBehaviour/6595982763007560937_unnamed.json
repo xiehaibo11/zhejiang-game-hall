@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8700955205025845273
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 9202454401006530641
+  },
+  "m_Name": "",
+  "skeletonDataAsset": {
+    "m_FileID": 2,
+    "m_PathID": 6024443427005136239
+  },
+  "initialSkinName": "default",
+  "initialFlipX": 0,
+  "initialFlipY": 0,
+  "separatorSlotNames": [],
+  "zSpacing": 0.0,
+  "useClipping": 1,
+  "immutableTriangles": 0,
+  "pmaVertexColors": 1,
+  "clearStateOnDisable": 0,
+  "tintBlack": 0,
+  "singleSubmesh": 0,
+  "addNormals": 0,
+  "calculateTangents": 0,
+  "logErrors": 0,
+  "disableRenderingOnOverride": 1,
+  "_animationName": "animation",
+  "loop": 1,
+  "timeScale": 1.0
+}

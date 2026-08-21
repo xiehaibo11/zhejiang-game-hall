@@ -1,0 +1,43 @@
+{
+  "m_Name": "8eb04be2697ce2a4eba84e647ce7c13b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6709930744473161550
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5259905206014827176
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/noblecelebration/effect/animator/center.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6709930744473161550
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8eb04be2697ce2a4eba84e647ce7c13b.bundle",
+  "m_Dependencies": [
+    "3f2348e2a8700ad3b38bdcebea042a4c.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

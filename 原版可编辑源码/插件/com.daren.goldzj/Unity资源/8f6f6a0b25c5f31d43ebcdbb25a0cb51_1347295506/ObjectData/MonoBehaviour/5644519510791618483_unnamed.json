@@ -1,0 +1,105 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1792359189693265161
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1940189682100330485
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1155553402463911877
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1399853209492666533
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2826044491412220241
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4151886931161885298
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 931341378089460938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1246279007659363000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2986046413964051304
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1772362984280636545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7227372989418465933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5382531178297838862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7450639968053106073
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8130345818648715425
+    }
+  ],
+  "m_BindComs_Name": [
+    "callback",
+    "normalEffect",
+    "shengJiEffect",
+    "shengJiNormalEffect",
+    "eyeRender",
+    "shentiRender",
+    "toufaRender",
+    "wuqiRender",
+    "yifuRender",
+    "animator",
+    "m_DraggableModel",
+    "CameraEffects",
+    "TimeLine"
+  ],
+  "m_BindInt": [
+    1003
+  ],
+  "m_BindInt_Name": [
+    "godGeneralId"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GodGeneral.GodGeneralUIEnterScene_DaJi",
+  "m_ClassName": "GodGeneralUIEnterScene_DaJi"
+}

@@ -1,0 +1,52 @@
+{
+  "m_Name": "d3afd71c7c9738513a46c9b34b970362.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2648505588621942177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6785450613004679042
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/texture/permanentcannonwinggift/img_bg.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6785450613004679042
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/texture/permanentcannonwinggift/img_yjptxcmj_bg.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2648505588621942177
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d3afd71c7c9738513a46c9b34b970362.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

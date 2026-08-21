@@ -1,0 +1,41 @@
+
+long TIFFFieldWithName(long param_1,char *param_2)
+
+{
+  long *plVar1;
+  int iVar2;
+  long lVar3;
+  long *plVar4;
+  
+  lVar3 = *(long *)(param_1 + 0x400);
+  if ((lVar3 == 0) || (iVar2 = strcmp(*(char **)(lVar3 + 0x20),param_2), iVar2 != 0)) {
+    plVar4 = *(long **)(param_1 + 0x3f0);
+    if (plVar4 != (long *)0x0) {
+      if (0 < *(long *)(param_1 + 0x3f8) * 8) {
+        plVar1 = plVar4 + *(long *)(param_1 + 0x3f8);
+        do {
+          lVar3 = *plVar4;
+          iVar2 = strcmp(param_2,*(char **)(lVar3 + 0x20));
+          if (iVar2 == 0) {
+            if (plVar4 != (long *)0x0) {
+              *(long *)(param_1 + 0x400) = lVar3;
+              if (lVar3 != 0) {
+                return lVar3;
+              }
+              goto LAB_01112eb4;
+            }
+            break;
+          }
+          plVar4 = plVar4 + 1;
+        } while (plVar4 < plVar1);
+      }
+      *(undefined8 *)(param_1 + 0x400) = 0;
+    }
+LAB_01112eb4:
+    TIFFErrorExt(*(undefined8 *)(param_1 + 0x3b8),"TIFFFieldWithName",
+                 "Internal error, unknown tag %s",param_2);
+    lVar3 = 0;
+  }
+  return lVar3;
+}
+

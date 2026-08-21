@@ -1,0 +1,130 @@
+{
+  "m_Name": "b2f375382e9549156f1f59084da386e5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -7172112391417340956
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -535630492773410942
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -1452927002342082696
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6020321505886468045
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5719774067192643735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5154578642716862510
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4872470706091003164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3589108404151526870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3456481527742066885
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3190129656536791432
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2862124371931829081
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1101896745625170774
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2411165428878103917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4765442716181239188
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7642955443671604680
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8604130263397942348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8676551681721127684
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8870995851070166295
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/duobaoqibing/effect/prefab/uieffect_jxsj_icon.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 23,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4765442716181239188
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b2f375382e9549156f1f59084da386e5.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "b07a574f77f0bab450238f191f36f625.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

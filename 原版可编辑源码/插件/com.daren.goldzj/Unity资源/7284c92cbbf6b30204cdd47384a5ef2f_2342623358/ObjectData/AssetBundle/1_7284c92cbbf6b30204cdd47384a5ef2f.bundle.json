@@ -1,0 +1,112 @@
+{
+  "m_Name": "7284c92cbbf6b30204cdd47384a5ef2f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2975859853694649596
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 60822705096911603
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 140497724245863678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6853316907859985823
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4029639357640753353
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 560485068579652456
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/xiaochoupaotai/texture/jiban_1.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4029639357640753353
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/xiaochoupaotai/texture/jiban_2.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6853316907859985823
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/xiaochoupaotai/texture/line_284_1.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 140497724245863678
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/xiaochoupaotai/texture/line_xcpt_1.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 560485068579652456
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/xiaochoupaotai/texture/other_lihua_1.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 60822705096911603
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/xiaochoupaotai/texture/star_xcn_03.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2975859853694649596
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7284c92cbbf6b30204cdd47384a5ef2f.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

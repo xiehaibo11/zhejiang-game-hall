@@ -1,0 +1,52 @@
+{
+  "m_Name": "4c04cf151cbd428ce5f264be432397d4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2461806168971203894
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5724770885351177901
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 210550891322177108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/emoji/vip/heartbroken/guizubiaoqing_xinsui_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 210550891322177108
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4c04cf151cbd428ce5f264be432397d4.bundle",
+  "m_Dependencies": [
+    "38db1f0a679d8b92bf83f0ad48dea931.bundle",
+    "b348301a0b0ad1cd2b5d323eb530390c.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

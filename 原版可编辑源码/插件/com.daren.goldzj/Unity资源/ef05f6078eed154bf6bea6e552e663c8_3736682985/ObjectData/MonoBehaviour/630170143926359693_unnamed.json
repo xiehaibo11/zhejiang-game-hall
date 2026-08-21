@@ -1,0 +1,80 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5688324343221470610
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6532856559197073282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3065698389188640377
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5377002263185889692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9000927740496936596
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7463892128710932718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5597705119570565871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1170940920723274645
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2589955745869127552
+    }
+  ],
+  "m_BindComs_Name": [
+    "Bg",
+    "BtnRule",
+    "TextRule",
+    "RankScroller",
+    "RankGoldItem",
+    "SelfInfo",
+    "NoRankUI",
+    "RankEndHint"
+  ],
+  "m_BindInt": [
+    1
+  ],
+  "m_BindInt_Name": [
+    "rankType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GodzillaAct.GodzillaActRankPanel",
+  "m_ClassName": "GodzillaActRankPanel"
+}

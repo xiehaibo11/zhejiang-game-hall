@@ -1,0 +1,107 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4656271418829711233
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8492872366273195776
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4533026084576352920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4133612947731942039
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3596843988132720933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4163341386612631660
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7754333548617934890
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7082827213315578532
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -353097830977833586
+    }
+  ],
+  "m_BindComs_Name": [
+    "mBtnClose",
+    "mBtnOpen",
+    "mBtnLabel",
+    "tiplabel",
+    "commonlabel",
+    "LabelCountDown",
+    "AfterOpenAnimtor",
+    "BreakOB"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 9124740245416862304
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 38530036290214861
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6185733428691340569
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 825071396059677010
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8157101102849028161
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3394994867982336907
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "RewordsBind"
+  ],
+  "hotfixClassFullName": "GameHotFix.LuckyEgg.LuckyEggMainPanel",
+  "m_ClassName": "LuckyEggMainPanel"
+}

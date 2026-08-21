@@ -1,0 +1,205 @@
+{
+  "m_Name": "24910faaadf8be93fc90280dd2631ff2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 6236103021456062951
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4898186454187339165
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8474294002776356967
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4642359048230407311
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3267625133775261215
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 567237746971544546
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9121549807357356307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8042712424521615080
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7443363011702380647
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7289119101614207579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7011385100019996404
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6804863888599744441
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4290373750577789250
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3778440484336272143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3282955122925536744
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3248438364611207333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2192969606959601900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2046127451522455688
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1246407842801504235
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1050422749613398567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -104242443108465817
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 697369990235805141
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 947724948226674926
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1337017671444808912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1683773248185245156
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1726139418684026419
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2285116791031121887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3265942447130134238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4561354985958020512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5605625184684487414
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6182007607900406853
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6225600507722217587
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6250909359257062214
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6702478984966512513
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6947358004872253169
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7339664535572235117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7513361256219735234
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7621511682580360878
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7824457110169644504
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7852540301450544481
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonnew/20245/bullet_20245.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 42,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3282955122925536744
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "24910faaadf8be93fc90280dd2631ff2.bundle",
+  "m_Dependencies": [
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "820b0ce0a6627c700f124497103f139c.bundle",
+    "9bb6f55e45d4d5366a0e215a1297a9fd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

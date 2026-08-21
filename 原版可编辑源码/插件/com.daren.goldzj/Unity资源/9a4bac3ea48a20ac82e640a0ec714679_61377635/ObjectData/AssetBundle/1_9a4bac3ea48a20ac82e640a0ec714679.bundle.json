@@ -1,0 +1,174 @@
+{
+  "m_Name": "9a4bac3ea48a20ac82e640a0ec714679.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5838486593665935470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8923470732783746277
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8923470732783746277
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -49708489138660273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3530679334754476740
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7690744371900837685
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5838486593665935470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -49708489138660273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3530679334754476740
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4398189591975882340
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8923470732783746277
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7690744371900837685
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5838486593665935470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -49708489138660273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8923470732783746277
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/spine/caishen/caishen.atlas.txt",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -49708489138660273
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/caishen/caishen.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8923470732783746277
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/caishen/caishen.skel.bytes",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3530679334754476740
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/caishen/caishen_atlas.asset",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7690744371900837685
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/caishen/caishen_material.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5838486593665935470
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/caishen/caishen_skeletondata.asset",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4398189591975882340
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9a4bac3ea48a20ac82e640a0ec714679.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

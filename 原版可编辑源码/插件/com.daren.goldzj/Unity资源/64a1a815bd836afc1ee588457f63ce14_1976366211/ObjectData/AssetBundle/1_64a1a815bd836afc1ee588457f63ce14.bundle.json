@@ -1,0 +1,58 @@
+{
+  "m_Name": "64a1a815bd836afc1ee588457f63ce14.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2590834925324547135
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1552507706963524852
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7121340115317403055
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -1390981579040165364
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/gameactivity/shenjiangtask/effect/material/noise_sj_1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2590834925324547135
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "64a1a815bd836afc1ee588457f63ce14.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "93033b3a0a4a021951a954a26fc86ab6.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

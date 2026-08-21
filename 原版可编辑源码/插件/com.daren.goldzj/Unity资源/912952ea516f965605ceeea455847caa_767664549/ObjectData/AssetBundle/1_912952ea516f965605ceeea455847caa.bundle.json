@@ -1,0 +1,63 @@
+{
+  "m_Name": "912952ea516f965605ceeea455847caa.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 5,
+      "m_PathID": -7476452967465814331
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3542675471439310541
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6451912175178978073
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2570707842594223202
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4647313372999290645
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 9171900829081922871
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneralboss/3001/animation/godgeneral_3001.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3542675471439310541
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "912952ea516f965605ceeea455847caa.bundle",
+  "m_Dependencies": [
+    "29b97e5ba0b4a4e5b7efb3d9250ac156.bundle",
+    "851749bb85ba974dc8410290b4a41153.bundle",
+    "87473ef1e4cda8aead5020a0f60b9ad2.bundle",
+    "b0c5e464a42699e3033ca4cba164ce5a.bundle",
+    "f869f5271327e9fb79e00cd5c349c112.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

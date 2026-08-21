@@ -1,0 +1,187 @@
+{
+  "m_Name": "963538f2fc5dc8f0f6a03e2cce04b544.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8704179797091469525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7239403862679865563
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4812997666654392328
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3274409806930505264
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8712423601767038607
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1795621273106985758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8189869281387904205
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2921959050812805923
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -393897399772437381
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3276540226823052648
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3325658506996513248
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/img_py_bt_cjxf.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2921959050812805923
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/img_py_cjxf.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3325658506996513248
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/lightning_0002.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8189869281387904205
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/lightning_0003.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1795621273106985758
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/mask_0001.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3276540226823052648
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/mask_0001_ab.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8704179797091469525
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/mask_0002.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7239403862679865563
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/other_heart_0001.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -393897399772437381
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/other_wangge_0002.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3274409806930505264
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/ring_0001.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4812997666654392328
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shenshengjinfeng/textures/rrby_quanquan_035.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8712423601767038607
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "963538f2fc5dc8f0f6a03e2cce04b544.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

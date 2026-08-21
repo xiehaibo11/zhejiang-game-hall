@@ -1,0 +1,131 @@
+{
+  "m_Name": "32e1c2007ff1b229bcdedc073a4bd132.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3213591347510871232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1957323146628795703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 603662370831784379
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1311928682303494124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8666884679376188057
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5682877622090458760
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1957323146628795703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8666884679376188057
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 117222469161619731
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1957323146628795703
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_activitygoodwelfarenew/activitygoodwelfarenew.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8666884679376188057
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_activitygoodwelfarenew/activitygoodwelfarenew.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1957323146628795703
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_activitygoodwelfarenew/activitygoodwelfarenew.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3213591347510871232
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_activitygoodwelfarenew/img_hyflzzb_bg.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 117222469161619731
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_activitygoodwelfarenew/img_jchd_hyfl_bg.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5682877622090458760
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "32e1c2007ff1b229bcdedc073a4bd132.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

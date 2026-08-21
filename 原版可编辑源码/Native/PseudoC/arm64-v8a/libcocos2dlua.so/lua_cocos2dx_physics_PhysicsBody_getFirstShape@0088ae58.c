@@ -1,0 +1,33 @@
+
+/* lua_cocos2dx_physics_PhysicsBody_getFirstShape(lua_State*) */
+
+undefined8 lua_cocos2dx_physics_PhysicsBody_getFirstShape(lua_State *param_1)
+
+{
+  int iVar1;
+  long lVar2;
+  undefined8 uVar3;
+  void *pvVar4;
+  
+  lVar2 = tolua_tousertype(param_1,1,0);
+  iVar1 = lua_gettop(param_1);
+  if (iVar1 + -1 == 0) {
+    if ((*(long *)(lVar2 + 0x70) - (long)*(undefined8 **)(lVar2 + 0x68) < 1) ||
+       (pvVar4 = (void *)**(undefined8 **)(lVar2 + 0x68), pvVar4 == (void *)0x0)) {
+      lua_pushnil(param_1);
+    }
+    else {
+      toluafix_pushusertype_ccobject
+                (param_1,*(int *)((long)pvVar4 + 0xc),(int *)((long)pvVar4 + 0x10),pvVar4,
+                 "cc.PhysicsShape");
+    }
+    uVar3 = 1;
+  }
+  else {
+    luaL_error(param_1,"%s has wrong number of arguments: %d, was expecting %d \n",
+               "cc.PhysicsBody:getFirstShape",iVar1 + -1,0);
+    uVar3 = 0;
+  }
+  return uVar3;
+}
+

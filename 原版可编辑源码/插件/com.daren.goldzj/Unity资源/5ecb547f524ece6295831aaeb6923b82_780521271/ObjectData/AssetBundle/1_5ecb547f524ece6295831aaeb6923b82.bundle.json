@@ -1,0 +1,67 @@
+{
+  "m_Name": "5ecb547f524ece6295831aaeb6923b82.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2915233465829355213
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9032374426735441071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4465579649001568747
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/131_zaowangye/texture/jinbi_d.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4465579649001568747
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/131_zaowangye/texture/jinbi_m.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9032374426735441071
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/131_zaowangye/texture/jinbi_n.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2915233465829355213
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5ecb547f524ece6295831aaeb6923b82.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,244 @@
+{
+  "m_Name": "b9533b7622815a87915edf6dd5d65129.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 6,
+      "m_PathID": 4112159416671419154
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4812060820443555094
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -7389102369754262063
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -1131233182279720571
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8847030475748274781
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8826104343054857527
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8725175512891458375
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7853444892422581602
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7840319899609491181
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7726824006457180094
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6747028534123034425
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5893836942036311456
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5842651847118240788
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5806471297649245067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5523437190601028223
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5031565133095462597
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4677909832802310361
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4455138464760835194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4212067149345167157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4011290651459634332
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3947999017364164874
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3439569233511004925
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3346208560965497811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2491415089021785494
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1892360216313403905
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1093285981642036927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -751562828703149317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -595713210875377695
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -500780453186721560
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -229034346603171559
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1098895467715177067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2616974061133758110
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3214616830633689189
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3978185910285802004
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4503472508012451541
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5295232157989387892
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5931093834113025392
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6292410055284309170
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6610687067794814713
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6883071315318725416
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6912897558566536965
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7127760497120568746
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7417218550482864740
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7429543537643812146
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7464223727394828716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7690529128420718280
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2255798334377284485
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/fengshenpuzzle/effect/prefab/uieffect_body_fenwei 1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 51,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -500780453186721560
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b9533b7622815a87915edf6dd5d65129.bundle",
+  "m_Dependencies": [
+    "0ed482bdc6a07bb2d4356762a4293f43.bundle",
+    "2d41a3c21e0a07e9e400d7cf6fbb75ec.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "d4e64e7ded7a45f91f2dc247a33269ac.bundle",
+    "d9a015fe110ea004eafe7e268798e3f2.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

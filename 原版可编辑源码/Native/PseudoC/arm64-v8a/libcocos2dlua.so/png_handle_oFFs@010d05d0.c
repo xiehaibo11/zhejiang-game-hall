@@ -1,0 +1,59 @@
+
+void png_handle_oFFs(long param_1,long param_2,int param_3)
+
+{
+  uint uVar1;
+  uint uVar2;
+  long lVar3;
+  int iVar4;
+  char *pcVar5;
+  uint local_44;
+  uint uStack_40;
+  undefined1 local_3c;
+  long local_38;
+  
+  lVar3 = tpidr_el0;
+  local_38 = *(long *)(lVar3 + 0x28);
+                    /* try { // try from 010d05ec to 011d062b has its CatchHandler @ 010d0324 */
+  if ((*(uint *)(param_1 + 0x164) & 1) == 0) {
+                    /* WARNING: Subroutine does not return */
+    png_chunk_error(param_1,"missing IHDR");
+  }
+  if ((*(uint *)(param_1 + 0x164) >> 2 & 1) == 0) {
+    if ((param_2 == 0) || ((*(byte *)(param_2 + 9) & 1) == 0)) {
+      if (param_3 == 9) {
+        png_read_data(param_1,&local_44,9);
+                    /* try { // try from 010d062c to 011d063b has its CatchHandler @ 010d0898 */
+        png_calculate_crc(param_1,&local_44,9);
+        iVar4 = png_crc_finish(param_1,0);
+        if (iVar4 == 0) {
+          uVar1 = (local_44 & 0xff00ff00) >> 8 | (local_44 & 0xff00ff) << 8;
+          uVar2 = (uStack_40 & 0xff00ff00) >> 8 | (uStack_40 & 0xff00ff) << 8;
+          png_set_oFFs(param_1,param_2,uVar1 >> 0x10 | uVar1 << 0x10,uVar2 >> 0x10 | uVar2 << 0x10,
+                       local_3c);
+        }
+        goto LAB_010d06b4;
+      }
+      png_crc_finish(param_1,param_3);
+      pcVar5 = "invalid";
+    }
+    else {
+                    /* try { // try from 010d069c to 011d0923 has its CatchHandler @ 010d0324 */
+      png_crc_finish(param_1,param_3);
+      pcVar5 = "duplicate";
+    }
+  }
+  else {
+                    /* try { // try from 010d0670 to 011d069b has its CatchHandler @ 010d0888 */
+    png_crc_finish(param_1,param_3);
+    pcVar5 = "out of place";
+  }
+  png_chunk_benign_error(param_1,pcVar5);
+LAB_010d06b4:
+  if (*(long *)(lVar3 + 0x28) == local_38) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+

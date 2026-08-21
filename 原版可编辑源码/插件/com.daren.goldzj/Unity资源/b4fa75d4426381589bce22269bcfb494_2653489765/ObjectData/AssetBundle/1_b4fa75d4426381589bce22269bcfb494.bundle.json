@@ -1,0 +1,101 @@
+{
+  "m_Name": "b4fa75d4426381589bce22269bcfb494.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5331009130353946416
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7912865215932053864
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5331009130353946416
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8800180721532181413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7912865215932053864
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5331009130353946416
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1070369454050477238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6892504821994678215
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_fantasytreasurehunt/fantasytreasurehunt.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7912865215932053864
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_fantasytreasurehunt/fantasytreasurehunt.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5331009130353946416
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_fantasytreasurehunt/fantasytreasurehunt.prefab",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6892504821994678215
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b4fa75d4426381589bce22269bcfb494.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

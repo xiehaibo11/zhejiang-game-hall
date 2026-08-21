@@ -1,0 +1,142 @@
+{
+  "m_Name": "38854ba5b44f9672bf0fd54000bb686c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5438038902555754494
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1855268909656195623
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2041209358707628765
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5291982047758944545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7544440326762858155
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2407015969838292791
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2300770177518532764
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 627139905499853121
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/yututanyue/textures/object_01_zqpt.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2300770177518532764
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/yututanyue/textures/object_02_zqpt.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7544440326762858155
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/yututanyue/textures/object_03_zqpt.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2407015969838292791
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/yututanyue/textures/object_04_zqpt.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1855268909656195623
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/yututanyue/textures/object_05_zqpt.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2041209358707628765
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/yututanyue/textures/object_06_zqpt.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5438038902555754494
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/yututanyue/textures/object_07_zqpt.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 627139905499853121
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/yututanyue/textures/object_08_zqpt.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5291982047758944545
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "38854ba5b44f9672bf0fd54000bb686c.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

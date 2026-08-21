@@ -1,0 +1,132 @@
+{
+  "m_Name": "f38db3b1c0ab7b91fc9b5a4b3824f3cb.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4862661695736286122
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3651386846031667902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2919423426123077890
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1534867344446881629
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2121769875729977757
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5265687416161781064
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4526426460863261804
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4200636396249994570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3653389107954289390
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7001068798477619045
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/taishanglaojun/fbx/plane_liubianxing.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3651386846031667902
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/taishanglaojun/fbx/plane_liubianxing.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2121769875729977757
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/taishanglaojun/fbx/zhuiti.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4200636396249994570
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/taishanglaojun/fbx/zhuiti.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3653389107954289390
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f38db3b1c0ab7b91fc9b5a4b3824f3cb.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

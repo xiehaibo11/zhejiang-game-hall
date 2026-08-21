@@ -1,0 +1,116 @@
+{
+  "m_Name": "ebffb83782fc62e7624a71a1d25d2178.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3918160259187229052
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2071292389924112131
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6792690039548548514
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6792690039548548514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2071292389924112131
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 405690785544917191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6465432939432604439
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6792690039548548514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8776032658227157864
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_flagofcommandgift/flagofcommandgift.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2071292389924112131
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_flagofcommandgift/flagofcommandgift.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6792690039548548514
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_flagofcommandgift/flagofcommandgift.prefab",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6465432939432604439
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_flagofcommandgift/img_hlzq_tanchuang.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3918160259187229052
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ebffb83782fc62e7624a71a1d25d2178.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

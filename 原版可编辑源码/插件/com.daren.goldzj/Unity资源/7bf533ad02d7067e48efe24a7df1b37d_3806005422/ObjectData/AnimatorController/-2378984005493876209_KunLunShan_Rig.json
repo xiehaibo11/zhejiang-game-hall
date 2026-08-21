@@ -1,0 +1,472 @@
+{
+  "m_Name": "KunLunShan_Rig",
+  "m_ControllerSize": 1890,
+  "m_Controller": {
+    "m_LayerArray": [
+      {
+        "data": {
+          "m_StateMachineIndex": 0,
+          "m_StateMachineSynchronizedLayerIndex": 0,
+          "m_BodyMask": {
+            "word0": 4294967295,
+            "word1": 4294967295,
+            "word2": 524287
+          },
+          "m_SkeletonMask": {
+            "data": {
+              "m_Data": []
+            }
+          },
+          "m_Binding": 756556552,
+          "(int&)m_LayerBlendingMode": 0,
+          "m_DefaultWeight": 0.0,
+          "m_IKPass": false,
+          "m_SyncedLayerAffectsTiming": false
+        }
+      }
+    ],
+    "m_StateMachineArray": [
+      {
+        "data": {
+          "m_StateConstantArray": [
+            {
+              "data": {
+                "m_TransitionConstantArray": [
+                  {
+                    "data": {
+                      "m_ConditionConstantArray": [
+                        {
+                          "data": {
+                            "m_ConditionMode": 1,
+                            "m_EventID": 584863918,
+                            "m_EventThreshold": 0.0,
+                            "m_ExitTime": 0.0
+                          }
+                        }
+                      ],
+                      "m_DestinationState": 1,
+                      "m_FullPathID": 1600582977,
+                      "m_ID": 3997858563,
+                      "m_UserID": 0,
+                      "m_TransitionDuration": 0.30000001192092896,
+                      "m_TransitionOffset": 0.0,
+                      "m_ExitTime": 0.5214214324951172,
+                      "m_HasExitTime": false,
+                      "m_HasFixedDuration": true,
+                      "m_InterruptionSource": 0,
+                      "m_OrderedInterruption": true,
+                      "m_CanTransitionToSelf": true
+                    }
+                  },
+                  {
+                    "data": {
+                      "m_ConditionConstantArray": [
+                        {
+                          "data": {
+                            "m_ConditionMode": 1,
+                            "m_EventID": 3925389314,
+                            "m_EventThreshold": 0.0,
+                            "m_ExitTime": 0.0
+                          }
+                        }
+                      ],
+                      "m_DestinationState": 2,
+                      "m_FullPathID": 677496279,
+                      "m_ID": 2571979669,
+                      "m_UserID": 0,
+                      "m_TransitionDuration": 0.25,
+                      "m_TransitionOffset": 0.0,
+                      "m_ExitTime": 0.875,
+                      "m_HasExitTime": false,
+                      "m_HasFixedDuration": true,
+                      "m_InterruptionSource": 0,
+                      "m_OrderedInterruption": true,
+                      "m_CanTransitionToSelf": true
+                    }
+                  }
+                ],
+                "m_BlendTreeConstantIndexArray": [
+                  0
+                ],
+                "m_BlendTreeConstantArray": [
+                  {
+                    "data": {
+                      "m_NodeArray": [
+                        {
+                          "data": {
+                            "m_BlendType": 0,
+                            "m_BlendEventID": 4294967295,
+                            "m_BlendEventYID": 4294967295,
+                            "m_ChildIndices": [],
+                            "m_Blend1dData": {
+                              "data": {
+                                "m_ChildThresholdArray": []
+                              }
+                            },
+                            "m_Blend2dData": {
+                              "data": {
+                                "m_ChildPositionArray": [],
+                                "m_ChildMagnitudeArray": [],
+                                "m_ChildPairVectorArray": [],
+                                "m_ChildPairAvgMagInvArray": [],
+                                "m_ChildNeighborListArray": []
+                              }
+                            },
+                            "m_BlendDirectData": {
+                              "data": {
+                                "m_ChildBlendEventIDArray": [],
+                                "m_NormalizedBlendValues": false
+                              }
+                            },
+                            "m_ClipID": 0,
+                            "m_Duration": 1.0,
+                            "m_CycleOffset": 0.0,
+                            "m_Mirror": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "m_NameID": 2695831239,
+                "m_PathID": 1251315677,
+                "m_FullPathID": 1251315677,
+                "m_TagID": 0,
+                "m_SpeedParamID": 0,
+                "m_MirrorParamID": 0,
+                "m_CycleOffsetParamID": 0,
+                "m_TimeParamID": 0,
+                "m_Speed": 1.0,
+                "m_CycleOffset": 0.0,
+                "m_IKOnFeet": false,
+                "m_WriteDefaultValues": true,
+                "m_Loop": true,
+                "m_Mirror": false
+              }
+            },
+            {
+              "data": {
+                "m_TransitionConstantArray": [
+                  {
+                    "data": {
+                      "m_ConditionConstantArray": [],
+                      "m_DestinationState": 0,
+                      "m_FullPathID": 2071702107,
+                      "m_ID": 1830849798,
+                      "m_UserID": 0,
+                      "m_TransitionDuration": 0.25,
+                      "m_TransitionOffset": 0.0,
+                      "m_ExitTime": 0.75,
+                      "m_HasExitTime": true,
+                      "m_HasFixedDuration": true,
+                      "m_InterruptionSource": 0,
+                      "m_OrderedInterruption": true,
+                      "m_CanTransitionToSelf": true
+                    }
+                  }
+                ],
+                "m_BlendTreeConstantIndexArray": [
+                  0
+                ],
+                "m_BlendTreeConstantArray": [
+                  {
+                    "data": {
+                      "m_NodeArray": [
+                        {
+                          "data": {
+                            "m_BlendType": 0,
+                            "m_BlendEventID": 4294967295,
+                            "m_BlendEventYID": 4294967295,
+                            "m_ChildIndices": [],
+                            "m_Blend1dData": {
+                              "data": {
+                                "m_ChildThresholdArray": []
+                              }
+                            },
+                            "m_Blend2dData": {
+                              "data": {
+                                "m_ChildPositionArray": [],
+                                "m_ChildMagnitudeArray": [],
+                                "m_ChildPairVectorArray": [],
+                                "m_ChildPairAvgMagInvArray": [],
+                                "m_ChildNeighborListArray": []
+                              }
+                            },
+                            "m_BlendDirectData": {
+                              "data": {
+                                "m_ChildBlendEventIDArray": [],
+                                "m_NormalizedBlendValues": false
+                              }
+                            },
+                            "m_ClipID": 1,
+                            "m_Duration": 1.0,
+                            "m_CycleOffset": 0.0,
+                            "m_Mirror": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "m_NameID": 2352011956,
+                "m_PathID": 3138742663,
+                "m_FullPathID": 3138742663,
+                "m_TagID": 0,
+                "m_SpeedParamID": 0,
+                "m_MirrorParamID": 0,
+                "m_CycleOffsetParamID": 0,
+                "m_TimeParamID": 0,
+                "m_Speed": 1.0,
+                "m_CycleOffset": 0.0,
+                "m_IKOnFeet": false,
+                "m_WriteDefaultValues": true,
+                "m_Loop": false,
+                "m_Mirror": false
+              }
+            },
+            {
+              "data": {
+                "m_TransitionConstantArray": [
+                  {
+                    "data": {
+                      "m_ConditionConstantArray": [],
+                      "m_DestinationState": 0,
+                      "m_FullPathID": 4200517500,
+                      "m_ID": 2964739203,
+                      "m_UserID": 0,
+                      "m_TransitionDuration": 0.25,
+                      "m_TransitionOffset": 0.0,
+                      "m_ExitTime": 0.8125,
+                      "m_HasExitTime": true,
+                      "m_HasFixedDuration": true,
+                      "m_InterruptionSource": 0,
+                      "m_OrderedInterruption": true,
+                      "m_CanTransitionToSelf": true
+                    }
+                  }
+                ],
+                "m_BlendTreeConstantIndexArray": [
+                  0
+                ],
+                "m_BlendTreeConstantArray": [
+                  {
+                    "data": {
+                      "m_NodeArray": [
+                        {
+                          "data": {
+                            "m_BlendType": 0,
+                            "m_BlendEventID": 4294967295,
+                            "m_BlendEventYID": 4294967295,
+                            "m_ChildIndices": [],
+                            "m_Blend1dData": {
+                              "data": {
+                                "m_ChildThresholdArray": []
+                              }
+                            },
+                            "m_Blend2dData": {
+                              "data": {
+                                "m_ChildPositionArray": [],
+                                "m_ChildMagnitudeArray": [],
+                                "m_ChildPairVectorArray": [],
+                                "m_ChildPairAvgMagInvArray": [],
+                                "m_ChildNeighborListArray": []
+                              }
+                            },
+                            "m_BlendDirectData": {
+                              "data": {
+                                "m_ChildBlendEventIDArray": [],
+                                "m_NormalizedBlendValues": false
+                              }
+                            },
+                            "m_ClipID": 2,
+                            "m_Duration": 1.0,
+                            "m_CycleOffset": 0.0,
+                            "m_Mirror": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "m_NameID": 4214745634,
+                "m_PathID": 3423754513,
+                "m_FullPathID": 3423754513,
+                "m_TagID": 0,
+                "m_SpeedParamID": 0,
+                "m_MirrorParamID": 0,
+                "m_CycleOffsetParamID": 0,
+                "m_TimeParamID": 0,
+                "m_Speed": 1.0,
+                "m_CycleOffset": 0.0,
+                "m_IKOnFeet": false,
+                "m_WriteDefaultValues": true,
+                "m_Loop": false,
+                "m_Mirror": false
+              }
+            }
+          ],
+          "m_AnyStateTransitionConstantArray": [],
+          "m_SelectorStateConstantArray": [
+            {
+              "data": {
+                "m_TransitionConstantArray": [
+                  {
+                    "data": {
+                      "m_Destination": 0,
+                      "m_ConditionConstantArray": []
+                    }
+                  }
+                ],
+                "m_FullPathID": 756556552,
+                "m_IsEntry": true
+              }
+            },
+            {
+              "data": {
+                "m_TransitionConstantArray": [
+                  {
+                    "data": {
+                      "m_Destination": 30000,
+                      "m_ConditionConstantArray": []
+                    }
+                  }
+                ],
+                "m_FullPathID": 756556552,
+                "m_IsEntry": false
+              }
+            }
+          ],
+          "m_DefaultState": 0,
+          "m_SynchronizedLayerCount": 1
+        }
+      }
+    ],
+    "m_Values": {
+      "data": {
+        "m_ValueArray": [
+          {
+            "m_ID": 584863918,
+            "m_Type": 9,
+            "m_Index": 0
+          },
+          {
+            "m_ID": 3925389314,
+            "m_Type": 9,
+            "m_Index": 1
+          }
+        ]
+      }
+    },
+    "m_DefaultValues": {
+      "data": {
+        "m_PositionValues": [],
+        "m_QuaternionValues": [],
+        "m_ScaleValues": [],
+        "m_FloatValues": [],
+        "m_IntValues": [],
+        "m_BoolValues": [
+          false,
+          false
+        ]
+      }
+    }
+  },
+  "m_TOS": [
+    [
+      2571979669,
+      "Take 001 -> Take 001 1"
+    ],
+    [
+      2352011956,
+      "Take 001 0"
+    ],
+    [
+      3925389314,
+      "Kunlunshan_max"
+    ],
+    [
+      1830849798,
+      "Take 001 0 -> Take 001"
+    ],
+    [
+      2105523844,
+      "GravityWeight"
+    ],
+    [
+      4200517500,
+      "Base Layer.Take 001 1 -> Base Layer.Take 001"
+    ],
+    [
+      2964739203,
+      "Take 001 1 -> Take 001"
+    ],
+    [
+      756556552,
+      "Base Layer"
+    ],
+    [
+      3138742663,
+      "Base Layer.Take 001 0"
+    ],
+    [
+      1600582977,
+      "Base Layer.Take 001 -> Base Layer.Take 001 0"
+    ],
+    [
+      0,
+      ""
+    ],
+    [
+      4214745634,
+      "Take 001 1"
+    ],
+    [
+      3997858563,
+      "Take 001 -> Take 001 0"
+    ],
+    [
+      3423754513,
+      "Base Layer.Take 001 1"
+    ],
+    [
+      677496279,
+      "Base Layer.Take 001 -> Base Layer.Take 001 1"
+    ],
+    [
+      584863918,
+      "Kunlunshan"
+    ],
+    [
+      2695831239,
+      "Take 001"
+    ],
+    [
+      2071702107,
+      "Base Layer.Take 001 0 -> Base Layer.Take 001"
+    ],
+    [
+      1251315677,
+      "Base Layer.Take 001"
+    ]
+  ],
+  "m_AnimationClips": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2727417951822387115
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5106255387903557398
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7755899874009073324
+    }
+  ],
+  "m_StateMachineBehaviourVectorDescription": {
+    "m_StateMachineBehaviourRanges": [],
+    "m_StateMachineBehaviourIndices": []
+  },
+  "m_StateMachineBehaviours": [],
+  "m_MultiThreadedStateMachine": true
+}

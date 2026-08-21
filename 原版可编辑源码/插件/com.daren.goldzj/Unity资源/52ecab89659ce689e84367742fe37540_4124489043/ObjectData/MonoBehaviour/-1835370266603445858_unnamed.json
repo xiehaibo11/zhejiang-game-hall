@@ -1,0 +1,76 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1936188007277867537
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3430717561848147052
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8217136691551982389
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2111324707093568476
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8375973489307014195
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2010646700701686283
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4350886315134324618
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2010689771971023116
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8531980256277118793
+    }
+  ],
+  "m_BindComs_Name": [
+    "_ButtonClose",
+    "TotalGoldNum",
+    "TotalWaterNum",
+    "ButtonPurchase",
+    "PurchasePrice",
+    "PurchaseLimit",
+    "ButtonUnPurchase",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Succulent.SucculentPackageGift",
+  "m_ClassName": "SucculentPackageGift"
+}

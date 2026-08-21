@@ -1,0 +1,53 @@
+{
+  "m_Name": "ec7dc1596f82859f0c9b8bfc1afab2b0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5141507297557292026
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1289395258401426024
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3125416301674657005
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/treasurebowl/effect/material/mask_jindutiao_zcjbp_01.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1289395258401426024
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ec7dc1596f82859f0c9b8bfc1afab2b0.bundle",
+  "m_Dependencies": [
+    "5a1da03eeefe67350bd515321ef0498f.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

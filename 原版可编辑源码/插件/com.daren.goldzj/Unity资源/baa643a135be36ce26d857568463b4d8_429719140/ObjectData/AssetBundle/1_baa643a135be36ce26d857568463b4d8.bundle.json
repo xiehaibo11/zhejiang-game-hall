@@ -1,0 +1,153 @@
+{
+  "m_Name": "baa643a135be36ce26d857568463b4d8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -852814855214157154
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -7846902220509926492
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2042033772014479751
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1192075996784852383
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7131782709926574857
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8705793302101895823
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6111005375206673390
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9195706199799738935
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8823048702497148019
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8561166969307605555
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691933440906547066
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7197233160069799887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4040675853421984662
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3080901434109507127
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2694228870494574291
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2080692656803405356
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1903460835830957215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1201406280481041384
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -612257207425614901
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 772304466534836046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2129575067272497692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2365476000288001718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3318440106450391573
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3692208433484042331
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5535986204706270659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5697156700657496236
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6373800337337048446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7343558375526800168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8847603625282727733
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/moontreasurebox1/effect/prefab/effect_raoguang_xuanzhong_hsbh.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 29,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5697156700657496236
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "baa643a135be36ce26d857568463b4d8.bundle",
+  "m_Dependencies": [
+    "305522586703e514744a54008a37a05f.bundle",
+    "81080cda8fbfb2073e7b1aba558a6a45.bundle",
+    "cf3e15c08e34e0c97070502205faf4e8.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

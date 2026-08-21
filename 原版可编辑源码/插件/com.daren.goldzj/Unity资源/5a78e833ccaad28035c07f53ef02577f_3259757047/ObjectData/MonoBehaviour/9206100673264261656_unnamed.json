@@ -1,0 +1,510 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1812803357645682887
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1139042249695194217
+  },
+  "m_Name": "",
+  "configs": {
+    "m_keys": [
+      "tweenScale1",
+      "delay",
+      "tweenScale2",
+      "coinanimation"
+    ],
+    "m_values": [
+      {
+        "duration": 0.30000001192092896,
+        "isInfinte": 0,
+        "actionType": 10,
+        "waitAction": {},
+        "disableAction": {},
+        "playSoundAction": {
+          "soundName": "",
+          "delay": 0.0
+        },
+        "positionAnimationAction": {
+          "moveDelta": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "curve": {
+            "m_Curve": [],
+            "m_PreInfinity": 0,
+            "m_PostInfinity": 0,
+            "m_RotationOrder": 0
+          },
+          "isLoop": 0
+        },
+        "positionTweenAction": {
+          "targetPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "moveCurve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 1.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 1.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          }
+        },
+        "spriteSequenceAction": {
+          "spriteNamePrefix": "",
+          "maxFrame": 0,
+          "framePerSec": 0,
+          "startOffset": 0,
+          "interval": 0.0,
+          "isLoop": 0
+        },
+        "tweenScaleAction": {
+          "scaleFrom": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scaleTo": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "animationScaleAction": {
+          "curve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 2.0,
+                "outSlope": 2.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              },
+              {
+                "time": 0.7017427086830139,
+                "value": 1.1322438716888428,
+                "inSlope": 0.4644654095172882,
+                "outSlope": 0.4644654095172882,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.6298589706420898
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "scaleFrom": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scaleTo": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "tweenAlphaAction": {
+          "alphaFrom": 0.0,
+          "alphaTo": 0.0
+        },
+        "serialAction": {
+          "actions": []
+        },
+        "parallelAction": {
+          "actions": []
+        }
+      },
+      {
+        "duration": 0.699999988079071,
+        "isInfinte": 0,
+        "actionType": 0,
+        "waitAction": {},
+        "disableAction": {},
+        "playSoundAction": {
+          "soundName": "",
+          "delay": 0.0
+        },
+        "positionAnimationAction": {
+          "moveDelta": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "curve": {
+            "m_Curve": [],
+            "m_PreInfinity": 0,
+            "m_PostInfinity": 0,
+            "m_RotationOrder": 0
+          },
+          "isLoop": 0
+        },
+        "positionTweenAction": {
+          "targetPosition": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          },
+          "moveCurve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 1.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 1.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          }
+        },
+        "spriteSequenceAction": {
+          "spriteNamePrefix": "",
+          "maxFrame": 0,
+          "framePerSec": 0,
+          "startOffset": 0,
+          "interval": 0.0,
+          "isLoop": 0
+        },
+        "tweenScaleAction": {
+          "scaleFrom": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "scaleTo": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "animationScaleAction": {
+          "curve": {
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "scaleFrom": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scaleTo": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "tweenAlphaAction": {
+          "alphaFrom": 0.0,
+          "alphaTo": 0.0
+        },
+        "serialAction": {
+          "actions": []
+        },
+        "parallelAction": {
+          "actions": []
+        }
+      },
+      {
+        "duration": 0.20000000298023224,
+        "isInfinte": 1,
+        "actionType": 10,
+        "waitAction": {},
+        "disableAction": {},
+        "playSoundAction": {
+          "soundName": "",
+          "delay": 0.0
+        },
+        "positionAnimationAction": {
+          "moveDelta": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "curve": {
+            "m_Curve": [],
+            "m_PreInfinity": 0,
+            "m_PostInfinity": 0,
+            "m_RotationOrder": 0
+          },
+          "isLoop": 0
+        },
+        "positionTweenAction": {
+          "targetPosition": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          },
+          "moveCurve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 1.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 1.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          }
+        },
+        "spriteSequenceAction": {
+          "spriteNamePrefix": "",
+          "maxFrame": 0,
+          "framePerSec": 0,
+          "startOffset": 0,
+          "interval": 0.0,
+          "isLoop": 0
+        },
+        "tweenScaleAction": {
+          "scaleFrom": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "scaleTo": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "animationScaleAction": {
+          "curve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": -0.058906346559524536,
+                "outSlope": -0.058906346559524536,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              },
+              {
+                "time": 0.42910036444664,
+                "value": 0.05827505514025688,
+                "inSlope": 0.37066203355789185,
+                "outSlope": 0.37066203355789185,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 3.5564913749694824,
+                "outSlope": 3.5564913749694824,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "scaleFrom": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "scaleTo": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "tweenAlphaAction": {
+          "alphaFrom": 0.0,
+          "alphaTo": 0.0
+        },
+        "serialAction": {
+          "actions": [
+            "tweenmove_delay",
+            "tweenmove_move"
+          ]
+        },
+        "parallelAction": {
+          "actions": []
+        }
+      },
+      {
+        "duration": 1.2999999523162842,
+        "isInfinte": 0,
+        "actionType": 8,
+        "waitAction": {},
+        "disableAction": {},
+        "playSoundAction": {
+          "soundName": "",
+          "delay": 0.0
+        },
+        "positionAnimationAction": {
+          "moveDelta": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "curve": {
+            "m_Curve": [],
+            "m_PreInfinity": 0,
+            "m_PostInfinity": 0,
+            "m_RotationOrder": 0
+          },
+          "isLoop": 0
+        },
+        "positionTweenAction": {
+          "targetPosition": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          },
+          "moveCurve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 1.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 1.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          }
+        },
+        "spriteSequenceAction": {
+          "spriteNamePrefix": "",
+          "maxFrame": 0,
+          "framePerSec": 0,
+          "startOffset": 0,
+          "interval": 0.0,
+          "isLoop": 0
+        },
+        "tweenScaleAction": {
+          "scaleFrom": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scaleTo": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "animationScaleAction": {
+          "curve": {
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "scaleFrom": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scaleTo": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "tweenAlphaAction": {
+          "alphaFrom": 1.0,
+          "alphaTo": 0.0
+        },
+        "serialAction": {
+          "actions": [
+            "position",
+            "tweenScale1",
+            "delay",
+            "tweenScale2"
+          ]
+        },
+        "parallelAction": {
+          "actions": [
+            "tweenScale",
+            "tweenmove",
+            "tweenalpha"
+          ]
+        }
+      }
+    ]
+  }
+}

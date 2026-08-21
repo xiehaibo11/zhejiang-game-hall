@@ -1,0 +1,258 @@
+{
+  "m_Name": "t_line_011_w15",
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 3962475431135425745
+  },
+  "m_ValidKeywords": [],
+  "m_InvalidKeywords": [
+    "_FRESNELALPHASWITCH_ON",
+    "_OPACITY_ON",
+    "_USERCOLOR_ON",
+    "_USERMAINTEXBRIGHTASALPHA_ON",
+    "_USERPARTICLEALPHAASHIGH_ON",
+    "_USERPARTICLEALPHA_ON"
+  ],
+  "m_LightmapFlags": 4,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": false,
+  "m_CustomRenderQueue": -1,
+  "stringTagMap": [],
+  "disabledShaderPasses": [],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_MainTex",
+        {
+          "m_Texture": {
+            "m_FileID": 3,
+            "m_PathID": 1661342346650256793
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_MaskTex",
+        {
+          "m_Texture": {
+            "m_FileID": 4,
+            "m_PathID": 6788689734488053263
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_NoiseTex",
+        {
+          "m_Texture": {
+            "m_FileID": 5,
+            "m_PathID": 9098690048634507627
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Ints": [],
+    "m_Floats": [
+      [
+        "_AlphaScale",
+        1.600000023841858
+      ],
+      [
+        "_Cutoff",
+        0.5
+      ],
+      [
+        "_MainColorExp",
+        1.0
+      ],
+      [
+        "_MainTexAphaOrParAlpSwitch",
+        0.0
+      ],
+      [
+        "_MaskExp",
+        0.8999999761581421
+      ],
+      [
+        "_MaskSideWide",
+        0.009999999776482582
+      ],
+      [
+        "_Negate",
+        0.0
+      ],
+      [
+        "_Noise",
+        0.0
+      ],
+      [
+        "_NoiseExp",
+        0.0
+      ],
+      [
+        "_OffMainTexAlpha",
+        0.0
+      ],
+      [
+        "_OffOpacity",
+        0.0
+      ],
+      [
+        "_OffOpacityClip",
+        0.0
+      ],
+      [
+        "_Opacity",
+        1.0
+      ],
+      [
+        "_OpacityClip",
+        0.0
+      ],
+      [
+        "_SideAlphaSwitch",
+        0.0
+      ],
+      [
+        "_SideEep",
+        0.0
+      ],
+      [
+        "_Stencil",
+        0.0
+      ],
+      [
+        "_StencilComp",
+        8.0
+      ],
+      [
+        "_StencilOp",
+        0.0
+      ],
+      [
+        "_StencilReadMask",
+        255.0
+      ],
+      [
+        "_StencilWriteMask",
+        255.0
+      ],
+      [
+        "_UserColor",
+        1.0
+      ],
+      [
+        "_UserMainTexAlphaAsClip",
+        0.0
+      ],
+      [
+        "_UserMainTexBrightAsAlpha",
+        1.0
+      ],
+      [
+        "_UserMaskAlphaOrParAlpSwutch",
+        0.0
+      ],
+      [
+        "_UserNoiseForMask",
+        0.0
+      ],
+      [
+        "_UserParticleAlpha",
+        1.0
+      ],
+      [
+        "_ainTexUVScale",
+        0.5
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_MainColorBlack",
+        {
+          "r": 0.15862081944942474,
+          "g": 0.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_MainColorLight",
+        {
+          "r": 0.11764705181121826,
+          "g": 0.5983774065971375,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_MainTexMove_xyz",
+        {
+          "r": 1.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_MaskSideColor",
+        {
+          "r": 1.0,
+          "g": 0.30882352590560913,
+          "b": 0.30882352590560913,
+          "a": 0.0
+        }
+      ],
+      [
+        "_MaskTexMove_xyz",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_NoiseSpeed",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_NoiseSpeed_small",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ]
+    ]
+  },
+  "m_BuildTextureStacks": []
+}

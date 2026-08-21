@@ -1,0 +1,63 @@
+{
+  "m_Name": "5b6604db9a8c4ebefb5affe2486aec7b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5434370056874149083
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 5787520120695086898
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4965016253204755281
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -9099949778614170045
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 735320389473112300
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/streetstorm/effect/material/rrby_ui_558_tgjl_1 6.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5434370056874149083
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5b6604db9a8c4ebefb5affe2486aec7b.bundle",
+  "m_Dependencies": [
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "38b2e28d58d933698b24e508b1bfeb89.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "9434e33794e4cec9b5350f1662674aed.bundle",
+    "9bb6f55e45d4d5366a0e215a1297a9fd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

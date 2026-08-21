@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5642475341332828695
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2894320592896579658
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6629286105013054258
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 549634688677674704
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2586680905744871337
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4557129763128632952
+    }
+  ],
+  "m_BindComs_Name": [
+    "reach",
+    "item",
+    "number",
+    "getted",
+    "canGet"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShenQiMiZong.DengLuRewardItem",
+  "m_ClassName": "DengLuRewardItem"
+}

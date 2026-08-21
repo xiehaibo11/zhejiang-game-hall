@@ -1,0 +1,89 @@
+{
+  "m_Name": "f2d5ef55b0881733c6b8331157a15df7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -7691347737037621766
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -5212695050132160795
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3286823239576570457
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7053765682279273215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6577913273445770529
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3436972903763697756
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -246551700452234580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 609057470011058355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2801463632505270496
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3510994113857169122
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6634608806599123295
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6787982609979724470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7018513963721011129
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/prefab/uieffect_idle.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 13,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3436972903763697756
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f2d5ef55b0881733c6b8331157a15df7.bundle",
+  "m_Dependencies": [
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "c4595dfe3e5906a66f68d35bb84d5a27.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

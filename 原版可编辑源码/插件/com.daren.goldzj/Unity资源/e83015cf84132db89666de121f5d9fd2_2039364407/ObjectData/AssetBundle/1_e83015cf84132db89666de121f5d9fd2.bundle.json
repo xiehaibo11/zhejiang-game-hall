@@ -1,0 +1,247 @@
+{
+  "m_Name": "e83015cf84132db89666de121f5d9fd2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7029795167761552327
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9187991301417428087
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3195305036280115902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1605206401560662224
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1856492072217817573
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5583623150516868820
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6038339529412445939
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7904164614525377397
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -837327938731568752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1854846656449690735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2628138045902825681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7558512989507188350
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -143379998804763386
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1101835334755524283
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1832632149009950146
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/jjws_dao_gs.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1856492072217817573
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/line_daoguang_02.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1605206401560662224
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/mask_bodian2.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3195305036280115902
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/mask_jjws.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1854846656449690735
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/mask_jjws_huanying1.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9187991301417428087
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/mask_jjws_huanying2.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -837327938731568752
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/mask_jjws_huanying3.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2628138045902825681
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/mask_wujiaoxing1.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7029795167761552327
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/mask_xing.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6038339529412445939
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/obj_dunpai.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7904164614525377397
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/obj_mianju.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -143379998804763386
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/obj_taidao.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5583623150516868820
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/obj_wu_01.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7558512989507188350
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/obj_wu_02.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1101835334755524283
+        }
+      }
+    ],
+    [
+      "assets/effect/rrby_v2/arts/fishmesh/jijiawushi/textures/obj_wushi.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1832632149009950146
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e83015cf84132db89666de121f5d9fd2.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

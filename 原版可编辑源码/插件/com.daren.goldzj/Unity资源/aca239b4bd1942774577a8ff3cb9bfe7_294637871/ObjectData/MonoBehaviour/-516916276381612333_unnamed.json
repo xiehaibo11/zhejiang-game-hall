@@ -1,0 +1,163 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7069064742723115980
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8469771527082105551
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8175597418783184212
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3006108532414081315
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6164098523495271721
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5148922548731622589
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8915035791880061411
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6899735611344108844
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5769040345127850777
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1104171936219781066
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5792245506760284444
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8945442651376084214
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2023624898847409600
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3873498452595279199
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6372781041382855127
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3282819940545056089
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6906280733133373223
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5147305495769646499
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7965716757425552698
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2336284986922128319
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8252283321844725151
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7402080701641037243
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1414694815396231455
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6445335438254369057
+    }
+  ],
+  "m_BindComs_Name": [
+    "diImg",
+    "rewardIcon",
+    "yellowLabel",
+    "purpleLabel",
+    "topYellowLabel",
+    "topPurpleabel",
+    "yellowDayLabel",
+    "purpleDayLabel",
+    "topZhezhao",
+    "zhezhao",
+    "box",
+    "vipImg",
+    "vipLabel",
+    "gou",
+    "getBtn",
+    "zhezhaoAni",
+    "rewardAni",
+    "zheZhaoDayLabel",
+    "bottomObj",
+    "topObj",
+    "awardEff",
+    "getRewardEff",
+    "specialSpr"
+  ],
+  "m_BindInt": [
+    0,
+    0
+  ],
+  "m_BindInt_Name": [
+    "day",
+    "curIndex"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0,
+    1
+  ],
+  "m_BindBool_Name": [
+    "isCanGet",
+    "isCanClick"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.DailySign.ThirteenSignDaysItem",
+  "m_ClassName": "ThirteenSignDaysItem"
+}

@@ -1,0 +1,101 @@
+{
+  "m_Name": "e7c1c1b74eee7710f9a5d487e5a882c4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8008880150481247406
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4283312831564683893
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8008880150481247406
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8422704641558643903
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8258594730183714984
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4283312831564683893
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 578280887478420281
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8008880150481247406
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_button/button.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4283312831564683893
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_button/button.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8008880150481247406
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_button/button.prefab",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8422704641558643903
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e7c1c1b74eee7710f9a5d487e5a882c4.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

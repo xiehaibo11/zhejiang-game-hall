@@ -1,0 +1,82 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2492510989437772398
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8958694019549574288
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5009938971682782942
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1542654308198210108
+    }
+  ],
+  "m_BindComs_Name": [
+    "cardNum",
+    "btnClose",
+    "godGeneralBigTask"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 919192311051227109
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7505769348470241671
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6398452776712239357
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4948734866310060963
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8996934941922930865
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5447676759945816871
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "normalTasks"
+  ],
+  "hotfixClassFullName": "GameHotFix.GameActivity.GodGeneralSpecialSaleGift.GodGeneralSpecialSaleCardTaskPanel",
+  "m_ClassName": "GodGeneralSpecialSaleCardTaskPanel"
+}

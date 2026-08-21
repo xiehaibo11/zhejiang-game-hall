@@ -1,0 +1,67 @@
+{
+  "m_Name": "26c58bdd0d40fad0f3f22e99f9ba2c45.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1078355866346434085
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5718328030546465339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 2512787184318100909
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8813612721549851507
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 3001442549534726738
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 4417153249438462782
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/materials/trail_ab_ws_03.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1078355866346434085
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "26c58bdd0d40fad0f3f22e99f9ba2c45.bundle",
+  "m_Dependencies": [
+    "38b2e28d58d933698b24e508b1bfeb89.bundle",
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

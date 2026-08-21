@@ -1,0 +1,60 @@
+{
+  "m_Name": "5a3a1bb1488e81dc587eb75c20c3e76e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5282969871793392685
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3656027137947245176
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3196397232658285979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8258031106315047334
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneralboss/1004/linchong@idle_ui_camera.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8258031106315047334
+        }
+      }
+    ],
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneralboss/1004/linchong@idle_ui_camera.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3196397232658285979
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5a3a1bb1488e81dc587eb75c20c3e76e.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

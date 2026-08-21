@@ -1,0 +1,494 @@
+{
+  "m_Name": "YiFu",
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 6593142039864836435
+  },
+  "m_ValidKeywords": [
+    "_KEY_CUSTOM_AO",
+    "_KEY_CUSTOM_SPECULAR",
+    "_KEY_EMISSION_TEXTURE",
+    "_KEY_TEX_MODIFY",
+    "_SPECULAR_SETUP"
+  ],
+  "m_InvalidKeywords": [],
+  "m_LightmapFlags": 4,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": false,
+  "m_CustomRenderQueue": 2000,
+  "stringTagMap": [
+    [
+      "RenderType",
+      "Opaque"
+    ]
+  ],
+  "disabledShaderPasses": [],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_BASE_COLOR_MAP",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": -8263410686995289785
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_EmissionTexture",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": -5031943902250576645
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_FrozenTexture",
+        {
+          "m_Texture": {
+            "m_FileID": 2,
+            "m_PathID": 3945097087078490453
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_MaskMap",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 8893247363727714045
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_NORMAL_MAP",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 3571534709362522952
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_texcoord",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Ints": [],
+    "m_Floats": [
+      [
+        "_ALPHATEST_ON",
+        0.0
+      ],
+      [
+        "_ALPHA_SCALE",
+        1.0
+      ],
+      [
+        "_AORange",
+        2.0
+      ],
+      [
+        "_AO_Depth",
+        0.4000000059604645
+      ],
+      [
+        "_AO_Normal_Mix",
+        0.0
+      ],
+      [
+        "_AlphaClip",
+        0.0
+      ],
+      [
+        "_AlphaCutoff",
+        0.5
+      ],
+      [
+        "_AlphaTestOn",
+        0.0
+      ],
+      [
+        "_BaseContrast",
+        0.9340000152587891
+      ],
+      [
+        "_BaseHue",
+        0.0
+      ],
+      [
+        "_BaseSaturation",
+        1.0
+      ],
+      [
+        "_Blend",
+        0.0
+      ],
+      [
+        "_BumpScale",
+        1.0
+      ],
+      [
+        "_CastShadows",
+        0.0
+      ],
+      [
+        "_ClearCoatMask",
+        0.0
+      ],
+      [
+        "_ClearCoatSmoothness",
+        0.0
+      ],
+      [
+        "_ClipThreshold",
+        0.0
+      ],
+      [
+        "_Cull",
+        0.0
+      ],
+      [
+        "_CustomSpecularBase",
+        1.0
+      ],
+      [
+        "_CustomSpecularRate",
+        1.0
+      ],
+      [
+        "_Cutoff",
+        0.5
+      ],
+      [
+        "_DetailAlbedoMapScale",
+        1.0
+      ],
+      [
+        "_DetailNormalMapScale",
+        1.0
+      ],
+      [
+        "_DstBlend",
+        0.0
+      ],
+      [
+        "_Edge_Density",
+        0.0
+      ],
+      [
+        "_Edge_Normal_Mix",
+        0.0
+      ],
+      [
+        "_Edge_Range",
+        7.0
+      ],
+      [
+        "_EnvironmentReflections",
+        1.0
+      ],
+      [
+        "_FrozenOverallIntensity",
+        1.0
+      ],
+      [
+        "_FrozenTexIntensity",
+        0.25
+      ],
+      [
+        "_GlossMapScale",
+        0.0
+      ],
+      [
+        "_Glossiness",
+        0.0
+      ],
+      [
+        "_GlossyReflections",
+        0.0
+      ],
+      [
+        "_HitSlider",
+        0.0
+      ],
+      [
+        "_IceFresnelBias",
+        0.0
+      ],
+      [
+        "_IceFresnelIntensity",
+        1.0
+      ],
+      [
+        "_IceFresnelPower",
+        0.5
+      ],
+      [
+        "_IceSpecular",
+        0.05000000074505806
+      ],
+      [
+        "_KEY_CUSTOM_AO",
+        1.0
+      ],
+      [
+        "_KEY_CUSTOM_DEFAULT",
+        0.0
+      ],
+      [
+        "_KEY_CUSTOM_OUTLINE",
+        0.0
+      ],
+      [
+        "_KEY_CUSTOM_SPECULAR",
+        1.0
+      ],
+      [
+        "_KEY_EMISSION_TEXTURE",
+        1.0
+      ],
+      [
+        "_KEY_TEX_MODIFY",
+        1.0
+      ],
+      [
+        "_Key_Dither_Fade",
+        0.0
+      ],
+      [
+        "_Key_Frozen",
+        0.0
+      ],
+      [
+        "_Key_Hit",
+        0.0
+      ],
+      [
+        "_METALNESS",
+        1.0
+      ],
+      [
+        "_MetalPower",
+        1.0
+      ],
+      [
+        "_Metallic",
+        0.0
+      ],
+      [
+        "_NormalScale",
+        1.0
+      ],
+      [
+        "_OcclusionStrength",
+        1.0
+      ],
+      [
+        "_Parallax",
+        0.004999999888241291
+      ],
+      [
+        "_QueueControl",
+        -1.0
+      ],
+      [
+        "_QueueOffset",
+        0.0
+      ],
+      [
+        "_ReceiveShadows",
+        1.0
+      ],
+      [
+        "_SMOOTHNESS",
+        0.9700000286102295
+      ],
+      [
+        "_SmoothPower",
+        1.0
+      ],
+      [
+        "_Smoothness",
+        0.5
+      ],
+      [
+        "_SmoothnessTextureChannel",
+        0.0
+      ],
+      [
+        "_SpecularHighlights",
+        1.0
+      ],
+      [
+        "_SpecularIOR",
+        1.0
+      ],
+      [
+        "_SpecularSetup",
+        1.0
+      ],
+      [
+        "_SrcBlend",
+        1.0
+      ],
+      [
+        "_Surface",
+        1.0
+      ],
+      [
+        "_TransparentPBR",
+        0.0
+      ],
+      [
+        "_WorkflowMode",
+        0.0
+      ],
+      [
+        "_ZTest",
+        4.0
+      ],
+      [
+        "_ZWrite",
+        1.0
+      ],
+      [
+        "_ZWriteControl",
+        1.0
+      ],
+      [
+        "__dirty",
+        1.0
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_BASE_COLOR",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_BaseColor",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_Color",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_EMISSION_COLOR",
+        {
+          "r": 0.5754716992378235,
+          "g": 0.5754716992378235,
+          "b": 0.5754716992378235,
+          "a": 0.0
+        }
+      ],
+      [
+        "_Edge_Color",
+        {
+          "r": 0.0,
+          "g": 0.2039216011762619,
+          "b": 1.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_EmissionColor",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_HitColor",
+        {
+          "r": 1.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_SpecColor",
+        {
+          "r": 0.19999995827674866,
+          "g": 0.19999995827674866,
+          "b": 0.19999995827674866,
+          "a": 1.0
+        }
+      ]
+    ]
+  },
+  "m_BuildTextureStacks": []
+}

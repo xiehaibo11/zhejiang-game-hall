@@ -1,0 +1,1024 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5945628133258014018
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 1043881410928292119
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": false,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 0,
+    "m_PathID": 3120036491629411585
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4746432827682472634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7979053165664855694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1706224849324356150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4839400000826856562
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3204829484214050387
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5466386302899071880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8939060748129205132
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6581367881525592444
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8879613398525020586
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3089847060608985783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6867196549003210807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6246792442063318104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4676148668681719917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3582455275432474971
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 479025951142862136
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8963552494821986232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 844053040539649150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1786033919612405333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3454101078365171135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2502555398501238389
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6219984679691457269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7151640297438817515
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3370749475535441208
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2857826233831341361
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7552853311399989386
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7955876181412130177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5510539674162992786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 349207650558112869
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3618722435341515912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2531727023105074503
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2297940352809537027
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6448658597486562724
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2638699185333867664
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3635513807096804163
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8459821347798148109
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8004913641488475128
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5907492297758703968
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4532519758996195210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2352708742839152281
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5624984170913891393
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8300055428043395640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1759991105621649692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3138214190427485329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8330087063951137752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3924000929364559486
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1383536858041975740
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2873512095357258963
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3379153307642528639
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4044101886817994232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7959987872010165648
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2459977701507709538
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8312861536765704182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8743762558185453917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1312072846931452588
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4476177444380095429
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7769688492772352714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7749761021498836897
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2966657247888364144
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3908258629784460361
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3591495194066649864
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1611671946588285695
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1735719207367031800
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4538287068160741583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6764451138101864791
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6623608369962527963
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 736360385508967789
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8935299515057271458
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7046263549869473889
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3074843420399686543
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1744983133648721583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2620472257975588997
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8618663903554496117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7018644729982448562
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5345467244025050678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6282047154186269031
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4874651853946528335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2753348705120622657
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8041175017067867867
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3598273443463753233
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3531761642146686905
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7905446364480178374
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2132893603803068673
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8218227736049395076
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8914452603763421689
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2933029726351824368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3134185987357224880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4346058418996792372
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8013663234521907434
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6504593737161432553
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4477931498546058062
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8712954365606455152
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4119993315587588670
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -23180256622289873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7935360123140448123
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2641517666800125836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4917420924993955010
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3431072337043803857
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6121594342114052846
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7977549214471292489
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3667819297822464834
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5053565834042885577
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2328287662887334573
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7619717955133721493
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6733348892892759093
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5362065793662537557
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1859962560642870028
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7157238373654112717
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8637300155334632314
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2900667426455390123
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1383944132284133850
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1724506037042306512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8608910268628448012
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7252408355076360440
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4776432036380584461
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4803139235709900121
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4798156137651143821
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1458418593870077847
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5883273091081023800
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9057849869334630237
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7625648771266171575
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2754371067591820266
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 122157399158708357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8035689708984310415
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8355500769854636959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7040746036070782858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -539567008213194547
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6697139450037615254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4016505829289221260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 358482278335179505
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1113565257464899176
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8618804517577087500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2166980400263017846
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7383931325891903370
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6990369307159781097
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7918356490284012694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1386674036492521764
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5123733547433859771
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1099613163701214143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3670192586592323045
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -162253823537987926
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7966632053384298698
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8182787154622709049
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5767166881872268391
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7155013833077327841
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1302294689417952786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4714356316835504901
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2951066079375108135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7267798440149104279
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4354189259919606738
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3608897915704858545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2450578556247179202
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -490128937117581900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1641540348534203064
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1631774364417570990
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -343531612452267912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2434722935518585248
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6066377683799145203
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4286722523142774594
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6121725031906952956
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6525092373777519076
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4432163168762228010
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6243316665668118143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7345400540979583796
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2576972113967978139
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2562792649267949218
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8398021937471393894
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3679408699141887378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8603155358981063857
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6591895976535985593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3345826340448374280
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2118422403271793422
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6282970136401315029
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7678108320044683913
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4346459388710671779
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 107158350886987171
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6753402387086074872
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5499022195496186238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2882972386566302868
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5762453232626756215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5030673705334092836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8620145295486952100
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4261005618825100099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1027832634347882614
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7654911029792812704
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4649739976944743541
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5065206330983474778
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4382315418258975882
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7172724169537998463
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6845257723129569627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5606991699035611305
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8150582479148325651
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7902791094828544135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3976350851271627880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5077354207848369061
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3125537271440734480
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3973426522817938567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4984847034041677652
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4579040022877024817
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6198231143960740337
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5147978134190995569
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -767602227016181524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2508567222496989193
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3410684200680376595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6544789461872936842
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2415449252967564552
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7577641801113197717
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -562271918103604372
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -580694234876907233
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -949544624920650603
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7984330891748553104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8958788016974189854
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6553129990596182964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7647140521548950772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 84963589080874697
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7106857999729164645
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2042014853757000525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5909821620760608020
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2529149174080324673
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4400036764077760815
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4434104234395248628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -468114594922253201
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6399481452470583934
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2598289520177132858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3523341615721138096
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5752481780807880807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2461958878063235703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2361732858530763492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1966048214805423235
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4041576731595016967
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5476006640377968700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -55606429371840281
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7386135362540318285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -18141103665922784
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2476061140143970421
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2503871693464527273
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": -2620472257975588997
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": -3.0052359104156494,
+      "y": 0.19449466466903687,
+      "z": 0.0
+    },
+    "m_Extent": {
+      "x": 3.353905439376831,
+      "y": 1.1865360736846924,
+      "z": 7.324612140655518
+    }
+  },
+  "m_DirtyAABB": false
+}

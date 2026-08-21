@@ -1,0 +1,108 @@
+{
+  "m_Name": "5b3f6e14d628ff196293175f0b97169f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -5828918024088258303
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1287127305265953440
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8890747034366944270
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8513041315037107815
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8490398908480782360
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7872534697411755193
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5302372081500424151
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5039777676521327012
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4590492706618243448
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3891020902679543942
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3121097495273298575
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1938848824090714569
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3516565465021149782
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3683161165061548065
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4798056530272446417
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4953760546660022818
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6601411586115648579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6759536047287483729
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonsoulprefab/cannonsoul_3006/bulletlazer_1_3006/soul_paokou_1_3006.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 18,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3891020902679543942
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5b3f6e14d628ff196293175f0b97169f.bundle",
+  "m_Dependencies": [
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "eaf6f939c8a11df4fe21b2eaa855c4d5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

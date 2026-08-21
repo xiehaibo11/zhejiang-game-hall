@@ -1,0 +1,367 @@
+{
+  "m_Name": "ab58905a19d2f3da67da18f8bfcf1f38.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2211087662203198716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9210210964023132579
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4187198237449989783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8920025525973357258
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6923213092380821520
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4187198237449989783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2211087662203198716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8246425708243678371
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3981974859875962442
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4187198237449989783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 286694784945692485
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8141107590696707597
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 286694784945692485
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7229651309907806547
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2270653435266830534
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -794190009292351338
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5781945946060246872
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8920025525973357258
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3084198439757247527
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4187198237449989783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6645859191297151490
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7667609532490642891
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3945097087078490453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8581662929365391643
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5781945946060246872
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3543742530432751317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8920025525973357258
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7667609532490642891
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8246425708243678371
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7468254513935919878
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8393048524589994724
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3543742530432751317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8393048524589994724
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/calque-01.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2211087662203198716
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/cj.mat",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6923213092380821520
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/cj.png",
+      {
+        "preloadIndex": 29,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8920025525973357258
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/cj_1.mat",
+      {
+        "preloadIndex": 19,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3084198439757247527
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/hua.mat",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8141107590696707597
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/hua.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 286694784945692485
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/jz.mat",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3981974859875962442
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/shitou.png",
+      {
+        "preloadIndex": 31,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8246425708243678371
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/shu.mat",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6645859191297151490
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/shu.png",
+      {
+        "preloadIndex": 30,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7667609532490642891
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/sy01.png",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5781945946060246872
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/sy02.mat",
+      {
+        "preloadIndex": 26,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8581662929365391643
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/sy02.png",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -794190009292351338
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/sy03.mat",
+      {
+        "preloadIndex": 32,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7468254513935919878
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/sy03.png",
+      {
+        "preloadIndex": 35,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8393048524589994724
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/sy_mask.png",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2270653435266830534
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/tiankong.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9210210964023132579
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bangdashenxianshu/rig/tree/tukuai.png",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7229651309907806547
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ab58905a19d2f3da67da18f8bfcf1f38.bundle",
+  "m_Dependencies": [
+    "34a5d6e35247fd6b42e6a85ab2ae2951.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

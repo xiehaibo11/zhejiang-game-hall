@@ -1,0 +1,101 @@
+{
+  "m_Name": "26fdbb586e93a7d00156d1d6af5611ed.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7608895823462122663
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6441374929926616160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3035039810104692687
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3730493891851474293
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7328266992930604871
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6441374929926616160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7328266992930604871
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6441374929926616160
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_luckyegg/luckyegg.mat",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7328266992930604871
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_luckyegg/luckyegg.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6441374929926616160
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_luckyegg/luckyegg.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3035039810104692687
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "26fdbb586e93a7d00156d1d6af5611ed.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

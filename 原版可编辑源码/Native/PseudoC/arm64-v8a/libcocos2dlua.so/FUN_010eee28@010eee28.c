@@ -1,0 +1,97 @@
+
+void FUN_010eee28(long param_1)
+
+{
+  long lVar1;
+  long lVar2;
+  long lVar3;
+  long lVar4;
+  
+  lVar4 = *(long *)(param_1 + 0x290);
+  lVar1 = (*(code *)**(undefined8 **)(param_1 + 8))(param_1,1,0x7fc);
+  *(long *)(lVar4 + 0x50) = lVar1 + 0x3fc;
+  *(undefined8 *)(lVar1 + 1000) = 0xfffffffcfffffffb;
+  *(undefined8 *)(lVar1 + 0x3e0) = 0xfffffffafffffff9;
+  *(undefined8 *)(lVar1 + 0x3f8) = 0xffffffff;
+  *(undefined8 *)(lVar1 + 0x3f0) = 0xfffffffefffffffd;
+  *(undefined8 *)(lVar1 + 0x418) = 0x800000007;
+  *(undefined8 *)(lVar1 + 0x410) = 0x600000005;
+  *(undefined8 *)(lVar1 + 0x3c8) = 0xfffffff4fffffff3;
+  *(undefined8 *)(lVar1 + 0x3c0) = 0xfffffff2fffffff1;
+  *(undefined8 *)(lVar1 + 0x3d8) = 0xfffffff8fffffff7;
+  *(undefined8 *)(lVar1 + 0x3d0) = 0xfffffff6fffffff5;
+  *(undefined8 *)(lVar1 + 0x430) = 0xe0000000d;
+  *(undefined8 *)(lVar1 + 0x438) = 0x100000000f;
+  *(undefined8 *)(lVar1 + 0x440) = 0x1100000010;
+  *(undefined8 *)(lVar1 + 0x3b8) = 0xfffffff0fffffff0;
+  *(undefined8 *)(lVar1 + 0x3b0) = 0xffffffefffffffef;
+  *(undefined8 *)(lVar1 + 0x448) = 0x1200000011;
+  *(undefined8 *)(lVar1 + 0x450) = 0x1300000012;
+  *(undefined8 *)(lVar1 + 0x3a8) = 0xffffffeeffffffee;
+  *(undefined4 *)(lVar1 + 0x458) = 0x13;
+  *(undefined4 *)(lVar1 + 0x3a4) = 0xffffffed;
+  *(undefined4 *)(lVar1 + 0x3a0) = 0xffffffed;
+  *(undefined4 *)(lVar1 + 0x45c) = 0x14;
+  *(undefined4 *)(lVar1 + 0x460) = 0x14;
+  *(undefined4 *)(lVar1 + 0x39c) = 0xffffffec;
+  *(undefined4 *)(lVar1 + 0x398) = 0xffffffec;
+  *(undefined4 *)(lVar1 + 0x464) = 0x15;
+  *(undefined4 *)(lVar1 + 0x468) = 0x15;
+  *(undefined4 *)(lVar1 + 0x394) = 0xffffffeb;
+  *(undefined4 *)(lVar1 + 0x390) = 0xffffffeb;
+  *(undefined4 *)(lVar1 + 0x46c) = 0x16;
+  *(undefined4 *)(lVar1 + 0x470) = 0x16;
+  *(undefined4 *)(lVar1 + 0x38c) = 0xffffffea;
+  *(undefined4 *)(lVar1 + 0x388) = 0xffffffea;
+  *(undefined4 *)(lVar1 + 0x474) = 0x17;
+  *(undefined4 *)(lVar1 + 0x478) = 0x17;
+  *(undefined4 *)(lVar1 + 900) = 0xffffffe9;
+  *(undefined4 *)(lVar1 + 0x380) = 0xffffffe9;
+  *(undefined4 *)(lVar1 + 0x47c) = 0x18;
+  *(undefined4 *)(lVar1 + 0x480) = 0x18;
+  *(undefined4 *)(lVar1 + 0x37c) = 0xffffffe8;
+  *(undefined4 *)(lVar1 + 0x378) = 0xffffffe8;
+  *(undefined4 *)(lVar1 + 0x484) = 0x19;
+  *(undefined4 *)(lVar1 + 0x488) = 0x19;
+  *(undefined4 *)(lVar1 + 0x374) = 0xffffffe7;
+  *(undefined4 *)(lVar1 + 0x370) = 0xffffffe7;
+  *(undefined4 *)(lVar1 + 0x48c) = 0x1a;
+  *(undefined4 *)(lVar1 + 0x490) = 0x1a;
+  *(undefined4 *)(lVar1 + 0x36c) = 0xffffffe6;
+  *(undefined4 *)(lVar1 + 0x368) = 0xffffffe6;
+  *(undefined4 *)(lVar1 + 0x494) = 0x1b;
+  *(undefined4 *)(lVar1 + 0x498) = 0x1b;
+  *(undefined4 *)(lVar1 + 0x364) = 0xffffffe5;
+  *(undefined4 *)(lVar1 + 0x360) = 0xffffffe5;
+  *(undefined4 *)(lVar1 + 0x49c) = 0x1c;
+  *(undefined4 *)(lVar1 + 0x4a0) = 0x1c;
+  *(undefined4 *)(lVar1 + 0x35c) = 0xffffffe4;
+  *(undefined4 *)(lVar1 + 0x358) = 0xffffffe4;
+  *(undefined4 *)(lVar1 + 0x4a4) = 0x1d;
+  *(undefined4 *)(lVar1 + 0x4a8) = 0x1d;
+  *(undefined4 *)(lVar1 + 0x354) = 0xffffffe3;
+  *(undefined4 *)(lVar1 + 0x350) = 0xffffffe3;
+  *(undefined4 *)(lVar1 + 0x4ac) = 0x1e;
+  *(undefined4 *)(lVar1 + 0x4b0) = 0x1e;
+  lVar4 = 0x12f;
+  *(undefined4 *)(lVar1 + 0x34c) = 0xffffffe2;
+  *(undefined4 *)(lVar1 + 0x348) = 0xffffffe2;
+  lVar2 = 0x33c;
+  *(undefined4 *)(lVar1 + 0x4b4) = 0x1f;
+  *(undefined4 *)(lVar1 + 0x4b8) = 0x1f;
+  *(undefined8 *)(lVar1 + 0x408) = 0x400000003;
+  *(undefined8 *)(lVar1 + 0x400) = 0x200000001;
+  *(undefined4 *)(lVar1 + 0x344) = 0xffffffe1;
+  *(undefined4 *)(lVar1 + 0x340) = 0xffffffe1;
+  *(undefined8 *)(lVar1 + 0x428) = 0xc0000000b;
+  *(undefined8 *)(lVar1 + 0x420) = 0xa00000009;
+  do {
+    lVar3 = lVar4 + -0xff;
+    *(undefined4 *)(lVar1 + lVar4 * 4) = 0x20;
+    *(undefined4 *)(lVar1 + lVar2) = 0xffffffe0;
+    lVar4 = lVar4 + 1;
+    lVar2 = lVar2 + -4;
+  } while (lVar3 < 0xff);
+  return;
+}
+

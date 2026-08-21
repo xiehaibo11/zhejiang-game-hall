@@ -1,0 +1,53 @@
+{
+  "m_Name": "a9a059cfc41fc1cf696826cd21ea5962.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -1552507706963524852
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8550732332194565289
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -5110377415725840521
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/fengsheng/materials/godgeneral_fengshen_20.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8550732332194565289
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a9a059cfc41fc1cf696826cd21ea5962.bundle",
+  "m_Dependencies": [
+    "30b0356d69aae6d334f873b41c2f2e63.bundle",
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

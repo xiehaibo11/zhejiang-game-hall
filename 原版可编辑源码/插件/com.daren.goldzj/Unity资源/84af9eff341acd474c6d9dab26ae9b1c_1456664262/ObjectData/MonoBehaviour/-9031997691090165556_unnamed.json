@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1403716598316256886
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 97371476668176191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2250756530450695657
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7970781945138165050
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2142711057882056621
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3173902861323874907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5444117785605616410
+    }
+  ],
+  "m_BindComs_Name": [
+    "goldIcon",
+    "goldNumLabel",
+    "selectAniItem",
+    "selectedFlag",
+    "xuanZheAni",
+    "xuanZhongAni"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.LuckyDouble.LuckyDoubleItem",
+  "m_ClassName": "LuckyDoubleItem"
+}

@@ -1,0 +1,186 @@
+{
+  "m_Name": "41de4bed551fa047cca53f5ec8fca975.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8299654149713573733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8954043904222810761
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8299654149713573733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4979702266278002869
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 373288027688341058
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9051730154438667768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4550409399005223918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2048060268838194150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9051730154438667768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8299654149713573733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 373288027688341058
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4536357724660591465
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4979702266278002869
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4550409399005223918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4979702266278002869
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/caishenxianlipanel_ani/caishenxianlipanel.controller",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4536357724660591465
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/caishenxianlipanel_ani/jiesuo.anim",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9051730154438667768
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/caishenxianlipanel_ani/jubaopen.controller",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8954043904222810761
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/caishenxianlipanel_ani/lockkey.anim",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 373288027688341058
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/caishenxianlipanel_ani/primaryjubaopen.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8299654149713573733
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/caishenxianlipanel_ani/seniorjubaopeng.anim",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4979702266278002869
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/caishenxianlipanel_ani/tips_maodian.anim",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4550409399005223918
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/caishenxianlipanel_ani/tips_maodian.controller",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2048060268838194150
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "41de4bed551fa047cca53f5ec8fca975.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

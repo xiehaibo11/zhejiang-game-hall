@@ -1,0 +1,41 @@
+{
+  "m_Name": "26088af79d2c12f3531935f0f79a3a3a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -350303926768024908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/moontreasurebox1/effect/animation/wuyi/baohe_baokai_wuyi.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -350303926768024908
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "26088af79d2c12f3531935f0f79a3a3a.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

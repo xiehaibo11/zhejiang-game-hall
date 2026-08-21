@@ -1,0 +1,91 @@
+{
+  "m_Name": "f5c8370fa90cd064b47081d37a06e62e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9055393294478954325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8595394251279695813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8414102514842948056
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2232849288023683582
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1377296697416840332
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2809976412175815660
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4795790729757186501
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4959706625128957306
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6048760677229682625
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6477466523793882061
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7488529855835107122
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/battlepassv2/txzgoldbuff.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 14,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6477466523793882061
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f5c8370fa90cd064b47081d37a06e62e.bundle",
+  "m_Dependencies": [
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,58 @@
+{
+  "m_Name": "440673cebe31bfd474157f6d52b37539.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 482846698912916903
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -998243848914621302
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2580021613999398412
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -1068488077423576560
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -9119974200061253714
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/diamondgreatgift/effect/material/rrby_noise_503_zz_01.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 482846698912916903
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "440673cebe31bfd474157f6d52b37539.bundle",
+  "m_Dependencies": [
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

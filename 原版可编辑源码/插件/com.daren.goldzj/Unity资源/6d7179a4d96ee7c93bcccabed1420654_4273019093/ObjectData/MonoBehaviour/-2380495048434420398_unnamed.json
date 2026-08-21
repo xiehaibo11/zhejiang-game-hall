@@ -1,0 +1,214 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5367259348863828515
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 884522461359656298
+  },
+  "m_Name": "",
+  "mMat": {
+    "m_FileID": 0,
+    "m_PathID": 7590860548244414619
+  },
+  "mUVRect": {
+    "x": 0.0,
+    "y": -1.328125,
+    "width": 1.8603515625,
+    "height": 2.328125
+  },
+  "mFont": {
+    "mSize": 298,
+    "mBase": 10,
+    "mWidth": 2048,
+    "mHeight": 2048,
+    "mSpriteName": "shuihulianji",
+    "mSaved": [
+      {
+        "index": 48,
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 49,
+        "x": 220,
+        "y": 0,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 50,
+        "x": 440,
+        "y": 0,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 51,
+        "x": 660,
+        "y": 0,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 52,
+        "x": 880,
+        "y": 0,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 53,
+        "x": 1100,
+        "y": 0,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 54,
+        "x": 1320,
+        "y": 0,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 55,
+        "x": 1540,
+        "y": 0,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 56,
+        "x": 1760,
+        "y": 0,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 57,
+        "x": 0,
+        "y": 300,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 120,
+        "x": 220,
+        "y": 300,
+        "width": 218,
+        "height": 276,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 218,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 106,
+        "x": 440,
+        "y": 300,
+        "width": 430,
+        "height": 295,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 430,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 108,
+        "x": 872,
+        "y": 300,
+        "width": 669,
+        "height": 298,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 669,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 32,
+        "x": 0,
+        "y": 600,
+        "width": 669,
+        "height": 298,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 669,
+        "channel": 0,
+        "kerning": []
+      }
+    ]
+  },
+  "mAtlas": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mSymbols": [],
+  "mDynamicFont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mDynamicFontSize": 16,
+  "mDynamicFontStyle": 0
+}

@@ -1,0 +1,109 @@
+{
+  "m_Name": "23ccd1ade099e8bf48764cc3073c007f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -4628089623157833325
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3135729951170685626
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 9173715083517313618
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6395612512760148451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8677565494503681812
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8573964959319710718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7399335350279496367
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6785468625338225961
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5310443198597006054
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5002171827621227378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4269162417532436300
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1548998835834890030
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -341553631747830867
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 305127480580253823
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2393587945423970884
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4225771979756919446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7799043699412092207
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/pass/sprite.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 18,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 305127480580253823
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "23ccd1ade099e8bf48764cc3073c007f.bundle",
+  "m_Dependencies": [
+    "684cecd50d6801b537d749de2a77ad05.bundle",
+    "728df9e21dfbfa0f1e10e9b05c3da36c.bundle",
+    "9a65c8e7fe149c95919e23936097368a.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

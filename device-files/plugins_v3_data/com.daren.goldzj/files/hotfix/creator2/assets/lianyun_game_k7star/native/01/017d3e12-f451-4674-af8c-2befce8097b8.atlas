@@ -1,0 +1,48 @@
+
+dengfengzaoji.png
+size: 1822,1383
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/bd
+  rotate: false
+  xy: 581, 358
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img/dfzj/dfzj_00
+  rotate: false
+  xy: 2, 2
+  size: 744, 259
+  orig: 790, 291
+  offset: 26, 14
+  index: -1
+img/dfzj/leidian_00
+  rotate: false
+  xy: 581, 867
+  size: 1231, 514
+  orig: 1270, 524
+  offset: 2, 10
+  index: -1
+img/dfzj/leiyun_00
+  rotate: true
+  xy: 2, 263
+  size: 1118, 577
+  orig: 1624, 750
+  offset: 252, 170
+  index: -1
+img/dfzj/long_00
+  rotate: false
+  xy: 748, 35
+  size: 991, 423
+  orig: 1039, 483
+  offset: 0, 44
+  index: -1
+img/dfzj/wuyun_00
+  rotate: false
+  xy: 581, 460
+  size: 1239, 405
+  orig: 1624, 750
+  offset: 164, 210
+  index: -1

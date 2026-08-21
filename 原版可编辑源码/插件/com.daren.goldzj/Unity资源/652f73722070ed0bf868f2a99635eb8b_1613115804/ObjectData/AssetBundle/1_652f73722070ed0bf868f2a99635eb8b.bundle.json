@@ -1,0 +1,169 @@
+{
+  "m_Name": "652f73722070ed0bf868f2a99635eb8b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7682123642622338675
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6838690186316210815
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6428786860072829748
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6267482112751440355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6052681925619479001
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5754882209169631969
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4191456386283759782
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4108248583963211506
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3262481019155084229
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2059427561186220686
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1822496697322360183
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -280941819423431970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -66228741659865281
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1262468498804256123
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1523800938810864833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2451526170575064966
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3126865718910841776
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3293153881738456191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4608704381755287133
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6140754027035186919
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7699443467889862193
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8403670604083061450
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -535630492773410942
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4094779765004521933
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 5484877080804054837
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7203452191399238803
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -3421716620671121334
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/wealthcome/effect/prefabs/uieffect_btn_zcm.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 32,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3262481019155084229
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "652f73722070ed0bf868f2a99635eb8b.bundle",
+  "m_Dependencies": [
+    "178cc2d029f8faf1bd08ab0c73522e15.bundle",
+    "230311e47a70af059e3805b2832178d1.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "9bc6f207dea2ff33d020533b19db4643.bundle",
+    "bedd09006b812b880067b8affaf30569.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

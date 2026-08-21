@@ -1,0 +1,52 @@
+{
+  "m_Name": "f61da006a1521c872cc489046f1ca072.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2182151642859567637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1037962203339212414
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7709165324136909953
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/emoji/normal/sobbing/jichubiaoqing_daku_skeletondata.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1037962203339212414
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f61da006a1521c872cc489046f1ca072.bundle",
+  "m_Dependencies": [
+    "4821396cc586b380a0a4490a501b68ed.bundle",
+    "4bca404da286040d72dacc9bd72a8a37.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,55 @@
+
+ani_guanmen.png
+size: 382,382
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanmen/ani_guanmen_men
+  rotate: false
+  xy: 323, 79
+  size: 57, 97
+  orig: 58, 98
+  offset: 1, 0
+  index: -1
+guanmen/ani_guanmen_menkuang
+  rotate: true
+  xy: 214, 178
+  size: 202, 166
+  orig: 202, 167
+  offset: 0, 1
+  index: -1
+guanmen/ani_guanmen_tx
+  rotate: false
+  xy: 2, 198
+  size: 210, 182
+  orig: 210, 182
+  offset: 0, 0
+  index: -1
+guanmen/ani_guanmen_wenzi
+  rotate: true
+  xy: 118, 73
+  size: 123, 81
+  orig: 124, 81
+  offset: 1, 0
+  index: -1
+guanmen/ani_poguan_wenzi
+  rotate: false
+  xy: 201, 97
+  size: 120, 79
+  orig: 120, 79
+  offset: 0, 0
+  index: -1
+guanmen/ani_poguan_xy
+  rotate: false
+  xy: 201, 18
+  size: 51, 77
+  orig: 52, 78
+  offset: 1, 0
+  index: -1
+guanmen/ani_pomen_tx
+  rotate: true
+  xy: 2, 20
+  size: 176, 114
+  orig: 176, 115
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,174 @@
+{
+  "m_Name": "e53b7a508283e262de321e7936a27f44.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 139940497730850542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8968946849170100075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8506614604750816741
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7700699635184284764
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7083071425826830977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6630446855754187760
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5797326793732114971
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3492331561386002510
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2994472347387372779
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2931377702716229248
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2907358812483690315
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2651565202127920710
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1672484266424202173
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1303577626084074121
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1472113518880573519
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2191481093496140353
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2204830058298068183
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2860492551593145163
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3267436722596178364
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3744687481013001400
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3775102021007512862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4384225665460224885
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4517086523373087614
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5004142209909286001
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5855539109929987566
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7522659775211148057
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7554469738901909931
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8958641733934486229
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 6502902686480014228
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8836554772088101594
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2025819317871778946
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6693788653575807094
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1184377310689150056
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactdiscount/effect/uieffect_btncut_boom.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 34,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2907358812483690315
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e53b7a508283e262de321e7936a27f44.bundle",
+  "m_Dependencies": [
+    "00baf169f054fd57777844fd6967b2cc.bundle",
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "7b5fa1f5eb5eaca5019eb608ddf03f31.bundle",
+    "9434e33794e4cec9b5350f1662674aed.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

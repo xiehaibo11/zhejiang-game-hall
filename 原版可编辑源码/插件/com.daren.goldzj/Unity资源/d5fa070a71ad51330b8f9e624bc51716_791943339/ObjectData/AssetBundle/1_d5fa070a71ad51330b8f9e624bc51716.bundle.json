@@ -1,0 +1,109 @@
+{
+  "m_Name": "d5fa070a71ad51330b8f9e624bc51716.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4095509906456645785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3844460502722598512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3137602113359348640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1840404982246672708
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1011422373178945459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -988274292541584260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -414470637336939578
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -86173518254574473
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 10388823501466839
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3604625270958221330
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5417205612913600847
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6151556834645098018
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6186521206976944795
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7320291478464043256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8406578472598458556
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6623102100032659891
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6182256663446819821
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3738509212867847894
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollectsystem/effect/prefabs/kapai.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 18,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3604625270958221330
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d5fa070a71ad51330b8f9e624bc51716.bundle",
+  "m_Dependencies": [
+    "195d4a7348d86a1c7041634c73551e13.bundle",
+    "2ac86b99edc35f38761a20590205aed2.bundle",
+    "957389ab7d328d48a6915ecbc6d09bf6.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,52 @@
+{
+  "m_Name": "9afd97c391689979f7de860b0472bc0a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 9059666383939192554
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3867557269447810066
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/0_\u5929\u738b\u795e\u5668\u795e\u5ba0\u70ae\u9b42/\u70ae\u9b42_\u8700\u738b\u5218\u5907/texture_npot/dimian1.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9059666383939192554
+        }
+      }
+    ],
+    [
+      "assets/arts/0_\u5929\u738b\u795e\u5668\u795e\u5ba0\u70ae\u9b42/\u70ae\u9b42_\u8700\u738b\u5218\u5907/texture_npot/mask_lstx.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3867557269447810066
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9afd97c391689979f7de860b0472bc0a.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

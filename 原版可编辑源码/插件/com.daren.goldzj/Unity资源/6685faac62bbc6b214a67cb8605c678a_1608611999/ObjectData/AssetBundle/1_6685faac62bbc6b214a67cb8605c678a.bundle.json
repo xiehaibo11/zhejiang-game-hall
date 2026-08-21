@@ -1,0 +1,79 @@
+{
+  "m_Name": "6685faac62bbc6b214a67cb8605c678a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 6997716903027672655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9082454379266405178
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6242619933549117831
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5867638316446764271
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3677136928240746705
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1874434458260897504
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -591689588207202556
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2142497393087555090
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3687280336358883943
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7356450823165284383
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/crystaltreasury/effect/prefab/effect_btn_saoguang.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 11,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -591689588207202556
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6685faac62bbc6b214a67cb8605c678a.bundle",
+  "m_Dependencies": [
+    "8a17cd266600d9070923fe1946d2dcc2.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

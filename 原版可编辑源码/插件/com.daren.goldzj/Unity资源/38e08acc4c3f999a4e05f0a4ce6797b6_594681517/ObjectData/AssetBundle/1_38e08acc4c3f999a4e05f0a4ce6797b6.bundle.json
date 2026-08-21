@@ -1,0 +1,247 @@
+{
+  "m_Name": "38e08acc4c3f999a4e05f0a4ce6797b6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7150750847250592594
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7579808395819257892
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 630344750227082515
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2449523822308093404
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7951740069925190567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4527906684355397358
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5902373116037476757
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3951221453703199872
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3453638053175176625
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3664817710423889811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2142510411596986884
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8095479974185876039
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6041285115173778701
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3795494838919268026
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -839748710502536723
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/bg_001.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2142510411596986884
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/bg_004.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5902373116037476757
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/img_hml_loading_bg1.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6041285115173778701
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/img_hml_loading_bianzi1.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -839748710502536723
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/img_hml_loading_ma1.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3453638053175176625
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/img_hml_loading_maan1.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2449523822308093404
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/img_hml_loading_mati1.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7579808395819257892
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/t_cloud_001.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 630344750227082515
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/t_cloud_002.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3664817710423889811
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/t_trail_001.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7150750847250592594
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/t_trail_002.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7951740069925190567
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/t_trail_003.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8095479974185876039
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/t_trail_005.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3951221453703199872
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/t_trail_006.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4527906684355397358
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/153_huamulan/texture_npot/t_trail_007.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3795494838919268026
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "38e08acc4c3f999a4e05f0a4ce6797b6.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

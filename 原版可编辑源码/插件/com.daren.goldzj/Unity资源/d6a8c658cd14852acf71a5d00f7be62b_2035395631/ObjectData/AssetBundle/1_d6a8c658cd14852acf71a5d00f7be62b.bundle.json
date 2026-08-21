@@ -1,0 +1,174 @@
+{
+  "m_Name": "d6a8c658cd14852acf71a5d00f7be62b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7346706848665257573
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4506966373852007655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 821369474019979323
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8094398775715695620
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7346706848665257573
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4506966373852007655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 821369474019979323
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1718024697099558514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7078598618887949565
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8094398775715695620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1718024697099558514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8094398775715695620
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4506966373852007655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8094398775715695620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 821369474019979323
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleediting/spine/youlongzhixi/youlongzhixi.atlas.txt",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 821369474019979323
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/youlongzhixi/youlongzhixi.png",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8094398775715695620
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/youlongzhixi/youlongzhixi.skel.bytes",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1718024697099558514
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/youlongzhixi/youlongzhixi_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7346706848665257573
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/youlongzhixi/youlongzhixi_material.mat",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4506966373852007655
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/spine/youlongzhixi/youlongzhixi_skeletondata.asset",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7078598618887949565
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d6a8c658cd14852acf71a5d00f7be62b.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

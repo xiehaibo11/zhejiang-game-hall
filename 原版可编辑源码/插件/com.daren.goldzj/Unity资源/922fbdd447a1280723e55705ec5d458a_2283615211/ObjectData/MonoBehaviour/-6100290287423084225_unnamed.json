@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9116347336147720499
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5951306463743543130
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2454470069245036556
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2877704292503548366
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2780779739411957786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7098113117806256503
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6467232656421043789
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7511479260677788447
+    }
+  ],
+  "m_BindComs_Name": [
+    "tagFinish",
+    "tagUnFinish",
+    "mask",
+    "tagCanGet",
+    "txtLevel",
+    "txtLevel2",
+    "iconItem"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BossChallenge.BossChallengeRoadItem",
+  "m_ClassName": "BossChallengeRoadItem"
+}

@@ -1,0 +1,158 @@
+{
+  "m_Name": "6cffc84a9c63fee6011f181e2ffc8797.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -1639054234971412948
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1815766621309959125
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5324888391488856973
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 2448682356146462797
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4484412376548688832
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1942564789804683507
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8316956130309242579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8344313084506432316
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691676500807756964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7552111801403035455
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5787246417837027244
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4843266406387268254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2135196695695223140
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1550538579441710978
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1244938153406058753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 719349411321639911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 721137545698881171
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3174764418350729292
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4826688834158056968
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4926420770028279084
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5391134891949726807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5817832139255782832
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6477077836465762303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7426248238135334653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7634992689002353984
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7778420970511816912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8039517224629617160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8933044621168671743
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/uiiconbutton/btnkofupgift.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 30,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 721137545698881171
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6cffc84a9c63fee6011f181e2ffc8797.bundle",
+  "m_Dependencies": [
+    "0c56e7fbe613fe71c8a8dc24310b366a.bundle",
+    "85cd66e37160b6b7476a956a145ad94b.bundle",
+    "b9043637fe663fd4bc86b20b713c11ab.bundle",
+    "fd484effee4dc1dc6ede899f9572670b.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

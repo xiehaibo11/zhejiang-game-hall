@@ -1,0 +1,117 @@
+{
+  "m_Name": "8a2d60c2a03c88bbaef86c1f03ec7ccf.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -1168518011070445532
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6222962079704317939
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9031633146514450654
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8975615667745989541
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7746462894192017987
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6843942396055869531
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6540540243992175451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6514349097264733694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5897799091492963210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2866964193620397777
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2473155478354749438
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1519436669888204306
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1391469785369372265
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1873207792023694794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6540256823305694267
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7028543094692420364
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7338886770356314512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8533561512447364117
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1056545412164761190
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 4619726689811731532
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/gameactivity/uieffect/gameactivity_eff_buttonselect.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 20,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8975615667745989541
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8a2d60c2a03c88bbaef86c1f03ec7ccf.bundle",
+  "m_Dependencies": [
+    "7b14c45d02b38b42ef458a5625854151.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "b5d1ba46c0034cd82293c8b1052b205c.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

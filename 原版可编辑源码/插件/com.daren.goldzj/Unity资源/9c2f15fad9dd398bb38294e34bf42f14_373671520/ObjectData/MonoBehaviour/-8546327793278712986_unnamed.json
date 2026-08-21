@@ -1,0 +1,206 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3197869861965209426
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7271686163810236128
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3224739730486324
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1453994244933544873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6807367734365224205
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1490889118306645228
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4822955021556702247
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4883450975600837410
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6071219438198171612
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 801882476078586594
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4083605039278540836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5274161768763925614
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9121460319770400430
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2621791987536387099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5541425695413220053
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3013912577880489528
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2267379815360951337
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -252035950206562073
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6613345224946303561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9157612539851080365
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4356045705270415733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9046376857293835410
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1558252207975844329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1731213573483232012
+    }
+  ],
+  "m_BindComs_Name": [
+    "goldStartPos",
+    "goldPos",
+    "txtMovePercent",
+    "txtTempGold",
+    "rotateNode",
+    "tweenRotation",
+    "animator",
+    "btnClose",
+    "btnSign",
+    "btnRoad",
+    "btnShop",
+    "btnDrop",
+    "btnHelp",
+    "btnOpen",
+    "redPointShop",
+    "redPointOpen",
+    "redPointRoad",
+    "redPointSign",
+    "btnFinish",
+    "txtCurPercent",
+    "txtCurGold",
+    "txtPoolGold",
+    "txtOpenNeed"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -154215442185091088
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7263620126532126813
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 49743290538257168
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5264009755110544052
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -893951072841840099
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1374572335585769364
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3353321597401578466
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7262922497776357154
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5315871367777050182
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1002274235915469957
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4002145969495235129
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1677244274128711678
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "awardItems"
+  ],
+  "hotfixClassFullName": "GameHotFix.BossChallenge.BossChallengeMainPanel2",
+  "m_ClassName": "BossChallengeMainPanel2"
+}

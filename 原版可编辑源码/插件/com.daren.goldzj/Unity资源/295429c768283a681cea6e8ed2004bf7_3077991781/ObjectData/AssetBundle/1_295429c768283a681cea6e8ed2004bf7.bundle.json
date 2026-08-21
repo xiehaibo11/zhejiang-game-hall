@@ -1,0 +1,186 @@
+{
+  "m_Name": "295429c768283a681cea6e8ed2004bf7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8397467313097668817
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5696207148597221892
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1322992108246199071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1986645751368415501
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6781645980292241262
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6482317994990660813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3641936482959291349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4720039012749218592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6522377798172045085
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6956107794260568282
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3163084627702580477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2903036410663533199
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3134918834236236587
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3165603683164197763
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4008058421191504206
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/baoqingtian/fbx/423453456457568.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4720039012749218592
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/baoqingtian/fbx/423453456457568.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6482317994990660813
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/baoqingtian/fbx/star_01.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8397467313097668817
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/baoqingtian/fbx/star_01.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5696207148597221892
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/baoqingtian/fbx/ui_kuang.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3134918834236236587
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/baoqingtian/fbx/ui_kuang.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2903036410663533199
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "295429c768283a681cea6e8ed2004bf7.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

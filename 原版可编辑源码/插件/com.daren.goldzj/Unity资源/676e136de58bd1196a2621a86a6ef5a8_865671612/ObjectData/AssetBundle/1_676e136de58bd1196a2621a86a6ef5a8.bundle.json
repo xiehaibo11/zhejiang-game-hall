@@ -1,0 +1,194 @@
+{
+  "m_Name": "676e136de58bd1196a2621a86a6ef5a8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 5,
+      "m_PathID": -7073279268362385511
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -1168518011070445532
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 690973678732011609
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": 8034453080927308772
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8923196021188055925
+    },
+    {
+      "m_FileID": 8,
+      "m_PathID": -3548522664873383393
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 795455394591462856
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -2414975796557636545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8918504031847021052
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8915315624642245836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8693398807665113448
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5642592288004075122
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5086988546861085258
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3897063430864818634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3748079577566258992
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3001324687115338984
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1978308534837472414
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1958574354228929021
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1922810835580705649
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1688550922318826966
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1655294325181165583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1290920347481740195
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1604292216142321681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2069692817271561355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2384347853535299750
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2830551029566668618
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3294873976353875196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4310555795368712401
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4446966656873093994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4857525577493129351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6167299599208014636
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6317247701694379372
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6529863990318804694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6717874319829313110
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7361850719918424413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7648289369566940573
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8268300855192437418
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9005549920223684159
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/piggybank/effect/prefab/uieffect_full_piggy.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 38,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2069692817271561355
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "676e136de58bd1196a2621a86a6ef5a8.bundle",
+  "m_Dependencies": [
+    "0615218e63cf90a2f317563ecbbcb46f.bundle",
+    "093b3744c4659f0a53743e5de04912d7.bundle",
+    "235da2204f30a3315af8d75f9414d0be.bundle",
+    "35204d5a33c79c9c768bd7577e315f08.bundle",
+    "6d5ca5bb4f443d3b2459ca6bb7f4cf25.bundle",
+    "7b14c45d02b38b42ef458a5625854151.bundle",
+    "b135fe3478a5141c5d6a9e942ed7aa1c.bundle",
+    "d2edba2c4f2cb02c8b8c18051e5e1b85.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

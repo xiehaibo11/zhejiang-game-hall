@@ -1,0 +1,69 @@
+
+QinYanslCB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qysl_gycb01
+  rotate: false
+  xy: 2, 581
+  size: 384, 409
+  orig: 384, 409
+  offset: 0, 0
+  index: -1
+qysl_huaban1
+  rotate: false
+  xy: 388, 585
+  size: 50, 96
+  orig: 50, 96
+  offset: 0, 0
+  index: -1
+qysl_huaban2
+  rotate: true
+  xy: 2, 2
+  size: 188, 59
+  orig: 188, 59
+  offset: 0, 0
+  index: -1
+qysl_huaban3
+  rotate: false
+  xy: 627, 940
+  size: 201, 50
+  orig: 201, 53
+  offset: 0, 2
+  index: -1
+qysl_jzhic
+  rotate: false
+  xy: 2, 380
+  size: 354, 199
+  orig: 354, 200
+  offset: 0, 1
+  index: -1
+qysl_shanghd
+  rotate: false
+  xy: 388, 683
+  size: 163, 91
+  orig: 163, 94
+  offset: 0, 3
+  index: -1
+qysl_xiachi06
+  rotate: false
+  xy: 388, 776
+  size: 237, 214
+  orig: 246, 214
+  offset: 0, 0
+  index: -1
+qysl_yc02
+  rotate: false
+  xy: 2, 192
+  size: 186, 186
+  orig: 186, 186
+  offset: 0, 0
+  index: -1
+qysl_zxl01
+  rotate: false
+  xy: 190, 303
+  size: 82, 75
+  orig: 82, 75
+  offset: 0, 0
+  index: -1

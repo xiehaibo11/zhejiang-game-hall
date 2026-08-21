@@ -1,0 +1,100 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 461702729519814570
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4060599881261628479
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9106510277988581735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 747131341269964007
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7600480921762571316
+    }
+  ],
+  "m_BindComs_Name": [
+    "TxtMaximumAfkTime",
+    "TxtGainsSpeed",
+    "BtnClose",
+    "BtnJump"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -5451478867709035689
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2243087857890872342
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5970707417287328139
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4196360088301517121
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -4205394637990041212
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3991283936126424923
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6789126994192082497
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2303232818896582186
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "BonusTabObjs",
+    "BonusDetailPanelObjs"
+  ],
+  "hotfixClassFullName": "GameHotFix.MoneyTree.MoneyTreeDetailPanel",
+  "m_ClassName": "MoneyTreeDetailPanel"
+}

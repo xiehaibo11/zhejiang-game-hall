@@ -1,0 +1,192 @@
+{
+  "m_Name": "b9a9a48c3bd851107d53ead3ef58459a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1888676338299314641
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 5763122127258892174
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7353141521412247104
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8337728110556258021
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9088689529827931613
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8380908548598872568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8362290263820268834
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7966186627935326835
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7200734406630316111
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6448337093084328048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6095395867960521185
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5955054958370516274
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5907576230501926854
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5635739584686479749
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4156863298972980870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3616103865710170712
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3377365445269624334
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2907284568472755556
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2730196820175853310
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1318933515241120204
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1299935634711926696
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1175307074718382743
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 720745742968718307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 840324328532408379
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1053160658210164283
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3207033784571947139
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5154222517839624314
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5224340535163535736
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5939822450925548270
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6367600488637265291
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6634196951518760859
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8150691471599576997
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8469096861241020459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8949222666993539533
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 5911089386537346112
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 2501166819650338026
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneralcannon/godgeneralcannon1003/godgenerabullet_1003_ultimate.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 38,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6448337093084328048
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b9a9a48c3bd851107d53ead3ef58459a.bundle",
+  "m_Dependencies": [
+    "34047a530a17ffd5a1bd9bff44689793.bundle",
+    "4ecd2652d1a87f3670091f319720a3ff.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "be208781a3d84d8038b1239842d97cd5.bundle",
+    "dd2c0561d6dfcf45f77ae0d90f2fca41.bundle",
+    "fc22c364733af0f2fd5942ee93f22f18.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

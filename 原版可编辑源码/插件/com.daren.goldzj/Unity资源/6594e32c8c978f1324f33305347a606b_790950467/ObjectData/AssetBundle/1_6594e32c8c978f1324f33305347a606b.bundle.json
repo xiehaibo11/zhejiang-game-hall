@@ -1,0 +1,168 @@
+{
+  "m_Name": "6594e32c8c978f1324f33305347a606b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -2930732775377544927
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5151300539411049314
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 4112159416671419154
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -4207079520524192765
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8063469255967627977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7776165284762649647
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6595518967675255561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5544659436684860121
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5388322938037262362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5298664510295149071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5020750394608344236
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4689554287564223707
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4523024099996474282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1786118941474024924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1625287959280424135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1536687911056967724
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -892557572165432385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 67427706006493787
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 80314212177593335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 137665436259656320
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1676536531398778328
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1774318435546428104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2455746649192704744
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2533477569997157244
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4348132719364688669
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4979146005960353190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6964272768909580192
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7201974088980896108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7521476373184616579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7578034319515578523
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -2082304847230741316
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -6693788653575807094
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/fengshenpuzzle/effect/prefab/uieffect_green_boom.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 32,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5544659436684860121
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6594e32c8c978f1324f33305347a606b.bundle",
+  "m_Dependencies": [
+    "00baf169f054fd57777844fd6967b2cc.bundle",
+    "0ed482bdc6a07bb2d4356762a4293f43.bundle",
+    "38c14190093f6ac51fb1a875a7e40ed8.bundle",
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "ae0e068fbeb9d8219cd2438ddcd25551.bundle",
+    "f50836fae2d5904d54fdbff788957453.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,176 @@
+{
+  "m_Name": "54ed5571305f5f31ae3d83037c35e851.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 6,
+      "m_PathID": 6450058899774100159
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4990216374731251074
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -121002052747056177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8942306338835521932
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8086467814986317128
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7280201745118108324
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6107970650518666679
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6074453663962484066
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6068834122942535033
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5190466797643467255
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5023462294041597979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4592701740298564768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4165059264818412012
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4121458627607129402
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3703353852886742653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3228919510677074177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2305405001216734949
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2004380928651639779
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -660007718944442957
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -266449982129932117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -260299878911673924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 315159982384726146
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 836589669299113218
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2765953546743741852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3203335228653604433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3722280506322840979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3926430459950561785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5131533013257728601
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5315784395829481223
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7105160337683670126
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 3282678082988773126
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8634234476217793106
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1391727238477292100
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/newspringtreasurehunt/effect/prefab/uieff_light_dianliang_boom.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 34,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 836589669299113218
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "54ed5571305f5f31ae3d83037c35e851.bundle",
+  "m_Dependencies": [
+    "3340d35f4d60d93e87be92accb1a2cb8.bundle",
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "831218c49f49863da483a4988c0aa0a1.bundle",
+    "9093d92986609969a9376a936df29ac8.bundle",
+    "bea5dc057707cf1c27e90dbf9dee540b.bundle",
+    "dd795e57a842b5d1319f33f95da1ee79.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

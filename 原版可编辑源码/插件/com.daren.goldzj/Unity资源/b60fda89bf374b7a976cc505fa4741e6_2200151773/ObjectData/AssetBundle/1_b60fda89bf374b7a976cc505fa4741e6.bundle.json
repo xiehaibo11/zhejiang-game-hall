@@ -1,0 +1,272 @@
+{
+  "m_Name": "b60fda89bf374b7a976cc505fa4741e6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 6226285328181263177
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1992066638782574179
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6982938552068264520
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -637759241754300321
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6561514105087750125
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1372106917170292186
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8667203961294535251
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1267453133593077831
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6561514105087750125
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -81134431543866631
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 664660462976386061
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 147869773361156232
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4567079050812020375
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8146406406376177150
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3047933537801636164
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8146406406376177150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6671356673927352837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 567287966315496813
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -81134431543866631
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8728855738561090802
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 147869773361156232
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4567079050812020375
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 567287966315496813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8667203961294535251
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8570186202674245115
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3543204663816284733
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1051217111502487693
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4396873911442828287
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_eye.mat",
+      {
+        "preloadIndex": 29,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8570186202674245115
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_shenti.mat",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1372106917170292186
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_shenti_d.png",
+      {
+        "preloadIndex": 28,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8667203961294535251
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_shenti_n.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6561514105087750125
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_toufa.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1992066638782574179
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_wuqi.mat",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 664660462976386061
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_wuqi1.mat",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8728855738561090802
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_yifu.mat",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6671356673927352837
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_yifu_d.png",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8146406406376177150
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun/martialgod/1.0/zhaoyun_yifu_n.png",
+      {
+        "preloadIndex": 27,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 567287966315496813
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b60fda89bf374b7a976cc505fa4741e6.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "84def3b9c78f1cd8e19ac198d1478a20.bundle",
+    "c961827201218921f858b436f516b1f4.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

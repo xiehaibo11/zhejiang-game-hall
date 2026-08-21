@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6517108775158199171
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 650737875164790368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5039172687396660995
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7291749790137350142
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1518110362421700489
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8929630735651430785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2627853085540292728
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4264236499286830727
+    }
+  ],
+  "m_BindComs_Name": [
+    "taskDesc",
+    "notDone",
+    "getted",
+    "btnGetReward",
+    "rewardIconItem",
+    "progressLabel",
+    "progressBar"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GameActivity.GodGeneralSpecialSaleGift.GodGeneralNormalTaskItem",
+  "m_ClassName": "GodGeneralNormalTaskItem"
+}

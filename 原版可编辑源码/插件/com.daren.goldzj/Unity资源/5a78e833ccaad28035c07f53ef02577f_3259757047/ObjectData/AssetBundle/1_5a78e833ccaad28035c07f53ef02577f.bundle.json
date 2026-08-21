@@ -1,0 +1,75 @@
+{
+  "m_Name": "5a78e833ccaad28035c07f53ef02577f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4346392144181995951
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7534283389971855680
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5122171044737925357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4571192180508872191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2288318840915550582
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1812803357645682887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1139042249695194217
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8845517664019035349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9206100673264261656
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyufiledfx/buyu_coinanimation_new.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 10,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1812803357645682887
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5a78e833ccaad28035c07f53ef02577f.bundle",
+  "m_Dependencies": [
+    "5c502c268249dd813bc6456ea161b1e5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

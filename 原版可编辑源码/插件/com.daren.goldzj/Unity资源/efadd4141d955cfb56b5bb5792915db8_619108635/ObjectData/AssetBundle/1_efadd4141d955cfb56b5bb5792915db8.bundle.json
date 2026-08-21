@@ -1,0 +1,151 @@
+{
+  "m_Name": "efadd4141d955cfb56b5bb5792915db8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 472111020411585366
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3252213797001983218
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8800517479378526635
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8014262548874550460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7302773752708630879
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4520632798660362277
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4456630650406029860
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4327820817175306001
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1980327363558754355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -728100133238397372
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 195121251101557659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 667984957213965621
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1464910030564626934
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1682820808201426117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2039228487420230289
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3985112161660002723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5182295596750365324
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6093285408504019420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6205440686053384352
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6968062698783880233
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8758177227314962015
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9066571963328018003
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9086920966738630135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9120314166217125224
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -1820483686967830264
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -3521673640212934016
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/talisman/finger.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 28,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1980327363558754355
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "efadd4141d955cfb56b5bb5792915db8.bundle",
+  "m_Dependencies": [
+    "3c7aef16a79e7f2e9d330010e358a14d.bundle",
+    "561c0bbf76eac1163a24b586735dc564.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "7b14c45d02b38b42ef458a5625854151.bundle",
+    "ac1c0c9888f29447581ebc647bb43ee2.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

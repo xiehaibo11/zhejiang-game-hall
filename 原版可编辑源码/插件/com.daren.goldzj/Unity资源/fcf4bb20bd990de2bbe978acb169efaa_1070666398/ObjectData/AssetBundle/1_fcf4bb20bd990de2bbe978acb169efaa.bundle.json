@@ -1,0 +1,63 @@
+{
+  "m_Name": "fcf4bb20bd990de2bbe978acb169efaa.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4142827483994770150
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1552507706963524852
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2401626681959106103
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 7464020601420102137
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 1699704455217313855
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/colorfulpass/effect/texture/mask_01 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2401626681959106103
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "fcf4bb20bd990de2bbe978acb169efaa.bundle",
+  "m_Dependencies": [
+    "14da93d387c72baeaaa3ace9979409ba.bundle",
+    "38b2e28d58d933698b24e508b1bfeb89.bundle",
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

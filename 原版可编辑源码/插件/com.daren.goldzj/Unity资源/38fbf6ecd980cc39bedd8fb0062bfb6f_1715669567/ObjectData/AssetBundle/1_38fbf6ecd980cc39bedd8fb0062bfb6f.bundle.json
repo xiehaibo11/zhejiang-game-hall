@@ -1,0 +1,53 @@
+{
+  "m_Name": "38fbf6ecd980cc39bedd8fb0062bfb6f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 8401232528283439714
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3816127293285263589
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -7787909087988421924
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactprayv2/effect/material/mask_600_add1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3816127293285263589
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "38fbf6ecd980cc39bedd8fb0062bfb6f.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "bcd7bdc8d3dceb2fbb3c7fa6218871fc.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

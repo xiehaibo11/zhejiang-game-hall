@@ -1,0 +1,43 @@
+{
+  "m_Name": "dd7618ba9e11fc7fbb79dfc5e4e3c2c6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 497478253274513989
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5997481937361524964
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/streetstorm/effect/animator/streetstormdicepanel_body_chuxian.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 497478253274513989
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "dd7618ba9e11fc7fbb79dfc5e4e3c2c6.bundle",
+  "m_Dependencies": [
+    "a1de993f25af922342a22ff6585591c6.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,37 @@
+{
+  "m_Name": "d5baf09d57934f2e15bc9c4c0aba283f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2086908354449261374
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/streetstorm/effect/animator/streetstormwheelpanel_reward_2.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2086908354449261374
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d5baf09d57934f2e15bc9c4c0aba283f.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

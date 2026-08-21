@@ -1,0 +1,63 @@
+{
+  "m_Name": "d15b598b54123242962d277f25890b63.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 9138065717085997927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8405437510825530000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7775236128006564856
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -705319012061758632
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3342661144663334763
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4304372274410396579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9042473950420621952
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/pass/effect/prefab/effect_lizi_fenwei.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -705319012061758632
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d15b598b54123242962d277f25890b63.bundle",
+  "m_Dependencies": [
+    "48e6de6b192417fe7d8533b880528789.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

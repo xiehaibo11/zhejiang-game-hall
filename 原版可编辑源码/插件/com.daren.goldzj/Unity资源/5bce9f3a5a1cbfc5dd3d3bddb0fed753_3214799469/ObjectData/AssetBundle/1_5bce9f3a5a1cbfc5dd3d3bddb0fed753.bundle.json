@@ -1,0 +1,43 @@
+{
+  "m_Name": "5bce9f3a5a1cbfc5dd3d3bddb0fed753.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3608648557000210043
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2932877223145074664
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/collectionpaidgift/optionalgift/effect/animation/optionalgiftpanelcontroller.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3608648557000210043
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5bce9f3a5a1cbfc5dd3d3bddb0fed753.bundle",
+  "m_Dependencies": [
+    "4f56fd4757a1497d69f3b2005cb85149.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

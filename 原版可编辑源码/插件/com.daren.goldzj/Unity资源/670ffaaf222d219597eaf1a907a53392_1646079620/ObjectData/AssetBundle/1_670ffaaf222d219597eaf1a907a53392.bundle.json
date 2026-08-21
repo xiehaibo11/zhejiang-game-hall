@@ -1,0 +1,206 @@
+{
+  "m_Name": "670ffaaf222d219597eaf1a907a53392.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": -1639054234971412948
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1815766621309959125
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5324888391488856973
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2448682356146462797
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4484412376548688832
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8943908448701928258
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8394256954244878405
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691676500807756964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7361633359535433991
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7163595673004544898
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6516623854345172520
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6000886597538308476
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5722652209800811378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4158718988570069839
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3993173996086401334
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3834915831920367505
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3747263467663671204
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3247192895550379488
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2635913654917537307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2178787101989390115
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1850394166936555347
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -731804298356610920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -470129626809579802
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -264135299498925112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -238886945010694538
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 719349411321639911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 852450417750305084
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2889653498201815214
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3852012175879730940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4775258253184009871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5496489651669009266
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5612732198844100377
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6463315623651110503
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7418545464867949034
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7426248238135334653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7604479377392778013
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8824863749364763069
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8977754999412157640
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/uiiconbutton/btnqifu.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 42,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6516623854345172520
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "670ffaaf222d219597eaf1a907a53392.bundle",
+  "m_Dependencies": [
+    "0c56e7fbe613fe71c8a8dc24310b366a.bundle",
+    "85cd66e37160b6b7476a956a145ad94b.bundle",
+    "b9043637fe663fd4bc86b20b713c11ab.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

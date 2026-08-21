@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6082530492160180216
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7831160865734525204
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2047484545045813120
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -582218023485027472
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3487653972879164253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6082530492160180216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -202489762093608827
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -977459989462189260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1692566992958916053
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4861079703655021039
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1316135043089868912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5830637779672835713
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 168777149369120144
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2083004874717454742
+    }
+  ],
+  "m_BindComs_Name": [
+    "LeftCount",
+    "SelectBuyNum",
+    "NameTitle",
+    "SelectClipsText",
+    "BtnSelect",
+    "BtnCheckBox",
+    "Check",
+    "selectUi",
+    "SoldOut",
+    "ExchangeTip",
+    "TipsBg",
+    "IconSprite",
+    "ExpectSprite"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShuiHuSeason.ShuiHuExchangeItem",
+  "m_ClassName": "ShuiHuExchangeItem"
+}

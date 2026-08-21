@@ -1,0 +1,39 @@
+{
+  "m_Name": "glow_l_05",
+  "m_ForcedFallbackFormat": 4,
+  "m_DownscaleFallback": false,
+  "m_IsAlphaChannelOptional": false,
+  "m_Width": 128,
+  "m_Height": 128,
+  "m_CompleteImageSize": 16384,
+  "m_MipsStripped": 0,
+  "m_TextureFormat": 47,
+  "m_MipCount": 1,
+  "m_IsReadable": false,
+  "m_IsPreProcessed": false,
+  "m_IgnoreMasterTextureLimit": false,
+  "m_StreamingMipmaps": false,
+  "m_StreamingMipmapsPriority": 0,
+  "m_ImageCount": 1,
+  "m_TextureDimension": 2,
+  "m_TextureSettings": {
+    "m_FilterMode": 1,
+    "m_Aniso": 1,
+    "m_MipBias": 0.0,
+    "m_WrapU": 0,
+    "m_WrapV": 0,
+    "m_WrapW": 0
+  },
+  "m_LightmapFormat": 0,
+  "m_ColorSpace": 1,
+  "m_PlatformBlob": [],
+  "image data": {
+    "_binaryLength": 0,
+    "_binarySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "m_StreamData": {
+    "offset": 8540480,
+    "size": 16384,
+    "path": "archive:/CAB-d8fc5c36d61fce0d7279b7c70119e6e1/CAB-d8fc5c36d61fce0d7279b7c70119e6e1.resS"
+  }
+}

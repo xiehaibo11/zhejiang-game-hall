@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1639600742746824367
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6319205056657915470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7733192990192768212
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8746572247685188585
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7322238894801910833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6682532027194162048
+    }
+  ],
+  "m_BindComs_Name": [
+    "bg",
+    "txtPercent",
+    "tagGeted",
+    "tagSelect",
+    "effectBig"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BossChallenge.BossChallengePoolItem2",
+  "m_ClassName": "BossChallengePoolItem2"
+}

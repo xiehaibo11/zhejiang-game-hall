@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1930862049723358837
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 595275428931174923
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2501176073100139507
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7610838033166848390
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -310778150652774710
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7860389895360825254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5510185805562305902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7751024038790156759
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3528672309382177717
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1821399378709921004
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2604552377410111807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6400127367315149106
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -852668833272745837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2881441818114334577
+    }
+  ],
+  "m_BindComs_Name": [
+    "mGrid_A",
+    "mGrid_B",
+    "BtnClose",
+    "BtnLuxuryGiftBuy",
+    "luxuryGiftPrice",
+    "luxuryGiftOldPrice",
+    "BtnSuxuryGiftBuy",
+    "suxuryGiftPrice",
+    "suxuryGiftOldPrice",
+    "luxuryGiftTotalCoin",
+    "luxuryGiftTotalPrice",
+    "suxuryGiftTotalCoin",
+    "suxuryGiftTotalPrice"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.NewSignDaysGift.NewSignDaysGiftBuyPanel",
+  "m_ClassName": "NewSignDaysGiftBuyPanel"
+}

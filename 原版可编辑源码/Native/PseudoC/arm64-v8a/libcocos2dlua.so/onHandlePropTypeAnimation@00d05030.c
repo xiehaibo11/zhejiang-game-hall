@@ -1,0 +1,12 @@
+
+/* cocosbuilder::NodeLoader::onHandlePropTypeAnimation(cocos2d::Node*, cocos2d::Node*, char const*,
+   cocos2d::Animation*, cocosbuilder::CCBReader*) */
+
+void cocosbuilder::NodeLoader::onHandlePropTypeAnimation
+               (Node *param_1,Node *param_2,char *param_3,Animation *param_4,CCBReader *param_5)
+
+{
+  cocos2d::log("Unexpected property: \'%s\'!\n",param_4);
+  return;
+}
+

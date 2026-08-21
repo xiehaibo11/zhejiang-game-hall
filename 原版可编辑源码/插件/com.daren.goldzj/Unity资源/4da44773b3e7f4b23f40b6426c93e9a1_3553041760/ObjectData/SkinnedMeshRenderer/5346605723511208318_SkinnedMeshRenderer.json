@@ -1,0 +1,120 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4956439622693825771
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3235298577496325698
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": false,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 0,
+    "m_PathID": 3736896603749442442
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3323019788732678409
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7488811300546828485
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5670952362144631411
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 324719222882221170
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6327598573776954722
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -289642632681581001
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7704837607183240443
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3539687642815850997
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5861008255224277664
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": -3323019788732678409
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": -0.14958278834819794,
+      "y": 0.4758000373840332,
+      "z": 1.3193678855895996
+    },
+    "m_Extent": {
+      "x": 0.09362465143203735,
+      "y": 0.03221242129802704,
+      "z": 0.102852463722229
+    }
+  },
+  "m_DirtyAABB": false
+}

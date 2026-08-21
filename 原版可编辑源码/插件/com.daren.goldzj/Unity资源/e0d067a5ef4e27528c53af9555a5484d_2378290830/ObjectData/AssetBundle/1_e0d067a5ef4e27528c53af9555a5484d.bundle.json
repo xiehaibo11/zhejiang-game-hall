@@ -1,0 +1,97 @@
+{
+  "m_Name": "e0d067a5ef4e27528c53af9555a5484d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -1287127305265953440
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8868023599167499862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4412726237329038943
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4291347182140959431
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2261601429710737555
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1184236383111154103
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1835988957873867489
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2788187095619204129
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3422417862442507466
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4584787284424131693
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5129612490630292659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8223536750490010131
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8996505514531064363
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1255536714020043320
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 5459514662482443626
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonsoulprefab/cannonsoul_3005/bulletlazerprefab/cannon_lb_flame_03.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 15,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2788187095619204129
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e0d067a5ef4e27528c53af9555a5484d.bundle",
+  "m_Dependencies": [
+    "600179a946c2a63c260bc658c32e4f48.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "aec6d23d2cc9f12e1b3a935afe6b8c66.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

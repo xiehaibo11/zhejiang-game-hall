@@ -1,0 +1,89 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2270122931444453085
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -16145243756779306
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2761804981133955507
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7724039376326070181
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5806207722442181749
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5673824219872489656
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4141932396958160415
+    }
+  ],
+  "m_BindComs_Name": [
+    "subViewContain",
+    "btnClose",
+    "btnRule",
+    "btnRulePanel",
+    "RuleText",
+    "LabelCountDown"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 8003501227089837980
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7074923547102595923
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5646916427138128663
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7186164026902671673
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mMenuBtns"
+  ],
+  "hotfixClassFullName": "GameHotFix.ReturnActivity.ReturnActivityMainPanel",
+  "m_ClassName": "ReturnActivityMainPanel"
+}

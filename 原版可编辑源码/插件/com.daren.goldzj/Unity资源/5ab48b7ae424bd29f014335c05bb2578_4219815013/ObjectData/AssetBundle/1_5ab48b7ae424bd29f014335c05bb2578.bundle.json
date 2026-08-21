@@ -1,0 +1,79 @@
+{
+  "m_Name": "5ab48b7ae424bd29f014335c05bb2578.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9192743839119052252
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9178028010410812091
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1139442176661685641
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2079202883490180944
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2550136859654539414
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2569576154505635819
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3820003481427475036
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6007780540435068410
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6598569490045413199
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8392993353810358123
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8283816384396651729
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/prefab/bdsxs/uieffect_button_idle_1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 11,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6598569490045413199
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5ab48b7ae424bd29f014335c05bb2578.bundle",
+  "m_Dependencies": [
+    "3a28dba292ed3cd139fe8d5d9addabda.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

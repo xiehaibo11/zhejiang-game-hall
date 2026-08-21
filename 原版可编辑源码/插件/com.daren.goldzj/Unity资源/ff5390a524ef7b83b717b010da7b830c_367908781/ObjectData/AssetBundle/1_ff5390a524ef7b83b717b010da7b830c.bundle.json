@@ -1,0 +1,53 @@
+{
+  "m_Name": "ff5390a524ef7b83b717b010da7b830c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6959421344638909143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1157507800925379042
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6204312469870670481
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6552777452314681728
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/uiiconbutton/btnversionnewgift.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6959421344638909143
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ff5390a524ef7b83b717b010da7b830c.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

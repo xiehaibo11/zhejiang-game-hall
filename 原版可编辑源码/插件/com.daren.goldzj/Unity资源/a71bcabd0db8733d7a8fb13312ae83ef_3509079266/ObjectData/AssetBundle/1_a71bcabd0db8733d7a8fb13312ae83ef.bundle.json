@@ -1,0 +1,181 @@
+{
+  "m_Name": "a71bcabd0db8733d7a8fb13312ae83ef.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 3376476238215612823
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4402775068212986687
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8893631240792120218
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8796363380136926829
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8483061170871398433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7940548053828581051
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7263889037393556028
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6781005251441055373
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5476127910560678189
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4981999396632763277
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4483203209945170256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3350696619038203266
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3263959302856176231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3013416530300679164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2401890807845432891
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1950925542503425389
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -447532892414428299
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 863558952603088278
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1017346935882487578
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2663041969876291735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2882530869633521466
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2987980892483536660
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3676757046109595075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5084385701603064854
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5419251206515373402
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5755667584823354876
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6521765376124954514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6826920130823115175
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6989669170418209554
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7190894385541303501
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7225323765142616667
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4879432846188499215
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3248612668139020225
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/spinecannon/spinecannon_1204.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 36,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5419251206515373402
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a71bcabd0db8733d7a8fb13312ae83ef.bundle",
+  "m_Dependencies": [
+    "68c18fd9a8d8ac95eaae04069306741f.bundle",
+    "7f123da9b4e8e77abd170d79aa23e5c0.bundle",
+    "d2a74161284241a360a0b34d97366638.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

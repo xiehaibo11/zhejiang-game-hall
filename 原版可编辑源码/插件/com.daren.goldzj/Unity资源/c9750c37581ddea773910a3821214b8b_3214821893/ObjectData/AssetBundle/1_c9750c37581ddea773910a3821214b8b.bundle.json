@@ -1,0 +1,172 @@
+{
+  "m_Name": "c9750c37581ddea773910a3821214b8b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8786191104442684599
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2496385857785726537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -465146817367620073
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3326660907151230663
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7027306082447918894
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7391233955882020777
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3051072752705836355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4015949052424389436
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839499816895848119
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9051124296029549781
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/fire_001_lhtq.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7391233955882020777
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/mask_001_lhtq.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -465146817367620073
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/mask_002_lhtq.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9051124296029549781
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/mask_003_lhtq.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4015949052424389436
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/noise_001_lhtq.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8839499816895848119
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/noise_002_lhtq.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3326660907151230663
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/ramp_010_sj.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8786191104442684599
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/smoke_001_lhtq.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2496385857785726537
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/smoke_002_lhtq.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3051072752705836355
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/098_laohutiaoquan/texture/star_001_lhtq.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7027306082447918894
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c9750c37581ddea773910a3821214b8b.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

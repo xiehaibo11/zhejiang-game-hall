@@ -1,0 +1,79 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4689449878031110637
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4920367140992153728
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8968730855827810654
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2884331368251115675
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8508101356642571923
+    }
+  ],
+  "m_BindComs_Name": [
+    "third",
+    "fourth",
+    "fourthLabel",
+    "thirdLabel"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -6607736843750541582
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 830768978686749484
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6240159655356968253
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3058446600109249944
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "rewards"
+  ],
+  "hotfixClassFullName": "GameHotFix.StruggleOfThreeKingdoms.StruggleOfThreeKingdomsPreviewRankItem",
+  "m_ClassName": "StruggleOfThreeKingdomsPreviewRankItem"
+}

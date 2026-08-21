@@ -1,0 +1,65 @@
+{
+  "m_Name": "a98b104f19d5bd8fd6fa99f71e79ea71.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7147123896101146966
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3381198571510480905
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3894728040606974555
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7369813908077480903
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7911697554292593951
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8685120533144767452
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/common/rewardmove.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7147123896101146966
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a98b104f19d5bd8fd6fa99f71e79ea71.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,145 @@
+{
+  "m_Name": "9814b24523c93942356cc34b8ce1d84b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8979110708954103750
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7562903596756561299
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7189789745318939180
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7079094776426102634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3489409618348360115
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -307392590520973622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -89188695225534348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 454595703692079635
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2285456809882828859
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2717361679861900735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3087153555173654100
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3160400974002139437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4190804889534839508
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4241614380588446139
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4355432232487061467
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4480281300250216460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5061347259488249850
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6336048482268118604
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7654975880218925049
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1815766621309959125
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5324888391488856973
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7182258917551040455
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1075095701333623484
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/junefestival/btntabitem.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 27,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3087153555173654100
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9814b24523c93942356cc34b8ce1d84b.bundle",
+  "m_Dependencies": [
+    "056ea1263b09f07fb9eecdcb12aa97cb.bundle",
+    "0c56e7fbe613fe71c8a8dc24310b366a.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,174 @@
+{
+  "m_Name": "a531fb1581378870cf5d603e0f9b109a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5551383299701091459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1039655057989716785
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5291356894922910979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4370085969706854192
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8079546773000639653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5551383299701091459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5291356894922910979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1039655057989716785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4370085969706854192
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8945888197112738496
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1039655057989716785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5551383299701091459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5291356894922910979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1039655057989716785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8945888197112738496
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/fx/spine/wing/elong/wing_605.atlas.txt",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5291356894922910979
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/elong/wing_605.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1039655057989716785
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/elong/wing_605.skel.bytes",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4370085969706854192
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/elong/wing_605_atlas.asset",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8945888197112738496
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/elong/wing_605_material.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5551383299701091459
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/wing/elong/wing_605_skeletondata.asset",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8079546773000639653
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a531fb1581378870cf5d603e0f9b109a.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

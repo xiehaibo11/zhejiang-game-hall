@@ -1,0 +1,92 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1802501589304874958
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 11,
+      "m_PathID": 5702509083165850714
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": true,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 12,
+    "m_PathID": 8689064223957606292
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4308155036450565900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2498994711358898314
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": -2498994711358898314
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": -1.7669223546981812,
+      "y": -0.00022280216217041016,
+      "z": -1.0371208190917969e-05
+    },
+    "m_Extent": {
+      "x": 2.546922206878662,
+      "y": 0.6141394376754761,
+      "z": 0.6193187236785889
+    }
+  },
+  "m_DirtyAABB": false
+}

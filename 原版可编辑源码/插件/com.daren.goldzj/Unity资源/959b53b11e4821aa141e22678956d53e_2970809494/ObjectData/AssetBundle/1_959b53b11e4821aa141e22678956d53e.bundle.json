@@ -1,0 +1,76 @@
+{
+  "m_Name": "959b53b11e4821aa141e22678956d53e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8845438877697581469
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8611185612861126167
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6650482476114812745
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5121703528002932165
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1041957434006558754
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5796896125146042614
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7597006102840821808
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3410604967112087226
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -282790237077921049
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/playerineraction/prefer/jidan.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 10,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8611185612861126167
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "959b53b11e4821aa141e22678956d53e.bundle",
+  "m_Dependencies": [
+    "62a37c079589f23f969043ea54a42f1b.bundle",
+    "b4c439752ba5126dcdb1a7137cba06e3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

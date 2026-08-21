@@ -1,0 +1,298 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5403556809063290378
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 884522461359656298
+  },
+  "m_Name": "",
+  "mMat": {
+    "m_FileID": 0,
+    "m_PathID": 2131965760747858400
+  },
+  "mUVRect": {
+    "x": 0.0,
+    "y": -0.4375,
+    "width": 1.0087890625,
+    "height": 1.4375
+  },
+  "mFont": {
+    "mSize": 92,
+    "mBase": 10,
+    "mWidth": 512,
+    "mHeight": 512,
+    "mSpriteName": "fontclipjqjbhuode",
+    "mSaved": [
+      {
+        "index": 48,
+        "x": 0,
+        "y": 0,
+        "width": 55,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 55,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 49,
+        "x": 55,
+        "y": 0,
+        "width": 35,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 35,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 50,
+        "x": 90,
+        "y": 0,
+        "width": 55,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 55,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 51,
+        "x": 145,
+        "y": 0,
+        "width": 56,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 56,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 52,
+        "x": 201,
+        "y": 0,
+        "width": 57,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 57,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 53,
+        "x": 258,
+        "y": 0,
+        "width": 55,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 55,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 54,
+        "x": 313,
+        "y": 0,
+        "width": 54,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 54,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 55,
+        "x": 367,
+        "y": 0,
+        "width": 52,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 52,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 56,
+        "x": 419,
+        "y": 0,
+        "width": 54,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 54,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 57,
+        "x": 0,
+        "y": 92,
+        "width": 54,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 54,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 37,
+        "x": 54,
+        "y": 92,
+        "width": 82,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 82,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 20493,
+        "x": 136,
+        "y": 92,
+        "width": 80,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 80,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 46,
+        "x": 216,
+        "y": 92,
+        "width": 23,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 23,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 44,
+        "x": 239,
+        "y": 92,
+        "width": 23,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 23,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 43,
+        "x": 262,
+        "y": 92,
+        "width": 54,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 54,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 45,
+        "x": 316,
+        "y": 92,
+        "width": 33,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 33,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 22825,
+        "x": 349,
+        "y": 92,
+        "width": 90,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 90,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 19975,
+        "x": 0,
+        "y": 184,
+        "width": 78,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 78,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 120,
+        "x": 78,
+        "y": 184,
+        "width": 55,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 55,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 20159,
+        "x": 133,
+        "y": 184,
+        "width": 80,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 80,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 32,
+        "x": 213,
+        "y": 184,
+        "width": 90,
+        "height": 92,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 90,
+        "channel": 0,
+        "kerning": []
+      }
+    ]
+  },
+  "mAtlas": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mSymbols": [],
+  "mDynamicFont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mDynamicFontSize": 16,
+  "mDynamicFontStyle": 0
+}

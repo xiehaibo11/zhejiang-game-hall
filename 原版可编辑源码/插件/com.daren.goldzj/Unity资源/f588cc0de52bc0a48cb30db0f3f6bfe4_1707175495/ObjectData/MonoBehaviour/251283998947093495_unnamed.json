@@ -1,0 +1,132 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -9219000530238138639
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6257236150509735606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4299023876214417633
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8339586857364634732
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7284321316016004789
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8692076063560759306
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2876403220875332976
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1583899358332766514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6193590430315654280
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6562605329587610828
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5167936267899675057
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2401443731150146833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3700766674699698408
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5039238305315203423
+    }
+  ],
+  "m_BindComs_Name": [
+    "BtnClose",
+    "BtnPurchase",
+    "BtnSoldOut",
+    "BuffDetailsComponent",
+    "ImgGold",
+    "TxtBonusTip",
+    "TxtGoldRewardNum",
+    "TxtPrice",
+    "TxtPurchaseLimit",
+    "TxtSlogan",
+    "TxtSpecialRewarNum",
+    "m_SpecialItem",
+    "GameGuMuAddition"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -6770581586684344787
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5331825633027793430
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5421732002178251686
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 173879989065962895
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3434467780660074765
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5855964550177331519
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "BtnTabs"
+  ],
+  "hotfixClassFullName": "GameHotFix.ShuiHuSeason.ShuiHuAtlasGiftPanel",
+  "m_ClassName": "ShuiHuAtlasGiftPanel"
+}

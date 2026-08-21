@@ -1,0 +1,43 @@
+{
+  "m_Name": "60879251104e0e681aee017b1285794c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 8136950675454308517
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7650309080808667962
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/duobaoqibing/animators/duobaoqibingmainpanel_gold_add.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7650309080808667962
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "60879251104e0e681aee017b1285794c.bundle",
+  "m_Dependencies": [
+    "c8315a60574a4f55a5866e47fce2c3d7.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

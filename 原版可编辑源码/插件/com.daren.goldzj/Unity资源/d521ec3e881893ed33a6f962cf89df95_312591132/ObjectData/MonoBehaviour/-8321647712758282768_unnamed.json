@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6063475637977272584
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3971081488313214627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5885861369773712357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1987305375433562572
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -930565467578308824
+    }
+  ],
+  "m_BindComs_Name": [
+    "RedDot",
+    "SelectionGroup",
+    "ActiveObjectWhenSelected",
+    "ActiveObjectWhenDeselected"
+  ],
+  "m_BindInt": [
+    367
+  ],
+  "m_BindInt_Name": [
+    "BossType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0
+  ],
+  "m_BindBool_Name": [
+    "IsSelected"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShuiHuSeason.BossTab",
+  "m_ClassName": "BossTab"
+}

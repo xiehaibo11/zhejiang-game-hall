@@ -1,0 +1,120 @@
+{
+  "m_Name": "d9a0207de79d4e96bdb52556917cf2bb.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 5347875672518004707
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7792306758791144206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7600352348474207178
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7070341348379555550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6515061574838741014
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6411420922931347758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5295555746420313379
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1776544511262083996
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -786425951982635998
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -725680141706431870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 945895136230063031
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1876406741432399389
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4551777709896855962
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6476739339817734510
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6660763856044443170
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7678504387544912015
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4346392144181995951
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7534283389971855680
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/customwidget/newnumbermachine.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 21,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4551777709896855962
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d9a0207de79d4e96bdb52556917cf2bb.bundle",
+  "m_Dependencies": [
+    "2834aaf9cdb5fbaf7aa77b8b9f8d17da.bundle",
+    "5c502c268249dd813bc6456ea161b1e5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

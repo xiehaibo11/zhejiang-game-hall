@@ -1,0 +1,97 @@
+{
+  "m_Name": "6949531a6826feeca39f73d5803d5a07.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3496173653644651301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7892923412992161615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -714687653392304278
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1294252718084608170
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 166773002500547582
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/texture/glow_02_sbls.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -714687653392304278
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/texture/object_sbls.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3496173653644651301
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/texture/object_tongqian_01_sbls.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 166773002500547582
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/texture/object_zi_01_sbls.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7892923412992161615
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/shuiboliangshanpaotai/texture/object_zi_02_sbls.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1294252718084608170
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6949531a6826feeca39f73d5803d5a07.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

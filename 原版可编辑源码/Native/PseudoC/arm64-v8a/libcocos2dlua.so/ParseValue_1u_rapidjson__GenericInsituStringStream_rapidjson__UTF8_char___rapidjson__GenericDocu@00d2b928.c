@@ -1,0 +1,80 @@
+
+/* void rapidjson::GenericReader<rapidjson::UTF8<char>, rapidjson::UTF8<char>,
+   rapidjson::CrtAllocator>::ParseValue<1u,
+   rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >,
+   rapidjson::GenericDocument<rapidjson::UTF8<char>,
+   rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>, rapidjson::CrtAllocator>
+   >(rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >&,
+   rapidjson::GenericDocument<rapidjson::UTF8<char>,
+   rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>, rapidjson::CrtAllocator>&) */
+
+void __thiscall
+rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::
+ParseValue<1u,rapidjson::GenericInsituStringStream<rapidjson::UTF8<char>>,rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>>
+          (GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator> *this,
+          GenericInsituStringStream *param_1,GenericDocument *param_2)
+
+{
+  switch((int)**(char **)param_1) {
+  case 0x5b:
+    ParseArray<1u,rapidjson::GenericInsituStringStream<rapidjson::UTF8<char>>,rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>>
+              (this,param_1,param_2);
+    return;
+  case 0x5c:
+  case 0x5d:
+  case 0x5e:
+  case 0x5f:
+  case 0x60:
+  case 0x61:
+  case 0x62:
+  case 99:
+  case 100:
+  case 0x65:
+  case 0x67:
+  case 0x68:
+  case 0x69:
+  case 0x6a:
+  case 0x6b:
+  case 0x6c:
+  case 0x6d:
+  case 0x6f:
+  case 0x70:
+  case 0x71:
+  case 0x72:
+  case 0x73:
+  case 0x75:
+  case 0x76:
+  case 0x77:
+  case 0x78:
+  case 0x79:
+  case 0x7a:
+    goto switchD_00d2b950_caseD_5c;
+  case 0x66:
+    ParseFalse<1u,rapidjson::GenericInsituStringStream<rapidjson::UTF8<char>>,rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>>
+              (this,param_1,param_2);
+    return;
+  case 0x6e:
+    ParseNull<1u,rapidjson::GenericInsituStringStream<rapidjson::UTF8<char>>,rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>>
+              (this,param_1,param_2);
+    return;
+  case 0x74:
+    ParseTrue<1u,rapidjson::GenericInsituStringStream<rapidjson::UTF8<char>>,rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>>
+              (this,param_1,param_2);
+    return;
+  case 0x7b:
+    ParseObject<1u,rapidjson::GenericInsituStringStream<rapidjson::UTF8<char>>,rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>>
+              (this,param_1,param_2);
+    return;
+  default:
+    if (**(char **)param_1 == 0x22) {
+      ParseString<1u,rapidjson::GenericInsituStringStream<rapidjson::UTF8<char>>,rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>>
+                (this,param_1,param_2,false);
+      return;
+    }
+switchD_00d2b950_caseD_5c:
+    ParseNumber<1u,rapidjson::GenericInsituStringStream<rapidjson::UTF8<char>>,rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>>
+              (this,param_1,param_2);
+    return;
+  }
+}
+

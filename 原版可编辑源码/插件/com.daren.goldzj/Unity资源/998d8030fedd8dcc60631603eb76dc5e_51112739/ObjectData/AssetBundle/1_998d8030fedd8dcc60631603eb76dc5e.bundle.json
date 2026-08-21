@@ -1,0 +1,82 @@
+{
+  "m_Name": "998d8030fedd8dcc60631603eb76dc5e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1569470849879811470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 547713319809630176
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9146582121409346870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5091094390542465717
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/moneytree/effect/texture/mask_062_1.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 547713319809630176
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/moneytree/effect/texture/rrby_ui_yqs01.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1569470849879811470
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/moneytree/effect/texture/rrby_ui_yqs02.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9146582121409346870
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/moneytree/effect/texture/rrby_ui_yqs02_1.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5091094390542465717
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "998d8030fedd8dcc60631603eb76dc5e.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

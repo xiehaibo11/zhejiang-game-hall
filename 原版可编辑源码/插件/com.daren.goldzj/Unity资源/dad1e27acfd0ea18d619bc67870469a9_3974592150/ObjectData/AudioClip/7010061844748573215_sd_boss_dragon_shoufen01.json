@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_boss_dragon_shoufen01",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 2.5906121730804443,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-bbb698dfa8cc62fd0e3877f016553c4c/CAB-bbb698dfa8cc62fd0e3877f016553c4c.resource",
+    "m_Offset": 0,
+    "m_Size": 19168
+  },
+  "m_CompressionFormat": 1
+}

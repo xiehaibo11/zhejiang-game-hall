@@ -1,0 +1,140 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4479836977548997360
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 14,
+      "m_PathID": 258630876907100763
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": false,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 12,
+    "m_PathID": -909889036053320404
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5569100163187828299
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8580390269403245076
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3557734427253292304
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7230488921565313642
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2621526205365082374
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8505631428200431741
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1470037070014500194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4711897441154301504
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5547547461264543639
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1423215234191189161
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9009944195193383417
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1771591823572357532
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2869998330574845637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7261763365239541176
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": -3557734427253292304
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": -0.3606562912464142,
+      "y": 0.01880061626434326,
+      "z": 0.003447502851486206
+    },
+    "m_Extent": {
+      "x": 0.5006871223449707,
+      "y": 0.4469543695449829,
+      "z": 0.5853939056396484
+    }
+  },
+  "m_DirtyAABB": false
+}

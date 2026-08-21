@@ -1,0 +1,43 @@
+{
+  "m_Name": "7ed80ed3fb71e227874aaa07e1ac1af4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 626019995534852629
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9107035532401019286
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/piggybank/effect/animation/piggybankpanel_fullflag.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9107035532401019286
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7ed80ed3fb71e227874aaa07e1ac1af4.bundle",
+  "m_Dependencies": [
+    "7ce1c7cd30aea29b9233601ecc60b8af.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

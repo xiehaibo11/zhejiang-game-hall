@@ -1,0 +1,37 @@
+{
+  "m_Name": "6f8015e44fcdb7e0db6ee10e09c01d2f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8551866286682113387
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/sound/cannonsoul/fengbaojishen/sd_skin_show_bgm_2003.ogg",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8551866286682113387
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6f8015e44fcdb7e0db6ee10e09c01d2f.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

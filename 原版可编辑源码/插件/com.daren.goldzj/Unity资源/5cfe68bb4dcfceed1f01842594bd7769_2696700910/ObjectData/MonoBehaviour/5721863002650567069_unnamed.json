@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1500103114529439557
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2070331504769653439
+    }
+  ],
+  "m_BindComs_Name": [
+    "CommonObj"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 5864603638856058547
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6175092171512908863
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -619278512562323743
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2639633327227594002
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "StepItems"
+  ],
+  "hotfixClassFullName": "GameHotFix.MoneyTree.MoneyTreeNewbieGuidePanel",
+  "m_ClassName": "MoneyTreeNewbieGuidePanel"
+}

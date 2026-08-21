@@ -1,0 +1,53 @@
+{
+  "m_Name": "f8b03cafc131a2fbed07d884055f7024.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -9000804894364429863
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1921617404434518970
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/growpath/effect/material/rrby_ui_013_add06 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1921617404434518970
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f8b03cafc131a2fbed07d884055f7024.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "67554c13fe469d826c17bc1ca148a11e.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

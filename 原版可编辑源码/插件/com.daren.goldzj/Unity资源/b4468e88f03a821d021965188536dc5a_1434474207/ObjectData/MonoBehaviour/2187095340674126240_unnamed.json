@@ -1,0 +1,81 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3138166105845586356
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4722564740096478180
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 67310959775255419
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1742854925943056505
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7687491632313322997
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8109165913942412381
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3712877974321880209
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2986789282902015630
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6933186073966893875
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8431484189513195285
+    }
+  ],
+  "m_BindComs_Name": [
+    "progress",
+    "txtPercent",
+    "txtCoutDown",
+    "txtNum",
+    "txtDesc",
+    "btnGo",
+    "btnGet",
+    "btnClose",
+    "animator"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.DuoBaoQiBing.DuoBaoQiBingSurprisePanel",
+  "m_ClassName": "DuoBaoQiBingSurprisePanel"
+}

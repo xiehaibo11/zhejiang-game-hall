@@ -1,0 +1,121 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5346704990911537532
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2354025051252885361
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5238974158894454432
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6760143403565280409
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5832243273472977368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3946977542359019251
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5832243273472977368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5917329216129225814
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7423751335556123435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 977404457905116784
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7573927383815010928
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3002783479057699070
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -929929416387098979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2333916158617362005
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4242704668956393118
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4628970585415591288
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8796217898344273360
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7338237343333321430
+    }
+  ],
+  "m_BindComs_Name": [
+    "BonusItemRoot",
+    "BtnClose",
+    "BtnStart",
+    "BtnToggleNotParticipate",
+    "NotParticipateToggleSign",
+    "ObjNotParticipateTip",
+    "ObjShouFenResult",
+    "CurrentReward",
+    "MaxReward",
+    "TxtCountdown",
+    "ObjMisc",
+    "TurntableObj",
+    "ShouFenBg",
+    "Tips",
+    "CurrentRewardEffect",
+    "TrialEffect",
+    "ArrowEffect"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.LuckyTurntable.LuckyTurntableMainPanel",
+  "m_ClassName": "LuckyTurntableMainPanel"
+}

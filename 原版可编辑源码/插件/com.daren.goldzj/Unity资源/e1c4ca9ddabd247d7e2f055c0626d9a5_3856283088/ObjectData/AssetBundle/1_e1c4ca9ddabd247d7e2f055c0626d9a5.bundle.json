@@ -1,0 +1,43 @@
+{
+  "m_Name": "e1c4ca9ddabd247d7e2f055c0626d9a5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7839070096558917183
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6232237013541013227
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/festivalromance/effect/animation/festivalromancemainpanel_animator.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7839070096558917183
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e1c4ca9ddabd247d7e2f055c0626d9a5.bundle",
+  "m_Dependencies": [
+    "87954ea29b8328ec19e5be3dff48b52d.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

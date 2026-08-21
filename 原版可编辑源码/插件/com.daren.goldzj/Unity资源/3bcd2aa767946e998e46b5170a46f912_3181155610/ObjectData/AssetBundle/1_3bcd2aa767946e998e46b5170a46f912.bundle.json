@@ -1,0 +1,78 @@
+{
+  "m_Name": "3bcd2aa767946e998e46b5170a46f912.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8971207161405983376
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4992901587949197611
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -506008209084356316
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5136577496069191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4742342261222537390
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/duobaoqibing/effect/mash/cone_01_ajyh.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4742342261222537390
+        }
+      }
+    ],
+    [
+      "assets/bundleresources/panel/duobaoqibing/effect/mash/cone_01_ajyh.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5136577496069191
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3bcd2aa767946e998e46b5170a46f912.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

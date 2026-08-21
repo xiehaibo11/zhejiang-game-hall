@@ -1,0 +1,137 @@
+{
+  "m_Name": "54c40d7b809d8a7812cbde805c2b29b6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7743412650261262253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7251333192794406460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7012046639565590630
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6159093886818928695
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5133110300951077865
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4883937313809122515
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4568977367619745385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3777250079144917379
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2839757286664169011
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2808972295679289548
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2073624654379502612
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -771647992343767117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 74448335806290810
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4060564913409562096
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5553968533349939131
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5707109971433905873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7096896783176547581
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8847293394294794552
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9199599776886158238
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7523825179205235227
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8658139015562713672
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8702344072234038752
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3099972814974412283
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactsevendayjoy/panel/effects/prefab/btn_effect.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 25,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5133110300951077865
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "54c40d7b809d8a7812cbde805c2b29b6.bundle",
+  "m_Dependencies": [
+    "402ca244161e574a5ade9c44e5a9e62e.bundle",
+    "7a1d87233b20cbee458e8a60669e9ab1.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

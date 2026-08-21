@@ -1,0 +1,43 @@
+{
+  "m_Name": "d8b0d0fbb8f9504b44c7caf89abdda8f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -649876719714810713
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4409737828357462482
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/pass/preview/shuihupasspreview_2003_ac.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4409737828357462482
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d8b0d0fbb8f9504b44c7caf89abdda8f.bundle",
+  "m_Dependencies": [
+    "d08d558f7e563387c9d1774055ce1951.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

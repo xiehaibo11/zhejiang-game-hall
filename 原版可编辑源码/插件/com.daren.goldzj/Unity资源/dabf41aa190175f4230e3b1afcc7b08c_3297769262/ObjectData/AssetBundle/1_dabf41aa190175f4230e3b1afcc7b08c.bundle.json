@@ -1,0 +1,101 @@
+{
+  "m_Name": "dabf41aa190175f4230e3b1afcc7b08c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4393755836293696279
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7478896452870995303
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7478896452870995303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6429036295202098811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4288733843142718544
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1704436018898149812
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4393755836293696279
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7478896452870995303
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_seasoncannonsoulgroupcoming/seasoncannonsoulgroupcoming.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4393755836293696279
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_seasoncannonsoulgroupcoming/seasoncannonsoulgroupcoming.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7478896452870995303
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_seasoncannonsoulgroupcoming/seasoncannonsoulgroupcoming.prefab",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4288733843142718544
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "dabf41aa190175f4230e3b1afcc7b08c.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

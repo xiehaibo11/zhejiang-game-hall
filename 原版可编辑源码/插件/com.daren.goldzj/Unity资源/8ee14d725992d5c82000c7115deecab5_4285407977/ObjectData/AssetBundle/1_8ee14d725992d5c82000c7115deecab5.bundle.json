@@ -1,0 +1,67 @@
+{
+  "m_Name": "8ee14d725992d5c82000c7115deecab5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -417629289713476621
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 939464083794740078
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6045257711821434746
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/078_\u6797\u51b2\u53cc\u5c06\u4e70\u4e00\u9001\u4e00\u793c\u5305/texture_npot/mask_btn_01.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 939464083794740078
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/078_\u6797\u51b2\u53cc\u5c06\u4e70\u4e00\u9001\u4e00\u793c\u5305/texture_npot/mask_tu_01.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -417629289713476621
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/078_\u6797\u51b2\u53cc\u5c06\u4e70\u4e00\u9001\u4e00\u793c\u5305/texture_npot/mask_zi_01.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6045257711821434746
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8ee14d725992d5c82000c7115deecab5.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

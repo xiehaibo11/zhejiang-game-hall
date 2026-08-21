@@ -1,0 +1,80 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6955812505678892959
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2528819859186231250
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9069475663830460520
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1344269231028347109
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5263937531372931162
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2311430985367089416
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8693400740152675666
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7814364911708953196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -160619925715311483
+    }
+  ],
+  "m_BindComs_Name": [
+    "commonBoxs",
+    "commonBoxsIcon",
+    "commonBoxsNumberLabel",
+    "commonbuyPriceLabel",
+    "commonfreeTask",
+    "firstBoxs",
+    "OptionalBox",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [
+    0
+  ],
+  "m_BindInt_Name": [
+    "LockState"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShenMiBaoZangV2.ShenMiBaoZangV2ItemBox",
+  "m_ClassName": "ShenMiBaoZangV2ItemBox"
+}

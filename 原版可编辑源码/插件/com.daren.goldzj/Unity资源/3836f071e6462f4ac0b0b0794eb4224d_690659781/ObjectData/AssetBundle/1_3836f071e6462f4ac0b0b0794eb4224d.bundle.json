@@ -1,0 +1,101 @@
+{
+  "m_Name": "3836f071e6462f4ac0b0b0794eb4224d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8371549081912536357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1591772225080852885
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8371549081912536357
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8480172375651779306
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6536718691956874213
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1935178738443515946
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1591772225080852885
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8371549081912536357
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_deeplootbuffgift/deeplootbuffgift.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1591772225080852885
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_deeplootbuffgift/deeplootbuffgift.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8371549081912536357
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_deeplootbuffgift/deeplootbuffgift.prefab",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6536718691956874213
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3836f071e6462f4ac0b0b0794eb4224d.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

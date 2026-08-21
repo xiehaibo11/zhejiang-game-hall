@@ -1,0 +1,22 @@
+
+void FT_Stream_Free(long param_1,int param_2)
+
+{
+  long lVar1;
+  
+  if (param_1 != 0) {
+    lVar1 = *(long *)(param_1 + 0x38);
+    if (*(code **)(param_1 + 0x30) != (code *)0x0) {
+      (**(code **)(param_1 + 0x30))(param_1);
+    }
+    if (param_2 == 0) {
+                    /* catch() { ... } // from try @ 0105bde4 with catch @ 0105be88 */
+                    /* WARNING: Could not recover jumptable at 0x0105be8c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+      (**(code **)(lVar1 + 0x10))(lVar1,param_1);
+      return;
+    }
+  }
+  return;
+}
+

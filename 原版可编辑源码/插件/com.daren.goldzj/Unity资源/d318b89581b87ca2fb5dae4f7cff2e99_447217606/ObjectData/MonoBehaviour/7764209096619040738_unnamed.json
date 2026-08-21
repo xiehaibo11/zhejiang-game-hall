@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1402043986078286685
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5524061718884197895
+  },
+  "m_Name": "",
+  "m_LabelText": {
+    "m_FileID": 0,
+    "m_PathID": 5070992980527807966
+  },
+  "m_Formats": [
+    {
+      "Seconds": 0.0,
+      "Prefix": "",
+      "Format": "hh\\\u65f6mm\\\u5206",
+      "Suffix": "",
+      "Interval": 1.0
+    }
+  ]
+}

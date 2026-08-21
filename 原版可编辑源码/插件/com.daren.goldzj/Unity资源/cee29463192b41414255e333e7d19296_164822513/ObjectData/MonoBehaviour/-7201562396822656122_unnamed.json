@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 480195265972780300
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2407687440984714240
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -110676296028662676
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -487119988812556917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5913534140325541109
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8561077358750636287
+    }
+  ],
+  "m_BindComs_Name": [
+    "zhezhao",
+    "BtnClose",
+    "BtnChange",
+    "InputNewNick",
+    "InputNewPsd1",
+    "InputNewPsd2",
+    "Tips"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ChangeNick.ChangeNickPlaneV2",
+  "m_ClassName": "ChangeNickPlaneV2"
+}

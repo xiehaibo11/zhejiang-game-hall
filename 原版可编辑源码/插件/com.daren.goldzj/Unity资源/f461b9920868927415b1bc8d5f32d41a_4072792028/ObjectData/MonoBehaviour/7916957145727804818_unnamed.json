@@ -1,0 +1,195 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7667362892618766238
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -876525667572765039
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7536629838122229539
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2190089664158075606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4999105108864347542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3391910902337061908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6176896397396080431
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7889418132862955044
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1684905632451278636
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7671412443317234246
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6082530492160180216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2936048326005604569
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7962015763990733219
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1399495798225886326
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 140469468885880788
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2595732696796357703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1057718714060905003
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8301965606489492074
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7673618977833966757
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4900241896309795450
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8541886614663140400
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5876659904913819148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5493276301246491268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7843403964404559525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8961589818316056915
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5662174557255274194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1398142439305355955
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7492156970165577248
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -590149475886010212
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -558608991937163186
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5035467365861180568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8618473144652297340
+    }
+  ],
+  "m_BindComs_Name": [
+    "btnClose",
+    "Time",
+    "btnDetail",
+    "ArtifactPreview",
+    "HGrid",
+    "VGrid",
+    "TypeGrid",
+    "Item1",
+    "Item2",
+    "Item3",
+    "BtnExchange",
+    "ExchangeCost",
+    "BtnShenJiangGM",
+    "TodayGet",
+    "ExchangeMoney",
+    "CantExchange",
+    "CommonCannonPreview",
+    "Wing_Parent",
+    "TitleFrame_Parent",
+    "Frame_Parent",
+    "MianText",
+    "ExEffect",
+    "Wusong",
+    "tipPanel",
+    "ArtFactSelect",
+    "ArtFactLock",
+    "btnExchangeGift",
+    "ArtifactScrollView",
+    "TaiZi",
+    "DetailTips",
+    "DetailText"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [
+    "\u5c01\u795e\u7b80\u724d"
+  ],
+  "m_BindString_Name": [
+    "ExchangeItemName"
+  ],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShuiHuSeason.ShuiHuExchangePanel",
+  "m_ClassName": "ShuiHuExchangePanel"
+}

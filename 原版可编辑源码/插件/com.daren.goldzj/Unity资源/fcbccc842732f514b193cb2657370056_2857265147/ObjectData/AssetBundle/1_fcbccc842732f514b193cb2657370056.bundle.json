@@ -1,0 +1,82 @@
+{
+  "m_Name": "fcbccc842732f514b193cb2657370056.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6523557105782995797
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6846042202693805629
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2200773036725686482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -745109688453033871
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_\u8d5b\u5b63\u51b2\u523a/texture_npot/mask_btn_01.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6846042202693805629
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_\u8d5b\u5b63\u51b2\u523a/texture_npot/mask_kp_01.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2200773036725686482
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_\u8d5b\u5b63\u51b2\u523a/texture_npot/mask_kp_02.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -745109688453033871
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_\u8d5b\u5b63\u51b2\u523a/texture_npot/mask_title_01.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6523557105782995797
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "fcbccc842732f514b193cb2657370056.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

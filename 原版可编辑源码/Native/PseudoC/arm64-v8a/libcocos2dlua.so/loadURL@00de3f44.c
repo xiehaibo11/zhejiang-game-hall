@@ -1,0 +1,12 @@
+
+/* cocos2d::experimental::ui::WebView::loadURL(std::__ndk1::basic_string<char,
+   std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, bool) */
+
+void __thiscall
+cocos2d::experimental::ui::WebView::loadURL(WebView *this,basic_string *param_1,bool param_2)
+
+{
+  WebViewImpl::loadURL(*(WebViewImpl **)(this + 0x5b0),param_1,param_2);
+  return;
+}
+

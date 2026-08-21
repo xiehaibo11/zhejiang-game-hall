@@ -1,0 +1,67 @@
+{
+  "m_Name": "9a55aa77ee2699dea563cf4a1838e3b7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2569363954308252926
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8718332428069453440
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6203286306770986738
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -1194210032321128367
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 7028659054539867531
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -7700989419491323973
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/struggleofthreekingdoms/effect_39/materials/noise_443_01_mj 2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2569363954308252926
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9a55aa77ee2699dea563cf4a1838e3b7.bundle",
+  "m_Dependencies": [
+    "38b2e28d58d933698b24e508b1bfeb89.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "746cf48703d455f2d25a71b7715a0f25.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

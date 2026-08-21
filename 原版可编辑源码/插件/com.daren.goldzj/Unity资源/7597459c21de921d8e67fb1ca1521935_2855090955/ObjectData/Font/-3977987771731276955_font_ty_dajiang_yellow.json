@@ -1,0 +1,592 @@
+{
+  "m_Name": "font_ty_dajiang_yellow",
+  "m_LineSpacing": 0.10000000149011612,
+  "m_DefaultMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 4682180507145495038
+  },
+  "m_FontSize": 0.0,
+  "m_Texture": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_AsciiStartOffset": 0,
+  "m_Tracking": 1.0,
+  "m_CharacterSpacing": 0,
+  "m_CharacterPadding": 1,
+  "m_ConvertCase": 0,
+  "m_CharacterRects": [
+    {
+      "index": 21048,
+      "uv": {
+        "x": 0.0,
+        "y": 1.0,
+        "width": 0.0859375,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 88.0,
+        "height": 100.0
+      },
+      "advance": 88.0,
+      "flipped": false
+    },
+    {
+      "index": 21452,
+      "uv": {
+        "x": 0.087890625,
+        "y": 1.0,
+        "width": 0.087890625,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 90.0,
+        "height": 100.0
+      },
+      "advance": 90.0,
+      "flipped": false
+    },
+    {
+      "index": 86,
+      "uv": {
+        "x": 0.177734375,
+        "y": 1.0,
+        "width": 0.16796875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 172.0,
+        "height": 100.0
+      },
+      "advance": 172.0,
+      "flipped": false
+    },
+    {
+      "index": 19975,
+      "uv": {
+        "x": 0.34765625,
+        "y": 1.0,
+        "width": 0.0849609375,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 87.0,
+        "height": 100.0
+      },
+      "advance": 87.0,
+      "flipped": false
+    },
+    {
+      "index": 120,
+      "uv": {
+        "x": 0.4345703125,
+        "y": 1.0,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 47,
+      "uv": {
+        "x": 0.4970703125,
+        "y": 1.0,
+        "width": 0.0498046875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 51.0,
+        "height": 100.0
+      },
+      "advance": 51.0,
+      "flipped": false
+    },
+    {
+      "index": 20159,
+      "uv": {
+        "x": 0.548828125,
+        "y": 1.0,
+        "width": 0.087890625,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 90.0,
+        "height": 100.0
+      },
+      "advance": 90.0,
+      "flipped": false
+    },
+    {
+      "index": 20803,
+      "uv": {
+        "x": 0.638671875,
+        "y": 1.0,
+        "width": 0.087890625,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 90.0,
+        "height": 100.0
+      },
+      "advance": 90.0,
+      "flipped": false
+    },
+    {
+      "index": 20806,
+      "uv": {
+        "x": 0.728515625,
+        "y": 1.0,
+        "width": 0.0859375,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 88.0,
+        "height": 100.0
+      },
+      "advance": 88.0,
+      "flipped": false
+    },
+    {
+      "index": 25240,
+      "uv": {
+        "x": 0.81640625,
+        "y": 1.0,
+        "width": 0.087890625,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 90.0,
+        "height": 100.0
+      },
+      "advance": 90.0,
+      "flipped": false
+    },
+    {
+      "index": 37,
+      "uv": {
+        "x": 0.90625,
+        "y": 1.0,
+        "width": 0.0732421875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 75.0,
+        "height": 100.0
+      },
+      "advance": 75.0,
+      "flipped": false
+    },
+    {
+      "index": 44,
+      "uv": {
+        "x": 0.0,
+        "y": 0.80078125,
+        "width": 0.033203125,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 34.0,
+        "height": 100.0
+      },
+      "advance": 34.0,
+      "flipped": false
+    },
+    {
+      "index": 46,
+      "uv": {
+        "x": 0.03515625,
+        "y": 0.80078125,
+        "width": 0.029296875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 30.0,
+        "height": 100.0
+      },
+      "advance": 30.0,
+      "flipped": false
+    },
+    {
+      "index": 45,
+      "uv": {
+        "x": 0.06640625,
+        "y": 0.80078125,
+        "width": 0.0634765625,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 65.0,
+        "height": 100.0
+      },
+      "advance": 65.0,
+      "flipped": false
+    },
+    {
+      "index": 43,
+      "uv": {
+        "x": 0.1318359375,
+        "y": 0.80078125,
+        "width": 0.0634765625,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 65.0,
+        "height": 100.0
+      },
+      "advance": 65.0,
+      "flipped": false
+    },
+    {
+      "index": 48,
+      "uv": {
+        "x": 0.197265625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 49,
+      "uv": {
+        "x": 0.259765625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 50,
+      "uv": {
+        "x": 0.322265625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 51,
+      "uv": {
+        "x": 0.384765625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 52,
+      "uv": {
+        "x": 0.447265625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 53,
+      "uv": {
+        "x": 0.509765625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 54,
+      "uv": {
+        "x": 0.572265625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 55,
+      "uv": {
+        "x": 0.634765625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 56,
+      "uv": {
+        "x": 0.697265625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 57,
+      "uv": {
+        "x": 0.759765625,
+        "y": 0.80078125,
+        "width": 0.060546875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 62.0,
+        "height": 100.0
+      },
+      "advance": 62.0,
+      "flipped": false
+    },
+    {
+      "index": 20493,
+      "uv": {
+        "x": 0.822265625,
+        "y": 0.80078125,
+        "width": 0.0859375,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 88.0,
+        "height": 100.0
+      },
+      "advance": 88.0,
+      "flipped": false
+    },
+    {
+      "index": 24065,
+      "uv": {
+        "x": 0.91015625,
+        "y": 0.80078125,
+        "width": 0.076171875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 78.0,
+        "height": 100.0
+      },
+      "advance": 78.0,
+      "flipped": false
+    },
+    {
+      "index": 28857,
+      "uv": {
+        "x": 0.0,
+        "y": 0.6015625,
+        "width": 0.0849609375,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 87.0,
+        "height": 100.0
+      },
+      "advance": 87.0,
+      "flipped": false
+    },
+    {
+      "index": 32423,
+      "uv": {
+        "x": 0.0869140625,
+        "y": 0.6015625,
+        "width": 0.0869140625,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 89.0,
+        "height": 100.0
+      },
+      "advance": 89.0,
+      "flipped": false
+    },
+    {
+      "index": 20140,
+      "uv": {
+        "x": 0.17578125,
+        "y": 0.6015625,
+        "width": 0.087890625,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 90.0,
+        "height": 100.0
+      },
+      "advance": 90.0,
+      "flipped": false
+    },
+    {
+      "index": 37329,
+      "uv": {
+        "x": 0.265625,
+        "y": 0.6015625,
+        "width": 0.0830078125,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 85.0,
+        "height": 100.0
+      },
+      "advance": 85.0,
+      "flipped": false
+    },
+    {
+      "index": 21315,
+      "uv": {
+        "x": 0.3505859375,
+        "y": 0.6015625,
+        "width": 0.0859375,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 88.0,
+        "height": 100.0
+      },
+      "advance": 88.0,
+      "flipped": false
+    },
+    {
+      "index": 32,
+      "uv": {
+        "x": 0.4384765625,
+        "y": 0.6015625,
+        "width": 0.16796875,
+        "height": -0.1953125
+      },
+      "vert": {
+        "x": 0.0,
+        "y": -50.0,
+        "width": 172.0,
+        "height": 100.0
+      },
+      "advance": 172.0,
+      "flipped": false
+    }
+  ],
+  "m_KerningValues": [],
+  "m_PixelScale": 0.10000000149011612,
+  "m_FontData": [],
+  "m_Ascent": 0.0,
+  "m_Descent": 0.0,
+  "m_DefaultStyle": 0,
+  "m_FontNames": [],
+  "m_FallbackFonts": [],
+  "m_FontRenderingMode": 0,
+  "m_UseLegacyBoundsCalculation": false,
+  "m_ShouldRoundAdvanceValue": true
+}

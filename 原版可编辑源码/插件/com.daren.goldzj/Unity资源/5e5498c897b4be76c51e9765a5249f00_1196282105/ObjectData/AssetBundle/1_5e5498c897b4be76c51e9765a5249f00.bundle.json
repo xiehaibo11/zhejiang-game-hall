@@ -1,0 +1,131 @@
+{
+  "m_Name": "5e5498c897b4be76c51e9765a5249f00.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6096959148628633104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2655474204952278321
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1987005508729294000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8446131367023430120
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2655474204952278321
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6096959148628633104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2655474204952278321
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1836397440946536000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1600425694281497057
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8789301389056703860
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_newspringtreasurehunt/newspringtreasurehunt.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6096959148628633104
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_newspringtreasurehunt/newspringtreasurehunt.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2655474204952278321
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_newspringtreasurehunt/newspringtreasurehunt.prefab",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8789301389056703860
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_newspringtreasurehunt/zqxb_bg_bjt.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8446131367023430120
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_newspringtreasurehunt/zqxb_xsyd.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1987005508729294000
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5e5498c897b4be76c51e9765a5249f00.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

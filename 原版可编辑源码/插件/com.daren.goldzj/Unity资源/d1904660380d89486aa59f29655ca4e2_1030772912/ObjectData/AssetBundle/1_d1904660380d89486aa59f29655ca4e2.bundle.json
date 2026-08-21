@@ -1,0 +1,160 @@
+{
+  "m_Name": "d1904660380d89486aa59f29655ca4e2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8536092388043851848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7594311314178436080
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7429895254244835368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6780848056338840399
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5891695833297753584
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5141549086365041660
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4453299058916438572
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4378383274181556674
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4354750077854605850
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4275887434127373275
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4225875139345866771
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4045173345633518744
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3296847159468093550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2341744757936968539
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1988746611503813883
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1714349752884094926
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1356812713870022540
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -780794234850979039
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -625518052811362898
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1906098142906796699
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2729296306958059105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5436618284380245348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6211619070360282474
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8800779853993146895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8876366715025137981
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -9209698452477432526
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -775206517264533144
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/fengshenseason/fengshentabitem.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 31,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7594311314178436080
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d1904660380d89486aa59f29655ca4e2.bundle",
+  "m_Dependencies": [
+    "84ce3445116a290beffbe8bd37ac6509.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,62 @@
+
+mjpx_rengbao.png
+size: 284,77
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ddian
+  rotate: true
+  xy: 253, 9
+  size: 26, 25
+  orig: 26, 26
+  offset: 0, 1
+  index: -1
+diaojinbi
+  rotate: true
+  xy: 257, 37
+  size: 38, 25
+  orig: 38, 25
+  offset: 0, 0
+  index: -1
+diaoyuanbao
+  rotate: false
+  xy: 201, 39
+  size: 54, 36
+  orig: 54, 36
+  offset: 0, 0
+  index: -1
+hu
+  rotate: false
+  xy: 201, 2
+  size: 50, 35
+  orig: 50, 36
+  offset: 0, 0
+  index: -1
+lizi1
+  rotate: false
+  xy: 155, 18
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+wzbao
+  rotate: true
+  xy: 78, 7
+  size: 68, 75
+  orig: 70, 76
+  offset: 1, 1
+  index: -1
+wzreng
+  rotate: true
+  xy: 2, 2
+  size: 73, 74
+  orig: 74, 76
+  offset: 1, 1
+  index: -1
+xx
+  rotate: true
+  xy: 155, 37
+  size: 38, 44
+  orig: 42, 44
+  offset: 2, 0
+  index: -1

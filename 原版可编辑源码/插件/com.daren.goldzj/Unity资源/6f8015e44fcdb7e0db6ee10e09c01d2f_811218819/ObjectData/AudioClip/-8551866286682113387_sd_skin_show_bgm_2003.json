@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_skin_show_bgm_2003",
+  "m_LoadType": 2,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 99.7608871459961,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": true,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-0a509c3709cd7e656adc266ec4477418/CAB-0a509c3709cd7e656adc266ec4477418.resource",
+    "m_Offset": 0,
+    "m_Size": 1138528
+  },
+  "m_CompressionFormat": 1
+}

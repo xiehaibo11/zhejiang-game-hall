@@ -1,0 +1,42 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4236109711351149741
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7182437945825884057
+  },
+  "m_Name": "",
+  "MainColorMix": 0.800000011920929,
+  "AttackColorStandard": {
+    "r": 0.9450980424880981,
+    "g": 0.34117648005485535,
+    "b": 0.5490196347236633,
+    "a": 1.0
+  },
+  "AttackColorEmission": {
+    "r": 1.0,
+    "g": 0.2549999952316284,
+    "b": 0.2549999952316284,
+    "a": 1.0
+  },
+  "AttackColorBenTi": {
+    "r": 1.0,
+    "g": 0.2549999952316284,
+    "b": 0.2549999952316284,
+    "a": 1.0
+  },
+  "InToStateTime": 0.0,
+  "IningStateTime": 0.10000000149011612,
+  "OutStateTime": 0.20000000298023224,
+  "WaiteStateTime": 0.0,
+  "MatcapPower": 0.5,
+  "FishRenderers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -902850356806680968
+    }
+  ]
+}

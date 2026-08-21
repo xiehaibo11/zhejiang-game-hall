@@ -1,0 +1,174 @@
+{
+  "m_Name": "834b848d5cd56cf4c21b8afbc6f349b4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": 10202
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 5918958176664333770
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 3282678082988773126
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7777999724127358892
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6303618818940742068
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2356909221623212081
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8964666523955771918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8953621400495472420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8695388003952069344
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8305527247339658500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7718910322311972255
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7682606358884844571
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5337873627378521648
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5094200789562202158
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4643152819774374188
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4362443371041070941
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3265825232320308025
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2938756966409292949
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2214542869409152194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1600705689020152311
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -957499012885049111
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -731448981290367648
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 863995709736119686
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1070035823520138910
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1454684639033487795
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3023375361293624835
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3036949025504532667
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3645614056487423367
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5515557743157363723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5800875779592144070
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7286373399641782609
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8464864629667381478
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9003791334647797455
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/atlas/uieffect_296.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 34,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1070035823520138910
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "834b848d5cd56cf4c21b8afbc6f349b4.bundle",
+  "m_Dependencies": [
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "59c4e42f7b71b92577a7c509a27d141b.bundle",
+    "b15c34c7cc779fd2af7b157e5f09b3a2.bundle",
+    "dd795e57a842b5d1319f33f95da1ee79.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

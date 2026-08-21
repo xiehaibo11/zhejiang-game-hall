@@ -1,0 +1,48 @@
+{
+  "m_Name": "bc7638edbf6d0e8d7be337b4289545b0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1679037117697936461
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3347142070553244965
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cannoncenter/effect/material/ring_splb_02_ab1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3347142070553244965
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "bc7638edbf6d0e8d7be337b4289545b0.bundle",
+  "m_Dependencies": [
+    "0060103e1f8282af42c42cc2c312112e.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

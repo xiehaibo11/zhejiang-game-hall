@@ -1,0 +1,48 @@
+{
+  "m_Name": "dd0f2d1db20c828e4a215de01c732832.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -6513242719587952235
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 39715580577357462
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3123776943188851342
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleediting/art/effect/texture/materials/t_wenli04_w/t_wenli04_w_1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3123776943188851342
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "dd0f2d1db20c828e4a215de01c732832.bundle",
+  "m_Dependencies": [
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

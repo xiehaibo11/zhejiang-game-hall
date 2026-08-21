@@ -1,0 +1,196 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7977431160008316699
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8699975802726983998
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1508944812829748698
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 67836957984723900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8254386638074580367
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -57849732345196045
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3362694460911401570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4030976013915141767
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3081467005052712513
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8537309294662511236
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8960301132793648639
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8842459135218651194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8283421223276425677
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9035147329332682235
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3646826352185807689
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7250654763945583274
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8334630587905971836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8081517903477565081
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5532802741099154146
+    }
+  ],
+  "m_BindComs_Name": [
+    "btnClaimAll",
+    "txtRedPointNum",
+    "btnClose",
+    "btnRenew",
+    "btnSubscribe",
+    "btnToggleAutoCollect",
+    "btnStopAutoCollect",
+    "collectedCardsGrid",
+    "objRootExpired",
+    "objRootSubscribed",
+    "qulityThresholdSlider",
+    "tabAutoCollectSetting",
+    "tabCollectedCards",
+    "txtCollectResultTitle",
+    "txtSubscriptionPeriod",
+    "txtRenewPrice",
+    "txtSubscribeExpireInfo",
+    "txtSubscribePrice"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -5984298508305209625
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6699663917169302917
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -7251427643514427812
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7761567268639547373
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4371093233388058517
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3786444762515907874
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1929089230367997506
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -652473747002517360
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 794904585467409283
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2369220284005241898
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6667571337950887757
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2005738891693015839
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "objsAutoCollectSetting",
+    "objsCollectedCards",
+    "qualitySnapPointSprites",
+    "styledQualityThresholdTxts"
+  ],
+  "hotfixClassFullName": "GameHotFix.SupremeTreasury.SupremeTreasuryAutoCollectPanel",
+  "m_ClassName": "SupremeTreasuryAutoCollectPanel"
+}

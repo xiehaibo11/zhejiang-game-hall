@@ -1,0 +1,141 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1778068809657862578
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4605503296528622875
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5532588479382098409
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2554038078712567441
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7431951958347142628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3107981205453220319
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2684130965467351862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4612006428334545643
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2837905125205355428
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8395060976324293048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4465320076073554449
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6790681920926977492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8978530934182215335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3757504374866936341
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4417250528119255655
+    }
+  ],
+  "m_BindComs_Name": [
+    "mBtnLeft",
+    "mBtnRight",
+    "mBtnPreview",
+    "mBtnGoCharge",
+    "mBtnGet",
+    "mBtnNoGet",
+    "mDayChargeTips",
+    "mArtifactName",
+    "mArtifactBg",
+    "mAccumulatedChargeInfo",
+    "mTodayChargeInfo",
+    "mBigReward",
+    "mShowNode",
+    "mHideNode"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 2579542019166527421
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5214551451542276743
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8715533132930530650
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8301159604428010576
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6312284974054705549
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2807927492798161761
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8601788210440583838
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mAccumulatedChargeItemList"
+  ],
+  "hotfixClassFullName": "GameHotFix.GameActivity.AccumulatedChargeArtifactView",
+  "m_ClassName": "AccumulatedChargeArtifactView"
+}

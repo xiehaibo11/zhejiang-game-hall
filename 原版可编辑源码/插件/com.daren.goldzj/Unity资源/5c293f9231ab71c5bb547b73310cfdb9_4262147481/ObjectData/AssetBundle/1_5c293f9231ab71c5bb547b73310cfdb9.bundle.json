@@ -1,0 +1,76 @@
+{
+  "m_Name": "5c293f9231ab71c5bb547b73310cfdb9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1287127305265953440
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -5086673117463791007
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8769428414859669461
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1950131603885739622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1371033070488467678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 523333006551450105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2961543254103918274
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3460802400413396323
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5024047270854593991
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5655542495121115102
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonsoulprefab/cannonsoul_3006/bulletlazerprefab/cannon_zw_flame_01.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 10,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8769428414859669461
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5c293f9231ab71c5bb547b73310cfdb9.bundle",
+  "m_Dependencies": [
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "bfdab2f6ffc33e8adc20705515d99b5f.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

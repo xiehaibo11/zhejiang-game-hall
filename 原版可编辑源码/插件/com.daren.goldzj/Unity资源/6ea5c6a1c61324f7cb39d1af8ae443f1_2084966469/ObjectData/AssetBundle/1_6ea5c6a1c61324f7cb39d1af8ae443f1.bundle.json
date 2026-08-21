@@ -1,0 +1,125 @@
+{
+  "m_Name": "6ea5c6a1c61324f7cb39d1af8ae443f1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -9219379325418134740
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6673520319850947940
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7296479318064699542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5766085128046903913
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4780504806068513650
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7296479318064699542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7013577844921173020
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5177762935344061368
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7296479318064699542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5177762935344061368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4927813496928125426
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/shizhiyong_ceshi/binglong/quanping_baodian3.mat",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5766085128046903913
+        }
+      }
+    ],
+    [
+      "assets/shizhiyong_ceshi/binglong/quanping_xian.mat",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7013577844921173020
+        }
+      }
+    ],
+    [
+      "assets/shizhiyong_ceshi/binglong/quanping_xian.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5177762935344061368
+        }
+      }
+    ],
+    [
+      "assets/shizhiyong_ceshi/binglong/quanping_xian2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6673520319850947940
+        }
+      }
+    ],
+    [
+      "assets/shizhiyong_ceshi/binglong/yinbo.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4927813496928125426
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6ea5c6a1c61324f7cb39d1af8ae443f1.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "e075c99ce3398d43b394ee79736ae281.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,53 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1982188883118184980
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -861098396707276790
+  },
+  "m_Name": "",
+  "tweenTarget": {
+    "m_FileID": 0,
+    "m_PathID": 1982188883118184980
+  },
+  "hover": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "pressed": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "disabledColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "duration": 0.20000000298023224,
+  "dragHighlight": 0,
+  "hoverSprite": "",
+  "pressedSprite": "",
+  "disabledSprite": "",
+  "hoverSprite2D": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "pressedSprite2D": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "disabledSprite2D": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "pixelSnap": 0,
+  "onClick": []
+}

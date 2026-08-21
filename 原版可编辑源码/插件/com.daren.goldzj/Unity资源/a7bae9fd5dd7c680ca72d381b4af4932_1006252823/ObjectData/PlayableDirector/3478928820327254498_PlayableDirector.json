@@ -1,0 +1,48 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7699059876695373161
+  },
+  "m_Enabled": 1,
+  "m_PlayableAsset": {
+    "m_FileID": 7,
+    "m_PathID": -4551390520758680903
+  },
+  "m_InitialState": 1,
+  "m_WrapMode": 1,
+  "m_DirectorUpdateMode": 1,
+  "m_InitialTime": 0.0,
+  "m_SceneBindings": [
+    {
+      "key": {
+        "m_FileID": 8,
+        "m_PathID": 8431947121523852560
+      },
+      "value": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "key": {
+        "m_FileID": 7,
+        "m_PathID": -1498025984286727090
+      },
+      "value": {
+        "m_FileID": 0,
+        "m_PathID": -7381861097608911626
+      }
+    }
+  ],
+  "m_ExposedReferences": {
+    "m_References": [
+      [
+        "-549960483",
+        {
+          "m_FileID": 0,
+          "m_PathID": 1536118403542352771
+        }
+      ]
+    ]
+  }
+}

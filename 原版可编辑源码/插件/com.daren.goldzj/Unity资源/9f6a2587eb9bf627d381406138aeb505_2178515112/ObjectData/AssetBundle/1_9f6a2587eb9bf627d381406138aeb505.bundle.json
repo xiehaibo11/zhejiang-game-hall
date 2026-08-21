@@ -1,0 +1,203 @@
+{
+  "m_Name": "9f6a2587eb9bf627d381406138aeb505.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -32334636312002778
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2536735564327876064
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -782937639549044892
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7023383416360614411
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -9209698452477432526
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -3652550868577420133
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -775206517264533144
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9085075667726220894
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8446723329230153984
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8078379338766737376
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6944653388668078010
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4788269294587222563
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4709029787821787106
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4210349911257593016
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3344654364497802582
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3299900005214584285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2530160852833041474
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2409390209816217325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1989310723333768994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1270401647477968989
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -782998321360506633
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 259390558883373176
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1017154613744177036
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1074762369012536411
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1350057093155582223
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1888557095354070237
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1994290291210573035
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2406869871893088719
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2583489452765180199
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3586922483542390457
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3723596226000570169
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3824241372832136877
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3975674023515671329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4156997814725925527
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7233144567828300879
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -3585116881158302883
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/fengshenseason/fengshenseasonpoppanel.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 41,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3344654364497802582
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9f6a2587eb9bf627d381406138aeb505.bundle",
+  "m_Dependencies": [
+    "20d648468bc485e34907875e79896cad.bundle",
+    "33ecdc492ee7c00074bef7ec67c1336e.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "636efbca03c7f4748ae8fd056536809f.bundle",
+    "84ce3445116a290beffbe8bd37ac6509.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

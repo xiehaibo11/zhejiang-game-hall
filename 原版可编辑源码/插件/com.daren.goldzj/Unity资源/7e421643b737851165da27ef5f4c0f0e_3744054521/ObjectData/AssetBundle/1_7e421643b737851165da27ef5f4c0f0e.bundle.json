@@ -1,0 +1,265 @@
+{
+  "m_Name": "7e421643b737851165da27ef5f4c0f0e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 6199424627165091009
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8720957339495978871
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7378564626223013521
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -124062025284086605
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5223035879149634012
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 1637480443494194763
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -39530479476977334
+    },
+    {
+      "m_FileID": 8,
+      "m_PathID": -6529849235188561073
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2728553670542307633
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 797619129222038900
+    },
+    {
+      "m_FileID": 9,
+      "m_PathID": 6044037536036161144
+    },
+    {
+      "m_FileID": 10,
+      "m_PathID": -7398211996926769448
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -5017486298982845459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6831315241966361252
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -7945525774480373279
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": 3534986570106885786
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2165507017042592917
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -6563027185734676482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2915240117479421589
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 334593068759909566
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 5105863342788526850
+    },
+    {
+      "m_FileID": 11,
+      "m_PathID": 5718328030546465339
+    },
+    {
+      "m_FileID": 12,
+      "m_PathID": -843929640889158308
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 2512787184318100909
+    },
+    {
+      "m_FileID": 13,
+      "m_PathID": 8813612721549851507
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8990867078962729325
+    },
+    {
+      "m_FileID": 14,
+      "m_PathID": -8753001615511094129
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/134_yangjian/material/m_bg_001.mat",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5223035879149634012
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/134_yangjian/material/m_glow_add_1 1.mat",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2728553670542307633
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/134_yangjian/material/m_impact_002 3.mat",
+      {
+        "preloadIndex": 23,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2915240117479421589
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/134_yangjian/material/m_keji_002.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -39530479476977334
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/134_yangjian/material/m_keji_003.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7378564626223013521
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/134_yangjian/material/m_line_001 1.mat",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6831315241966361252
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/134_yangjian/material/m_mask_062 5.mat",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2165507017042592917
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/134_yangjian/material/m_trail_010.mat",
+      {
+        "preloadIndex": 28,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8990867078962729325
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7e421643b737851165da27ef5f4c0f0e.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "38b2e28d58d933698b24e508b1bfeb89.bundle",
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "5b8c093b669c99275eb04d047358143d.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "775f7f058f1c08a4df385df69663f653.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle",
+    "da1a669413460b3aeb1baa21213bb2a9.bundle",
+    "dbcfd151bce2430e1b6dbe85b1fed02a.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

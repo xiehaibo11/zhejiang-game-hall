@@ -1,0 +1,189 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8754473794738212514
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7482160580250130485
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7012902747559807371
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2837673502740310620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6870655468478953693
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -206134265760444454
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9175665855518187275
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5022364295456448797
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2680972327464610097
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7074009721088751601
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3293150199652339621
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6068600691198235799
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3844756863924895509
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1155690989562742006
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8173706314399107679
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3305623823457725124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5835012492743822148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5639289089198397459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7594451238610721369
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4331966857861171420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -39043779671479363
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7736811932623299881
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3976621841178818308
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5221883597067423332
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4437936386517177549
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1390937382736385011
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5109316381662339376
+    }
+  ],
+  "m_BindComs_Name": [
+    "mBuffGrid",
+    "mBuffItemType",
+    "mBuffItemDesc",
+    "CurLevelLabel",
+    "LevelPreViewLabel",
+    "Name",
+    "SkipAnimationBtn",
+    "mChangeStatus",
+    "Selected",
+    "SkipPlayingAnimationBtn",
+    "CannonSoulCloneSlot",
+    "CannonSoulSlotGrid",
+    "ScrollView",
+    "m_PreviewScene",
+    "CannonUI",
+    "LevelUpEff",
+    "FullScreenMask",
+    "btnPreview",
+    "btnGoGet",
+    "mBtnGoGetLabel",
+    "mChipUpgradeComponent",
+    "mSelfSkillName",
+    "mSelfSkillDes",
+    "ShiYongLabel",
+    "mBtnCannonSoulPurchase",
+    "mBtnGrid"
+  ],
+  "m_BindInt": [
+    2
+  ],
+  "m_BindInt_Name": [
+    "mCannonSoulType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1283125340549961203
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6104517002205720643
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8439292228388984795
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "EquipBtnArr"
+  ],
+  "hotfixClassFullName": "GameHotFix.CannonCenter.CannonCenterCannonSoulTab",
+  "m_ClassName": "CannonCenterCannonSoulTab"
+}

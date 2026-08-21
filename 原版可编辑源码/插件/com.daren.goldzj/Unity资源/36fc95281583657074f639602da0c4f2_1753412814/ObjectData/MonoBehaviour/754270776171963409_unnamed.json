@@ -1,0 +1,85 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5138062422696864015
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -277190597121967197
+  },
+  "m_Name": "",
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": -6835678716093351556
+  },
+  "mSprites": [
+    {
+      "name": "ShenMiBaoZhang01",
+      "x": 0,
+      "y": 0,
+      "width": 118,
+      "height": 124,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 8,
+      "paddingRight": 10,
+      "paddingTop": 5,
+      "paddingBottom": 7
+    },
+    {
+      "name": "ShenMiBaoZhang02",
+      "x": 0,
+      "y": 125,
+      "width": 70,
+      "height": 67,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "ShenMiBaoZhang03",
+      "x": 119,
+      "y": 0,
+      "width": 121,
+      "height": 100,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "name": "ShenMiBaoZhang04",
+      "x": 0,
+      "y": 193,
+      "width": 58,
+      "height": 56,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  ],
+  "mPixelSize": 1.0,
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mCoordinates": 0,
+  "sprites": []
+}

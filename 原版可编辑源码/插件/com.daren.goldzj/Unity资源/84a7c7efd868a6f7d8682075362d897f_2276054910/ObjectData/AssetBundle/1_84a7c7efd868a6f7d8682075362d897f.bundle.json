@@ -1,0 +1,160 @@
+{
+  "m_Name": "84a7c7efd868a6f7d8682075362d897f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 5,
+      "m_PathID": -852814855214157154
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8600239208183156693
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7799173086373032744
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7597045343801170035
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7045738595108965876
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4912187406721282106
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3866105071069836255
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2690942504528405487
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2094223903828986194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -504740307345832624
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -212335083164084219
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 413427862258645433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1487683096180629347
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3595783737237721494
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3984187811501618086
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4587943083625856711
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5332059099067639013
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5920227827713281171
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6017881740538621418
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6075161954587740561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6469362655344812377
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7296968459152054874
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8631923270958920510
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8878162861025635378
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 3243050869791830525
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 3097841575995397734
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7656418363703851711
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -8051061303117959786
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6677349241685422022
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuseason/pass/effect/prefab/effect_raoguang_huang.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 30,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -504740307345832624
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "84a7c7efd868a6f7d8682075362d897f.bundle",
+  "m_Dependencies": [
+    "305522586703e514744a54008a37a05f.bundle",
+    "577d99afa6f88bc9f09d133427089f88.bundle",
+    "904bdecef62aaf8fb876410d8c67e731.bundle",
+    "9247b0b2e3f247029cc5fa313894724c.bundle",
+    "f52f75b5b790eb3cb104dc7f403f4a65.bundle",
+    "fe9de61bdf45d5c6f2977d2a83cf0b57.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

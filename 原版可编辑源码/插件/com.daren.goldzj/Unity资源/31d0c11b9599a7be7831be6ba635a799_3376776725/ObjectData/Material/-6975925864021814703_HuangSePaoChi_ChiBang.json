@@ -1,0 +1,489 @@
+{
+  "m_Name": "HuangSePaoChi_ChiBang",
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 6593142039864836435
+  },
+  "m_ValidKeywords": [
+    "_SPECULAR_SETUP"
+  ],
+  "m_InvalidKeywords": [],
+  "m_LightmapFlags": 0,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": false,
+  "m_CustomRenderQueue": 2000,
+  "stringTagMap": [
+    [
+      "RenderType",
+      "Opaque"
+    ]
+  ],
+  "disabledShaderPasses": [],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_BASE_COLOR_MAP",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 5288657779083097004
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_EmissionTexture",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_FrozenTexture",
+        {
+          "m_Texture": {
+            "m_FileID": 2,
+            "m_PathID": 3945097087078490453
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_MaskMap",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 1286475516481968284
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_NORMAL_MAP",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": -6223418595331418570
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_texcoord",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Ints": [],
+    "m_Floats": [
+      [
+        "_ALPHA_SCALE",
+        1.0
+      ],
+      [
+        "_AORange",
+        0.0
+      ],
+      [
+        "_AO_Depth",
+        0.4000000059604645
+      ],
+      [
+        "_AO_Normal_Mix",
+        0.0
+      ],
+      [
+        "_AOadd",
+        0.0
+      ],
+      [
+        "_AlphaTestOn",
+        0.0
+      ],
+      [
+        "_BaseContrast",
+        1.2000000476837158
+      ],
+      [
+        "_BaseHue",
+        0.0
+      ],
+      [
+        "_BaseSaturation",
+        1.0
+      ],
+      [
+        "_Blend",
+        0.0
+      ],
+      [
+        "_BumpScale",
+        1.0
+      ],
+      [
+        "_ClipThreshold",
+        0.009999999776482582
+      ],
+      [
+        "_Cull",
+        2.0
+      ],
+      [
+        "_CustomSpecularBase",
+        1.0
+      ],
+      [
+        "_CustomSpecularRate",
+        1.0
+      ],
+      [
+        "_Cutoff",
+        0.5
+      ],
+      [
+        "_DetailNormalMapScale",
+        1.0
+      ],
+      [
+        "_DstBlend",
+        0.0
+      ],
+      [
+        "_Edge_Density",
+        1.0
+      ],
+      [
+        "_Edge_Normal_Mix",
+        0.0
+      ],
+      [
+        "_Edge_Range",
+        7.0
+      ],
+      [
+        "_Emission_power",
+        1.0
+      ],
+      [
+        "_FrozenOverallIntensity",
+        1.0
+      ],
+      [
+        "_FrozenTexIntensity",
+        0.25
+      ],
+      [
+        "_GlossMapScale",
+        1.0
+      ],
+      [
+        "_Glossiness",
+        0.5
+      ],
+      [
+        "_GlossyReflections",
+        1.0
+      ],
+      [
+        "_HitSlider",
+        0.0
+      ],
+      [
+        "_IceFresnelBias",
+        0.0
+      ],
+      [
+        "_IceFresnelIntensity",
+        1.0
+      ],
+      [
+        "_IceFresnelPower",
+        0.5
+      ],
+      [
+        "_IceSpecular",
+        0.05000000074505806
+      ],
+      [
+        "_IsViewDir",
+        0.0
+      ],
+      [
+        "_KEY_CUSTOM_AO",
+        0.0
+      ],
+      [
+        "_KEY_CUSTOM_DEFAULT",
+        0.0
+      ],
+      [
+        "_KEY_CUSTOM_OUTLINE",
+        0.0
+      ],
+      [
+        "_KEY_CUSTOM_SPECULAR",
+        0.0
+      ],
+      [
+        "_KEY_EMISSION_TEXTURE",
+        0.0
+      ],
+      [
+        "_KEY_TEX_MODIFY",
+        0.0
+      ],
+      [
+        "_Key_Dither_Fade",
+        0.0
+      ],
+      [
+        "_Key_Frozen",
+        0.0
+      ],
+      [
+        "_Key_Hit",
+        0.0
+      ],
+      [
+        "_METALNESS",
+        1.5
+      ],
+      [
+        "_MaskIntensity",
+        0.44999998807907104
+      ],
+      [
+        "_MaskPower",
+        0.10000000149011612
+      ],
+      [
+        "_MetalPower",
+        1.0
+      ],
+      [
+        "_Metallic",
+        1.5
+      ],
+      [
+        "_Mode",
+        0.0
+      ],
+      [
+        "_NormalScale",
+        1.0
+      ],
+      [
+        "_OcclusionStrength",
+        1.0
+      ],
+      [
+        "_Parallax",
+        0.019999999552965164
+      ],
+      [
+        "_SMOOTHNESS",
+        1.0
+      ],
+      [
+        "_SideLightScale",
+        0.0
+      ],
+      [
+        "_Smooth",
+        1.0
+      ],
+      [
+        "_SmoothPower",
+        1.0
+      ],
+      [
+        "_SmoothnessTextureChannel",
+        0.0
+      ],
+      [
+        "_SpecularHighlights",
+        1.0
+      ],
+      [
+        "_SpecularIOR",
+        1.0
+      ],
+      [
+        "_SpecularSetup",
+        1.0
+      ],
+      [
+        "_SrcBlend",
+        1.0
+      ],
+      [
+        "_TransparentPBR",
+        0.0
+      ],
+      [
+        "_UVSec",
+        0.0
+      ],
+      [
+        "_ZWrite",
+        1.0
+      ],
+      [
+        "__dirty",
+        0.0
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_AOEmissiveColor",
+        {
+          "r": 0.5377358198165894,
+          "g": 0.5377358198165894,
+          "b": 0.5377358198165894,
+          "a": 0.0
+        }
+      ],
+      [
+        "_BASE_COLOR",
+        {
+          "r": 1.3195079565048218,
+          "g": 1.3195079565048218,
+          "b": 1.3195079565048218,
+          "a": 0.0
+        }
+      ],
+      [
+        "_BaseColor",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_Color",
+        {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_EMISSION_COLOR",
+        {
+          "r": 1.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_Edge_Color",
+        {
+          "r": 0.0,
+          "g": 0.2039216011762619,
+          "b": 1.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_EmissionColor",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_Emission_Color",
+        {
+          "r": 0.7641509771347046,
+          "g": 0.40730687975883484,
+          "b": 0.40730687975883484,
+          "a": 1.0
+        }
+      ],
+      [
+        "_HitColor",
+        {
+          "r": 1.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_MaxColor",
+        {
+          "r": 0.7075471878051758,
+          "g": 0.7075471878051758,
+          "b": 0.7075471878051758,
+          "a": 1.0
+        }
+      ],
+      [
+        "_Sidelight_color",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ]
+    ]
+  },
+  "m_BuildTextureStacks": []
+}

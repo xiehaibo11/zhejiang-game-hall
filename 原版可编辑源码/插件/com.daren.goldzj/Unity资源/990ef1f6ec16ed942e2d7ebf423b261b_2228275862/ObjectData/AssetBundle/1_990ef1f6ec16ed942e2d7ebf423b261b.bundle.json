@@ -1,0 +1,200 @@
+{
+  "m_Name": "990ef1f6ec16ed942e2d7ebf423b261b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": -32334636312002778
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 2536735564327876064
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 8639836563116459190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7533098054104853985
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6515821236594722405
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4273651920457911573
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3626596190292244638
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3588024006776735817
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1858622183599541248
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1741623737725258858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1096567413953445335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -955054640678212863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -373090691353859837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 680725816738576518
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1851125511327875557
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1914471710917092414
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2049186825456953610
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2124805776083975027
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2507407778335086374
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2822341211898438370
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3197194290061316917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3335580898974973426
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3905691870550989370
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4155388522016560821
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4313732082048899030
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4623309373082785755
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4770520722198047506
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6612604094006666554
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7507233650286062184
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8146144824250525876
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4346392144181995951
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7534283389971855680
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 1761306829233748115
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 4897582269838242184
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3391605251883930107
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4862254702841797489
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyufiledfx/caishenjianglinpanel.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 40,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1914471710917092414
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "990ef1f6ec16ed942e2d7ebf423b261b.bundle",
+  "m_Dependencies": [
+    "20d648468bc485e34907875e79896cad.bundle",
+    "373b1241c1d8d2a63abc60ab77d69cd7.bundle",
+    "5c502c268249dd813bc6456ea161b1e5.bundle",
+    "5fa23213fae01d327fc533615e8d21f6.bundle",
+    "7b14c45d02b38b42ef458a5625854151.bundle",
+    "da1a669413460b3aeb1baa21213bb2a9.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

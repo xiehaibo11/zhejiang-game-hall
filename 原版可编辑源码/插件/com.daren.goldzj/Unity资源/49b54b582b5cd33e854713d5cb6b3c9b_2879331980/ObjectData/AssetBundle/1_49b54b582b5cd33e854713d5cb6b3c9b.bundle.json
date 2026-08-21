@@ -1,0 +1,232 @@
+{
+  "m_Name": "49b54b582b5cd33e854713d5cb6b3c9b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6665233010273354873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2680307939393884918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7423663472916792735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 250194531786080707
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 250194531786080707
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2684004039375137579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7576581314297162978
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2680307939393884918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7576581314297162978
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4961204262097673737
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5460922616032165477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3883070664501018076
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7423663472916792735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1272645882860867428
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3883070664501018076
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4961204262097673737
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/deeplootgoldshellempty.anim",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 250194531786080707
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/deeplootgoldshellitem.controller",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2684004039375137579
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/deeplootgoldshellitem_ani.anim",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7576581314297162978
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/deeplootminigameview.anim",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4961204262097673737
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/deeplootminigameview.controller",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5460922616032165477
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/deeplootprogress4.controller",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1272645882860867428
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/deeplootprogress_ani.anim",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3883070664501018076
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/deeplootshellitem.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6665233010273354873
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/deeplootshellitem_ani.anim",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7423663472916792735
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/deeplootmainpanel_ani/shellidle.anim",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2680307939393884918
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "49b54b582b5cd33e854713d5cb6b3c9b.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,69 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7311857105340709399
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2341795367842535046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8099918918011887171
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3565048385039456764
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4283964153882752894
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7501118540086870541
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_button",
+    "m_on",
+    "m_off",
+    "m_Label_on",
+    "m_Label_off"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    0.20000000298023224
+  ],
+  "m_BindFloat_Name": [
+    "m_movtime"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0
+  ],
+  "m_BindBool_Name": [
+    "m_bon"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Set.ControlButtonOnOff",
+  "m_ClassName": "ControlButtonOnOff"
+}

@@ -1,0 +1,48 @@
+{
+  "m_Name": "48e6de6b192417fe7d8533b880528789.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 4039021918170972336
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9138065717085997927
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4703310903104413724
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/extendlibs/particleeffectprofiler/examples/effect/materials/skilleff1_2_1_glow.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9138065717085997927
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "48e6de6b192417fe7d8533b880528789.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "fe5962642b9707995a4502072510a4cf.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

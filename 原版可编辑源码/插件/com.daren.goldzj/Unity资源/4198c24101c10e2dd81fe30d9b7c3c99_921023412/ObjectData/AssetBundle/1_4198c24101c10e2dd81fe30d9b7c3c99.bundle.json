@@ -1,0 +1,126 @@
+{
+  "m_Name": "4198c24101c10e2dd81fe30d9b7c3c99.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 5813819629765887893
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 9138065717085997927
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7893919005120399250
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8803840229315611289
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8121279199808291893
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7963998881881191106
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7458065810621834040
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7392681325154839539
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5975940518531200909
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5810950258871954007
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2124637102646838203
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -686801065098779229
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 21235356235748819
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 702775805201650687
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 791720468725430785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1560485329691227627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3317538065831426908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5149933825683845847
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6006667109945987678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9039047247519944418
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -3064764743842358430
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/kingoffighterroom/effect/prefab/effect_nosie_roompanel.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 22,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2124637102646838203
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4198c24101c10e2dd81fe30d9b7c3c99.bundle",
+  "m_Dependencies": [
+    "0870c7b500d47e6dcd093d43fa07e644.bundle",
+    "48e6de6b192417fe7d8533b880528789.bundle",
+    "d27372cee25ac4ccb68d3de5054203f2.bundle",
+    "e7374d79beda20eeb7015906d4df2aea.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

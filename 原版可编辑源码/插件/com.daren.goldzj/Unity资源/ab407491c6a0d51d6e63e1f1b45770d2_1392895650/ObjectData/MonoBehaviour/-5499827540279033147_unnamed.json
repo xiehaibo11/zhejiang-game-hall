@@ -1,0 +1,146 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1590806856037301051
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4316183722688991955
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4922839255213402583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1493596475372584642
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3660266526882125922
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3511051075893709923
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1794806660923177737
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8603422868655908750
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3666787022738153430
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2657349524277030420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4408296295610517813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6087374582305863206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3985176679606434554
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5907485697140160304
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6634708762710436393
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4157289100484311643
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7374595620572883745
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3345789014262868879
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8479650469625672599
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3795647735975884849
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7073396751988307516
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -574851203630756906
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8785478786597762819
+    }
+  ],
+  "m_BindComs_Name": [
+    "LoginMessagePanel",
+    "LabelAuditInfo",
+    "LabelAppVersion",
+    "LabelResVersion",
+    "LabelContent",
+    "InputAccount",
+    "BtnAnnouncement",
+    "BtnFixWLogin",
+    "BtnFeedback",
+    "GroupPrivacy",
+    "BtnUserService",
+    "BtnPrivacy",
+    "BtnAgeDesc",
+    "GroupLogin",
+    "BtnLogin",
+    "BtnAccountLogin",
+    "BtnAppleLogin",
+    "GroupDefaultLogin",
+    "ToggleRead",
+    "GroupGuanBao",
+    "BtnGBAccount",
+    "BtnGBPhone"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Login.LoginCommonPanel",
+  "m_ClassName": "LoginCommonPanel"
+}

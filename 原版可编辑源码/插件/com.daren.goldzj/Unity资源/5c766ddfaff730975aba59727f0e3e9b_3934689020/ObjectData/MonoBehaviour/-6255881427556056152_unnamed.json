@@ -1,0 +1,121 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7881904874363283231
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2046969971439936550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6879899335400873406
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2832439807014173054
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5337756273901559700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1225378922234370847
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6483186868997593482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3651527343990350870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8657732943714225194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4305801070347502308
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3270560995506705795
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2658351792829117676
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8935758315321921124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8864484130245621241
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5471487352334121916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4125914261686106008
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1536140953890871313
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5914612417992617778
+    }
+  ],
+  "m_BindComs_Name": [
+    "txtSocre",
+    "txtSuperState",
+    "txtCacheGold",
+    "txtPrice",
+    "txtBuyTip",
+    "btnBuy",
+    "btnGet",
+    "btnGo",
+    "Grid",
+    "listBgNormal",
+    "listBgSuper",
+    "ProgressBG",
+    "front",
+    "proress",
+    "proressBig",
+    "BigReward",
+    "bottom"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.CardCollectTour.CardCollectTourPassPanel",
+  "m_ClassName": "CardCollectTourPassPanel"
+}

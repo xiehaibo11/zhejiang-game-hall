@@ -1,0 +1,122 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1178210362151557189
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5087560078760393894
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4370300062714226420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3941687821484333597
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9003499346612996983
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6998350492721221477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1296912967022232579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6780252341914929117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1276493271428255633
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 362816835817874933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -225320988997568982
+    }
+  ],
+  "m_BindComs_Name": [
+    "level",
+    "name",
+    "preview",
+    "suiPianCount",
+    "dengluCount",
+    "progress",
+    "gridComponent",
+    "parent",
+    "scroll",
+    "rightRoot",
+    "leftRoot"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 7591365961774226546
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2285047680901327179
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8653212670152995420
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -896783082675047611
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2732809746263592538
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1871167253803479122
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "dengLuItems"
+  ],
+  "hotfixClassFullName": "GameHotFix.ShenQiMiZong.ShenQiMiZongSubPanel",
+  "m_ClassName": "ShenQiMiZongSubPanel"
+}

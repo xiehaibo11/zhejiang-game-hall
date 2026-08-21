@@ -1,0 +1,139 @@
+{
+  "m_Name": "2f2a1ea468992ec0a36a18c80bb9f5d1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7539573611639478723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6647176488972847908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6043558834461858548
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2287118475303818060
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4085248703273306612
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5472523206807093352
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8975533996238671355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4751417536787113106
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4727145037191311064
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2949613262944904902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1071526082049897168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4591426136854655675
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/chunjiepaotai/fbx/kuosan_huan.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8975533996238671355
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/chunjiepaotai/fbx/kuosan_huan.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4591426136854655675
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/chunjiepaotai/fbx/kuosan_huan.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4751417536787113106
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/chunjiepaotai/fbx/kuosan_quan.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6647176488972847908
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/chunjiepaotai/fbx/kuosan_quan.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7539573611639478723
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2f2a1ea468992ec0a36a18c80bb9f5d1.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

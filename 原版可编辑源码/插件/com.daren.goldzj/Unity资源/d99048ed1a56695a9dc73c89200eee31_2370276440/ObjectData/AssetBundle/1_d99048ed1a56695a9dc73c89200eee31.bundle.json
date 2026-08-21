@@ -1,0 +1,43 @@
+{
+  "m_Name": "d99048ed1a56695a9dc73c89200eee31.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4282469291812949187
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2261795235766155446
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/tuiguangiftpanel/effect/animation/\u5f00\u5b9d\u7bb1.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4282469291812949187
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d99048ed1a56695a9dc73c89200eee31.bundle",
+  "m_Dependencies": [
+    "06293fed4da71124e7b3b5e166542c8d.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,52 @@
+{
+  "m_Name": "d348a4f6fa992f867b649df7d9bcaa82.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3697751954213892212
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2721118610395989644
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/168_jiangziya/texture_npot/bg_1.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2721118610395989644
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/168_jiangziya/texture_npot/bg_2.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3697751954213892212
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d348a4f6fa992f867b649df7d9bcaa82.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

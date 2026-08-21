@@ -1,0 +1,23 @@
+
+/* lua_dragonbones_WorldClock_clear(lua_State*) */
+
+bool lua_dragonbones_WorldClock_clear(lua_State *param_1)
+
+{
+  int iVar1;
+  WorldClock *this;
+  
+  this = (WorldClock *)tolua_tousertype(param_1,1,0);
+  iVar1 = lua_gettop(param_1);
+  iVar1 = iVar1 + -1;
+  if (iVar1 == 0) {
+    dragonBones::WorldClock::clear(this);
+    lua_settop(param_1,1);
+  }
+  else {
+    luaL_error(param_1,"%s has wrong number of arguments: %d, was expecting %d \n",
+               "db.WorldClock:clear",iVar1,0);
+  }
+  return iVar1 == 0;
+}
+

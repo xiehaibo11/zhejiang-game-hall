@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2873619203914140665
+  },
+  "m_Enabled": 1,
+  "m_Animation": {
+    "m_FileID": 5,
+    "m_PathID": 8479010231066972392
+  },
+  "m_Animations": [
+    {
+      "m_FileID": 5,
+      "m_PathID": 8479010231066972392
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -4439646384155334866
+    }
+  ],
+  "m_WrapMode": 0,
+  "m_PlayAutomatically": true,
+  "m_AnimatePhysics": false,
+  "m_CullingType": 1
+}

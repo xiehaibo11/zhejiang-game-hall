@@ -1,0 +1,205 @@
+{
+  "m_Name": "6897f454454d4b26080d3c6ee598fca5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": 10210
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6548584512843854380
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5362375672156860701
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4431217517606325369
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 870603397706675596
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1732311982350853050
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6927206278745116598
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 2025791518891882522
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4679616757859685708
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9030271752443683820
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8508721352564633028
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8172484368803691322
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8125615201885020598
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7954795488190609852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7713195052841706428
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5814436932128385581
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5017236491907018580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3842090793403976779
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3298815854521565580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2782153808521070150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1712539076916120269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1514050468117025640
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1464214814111449962
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1370856673846859820
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -925361037795592318
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -193731229144612817
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1177213561034914292
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1216678913514498231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2227180085277615008
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3036856151243699071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3660594257329719061
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4222528978171656175
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4878507225738676318
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5279433158117936873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6203208871231846030
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6622919510219428830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6627095520253951330
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6942998080631391396
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7005829034016311826
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7387011480613997064
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9022263039820389273
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonsoulprefab/cannonsoul_3006/bulletlazer_1_3006/soul_bulletbz_1_3006.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 42,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6203208871231846030
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6897f454454d4b26080d3c6ee598fca5.bundle",
+  "m_Dependencies": [
+    "0ed482bdc6a07bb2d4356762a4293f43.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle",
+    "eaf6f939c8a11df4fe21b2eaa855c4d5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

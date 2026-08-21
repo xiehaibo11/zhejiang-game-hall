@@ -1,0 +1,92 @@
+{
+  "m_Name": "294ff625c30044ce3b5720cb43694c78.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6895241037460039067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4471943680266871740
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3873028234775697875
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1235428569791213913
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2816413906607678928
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4779727370064160629
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6437989839848794083
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6881387935334234935
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8578226566993358087
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5905412350265979015
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5386373638650273647
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/lobby/zhizunsplashpanel.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 14,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6881387935334234935
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "294ff625c30044ce3b5720cb43694c78.bundle",
+  "m_Dependencies": [
+    "0b3159c207ba87629b7a4066deb7af7f.bundle",
+    "2e054c2f07ae9dc6434a37a668ff30a2.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

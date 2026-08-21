@@ -1,0 +1,48 @@
+{
+  "m_Name": "26cc72fda3c0fd6c7aa83b7d26eb5fb1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5343014307050760878
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -732061761652674667
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4613933664214949409
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/talisman/effect/animation/talismandisplaylayer.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5343014307050760878
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "26cc72fda3c0fd6c7aa83b7d26eb5fb1.bundle",
+  "m_Dependencies": [
+    "730d2af2f7550f71bed03dbe1ad6e98b.bundle",
+    "b0f163dccf085b7a74c850d71b03cd8b.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

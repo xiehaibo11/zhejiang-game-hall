@@ -1,0 +1,19 @@
+
+void jpeg_std_error(undefined8 *param_1)
+
+{
+  *param_1 = FUN_010ed3b4;
+  param_1[1] = FUN_010ed3e0;
+  param_1[2] = FUN_010ed444;
+  param_1[3] = FUN_010ed4b0;
+  *(undefined4 *)((long)param_1 + 0x7c) = 0;
+  *(undefined4 *)(param_1 + 5) = 0;
+  param_1[4] = FUN_010ed580;
+  param_1[0x13] = 0;
+  param_1[0x14] = 0;
+  param_1[0x10] = 0;
+  param_1[0x11] = jpeg_std_message_table;
+  *(undefined4 *)(param_1 + 0x12) = 0x7e;
+  return;
+}
+

@@ -1,0 +1,32 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 799456373681728786
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5524061718884197895
+  },
+  "m_Name": "",
+  "m_LabelText": {
+    "m_FileID": 0,
+    "m_PathID": 7677554221593878667
+  },
+  "m_Formats": [
+    {
+      "Seconds": 0.0,
+      "Prefix": "",
+      "Format": "mm\\:ss",
+      "Suffix": "",
+      "Interval": 1.0
+    },
+    {
+      "Seconds": 3600.0,
+      "Prefix": "",
+      "Format": "%h\\\u5c0f\\\u65f6",
+      "Suffix": "",
+      "Interval": 60.0
+    }
+  ]
+}

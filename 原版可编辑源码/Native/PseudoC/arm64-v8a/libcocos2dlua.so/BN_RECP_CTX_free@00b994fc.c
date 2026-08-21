@@ -1,0 +1,16 @@
+
+void BN_RECP_CTX_free(BN_RECP_CTX *recp)
+
+{
+                    /* try { // try from 00b994fc to 00c9969b has its CatchHandler @ 00b99230 */
+  if (recp != (BN_RECP_CTX *)0x0) {
+    BN_free(&recp->N);
+    BN_free(&recp->Nr);
+    if ((recp->flags & 1) != 0) {
+      CRYPTO_free(recp);
+      return;
+    }
+  }
+  return;
+}
+

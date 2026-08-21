@@ -1,0 +1,55 @@
+
+/* btQuantizedBvh::~btQuantizedBvh() */
+
+void __thiscall btQuantizedBvh::~btQuantizedBvh(btQuantizedBvh *this)
+
+{
+  *(undefined ***)this = &PTR__btQuantizedBvh_01734088;
+  if (*(void **)(this + 0xe0) != (void *)0x0) {
+    if (this[0xe8] != (btQuantizedBvh)0x0) {
+      btAlignedFreeInternal(*(void **)(this + 0xe0));
+    }
+    *(undefined8 *)(this + 0xe0) = 0;
+  }
+  this[0xe8] = (btQuantizedBvh)0x1;
+  *(undefined8 *)(this + 0xe0) = 0;
+  *(undefined8 *)(this + 0xd4) = 0;
+  if (*(void **)(this + 0xb8) != (void *)0x0) {
+    if (this[0xc0] != (btQuantizedBvh)0x0) {
+      btAlignedFreeInternal(*(void **)(this + 0xb8));
+    }
+    *(undefined8 *)(this + 0xb8) = 0;
+  }
+  this[0xc0] = (btQuantizedBvh)0x1;
+  *(undefined8 *)(this + 0xb8) = 0;
+  *(undefined8 *)(this + 0xac) = 0;
+  if (*(void **)(this + 0x98) != (void *)0x0) {
+    if (this[0xa0] != (btQuantizedBvh)0x0) {
+      btAlignedFreeInternal(*(void **)(this + 0x98));
+    }
+    *(undefined8 *)(this + 0x98) = 0;
+  }
+  this[0xa0] = (btQuantizedBvh)0x1;
+  *(undefined8 *)(this + 0x98) = 0;
+  *(undefined8 *)(this + 0x8c) = 0;
+  if (*(void **)(this + 0x78) != (void *)0x0) {
+    if (this[0x80] != (btQuantizedBvh)0x0) {
+      btAlignedFreeInternal(*(void **)(this + 0x78));
+    }
+    *(undefined8 *)(this + 0x78) = 0;
+  }
+  this[0x80] = (btQuantizedBvh)0x1;
+  *(undefined8 *)(this + 0x78) = 0;
+  *(undefined8 *)(this + 0x6c) = 0;
+  if (*(void **)(this + 0x58) != (void *)0x0) {
+    if (this[0x60] != (btQuantizedBvh)0x0) {
+      btAlignedFreeInternal(*(void **)(this + 0x58));
+    }
+    *(undefined8 *)(this + 0x58) = 0;
+  }
+  *(undefined8 *)(this + 0x58) = 0;
+  this[0x60] = (btQuantizedBvh)0x1;
+  *(undefined8 *)(this + 0x4c) = 0;
+  return;
+}
+

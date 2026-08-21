@@ -1,0 +1,41 @@
+
+ls_bofang.png
+size: 43, 51
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ls_bofang_0
+  rotate: true
+  xy: 28, 40
+  size: 9, 12
+  orig: 9, 12
+  offset: 0, 0
+  index: -1
+ls_bofang_1
+  rotate: true
+  xy: 2, 46
+  size: 3, 8
+  orig: 3, 8
+  offset: 0, 0
+  index: -1
+ls_bofang_2
+  rotate: true
+  xy: 12, 45
+  size: 4, 14
+  orig: 4, 14
+  offset: 0, 0
+  index: -1
+ls_bofang_3
+  rotate: true
+  xy: 2, 38
+  size: 5, 18
+  orig: 5, 18
+  offset: 0, 0
+  index: -1
+sound
+  rotate: true
+  xy: 2, 2
+  size: 34, 39
+  orig: 35, 40
+  offset: 0, 1
+  index: -1

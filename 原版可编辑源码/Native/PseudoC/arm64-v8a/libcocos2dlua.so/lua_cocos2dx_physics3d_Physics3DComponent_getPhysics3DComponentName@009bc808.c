@@ -1,0 +1,32 @@
+
+/* lua_cocos2dx_physics3d_Physics3DComponent_getPhysics3DComponentName(lua_State*) */
+
+undefined8 lua_cocos2dx_physics3d_Physics3DComponent_getPhysics3DComponentName(lua_State *param_1)
+
+{
+  ulong uVar1;
+  byte *pbVar2;
+  int iVar3;
+  undefined8 uVar4;
+  byte *pbVar5;
+  
+  iVar3 = lua_gettop();
+  if (iVar3 + -1 == 0) {
+    pbVar5 = (byte *)cocos2d::Physics3DComponent::getPhysics3DComponentName();
+    uVar1 = *(ulong *)(pbVar5 + 8);
+    pbVar2 = *(byte **)(pbVar5 + 0x10);
+    if ((*pbVar5 & 1) == 0) {
+      pbVar2 = pbVar5 + 1;
+      uVar1 = (ulong)(*pbVar5 >> 1);
+    }
+    lua_pushlstring(param_1,pbVar2,uVar1);
+    uVar4 = 1;
+  }
+  else {
+    luaL_error(param_1,"%s has wrong number of arguments: %d, was expecting %d\n ",
+               "cc.Physics3DComponent:getPhysics3DComponentName",iVar3 + -1,0);
+    uVar4 = 0;
+  }
+  return uVar4;
+}
+

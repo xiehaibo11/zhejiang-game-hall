@@ -1,0 +1,48 @@
+{
+  "m_Name": "ed094a313a99b42ec34281ccf59e042a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7835570977885806291
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4452167747990929222
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3873615346325149142
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/luckycrit/effect/material/rrby_point_019_add 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7835570977885806291
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ed094a313a99b42ec34281ccf59e042a.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "d0f3100eb55dbcd408ff0ea781599f2e.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8549106281786762874
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6334149376014830852
+  },
+  "m_Name": "",
+  "hiddenList": [
+    {
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 8010883554887783948
+      },
+      "expensive": 0
+    }
+  ],
+  "optimizedList": [
+    {
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": -5575831974137156089
+      },
+      "optType": 0,
+      "high": 100,
+      "mid": 70,
+      "low": 30,
+      "veryLow": 0
+    }
+  ]
+}

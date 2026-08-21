@@ -1,0 +1,201 @@
+{
+  "m_Name": "5b3bb2d40f54cb6ad3afea5866832834.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -7523410814161760522
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3336684861886900820
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -7505550177639610160
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 4119610047673355637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8835374999630420938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8667693678392058797
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7979025903717644745
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691676500807756964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7021909114834201068
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6579121906246850188
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5796102891264583790
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3750603907234084131
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3395951161112958135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2842598084910095415
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2527088775204328153
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2117531877552227238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1410107280170535897
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -817954789257875442
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 32681754027772782
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 142475324528404684
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 315379149970105177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 873785428825475112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1330660494383011467
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2251774182037682150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2771189072996485578
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6179888039583216264
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6883087475660111114
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -4346392144181995951
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": 7534283389971855680
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -5631532181731153375
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8834040619514564810
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6869765769015614050
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2473275834854056289
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 5388486411552544054
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 6266799358448028034
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/quickshouofen/quickshoufen_245.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 40,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2251774182037682150
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5b3bb2d40f54cb6ad3afea5866832834.bundle",
+  "m_Dependencies": [
+    "12464151f311d32f53102245e35d2b14.bundle",
+    "300dd59ef97aa9a9727bdfe4fe9b8de5.bundle",
+    "31f4913843986690d1853093c697b1f6.bundle",
+    "39a12e0e6d7999ddc5edb7d25d16cb96.bundle",
+    "5b5f254e2add26b11b8e154cd7a42080.bundle",
+    "5c502c268249dd813bc6456ea161b1e5.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

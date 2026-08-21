@@ -1,0 +1,37 @@
+
+BIGNUM * FUN_00b60740(BIGNUM *param_1,BIGNUM *param_2,BIGNUM *param_3)
+
+{
+  int iVar1;
+  int iVar2;
+  void *data;
+  EVP_MD *type;
+  BIGNUM *pBVar3;
+  uchar auStack_54 [20];
+  
+  iVar1 = BN_num_bits(param_3);
+  iVar2 = iVar1 + 0xe;
+  if (-1 < iVar1 + 7) {
+    iVar2 = iVar1 + 7;
+  }
+  if (((param_1 != param_3) && (iVar1 = BN_ucmp(param_1,param_3), -1 < iVar1)) ||
+     ((param_2 != param_3 && (iVar1 = BN_ucmp(param_2,param_3), -1 < iVar1)))) {
+    return (BIGNUM *)0x0;
+  }
+  iVar2 = iVar2 >> 3;
+  data = CRYPTO_malloc(iVar2 << 1,"crypto/srp/srp_lib.c",0x1d);
+  if (((data != (void *)0x0) && (iVar1 = BN_bn2binpad(param_1,data,iVar2), -1 < iVar1)) &&
+     (iVar1 = BN_bn2binpad(param_2,(long)data + (long)iVar2,iVar2), -1 < iVar1)) {
+    type = EVP_sha1();
+    iVar2 = EVP_Digest(data,(long)(iVar2 << 1),auStack_54,(uint *)0x0,type,(ENGINE *)0x0);
+    if (iVar2 != 0) {
+      pBVar3 = BN_bin2bn(auStack_54,0x14,(BIGNUM *)0x0);
+      goto LAB_00b60844;
+    }
+  }
+  pBVar3 = (BIGNUM *)0x0;
+LAB_00b60844:
+  CRYPTO_free(data);
+  return pBVar3;
+}
+

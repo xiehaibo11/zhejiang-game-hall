@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7503191742095815163
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6617315960503399349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2758054285158947138
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3434219087711856739
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -183589555214290678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -251257758929201081
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2316976995656839169
+    }
+  ],
+  "m_BindComs_Name": [
+    "btnContinue",
+    "upTag",
+    "downTag",
+    "upItem",
+    "downItem",
+    "animator"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.LeagueRanking.HighLadderLevelChangePanel",
+  "m_ClassName": "HighLadderLevelChangePanel"
+}

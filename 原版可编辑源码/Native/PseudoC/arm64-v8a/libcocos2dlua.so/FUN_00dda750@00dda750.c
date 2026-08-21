@@ -1,0 +1,11 @@
+
+void FUN_00dda750(void)
+
+{
+  undefined8 *puVar1;
+  
+  puVar1 = operator_new(0x10);
+  *puVar1 = &PTR_FUN_016e27a8;
+  return;
+}
+

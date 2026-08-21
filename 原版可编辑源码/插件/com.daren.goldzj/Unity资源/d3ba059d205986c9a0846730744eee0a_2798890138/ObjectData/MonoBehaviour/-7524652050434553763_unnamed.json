@@ -1,0 +1,95 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4876598993310846309
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9008648777014483087
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1989819258107928150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3667181812770544269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6630052438896787875
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2030043245484765967
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4110040001639939653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7014117199654691983
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3679195710768531264
+    }
+  ],
+  "m_BindComs_Name": [
+    "mDayNum",
+    "mZzObj",
+    "mProgressbar",
+    "mProgressbarObj",
+    "mProgressbarLabel",
+    "mGetBtn",
+    "mReSignCanGetBtn",
+    "mUIGrid"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -2794740620629248211
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3691319870109686729
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4441782572583163545
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mRewardList"
+  ],
+  "hotfixClassFullName": "GameHotFix.MoneyDaySign.MoneyDaySignAccumulateItem",
+  "m_ClassName": "MoneyDaySignAccumulateItem"
+}

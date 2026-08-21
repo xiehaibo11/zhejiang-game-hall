@@ -1,0 +1,97 @@
+{
+  "m_Name": "b3e13586156a2b926ca66318fec3fb5d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4417691620616702970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5787500130191124291
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8120951107482919420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6056923081086249110
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7181335840740406754
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/xiaohongmaopaotai/texture/lizi.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5787500130191124291
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/xiaohongmaopaotai/texture/paopao.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8120951107482919420
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/xiaohongmaopaotai/texture/qiqiu.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4417691620616702970
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/xiaohongmaopaotai/texture/yuansu.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7181335840740406754
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/xiaohongmaopaotai/texture/yun.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6056923081086249110
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b3e13586156a2b926ca66318fec3fb5d.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

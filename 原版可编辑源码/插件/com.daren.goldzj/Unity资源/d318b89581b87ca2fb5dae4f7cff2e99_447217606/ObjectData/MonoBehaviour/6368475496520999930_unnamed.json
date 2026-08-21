@@ -1,0 +1,96 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4999495410595800408
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1408320419724364796
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9164634232275301224
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6327329862351213144
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2514890315957911267
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3658102535006223203
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8640834773483071653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3649159338123360299
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7301234215369406049
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -363466200991263419
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6349461823156080865
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1761663326572583853
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6829958592520762240
+    }
+  ],
+  "m_BindComs_Name": [
+    "selfInfoView",
+    "BottomView",
+    "topView",
+    "LeftView",
+    "RightView",
+    "StartGame",
+    "FullScreenCollider",
+    "m_UserAvatarRedDot",
+    "GoldPos",
+    "ZiZuanPos",
+    "TextureBgNormal",
+    "TextureBgZhiZun"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Lobby.LobbyPanel",
+  "m_ClassName": "LobbyPanel"
+}

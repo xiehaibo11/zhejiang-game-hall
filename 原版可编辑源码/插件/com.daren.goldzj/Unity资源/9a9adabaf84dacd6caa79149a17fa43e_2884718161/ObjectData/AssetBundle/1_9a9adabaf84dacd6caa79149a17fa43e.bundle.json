@@ -1,0 +1,161 @@
+{
+  "m_Name": "9a9adabaf84dacd6caa79149a17fa43e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7086254615108486655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5908844769834782404
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4441882599591271194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4121093825520899998
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -824090438776165348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7086254615108486655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5908844769834782404
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2245638314924382761
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5835026377455423877
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7086254615108486655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7631454967358665169
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6645979546979813549
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_crystaltreasury/btn_bklb_bg.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2245638314924382761
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_crystaltreasury/crystaltreasury.mat",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5908844769834782404
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_crystaltreasury/crystaltreasury.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7086254615108486655
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_crystaltreasury/crystaltreasury.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -824090438776165348
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_crystaltreasury/img_sjbk_bg.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5835026377455423877
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_crystaltreasury/img_zsdj_bg.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7631454967358665169
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_crystaltreasury/img_zsdj_dj.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6645979546979813549
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9a9adabaf84dacd6caa79149a17fa43e.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

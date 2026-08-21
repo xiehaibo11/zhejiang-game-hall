@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3156652325701456403
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3097215361032381741
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3287179236834933895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3566997013928952337
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7009350442011770437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1937580803560225357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7585454711015548556
+    }
+  ],
+  "m_BindComs_Name": [
+    "Reward1",
+    "Reward2",
+    "TxtTaskDesc",
+    "BtnClaim",
+    "BtnGoFinish",
+    "ObjTaskDone"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ShuiHuSeason.ShuiHuAtlasTaskItem",
+  "m_ClassName": "ShuiHuAtlasTaskItem"
+}

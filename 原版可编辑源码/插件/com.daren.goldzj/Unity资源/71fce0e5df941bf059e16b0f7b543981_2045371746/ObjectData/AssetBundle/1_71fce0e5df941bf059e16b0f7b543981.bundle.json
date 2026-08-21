@@ -1,0 +1,101 @@
+{
+  "m_Name": "71fce0e5df941bf059e16b0f7b543981.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5972938148278978668
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 641344090914713634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5972938148278978668
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4070126268591098880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 107862044721249160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 641344090914713634
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5972938148278978668
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6265129200137051375
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_cannon3/cannon3.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 641344090914713634
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannon3/cannon3.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5972938148278978668
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannon3/cannon3.prefab",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4070126268591098880
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "71fce0e5df941bf059e16b0f7b543981.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

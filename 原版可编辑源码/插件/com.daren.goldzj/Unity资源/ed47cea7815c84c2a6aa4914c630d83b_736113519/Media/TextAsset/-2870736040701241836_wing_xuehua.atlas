@@ -1,0 +1,34 @@
+
+wing_xuehua.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daxuehua
+  rotate: false
+  xy: 2, 190
+  size: 192, 181
+  orig: 192, 181
+  offset: 0, 0
+  index: -1
+xuehua01
+  rotate: false
+  xy: 2, 52
+  size: 124, 136
+  orig: 124, 136
+  offset: 0, 0
+  index: -1
+xuehua02
+  rotate: false
+  xy: 2, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+xuehua03
+  rotate: false
+  xy: 196, 270
+  size: 99, 101
+  orig: 99, 101
+  offset: 0, 0
+  index: -1

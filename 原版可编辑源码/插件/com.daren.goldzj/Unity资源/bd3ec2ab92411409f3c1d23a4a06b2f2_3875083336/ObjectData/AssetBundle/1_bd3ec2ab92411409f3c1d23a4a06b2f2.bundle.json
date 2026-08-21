@@ -1,0 +1,62 @@
+{
+  "m_Name": "bd3ec2ab92411409f3c1d23a4a06b2f2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -9122051727584606541
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4869567857305080232
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4965016253204755281
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -3387561724570104953
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 964338566126264092
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonsoulprefab/cannonsoul_3002/bulletlazerprefab/effect/materials/ph_zw_14.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4869567857305080232
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "bd3ec2ab92411409f3c1d23a4a06b2f2.bundle",
+  "m_Dependencies": [
+    "1de943968055791d4ab036b229fbcf23.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "9bb6f55e45d4d5366a0e215a1297a9fd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,82 @@
+{
+  "m_Name": "4cce077a488990caa177ab70f1713be6.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 662147079423827462
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6763241841016109243
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4517087753952214951
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -266124985676698228
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/185_zhaoyun_versionupdate/texture/ramp_015_zy_9.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6763241841016109243
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun_versionupdate/texture/ramp_015_zy_9_1.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 662147079423827462
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun_versionupdate/texture/ramp_015_zy_9_2.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -266124985676698228
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/185_zhaoyun_versionupdate/texture/ramp_025_zy_5.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4517087753952214951
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4cce077a488990caa177ab70f1713be6.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

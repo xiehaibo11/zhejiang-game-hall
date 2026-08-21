@@ -1,0 +1,72 @@
+{
+  "m_Name": "214683d62107d97d289641029ef0f3a9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -498085180042449724
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -5563896253320382681
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 9237239101688624
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8216075896103076877
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/906001/materials/glow_0004_ab.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -498085180042449724
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/906001/materials/sequence_0001_ab.mat",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8216075896103076877
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "214683d62107d97d289641029ef0f3a9.bundle",
+  "m_Dependencies": [
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "d967bb42658e176d64ce2dabe513e8a1.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

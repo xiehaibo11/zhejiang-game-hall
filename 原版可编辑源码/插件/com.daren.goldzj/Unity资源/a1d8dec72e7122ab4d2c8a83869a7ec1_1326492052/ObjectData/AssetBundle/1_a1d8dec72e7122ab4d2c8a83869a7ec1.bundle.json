@@ -1,0 +1,165 @@
+{
+  "m_Name": "a1d8dec72e7122ab4d2c8a83869a7ec1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 878366729768443036
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 5101668666436331801
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -465503742716389988
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 3649655359532649550
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7771705871459973087
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": 7147219563737367785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9117364309691631412
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8989307720900681467
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8237636810375400911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6396827243512200266
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5407274912356010918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4685139106783921706
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2205657935263735405
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2143284212153250939
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1489529188825103185
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1204735228378928580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -304335290716437589
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1174797135422195856
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2918213451337447635
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3379150259537673093
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3475498869000536906
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4219057703972261940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4468282329414139250
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6083152577244748621
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6434114543649735362
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6718353334917685472
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7707777097100094929
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7771414156689565875
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8137953488763237291
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3373051266305272186
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/cannonsoulprefab/cannonsoul_3002/bulletlazer_2_3002/cannon_paokou_2_3002.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 31,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1489529188825103185
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a1d8dec72e7122ab4d2c8a83869a7ec1.bundle",
+  "m_Dependencies": [
+    "0ed482bdc6a07bb2d4356762a4293f43.bundle",
+    "2d3b769afa067c59526ad2216b79bc62.bundle",
+    "52c0ff6f4ca276bd1fd96d819b350d36.bundle",
+    "5d51fbcac2fb7be6229d5908110f39ce.bundle",
+    "7887339374caa6bada5787a0976534b5.bundle",
+    "ba57d99ca38d9ec687a759a4f7847e75.bundle",
+    "ec7e032ddb9ab0d1c56e5891beaba2a9.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

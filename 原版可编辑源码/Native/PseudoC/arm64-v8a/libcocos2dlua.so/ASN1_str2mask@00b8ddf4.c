@@ -1,0 +1,11 @@
+
+int ASN1_str2mask(char *param_1,undefined8 *param_2)
+
+{
+  int iVar1;
+  
+  *param_2 = 0;
+  iVar1 = CONF_parse_list(param_1,0x7c,1,FUN_00b8de14,param_2);
+  return iVar1;
+}
+

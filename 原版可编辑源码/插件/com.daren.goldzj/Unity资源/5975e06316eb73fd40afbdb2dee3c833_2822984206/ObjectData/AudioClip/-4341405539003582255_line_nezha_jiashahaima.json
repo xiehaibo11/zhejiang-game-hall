@@ -1,0 +1,20 @@
+{
+  "m_Name": "line_nezha_jiashahaima",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 4.72349214553833,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-8c91e61257acec5fe34539de6fb10062/CAB-8c91e61257acec5fe34539de6fb10062.resource",
+    "m_Offset": 0,
+    "m_Size": 34912
+  },
+  "m_CompressionFormat": 1
+}

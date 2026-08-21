@@ -1,0 +1,43 @@
+{
+  "m_Name": "a881589d2dac3b936e0a91c835f4613b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1898151283262522576
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5290999741815614724
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/hungryloong/effects/animation/negative.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5290999741815614724
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a881589d2dac3b936e0a91c835f4613b.bundle",
+  "m_Dependencies": [
+    "19716f2462d78fc72cb91f7119951ede.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

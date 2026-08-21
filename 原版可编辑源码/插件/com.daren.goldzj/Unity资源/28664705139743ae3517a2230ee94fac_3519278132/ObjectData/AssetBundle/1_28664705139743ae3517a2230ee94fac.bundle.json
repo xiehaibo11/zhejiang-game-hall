@@ -1,0 +1,103 @@
+{
+  "m_Name": "28664705139743ae3517a2230ee94fac.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5004926585654412938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4420201728754406317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3715710715999894285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2221208399133889417
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1779816932516007398
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 675015880547301290
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4098040410529744510
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4209363872644855051
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5097655727855435430
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5419683422073137124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5483520132294033020
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6149214521928731041
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6163016203269171532
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8962657636195225107
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9002265019029066020
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -9017008998551159543
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/streetstormgift/effect/prefab/uieffect_bg.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9002265019029066020
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "28664705139743ae3517a2230ee94fac.bundle",
+  "m_Dependencies": [
+    "a69d786119df38a35b44cce6b77740f8.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

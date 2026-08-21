@@ -1,0 +1,189 @@
+{
+  "m_Name": "4c944452867546add26addb7ffdd3b9f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8047612830886815291
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2435196230541393437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 721862600322610776
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6058399145151872628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7108647499278029214
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3933665223752064698
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2592108440477879253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 815645242258947560
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1288658803941267063
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1721600999722342667
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8432190770358956576
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5648856175260337993
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1509592406170842971
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2153902462093262478
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3006285144842102556
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6445357969141489099
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/097_zimocaisheng/fbx/luoxuan_ftxv_02.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1721600999722342667
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/097_zimocaisheng/fbx/luoxuan_ftxv_02.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2592108440477879253
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/097_zimocaisheng/fbx/majiang.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8047612830886815291
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/097_zimocaisheng/fbx/majiang.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6058399145151872628
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/097_zimocaisheng/fbx/zimocaishen_majiangpai_bianpai.fbx",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3006285144842102556
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/097_zimocaisheng/fbx/zimocaishen_majiangpai_bianpai.fbx",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1509592406170842971
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/097_zimocaisheng/fbx/zimocaishen_shoufen1_majiangpai5_weiyi.controller",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8432190770358956576
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4c944452867546add26addb7ffdd3b9f.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

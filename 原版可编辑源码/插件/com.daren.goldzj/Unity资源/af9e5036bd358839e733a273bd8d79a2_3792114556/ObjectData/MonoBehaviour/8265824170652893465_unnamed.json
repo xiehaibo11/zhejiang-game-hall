@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4523376885807473318
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3155306897201054078
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5993775841425452469
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5662110234363466963
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5358899489898564610
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7211870603882166105
+    }
+  ],
+  "m_BindComs_Name": [
+    "icon",
+    "name",
+    "curGrade",
+    "levelCondition",
+    "Finsh"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GrowPath.GrowPathTask",
+  "m_ClassName": "GrowPathTask"
+}

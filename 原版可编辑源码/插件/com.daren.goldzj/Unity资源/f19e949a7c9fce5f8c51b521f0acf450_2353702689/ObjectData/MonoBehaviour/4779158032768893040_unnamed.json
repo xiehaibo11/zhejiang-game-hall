@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8772714885642724929
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1622603523324645471
+  },
+  "m_Name": "",
+  "activate": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1023912893896874364
+    }
+  ],
+  "deactivate": [],
+  "target": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "inverse": 0
+}

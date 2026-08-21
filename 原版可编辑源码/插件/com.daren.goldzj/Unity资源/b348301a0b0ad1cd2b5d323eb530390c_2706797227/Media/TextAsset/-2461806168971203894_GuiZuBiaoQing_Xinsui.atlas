@@ -1,0 +1,83 @@
+
+GuiZuBiaoQing_Xinsui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 194
+  size: 315, 304
+  orig: 315, 304
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 114, 123
+  size: 160, 69
+  orig: 160, 69
+  offset: 0, 0
+  index: -1
+eyeball
+  rotate: false
+  xy: 2, 12
+  size: 88, 24
+  orig: 88, 24
+  offset: 0, 0
+  index: -1
+eyelid
+  rotate: false
+  xy: 114, 67
+  size: 160, 54
+  orig: 160, 54
+  offset: 0, 0
+  index: -1
+hand_l
+  rotate: false
+  xy: 426, 426
+  size: 74, 72
+  orig: 74, 72
+  offset: 0, 0
+  index: -1
+hand_r
+  rotate: true
+  xy: 426, 348
+  size: 76, 70
+  orig: 76, 70
+  offset: 0, 0
+  index: -1
+heart_l
+  rotate: false
+  xy: 319, 347
+  size: 105, 151
+  orig: 105, 151
+  offset: 0, 0
+  index: -1
+heart_r
+  rotate: false
+  xy: 2, 38
+  size: 110, 154
+  orig: 110, 154
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 114, 36
+  size: 163, 29
+  orig: 163, 29
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 319, 236
+  size: 56, 109
+  orig: 56, 109
+  offset: 0, 0
+  index: -1
+tear
+  rotate: false
+  xy: 276, 133
+  size: 33, 59
+  orig: 33, 59
+  offset: 0, 0
+  index: -1

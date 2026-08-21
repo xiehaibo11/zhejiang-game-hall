@@ -1,0 +1,20 @@
+{
+  "m_Name": "gamebg2",
+  "m_LoadType": 2,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 32.0,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": true,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-43216db63e8f92c5ceed7f6f36efbfe0/CAB-43216db63e8f92c5ceed7f6f36efbfe0.resource",
+    "m_Offset": 0,
+    "m_Size": 228064
+  },
+  "m_CompressionFormat": 1
+}

@@ -1,0 +1,210 @@
+{
+  "m_Name": "cf823ee89de4bb4b5de43390270c5906.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2583489621541734227
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -7181883464243490303
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -7869222235346415347
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2935127152813492797
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 2077361278153445845
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7676559137185942550
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -1449621889649545053
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6525112265506565888
+    },
+    {
+      "m_FileID": 8,
+      "m_PathID": 1581671704494530747
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 9,
+      "m_PathID": 6334653661005458316
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8992017094316506886
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 9,
+      "m_PathID": 797619129222038900
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -6212650535227273368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4469490126506879674
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2550319035582821912
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -6546598670643898976
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2127899322904190218
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 10,
+      "m_PathID": -4841933528118711310
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/100_saibopika/material/glow_0001_ab_sbpk.mat",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2127899322904190218
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/100_saibopika/material/glow_032_add_sbpk.mat",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8992017094316506886
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/100_saibopika/material/hyml_trail_01_add_sbpk.mat",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6525112265506565888
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/100_saibopika/material/lightning_096_ab_sbpk.mat",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4469490126506879674
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/100_saibopika/material/line_229_ab_sbpk.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2583489621541734227
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/100_saibopika/material/obj_aixing2_ab_sbpk.mat",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2935127152813492797
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/100_saibopika/material/smoke_seq_103_qysl_ab_sbpk.mat",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7676559137185942550
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "cf823ee89de4bb4b5de43390270c5906.bundle",
+  "m_Dependencies": [
+    "04aaeb5d3833171d03f7aebed5507a34.bundle",
+    "08ef058b6e7c2e6313663a404b10057e.bundle",
+    "0d6672ca62d9901c741888b90d7518e0.bundle",
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "3659b7305ca15b167f90301cb1486d81.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8ef61329427adf594886b1d21069e6ea.bundle",
+    "a27c35d01bb8355d6212589acd9ee1f5.bundle",
+    "d479ed2037e7aafb23c271a15487c7df.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

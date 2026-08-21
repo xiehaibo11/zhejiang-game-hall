@@ -1,0 +1,48 @@
+{
+  "m_Name": "89ca20fe590507504741fd7444c4238a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -4482999612087020883
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4969961461209390278
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2273147517272305656
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollectsystem/effect/animation/sprite.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2273147517272305656
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "89ca20fe590507504741fd7444c4238a.bundle",
+  "m_Dependencies": [
+    "38edc53f032d1d9ac58a5c69e047f6d4.bundle",
+    "adc886242368e5d3035934ece2d8618f.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,162 @@
+{
+  "m_Name": "596a950ea73f5e8da8dc3e9b1c0e97e4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -1639054234971412948
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 1815766621309959125
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 5324888391488856973
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2448682356146462797
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4484412376548688832
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7843171915758545457
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691676500807756964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7191363892040520059
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5323106350350836744
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4723033390037290862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4300510407078839492
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3613714661504738139
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1280115932128251321
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 39987767225381984
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 145957904095223366
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 719349411321639911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1136892759551889040
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1244298977791672117
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2833666367456402227
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3429925820472159060
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3876425314509540891
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4041650467245029303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5134481227963511679
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5880723406862358240
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6404674498693508307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7426248238135334653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7590604876535293326
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6473445886783985192
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6104172249272298612
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/uiiconbutton/btncannonsoulimprint.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 31,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1244298977791672117
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "596a950ea73f5e8da8dc3e9b1c0e97e4.bundle",
+  "m_Dependencies": [
+    "0c56e7fbe613fe71c8a8dc24310b366a.bundle",
+    "60f633c38d637581f836aa7495cf86b8.bundle",
+    "85cd66e37160b6b7476a956a145ad94b.bundle",
+    "b9043637fe663fd4bc86b20b713c11ab.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

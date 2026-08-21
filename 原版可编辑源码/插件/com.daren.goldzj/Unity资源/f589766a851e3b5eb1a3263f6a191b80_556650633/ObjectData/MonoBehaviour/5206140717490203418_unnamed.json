@@ -1,0 +1,157 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8273677010617534078
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2849805326062129168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2849805326062129168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -203735671167453871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 318101219805454098
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6558847825956331221
+    }
+  ],
+  "m_BindComs_Name": [
+    "mStandAnimator",
+    "mDownAnimator",
+    "mOffsetScale",
+    "mPaoKou",
+    "mLaserPaoKou"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    90.0,
+    108.0,
+    1200.0,
+    0.0
+  ],
+  "m_BindFloat_Name": [
+    "DownScale",
+    "StandScale",
+    "DownZ",
+    "mAttackInterval"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [
+    {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    {
+      "x": -80.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  ],
+  "m_BindVector3_Name": [
+    "StandRotation",
+    "DownRotation"
+  ],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 7936570092395019321
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8855983495362876041
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1425174292371378686
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6112806674091037950
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3676800070057516365
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7340566461483937355
+        }
+      ]
+    },
+    {
+      "list": []
+    },
+    {
+      "list": []
+    },
+    {
+      "list": []
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 2957494912289526441
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8503958940962927255
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6943458988507468169
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3920300789485531813
+        }
+      ]
+    },
+    {
+      "list": []
+    },
+    {
+      "list": []
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mAttackEffectArr",
+    "LevelEffect1",
+    "LevelEffect2",
+    "LevelEffect3",
+    "mSkinObj",
+    "mWuQiObj",
+    "mPetObj"
+  ],
+  "hotfixClassFullName": "GameHotFix.Game.CubeCannonSoulSoul",
+  "m_ClassName": "CubeCannonSoulSoul"
+}

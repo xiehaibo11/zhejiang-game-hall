@@ -1,0 +1,43 @@
+{
+  "m_Name": "58d79a8f16b6a8bd65af34c7e4fc6e8a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 8706715373162484025
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6933546443863722874
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/gameactivity/ancienttrials/effect/animation/daygift 1.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6933546443863722874
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "58d79a8f16b6a8bd65af34c7e4fc6e8a.bundle",
+  "m_Dependencies": [
+    "e983f2ccaf072cd4a49ee6f53c2ce498.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

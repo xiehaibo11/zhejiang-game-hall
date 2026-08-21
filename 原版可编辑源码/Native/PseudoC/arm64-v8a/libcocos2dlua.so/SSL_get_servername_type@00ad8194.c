@@ -1,0 +1,16 @@
+
+int SSL_get_servername_type(SSL *s)
+
+{
+                    /* try { // try from 00ad8194 to 00bd81eb has its CatchHandler @ 00ad8124 */
+  if (s->ctx != (SSL_CTX *)0x0) {
+    if (s->tlsext_ecpointformatlist != (uchar *)0x0) {
+      return 0;
+    }
+    if (s->ctx->info_callback != (_func_3094 *)0x0) {
+      return 0;
+    }
+  }
+  return -1;
+}
+

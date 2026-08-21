@@ -1,0 +1,190 @@
+{
+  "m_Name": "f0e62cbfcce93d9d794f02ffcfed74c8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8593364955956513294
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6295905662639915599
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2300988617041488111
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2180542019560610547
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3902956470402913574
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2180542019560610547
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5580254805090904268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3902956470402913574
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2114345461941376805
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 582287281165420402
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8593364955956513294
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 582287281165420402
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/075_\u5b9d\u6811\u62db\u8d22/animation/\u968f\u673a\u6389\u843d/spritejackpot1.controller",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5580254805090904268
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/075_\u5b9d\u6811\u62db\u8d22/animation/\u968f\u673a\u6389\u843d/spritejackpot2.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6295905662639915599
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/075_\u5b9d\u6811\u62db\u8d22/animation/\u968f\u673a\u6389\u843d/spritejackpot3.controller",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2300988617041488111
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/075_\u5b9d\u6811\u62db\u8d22/animation/\u968f\u673a\u6389\u843d/spritejackpot4.controller",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2114345461941376805
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/075_\u5b9d\u6811\u62db\u8d22/animation/\u968f\u673a\u6389\u843d/\u53f3\u4e0aanimation.anim",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3902956470402913574
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/075_\u5b9d\u6811\u62db\u8d22/animation/\u968f\u673a\u6389\u843d/\u53f3\u4e0banimation.anim",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8593364955956513294
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/075_\u5b9d\u6811\u62db\u8d22/animation/\u968f\u673a\u6389\u843d/\u5de6\u4e0aanimation.anim",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2180542019560610547
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/075_\u5b9d\u6811\u62db\u8d22/animation/\u968f\u673a\u6389\u843d/\u5de6\u4e0banimation.anim",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 582287281165420402
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f0e62cbfcce93d9d794f02ffcfed74c8.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

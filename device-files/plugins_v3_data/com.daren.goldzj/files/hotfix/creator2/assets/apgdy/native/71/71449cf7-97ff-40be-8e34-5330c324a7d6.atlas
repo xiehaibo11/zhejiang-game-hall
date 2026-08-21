@@ -1,0 +1,97 @@
+
+Anniu_tx.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2a
+  rotate: false
+  xy: 2, 218
+  size: 219, 79
+  orig: 219, 79
+  offset: 0, 0
+  index: -1
+bd
+  rotate: false
+  xy: 456, 136
+  size: 18, 9
+  orig: 100, 100
+  offset: 42, 44
+  index: -1
+tx1_00000
+  rotate: true
+  xy: 387, 137
+  size: 160, 67
+  orig: 180, 87
+  offset: 9, 9
+  index: -1
+tx1_00001
+  rotate: false
+  xy: 223, 232
+  size: 162, 65
+  orig: 180, 87
+  offset: 8, 10
+  index: -1
+tx1_00002
+  rotate: false
+  xy: 223, 167
+  size: 162, 63
+  orig: 180, 87
+  offset: 8, 11
+  index: -1
+tx1_00003
+  rotate: false
+  xy: 2, 154
+  size: 162, 62
+  orig: 180, 87
+  offset: 8, 12
+  index: -1
+tx1_00004
+  rotate: false
+  xy: 166, 103
+  size: 161, 62
+  orig: 180, 87
+  offset: 8, 12
+  index: -1
+tx1_00005
+  rotate: false
+  xy: 2, 89
+  size: 160, 63
+  orig: 180, 87
+  offset: 8, 12
+  index: -1
+tx1_00006
+  rotate: false
+  xy: 329, 70
+  size: 159, 64
+  orig: 180, 87
+  offset: 9, 12
+  index: -1
+tx1_00007
+  rotate: false
+  xy: 164, 35
+  size: 158, 66
+  orig: 180, 87
+  offset: 10, 10
+  index: -1
+tx1_00008
+  rotate: false
+  xy: 324, 2
+  size: 156, 66
+  orig: 180, 87
+  offset: 11, 10
+  index: -1
+tx1_00009
+  rotate: false
+  xy: 2, 21
+  size: 157, 66
+  orig: 180, 87
+  offset: 11, 10
+  index: -1
+tx1_00010
+  rotate: true
+  xy: 456, 147
+  size: 150, 52
+  orig: 180, 87
+  offset: 14, 17
+  index: -1

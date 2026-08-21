@@ -1,0 +1,64 @@
+{
+  "m_Name": "eb5db2566db95d94f70f3a3461d7e1e8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2075255048033915098
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 605740172887618519
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 605740172887618519
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/shizhiyong_ceshi/animation_test/skill_bingdong_eff.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2075255048033915098
+        }
+      }
+    ],
+    [
+      "assets/shizhiyong_ceshi/animation_test/skill_ui_ani.anim",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 605740172887618519
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "eb5db2566db95d94f70f3a3461d7e1e8.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

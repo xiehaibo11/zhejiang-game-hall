@@ -1,0 +1,48 @@
+{
+  "m_Name": "e926fc1edaefa765b119f26fefeaa109.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2792092331615839564
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2877505165128907035
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/celebratecny/effect/material/jianzhi 2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2877505165128907035
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e926fc1edaefa765b119f26fefeaa109.bundle",
+  "m_Dependencies": [
+    "3b377df617571a7709b7dc6dc3d354e0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

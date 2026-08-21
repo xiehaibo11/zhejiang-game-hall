@@ -1,0 +1,61 @@
+{
+  "m_Name": "850556c3187df4bb6dd6408866eeda6e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6506864587845560445
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3472926915011044063
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6105773888259168751
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8922603602065623644
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -978765501424444384
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneralboss/2004/materials_1.0/fengshen_eye.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6506864587845560445
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "850556c3187df4bb6dd6408866eeda6e.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "88676551fb41cd4e44fe4d856ff17313.bundle",
+    "b54772e460eb43fcfa1e4c15155ec005.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

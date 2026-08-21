@@ -1,0 +1,52 @@
+{
+  "m_Name": "c49f01d3aed2fd4209c8932abb9aebb8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6204283932433304204
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3782018178475720237
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/\u7279\u6548\u6536\u5f55\u6574\u7406/texture/line_xdj_01.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6204283932433304204
+        }
+      }
+    ],
+    [
+      "assets/arts/\u7279\u6548\u6536\u5f55\u6574\u7406/texture/ramp.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3782018178475720237
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "c49f01d3aed2fd4209c8932abb9aebb8.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

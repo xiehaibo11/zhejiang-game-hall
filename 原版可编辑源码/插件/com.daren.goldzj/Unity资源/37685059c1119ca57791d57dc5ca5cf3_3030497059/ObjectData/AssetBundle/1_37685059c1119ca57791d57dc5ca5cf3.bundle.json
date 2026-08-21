@@ -1,0 +1,100 @@
+{
+  "m_Name": "37685059c1119ca57791d57dc5ca5cf3.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9147691240776163544
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8842910492474139753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7697356098754951311
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7645030657294637481
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6102898667727112759
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3956528113818555997
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2981984812242130107
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1395593475438597547
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1280993022642887534
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -845233849260586503
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 119225912561970680
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4621470632541613213
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5092553207634027848
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3251284424322249657
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6149367900439184884
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuangchongli/effect/prefab/effect_lihui_fenwei_fs.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 16,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1280993022642887534
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "37685059c1119ca57791d57dc5ca5cf3.bundle",
+  "m_Dependencies": [
+    "22128d25127ea922225dee4fc32a517f.bundle",
+    "40dc85b1094ccc587534980d792d3043.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,137 @@
+{
+  "m_Name": "7eb2946deff5e0ac518e4ac82dc0038c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 4621237806712103936
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7780363512455693850
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1269916320327045743
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 4243542892131895193
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8065647648689458690
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7550207627457096871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6466011747351376441
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5799714153331568861
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4029610379552497819
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3932000673921931593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3184403075718851380
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -294837564542176130
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 471748044698302511
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1614201633547629237
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3092617314290981275
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5212095957804152136
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5335007435106914094
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5414040833457439693
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5427832175680544706
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6843275521601599032
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7173761663862433515
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/purplediamondrefund/little1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 25,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7173761663862433515
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7eb2946deff5e0ac518e4ac82dc0038c.bundle",
+  "m_Dependencies": [
+    "3977de1153561002a3ace60173878412.bundle",
+    "beeaa3813750d29636ed5aabf7184114.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

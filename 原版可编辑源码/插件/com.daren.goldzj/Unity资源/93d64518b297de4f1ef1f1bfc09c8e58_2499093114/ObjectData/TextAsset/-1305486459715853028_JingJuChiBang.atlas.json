@@ -1,0 +1,4 @@
+{
+  "m_Name": "JingJuChiBang.atlas",
+  "m_Script": "\r\nJingJuChiBang.png\r\nsize: 512,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\ncb_qizhi01\r\n  rotate: false\r\n  xy: 2, 272\r\n  size: 208, 234\r\n  orig: 208, 234\r\n  offset: 0, 0\r\n  index: -1\r\ncb_qizhi02\r\n  rotate: false\r\n  xy: 2, 61\r\n  size: 143, 209\r\n  orig: 143, 209\r\n  offset: 0, 0\r\n  index: -1\r\ncb_qizhi03\r\n  rotate: false\r\n  xy: 212, 379\r\n  size: 56, 127\r\n  orig: 56, 127\r\n  offset: 0, 0\r\n  index: -1\r\ncb_zhou\r\n  rotate: true\r\n  xy: 147, 171\r\n  size: 99, 63\r\n  orig: 99, 63\r\n  offset: 0, 0\r\n  index: -1\r\ncb_zuocaihuan\r\n  rotate: true\r\n  xy: 2, 2\r\n  size: 57, 96\r\n  orig: 57, 96\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

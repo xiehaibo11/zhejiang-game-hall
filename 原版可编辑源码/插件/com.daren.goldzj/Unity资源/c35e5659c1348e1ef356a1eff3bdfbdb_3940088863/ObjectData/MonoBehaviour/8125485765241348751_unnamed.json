@@ -1,0 +1,121 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4015259624313810906
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 470600288393357433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4475330217141595994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5608574804090703997
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8934798849022138620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4455784296388508821
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6569446386652526808
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6807596058784679278
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 996251597447894195
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7538521690019057657
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_Icon",
+    "m_IconTianTi",
+    "m_IconTip",
+    "m_RankBG",
+    "m_RankArrow",
+    "m_RankPanel",
+    "m_RankText",
+    "m_RankAnimText1",
+    "m_RankAnimText2"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 6864195862257484516
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8033324438457170566
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 863079363761979932
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 668946984419480488
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -219969177254466915
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -3637690670126032524
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7715116016836846228
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "m_Effects",
+    "m_RankArrowEffects"
+  ],
+  "hotfixClassFullName": "GameHotFix.LeagueRanking.BtnLeagueRanking",
+  "m_ClassName": "BtnLeagueRanking"
+}

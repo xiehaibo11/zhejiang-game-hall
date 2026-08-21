@@ -1,0 +1,43 @@
+{
+  "m_Name": "cb74d7507c70f4f5f601c02e7a1b9af5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6214581959555061919
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1718302739106191352
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bosschallengeskin2/effect/animation/body 1.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6214581959555061919
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "cb74d7507c70f4f5f601c02e7a1b9af5.bundle",
+  "m_Dependencies": [
+    "e766886e471c0efe55148ebd767f55bc.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

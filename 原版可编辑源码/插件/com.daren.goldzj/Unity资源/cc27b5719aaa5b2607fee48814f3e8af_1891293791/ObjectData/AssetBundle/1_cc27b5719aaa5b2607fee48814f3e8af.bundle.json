@@ -1,0 +1,60 @@
+{
+  "m_Name": "cc27b5719aaa5b2607fee48814f3e8af.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6105440294753764061
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4983500687285276118
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3160335237833459655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 256300220450597408
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/wealthtrain/touzi/shaizi@camera.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3160335237833459655
+        }
+      }
+    ],
+    [
+      "assets/bundleresources/panel/wealthtrain/touzi/shaizi@camera.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 256300220450597408
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "cc27b5719aaa5b2607fee48814f3e8af.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

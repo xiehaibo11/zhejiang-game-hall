@@ -1,0 +1,62 @@
+{
+  "m_Name": "e238f9ba02c7db12c5c29919a24448a2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 993685577516033977
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -6203286306770986738
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3761787917569649998
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1218271442886442551
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -1002337425518791008
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactdiscount/effect/material/mask02_gghl 3.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1218271442886442551
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e238f9ba02c7db12c5c29919a24448a2.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "14da93d387c72baeaaa3ace9979409ba.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,37 @@
+{
+  "m_Name": "51ac015d2ce12af41a9cac6714ac34fc.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2784843437836834619
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/newspringtreasurehunt/effect/texture/ui_zqxb_title.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2784843437836834619
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "51ac015d2ce12af41a9cac6714ac34fc.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

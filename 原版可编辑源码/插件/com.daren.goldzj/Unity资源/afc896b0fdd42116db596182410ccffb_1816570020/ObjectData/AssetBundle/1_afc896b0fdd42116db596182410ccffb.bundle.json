@@ -1,0 +1,101 @@
+{
+  "m_Name": "afc896b0fdd42116db596182410ccffb.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -388755394421054975
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6740217950998165854
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5575540886284654277
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3782566337151006479
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -388755394421054975
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7792026291548445526
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -388755394421054975
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7792026291548445526
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_common_android/common_android.mat",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7792026291548445526
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_common_android/common_android.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -388755394421054975
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_common_android/common_android.prefab",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3782566337151006479
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "afc896b0fdd42116db596182410ccffb.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

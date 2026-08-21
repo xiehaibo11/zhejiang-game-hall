@@ -1,0 +1,206 @@
+{
+  "m_Name": "b29ac054d68a827d7650713adfa36c5f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8753816931901024313
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2542793480341980435
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5114600644573222702
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9027254216320476532
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8753816931901024313
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2912221670085330843
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1319801563222424276
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6727745463370304536
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9077324680637316807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5851068731416208594
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6753469194202366167
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1176874743814994113
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8080622377647214847
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8753816931901024313
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2912221670085330843
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/bg_ph_qyyl_bjt.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1176874743814994113
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/cannonsoulpreview.mat",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2912221670085330843
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/cannonsoulpreview.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8753816931901024313
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/cannonsoulpreview.prefab",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9027254216320476532
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/img_ph_bg.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6753469194202366167
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/img_ph_hqb_qyyl_spkzz.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5114600644573222702
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/img_ph_qyyl_bfjj.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9077324680637316807
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/img_ph_qyyl_spd.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2542793480341980435
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/img_ph_qyyl_wslb.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8080622377647214847
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_cannonsoulpreview/spk_zz.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5851068731416208594
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b29ac054d68a827d7650713adfa36c5f.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

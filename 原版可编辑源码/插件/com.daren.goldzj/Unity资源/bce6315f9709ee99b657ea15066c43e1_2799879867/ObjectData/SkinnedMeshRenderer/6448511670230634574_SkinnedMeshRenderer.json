@@ -1,0 +1,108 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3897718632882520913
+  },
+  "m_Enabled": true,
+  "m_CastShadows": 1,
+  "m_ReceiveShadows": 1,
+  "m_DynamicOccludee": 1,
+  "m_StaticShadowCaster": 0,
+  "m_MotionVectors": 1,
+  "m_LightProbeUsage": 1,
+  "m_ReflectionProbeUsage": 1,
+  "m_RayTracingMode": 3,
+  "m_RayTraceProcedural": 0,
+  "m_RenderingLayerMask": 1,
+  "m_RendererPriority": 0,
+  "m_LightmapIndex": 65535,
+  "m_LightmapIndexDynamic": 65535,
+  "m_LightmapTilingOffset": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_LightmapTilingOffsetDynamic": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Materials": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -8601503853779571295
+    }
+  ],
+  "m_StaticBatchInfo": {
+    "firstSubMesh": 0,
+    "subMeshCount": 0
+  },
+  "m_StaticBatchRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ProbeAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_LightProbeVolumeOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_SortingLayerID": 0,
+  "m_SortingLayer": 0,
+  "m_SortingOrder": 0,
+  "m_Quality": 0,
+  "m_UpdateWhenOffscreen": false,
+  "m_SkinnedMotionVectors": true,
+  "m_Mesh": {
+    "m_FileID": 0,
+    "m_PathID": -7991510424114043436
+  },
+  "m_Bones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8852138655532794487
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4109944131570280578
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3968932055285816617
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2852569307771749483
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1724761898487621018
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6477296808752555695
+    }
+  ],
+  "m_BlendShapeWeights": [],
+  "m_RootBone": {
+    "m_FileID": 0,
+    "m_PathID": -4109944131570280578
+  },
+  "m_AABB": {
+    "m_Center": {
+      "x": 0.13328281044960022,
+      "y": -0.007617972791194916,
+      "z": 0.00829089805483818
+    },
+    "m_Extent": {
+      "x": 0.21843329071998596,
+      "y": 0.0901828333735466,
+      "z": 0.07998287677764893
+    }
+  },
+  "m_DirtyAABB": false
+}

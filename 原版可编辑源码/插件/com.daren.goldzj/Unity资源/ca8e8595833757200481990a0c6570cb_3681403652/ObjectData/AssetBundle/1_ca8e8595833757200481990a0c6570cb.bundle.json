@@ -1,0 +1,201 @@
+{
+  "m_Name": "ca8e8595833757200481990a0c6570cb.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -8015653803937407279
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -5813001676051589406
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -6007098486181911110
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -5421894792698611241
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8790968698285191370
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8620546628545067745
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7896890079559404614
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7396287875157063913
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7042048569204757156
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7037407947277202800
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6492940006876596580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5491482282215858712
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5437907200091163680
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3911738674469280157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3054936821941930326
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3030656177598952523
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -315030228305620227
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 486748475621542682
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1274428416494928923
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2579244501179145197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2653489021440387393
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2773727872795272172
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4043476205690940901
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4051625655656649559
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5763606617313997717
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6146380352500105872
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6260757615489035307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6686112247759140701
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6855026874498015880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7700266186911081844
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7770959066180420194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8102965105480359716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8477078931359997126
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8776411112818790911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9202454401006530641
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1229433548005505531
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1218271442886442551
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": 300247564625692073
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactgift/spinezky.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 40,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6260757615489035307
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ca8e8595833757200481990a0c6570cb.bundle",
+  "m_Dependencies": [
+    "995d38e1d832d293b073eae581422473.bundle",
+    "a6d129b870dc02628cc0975bb016ea09.bundle",
+    "b752fb31562bb6a6b5930551108ae83b.bundle",
+    "cdabd633ba58adc3f30371a8f3890a52.bundle",
+    "e238f9ba02c7db12c5c29919a24448a2.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle",
+    "ee30215828f56873eb26ab98edd87807.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

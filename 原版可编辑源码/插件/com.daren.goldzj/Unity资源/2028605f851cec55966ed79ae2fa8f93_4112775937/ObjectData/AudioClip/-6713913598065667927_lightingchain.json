@@ -1,0 +1,20 @@
+{
+  "m_Name": "lightingchain",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 32000,
+  "m_BitsPerSample": 16,
+  "m_Length": 2.438093662261963,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-1b8c97315e53a610ce8dfb0e6cdc729c/CAB-1b8c97315e53a610ce8dfb0e6cdc729c.resource",
+    "m_Offset": 0,
+    "m_Size": 15648
+  },
+  "m_CompressionFormat": 1
+}

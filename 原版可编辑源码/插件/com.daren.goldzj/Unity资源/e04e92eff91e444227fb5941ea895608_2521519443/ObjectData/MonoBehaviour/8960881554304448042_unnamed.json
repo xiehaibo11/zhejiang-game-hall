@@ -1,0 +1,75 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1238984321425396427
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5045385832451946240
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6250986169955889046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5160835685342251448
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3093882003112071731
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5681086924243738703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3999953549519226105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4913880599375208995
+    }
+  ],
+  "m_BindComs_Name": [
+    "TxtItemNumNormal",
+    "TxtItemNumDouble",
+    "TxtLevel",
+    "TxtDoubleRewardCountdown",
+    "ImgItemIcon",
+    "ObjClaimableEffs",
+    "BtnClaimable"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0
+  ],
+  "m_BindBool_Name": [
+    "Clickable"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.FantasyHunterPlus.FantasyTreasureHuntPlusRewardItem",
+  "m_ClassName": "FantasyTreasureHuntPlusRewardItem"
+}

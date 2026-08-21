@@ -1,0 +1,210 @@
+
+/* cocos2d::Texture2D::convertRGB888ToRGBA8888(unsigned char const*, long, unsigned char*) */
+
+void cocos2d::Texture2D::convertRGB888ToRGBA8888(uchar *param_1,long param_2,uchar *param_3)
+
+{
+  ulong uVar1;
+  uchar *puVar2;
+  ulong uVar3;
+  long lVar4;
+  uchar *puVar5;
+  ulong uVar6;
+  uchar uVar7;
+  uchar uVar8;
+  uchar uVar9;
+  uchar uVar10;
+  uchar uVar11;
+  uchar uVar12;
+  uchar uVar13;
+  uchar uVar14;
+  uchar uVar15;
+  uchar uVar16;
+  uchar uVar17;
+  uchar uVar18;
+  uchar uVar19;
+  uchar uVar20;
+  uchar uVar21;
+  uchar uVar22;
+  uchar uVar23;
+  uchar uVar24;
+  uchar uVar25;
+  uchar uVar26;
+  uchar uVar27;
+  uchar uVar28;
+  uchar uVar29;
+  uchar uVar30;
+  uchar uVar31;
+  uchar uVar32;
+  uchar uVar33;
+  uchar uVar34;
+  uchar uVar35;
+  uchar uVar36;
+  uchar uVar37;
+  uchar uVar38;
+  uchar uVar39;
+  uchar uVar40;
+  uchar uVar41;
+  uchar uVar42;
+  uchar uVar43;
+  uchar uVar44;
+  uchar uVar45;
+  uchar uVar46;
+  uchar uVar47;
+  uchar uVar48;
+  uchar uVar49;
+  uchar uVar50;
+  uchar uVar51;
+  uchar uVar52;
+  uchar uVar53;
+  uchar uVar54;
+  
+  if (0 < param_2 + -2) {
+    uVar3 = (param_2 - 3U) / 3;
+    uVar1 = uVar3 + 1;
+    if ((uVar1 < 0x10) ||
+       ((param_3 < param_1 + uVar3 * 3 + 3 && (param_1 < param_3 + uVar3 * 4 + 4)))) {
+      lVar4 = 0;
+      puVar5 = param_3;
+    }
+    else {
+      uVar6 = uVar1 & 0x7ffffffffffffff0;
+      puVar5 = param_3 + uVar6 * 4;
+      lVar4 = uVar6 * 3;
+      uVar3 = uVar6;
+      puVar2 = param_1;
+      do {
+        uVar7 = *puVar2;
+        uVar23 = puVar2[1];
+        uVar39 = puVar2[2];
+        uVar8 = puVar2[3];
+        uVar24 = puVar2[4];
+        uVar40 = puVar2[5];
+        uVar9 = puVar2[6];
+        uVar25 = puVar2[7];
+        uVar41 = puVar2[8];
+        uVar10 = puVar2[9];
+        uVar26 = puVar2[10];
+        uVar42 = puVar2[0xb];
+        uVar11 = puVar2[0xc];
+        uVar27 = puVar2[0xd];
+        uVar43 = puVar2[0xe];
+        uVar12 = puVar2[0xf];
+        uVar28 = puVar2[0x10];
+        uVar44 = puVar2[0x11];
+        uVar13 = puVar2[0x12];
+        uVar29 = puVar2[0x13];
+        uVar45 = puVar2[0x14];
+        uVar14 = puVar2[0x15];
+        uVar30 = puVar2[0x16];
+        uVar46 = puVar2[0x17];
+        uVar15 = puVar2[0x18];
+        uVar31 = puVar2[0x19];
+        uVar47 = puVar2[0x1a];
+        uVar16 = puVar2[0x1b];
+        uVar32 = puVar2[0x1c];
+        uVar48 = puVar2[0x1d];
+        uVar17 = puVar2[0x1e];
+        uVar33 = puVar2[0x1f];
+        uVar49 = puVar2[0x20];
+        uVar18 = puVar2[0x21];
+        uVar34 = puVar2[0x22];
+        uVar50 = puVar2[0x23];
+        uVar19 = puVar2[0x24];
+        uVar35 = puVar2[0x25];
+        uVar51 = puVar2[0x26];
+        uVar20 = puVar2[0x27];
+        uVar36 = puVar2[0x28];
+        uVar52 = puVar2[0x29];
+        uVar21 = puVar2[0x2a];
+        uVar37 = puVar2[0x2b];
+        uVar53 = puVar2[0x2c];
+        uVar22 = puVar2[0x2d];
+        uVar38 = puVar2[0x2e];
+        uVar54 = puVar2[0x2f];
+        puVar2 = puVar2 + 0x30;
+        uVar3 = uVar3 - 0x10;
+        *param_3 = uVar7;
+        param_3[1] = uVar23;
+        param_3[2] = uVar39;
+        param_3[3] = 0xff;
+        param_3[4] = uVar8;
+        param_3[5] = uVar24;
+        param_3[6] = uVar40;
+        param_3[7] = 0xff;
+        param_3[8] = uVar9;
+        param_3[9] = uVar25;
+        param_3[10] = uVar41;
+        param_3[0xb] = 0xff;
+        param_3[0xc] = uVar10;
+        param_3[0xd] = uVar26;
+        param_3[0xe] = uVar42;
+        param_3[0xf] = 0xff;
+        param_3[0x10] = uVar11;
+        param_3[0x11] = uVar27;
+        param_3[0x12] = uVar43;
+        param_3[0x13] = 0xff;
+        param_3[0x14] = uVar12;
+        param_3[0x15] = uVar28;
+        param_3[0x16] = uVar44;
+        param_3[0x17] = 0xff;
+        param_3[0x18] = uVar13;
+        param_3[0x19] = uVar29;
+        param_3[0x1a] = uVar45;
+        param_3[0x1b] = 0xff;
+        param_3[0x1c] = uVar14;
+        param_3[0x1d] = uVar30;
+        param_3[0x1e] = uVar46;
+        param_3[0x1f] = 0xff;
+        param_3[0x20] = uVar15;
+        param_3[0x21] = uVar31;
+        param_3[0x22] = uVar47;
+        param_3[0x23] = 0xff;
+        param_3[0x24] = uVar16;
+        param_3[0x25] = uVar32;
+        param_3[0x26] = uVar48;
+        param_3[0x27] = 0xff;
+        param_3[0x28] = uVar17;
+        param_3[0x29] = uVar33;
+        param_3[0x2a] = uVar49;
+        param_3[0x2b] = 0xff;
+        param_3[0x2c] = uVar18;
+        param_3[0x2d] = uVar34;
+        param_3[0x2e] = uVar50;
+        param_3[0x2f] = 0xff;
+        param_3[0x30] = uVar19;
+        param_3[0x31] = uVar35;
+        param_3[0x32] = uVar51;
+        param_3[0x33] = 0xff;
+        param_3[0x34] = uVar20;
+        param_3[0x35] = uVar36;
+        param_3[0x36] = uVar52;
+        param_3[0x37] = 0xff;
+        param_3[0x38] = uVar21;
+        param_3[0x39] = uVar37;
+        param_3[0x3a] = uVar53;
+        param_3[0x3b] = 0xff;
+        param_3[0x3c] = uVar22;
+        param_3[0x3d] = uVar38;
+        param_3[0x3e] = uVar54;
+        param_3[0x3f] = 0xff;
+        param_3 = param_3 + 0x40;
+      } while (uVar3 != 0);
+      if (uVar1 == uVar6) {
+        return;
+      }
+    }
+    do {
+      puVar2 = param_1 + lVar4;
+      lVar4 = lVar4 + 3;
+      *puVar5 = *puVar2;
+      puVar5[1] = puVar2[1];
+      uVar7 = puVar2[2];
+      puVar5[3] = 0xff;
+      puVar5[2] = uVar7;
+      puVar5 = puVar5 + 4;
+    } while (lVar4 < param_2 + -2);
+  }
+  return;
+}
+

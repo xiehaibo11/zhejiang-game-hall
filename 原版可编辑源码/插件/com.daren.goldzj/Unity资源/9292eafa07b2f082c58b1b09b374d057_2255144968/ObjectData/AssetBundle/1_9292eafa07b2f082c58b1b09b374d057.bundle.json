@@ -1,0 +1,52 @@
+{
+  "m_Name": "9292eafa07b2f082c58b1b09b374d057.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2229526002915457182
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2069694009047230722
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4197483207113290859
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifact/specialoffergift/spine/taishanglaojun_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4197483207113290859
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9292eafa07b2f082c58b1b09b374d057.bundle",
+  "m_Dependencies": [
+    "76b50a691662d6c449d41edbb9aac34f.bundle",
+    "e5f33fe860e0005e42f8cb466fb815ef.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

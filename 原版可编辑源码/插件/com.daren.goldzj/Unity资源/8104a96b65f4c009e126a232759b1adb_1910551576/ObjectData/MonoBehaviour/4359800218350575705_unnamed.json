@@ -1,0 +1,87 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 322812589182502425
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1603845358973393290
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3671648763558892094
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7026986680930401287
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 841218698037428938
+    }
+  ],
+  "m_BindComs_Name": [
+    "LabelTime",
+    "LabelTimeTitle",
+    "Banner",
+    "Rule"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 18,
+          "m_PathID": 9206524815770204943
+        },
+        {
+          "m_FileID": 20,
+          "m_PathID": -8631418495437763978
+        },
+        {
+          "m_FileID": 17,
+          "m_PathID": -1402386940177985316
+        },
+        {
+          "m_FileID": 16,
+          "m_PathID": -7641006438881510210
+        },
+        {
+          "m_FileID": 21,
+          "m_PathID": 437839728156070765
+        },
+        {
+          "m_FileID": 22,
+          "m_PathID": -3597487996167805163
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "BannerTextures"
+  ],
+  "hotfixClassFullName": "GameHotFix.GuMuTanMi.GuMuTanMiBanner",
+  "m_ClassName": "GuMuTanMiBanner"
+}

@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1866068711278605006
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5076562711568817628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8657200793728602392
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1450811738427532167
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7936743181515154745
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1270842588931918500
+    }
+  ],
+  "m_BindComs_Name": [
+    "mNeedScore",
+    "mRewardNum",
+    "mExchangeBtn",
+    "mExchangeGrayBtn",
+    "mGrayBtn"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.CardCollectSystem.CardCollectSystemExchangeItem",
+  "m_ClassName": "CardCollectSystemExchangeItem"
+}

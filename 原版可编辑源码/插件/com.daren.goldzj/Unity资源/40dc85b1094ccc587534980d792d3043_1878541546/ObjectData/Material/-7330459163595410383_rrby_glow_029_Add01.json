@@ -1,0 +1,141 @@
+{
+  "m_Name": "rrby_glow_029_Add01",
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 1051898553619849584
+  },
+  "m_ValidKeywords": [],
+  "m_InvalidKeywords": [
+    "_DISSLOVE_ON_ON"
+  ],
+  "m_LightmapFlags": 4,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": true,
+  "m_CustomRenderQueue": -1,
+  "stringTagMap": [],
+  "disabledShaderPasses": [],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_Mask",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_rosion_texture",
+        {
+          "m_Texture": {
+            "m_FileID": 4,
+            "m_PathID": 3701275520610715427
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_vetex_Move_Nose",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_wenli",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": -5060063615159818483
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Ints": [],
+    "m_Floats": [
+      [
+        "_",
+        0.0
+      ],
+      [
+        "_rosion_u",
+        0.20000000298023224
+      ],
+      [
+        "_rosion_v",
+        0.0
+      ],
+      [
+        "_soft_value",
+        1.0
+      ],
+      [
+        "_vetex_u",
+        0.0
+      ],
+      [
+        "_vetex_v",
+        0.0
+      ],
+      [
+        "_wenli_Nose",
+        0.0
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_Vetex_s",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      ],
+      [
+        "_color",
+        {
+          "r": 4.237094879150391,
+          "g": 4.237094879150391,
+          "b": 4.237094879150391,
+          "a": 1.0
+        }
+      ]
+    ]
+  },
+  "m_BuildTextureStacks": []
+}

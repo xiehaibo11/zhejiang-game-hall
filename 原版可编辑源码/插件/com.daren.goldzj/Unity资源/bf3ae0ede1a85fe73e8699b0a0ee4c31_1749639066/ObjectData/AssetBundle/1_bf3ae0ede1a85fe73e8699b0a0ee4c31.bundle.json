@@ -1,0 +1,138 @@
+{
+  "m_Name": "bf3ae0ede1a85fe73e8699b0a0ee4c31.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 2572051063543559489
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7550166481443602060
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6386452196729394065
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5930217019639602769
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5766306141274248105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4575536246079713715
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3683047046629417889
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3032281746282100723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2002960175568266344
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1466611461492581023
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 186189842545526900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2657897068584355510
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2996726239490806460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4400421688481412645
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4429078855471006660
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6557510618418467109
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7090692539139737280
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8005614406063384989
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8590317642349600116
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -5283777822209504163
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 300247564625692073
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cardcollect/gift/effect/prefab/cardcollectpkggiftpanel_fenwei_jinbi.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 25,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6557510618418467109
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "bf3ae0ede1a85fe73e8699b0a0ee4c31.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "ee30215828f56873eb26ab98edd87807.bundle",
+    "efa99c91ee7dc541212056d6d02ca1ad.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

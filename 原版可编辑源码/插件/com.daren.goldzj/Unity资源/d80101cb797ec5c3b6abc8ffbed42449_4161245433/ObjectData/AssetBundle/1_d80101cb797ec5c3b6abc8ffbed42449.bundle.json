@@ -1,0 +1,412 @@
+{
+  "m_Name": "d80101cb797ec5c3b6abc8ffbed42449.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1732284963337219121
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7532847184008330022
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5742014854428182856
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6233426995528660592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6324603902758079998
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7964264877296683274
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9172841982665728330
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4968889197999295655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3899802984758447331
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7687060327716481828
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7635192282401657956
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4701434995067355830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4343914695220878337
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8476057853670055297
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9197112927790263458
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2980241954260941774
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4169337631107960987
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6524432932206828912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7264167713637968520
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3066430426574651601
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3090619518206564908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 624625818327866230
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3073674443640514074
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8922318582985947645
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8440731296473625289
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8282884762837711703
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/heibaishan_xcn_01.png",
+      {
+        "preloadIndex": 23,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8922318582985947645
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/heibaishan_xcn_02.png",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3090619518206564908
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/heibaishan_xcn_03.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6233426995528660592
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/line_xcn_01.png",
+      {
+        "preloadIndex": 19,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3066430426574651601
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/line_xcn_03.png",
+      {
+        "preloadIndex": 21,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 624625818327866230
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/mask_xcn_01.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9197112927790263458
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/mask_xcn_02.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4343914695220878337
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/mask_xcn_03.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6324603902758079998
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/noise_xcn_01.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7687060327716481828
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/other_xcn_01.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5742014854428182856
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/other_xcn_03.png",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3073674443640514074
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/other_xcn_04.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4968889197999295655
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/other_xcn_05.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4701434995067355830
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/ramp_xcn_01.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1732284963337219121
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/ramp_xcn_02.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7532847184008330022
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/ring_xcn_01.png",
+      {
+        "preloadIndex": 24,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8440731296473625289
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/star_fh_01.png",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7264167713637968520
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/star_xcn_01.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7635192282401657956
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/star_xcn_02.png",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6524432932206828912
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/star_xcn_03.png",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4169337631107960987
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/star_xcn_04.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7964264877296683274
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/trail_0001.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3899802984758447331
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/trail_xcn_01.png",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2980241954260941774
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/trail_xcn_02.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8476057853670055297
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/trail_xcn_03.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9172841982665728330
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/111_xiaochounv/texture/trail_xcn_04.png",
+      {
+        "preloadIndex": 25,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8282884762837711703
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d80101cb797ec5c3b6abc8ffbed42449.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

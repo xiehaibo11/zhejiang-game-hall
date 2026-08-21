@@ -1,0 +1,53 @@
+{
+  "m_Name": "450d591a86f5bedd6dc1548f88583544.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9043177456888874728
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 5730103278193220377
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5262192028601837927
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3490516718532755634
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneralboss/1002/animation/godgeneral_1002_skillv2.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9043177456888874728
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "450d591a86f5bedd6dc1548f88583544.bundle",
+  "m_Dependencies": [
+    "623fe783c1ef02b62d4fff2798d971ba.bundle",
+    "8654aba27beb1f20217c487b27bc2d71.bundle",
+    "89e20525cf1763ecb24047b2510628bd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,99 @@
+{
+  "m_Name": "972da9e9485200f7989fd0f8ca921ed0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -5329129136922731929
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4346392144181995951
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2115565061122182698
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7534283389971855680
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691676500807756964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7070341348379555550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5413708668434615747
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4940621261794508051
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 233439040495154621
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 800706934196958303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1439199283382896885
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4272351929717971663
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6457552272789472023
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8581734719928290524
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyufiledfx/buyu_jiangquananimation.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 16,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5413708668434615747
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "972da9e9485200f7989fd0f8ca921ed0.bundle",
+  "m_Dependencies": [
+    "5c502c268249dd813bc6456ea161b1e5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

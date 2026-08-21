@@ -1,0 +1,113 @@
+{
+  "m_Name": "rrby_point_044_HLZQ",
+  "m_Shader": {
+    "m_FileID": 2,
+    "m_PathID": -4452167747990929222
+  },
+  "m_ValidKeywords": [
+    "_SWITCH_SDR_ADD"
+  ],
+  "m_InvalidKeywords": [
+    "_DISSLOVE_ON_ON"
+  ],
+  "m_LightmapFlags": 4,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": false,
+  "m_CustomRenderQueue": -1,
+  "stringTagMap": [],
+  "disabledShaderPasses": [],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_Disslove",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_tex_A",
+        {
+          "m_Texture": {
+            "m_FileID": 1,
+            "m_PathID": 5604827446656608278
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_tex_B",
+        {
+          "m_Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Ints": [],
+    "m_Floats": [
+      [
+        "_Atex_U_speed",
+        0.0
+      ],
+      [
+        "_Atex_V_speed",
+        0.0
+      ],
+      [
+        "_Btex_U_speed",
+        0.0
+      ],
+      [
+        "_Btex_V_speed",
+        0.0
+      ],
+      [
+        "_Disslove_on",
+        1.0
+      ],
+      [
+        "_Switch_SDR",
+        1.0
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_DuffuseColor",
+        {
+          "r": 1.515716552734375,
+          "g": 1.1272521018981934,
+          "b": 0.515819787979126,
+          "a": 1.0
+        }
+      ]
+    ]
+  },
+  "m_BuildTextureStacks": []
+}

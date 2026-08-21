@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4021203958231055653
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4552051021364574833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5373617245373302107
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8807066063412023335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6644990961202359136
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9015680064900552434
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2121906436783800112
+    }
+  ],
+  "m_BindComs_Name": [
+    "PanelTweenScale",
+    "MessageLabel",
+    "UserXieYiBtn",
+    "YinShiXieYiBtn",
+    "JuJueBtn",
+    "TongYiBtn"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Login.LoginMessagePanel",
+  "m_ClassName": "LoginMessagePanel"
+}

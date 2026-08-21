@@ -1,0 +1,174 @@
+{
+  "m_Name": "f5f229ae3d2c7dc2c55e7bb04c924db0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7349797979364504794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6687246231087953564
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8954855455580187241
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9106387744164873730
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6687246231087953564
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9106387744164873730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8954855455580187241
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7349797979364504794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6687246231087953564
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5207320634343608381
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3553614084849796791
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8954855455580187241
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9106387744164873730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6687246231087953564
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5207320634343608381
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_070_\u56fd\u5e86\u70ae\u53f0/sourcespine/\u70ae\u53f0_\u56fd\u5e86\u70ae\u53f0\u8f93\u51fav3.6/guoqingpaotai.atlas.txt",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8954855455580187241
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_070_\u56fd\u5e86\u70ae\u53f0/sourcespine/\u70ae\u53f0_\u56fd\u5e86\u70ae\u53f0\u8f93\u51fav3.6/guoqingpaotai.png",
+      {
+        "preloadIndex": 19,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6687246231087953564
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_070_\u56fd\u5e86\u70ae\u53f0/sourcespine/\u70ae\u53f0_\u56fd\u5e86\u70ae\u53f0\u8f93\u51fav3.6/guoqingpaotai.skel.bytes",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5207320634343608381
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_070_\u56fd\u5e86\u70ae\u53f0/sourcespine/\u70ae\u53f0_\u56fd\u5e86\u70ae\u53f0\u8f93\u51fav3.6/guoqingpaotai_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7349797979364504794
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_070_\u56fd\u5e86\u70ae\u53f0/sourcespine/\u70ae\u53f0_\u56fd\u5e86\u70ae\u53f0\u8f93\u51fav3.6/guoqingpaotai_material.mat",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9106387744164873730
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_070_\u56fd\u5e86\u70ae\u53f0/sourcespine/\u70ae\u53f0_\u56fd\u5e86\u70ae\u53f0\u8f93\u51fav3.6/guoqingpaotai_skeletondata.asset",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3553614084849796791
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f5f229ae3d2c7dc2c55e7bb04c924db0.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

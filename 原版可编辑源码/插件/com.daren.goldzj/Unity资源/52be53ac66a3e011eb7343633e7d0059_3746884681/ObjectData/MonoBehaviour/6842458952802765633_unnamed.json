@@ -1,0 +1,100 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3131116488042671734
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7820397740826178180
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -885468806330360108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8287586470553079266
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4515063728649206699
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4670875054824267703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8188412625209601731
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6442963220001985301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4963180003484469663
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4598037257901073788
+    }
+  ],
+  "m_BindComs_Name": [
+    "BtnJumpToAffinityPanel",
+    "TxtPrice",
+    "TxtNumGold",
+    "TxtPurchaseLimit",
+    "TxtActivityDateTime",
+    "BtnPurchase",
+    "BtnClose",
+    "m_BuffDetailsComponent",
+    "GameGuMuAddition"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 2681479765775056582
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2222077218097061765
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1577948696964943612
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "RewardsObj"
+  ],
+  "hotfixClassFullName": "GameHotFix.PermenentCannonWingGift.CommonElements",
+  "m_ClassName": "CommonElements"
+}

@@ -1,0 +1,62 @@
+{
+  "m_Name": "3e685dccc7f285cfff6aff99b4807e94.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 4,
+      "m_PathID": 1946671241857849271
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7985064896157992231
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9144263496720512276
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 57374083741659899
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8337660113699218466
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shuihuyingxiongzhuan/effect/material/yunran 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9144263496720512276
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3e685dccc7f285cfff6aff99b4807e94.bundle",
+  "m_Dependencies": [
+    "1e786fa6e90de280a4ed1085d5e2b4f9.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle",
+    "fa7f0204c6c4cf52ee3788a1f388300b.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,118 @@
+{
+  "m_Name": "350f4af5014d776d669c73e382a8eef0.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -1820765046834969414
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 3951817655536788037
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8684080707771674177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8144871131113975273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7620015407715084649
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6437168308017341747
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6386203094275966641
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6085134230344167720
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5833018095569713451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3928204388615322240
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3879563609651523393
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1551117549167556795
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1326188021205359011
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -734531479918546976
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -657477701292886207
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -292883777034718514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 416675877893461378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4509800590956571438
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4510279312823527013
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2488635513011092237
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/goldenpagoda/effect/timeline/timeline_4.playable",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 20,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6386203094275966641
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "350f4af5014d776d669c73e382a8eef0.bundle",
+  "m_Dependencies": [
+    "2cb29526503124927112062e09671a8c.bundle",
+    "80d1dafbb92575ba2ca5107bbf20b489.bundle",
+    "ab39d7a0a0a549cfee9522c47066b822.bundle",
+    "ee0c8874fabc0656f7f2e2d266b9ec5a.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

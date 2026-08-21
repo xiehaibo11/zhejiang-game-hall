@@ -1,0 +1,4 @@
+{
+  "m_Name": "JiDan.atlas",
+  "m_Script": "\r\nJiDan.png\r\nsize: 512,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\ndan\r\n  rotate: false\r\n  xy: 2, 46\r\n  size: 215, 228\r\n  orig: 215, 228\r\n  offset: 0, 0\r\n  index: -1\r\ndanke\r\n  rotate: false\r\n  xy: 2, 276\r\n  size: 446, 170\r\n  orig: 446, 170\r\n  offset: 0, 0\r\n  index: -1\r\negg\r\n  rotate: false\r\n  xy: 219, 69\r\n  size: 178, 205\r\n  orig: 178, 205\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,83 @@
+
+FirstChargeIcon.png
+size: 179,139
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 49
+  size: 88, 27
+  orig: 88, 27
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 31, 61
+  size: 71, 76
+  orig: 71, 76
+  offset: 0, 0
+  index: -1
+2a
+  rotate: true
+  xy: 65, 3
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+2b
+  rotate: true
+  xy: 87, 7
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+gx
+  rotate: false
+  xy: 106, 2
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+jb_02
+  rotate: false
+  xy: 33, 29
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+jb_03
+  rotate: false
+  xy: 64, 29
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+jb_05
+  rotate: false
+  xy: 86, 29
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+jb_06
+  rotate: true
+  xy: 33, 3
+  size: 24, 30
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+star2
+  rotate: false
+  xy: 2, 14
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+tx
+  rotate: false
+  xy: 104, 64
+  size: 73, 73
+  orig: 81, 81
+  offset: 4, 4
+  index: -1

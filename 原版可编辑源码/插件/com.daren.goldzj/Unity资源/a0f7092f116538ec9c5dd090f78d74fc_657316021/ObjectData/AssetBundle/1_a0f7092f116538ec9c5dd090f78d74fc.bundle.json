@@ -1,0 +1,63 @@
+{
+  "m_Name": "a0f7092f116538ec9c5dd090f78d74fc.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 1257364198366538381
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5610708662893577494
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5416936470193180684
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -2896112513847614272
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 5830028209504338490
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/prefab/fengshen/material/fs_godgeneral.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5610708662893577494
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a0f7092f116538ec9c5dd090f78d74fc.bundle",
+  "m_Dependencies": [
+    "0d69b0cf9a86dde0b8223e87372d418b.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "644f2acf409d4d45895f04247e0fb8ba.bundle",
+    "d479ed2037e7aafb23c271a15487c7df.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

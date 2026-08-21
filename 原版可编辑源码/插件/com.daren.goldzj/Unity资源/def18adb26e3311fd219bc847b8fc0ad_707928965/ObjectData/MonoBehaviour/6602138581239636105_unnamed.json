@@ -1,0 +1,146 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7480208322722716201
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3308005317325341476
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8081961282014524090
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9015022616474180572
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2629814218911213073
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3538830014515371022
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2675324995313699495
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5639028429653851856
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4398103637270188914
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6424712834132291161
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1012197272035478324
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1028555460708220468
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6770616883034676936
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6770616883034676936
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2920523868790939790
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1704596802642037563
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6018289463874556799
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5271517460358296101
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4403616987294519060
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8031971407022194005
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 506161143524308751
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1959566537534577355
+    }
+  ],
+  "m_BindComs_Name": [
+    "BtnDuanZhao",
+    "BtnPaoUp",
+    "Info",
+    "CurInfoRoot",
+    "CurInfoLable",
+    "CountDownLabel",
+    "NextUnlockSceneIcon",
+    "NextUnlockActivityIcon",
+    "NextUnlockInfoLabel",
+    "process",
+    "LabelProcess",
+    "LabelNextBeishu",
+    "LabelNextBeishu2",
+    "GlodNum",
+    "canDuanzaoRoot",
+    "cantDuanzaoRoot",
+    "Expand",
+    "BtnResisdentPaoupGift",
+    "NewTips",
+    "canUnlockCailiaoEff",
+    "redPoint",
+    "mGuideFinger"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Forge.GameSenceUnlock",
+  "m_ClassName": "GameSenceUnlock"
+}

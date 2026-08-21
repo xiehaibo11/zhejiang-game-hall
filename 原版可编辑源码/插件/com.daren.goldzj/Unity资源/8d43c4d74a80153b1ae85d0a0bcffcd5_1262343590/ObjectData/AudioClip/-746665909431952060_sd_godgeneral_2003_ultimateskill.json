@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_godgeneral_2003_ultimateskill",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 48000,
+  "m_BitsPerSample": 16,
+  "m_Length": 3.0999374389648438,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-6eb99ce34bbff11632fe6da7289b4f43/CAB-6eb99ce34bbff11632fe6da7289b4f43.resource",
+    "m_Offset": 0,
+    "m_Size": 33760
+  },
+  "m_CompressionFormat": 1
+}

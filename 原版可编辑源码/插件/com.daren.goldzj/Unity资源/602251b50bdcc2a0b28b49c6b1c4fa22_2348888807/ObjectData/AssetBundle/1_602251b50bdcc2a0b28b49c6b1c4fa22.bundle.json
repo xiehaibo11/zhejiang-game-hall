@@ -1,0 +1,37 @@
+{
+  "m_Name": "602251b50bdcc2a0b28b49c6b1c4fa22.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7928461568563106758
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/struggleofthreekingdoms/heroestrial/res/\u540d\u5c06\u8bd5\u70bc_\u8f6c\u52a8.ogg",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7928461568563106758
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "602251b50bdcc2a0b28b49c6b1c4fa22.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

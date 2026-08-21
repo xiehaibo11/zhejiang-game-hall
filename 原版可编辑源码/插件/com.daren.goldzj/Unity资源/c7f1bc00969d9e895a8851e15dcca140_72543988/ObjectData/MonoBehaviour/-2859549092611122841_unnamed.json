@@ -1,0 +1,83 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3732234585648643535
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3653730876880591641
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3996722651532735722
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5759427255795050182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7481712274965107082
+    }
+  ],
+  "m_BindComs_Name": [
+    "OptionBoxParent",
+    "OptionBox1",
+    "OptionBox2",
+    "CloseoOptionBoxs"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 3373416018618447480
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7256918894252747845
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3704806702435519677
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1151920500081752350
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1295262304707861512
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "AwardBoxsIL"
+  ],
+  "hotfixClassFullName": "GameHotFix.ShenMiBaoZangV2.ShenMiBaoZangV2OptionBox",
+  "m_ClassName": "ShenMiBaoZangV2OptionBox"
+}

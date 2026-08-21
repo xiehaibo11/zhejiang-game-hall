@@ -1,0 +1,20 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_01155afc(void)
+
+{
+  pcRam0000000001796200 = FUN_01156c88;
+  _DAT_017961f8 = FUN_01155b78;
+  DAT_01796210 = FUN_011586ac;
+  _DAT_01796208 = FUN_01157594;
+  pcRam0000000001796230 = FUN_01156c88;
+  _DAT_01796228 = FUN_011598c4;
+  pcRam0000000001796240 = FUN_01158fb8;
+  _DAT_01796238 = FUN_011586ac;
+  pcRam0000000001796220 = FUN_0115a278;
+  DAT_01796218 = FUN_01158fb8;
+  DAT_01796248 = FUN_0115a278;
+  return;
+}
+

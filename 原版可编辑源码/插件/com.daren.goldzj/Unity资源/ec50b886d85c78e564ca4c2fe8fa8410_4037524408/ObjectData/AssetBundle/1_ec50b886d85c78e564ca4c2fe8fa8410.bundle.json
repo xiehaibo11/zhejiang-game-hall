@@ -1,0 +1,131 @@
+{
+  "m_Name": "ec50b886d85c78e564ca4c2fe8fa8410.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2510154760423092590
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2681684825212992231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 692214368869200348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1891354007863216849
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7587581660247265785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9042600260830509658
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1560176786685923462
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1891354007863216849
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2681684825212992231
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1891354007863216849
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_godgeneraldiscount/godgeneraldiscount.mat",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2681684825212992231
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_godgeneraldiscount/godgeneraldiscount.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1891354007863216849
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_godgeneraldiscount/godgeneraldiscount.prefab",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 692214368869200348
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_godgeneraldiscount/img_sjzsdkk_bg.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2510154760423092590
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_godgeneraldiscount/img_sjzsdkk_panel.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1560176786685923462
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ec50b886d85c78e564ca4c2fe8fa8410.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

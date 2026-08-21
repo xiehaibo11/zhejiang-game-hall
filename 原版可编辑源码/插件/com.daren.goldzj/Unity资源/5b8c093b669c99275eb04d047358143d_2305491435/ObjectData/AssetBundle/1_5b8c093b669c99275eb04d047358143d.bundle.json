@@ -1,0 +1,202 @@
+{
+  "m_Name": "5b8c093b669c99275eb04d047358143d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2446478308321070916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2965500319436518837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3534986570106885786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1907331408632222700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6448412805942007129
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -738169295317233831
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3025903672107052385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1360369234290562056
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1316081141119234577
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2102245578977112803
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6913226743040863400
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4218112797170612383
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/137_nezha/texture/bg_002.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2446478308321070916
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/noise_003.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -738169295317233831
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/point_01.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1907331408632222700
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/ramp_028.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3025903672107052385
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/t_daoguang_001.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4218112797170612383
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/t_fire_001.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2965500319436518837
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/t_mask_002.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3534986570106885786
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/t_mask_005.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2102245578977112803
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/t_mask_005.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6913226743040863400
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/t_trail_003.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1360369234290562056
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/t_water_002.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6448412805942007129
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/137_nezha/texture/t_water_003.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1316081141119234577
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5b8c093b669c99275eb04d047358143d.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,95 @@
+{
+  "m_Name": "618d6d362166201ef5574080d0fb0654.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6337385383336791960
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6061720105860206842
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4978110106941730304
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4905385400908671537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2158742896848515243
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2007960675350028738
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1831853205988225483
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -30653178651171468
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 70065364693753464
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2797300533410033996
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3184114749748603630
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3877664600491896727
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8850761699353680900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8949722539755788677
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -562637643547485156
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/bossshoufenroot.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 15,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8850761699353680900
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "618d6d362166201ef5574080d0fb0654.bundle",
+  "m_Dependencies": [
+    "405b5062bda051a648b98cb15242cf89.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

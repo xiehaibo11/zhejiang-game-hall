@@ -1,0 +1,34 @@
+
+Wuxianhuikui_05.png
+size: 305,305
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: true
+  xy: 200, 122
+  size: 18, 9
+  orig: 100, 100
+  offset: 42, 44
+  index: -1
+shanguang
+  rotate: false
+  xy: 200, 142
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+shanguanga
+  rotate: true
+  xy: 200, 160
+  size: 143, 103
+  orig: 143, 103
+  offset: 0, 0
+  index: -1
+tx1_0000
+  rotate: false
+  xy: 2, 115
+  size: 196, 188
+  orig: 196, 188
+  offset: 0, 0
+  index: -1

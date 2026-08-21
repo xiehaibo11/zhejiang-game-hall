@@ -1,0 +1,334 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6869765769015614050
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 884522461359656298
+  },
+  "m_Name": "",
+  "mMat": {
+    "m_FileID": 0,
+    "m_PathID": 7091208958091078070
+  },
+  "mUVRect": {
+    "x": 0.0,
+    "y": 0.5546875,
+    "width": 4.046875,
+    "height": 0.4453125
+  },
+  "mFont": {
+    "mSize": 152,
+    "mBase": 10,
+    "mWidth": 768,
+    "mHeight": 616,
+    "mSpriteName": "font_clip_sf_yellow",
+    "mSaved": [
+      {
+        "index": 44,
+        "x": 0,
+        "y": 0,
+        "width": 39,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 39,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 46,
+        "x": 41,
+        "y": 0,
+        "width": 39,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 39,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 45,
+        "x": 82,
+        "y": 0,
+        "width": 91,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 91,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 43,
+        "x": 175,
+        "y": 0,
+        "width": 106,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 106,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 48,
+        "x": 283,
+        "y": 0,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 49,
+        "x": 404,
+        "y": 0,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 50,
+        "x": 525,
+        "y": 0,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 51,
+        "x": 646,
+        "y": 0,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 52,
+        "x": 0,
+        "y": 154,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 53,
+        "x": 121,
+        "y": 154,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 54,
+        "x": 242,
+        "y": 154,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 55,
+        "x": 363,
+        "y": 154,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 56,
+        "x": 484,
+        "y": 154,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 57,
+        "x": 605,
+        "y": 154,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 120,
+        "x": 0,
+        "y": 308,
+        "width": 97,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 97,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 20493,
+        "x": 99,
+        "y": 308,
+        "width": 148,
+        "height": 152,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 148,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 24065,
+        "x": 249,
+        "y": 308,
+        "width": 146,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 146,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 37329,
+        "x": 397,
+        "y": 308,
+        "width": 148,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 148,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 19975,
+        "x": 547,
+        "y": 308,
+        "width": 148,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 148,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 63,
+        "x": 0,
+        "y": 462,
+        "width": 119,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 119,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 20159,
+        "x": 121,
+        "y": 462,
+        "width": 148,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 148,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 20803,
+        "x": 271,
+        "y": 462,
+        "width": 144,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 144,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 20806,
+        "x": 417,
+        "y": 462,
+        "width": 147,
+        "height": 151,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 147,
+        "channel": 0,
+        "kerning": []
+      },
+      {
+        "index": 32,
+        "x": 566,
+        "y": 462,
+        "width": 148,
+        "height": 152,
+        "offsetX": 0,
+        "offsetY": 0,
+        "advance": 148,
+        "channel": 0,
+        "kerning": []
+      }
+    ]
+  },
+  "mAtlas": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mReplacement": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mSymbols": [],
+  "mDynamicFont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mDynamicFontSize": 16,
+  "mDynamicFontStyle": 0
+}

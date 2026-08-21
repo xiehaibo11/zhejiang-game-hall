@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_ui_taskpanel_finished",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 44100,
+  "m_BitsPerSample": 16,
+  "m_Length": 2.688004493713379,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-eccd9c1891bf962aa862cd03228ea6ae/CAB-eccd9c1891bf962aa862cd03228ea6ae.resource",
+    "m_Offset": 0,
+    "m_Size": 15136
+  },
+  "m_CompressionFormat": 1
+}

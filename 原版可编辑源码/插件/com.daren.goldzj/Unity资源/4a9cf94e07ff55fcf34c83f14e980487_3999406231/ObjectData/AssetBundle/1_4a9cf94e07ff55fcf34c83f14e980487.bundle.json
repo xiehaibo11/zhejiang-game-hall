@@ -1,0 +1,186 @@
+{
+  "m_Name": "4a9cf94e07ff55fcf34c83f14e980487.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6355062992242826711
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 788376207120007030
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3505403924707248830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4172600058688686125
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6639025173832490320
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3513670388642965137
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2938493731532626238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5856740403250352835
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6955120826295676526
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9213332362038044349
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2982850449915105121
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2143655861453185403
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 951520623773333236
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3082884443230872475
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3724638899079204092
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/fengbaojishen/model/plane_fjjj_daoguang_yyc_02.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 9213332362038044349
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/fengbaojishen/model/plane_fjjj_daoguang_yyc_02.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6955120826295676526
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/fengbaojishen/model/plane_fjjj_daoguang_yyc_03.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6355062992242826711
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/fengbaojishen/model/plane_fjjj_daoguang_yyc_03.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4172600058688686125
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/fengbaojishen/model/plane_fjpf_2.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2982850449915105121
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/fengbaojishen/model/plane_fjpf_2.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 951520623773333236
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4a9cf94e07ff55fcf34c83f14e980487.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

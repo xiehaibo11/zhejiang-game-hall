@@ -1,0 +1,43 @@
+{
+  "m_Name": "db102ec4b1a31cd98e14974c00766936.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2831915828030148411
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2889865580924293631
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactjingubang/rig/dhsz_idle_noevent.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2889865580924293631
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "db102ec4b1a31cd98e14974c00766936.bundle",
+  "m_Dependencies": [
+    "5119b68f38e52b3edb85dae836a0eee2.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

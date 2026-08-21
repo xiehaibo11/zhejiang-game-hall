@@ -1,0 +1,111 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2970470773616722266
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7503039096604553067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7178368311375019155
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3180877954610260635
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7388097648364029639
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7137710848595421496
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1933182245603410913
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5134135726164114496
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1226124304452919429
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9162680792055660525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5978922238500114758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4579483975908821393
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9029851205818596070
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1305286653084408417
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6487178541999023595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8162689360231441886
+    }
+  ],
+  "m_BindComs_Name": [
+    "iconBind1",
+    "iconBind2",
+    "freeIconBind1",
+    "freeIconBind2",
+    "freeIconBindSingle",
+    "buyBtn",
+    "freeBuyBtn",
+    "freeBuyBtn2",
+    "buyPrice",
+    "buyPriceRMB",
+    "freePanel1",
+    "freePanel2",
+    "nofreePanel",
+    "tag",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GodzillaAct.GodzillaActGiftItem",
+  "m_ClassName": "GodzillaActGiftItem"
+}

@@ -1,0 +1,100 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -9042900332855775636
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1905304235189161574
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6826707393636509124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2881995259484944448
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3953248607040878868
+    }
+  ],
+  "m_BindComs_Name": [
+    "mCurLevel",
+    "mProgressLabel",
+    "mProgressBar",
+    "mUnLockTips"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -2697959911212862462
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 592944376934770354
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6838345302023276450
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5018699208744486634
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3526828170482112506
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -3876373780933565390
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -894322070704926506
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7126252145932301740
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mLevelBtnList",
+    "mExchangeList"
+  ],
+  "hotfixClassFullName": "GameHotFix.RoadOfImperial.RoadOfImperialExchangePanel",
+  "m_ClassName": "RoadOfImperialExchangePanel"
+}

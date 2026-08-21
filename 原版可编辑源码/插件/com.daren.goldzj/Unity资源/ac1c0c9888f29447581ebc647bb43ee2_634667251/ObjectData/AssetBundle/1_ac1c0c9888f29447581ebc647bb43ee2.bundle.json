@@ -1,0 +1,111 @@
+{
+  "m_Name": "ac1c0c9888f29447581ebc647bb43ee2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3250749934991454239
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3252213797001983218
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2206068401867346075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -495220716134617725
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3250749934991454239
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8678652356128897656
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2860105872167937487
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2860105872167937487
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/xinshoudongxiao/shouzhi/finger.controller",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8678652356128897656
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/xinshoudongxiao/shouzhi/finger_gquan1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3252213797001983218
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/xinshoudongxiao/shouzhi/finger_gquan1.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3250749934991454239
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/xinshoudongxiao/shouzhi/shouzhi.anim",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2860105872167937487
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/xinshoudongxiao/shouzhi/shouzhi.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -495220716134617725
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "ac1c0c9888f29447581ebc647bb43ee2.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

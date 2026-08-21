@@ -1,0 +1,146 @@
+{
+  "m_Name": "61332d9509f9651ec08e735d8684851e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1671616098405639139
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7708627637426054384
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4646823358395535615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7708627637426054384
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5394865853521763309
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8615748276403341519
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3678713513819452747
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -277190597121967197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 846673206597328908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4646823358395535615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7708627637426054384
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3054567603351447276
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/atlas/atlas_edgeofgloryingame/edgeofgloryingame.mat",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4646823358395535615
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_edgeofgloryingame/edgeofgloryingame.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7708627637426054384
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_edgeofgloryingame/edgeofgloryingame.prefab",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 846673206597328908
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_edgeofgloryingame/img_bg.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3054567603351447276
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_edgeofgloryingame/img_ryzd_qtsm_bg.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5394865853521763309
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/atlas/atlas_edgeofgloryingame/img_ryzd_tc_bg.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1671616098405639139
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "61332d9509f9651ec08e735d8684851e.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

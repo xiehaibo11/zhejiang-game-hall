@@ -1,0 +1,149 @@
+{
+  "m_Name": "af83e10eaccbbb93e0a00c37cbf37fc2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8254686120144137550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7766205809355241527
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6654202834740700210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5785245940671514205
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5069399984185735813
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4650696369147953036
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4544235265513974530
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4339948905506964796
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3680907532898289738
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3125823739576580208
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1788186347985694460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -594422684871036449
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 591040412500315095
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2235281298357572067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3506842130609750323
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3868843942294185245
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3958702288596356870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4149404606868488242
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4662803805924414350
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6935676341319305977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7943543606141193838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8487312609620599396
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8689134819071690600
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8002667982010380336
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -5206744351528147754
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7272899631525619837
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -2688010361017109688
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/diamondgreatgiftv2/effect/prefab/uieffect_saoguang_title_1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 28,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8254686120144137550
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "af83e10eaccbbb93e0a00c37cbf37fc2.bundle",
+  "m_Dependencies": [
+    "143f30c0989c9c7f793a6a0995423ac8.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "f1a9f703f57e1c1921a4faa5e1ed1d13.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

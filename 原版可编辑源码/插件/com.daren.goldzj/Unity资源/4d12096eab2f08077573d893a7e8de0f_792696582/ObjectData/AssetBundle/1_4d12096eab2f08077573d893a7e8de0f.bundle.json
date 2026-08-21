@@ -1,0 +1,154 @@
+{
+  "m_Name": "4d12096eab2f08077573d893a7e8de0f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8499311820035156848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7814125515397062105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6501211508181519689
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6016372863673592039
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4263219668695150341
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1432308167200380340
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -842943970096633595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 358277506449211287
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 848303269957041446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1269324057766604596
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2775579777940539527
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3183183859364559102
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4070030216792900694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4134499465772720573
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5770869031588377664
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6483171346098719358
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6504400355319689385
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6548594347724635815
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6776305112857242200
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2556938068798015356
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 8200428768972887046
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -8072172784455835781
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 2311343614988120609
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4348798884539295353
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/battlepassv2/battlepassoverviewpanel/getrewardpup.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 29,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6501211508181519689
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4d12096eab2f08077573d893a7e8de0f.bundle",
+  "m_Dependencies": [
+    "26669341608a46812daf02218980a3a1.bundle",
+    "3df1b351aa8a3d24e0fda21b1d97729f.bundle",
+    "69bad87b8fcf5da8ced3b9edaca353c8.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

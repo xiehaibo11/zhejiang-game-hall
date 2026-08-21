@@ -1,0 +1,262 @@
+{
+  "m_Name": "2d6c69607dc2d8e5add2859c50ac431e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7499860100361580957
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7309420085559618061
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5702420074172771917
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7296479318064699542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 640220877475415378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1048313738253095924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5904083444581199450
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 5831602619004953363
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5523903048780754342
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4205631494850968485
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1048313738253095924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 62953093273213071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5702420074172771917
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -335043955046306830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8408693681290154609
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4205631494850968485
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 62953093273213071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8030113140628255620
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7296479318064699542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4620438589743353268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7499860100361580957
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7296479318064699542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8842844310565113501
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 640220877475415378
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4452167747990929222
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/uitexture/hailang_mask.mat",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5904083444581199450
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/hailang_mask.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1048313738253095924
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_caijin_01.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4205631494850968485
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_caijin_01_add.mat",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8408693681290154609
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_guizu_01.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 62953093273213071
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_guizu_01_add.mat",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8030113140628255620
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_guizu_02.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5702420074172771917
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_guizu_02_add.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7309420085559618061
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_guizu_03.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7499860100361580957
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_guizu_03_add.mat",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4620438589743353268
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_xuanzhong_01.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 640220877475415378
+        }
+      }
+    ],
+    [
+      "assets/effect/uitexture/ui_xuanzhong_01_add.mat",
+      {
+        "preloadIndex": 23,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8842844310565113501
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2d6c69607dc2d8e5add2859c50ac431e.bundle",
+  "m_Dependencies": [
+    "22a628c0b644360b77528577dcdb9990.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "795664d6504810a34a18e2356bf42687.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

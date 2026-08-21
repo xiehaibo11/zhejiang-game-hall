@@ -1,0 +1,140 @@
+{
+  "m_Name": "bea870df89d0cc2626087ed87c88f3bf.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 4839975622584711980
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -339899948196937056
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 3221210134791768668
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -6045623339552894924
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -3298849553477374958
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2308780834577812692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8100059617980862735
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7420026650796515524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7204659100194706604
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5871272786753245064
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5743082452277296565
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2726502151308203469
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2199597165345440664
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -867276764191351827
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 476627323567564317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1342367244590392654
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1494084588884673311
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2879839132721837592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3853413677577272992
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3903408220037678874
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5149973452203163445
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6698010382955738415
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6842665164746502642
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8105371681239287571
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8267754550476000038
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactprayv2/effect/prefab/effect_xydj_xuanzhong.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 25,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5871272786753245064
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "bea870df89d0cc2626087ed87c88f3bf.bundle",
+  "m_Dependencies": [
+    "81baed3dbe55f7f9de682fa4005482b2.bundle",
+    "85cb28bd91fc5efaa0f8b4ed1774fe18.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "94d991f9c8f1dfba4e565daf6eca25e4.bundle",
+    "9c8f800bd23a62bb303369d3c1a14c59.bundle",
+    "f50836fae2d5904d54fdbff788957453.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

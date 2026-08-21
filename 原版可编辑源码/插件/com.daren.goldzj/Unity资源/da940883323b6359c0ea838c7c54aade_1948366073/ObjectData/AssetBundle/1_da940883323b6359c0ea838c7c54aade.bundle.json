@@ -1,0 +1,43 @@
+{
+  "m_Name": "da940883323b6359c0ea838c7c54aade.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7352337104415944972
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 510858233970823928
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/leagueranking/animations/leaguerankingmainpanel_ani_info.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7352337104415944972
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "da940883323b6359c0ea838c7c54aade.bundle",
+  "m_Dependencies": [
+    "0b3f011a3cb43dd8f653dc7a4e368b44.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

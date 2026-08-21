@@ -1,0 +1,43 @@
+{
+  "m_Name": "b0c32e548de95af82ead7036dbe412c5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2805567865312517735
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -2761321912165242859
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/festivalromance/smallgame/effect/animation/festivalromanceitemtrue_ani.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2805567865312517735
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b0c32e548de95af82ead7036dbe412c5.bundle",
+  "m_Dependencies": [
+    "6b9605113fdf51e3d2b5f53906472e94.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,136 @@
+{
+  "m_Name": "f66dbd1550c1b49bcadf97a4245af483.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9132268821495020098
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7076740408302114767
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3958586198710709460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3876462409188368384
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2144304301291311983
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1363236600739521940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -622993947406987417
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -444581229612345353
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4697922057361410914
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4896943531283925363
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5213567201024174157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7055783286193574687
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8733047972153557115
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5472523206807093352
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u5dc5\u5cf0\u7b49\u7ea7\u4f18\u5316/fbx/kuang01.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9132268821495020098
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u5dc5\u5cf0\u7b49\u7ea7\u4f18\u5316/fbx/kuang01.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1363236600739521940
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u5dc5\u5cf0\u7b49\u7ea7\u4f18\u5316/fbx/kuang01.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2144304301291311983
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/081_\u5dc5\u5cf0\u7b49\u7ea7\u4f18\u5316/fbx/kuang01.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7076740408302114767
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "f66dbd1550c1b49bcadf97a4245af483.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

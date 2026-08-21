@@ -1,0 +1,145 @@
+{
+  "m_Name": "44174eccfba941908c2f26dc9d3100bc.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -3422927058051041230
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6827366931089011988
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5095498485358006460
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -7669539958961367769
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6390486283436574961
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8978889199791261290
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8970351454159741578
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8665999611390320241
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7691676500807756964
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7461197388282496174
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6853890194021867671
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1864700260623554196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1803086502526203796
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -421778608010524529
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 706552085924335340
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 943423222429687985
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2538656956305018413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3746187349062626836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3819244741711706432
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4125191511040989527
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4889154933703461275
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5826269840501596482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8473443378456008236
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8485503412327928479
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9033897886180388080
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/commondrop/sequenceframedropanimation.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 27,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8473443378456008236
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "44174eccfba941908c2f26dc9d3100bc.bundle",
+  "m_Dependencies": [
+    "3f546f487fdc0f3468508bd1bebb272f.bundle",
+    "77dbd21f99b98978952c49e0cce9d652.bundle",
+    "7b14c45d02b38b42ef458a5625854151.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

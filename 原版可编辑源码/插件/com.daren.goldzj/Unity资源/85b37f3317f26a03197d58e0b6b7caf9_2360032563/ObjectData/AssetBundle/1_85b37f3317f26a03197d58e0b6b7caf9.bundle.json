@@ -1,0 +1,224 @@
+{
+  "m_Name": "85b37f3317f26a03197d58e0b6b7caf9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 2531166879477736767
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6487724205023425232
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -9122051727584606541
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2637686618496020198
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3422969901384516108
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7923624208337674743
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5576491153913044080
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5152120162208374802
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1242842624673962786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -442574445566786893
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8522022975584798844
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6285893009950163189
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4974861673243560680
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3906924958364258311
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5493090496415740000
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2632426869832481503
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2359792324194770849
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4593475198592127806
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5047910081818206475
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8646034684816897063
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/bianliandashi/fbx/bianliandashi.fbx",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2359792324194770849
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bianliandashi/fbx/bianliandashi.fbx",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5047910081818206475
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bianliandashi/fbx/noise_06_ab_gghl 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6487724205023425232
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bianliandashi/fbx/trail_2_blds.fbx",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1242842624673962786
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bianliandashi/fbx/trail_2_blds.fbx",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5576491153913044080
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bianliandashi/fbx/trail_blds.fbx",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3906924958364258311
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/bianliandashi/fbx/trail_blds.fbx",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6285893009950163189
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "85b37f3317f26a03197d58e0b6b7caf9.bundle",
+  "m_Dependencies": [
+    "1de943968055791d4ab036b229fbcf23.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "e8e220c1c6949a34cd3a63ccb2e06dcf.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

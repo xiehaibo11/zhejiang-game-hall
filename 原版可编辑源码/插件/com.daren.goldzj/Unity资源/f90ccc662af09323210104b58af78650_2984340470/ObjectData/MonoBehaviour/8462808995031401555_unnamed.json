@@ -1,0 +1,387 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5957455981734585815
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7026353950457750112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4789061000987056043
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4727909844541083104
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2131067013700498317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8570869596297708539
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1341585703354266444
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5126262062200030842
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1791847707793690759
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6664968857610139924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -503551074604949961
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6150670706885973009
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6875102062818531363
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2911718355538326848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3482883061813174920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4863055159885194087
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6222951386634799187
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 384753449315315970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7835048861695399576
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -916488705959531309
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -499760935742099884
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8216132669223371877
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7994714781393739053
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4471434288956944647
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3770668889080980373
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3074091455134771961
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8390016861584600149
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5912306621725052434
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5876730318650753153
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8532051037244160321
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5402279673494945815
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6241553387839207731
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1661080441571179805
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1063343250921003948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6652811576246254430
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9078705072437439867
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6591287904497186139
+    }
+  ],
+  "m_BindComs_Name": [
+    "tweenAlpha",
+    "godNext",
+    "taskContainer",
+    "taskLight",
+    "tip",
+    "body",
+    "bg",
+    "btnClose",
+    "moneyNum",
+    "moneyAdd",
+    "awardPreview",
+    "dailyTask",
+    "godSprite",
+    "godHead",
+    "godChange",
+    "godName",
+    "remainCount",
+    "lotteryRemainCount",
+    "lotteryOne",
+    "lotteryTen",
+    "skip",
+    "skipState",
+    "time",
+    "tipsRule",
+    "stateLabel",
+    "dailyTaskRedPoint",
+    "lotteryNumRedPoint",
+    "director",
+    "liandanlu",
+    "camera",
+    "GoldenGo",
+    "purpleGo",
+    "greenGo",
+    "effectGoldenGo",
+    "effectPurpleGo",
+    "effectGreenGo"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -4315681921304313835
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6948424498432519786
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5611780867497594679
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -133484291931859873
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8694898095914072120
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7086882471174276353
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 6241553387839207731
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 425752640498780108
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5255665568702622646
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -9040152060534183243
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2258486902448752233
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4570934713421306398
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 959071318537080135
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1129632085194609174
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1532443381898093896
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8394976319143401569
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1661080441571179805
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1398509504696933858
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3617298632712572123
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8757308967844557596
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2110354358034310943
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1880781626082609252
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5550956078457398586
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1793924288998923240
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 673846986808345512
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7793035692014347236
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1063343250921003948
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6951889470172660713
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5800778349974614739
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 813183537487577885
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3520719147059812609
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3003401188810068478
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 202536491428811052
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2202451950740449899
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1979358720494728858
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7813005583649467538
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "rewardUIItems",
+    "masks",
+    "tenGoldenGos",
+    "tenPurpleGos",
+    "tenGreenGos"
+  ],
+  "hotfixClassFullName": "GameHotFix.GodGeneralLottery.GodGeneralLotteryMainPanel",
+  "m_ClassName": "GodGeneralLotteryMainPanel"
+}

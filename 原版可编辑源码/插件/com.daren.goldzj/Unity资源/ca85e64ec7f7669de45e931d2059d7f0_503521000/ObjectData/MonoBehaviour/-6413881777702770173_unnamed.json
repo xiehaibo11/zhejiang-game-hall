@@ -1,0 +1,132 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -9027988907854700018
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7619779228943531000
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3545968629394253129
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 579575052494013
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -928707106396825749
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6204516894573914729
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4715039898875959303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8824058039818588122
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -50972827673890479
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5929234358577350711
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3768748526710079790
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4812182656354272352
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5271691466382680066
+    }
+  ],
+  "m_BindComs_Name": [
+    "Body",
+    "VipLevel_13",
+    "VipLevel_14",
+    "VipLevel_15",
+    "AvatarUI",
+    "NoticePanel",
+    "AvatarSpriteUI",
+    "AvatarTextureUI",
+    "Pm13_Go",
+    "Pm14_Go",
+    "Pm15_Go",
+    "DragonSke"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -5284594976946372887
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 798428981143187340
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6381212429186516605
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 3552900687875727498
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5032474358880165488
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -662505991764314367
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "NotcieTexts",
+    "VipLevelTexts"
+  ],
+  "hotfixClassFullName": "GameHotFix.VipSystem.VipNoticeView",
+  "m_ClassName": "VipNoticeView"
+}

@@ -1,0 +1,43 @@
+{
+  "m_Name": "9125550db33fa0f5e53ee3d6bde59396.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 7423897758071479844
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 91309200910878569
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/common3d/animation/common3dcannonsoulctrl_3004.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 91309200910878569
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9125550db33fa0f5e53ee3d6bde59396.bundle",
+  "m_Dependencies": [
+    "24095dbddc19391a9f881b3259d453e4.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

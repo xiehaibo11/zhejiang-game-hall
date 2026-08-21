@@ -1,0 +1,57 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1779290441368389679
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [],
+  "m_BindComs_Name": [],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 2055360498089075925
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5013654892186847714
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2016184286968448547
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8226015994580272397
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mEffectList"
+  ],
+  "hotfixClassFullName": "GameHotFix.FengShenPuzzle.FengShenPuzzleEffectNode",
+  "m_ClassName": "FengShenPuzzleEffectNode"
+}

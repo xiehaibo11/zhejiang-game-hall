@@ -1,0 +1,52 @@
+{
+  "m_Name": "513b6f8a8d6947306e1cbe5683b8eb48.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8017158383301299582
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2452500366067512771
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/zhiruizhanshen/textures/img_py_bt_kpjr.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8017158383301299582
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/zhiruizhanshen/textures/img_py_bt_kpjr2.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2452500366067512771
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "513b6f8a8d6947306e1cbe5683b8eb48.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

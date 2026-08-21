@@ -1,0 +1,121 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7463892128710932718
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1350922922191548332
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3531128098719640263
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3706864024337867101
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6726729605347731329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5925096135397803273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8304566236792506350
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4291458616818796004
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2596182484387997749
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4305720940481175925
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6818360569590441426
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6809409324551199330
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7758526828992858558
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1665469253197654970
+    }
+  ],
+  "m_BindComs_Name": [
+    "IconRank",
+    "LabelRank",
+    "UserName",
+    "UserId",
+    "ImgBg",
+    "LabelValueDesc",
+    "LabelValue",
+    "AwardList",
+    "Children",
+    "animator",
+    "rankEffect",
+    "TweenAlpha",
+    "AvatarComp"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -7207691534777312434
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -3786131654680881088
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "ILAwards",
+    "AwardEffects"
+  ],
+  "hotfixClassFullName": "GameHotFix.GodzillaAct.GodzillaActItemGoldEarn",
+  "m_ClassName": "GodzillaActItemGoldEarn"
+}

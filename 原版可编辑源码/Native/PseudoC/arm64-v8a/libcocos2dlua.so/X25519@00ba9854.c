@@ -1,0 +1,694 @@
+
+bool X25519(void *param_1,ulong *param_2,uint *param_3)
+
+{
+  bool bVar1;
+  ulong uVar2;
+  long lVar3;
+  ulong uVar4;
+  ulong uVar5;
+  long lVar6;
+  ulong uVar7;
+  ulong uVar8;
+  long lVar9;
+  ulong uVar10;
+  ulong uVar11;
+  ulong uVar12;
+  uint uVar13;
+  uint uVar14;
+  uint uVar15;
+  uint uVar16;
+  uint uVar17;
+  uint uVar18;
+  uint uVar19;
+  uint uVar20;
+  uint uVar21;
+  uint uVar22;
+  uint uVar23;
+  uint uVar24;
+  uint uVar25;
+  uint uVar26;
+  uint uVar27;
+  uint uVar28;
+  long lVar29;
+  uint uVar30;
+  long lVar31;
+  long lVar32;
+  long lVar33;
+  long lVar34;
+  long lVar35;
+  long lVar36;
+  long lVar37;
+  long lVar38;
+  long lVar39;
+  long lVar40;
+  long lVar41;
+  byte bVar42;
+  byte bVar45;
+  byte bVar46;
+  byte bVar47;
+  int iVar43;
+  int iVar44;
+  byte bVar48;
+  byte bVar51;
+  byte bVar52;
+  byte bVar53;
+  int iVar49;
+  int iVar50;
+  byte bVar54;
+  byte bVar57;
+  byte bVar58;
+  byte bVar59;
+  int iVar55;
+  int iVar56;
+  byte bVar60;
+  byte bVar63;
+  byte bVar64;
+  byte bVar65;
+  int iVar61;
+  int iVar62;
+  uint uVar66;
+  byte bVar67;
+  byte bVar68;
+  byte bVar69;
+  byte bVar70;
+  byte bVar71;
+  byte bVar72;
+  byte bVar73;
+  byte bVar74;
+  byte bVar75;
+  byte bVar76;
+  byte bVar77;
+  byte bVar78;
+  byte bVar79;
+  byte bVar80;
+  byte bVar81;
+  byte bVar82;
+  byte bVar83;
+  byte bVar84;
+  byte bVar85;
+  byte bVar86;
+  byte bVar87;
+  byte bVar88;
+  byte bVar89;
+  byte bVar90;
+  byte bVar91;
+  byte bVar92;
+  byte bVar93;
+  byte bVar95;
+  byte bVar96;
+  byte bVar97;
+  byte bVar98;
+  byte bVar99;
+  byte bVar100;
+  byte bVar101;
+  byte bVar102;
+  byte bVar103;
+  byte bVar104;
+  byte bVar105;
+  ulong local_1c0;
+  ulong uStack_1b8;
+  ulong local_1b0;
+  ulong uStack_1a8;
+  int local_1a0;
+  int iStack_19c;
+  int iStack_198;
+  int iStack_194;
+  int iStack_190;
+  int local_18c;
+  undefined8 local_188;
+  undefined8 uStack_180;
+  int local_170;
+  int iStack_16c;
+  int iStack_168;
+  int iStack_164;
+  int local_160;
+  int local_15c;
+  int local_158;
+  int iStack_154;
+  int iStack_150;
+  int iStack_14c;
+  uint local_140;
+  uint uStack_13c;
+  uint uStack_138;
+  uint uStack_134;
+  uint uStack_130;
+  uint local_12c;
+  uint uStack_128;
+  uint uStack_124;
+  uint uStack_120;
+  int local_11c;
+  uint local_110;
+  uint uStack_10c;
+  uint uStack_108;
+  uint uStack_104;
+  uint local_100;
+  uint local_fc;
+  undefined8 local_f8;
+  undefined8 uStack_f0;
+  uint local_e0;
+  uint uStack_dc;
+  uint uStack_d8;
+  uint uStack_d4;
+  uint uStack_d0;
+  uint local_cc;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
+  uint local_b0;
+  undefined8 local_ac;
+  undefined8 uStack_a4;
+  uint local_9c;
+  uint uStack_98;
+  uint uStack_94;
+  uint uStack_90;
+  uint local_8c;
+  uint local_88;
+  uint uStack_84;
+  uint uStack_80;
+  uint uStack_7c;
+  uint local_78;
+  uint uStack_74;
+  int iStack_70;
+  int iStack_6c;
+  int local_68;
+  int iStack_64;
+  uint uVar94;
+  
+  uStack_1b8 = param_2[1];
+  local_1b0 = param_2[2];
+  local_1c0 = *param_2 & 0xfffffffffffffff8;
+  uStack_1a8 = param_2[3] & 0x3fffffffffffffff | 0x4000000000000000;
+                    /* try { // try from 00ba98d0 to 00ca98db has its CatchHandler @ 00ba99e8 */
+                    /* try { // try from 00ba98dc to 00ca992f has its CatchHandler @ 00ba9744 */
+                    /* try { // try from 00ba9930 to 00ca994b has its CatchHandler @ 00ba99c8 */
+                    /* try { // try from 00ba994c to 00ca99fb has its CatchHandler @ 00ba9744 */
+  lVar31 = (ulong)(uint3)param_3[1] * 0x40;
+  iVar43 = ((uint)*(ushort *)((long)param_3 + 0x1d) |
+           (*(byte *)((long)param_3 + 0x1f) & 0x7f) << 0x10) * 4;
+  lVar33 = (ulong)*(uint3 *)((long)param_3 + 10) * 8;
+  uVar66 = iVar43 + 0x1000000;
+  uVar2 = lVar31 + 0x1000000;
+  lVar3 = (ulong)*(uint3 *)((long)param_3 + 7) * 0x20 + (uVar2 >> 0x19);
+                    /* catch() { ... } // from try @ 00ba9930 with catch @ 00ba99c8 */
+  uVar4 = lVar33 + 0x1000000;
+  uVar5 = lVar3 + 0x2000000;
+  lVar34 = (ulong)*(uint3 *)((long)param_3 + 0xd) * 4 + (uVar4 >> 0x19);
+  lVar6 = ((ulong)-(uVar66 >> 0x19) & 0x13) + (ulong)*param_3;
+                    /* catch() { ... } // from try @ 00ba97ec with catch @ 00ba99e4 */
+  uVar7 = (ulong)param_3[4] + 0x1000000;
+                    /* catch() { ... } // from try @ 00ba98d0 with catch @ 00ba99e8 */
+  uVar8 = lVar34 + 0x2000000;
+  lVar9 = (ulong)(uint3)param_3[5] * 0x80 + (uVar7 >> 0x19);
+  uStack_80 = (int)lVar3 - ((uint)uVar5 & 0xfc000000);
+                    /* catch() { ... } // from try @ 00ba9b28 with catch @ 00ba99fc */
+  uVar10 = lVar9 + 0x2000000;
+  lVar32 = (ulong)*(uint3 *)((long)param_3 + 0x17) * 0x20;
+  local_78 = (int)lVar34 - ((uint)uVar8 & 0xfc000000);
+  uVar11 = lVar32 + 0x1000000;
+  lVar3 = (ulong)*(uint3 *)((long)param_3 + 0x1a) * 0x10 + (uVar11 >> 0x19);
+  iStack_70 = (int)lVar9 - ((uint)uVar10 & 0xfc000000);
+  uVar12 = lVar3 + 0x2000000;
+                    /* try { // try from 00ba9a30 to 00ca9a7b has its CatchHandler @ 00ba9ba4 */
+  local_68 = (int)lVar3 - ((uint)uVar12 & 0xfc000000);
+  uStack_7c = ((int)(uVar5 >> 0x1a) + (int)lVar33) - ((uint)uVar4 & 0xfe000000);
+  uStack_74 = ((int)(uVar8 >> 0x1a) + param_3[4]) - ((uint)uVar7 & 0xfe000000);
+  uVar4 = lVar6 + 0x2000000;
+  iStack_64 = (iVar43 + (int)(uVar12 >> 0x1a)) - (uVar66 & 0x2000000);
+  uStack_84 = ((int)lVar31 - ((uint)uVar2 & 0xfe000000)) + (int)(uVar4 >> 0x1a);
+  iStack_6c = ((int)(uVar10 >> 0x1a) + (int)lVar32) - ((uint)uVar11 & 0xfe000000);
+  local_88 = (int)lVar6 - ((uint)uVar4 & 0xfc000000);
+  local_8c = 0;
+  uStack_94 = 0;
+  uStack_90 = 0;
+  local_9c = 0;
+  uStack_98 = 0;
+  uStack_a4 = 0;
+  local_ac = 0;
+  uStack_c0 = 0;
+  local_c8 = 0;
+  uStack_124 = 0;
+  uStack_120 = 0;
+  local_12c = 0;
+  uStack_128 = 0;
+  local_11c = 0;
+  uStack_134 = 0;
+  uStack_130 = 0;
+  uStack_13c = 0;
+  uStack_138 = 0;
+  uStack_94 = 0;
+                    /* try { // try from 00ba9ab8 to 00ca9acf has its CatchHandler @ 00ba9b84 */
+  uStack_98 = 0;
+  local_9c = 0;
+  uStack_a4._4_4_ = 0;
+  uStack_a4._0_4_ = 0;
+  local_ac._4_4_ = 0;
+  local_ac._0_4_ = 0;
+                    /* try { // try from 00ba9ad0 to 00ca9adb has its CatchHandler @ 00ba9b4c */
+  uStack_f0 = CONCAT44(iStack_64,local_68);
+  local_b0 = 1;
+  uStack_d8 = 0;
+  uStack_d4 = 0;
+  uStack_d0 = 0;
+  local_cc = 0;
+  local_e0 = 0;
+  uStack_dc = 0;
+  local_140 = 1;
+  uStack_108 = uStack_80;
+  uStack_104 = uStack_7c;
+  local_110 = local_88;
+  uStack_10c = uStack_84;
+  local_f8 = CONCAT44(iStack_6c,iStack_70);
+  local_100 = local_78;
+  local_fc = uStack_74;
+  local_e0 = 0;
+  local_8c = 0;
+  uStack_90 = 0;
+  uVar66 = 0;
+  local_b0 = 1;
+  local_140 = 1;
+  uVar94 = 0xfe;
+  do {
+                    /* try { // try from 00ba9b28 to 00ca9bbf has its CatchHandler @ 00ba99fc */
+    uVar13 = *(byte *)((long)&local_1c0 + (ulong)(uVar94 >> 3)) >> (ulong)(uVar94 & 7) & 1;
+                    /* catch() { ... } // from try @ 00ba9b18 with catch @ 00ba9b48 */
+                    /* catch() { ... } // from try @ 00ba9ad0 with catch @ 00ba9b4c */
+    uVar30 = -(uVar13 ^ uVar66);
+    uVar66 = (local_110 ^ local_b0) & uVar30;
+    uVar14 = (local_e0 ^ local_140) & uVar30;
+    local_110 = uVar66 ^ local_110;
+    uVar22 = uVar14 ^ local_e0;
+    local_140 = uVar14 ^ local_140;
+    uVar66 = uVar66 ^ local_b0;
+                    /* catch() { ... } // from try @ 00ba9ab8 with catch @ 00ba9b84 */
+    uVar14 = (uStack_13c ^ uStack_dc) & uVar30;
+    uVar23 = uVar14 ^ uStack_dc;
+    uVar15 = (uStack_10c ^ (uint)local_ac) & uVar30;
+                    /* catch() { ... } // from try @ 00ba9a30 with catch @ 00ba9ba4 */
+    uStack_10c = uVar15 ^ uStack_10c;
+    uStack_13c = uVar14 ^ uStack_13c;
+    uVar15 = uVar15 ^ (uint)local_ac;
+                    /* try { // try from 00ba9bc0 to 00ca9c9b has its CatchHandler @ 00ba9bc0
+                       catch() { ... } // from try @ 00ba9bc0 with catch @ 00ba9bc0
+                       catch() { ... } // from try @ 00ba9ca8 with catch @ 00ba9bc0
+                       catch() { ... } // from try @ 00ba9e38 with catch @ 00ba9bc0
+                       catch() { ... } // from try @ 00ba9f48 with catch @ 00ba9bc0 */
+    uVar14 = (uStack_108 ^ local_ac._4_4_) & uVar30;
+    uVar16 = (uStack_138 ^ uStack_d8) & uVar30;
+    uStack_108 = uVar14 ^ uStack_108;
+    uVar24 = uVar16 ^ uStack_d8;
+    uStack_138 = uVar16 ^ uStack_138;
+    uVar14 = uVar14 ^ local_ac._4_4_;
+    uVar16 = (uStack_104 ^ (uint)uStack_a4) & uVar30;
+    uVar17 = (uStack_134 ^ uStack_d4) & uVar30;
+    uStack_104 = uVar16 ^ uStack_104;
+    uVar25 = uVar17 ^ uStack_d4;
+    uStack_134 = uVar17 ^ uStack_134;
+    uVar16 = uVar16 ^ (uint)uStack_a4;
+    uVar17 = (uStack_130 ^ uStack_d0) & uVar30;
+    uVar18 = (local_100 ^ uStack_a4._4_4_) & uVar30;
+    uVar26 = uVar17 ^ uStack_d0;
+    uVar27 = uVar18 ^ uStack_a4._4_4_;
+    uVar18 = uVar18 ^ local_100;
+    uStack_130 = uVar17 ^ uStack_130;
+    uVar17 = (local_fc ^ local_9c) & uVar30;
+    local_fc = uVar17 ^ local_fc;
+    uVar19 = (local_12c ^ local_cc) & uVar30;
+    _local_100 = CONCAT44(local_fc,uVar18);
+    uVar17 = uVar17 ^ local_9c;
+    local_cc = uVar19 ^ local_cc;
+    uVar20 = ((uint)local_f8 ^ uStack_98) & uVar30;
+    uStack_98 = uVar20 ^ uStack_98;
+    local_12c = uVar19 ^ local_12c;
+                    /* try { // try from 00ba9c9c to 00ca9ca7 has its CatchHandler @ 00ba9f58 */
+    uVar19 = (local_f8._4_4_ ^ uStack_94) & uVar30;
+                    /* try { // try from 00ba9ca8 to 00ca9d77 has its CatchHandler @ 00ba9bc0 */
+    local_f8._4_4_ = uVar19 ^ local_f8._4_4_;
+    uVar19 = uVar19 ^ uStack_94;
+    uVar21 = ((uint)uStack_f0 ^ uStack_90) & uVar30;
+    uVar28 = uVar21 ^ (uint)uStack_f0;
+    bVar67 = (byte)((ulong)local_c8 >> 8);
+    bVar81 = (byte)(uStack_128 >> 8);
+    bVar68 = (byte)((ulong)local_c8 >> 0x10);
+    bVar82 = (byte)(uStack_128 >> 0x10);
+    bVar69 = (byte)((ulong)local_c8 >> 0x18);
+    bVar83 = (byte)(uStack_128 >> 0x18);
+    bVar70 = (byte)((ulong)local_c8 >> 0x20);
+    bVar71 = (byte)((ulong)local_c8 >> 0x28);
+    bVar84 = (byte)(uStack_124 >> 8);
+    bVar72 = (byte)((ulong)local_c8 >> 0x30);
+    bVar85 = (byte)(uStack_124 >> 0x10);
+    bVar74 = (byte)((ulong)local_c8 >> 0x38);
+    bVar86 = (byte)(uStack_124 >> 0x18);
+    bVar76 = (byte)((ulong)uStack_c0 >> 8);
+    bVar87 = (byte)(uStack_120 >> 8);
+    bVar73 = (byte)((ulong)uStack_c0 >> 0x10);
+    bVar88 = (byte)(uStack_120 >> 0x10);
+    bVar75 = (byte)((ulong)uStack_c0 >> 0x18);
+    bVar89 = (byte)(uStack_120 >> 0x18);
+    bVar77 = (byte)((ulong)uStack_c0 >> 0x20);
+    bVar78 = (byte)((ulong)uStack_c0 >> 0x28);
+    bVar90 = (byte)((uint)local_11c >> 8);
+    bVar79 = (byte)((ulong)uStack_c0 >> 0x30);
+    bVar91 = (byte)((uint)local_11c >> 0x10);
+    bVar80 = (byte)((ulong)uStack_c0 >> 0x38);
+    bVar92 = (byte)((uint)local_11c >> 0x18);
+    uVar21 = uVar21 ^ uStack_90;
+    bVar60 = (byte)uVar30;
+    bVar42 = ((byte)uStack_128 ^ (byte)local_c8) & bVar60;
+    bVar63 = (byte)(uVar30 >> 8);
+    bVar45 = (bVar81 ^ bVar67) & bVar63;
+    bVar64 = (byte)(uVar30 >> 0x10);
+    bVar46 = (bVar82 ^ bVar68) & bVar64;
+    bVar65 = (byte)(uVar30 >> 0x18);
+    bVar47 = (bVar83 ^ bVar69) & bVar65;
+    bVar48 = ((byte)uStack_124 ^ bVar70) & bVar60;
+    bVar51 = (bVar84 ^ bVar71) & bVar63;
+    bVar52 = (bVar85 ^ bVar72) & bVar64;
+    bVar53 = (bVar86 ^ bVar74) & bVar65;
+    bVar54 = ((byte)uStack_120 ^ (byte)uStack_c0) & bVar60;
+    bVar57 = (bVar87 ^ bVar76) & bVar63;
+    bVar58 = (bVar88 ^ bVar73) & bVar64;
+    bVar59 = (bVar89 ^ bVar75) & bVar65;
+    bVar60 = ((byte)local_11c ^ bVar77) & bVar60;
+    bVar63 = (bVar90 ^ bVar78) & bVar63;
+    bVar64 = (bVar91 ^ bVar79) & bVar64;
+    bVar65 = (bVar92 ^ bVar80) & bVar65;
+    iVar43 = CONCAT13(bVar47 ^ bVar69,
+                      CONCAT12(bVar46 ^ bVar68,CONCAT11(bVar45 ^ bVar67,bVar42 ^ (byte)local_c8)));
+    iVar49 = CONCAT13(bVar59 ^ bVar75,
+                      CONCAT12(bVar58 ^ bVar73,CONCAT11(bVar57 ^ bVar76,bVar54 ^ (byte)uStack_c0)));
+    uVar30 = (uStack_f0._4_4_ ^ local_8c) & uVar30;
+    local_8c = uVar30 ^ local_8c;
+    uStack_128 = CONCAT13(bVar47 ^ bVar83,
+                          CONCAT12(bVar46 ^ bVar82,
+                                   CONCAT11(bVar45 ^ bVar81,bVar42 ^ (byte)uStack_128)));
+    uStack_120 = CONCAT13(bVar59 ^ bVar89,
+                          CONCAT12(bVar58 ^ bVar88,
+                                   CONCAT11(bVar57 ^ bVar87,bVar54 ^ (byte)uStack_120)));
+    local_11c = (int)(CONCAT17(bVar65 ^ bVar92,
+                               CONCAT16(bVar64 ^ bVar91,
+                                        CONCAT15(bVar63 ^ bVar90,
+                                                 CONCAT14(bVar60 ^ (byte)local_11c,uStack_120)))) >>
+                     0x20);
+    uStack_124 = (uint)(CONCAT17(bVar53 ^ bVar86,
+                                 CONCAT16(bVar52 ^ bVar85,
+                                          CONCAT15(bVar51 ^ bVar84,
+                                                   CONCAT14(bVar48 ^ (byte)uStack_124,uStack_128))))
+                       >> 0x20);
+    uVar20 = uVar20 ^ (uint)local_f8;
+    uVar30 = uVar30 ^ uStack_f0._4_4_;
+    local_b0 = uVar22 + uVar66;
+    local_f8 = CONCAT44(local_f8._4_4_,uVar20);
+    iVar50 = (int)(CONCAT17(bVar65 ^ bVar80,
+                            CONCAT16(bVar64 ^ bVar79,
+                                     CONCAT15(bVar63 ^ bVar78,CONCAT14(bVar60 ^ bVar77,iVar49)))) >>
+                  0x20);
+    uStack_f0 = CONCAT44(uVar30,uVar28);
+    iVar44 = (int)(CONCAT17(bVar53 ^ bVar74,
+                            CONCAT16(bVar52 ^ bVar72,
+                                     CONCAT15(bVar51 ^ bVar71,CONCAT14(bVar48 ^ bVar70,iVar43)))) >>
+                  0x20);
+    local_188._0_4_ = uStack_98 - iVar43;
+    local_188._4_4_ = uVar19 - iVar44;
+    uStack_180._0_4_ = uVar21 - iVar49;
+    uStack_180._4_4_ = local_8c - iVar50;
+                    /* try { // try from 00ba9d78 to 00ca9e37 has its CatchHandler @ 00ba9f48 */
+    local_e0 = local_140 + local_110;
+    uStack_dc = uStack_13c + uStack_10c;
+    uStack_d8 = uStack_138 + uStack_108;
+    uStack_d4 = uStack_134 + uStack_104;
+    local_170 = local_110 - local_140;
+    local_1a0 = uVar66 - uVar22;
+    local_18c = uVar17 - local_cc;
+    local_9c = local_cc + uVar17;
+    uStack_98 = iVar43 + uStack_98;
+    local_158 = uVar20 - uStack_128;
+    iStack_154 = local_f8._4_4_ - uStack_124;
+    iStack_150 = uVar28 - uStack_120;
+    iStack_14c = uVar30 - local_11c;
+    local_c8._0_4_ = uStack_128 + uVar20;
+    local_c8._4_4_ = uStack_124 + local_f8._4_4_;
+    uStack_c0._0_4_ = uStack_120 + uVar28;
+    uStack_c0._4_4_ = local_11c + uVar30;
+    local_ac._0_4_ = uVar23 + uVar15;
+    local_ac._4_4_ = uVar24 + uVar14;
+    uStack_a4._0_4_ = uVar25 + uVar16;
+    uStack_a4._4_4_ = uVar26 + uVar27;
+    local_160 = uVar18 - uStack_130;
+    uStack_d0 = uStack_130 + uVar18;
+    local_15c = local_fc - local_12c;
+    local_cc = local_12c + local_fc;
+    iStack_16c = uStack_10c - uStack_13c;
+    iStack_168 = uStack_108 - uStack_138;
+    iStack_164 = uStack_104 - uStack_134;
+    uStack_94 = iVar44 + uVar19;
+    uStack_90 = uVar21 + iVar49;
+    local_8c = local_8c + iVar50;
+    iStack_19c = uVar15 - uVar23;
+    iStack_198 = uVar14 - uVar24;
+    iStack_194 = uVar16 - uVar25;
+    iStack_190 = uVar27 - uVar26;
+                    /* try { // try from 00ba9e38 to 00ca9f3f has its CatchHandler @ 00ba9bc0 */
+    FUN_00bab2b0(&local_140,&local_170,&local_b0);
+    FUN_00bab2b0(&local_e0,&local_e0,&local_1a0);
+    FUN_00bab77c(&local_170,&local_1a0);
+    FUN_00bab77c(&local_1a0,&local_b0);
+    local_110 = local_e0 + local_140;
+    local_e0 = local_140 - local_e0;
+    uStack_10c = uStack_dc + uStack_13c;
+    uStack_dc = uStack_13c - uStack_dc;
+    uStack_108 = uStack_d8 + uStack_138;
+    uStack_d8 = uStack_138 - uStack_d8;
+    uStack_104 = uStack_d4 + uStack_134;
+    uStack_d4 = uStack_134 - uStack_d4;
+    local_100 = uStack_d0 + uStack_130;
+    uStack_d0 = uStack_130 - uStack_d0;
+    local_fc = local_cc + local_12c;
+    local_cc = local_12c - local_cc;
+    local_f8 = CONCAT44(local_c8._4_4_ + uStack_124,(int)local_c8 + uStack_128);
+    local_c8 = CONCAT44(uStack_124 - local_c8._4_4_,uStack_128 - (int)local_c8);
+    uStack_f0 = CONCAT44(uStack_c0._4_4_ + local_11c,(int)uStack_c0 + uStack_120);
+    uStack_c0 = CONCAT44(local_11c - uStack_c0._4_4_,uStack_120 - (int)uStack_c0);
+    FUN_00bab2b0(&local_b0,&local_1a0,&local_170);
+    lVar29 = (long)local_160;
+    lVar3 = (long)local_15c;
+    lVar36 = (long)iStack_190;
+                    /* try { // try from 00ba9f40 to 00ca9f47 has its CatchHandler @ 00ba9f48 */
+    iVar43 = local_1a0 - local_170;
+    iVar49 = iStack_19c - iStack_16c;
+    iVar55 = iStack_198 - iStack_168;
+    iVar61 = iStack_194 - iStack_164;
+                    /* catch() { ... } // from try @ 00ba9d78 with catch @ 00ba9f48
+                       catch() { ... } // from try @ 00ba9f40 with catch @ 00ba9f48
+                       try { // try from 00ba9f48 to 00ca9f7b has its CatchHandler @ 00ba9bc0 */
+    lVar34 = (long)local_18c;
+                    /* catch() { ... } // from try @ 00ba9c9c with catch @ 00ba9f58 */
+    iStack_190 = (int)(lVar36 - lVar29);
+    local_18c = (int)(lVar34 - lVar3);
+    iVar44 = (int)local_188 - local_158;
+    iVar50 = local_188._4_4_ - iStack_154;
+    local_188 = CONCAT44(iVar50,iVar44);
+    iVar56 = (int)uStack_180 - iStack_150;
+    iVar62 = uStack_180._4_4_ - iStack_14c;
+    uStack_180 = CONCAT44(iVar62,iVar56);
+    local_1a0 = iVar43;
+    iStack_19c = iVar49;
+    iStack_198 = iVar55;
+    iStack_194 = iVar61;
+    FUN_00bab77c(&local_e0,&local_e0);
+    lVar35 = (lVar34 - lVar3) * 0x1db42;
+    lVar41 = (long)iVar62 * 0x1db42;
+    lVar3 = lVar41 + 0x1000000;
+    lVar38 = (long)iVar49 * 0x1db42;
+    lVar39 = (long)iVar61 * 0x1db42;
+    lVar40 = (long)iVar50 * 0x1db42;
+    lVar34 = lVar35 + 0x1000000;
+    lVar6 = lVar38 + 0x1000000;
+    lVar9 = (long)iVar44 * 0x1db42 + (lVar34 >> 0x19);
+    lVar37 = (long)iVar43 * 0x1db42 + (lVar3 >> 0x19) * 0x13;
+    lVar31 = (long)iVar55 * 0x1db42 + (lVar6 >> 0x19);
+    uVar2 = lVar9 + 0x2000000;
+    lVar32 = lVar39 + 0x1000000;
+    lVar33 = lVar40 + 0x1000000;
+    uVar4 = lVar31 + 0x2000000;
+    lVar29 = (lVar36 - lVar29) * 0x1db42 + (lVar32 >> 0x19);
+    uVar14 = (int)lVar9 - ((uint)uVar2 & 0xfc000000);
+    uVar5 = lVar29 + 0x2000000;
+    lVar9 = (long)iVar56 * 0x1db42 + (lVar33 >> 0x19);
+    uVar15 = (int)lVar31 - ((uint)uVar4 & 0xfc000000);
+    uVar7 = lVar9 + 0x2000000;
+    uVar16 = (int)lVar29 - ((uint)uVar5 & 0xfc000000);
+    uVar8 = lVar37 + 0x2000000;
+    uVar17 = ((int)(uVar2 >> 0x1a) + (int)lVar40) - ((uint)lVar33 & 0xfe000000);
+    uVar18 = (int)lVar9 - ((uint)uVar7 & 0xfc000000);
+    uVar66 = ((int)lVar38 - ((uint)lVar6 & 0xfe000000)) + (int)(uVar8 >> 0x1a);
+    uVar19 = (int)lVar37 - ((uint)uVar8 & 0xfc000000);
+    uVar20 = ((int)(uVar4 >> 0x1a) + (int)lVar39) - ((uint)lVar32 & 0xfe000000);
+    uVar21 = ((int)(uVar5 >> 0x1a) + (int)lVar35) - ((uint)lVar34 & 0xfe000000);
+    iVar43 = ((int)(uVar7 >> 0x1a) + (int)lVar41) - ((uint)lVar3 & 0xfe000000);
+    local_140 = uVar19;
+    uStack_13c = uVar66;
+    uStack_138 = uVar15;
+    uStack_134 = uVar20;
+    uStack_130 = uVar16;
+    local_12c = uVar21;
+    uStack_128 = uVar14;
+    uStack_124 = uVar17;
+    uStack_120 = uVar18;
+    local_11c = iVar43;
+    FUN_00bab77c(&local_110,&local_110);
+    local_170 = local_170 + uVar19;
+    iStack_16c = iStack_16c + uVar66;
+    iStack_168 = iStack_168 + uVar15;
+    iStack_164 = iStack_164 + uVar20;
+    local_160 = local_160 + uVar16;
+    local_15c = local_15c + uVar21;
+    _local_158 = CONCAT44(iStack_154 + uVar17,local_158 + uVar14);
+    _iStack_150 = CONCAT44(iStack_14c + iVar43,iStack_150 + uVar18);
+    FUN_00bab2b0(&local_140,&local_88,&local_e0);
+    FUN_00bab2b0(&local_e0,&local_1a0,&local_170);
+    bVar1 = 0 < (int)uVar94;
+    uVar66 = uVar13;
+    uVar94 = uVar94 - 1;
+  } while (bVar1);
+  uVar13 = -uVar13;
+  uVar66 = (local_110 ^ local_b0) & uVar13;
+  uVar94 = (local_140 ^ local_e0) & uVar13;
+  local_b0 = uVar66 ^ local_b0;
+  local_e0 = uVar94 ^ local_e0;
+  local_140 = uVar94 ^ local_140;
+  uVar94 = (uStack_10c ^ (uint)local_ac) & uVar13;
+  uVar14 = (uStack_13c ^ uStack_dc) & uVar13;
+  uStack_dc = uVar14 ^ uStack_dc;
+  uStack_13c = uVar14 ^ uStack_13c;
+  _local_110 = CONCAT44(uVar94 ^ uStack_10c,uVar66 ^ local_110);
+  uVar66 = (uStack_108 ^ local_ac._4_4_) & uVar13;
+  uVar14 = (uStack_138 ^ uStack_d8) & uVar13;
+  uStack_d8 = uVar14 ^ uStack_d8;
+  uStack_138 = uVar14 ^ uStack_138;
+  local_ac = CONCAT44(uVar66 ^ local_ac._4_4_,uVar94 ^ (uint)local_ac);
+  uVar94 = (uStack_104 ^ (uint)uStack_a4) & uVar13;
+  uVar14 = (uStack_134 ^ uStack_d4) & uVar13;
+  uStack_d4 = uVar14 ^ uStack_d4;
+  uStack_134 = uVar14 ^ uStack_134;
+  _uStack_108 = CONCAT44(uVar94 ^ uStack_104,uVar66 ^ uStack_108);
+  uVar66 = (local_100 ^ uStack_a4._4_4_) & uVar13;
+  uVar14 = (uStack_130 ^ uStack_d0) & uVar13;
+  uStack_d0 = uVar14 ^ uStack_d0;
+  uStack_130 = uVar14 ^ uStack_130;
+  uStack_a4 = CONCAT44(uVar66 ^ uStack_a4._4_4_,uVar94 ^ (uint)uStack_a4);
+  uVar94 = (local_fc ^ local_9c) & uVar13;
+  uVar14 = (local_12c ^ local_cc) & uVar13;
+  local_9c = uVar94 ^ local_9c;
+  local_cc = uVar14 ^ local_cc;
+  local_12c = uVar14 ^ local_12c;
+  _local_100 = CONCAT44(uVar94 ^ local_fc,uVar66 ^ local_100);
+  bVar60 = (byte)(uStack_98 >> 8);
+  bVar42 = (byte)(uStack_98 >> 0x10);
+  bVar45 = (byte)(uStack_98 >> 0x18);
+  bVar63 = (byte)(uStack_94 >> 8);
+  bVar46 = (byte)(uStack_94 >> 0x10);
+  bVar64 = (byte)(uStack_94 >> 0x18);
+  bVar47 = (byte)(uStack_90 >> 8);
+  bVar65 = (byte)(uStack_90 >> 0x10);
+  bVar48 = (byte)(uStack_90 >> 0x18);
+  bVar51 = (byte)(local_8c >> 8);
+  bVar52 = (byte)(local_8c >> 0x10);
+  bVar53 = (byte)(local_8c >> 0x18);
+  bVar73 = (byte)((ulong)local_c8 >> 8);
+  bVar75 = (byte)((ulong)local_c8 >> 0x10);
+  bVar77 = (byte)((ulong)local_c8 >> 0x18);
+  bVar78 = (byte)((ulong)local_c8 >> 0x20);
+  bVar79 = (byte)((ulong)local_c8 >> 0x28);
+  bVar80 = (byte)((ulong)local_c8 >> 0x30);
+  bVar81 = (byte)((ulong)local_c8 >> 0x38);
+  bVar82 = (byte)((ulong)uStack_c0 >> 8);
+  bVar83 = (byte)((ulong)uStack_c0 >> 0x10);
+  bVar84 = (byte)((ulong)uStack_c0 >> 0x18);
+  bVar85 = (byte)((ulong)uStack_c0 >> 0x20);
+  bVar86 = (byte)((ulong)uStack_c0 >> 0x28);
+  bVar87 = (byte)((ulong)uStack_c0 >> 0x30);
+  bVar88 = (byte)((ulong)uStack_c0 >> 0x38);
+  bVar89 = (byte)uVar13;
+  bVar93 = ((byte)local_f8 ^ (byte)uStack_98) & bVar89;
+  bVar90 = (byte)(uVar13 >> 8);
+  bVar95 = ((byte)((ulong)local_f8 >> 8) ^ bVar60) & bVar90;
+  bVar91 = (byte)(uVar13 >> 0x10);
+  bVar96 = ((byte)((ulong)local_f8 >> 0x10) ^ bVar42) & bVar91;
+  bVar92 = (byte)(uVar13 >> 0x18);
+  bVar97 = ((byte)((ulong)local_f8 >> 0x18) ^ bVar45) & bVar92;
+  uVar94 = CONCAT13(bVar97,CONCAT12(bVar96,CONCAT11(bVar95,bVar93)));
+  bVar98 = ((byte)((ulong)local_f8 >> 0x20) ^ (byte)uStack_94) & bVar89;
+  bVar99 = ((byte)((ulong)local_f8 >> 0x28) ^ bVar63) & bVar90;
+  bVar100 = ((byte)((ulong)local_f8 >> 0x30) ^ bVar46) & bVar91;
+  bVar101 = ((byte)((ulong)local_f8 >> 0x38) ^ bVar64) & bVar92;
+  bVar102 = ((byte)uStack_f0 ^ (byte)uStack_90) & bVar89;
+  bVar103 = ((byte)((ulong)uStack_f0 >> 8) ^ bVar47) & bVar90;
+  bVar104 = ((byte)((ulong)uStack_f0 >> 0x10) ^ bVar65) & bVar91;
+  bVar105 = ((byte)((ulong)uStack_f0 >> 0x18) ^ bVar48) & bVar92;
+  bVar54 = ((byte)uStack_128 ^ (byte)local_c8) & bVar89;
+  bVar57 = ((byte)(uStack_128 >> 8) ^ bVar73) & bVar90;
+  bVar58 = ((byte)(uStack_128 >> 0x10) ^ bVar75) & bVar91;
+  bVar59 = ((byte)(uStack_128 >> 0x18) ^ bVar77) & bVar92;
+  uVar66 = CONCAT13(bVar59,CONCAT12(bVar58,CONCAT11(bVar57,bVar54)));
+  bVar67 = ((byte)uStack_124 ^ bVar78) & bVar89;
+  bVar68 = ((byte)(uStack_124 >> 8) ^ bVar79) & bVar90;
+  bVar69 = ((byte)(uStack_124 >> 0x10) ^ bVar80) & bVar91;
+  bVar70 = ((byte)(uStack_124 >> 0x18) ^ bVar81) & bVar92;
+  bVar71 = ((byte)uStack_120 ^ (byte)uStack_c0) & bVar89;
+  bVar72 = ((byte)(uStack_120 >> 8) ^ bVar82) & bVar90;
+  bVar74 = ((byte)(uStack_120 >> 0x10) ^ bVar83) & bVar91;
+  bVar76 = ((byte)(uStack_120 >> 0x18) ^ bVar84) & bVar92;
+  uStack_98 = CONCAT13(bVar97 ^ bVar45,
+                       CONCAT12(bVar96 ^ bVar42,CONCAT11(bVar95 ^ bVar60,bVar93 ^ (byte)uStack_98)))
+  ;
+  uStack_90 = CONCAT13(bVar105 ^ bVar48,
+                       CONCAT12(bVar104 ^ bVar65,
+                                CONCAT11(bVar103 ^ bVar47,bVar102 ^ (byte)uStack_90)));
+  local_c8 = CONCAT17(bVar70 ^ bVar81,
+                      CONCAT16(bVar69 ^ bVar80,
+                               CONCAT15(bVar68 ^ bVar79,
+                                        CONCAT14(bVar67 ^ bVar78,
+                                                 CONCAT13(bVar59 ^ bVar77,
+                                                          CONCAT12(bVar58 ^ bVar75,
+                                                                   CONCAT11(bVar57 ^ bVar73,
+                                                                            bVar54 ^ (byte)local_c8)
+                                                                  ))))));
+  uStack_c0 = CONCAT17(((byte)((uint)local_11c >> 0x18) ^ bVar88) & bVar92 ^ bVar88,
+                       CONCAT16(((byte)((uint)local_11c >> 0x10) ^ bVar87) & bVar91 ^ bVar87,
+                                CONCAT15(((byte)((uint)local_11c >> 8) ^ bVar86) & bVar90 ^ bVar86,
+                                         CONCAT14(((byte)local_11c ^ bVar85) & bVar89 ^ bVar85,
+                                                  CONCAT13(bVar76 ^ bVar84,
+                                                           CONCAT12(bVar74 ^ bVar83,
+                                                                    CONCAT11(bVar72 ^ bVar82,
+                                                                             bVar71 ^ (byte)
+                                                  uStack_c0)))))));
+  uStack_128 = uVar66 ^ uStack_128;
+  uStack_124 = (uint)(CONCAT17(bVar70,CONCAT16(bVar69,CONCAT15(bVar68,CONCAT14(bVar67,uVar66)))) >>
+                     0x20) ^ uStack_124;
+  uStack_120 = CONCAT13(bVar76,CONCAT12(bVar74,CONCAT11(bVar72,bVar71))) ^ uStack_120;
+  local_8c = (uint)(CONCAT17(((byte)((ulong)uStack_f0 >> 0x38) ^ bVar53) & bVar92 ^ bVar53,
+                             CONCAT16(((byte)((ulong)uStack_f0 >> 0x30) ^ bVar52) & bVar91 ^ bVar52,
+                                      CONCAT15(((byte)((ulong)uStack_f0 >> 0x28) ^ bVar51) & bVar90
+                                               ^ bVar51,CONCAT14(((byte)((ulong)uStack_f0 >> 0x20) ^
+                                                                 (byte)local_8c) & bVar89 ^
+                                                                 (byte)local_8c,uStack_90)))) >>
+                   0x20);
+  uStack_94 = (uint)(CONCAT17(bVar101 ^ bVar64,
+                              CONCAT16(bVar100 ^ bVar46,
+                                       CONCAT15(bVar99 ^ bVar63,
+                                                CONCAT14(bVar98 ^ (byte)uStack_94,uStack_98)))) >>
+                    0x20);
+  local_f8 = CONCAT44((uint)(CONCAT17(bVar101,CONCAT16(bVar100,CONCAT15(bVar99,CONCAT14(bVar98,
+                                                  uVar94)))) >> 0x20) ^
+                      (uint)((ulong)local_f8 >> 0x20),uVar94 ^ (uint)local_f8);
+  uStack_f0 = CONCAT44(uStack_f0._4_4_,
+                       CONCAT13(bVar105,CONCAT12(bVar104,CONCAT11(bVar103,bVar102))) ^
+                       (uint)uStack_f0);
+  FUN_00baaa80(&local_e0,&local_e0);
+  FUN_00bab2b0(&local_b0,&local_b0,&local_e0);
+  FUN_00bab5d0(param_1,&local_b0);
+  iVar43 = CRYPTO_memcmp(&DAT_013f47f0,param_1,0x20);
+  return iVar43 != 0;
+}
+

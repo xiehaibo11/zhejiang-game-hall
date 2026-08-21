@@ -1,0 +1,181 @@
+{
+  "m_Name": "aff6170e0ac3930a7b967b27065b2dc5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -7206282994740828625
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -3653389107954289390
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7333617747255380836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8394755348053891628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7880746656218726591
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7659236087212884777
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7460836377581100317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7422768404865744408
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6871878504630154525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5992174406895525532
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5848963637255204707
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5810798183228342865
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5610058980146582692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5472021970844994038
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4691152905541305027
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3180506046769196317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2222026469783915437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1665056001218089741
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1376212636727697895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1301111139616899830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -775944089417538450
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -373062894915413616
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 59592442971521631
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 654376952856412971
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2068220581346425084
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5622881591901315722
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5723985280696781315
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8711088342654391319
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8873876971611101135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9036655927150108828
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": 2769544930237686783
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -8494750641699975659
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -307022375191228054
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 4388824439774278007
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/prefab/wusong/godgeneralgameultimateskill_laser_2001_wrist.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 35,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7880746656218726591
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "aff6170e0ac3930a7b967b27065b2dc5.bundle",
+  "m_Dependencies": [
+    "3ef9bb50e7d73fd8d1562d01aad163bc.bundle",
+    "467265524655d7cac6381f5923569489.bundle",
+    "6763e272cba03a1bb65ed84b7c47d7af.bundle",
+    "759d9bf3a2b69b107b01bc13e43a369a.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "9ab52adbf60fdc26c99b53939f283589.bundle",
+    "f38db3b1c0ab7b91fc9b5a4b3824f3cb.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

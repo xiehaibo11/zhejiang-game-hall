@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_godgeneral_2002_Hit2",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 48000,
+  "m_BitsPerSample": 16,
+  "m_Length": 2.040562391281128,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-515b24f0a420214699e9859c4968634d/CAB-515b24f0a420214699e9859c4968634d.resource",
+    "m_Offset": 0,
+    "m_Size": 21664
+  },
+  "m_CompressionFormat": 1
+}

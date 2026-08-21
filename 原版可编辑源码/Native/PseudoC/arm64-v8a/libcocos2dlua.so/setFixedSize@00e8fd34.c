@@ -1,0 +1,10 @@
+
+/* cocos2d::experimental::ThreadPool::setFixedSize(bool) */
+
+void __thiscall cocos2d::experimental::ThreadPool::setFixedSize(ThreadPool *this,bool param_1)
+
+{
+  this[0x16c] = (ThreadPool)param_1;
+  return;
+}
+

@@ -1,0 +1,21 @@
+
+/* std::__ndk1::__owns_two_states<char>::~__owns_two_states() */
+
+void __thiscall
+std::__ndk1::__owns_two_states<char>::~__owns_two_states(__owns_two_states<char> *this)
+
+{
+  *(undefined ***)this = &PTR____owns_two_states_016f52d8;
+  if (*(long **)(this + 0x10) != (long *)0x0) {
+    (**(code **)(**(long **)(this + 0x10) + 8))();
+  }
+  *(undefined ***)this = &PTR____owns_one_state_016f4e58;
+  if (*(long **)(this + 8) != (long *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x00eafc8c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (**(code **)(**(long **)(this + 8) + 8))();
+    return;
+  }
+  return;
+}
+

@@ -1,0 +1,169 @@
+{
+  "m_Name": "e60612db0ecf118168bf44080f528c32.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -32334636312002778
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 2536735564327876064
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9206908598029535799
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9041552286016262974
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8375603225934690963
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7240301889401245575
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5408856714947769188
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5225718265225048079
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4554616799055446432
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3906807062518048771
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3157192622560392924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2475633987575199413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2404719304606460930
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2055975842858603545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1251862374765252514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -988059776741889230
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -334173917392341836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 43275942812017679
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 997575858288737232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2602543448326502293
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3459397153058245596
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4277661066419205566
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4494725894958656488
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5501852874993343990
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7948194458033615479
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9145408872364892514
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1815766621309959125
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 5324888391488856973
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/moonfestival/moonfestivalpuzzleguidepanel.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 33,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1251862374765252514
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e60612db0ecf118168bf44080f528c32.bundle",
+  "m_Dependencies": [
+    "0c56e7fbe613fe71c8a8dc24310b366a.bundle",
+    "20d648468bc485e34907875e79896cad.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

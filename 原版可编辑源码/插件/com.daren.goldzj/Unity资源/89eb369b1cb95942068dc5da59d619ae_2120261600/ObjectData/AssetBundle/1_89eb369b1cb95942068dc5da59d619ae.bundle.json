@@ -1,0 +1,63 @@
+{
+  "m_Name": "89eb369b1cb95942068dc5da59d619ae.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 5042190918692851769
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7413486420477133269
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 4064278436936168626
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8380359500536695755
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 594124074144150675
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bosschallengeskin4/material/trail_bosschallenge_4 2.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8380359500536695755
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "89eb369b1cb95942068dc5da59d619ae.bundle",
+  "m_Dependencies": [
+    "51750aa4844fee47daba13ad3af1f232.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "775f7f058f1c08a4df385df69663f653.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,294 @@
+{
+  "m_Name": "49ac3216e59c0a635f81ea9490fab5df.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6048170424939569506
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5445345905015144616
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2658023900991243572
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1964783200391030602
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7970758670842731979
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4131158732727130442
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 623987647271113942
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1093111787450689007
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3833815668769841801
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4139789938694831272
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2780947418252519981
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -441599939750216218
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 563975525619659852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6318830950016703471
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7801132082194292904
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1561859103710700459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1159582860250599486
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1414335014404940605
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3956690431807639282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6995879291480384660
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8079672358748648061
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7165626479443880001
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -62727785768694055
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4615500848701258210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6683475564613695363
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/cone_01_mjxm.fbx",
+      {
+        "preloadIndex": 32,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8079672358748648061
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/cone_01_mjxm.fbx",
+      {
+        "preloadIndex": 32,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -62727785768694055
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/cone_02_mjxm.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 563975525619659852
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/cone_02_mjxm.fbx",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -441599939750216218
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/plane_01_mjxm.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2658023900991243572
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/plane_01_mjxm.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5445345905015144616
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/plane_02_mjxm.fbx",
+      {
+        "preloadIndex": 24,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1159582860250599486
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/plane_02_mjxm.fbx",
+      {
+        "preloadIndex": 24,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1414335014404940605
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/yuan01.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4139789938694831272
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/majiangxiongmao/mesh/yuan01.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 623987647271113942
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "49ac3216e59c0a635f81ea9490fab5df.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,53 @@
+{
+  "m_Name": "898bc5afd2ba57b83d4671cfe0c2619e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7932669473803172130
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3507929537923996612
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -970124157129042768
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/succulentdevelopmentpanel/effect/material/ui_eff_lyxz_title_saoguang.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7932669473803172130
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "898bc5afd2ba57b83d4671cfe0c2619e.bundle",
+  "m_Dependencies": [
+    "578084419370aa171c5fea33b48337ec.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,105 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8969967434991324503
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5539893307727040194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9142728826185994329
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2264400609267464203
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7913579844484792006
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8245991349056983458
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8548301222737624988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1754472110890097615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2599690603966750282
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7379137348550120265
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2634686838902152474
+    }
+  ],
+  "m_BindComs_Name": [
+    "GoldIcon",
+    "GoldCountLabel",
+    "AdditionLabel",
+    "LimitBuyLabel",
+    "BtnBuy",
+    "PriceLabel",
+    "BtnFree",
+    "Finished",
+    "m_BuffDetailsComponent",
+    "GameGuMuAddition"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4208220773480591633
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2335588395628056322
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6253429420716043090
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "RewardItems"
+  ],
+  "hotfixClassFullName": "GameHotFix.JuneFestival.JuneFestivalShopItem",
+  "m_ClassName": "JuneFestivalShopItem"
+}

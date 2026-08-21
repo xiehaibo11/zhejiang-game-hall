@@ -1,0 +1,125 @@
+
+qgb_zhadan.png
+size: 240,927
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MJ_bomb01
+  rotate: true
+  xy: 2, 2
+  size: 55, 61
+  orig: 60, 65
+  offset: 5, 0
+  index: -1
+MJ_bomb02
+  rotate: true
+  xy: 127, 181
+  size: 122, 105
+  orig: 134, 105
+  offset: 0, 0
+  index: -1
+boom (10)
+  rotate: true
+  xy: 2, 59
+  size: 115, 120
+  orig: 141, 141
+  offset: 14, 14
+  index: -1
+boom (11)
+  rotate: false
+  xy: 125, 65
+  size: 112, 114
+  orig: 141, 141
+  offset: 15, 17
+  index: -1
+boom (12)
+  rotate: true
+  xy: 128, 515
+  size: 111, 110
+  orig: 141, 141
+  offset: 16, 19
+  index: -1
+boom (13)
+  rotate: false
+  xy: 127, 408
+  size: 109, 105
+  orig: 141, 141
+  offset: 17, 22
+  index: -1
+boom (14)
+  rotate: false
+  xy: 127, 305
+  size: 106, 101
+  orig: 141, 141
+  offset: 19, 24
+  index: -1
+boom (15)
+  rotate: true
+  xy: 145, 823
+  size: 102, 85
+  orig: 141, 141
+  offset: 21, 26
+  index: -1
+boom (16)
+  rotate: true
+  xy: 124, 3
+  size: 60, 69
+  orig: 141, 141
+  offset: 47, 29
+  index: -1
+boom (2)
+  rotate: false
+  xy: 145, 737
+  size: 85, 84
+  orig: 141, 141
+  offset: 29, 32
+  index: -1
+boom (3)
+  rotate: true
+  xy: 129, 628
+  size: 107, 109
+  orig: 141, 141
+  offset: 23, 17
+  index: -1
+boom (4)
+  rotate: false
+  xy: 2, 666
+  size: 125, 121
+  orig: 141, 141
+  offset: 11, 15
+  index: -1
+boom (5)
+  rotate: false
+  xy: 2, 789
+  size: 141, 136
+  orig: 141, 141
+  offset: 0, 5
+  index: -1
+boom (6)
+  rotate: false
+  xy: 2, 176
+  size: 121, 121
+  orig: 141, 141
+  offset: 11, 14
+  index: -1
+boom (7)
+  rotate: false
+  xy: 2, 418
+  size: 123, 123
+  orig: 141, 141
+  offset: 10, 13
+  index: -1
+boom (8)
+  rotate: true
+  xy: 2, 543
+  size: 121, 124
+  orig: 141, 141
+  offset: 11, 13
+  index: -1
+boom (9)
+  rotate: true
+  xy: 2, 299
+  size: 117, 123
+  orig: 141, 141
+  offset: 13, 13
+  index: -1

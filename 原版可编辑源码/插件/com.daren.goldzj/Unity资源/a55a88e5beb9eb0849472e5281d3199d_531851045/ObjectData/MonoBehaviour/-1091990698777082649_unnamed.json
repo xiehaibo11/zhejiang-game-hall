@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -951385809337142919
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1234040697061371007
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1286338946120488621
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8435049821485705660
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7553517465739961295
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9027399635853896529
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -29409031759106636
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4453496593855816667
+    }
+  ],
+  "m_BindComs_Name": [
+    "BtnClose",
+    "Title",
+    "Content",
+    "BtnCancle",
+    "BtnConfirm",
+    "cancleText",
+    "confirmText"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.SuperTurntable.SuperTurntableTipPanel",
+  "m_ClassName": "SuperTurntableTipPanel"
+}

@@ -1,0 +1,41 @@
+{
+  "m_Name": "5f1e1e7a40b9ac1c241425da883815f9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4579746060547940865
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8717241698161627422
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/profile/avatarframe/fx/avatarframefx_10102.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4579746060547940865
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5f1e1e7a40b9ac1c241425da883815f9.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

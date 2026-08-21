@@ -1,0 +1,126 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2431082994091371414
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1154465642738052498
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1546345640461525804
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3128581786028032537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1008663729531270635
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1982188883118184980
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6069644187611757390
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5577554923648089776
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6874433647173735486
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2685856252081457394
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 669541486161711650
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4160246438446135450
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7606065045460215269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8176826469552759803
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5457522088493679659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -288963502396271716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7919640916977566077
+    }
+  ],
+  "m_BindComs_Name": [
+    "Mail",
+    "FeedBackTop",
+    "FeedBackRedDotCountTop",
+    "WealthTransfer",
+    "More",
+    "Set",
+    "Anno",
+    "FeedBack",
+    "FeedBackRedDotCount",
+    "ZhuXiao",
+    "Switch",
+    "SwitchGuide",
+    "Exit",
+    "Sanjiao",
+    "MoreRedPoint",
+    "mask"
+  ],
+  "m_BindInt": [
+    0
+  ],
+  "m_BindInt_Name": [
+    "CurrMoreGroup"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": []
+    }
+  ],
+  "m_BindObjList_Name": [
+    "lstActivityBtns"
+  ],
+  "hotfixClassFullName": "GameHotFix.Lobby.LobbyTopView",
+  "m_ClassName": "LobbyTopView"
+}

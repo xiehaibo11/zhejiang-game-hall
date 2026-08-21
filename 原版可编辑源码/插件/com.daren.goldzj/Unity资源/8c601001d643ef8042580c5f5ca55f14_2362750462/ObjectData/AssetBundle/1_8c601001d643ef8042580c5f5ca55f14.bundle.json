@@ -1,0 +1,179 @@
+{
+  "m_Name": "8c601001d643ef8042580c5f5ca55f14.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6652907146049739233
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4988504477029763410
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801546444094917099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 116577667234131432
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7585960550935075917
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 8859675422005266148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4549277971242896482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4524902688679204728
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2541034095437676630
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7043142239474048776
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7876523078446273719
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1558553723380295516
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 937979256606426711
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4311791302886398484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4493207946158337802
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9121540605110309867
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/158_direnjie/fbx/plane_banhu.fbx",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1558553723380295516
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/158_direnjie/fbx/plane_banhu.fbx",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4493207946158337802
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/158_direnjie/fbx/plane_direnjie.fbx",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2541034095437676630
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/158_direnjie/fbx/plane_direnjie.fbx",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7876523078446273719
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/158_direnjie/fbx/plane_lingpai.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6652907146049739233
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/158_direnjie/fbx/plane_lingpai.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7585960550935075917
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8c601001d643ef8042580c5f5ca55f14.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "8b35ecee62bccfa14df72aeca97478e9.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,142 @@
+{
+  "m_Name": "909c4435ea41f46ef5dbc04bb1304e35.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8560238924755622936
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3482246201254655738
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5574304538272071083
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3212750789885463898
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3056192520341774570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3622664693409198167
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1179970711151984307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1172745794540850553
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_062_\u59b2\u5df1/texture/daji_aixin_1.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1179970711151984307
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_062_\u59b2\u5df1/texture/daji_aixin_2.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3482246201254655738
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_062_\u59b2\u5df1/texture/daji_aixin_3.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3056192520341774570
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_062_\u59b2\u5df1/texture/daji_aixin_4.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5574304538272071083
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_062_\u59b2\u5df1/texture/daji_aixin_5.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8560238924755622936
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_062_\u59b2\u5df1/texture/daji_noise_1.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1172745794540850553
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_062_\u59b2\u5df1/texture/img_py_lhhs.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3622664693409198167
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_062_\u59b2\u5df1/texture/rrby_glow_403.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3212750789885463898
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "909c4435ea41f46ef5dbc04bb1304e35.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

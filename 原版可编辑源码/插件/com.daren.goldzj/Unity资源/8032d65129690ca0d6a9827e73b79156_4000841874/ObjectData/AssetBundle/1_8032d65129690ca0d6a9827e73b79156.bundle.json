@@ -1,0 +1,37 @@
+{
+  "m_Name": "8032d65129690ca0d6a9827e73b79156.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2889574541792440694
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/0_\u5929\u738b\u795e\u5668\u795e\u5ba0\u70ae\u9b42/\u70ae\u9b42_\u57c3\u53ca\u8273\u540e/\u57c3\u53ca\u8273\u540e_\u6fc0\u5149\u5b50\u5f39/texture_npot/line_04.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2889574541792440694
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8032d65129690ca0d6a9827e73b79156.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

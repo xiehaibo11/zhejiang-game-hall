@@ -1,0 +1,97 @@
+{
+  "m_Name": "3d40a4816255e3abbca202e411a74293.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7277066216947456801
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8963870863888791352
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6809144502484602549
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8867861773607539970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4960075247475201875
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/219_sunerniang/texture/smoke_002.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8867861773607539970
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/219_sunerniang/texture/srn_cloud_001.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7277066216947456801
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/219_sunerniang/texture/srn_decal_002.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4960075247475201875
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/219_sunerniang/texture/srn_noise_001.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6809144502484602549
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/219_sunerniang/texture/srn_trail_001.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8963870863888791352
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3d40a4816255e3abbca202e411a74293.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

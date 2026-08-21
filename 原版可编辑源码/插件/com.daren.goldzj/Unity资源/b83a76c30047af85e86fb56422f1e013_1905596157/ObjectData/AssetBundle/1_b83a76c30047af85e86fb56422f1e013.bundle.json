@@ -1,0 +1,144 @@
+{
+  "m_Name": "b83a76c30047af85e86fb56422f1e013.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7821104108727614390
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7098015696233735983
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5949052821969253048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5184443526008267892
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4833386288075852727
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3302302073123717642
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3300005258109897337
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1876516619149841232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -789398457679243939
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -142477844014311082
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1018257796880121624
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1197415787663469060
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1755792724289254356
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2478029626010239020
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3083134182040513451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3253078130226370641
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3306628689710547949
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7594054383070368165
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8733245506084413251
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3556670164277084366
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 848063601214716502
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5968966024575583644
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/prefab/ui/gongxihuode/prefab/ui_eff_gxhd_buff.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 27,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1755792724289254356
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b83a76c30047af85e86fb56422f1e013.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "a37924fc688104a92c7cc05df0e7a541.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,58 @@
+{
+  "m_Name": "bd788ec24596d558a9cbf8e1700503c5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 5718328030546465339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8996076897256620947
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 3069785666017593148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 604660456132914051
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/struggleofthreekingdoms/effect_39/material/mask_qitiandasheng_bgj_s24mq11u.e8z1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 604660456132914051
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "bd788ec24596d558a9cbf8e1700503c5.bundle",
+  "m_Dependencies": [
+    "0968af413768852bd27d4aaca8dbb0e0.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

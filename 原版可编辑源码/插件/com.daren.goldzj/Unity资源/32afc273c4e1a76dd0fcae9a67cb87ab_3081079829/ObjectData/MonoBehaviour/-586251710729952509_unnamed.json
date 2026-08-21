@@ -1,0 +1,233 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7315095536954591498
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [],
+  "m_BindComs_Name": [],
+  "m_BindInt": [
+    5,
+    5,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "m_BindInt_Name": [
+    "SpeedUpStepCount",
+    "SlowDownStepCount",
+    "TurnsCount",
+    "TotalStepCount",
+    "SlotItemsCount",
+    "StartingIndex",
+    "EndingIndex"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    10.0,
+    2.0,
+    1.2000000476837158,
+    0.0,
+    0.0
+  ],
+  "m_BindFloat_Name": [
+    "MaxSpeed",
+    "MinSpeed",
+    "DelayFinishTimeOnEnd",
+    "CurSpeed",
+    "CurSpeedRatio"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 1.0,
+          "inSlope": -1.1522974967956543,
+          "outSlope": -1.1522974967956543,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.3333333432674408
+        },
+        {
+          "time": 0.567441999912262,
+          "value": 0.34613800048828125,
+          "inSlope": -0.7686055302619934,
+          "outSlope": -0.7686055302619934,
+          "weightedMode": 0,
+          "inWeight": 0.3333333432674408,
+          "outWeight": 0.08986204862594604
+        },
+        {
+          "time": 1.0,
+          "value": 0.20000000298023224,
+          "inSlope": -0.3378460109233856,
+          "outSlope": -0.3378460109233856,
+          "weightedMode": 0,
+          "inWeight": 0.3333333432674408,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    }
+  ],
+  "m_BindCurve_Name": [
+    "SpeedUpCurve",
+    "SlowDownCurve"
+  ],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 6647092828691404575
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -74514625792812204
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4378857803182742363
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -124658216117621768
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4080590125180832509
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5023385058946368712
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3004704690466321555
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8888129451251107723
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2906485705118092994
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5810434365763786163
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5127562256815840409
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4190960954446043464
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -9173664438491679862
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1302995662622297880
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 787598982982572861
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1686878030396498868
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8070864038016977637
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5446550987747245311
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 562231581521124226
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6029596647107362555
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1003204061526320790
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5913916183802932036
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6176181321080726296
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8822101446664574910
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "SlotItemsBind",
+    "SlotItems"
+  ],
+  "hotfixClassFullName": "GameHotFix.GameActivity.SlotController",
+  "m_ClassName": "SlotController"
+}

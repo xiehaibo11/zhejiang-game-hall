@@ -1,0 +1,86 @@
+{
+  "m_Name": "d92e8388fe9d809c6e9978607d062410.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 5,
+      "m_PathID": 8900271777183496209
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3962475431135425745
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7955747622633113811
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 8350231276208144243
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2994395464428056456
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -8071279770669587530
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3962475431135425745
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7955747622633113811
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7080271606222148946
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleediting/art/effect/texture/materials/t_line_011/t_line_011_w14.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2994395464428056456
+        }
+      }
+    ],
+    [
+      "assets/bundleediting/art/effect/texture/materials/t_line_011/t_line_011_w15.mat",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7080271606222148946
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d92e8388fe9d809c6e9978607d062410.bundle",
+  "m_Dependencies": [
+    "4841dd6153454b7aa7d0cbcc0a9fc64b.bundle",
+    "535c15499b6617370c3272aae3a1658c.bundle",
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "7bf9582e0737a0200a3dead01504bd73.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

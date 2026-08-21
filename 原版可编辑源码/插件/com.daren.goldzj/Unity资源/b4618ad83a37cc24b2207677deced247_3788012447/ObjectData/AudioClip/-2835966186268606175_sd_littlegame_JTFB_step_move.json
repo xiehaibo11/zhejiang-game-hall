@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_littlegame_JTFB_step_move",
+  "m_LoadType": 0,
+  "m_Channels": 1,
+  "m_Frequency": 48000,
+  "m_BitsPerSample": 16,
+  "m_Length": 0.1730625033378601,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": false,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-1bbc5e371da09cd13dd65aab2d2d8131/CAB-1bbc5e371da09cd13dd65aab2d2d8131.resource",
+    "m_Offset": 0,
+    "m_Size": 2784
+  },
+  "m_CompressionFormat": 1
+}

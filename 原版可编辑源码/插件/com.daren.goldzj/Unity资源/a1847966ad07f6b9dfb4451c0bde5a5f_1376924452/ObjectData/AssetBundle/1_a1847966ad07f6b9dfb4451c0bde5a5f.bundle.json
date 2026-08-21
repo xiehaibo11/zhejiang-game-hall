@@ -1,0 +1,172 @@
+{
+  "m_Name": "a1847966ad07f6b9dfb4451c0bde5a5f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8557396765789041473
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7494382346571010889
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -2162790525809691139
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6323582596058400824
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8557396765789041473
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5223031978054222106
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6323582596058400824
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1894446073053428656
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 213618492694510264
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6323582596058400824
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1894446073053428656
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8557396765789041473
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4672182479119436869
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1894446073053428656
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -2162790525809691139
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -6323582596058400824
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/fx/texture/paotai20206/11/chibang_1 1.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8557396765789041473
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/paotai20206/11/chibang_1.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1894446073053428656
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/paotai20206/11/rrby_magic_wing_paotai20205 5.mat",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 213618492694510264
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/paotai20206/11/rrby_magic_wing_paotai20205 6.mat",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5223031978054222106
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/paotai20206/11/rrby_magic_wing_paotai20205_5 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7494382346571010889
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/texture/paotai20206/11/rrby_magic_wing_paotai20205_5.mat",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 5,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4672182479119436869
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a1847966ad07f6b9dfb4451c0bde5a5f.bundle",
+  "m_Dependencies": [
+    "61359a503b2e014d5e2d2da5b0b840a0.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "bc4480464ab24ba31dadf8d9ae75a90c.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

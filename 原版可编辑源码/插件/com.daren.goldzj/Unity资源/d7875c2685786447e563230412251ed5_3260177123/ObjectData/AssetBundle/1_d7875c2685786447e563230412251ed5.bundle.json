@@ -1,0 +1,104 @@
+{
+  "m_Name": "d7875c2685786447e563230412251ed5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 1177625758448423567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8588162256645927653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8516542004886617470
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7734901546842982733
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7340252537521713833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5321924884079174593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5087103468303131699
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4453371498302127546
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1282416478115960003
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -881791495860385483
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 362200316260838838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 757020241242384060
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3115550442853873720
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3738940690353445089
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4114713304440037342
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6149367900439184884
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bossgift/effect/prefab/effect_title_01.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3738940690353445089
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d7875c2685786447e563230412251ed5.bundle",
+  "m_Dependencies": [
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "57575203cd0f515127fe213caf8cf496.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

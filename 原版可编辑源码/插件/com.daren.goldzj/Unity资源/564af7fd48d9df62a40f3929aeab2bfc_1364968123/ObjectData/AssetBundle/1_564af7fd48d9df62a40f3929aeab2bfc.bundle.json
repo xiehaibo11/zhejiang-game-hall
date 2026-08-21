@@ -1,0 +1,142 @@
+{
+  "m_Name": "564af7fd48d9df62a40f3929aeab2bfc.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 4334241059958935388
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -5516329892227951937
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4476690548390371293
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -7687069124531660196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9157446838618007446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7217254512449770153
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6240862065983335103
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5141832669955172264
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4615178391524603384
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2872610124895776160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1613532748554923484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 646991658710636357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1846700985252336608
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2637340411603738644
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2731813686869551876
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2808719513846506421
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3045561222017813975
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3325146774437061360
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3648901563117037375
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3728955394052920996
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4246619190776312227
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4254505734865997699
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4677977924867304851
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4999870328562972246
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6497305469413702232
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/paokou/common_paokou_pt_281.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 26,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2637340411603738644
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "564af7fd48d9df62a40f3929aeab2bfc.bundle",
+  "m_Dependencies": [
+    "40dc85b1094ccc587534980d792d3043.bundle",
+    "8d82f7b803c6a9a51f45fb6aebed07dc.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "a33648ad22f734c524ae520f78ce29a7.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,197 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5322540601015258782
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4456490697948881190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2820521842233254463
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3389678796821639988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8529646862250127932
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1566354589563974386
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4162717399694240925
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6294468800485378222
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5180715230127865700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2978072079757502253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1813563353266896177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2144829617830376145
+    }
+  ],
+  "m_BindComs_Name": [
+    "btnClose",
+    "btnBuff",
+    "btnGetReward",
+    "buff",
+    "buffDetail",
+    "curLevel",
+    "finger",
+    "getBuff",
+    "mainIcon",
+    "scrollBar",
+    "scrollView"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 7034834151110716411
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4880358504811397298
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -67509369695507179
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6993153880175308667
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5120196661495803178
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5521061145562298964
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2636733052717366747
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6192267184712440730
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 915009490377000674
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6305690823949723469
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -3637249024151450802
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8902651317435400387
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7444969385472365469
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7822581940154436757
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 8265824170652893465
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5600562460491693669
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8301365864698595772
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7970402968361948490
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -2854902287558121538
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8372922652640273706
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4741653132673792459
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "levels",
+    "rewardItems",
+    "tasks",
+    "titles"
+  ],
+  "hotfixClassFullName": "GameHotFix.GrowPath.GrowPathMainPanel",
+  "m_ClassName": "GrowPathMainPanel"
+}

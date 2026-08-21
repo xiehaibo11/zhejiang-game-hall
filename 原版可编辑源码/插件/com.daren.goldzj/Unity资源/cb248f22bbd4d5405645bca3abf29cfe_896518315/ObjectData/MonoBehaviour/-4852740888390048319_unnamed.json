@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2308220927239743047
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5282956801763915012
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8404188476282177792
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5185299295291469823
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5376561093370955722
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5980389154314958836
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_Avatar",
+    "m_Frame",
+    "m_VipLevel",
+    "m_3rdpartyAvatar",
+    "m_FxConitainer"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Avatar.AvatarComponent",
+  "m_ClassName": "AvatarComponent"
+}

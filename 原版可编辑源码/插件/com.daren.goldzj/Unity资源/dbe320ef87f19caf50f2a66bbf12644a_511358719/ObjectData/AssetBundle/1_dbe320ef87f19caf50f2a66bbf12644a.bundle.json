@@ -1,0 +1,157 @@
+{
+  "m_Name": "dbe320ef87f19caf50f2a66bbf12644a.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1869591591933502912
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5075401402583961589
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7436188163579921902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8766673406461857959
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8328171255459485616
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3142655660040883103
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5165448211164914999
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1850767337450884105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7134144745443020798
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_055_\u7389\u73ba/texture_npot/decal_001.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7134144745443020798
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_055_\u7389\u73ba/texture_npot/decal_002.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1869591591933502912
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_055_\u7389\u73ba/texture_npot/img_py_bt_jwzz.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5165448211164914999
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_055_\u7389\u73ba/texture_npot/img_py_bt_jwzz.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1850767337450884105
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_055_\u7389\u73ba/texture_npot/impact_fire_001.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7436188163579921902
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_055_\u7389\u73ba/texture_npot/long_05.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5075401402583961589
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_055_\u7389\u73ba/texture_npot/long_06.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8766673406461857959
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_055_\u7389\u73ba/texture_npot/trail_001.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8328171255459485616
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_055_\u7389\u73ba/texture_npot/trail_003.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3142655660040883103
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "dbe320ef87f19caf50f2a66bbf12644a.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

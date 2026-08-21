@@ -1,0 +1,132 @@
+{
+  "m_Name": "731a40d6bb215e34e6c87e7bccc36d9d.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3949912040863146229
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1936900344721250766
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -312263675064663017
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -249563573789114560
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1374168234942182038
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6862483257796959768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -219391510476296500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2849801360663538190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3790628834816784403
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5875913559921158087
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/176_alibaba/fbx/plane_01.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -219391510476296500
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/176_alibaba/fbx/plane_01.fbx",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5875913559921158087
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/176_alibaba/fbx/shexian01.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -312263675064663017
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/176_alibaba/fbx/shexian01.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1936900344721250766
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "731a40d6bb215e34e6c87e7bccc36d9d.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,53 @@
+{
+  "m_Name": "bffbd2b75b2c345a3516f2df4c5364bb.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4099908314078449671
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -1286129555053537296
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8103099351425328905
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8579932071679142660
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/hotfighter/animation/hotfighterlotterypanel_lottery.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4099908314078449671
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "bffbd2b75b2c345a3516f2df4c5364bb.bundle",
+  "m_Dependencies": [
+    "13b323360c72dcfc7adcb757f152aa88.bundle",
+    "94dab195585141c097aa568170f0eb64.bundle",
+    "b23199dc99152d762e95cc22ee8f23dd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

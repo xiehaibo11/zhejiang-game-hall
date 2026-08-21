@@ -1,0 +1,63 @@
+{
+  "m_Name": "38d49b93ed0debbf7a5b200fe0117de1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6702757911954724142
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 5500175085730162733
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3764491018581683746
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6593142039864836435
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8667945601649125593
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4764042204941774161
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/godgeneralboss/2004/materials_1.0/fengshen_yifu.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6702757911954724142
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "38d49b93ed0debbf7a5b200fe0117de1.bundle",
+  "m_Dependencies": [
+    "3db21f85bac1e3de3323ebf8cffc0b39.bundle",
+    "4a4fc6d2843cf2d00cd606db29b8cb31.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "b54772e460eb43fcfa1e4c15155ec005.bundle",
+    "ccbcd83df81a5e201579255d56638c4f.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

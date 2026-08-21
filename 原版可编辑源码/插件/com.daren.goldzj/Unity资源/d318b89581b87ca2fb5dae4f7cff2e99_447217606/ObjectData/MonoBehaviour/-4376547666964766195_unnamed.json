@@ -1,0 +1,97 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4129733212945123584
+  },
+  "m_Enabled": 0,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7691676500807756964
+  },
+  "m_Name": "",
+  "method": 0,
+  "style": 1,
+  "animationCurve": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": -0.04326130077242851,
+        "outSlope": -0.04326130077242851,
+        "weightedMode": 2,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.8217746615409851
+      },
+      {
+        "time": 0.11132629215717316,
+        "value": 1.0000572204589844,
+        "inSlope": 0.007332516834139824,
+        "outSlope": 0.007332516834139824,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.37838470935821533
+      },
+      {
+        "time": 0.181112140417099,
+        "value": 0.3305754065513611,
+        "inSlope": -0.17057618498802185,
+        "outSlope": -0.17057618498802185,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3085233271121979
+      },
+      {
+        "time": 0.26761117577552795,
+        "value": 0.8112800121307373,
+        "inSlope": -0.0005463623674586415,
+        "outSlope": -0.0005463623674586415,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.15966559946537018
+      },
+      {
+        "time": 0.4000000059604645,
+        "value": 0.0,
+        "inSlope": 0.06825911998748779,
+        "outSlope": 0.0,
+        "weightedMode": 1,
+        "inWeight": 0.42465752363204956,
+        "outWeight": 0.3333333432674408
+      },
+      {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": -0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "ignoreTimeScale": 1,
+  "delay": 0.0,
+  "duration": 2.5,
+  "steeperCurves": 0,
+  "tweenGroup": 0,
+  "onFinished": [],
+  "eventReceiver": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "callWhenFinished": "",
+  "from": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "to": {
+    "x": 1.100000023841858,
+    "y": 1.100000023841858,
+    "z": 1.100000023841858
+  },
+  "updateTable": 0
+}

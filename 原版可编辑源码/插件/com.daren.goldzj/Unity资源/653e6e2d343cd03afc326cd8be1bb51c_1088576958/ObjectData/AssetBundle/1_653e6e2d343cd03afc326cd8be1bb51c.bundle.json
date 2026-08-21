@@ -1,0 +1,52 @@
+{
+  "m_Name": "653e6e2d343cd03afc326cd8be1bb51c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1558024408237191221
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5524215314226477868
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/173_xiaohongmao/texture/grass_001.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5524215314226477868
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/173_xiaohongmao/texture/shuye.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1558024408237191221
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "653e6e2d343cd03afc326cd8be1bb51c.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

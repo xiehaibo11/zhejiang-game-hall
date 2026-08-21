@@ -1,0 +1,63 @@
+{
+  "m_Name": "73fd848f27b00774ec8dbb4dd3c8a35b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8005073885793067650
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7809694116582513206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -664605032808022540
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6164595113652499514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7111374273259347422
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7876363966952898132
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1716635955505453754
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/prefab/xylb/uieffect_saoguang_btn_gift_1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -664605032808022540
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "73fd848f27b00774ec8dbb4dd3c8a35b.bundle",
+  "m_Dependencies": [
+    "3d263feb5eceaa7030c2b78401a691f4.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,190 @@
+{
+  "m_Name": "81df12cd50afc13d563717e89b20e1d7.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -535630492773410942
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8777290447637808596
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8338504585577306079
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8220155825107224693
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7907932453139824357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5620288628874457491
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801517640135355048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3204644579628164444
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2899229815694904887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2739968001245607173
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2394722464387318558
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2025582770194143681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1678033820914907954
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -944968043705425862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -616009113976528693
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -161744018328536874
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 161814382815624721
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 726034831864091357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3274189883956612245
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4369800813154163270
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4416090657879649122
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4620722234067613977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4988150354445090395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5851942894707712589
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6066652172069484516
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7377133763282353453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7534860133615763717
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8054879863842862216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8308402369294867413
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8869416127192659102
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -8061346560233473405
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4368501231896310830
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -7538436120828148902
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    },
+    {
+      "m_FileID": 8,
+      "m_PathID": -8777652364656717538
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -3421716620671121334
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 1820141520297121692
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/wealthcome/effect/prefabs/uieffect_zouguang_btn.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 37,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7907932453139824357
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "81df12cd50afc13d563717e89b20e1d7.bundle",
+  "m_Dependencies": [
+    "2b74bad504101ac6792f1cbd346d16f9.bundle",
+    "35d32b4e11e041959e09e3ef9926440b.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "6ae4e84a762f77fc5b4c62686bbe095e.bundle",
+    "7b9fb44caad264010ddf6a4c02e27492.bundle",
+    "8d9ed7401b3ba1158671159a6a3787cd.bundle",
+    "9bc6f207dea2ff33d020533b19db4643.bundle",
+    "b66dcf24b56737ab7a43bdb7cd905e78.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,126 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3520093449336799039
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5798040065044525979
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1059118287987020044
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2924212040929349077
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2961534397708270897
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5257407634639141523
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7013415931426957901
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8167202318073045051
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2184622371773499943
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2835905021460477963
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8908557445514659151
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2155088987918718608
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7583763226678759700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 253808635583550896
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7906435444868227500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4753062665384913216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 461486238657184382
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7624984664898546927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2319566254773414409
+    }
+  ],
+  "m_BindComs_Name": [
+    "BtnRules",
+    "BtnClose",
+    "ObjNotParticipateTip",
+    "BtnToggleNotParticipate",
+    "NotParticipateToggleSign",
+    "EffMergeBonusText",
+    "ShouFenTitle",
+    "CoinAmountDescTip",
+    "ObjShouFenResult",
+    "ObjMisc",
+    "BtnStart",
+    "TxtFinaleRewards",
+    "TxtCountdown",
+    "TxtRules",
+    "Slot",
+    "RuleTipsPanel",
+    "ObjNegativeEarningsEff",
+    "ObjNegativeEarnings_ArrowEff"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.LuckyCrit.LuckyCritMainPanel",
+  "m_ClassName": "LuckyCritMainPanel"
+}

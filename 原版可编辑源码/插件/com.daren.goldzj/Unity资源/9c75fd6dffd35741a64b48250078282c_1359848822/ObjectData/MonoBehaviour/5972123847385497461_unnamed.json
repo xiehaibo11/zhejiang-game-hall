@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7243396270363820028
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6189279580599006900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4652435094695635771
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6744276781228100118
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6606837743378287272
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8862939564854583442
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2799297153499889211
+    }
+  ],
+  "m_BindComs_Name": [
+    "mBtnCreate",
+    "mBtnLogin",
+    "mBtnClose",
+    "mUIGrid",
+    "mUseLabel",
+    "mAccountItem"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.MoreAccount.ChooseAccountPanel",
+  "m_ClassName": "ChooseAccountPanel"
+}

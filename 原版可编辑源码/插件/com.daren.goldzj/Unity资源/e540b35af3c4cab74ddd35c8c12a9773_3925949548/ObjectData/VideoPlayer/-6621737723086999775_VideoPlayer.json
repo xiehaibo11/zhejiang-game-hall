@@ -1,0 +1,44 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8008774081412324153
+  },
+  "m_Enabled": 1,
+  "m_VideoClip": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_TargetCameraAlpha": 1.0,
+  "m_TargetCamera3DLayout": 0,
+  "m_TargetCamera": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_TargetTexture": {
+    "m_FileID": 1,
+    "m_PathID": 5570725242407472621
+  },
+  "m_TimeReference": 0,
+  "m_TargetMaterialRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_TargetMaterialProperty": "_MainTex",
+  "m_RenderMode": 2,
+  "m_AspectRatio": 2,
+  "m_DataSource": 1,
+  "m_PlaybackSpeed": 1.0,
+  "m_AudioOutputMode": 0,
+  "m_TargetAudioSources": [],
+  "m_DirectAudioVolumes": [],
+  "m_Url": "",
+  "m_EnabledAudioTracks": [],
+  "m_DirectAudioMutes": [],
+  "m_ControlledAudioTrackCount": 0,
+  "m_PlayOnAwake": true,
+  "m_SkipOnDrop": true,
+  "m_Looping": false,
+  "m_WaitForFirstFrame": true,
+  "m_FrameReadyEventEnabled": false,
+  "m_VideoShaders": []
+}

@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -657477701292886207
+  },
+  "m_Name": "timeline_shoufen",
+  "m_Version": 0,
+  "m_Tracks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8361790452162748837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -499668413104521345
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2781052523496808171
+    }
+  ],
+  "m_FixedDuration": 0.0,
+  "m_EditorSettings": {
+    "m_Framerate": 60.0,
+    "m_ScenePreview": 1
+  },
+  "m_DurationMode": 0,
+  "m_MarkerTrack": {
+    "m_FileID": 0,
+    "m_PathID": 9089229543775551204
+  }
+}

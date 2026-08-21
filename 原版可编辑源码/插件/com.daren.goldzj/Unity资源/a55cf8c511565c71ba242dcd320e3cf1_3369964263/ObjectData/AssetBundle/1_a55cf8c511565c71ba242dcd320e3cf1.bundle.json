@@ -1,0 +1,217 @@
+{
+  "m_Name": "a55cf8c511565c71ba242dcd320e3cf1.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4878049252282313370
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7003173714593500927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5469480069812847973
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4019638953315745915
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4981481680292220455
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8294329166108277067
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4894113740631598624
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -588744249630060215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5912634862506051112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6157746303035382833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8282188207011369523
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4510342841533377958
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8249580333791726183
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/bg_01.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5912634862506051112
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/img_01.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4894113740631598624
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/img_02.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8249580333791726183
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/img_03.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7003173714593500927
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/img_04.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8282188207011369523
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/noise_1.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4878049252282313370
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/other_1.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4019638953315745915
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/other_3_1.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8294329166108277067
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/other_3_2.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5469480069812847973
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/ramp_02_dlss.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6157746303035382833
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/ramp_1.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -588744249630060215
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/smoke1.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4981481680292220455
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/157_dalishuishou/texture/smoke_01_1.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4510342841533377958
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a55cf8c511565c71ba242dcd320e3cf1.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

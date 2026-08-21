@@ -1,0 +1,241 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4422645174250872959
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1140274908433258142
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4896250619693082026
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1908697458986071073
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2648299469333944258
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4123083925911573781
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7857040860470802727
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4284598450521848587
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9018648746698729789
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6917752276163456950
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4214785230054208885
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4414255671821235674
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2975583161337963723
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3317387963783340607
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2493827849611780651
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8474776739076145317
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -734693306111443024
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6053039519486069784
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6698433099605227846
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4279740778466475927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5158386821379642917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3249530343653032349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2679868764636280263
+    }
+  ],
+  "m_BindComs_Name": [
+    "mCurLayer",
+    "mBtnExplore",
+    "mExploreCount",
+    "mItemBG",
+    "mExploreLabel",
+    "mExploreRedPoint",
+    "mBubble",
+    "mBubbleBg",
+    "mBubbleLabel",
+    "mFuTweenPosition",
+    "mTaskRewardInfo",
+    "mTaskProgressBar",
+    "mProgressLabel",
+    "mTaskRewardGetDone",
+    "mTaskRewardGet",
+    "mExploreTargetTips",
+    "mExploreTargetTipsBG",
+    "mBtnTips",
+    "mBtnOpen",
+    "mBtnOpenGray",
+    "mShouZhiGuide",
+    "mProbTable"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 5502922464808596855
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5233391956737082531
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -9042975408888138122
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2229183259464859579
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2726702278654637035
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8694670796700294386
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -7072025160017633793
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1746917191147739178
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7667138235786676705
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -5350767391352599554
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3333968742374824934
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7993869850682814413
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -933986989191580794
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -5168987095521291528
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4142416429444056947
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7810896933155546794
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4621133915290951953
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mLayerOtherLabel",
+    "mDoorItems",
+    "mExploreEffects",
+    "mFaSheEffects",
+    "mTempleExploreProbInfos"
+  ],
+  "hotfixClassFullName": "GameHotFix.TempleExplore.TempleExplorePanel",
+  "m_ClassName": "TempleExplorePanel"
+}

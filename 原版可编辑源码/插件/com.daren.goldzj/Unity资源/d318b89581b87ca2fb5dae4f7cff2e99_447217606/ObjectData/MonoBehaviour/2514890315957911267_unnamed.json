@@ -1,0 +1,203 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2710903122871049163
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3906912985490838552
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -694045945714214325
+    }
+  ],
+  "m_BindComs_Name": [
+    "iconsRoot",
+    "mLobbyRollLayoutView"
+  ],
+  "m_BindInt": [
+    1,
+    0
+  ],
+  "m_BindInt_Name": [
+    "iconLayoutPosition",
+    "mLayoutScene"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -6239059050597647760
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6965409804467927852
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2695904003101503822
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -876514574757925687
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1336984290142449461
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -9080616396554603004
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3434497578714672047
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4107494541636185107
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3161050626662600427
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6274308726374353283
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7762549540608089086
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3473799057852358660
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -237869077258427628
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5052288836754134137
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -630149206627744405
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1175170955850020090
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1674560469916137214
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2908429043092719450
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5041353125342450684
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8138021656459786461
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1830041537784577810
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7865305525978748989
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2252691817667623572
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2869780108725430625
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5911576252551185523
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1228665151881184740
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6085856531899165369
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6574176367374814899
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5376019903582319660
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6884180548143464194
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4240789918005791797
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7268045630521784117
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8539782352182295302
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 338380892725499194
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 146710693352074114
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6750950260849555592
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "slots"
+  ],
+  "hotfixClassFullName": "GameHotFix.Game.IconLayoutComponent",
+  "m_ClassName": "IconLayoutComponent"
+}

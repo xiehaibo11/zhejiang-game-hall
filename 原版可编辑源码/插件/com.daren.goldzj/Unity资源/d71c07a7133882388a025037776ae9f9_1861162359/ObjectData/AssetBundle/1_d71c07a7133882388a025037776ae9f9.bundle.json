@@ -1,0 +1,78 @@
+{
+  "m_Name": "d71c07a7133882388a025037776ae9f9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1883077566614518908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1180687670754381916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4312925393185900927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5964187145182636324
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8917298912646492780
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/moontreasurebox1/effect/fbx/liuguang_anniu.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1180687670754381916
+        }
+      }
+    ],
+    [
+      "assets/bundleresources/panel/moontreasurebox1/effect/fbx/liuguang_anniu.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1883077566614518908
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "d71c07a7133882388a025037776ae9f9.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

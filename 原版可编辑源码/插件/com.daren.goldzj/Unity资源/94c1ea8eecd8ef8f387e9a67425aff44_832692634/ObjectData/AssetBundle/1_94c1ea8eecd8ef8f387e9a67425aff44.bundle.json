@@ -1,0 +1,43 @@
+{
+  "m_Name": "94c1ea8eecd8ef8f387e9a67425aff44.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7354261076567925540
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 826635509111254063
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/wealthcome/effect/animation/tippanel.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7354261076567925540
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "94c1ea8eecd8ef8f387e9a67425aff44.bundle",
+  "m_Dependencies": [
+    "f64517f16ab579ca67daec31ca8802c2.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

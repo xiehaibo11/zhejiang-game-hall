@@ -1,0 +1,37 @@
+{
+  "m_Name": "7a1dd0e060d2dc51c83e7c800d0d6241.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4266049350201516251
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/tuiguangiftpanel/effect/object_ui_faguang_xchl.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4266049350201516251
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7a1dd0e060d2dc51c83e7c800d0d6241.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

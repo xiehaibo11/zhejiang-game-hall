@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2541446884575651637
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7854745114766968163
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5933114705464913838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5283162994339102458
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1715788789859850911
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1013407272721688395
+    }
+  ],
+  "m_BindComs_Name": [
+    "imgBuffIcon",
+    "lockMask",
+    "txtBuffDesc",
+    "txtBuffName",
+    "effUpgrade"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.MasterKey.CurLevelBuffItem",
+  "m_ClassName": "CurLevelBuffItem"
+}

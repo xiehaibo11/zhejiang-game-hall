@@ -1,0 +1,43 @@
+{
+  "m_Name": "9e53dade2310311a860a47bf5b090de4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 5916230329685263073
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -133026901055951008
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shenjianggift/effect/animation/body.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -133026901055951008
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9e53dade2310311a860a47bf5b090de4.bundle",
+  "m_Dependencies": [
+    "b16dd47bc485f3d5acd0cff34f9c1087.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

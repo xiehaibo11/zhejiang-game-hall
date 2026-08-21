@@ -1,0 +1,41 @@
+
+JingJuChiBang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cb_qizhi01
+  rotate: false
+  xy: 2, 272
+  size: 208, 234
+  orig: 208, 234
+  offset: 0, 0
+  index: -1
+cb_qizhi02
+  rotate: false
+  xy: 2, 61
+  size: 143, 209
+  orig: 143, 209
+  offset: 0, 0
+  index: -1
+cb_qizhi03
+  rotate: false
+  xy: 212, 379
+  size: 56, 127
+  orig: 56, 127
+  offset: 0, 0
+  index: -1
+cb_zhou
+  rotate: true
+  xy: 147, 171
+  size: 99, 63
+  orig: 99, 63
+  offset: 0, 0
+  index: -1
+cb_zuocaihuan
+  rotate: true
+  xy: 2, 2
+  size: 57, 96
+  orig: 57, 96
+  offset: 0, 0
+  index: -1

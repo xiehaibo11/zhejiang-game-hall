@@ -1,0 +1,100 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6112005428187148634
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 824038505127089569
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -634510718530340443
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8032021219091682356
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7348733483839145335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3036090588832073485
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3557412128755387718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3908752628943012520
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6759405963219566668
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7866273408178715707
+    }
+  ],
+  "m_BindComs_Name": [
+    "BtnJumpToAffinityPanel",
+    "TxtPrice",
+    "TxtNumGold",
+    "TxtPurchaseLimit",
+    "TxtActivityDateTime",
+    "BtnPurchase",
+    "BtnClose",
+    "m_BuffDetailsComponent",
+    "GameGuMuAddition"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -4877005138335972797
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 678122730770260465
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7623807305120777037
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "RewardsObj"
+  ],
+  "hotfixClassFullName": "GameHotFix.PermenentCannonWingGift.CommonElements",
+  "m_ClassName": "CommonElements"
+}

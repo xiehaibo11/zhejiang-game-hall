@@ -1,0 +1,105 @@
+{
+  "m_Name": "e86df0e55af7cb72016550e72349944c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -782937639549044892
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7023383416360614411
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1639054234971412948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7318596541601414632
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3885584943049854938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3288170656158959156
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -264245841321381620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2973556935009891047
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5026159734111018750
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5362278190119572105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5828211297924132208
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7154423098647871530
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7426248238135334653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8647174587434385539
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/basecomponent/commonbtngreen3.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3885584943049854938
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e86df0e55af7cb72016550e72349944c.bundle",
+  "m_Dependencies": [
+    "636efbca03c7f4748ae8fd056536809f.bundle",
+    "85cd66e37160b6b7476a956a145ad94b.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

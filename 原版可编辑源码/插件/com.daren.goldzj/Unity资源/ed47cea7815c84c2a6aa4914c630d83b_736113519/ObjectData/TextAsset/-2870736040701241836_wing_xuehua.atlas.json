@@ -1,0 +1,4 @@
+{
+  "m_Name": "wing_xuehua.atlas",
+  "m_Script": "\r\nwing_xuehua.png\r\nsize: 512,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\ndaxuehua\r\n  rotate: false\r\n  xy: 2, 190\r\n  size: 192, 181\r\n  orig: 192, 181\r\n  offset: 0, 0\r\n  index: -1\r\nxuehua01\r\n  rotate: false\r\n  xy: 2, 52\r\n  size: 124, 136\r\n  orig: 124, 136\r\n  offset: 0, 0\r\n  index: -1\r\nxuehua02\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 48, 48\r\n  orig: 48, 48\r\n  offset: 0, 0\r\n  index: -1\r\nxuehua03\r\n  rotate: false\r\n  xy: 196, 270\r\n  size: 99, 101\r\n  orig: 99, 101\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

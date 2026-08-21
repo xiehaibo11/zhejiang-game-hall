@@ -1,0 +1,158 @@
+{
+  "m_Name": "afd65d79425f3ea95ee121ce2e6f91ee.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 10210
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -7946542339396617401
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7792462915449235844
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 1161008431173353742
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -8079218704344425628
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3307382948260576874
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8496760644760684546
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7377564782357116038
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6858291828889375351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6529513162578032406
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6132394788974678892
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5835079533609516604
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5787321334224740006
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5652840280890799604
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4896389402418125870
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3458384209770975410
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3443337769087869678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3193806364781987423
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1921630632469589590
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1714597939628313147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 787541761355440300
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2337426454425427107
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3151715581449120236
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4588704158998618412
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6016236934547439887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8071641420861096348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8117700791070604486
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8186676898866634842
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9194248388638068716
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/prefab/xylb/taishanglaojun_danyao_ldl_lv _10.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 30,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4588704158998618412
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "afd65d79425f3ea95ee121ce2e6f91ee.bundle",
+  "m_Dependencies": [
+    "098bad1eaa7e3f3f0439f67998daaa59.bundle",
+    "277d15eb93942397158bc740505ea237.bundle",
+    "970d0f79840673bd4a3c47f99ab69609.bundle",
+    "eae5a1f162effdeea64719ae56ff8a20.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

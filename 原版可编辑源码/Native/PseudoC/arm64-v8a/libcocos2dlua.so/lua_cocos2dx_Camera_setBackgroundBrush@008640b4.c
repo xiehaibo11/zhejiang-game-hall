@@ -1,0 +1,31 @@
+
+/* lua_cocos2dx_Camera_setBackgroundBrush(lua_State*) */
+
+undefined4 lua_cocos2dx_Camera_setBackgroundBrush(lua_State *param_1)
+
+{
+  int iVar1;
+  Camera *this;
+  ulong uVar2;
+  CameraBackgroundBrush *pCVar3;
+  
+  this = (Camera *)tolua_tousertype(param_1,1,0);
+  iVar1 = lua_gettop(param_1);
+  if (iVar1 + -1 == 1) {
+    if (((param_1 != (lua_State *)0x0) && (iVar1 = lua_gettop(param_1), 1 < iVar1)) &&
+       (uVar2 = luaval_is_usertype(param_1,2,"cc.CameraBackgroundBrush",0), (uVar2 & 1) != 0)) {
+      pCVar3 = (CameraBackgroundBrush *)tolua_tousertype(param_1,2,0);
+      cocos2d::Camera::setBackgroundBrush(this,pCVar3);
+      lua_settop(param_1,1);
+      return 1;
+    }
+    tolua_error(param_1,"invalid arguments in function \'lua_cocos2dx_Camera_setBackgroundBrush\'",0
+               );
+  }
+  else {
+    luaL_error(param_1,"%s has wrong number of arguments: %d, was expecting %d \n",
+               "cc.Camera:setBackgroundBrush",iVar1 + -1,1);
+  }
+  return 0;
+}
+

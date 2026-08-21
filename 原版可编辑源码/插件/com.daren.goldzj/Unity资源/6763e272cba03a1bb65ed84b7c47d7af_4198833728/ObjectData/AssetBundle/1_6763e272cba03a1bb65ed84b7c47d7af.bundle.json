@@ -1,0 +1,78 @@
+{
+  "m_Name": "6763e272cba03a1bb65ed84b7c47d7af.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8494750641699975659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4850512016903265157
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1682175822698124268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2064370904749836336
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5634196294607841967
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6302638327804668497
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8887101351638312255
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 1462925736152412046
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/118_denglongyoulong/fbx/danpian.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6302638327804668497
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/118_denglongyoulong/fbx/danpian.fbx",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8494750641699975659
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6763e272cba03a1bb65ed84b7c47d7af.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

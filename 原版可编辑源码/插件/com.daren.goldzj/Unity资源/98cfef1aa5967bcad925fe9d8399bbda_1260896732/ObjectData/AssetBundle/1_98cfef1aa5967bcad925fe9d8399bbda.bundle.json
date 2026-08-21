@@ -1,0 +1,137 @@
+{
+  "m_Name": "98cfef1aa5967bcad925fe9d8399bbda.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 2548288460312145337
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4179303649125990676
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -1298638943974603579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9040695578281666763
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6888165525973984313
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6871373218447520718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3809015434826079738
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3059723676032590398
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2304777145832020131
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2063741301420619300
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1039599763890274267
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -925078569492452753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -687523050948693326
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -25499255161793126
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 265147930425819392
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 988522856208727203
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1875083030393517718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2131455415281092031
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4194093681106034887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6281828527573073054
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6503222209651901681
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6528150525539994061
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7166949285772297269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8054379551813229399
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8390391528667490583
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/goldenpagoda/effect/prefabs/effecct_saoguang_title.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 25,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -9040695578281666763
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "98cfef1aa5967bcad925fe9d8399bbda.bundle",
+  "m_Dependencies": [
+    "5f48c49ebedad1c800e25ebd291fbbc5.bundle",
+    "abcb5bb4a6ee60d122f1bc819dd690a5.bundle",
+    "b4959248dc80ff175ce7cd9846f6006d.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

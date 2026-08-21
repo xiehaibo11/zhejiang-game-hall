@@ -1,0 +1,56 @@
+{
+  "m_Name": "b3f3aaf3ebd1e78d0bef1392d725aa5e.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8745307777968400416
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8745307777968400416
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6516021263050238369
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/animation/maoxianjia_ani/lingqu_ani.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8745307777968400416
+        }
+      }
+    ],
+    [
+      "assets/effect/animation/maoxianjia_ani/ui_anniu_03.controller",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6516021263050238369
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b3f3aaf3ebd1e78d0bef1392d725aa5e.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

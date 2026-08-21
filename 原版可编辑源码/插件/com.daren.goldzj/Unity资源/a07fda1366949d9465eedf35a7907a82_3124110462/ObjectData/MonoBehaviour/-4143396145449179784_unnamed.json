@@ -1,0 +1,76 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7331059513186428479
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3741981115350144873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4020654553267876215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1595490495199513767
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4482333388179350768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3376877407292341312
+    }
+  ],
+  "m_BindComs_Name": [
+    "mZzCurrency",
+    "mPropCurrency",
+    "mBtnClose",
+    "mExchangePanel",
+    "mGiftPanel"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -5743643386659901118
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2054089186464661670
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mTabList"
+  ],
+  "hotfixClassFullName": "GameHotFix.RoadOfImperial.RoadOfImperialTreasurePanel",
+  "m_ClassName": "RoadOfImperialTreasurePanel"
+}

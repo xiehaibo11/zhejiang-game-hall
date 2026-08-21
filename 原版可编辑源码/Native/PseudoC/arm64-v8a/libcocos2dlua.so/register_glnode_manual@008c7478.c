@@ -1,0 +1,28 @@
+
+/* register_glnode_manual(lua_State*) */
+
+undefined8 register_glnode_manual(lua_State *param_1)
+
+{
+  int iVar1;
+  undefined8 uVar2;
+  
+  uVar2 = 0;
+  if (param_1 != (lua_State *)0x0) {
+    lua_pushstring(param_1,"cc.GLNode");
+    lua_rawget(param_1,0xffffd8f0);
+    iVar1 = lua_type(param_1,0xffffffff);
+    if (iVar1 == 5) {
+      lua_pushstring(param_1,"registerScriptDrawHandler");
+      lua_pushcclosure(param_1,FUN_008c7534,0);
+      lua_rawset(param_1,0xfffffffd);
+      lua_pushstring(param_1,"unregisterScriptDrawHandler");
+      lua_pushcclosure(param_1,FUN_008c763c,0);
+      lua_rawset(param_1,0xfffffffd);
+    }
+    lua_settop(param_1,0xfffffffe);
+    uVar2 = 1;
+  }
+  return uVar2;
+}
+

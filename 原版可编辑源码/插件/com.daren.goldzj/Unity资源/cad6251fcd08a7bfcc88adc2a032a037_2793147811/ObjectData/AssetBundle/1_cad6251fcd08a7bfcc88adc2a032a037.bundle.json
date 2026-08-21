@@ -1,0 +1,67 @@
+{
+  "m_Name": "cad6251fcd08a7bfcc88adc2a032a037.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1924284197692201749
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 834730487285800542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2856385489770331120
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/031_caishen/caishenmesh/caishen_d.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2856385489770331120
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/031_caishen/caishenmesh/caishen_m.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1924284197692201749
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/031_caishen/caishenmesh/caishen_n.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 834730487285800542
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "cad6251fcd08a7bfcc88adc2a032a037.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

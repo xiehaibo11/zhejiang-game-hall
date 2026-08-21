@@ -1,0 +1,18 @@
+
+void lws_ssl_destroy(long param_1)
+
+{
+  if ((*(byte *)(*(long *)(param_1 + 0x150) + 0xc79) >> 4 & 1) != 0) {
+    if (*(SSL_CTX **)(param_1 + 0x1b0) != (SSL_CTX *)0x0) {
+      SSL_CTX_free(*(SSL_CTX **)(param_1 + 0x1b0));
+    }
+    if (((*(byte *)(param_1 + 0x200) & 1) == 0) &&
+       (*(SSL_CTX **)(param_1 + 0x1b8) != (SSL_CTX *)0x0)) {
+                    /* try { // try from 0104f360 to 0114f36f has its CatchHandler @ 0104f3c0 */
+      SSL_CTX_free(*(SSL_CTX **)(param_1 + 0x1b8));
+      return;
+    }
+  }
+  return;
+}
+

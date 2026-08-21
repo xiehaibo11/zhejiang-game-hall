@@ -1,0 +1,54 @@
+
+undefined8 FUN_010c7f8c(undefined8 param_1)
+
+{
+  uint uVar1;
+  int iVar2;
+  int iVar3;
+  ulong uVar4;
+  
+  uVar4 = 0x73;
+  iVar2 = 0;
+  do {
+    iVar3 = (int)(uVar4 * 0x1bb4a405 >> 0x20);
+                    /* catch() { ... } // from try @ 010c7ee8 with catch @ 010c7fb8 */
+    uVar1 = iVar3 + ((uint)((int)uVar4 - iVar3) >> 1) >> 7;
+    iVar3 = iVar2 + 1;
+    FUN_010c7a3c(param_1,iVar2,uVar1,uVar1,uVar1,0xff,1);
+    uVar4 = (ulong)((int)uVar4 + 0x100);
+    iVar2 = iVar3;
+                    /* catch() { ... } // from try @ 010c7e74 with catch @ 010c7fe8 */
+  } while (iVar3 != 0xe7);
+  FUN_010c7a3c(param_1,0xe7,0xff,0xff,0xff,0,1);
+  FUN_010c7a3c(param_1,0xe8,0,0,0,0x33,1);
+  FUN_010c7a3c(param_1,0xe9,0x33,0x33,0x33,0x33,1);
+  FUN_010c7a3c(param_1,0xea,0x66,0x66,0x66,0x33,1);
+  FUN_010c7a3c(param_1,0xeb,0x99,0x99,0x99,0x33,1);
+  FUN_010c7a3c(param_1,0xec,0xcc,0xcc,0xcc,0x33,1);
+  FUN_010c7a3c(param_1,0xed,0xff,0xff,0xff,0x33,1);
+  FUN_010c7a3c(param_1,0xee,0,0,0,0x66,1);
+  FUN_010c7a3c(param_1,0xef,0x33,0x33,0x33,0x66,1);
+  FUN_010c7a3c(param_1,0xf0,0x66,0x66,0x66,0x66,1);
+  FUN_010c7a3c(param_1,0xf1,0x99,0x99,0x99,0x66,1);
+  FUN_010c7a3c(param_1,0xf2,0xcc,0xcc,0xcc,0x66,1);
+  FUN_010c7a3c(param_1,0xf3,0xff,0xff,0xff,0x66,1);
+  FUN_010c7a3c(param_1,0xf4,0,0,0,0x99,1);
+  FUN_010c7a3c(param_1,0xf5,0x33,0x33,0x33,0x99,1);
+  FUN_010c7a3c(param_1,0xf6,0x66,0x66,0x66,0x99,1);
+  FUN_010c7a3c(param_1,0xf7,0x99,0x99,0x99,0x99,1);
+  FUN_010c7a3c(param_1,0xf8,0xcc,0xcc,0xcc,0x99,1);
+                    /* try { // try from 010c823c to 011c82cf has its CatchHandler @ 010c823c
+                       catch() { ... } // from try @ 010c823c with catch @ 010c823c
+                       catch() { ... } // from try @ 010c82dc with catch @ 010c823c */
+  FUN_010c7a3c(param_1,0xf9,0xff,0xff,0xff,0x99,1);
+  FUN_010c7a3c(param_1,0xfa,0,0,0,0xcc,1);
+  FUN_010c7a3c(param_1,0xfb,0x33,0x33,0x33,0xcc,1);
+  FUN_010c7a3c(param_1,0xfc,0x66,0x66,0x66,0xcc,1);
+  FUN_010c7a3c(param_1,0xfd,0x99,0x99,0x99,0xcc,1);
+                    /* try { // try from 010c82d0 to 011c82db has its CatchHandler @ 010c83a4 */
+                    /* try { // try from 010c82dc to 011c83bb has its CatchHandler @ 010c823c */
+  FUN_010c7a3c(param_1,0xfe,0xcc,0xcc,0xcc,0xcc,1);
+  FUN_010c7a3c(param_1,0xff,0xff,0xff,0xff,0xcc,1);
+  return 0x100;
+}
+

@@ -1,0 +1,155 @@
+
+void jpeg_idct_14x7(long param_1,long param_2,long param_3,long param_4,uint param_5)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  int iVar4;
+  short *psVar5;
+  int *piVar6;
+  long lVar7;
+  long lVar8;
+  undefined1 *puVar9;
+  ulong uVar10;
+  int iVar11;
+  int iVar12;
+  int iVar13;
+  int iVar14;
+  int iVar15;
+  int iVar16;
+  int iVar17;
+  int iVar18;
+  int iVar19;
+  int iVar20;
+  int iVar21;
+  int iVar22;
+  int iVar23;
+  int iVar24;
+  long lVar25;
+  long lVar26;
+  long lVar27;
+  long lVar28;
+  long lVar29;
+  int iVar30;
+  long lVar31;
+  long lVar32;
+  long lVar33;
+  long lVar34;
+  long lVar35;
+  long lVar36;
+  long lVar37;
+  long lVar38;
+  long lVar39;
+  long lVar40;
+  int local_140 [56];
+  
+  lVar25 = *(long *)(param_1 + 0x1b8);
+  lVar29 = *(long *)(param_2 + 0x58);
+  lVar26 = 0;
+  do {
+    psVar5 = (short *)(param_3 + lVar26 * 2);
+    piVar6 = (int *)(lVar29 + lVar26 * 4);
+    lVar34 = (long)piVar6[0x10] * (long)psVar5[0x10];
+    lVar27 = (long)piVar6[0x20] * (long)psVar5[0x20];
+    lVar39 = (long)piVar6[8] * (long)psVar5[8];
+    lVar35 = (long)piVar6[0x18] * (long)psVar5[0x18];
+    lVar37 = (long)piVar6[0x30] * (long)psVar5[0x30];
+    lVar31 = (long)piVar6[0x28] * (long)psVar5[0x28];
+    uVar10 = (long)(*piVar6 * (int)*psVar5) << 0xd | 0x400;
+    lVar32 = (lVar34 - lVar27) * 0xa12;
+    lVar33 = (lVar35 + lVar39) * 0x1def;
+    lVar40 = uVar10 + (lVar37 + lVar34) * 0x28c6;
+    lVar28 = (lVar27 - lVar37) * 0x1c37;
+    lVar38 = (lVar31 + lVar39) * 0x13a3;
+    lVar7 = lVar28 + lVar37 * -0x27d + lVar40;
+    lVar36 = (lVar31 + lVar35) * -0x2c1f;
+    lVar8 = lVar38 + lVar33 + (lVar39 - lVar35) * -0x573;
+    lVar40 = lVar32 + lVar34 * -0x4f0f + lVar40;
+    lVar33 = lVar33 + (lVar39 - lVar35) * 0x573 + lVar36;
+    lVar36 = lVar38 + lVar31 * 0x3bde + lVar36;
+    lVar28 = uVar10 + lVar27 * -0x3aeb + lVar32 + lVar28;
+    lVar31 = lVar26 + 1;
+                    /* try { // try from 0110c4b4 to 0120c613 has its CatchHandler @ 0110c4b4
+                       catch() { ... } // from try @ 0110c4b4 with catch @ 0110c4b4
+                       catch() { ... } // from try @ 0110c61c with catch @ 0110c4b4 */
+    local_140[lVar26] = (int)((ulong)(lVar8 + lVar7) >> 0xb);
+    local_140[lVar26 + 0x30] = (int)((ulong)(lVar7 - lVar8) >> 0xb);
+    local_140[lVar26 + 0x10] = (int)((ulong)(lVar36 + lVar40) >> 0xb);
+    local_140[lVar26 + 0x20] = (int)((ulong)(lVar40 - lVar36) >> 0xb);
+    local_140[lVar26 + 8] = (int)((ulong)(lVar33 + lVar28) >> 0xb);
+    local_140[lVar26 + 0x28] = (int)((ulong)(lVar28 - lVar33) >> 0xb);
+    local_140[lVar26 + 0x18] = (int)(uVar10 + (lVar27 - (lVar37 + lVar34)) * 0x2d41 >> 0xb);
+    lVar26 = lVar31;
+  } while ((int)lVar31 != 8);
+  lVar26 = 0;
+  lVar25 = lVar25 + -0x180;
+  do {
+    iVar14 = local_140[lVar26 + 1];
+    iVar11 = local_140[lVar26 + 2];
+    iVar15 = local_140[lVar26 + 3];
+    iVar12 = local_140[lVar26 + 4];
+    iVar16 = local_140[lVar26 + 5];
+    iVar13 = local_140[lVar26 + 6];
+    iVar17 = local_140[lVar26 + 7];
+    puVar9 = (undefined1 *)(*(long *)(param_4 + lVar26) + (ulong)param_5);
+    iVar1 = local_140[lVar26] * 0x2000 + 0x8020000;
+    iVar18 = iVar17 * 0x2000;
+    iVar19 = iVar1 + iVar12 * 0x28c6;
+    iVar20 = iVar1 + iVar12 * 0xa12;
+    iVar30 = (iVar13 + iVar11) * 0x2362;
+    iVar23 = (iVar15 + iVar14) * 0x2ab7;
+    iVar24 = (iVar16 + iVar14) * 0x2652;
+    iVar21 = iVar30 + iVar11 * 0x8bd;
+    iVar2 = iVar21 + iVar19;
+    iVar3 = iVar23 + iVar14 * -0x2410 + iVar24 + iVar18;
+    *puVar9 = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar3 + iVar2) >> 0x12) & 0x3ff));
+    iVar17 = iVar17 * -0x2000;
+    iVar30 = iVar30 + iVar13 * -0x3704;
+    iVar22 = iVar17 + (iVar16 + iVar15) * -0x511;
+    iVar4 = iVar30 + iVar20;
+    iVar23 = iVar23 + iVar15 * -0xd92 + iVar22;
+    puVar9[0xd] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar2 - iVar3) >> 0x12) & 0x3ff));
+                    /* try { // try from 0110c614 to 0120c61b has its CatchHandler @ 0110c69c */
+    iVar11 = iVar11 * 0x13a3 + iVar13 * -0x2c1f;
+                    /* try { // try from 0110c61c to 0120c6bb has its CatchHandler @ 0110c4b4 */
+    puVar9[1] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar23 + iVar4) >> 0x12) & 0x3ff));
+    iVar13 = iVar1 + iVar12 * -0x1c37;
+    iVar22 = iVar24 + iVar16 * -0x4bf7 + iVar22;
+    iVar2 = iVar11 + iVar13;
+    puVar9[0xc] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar4 - iVar23) >> 0x12) & 0x3ff));
+    puVar9[2] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar22 + iVar2) >> 0x12) & 0x3ff));
+    iVar1 = iVar1 + iVar12 * -0x2d42;
+    iVar3 = iVar18 + ((iVar14 - iVar15) - iVar16) * 0x2000;
+    puVar9[0xb] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar2 - iVar22) >> 0x12) & 0x3ff));
+    puVar9[3] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar3 + iVar1) >> 0x12) & 0x3ff));
+    iVar13 = iVar13 - iVar11;
+                    /* catch() { ... } // from try @ 0110c614 with catch @ 0110c69c */
+    iVar4 = (iVar16 - iVar15) * 0x2cf8;
+    iVar23 = (iVar16 + iVar14) * 0x1814;
+    iVar2 = iVar18 + iVar16 * -0x361a + iVar4 + iVar23;
+    puVar9[10] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar1 - iVar3) >> 0x12) & 0x3ff));
+                    /* catch() { ... } // from try @ 0110c6f8 with catch @ 0110c6bc
+                       catch() { ... } // from try @ 0110c744 with catch @ 0110c6bc */
+    puVar9[4] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar2 + iVar13) >> 0x12) & 0x3ff));
+    iVar17 = iVar17 + (iVar14 - iVar15) * 0xef2;
+    iVar20 = iVar20 - iVar30;
+    iVar1 = iVar4 + iVar15 * 0x1599 + iVar17;
+    puVar9[9] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar13 - iVar2) >> 0x12) & 0x3ff));
+                    /* try { // try from 0110c6f4 to 0120c6f7 has its CatchHandler @ 0110c744 */
+                    /* try { // try from 0110c6f8 to 0120c73b has its CatchHandler @ 0110c6bc */
+    iVar19 = iVar19 - iVar21;
+    puVar9[5] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar1 + iVar20) >> 0x12) & 0x3ff));
+    iVar17 = iVar23 + iVar14 * -0x21f5 + iVar17;
+    puVar9[8] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar20 - iVar1) >> 0x12) & 0x3ff));
+    lVar26 = lVar26 + 8;
+    puVar9[6] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar17 + iVar19) >> 0x12) & 0x3ff));
+                    /* try { // try from 0110c73c to 0120c743 has its CatchHandler @ 0110c744 */
+    puVar9[7] = *(undefined1 *)(lVar25 + ((ulong)((uint)(iVar19 - iVar17) >> 0x12) & 0x3ff));
+  } while (lVar26 != 0x38);
+                    /* catch() { ... } // from try @ 0110c6f4 with catch @ 0110c744
+                       catch() { ... } // from try @ 0110c73c with catch @ 0110c744
+                       try { // try from 0110c744 to 0120c763 has its CatchHandler @ 0110c6bc */
+  return;
+}
+

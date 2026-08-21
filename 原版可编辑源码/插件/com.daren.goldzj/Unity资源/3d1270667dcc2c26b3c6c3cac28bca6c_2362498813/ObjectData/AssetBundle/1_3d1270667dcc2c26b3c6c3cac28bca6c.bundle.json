@@ -1,0 +1,67 @@
+{
+  "m_Name": "3d1270667dcc2c26b3c6c3cac28bca6c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -8235444465373541152
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7791136794284821030
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -224404129729902194
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2065508807685679110
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2828194530863705205
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3693212925473190304
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4931546054336868044
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/vipnew/viplevelpreview/viplevelpreview_6.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -224404129729902194
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3d1270667dcc2c26b3c6c3cac28bca6c.bundle",
+  "m_Dependencies": [
+    "0400005fe26780a6282289deab7e15d4.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

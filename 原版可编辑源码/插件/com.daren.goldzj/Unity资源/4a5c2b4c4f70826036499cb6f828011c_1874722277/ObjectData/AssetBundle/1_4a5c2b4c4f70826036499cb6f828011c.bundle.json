@@ -1,0 +1,145 @@
+{
+  "m_Name": "4a5c2b4c4f70826036499cb6f828011c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1639054234971412948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7318596541601414632
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2674777979452131502
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2674342253567616404
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2635349806374311111
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 464613781744851240
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 527213769761942916
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1386136015184266833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1492028830856163331
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1635547977760994421
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1655058825110660576
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1794798744556618240
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2944975655748722637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3395676429745612922
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4669775401770934075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6072088212339502124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6312520688526777866
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6486046954282284263
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7426248238135334653
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7473858317406283509
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8443929731973664228
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2417306544650935444
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -2133949159106840444
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/bosschallengeskin4v2/moneyinfo.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 27,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1794798744556618240
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4a5c2b4c4f70826036499cb6f828011c.bundle",
+  "m_Dependencies": [
+    "28aa9666709ef9b955d94bb45a4d588e.bundle",
+    "85cd66e37160b6b7476a956a145ad94b.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

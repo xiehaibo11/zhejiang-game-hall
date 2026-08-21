@@ -1,0 +1,32 @@
+
+/* cocos2d::TurnOffTiles::create(float, cocos2d::Size const&) */
+
+Action * cocos2d::TurnOffTiles::create(float param_1,Size *param_2)
+
+{
+  Action *this;
+  ulong uVar1;
+  
+  this = operator_new(0x78,(nothrow_t *)&std::nothrow);
+  if (this != (Action *)0x0) {
+    Action::Action(this);
+    *(undefined4 *)(this + 0x4c) = 0;
+    *(undefined ***)this = &PTR__Action_016f7408;
+    *(undefined ***)(this + 0x28) = &PTR_clone_016f7470;
+    Size::Size((Size *)(this + 0x58));
+    *(undefined ***)this = &PTR__TurnOffTiles_016f9bb0;
+    *(undefined ***)(this + 0x28) = &PTR_clone_016f9c18;
+    uVar1 = GridAction::initWithDuration((GridAction *)this,param_1,param_2);
+    if ((uVar1 & 1) == 0) {
+      (**(code **)(*(long *)this + 8))(this);
+      this = (Action *)0x0;
+    }
+    else {
+      *(undefined4 *)(this + 0x68) = 0;
+      *(undefined8 *)(this + 0x70) = 0;
+      Ref::autorelease((Ref *)this);
+    }
+  }
+  return this;
+}
+

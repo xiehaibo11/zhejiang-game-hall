@@ -1,0 +1,48 @@
+{
+  "m_Name": "97de34b5672490f54125b7bbab9932fe.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 845309679958374891
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7870565382304678387
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -951495175742445738
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/artifactprayv2/effect/animation/artifactpraytaskpanelani.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -951495175742445738
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "97de34b5672490f54125b7bbab9932fe.bundle",
+  "m_Dependencies": [
+    "09ec53da57b37f006fdc5c79455e0d2d.bundle",
+    "643d5e603f4634bcc44646db24c2c5b3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

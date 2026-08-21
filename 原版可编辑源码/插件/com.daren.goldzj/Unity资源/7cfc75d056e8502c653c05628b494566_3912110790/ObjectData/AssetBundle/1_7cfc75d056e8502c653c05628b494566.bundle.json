@@ -1,0 +1,130 @@
+{
+  "m_Name": "7cfc75d056e8502c653c05628b494566.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -6527956321217443465
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4112159416671419154
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3425517392933429458
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1327720578755204069
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7527133569048105792
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6581421271360099581
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6390190261966915039
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5019138167746962143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5004312768813926212
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4747931330290965454
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3786753870094023927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2112129130854878535
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 708078474659591833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 746624600167157300
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2390228665194449954
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4189412275465555927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5348855739966076099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5391800807440065198
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6338924983830897496
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6976267360227315453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9212575171839958539
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -8951857835401395771
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/crystaltreasury/effect/prefab/effect_giftitem_bklb.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 23,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 708078474659591833
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "7cfc75d056e8502c653c05628b494566.bundle",
+  "m_Dependencies": [
+    "0ed482bdc6a07bb2d4356762a4293f43.bundle",
+    "368ccc0c43bace24a5e0a5366947f320.bundle",
+    "536c1d79806f001a1d9bb4733434ba30.bundle",
+    "995d38e1d832d293b073eae581422473.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

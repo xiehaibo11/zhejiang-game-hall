@@ -1,0 +1,52 @@
+{
+  "m_Name": "43ecbc96a897570cadb170b4de610f39.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2188213736962384219
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6226302623592241197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7736044019511106585
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/emoji/normal/smug/jichubiaoqing_dese_skeletondata.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6226302623592241197
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "43ecbc96a897570cadb170b4de610f39.bundle",
+  "m_Dependencies": [
+    "139f6ca95da0c68f8ff5681cd1235778.bundle",
+    "5eb66e7608e23c967897e062368e9e35.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

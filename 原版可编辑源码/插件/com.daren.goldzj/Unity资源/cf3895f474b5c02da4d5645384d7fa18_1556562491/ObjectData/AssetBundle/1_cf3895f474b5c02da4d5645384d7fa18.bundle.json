@@ -1,0 +1,104 @@
+{
+  "m_Name": "cf3895f474b5c02da4d5645384d7fa18.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7398721008279285254
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5030592640046491123
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3801255604182754118
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1904695150650900112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1511507493480396770
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1192991455298156848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -661185966930860369
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 329881216329678399
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5028877544353423050
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5721543079708151860
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7495775565892817574
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6136244154502091889
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7504276518505441424
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 7662249636690379605
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/emojiitem.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5721543079708151860
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "cf3895f474b5c02da4d5645384d7fa18.bundle",
+  "m_Dependencies": [
+    "c033f3a5600da9baa9542b2099aaca5c.bundle",
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

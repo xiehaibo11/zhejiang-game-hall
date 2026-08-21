@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4879758540762265550
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3399568995429032550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4641582104262461473
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2427972744585790381
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7134183761738173966
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2940900668562716840
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4561408936450049545
+    }
+  ],
+  "m_BindComs_Name": [
+    "mCloseBtn",
+    "mGoShopBtn",
+    "mReSignBtn",
+    "mPropNum",
+    "mTipsObj",
+    "mTipsLabel"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.MoneyDaySign.MoneyDaySignSingleReSignPanel",
+  "m_ClassName": "MoneyDaySignSingleReSignPanel"
+}

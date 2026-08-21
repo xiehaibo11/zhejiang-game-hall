@@ -1,0 +1,48 @@
+{
+  "m_Name": "674a7fef0f60c4169ee9f9c8228592b3.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -432940157811805719
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3807979529495454
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -905636281508599772
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/playerineraction/spine/meiguihua/meiguihua_material.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3807979529495454
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "674a7fef0f60c4169ee9f9c8228592b3.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "e66a021735695dedd01072b19f2978e5.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4985675222823096675
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -738687193120904616
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 816959691007983080
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6592192564025294380
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7930327551948442942
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7976167779126509295
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1416502981764295522
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7413948109884153587
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1278212337133538474
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9021744094511368552
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5272753900622246501
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6957502210087972761
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -311126845413310489
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5860810542898929927
+    }
+  ],
+  "m_BindComs_Name": [
+    "bgNormal",
+    "bgFree",
+    "btnBuy",
+    "btnFree",
+    "btnBuyed",
+    "tag",
+    "goldicon",
+    "txtLimit",
+    "txtPrice",
+    "txtPercent",
+    "txtGold",
+    "item",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BossChallenge.BossChallengeShopItem",
+  "m_ClassName": "BossChallengeShopItem"
+}

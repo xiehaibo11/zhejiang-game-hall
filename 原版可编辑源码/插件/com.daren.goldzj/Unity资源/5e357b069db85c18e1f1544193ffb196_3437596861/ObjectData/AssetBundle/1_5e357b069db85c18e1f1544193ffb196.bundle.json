@@ -1,0 +1,147 @@
+{
+  "m_Name": "5e357b069db85c18e1f1544193ffb196.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8764010168123199970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7302879965403092027
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6454717538387877433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5631027208792601839
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5145033011998197464
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4528750056916860785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3267828449784330865
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1866810423780632369
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 193524629035622591
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1687832866400390333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2148018919603169146
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3672726715667301731
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3900304406256311945
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4504444710166903632
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4582460087722776128
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4989905011905056023
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5074894526564777057
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6665551540085484866
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6907488086808105779
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6979225456527118030
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8969461481292033639
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 5219633114386537661
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 4990216374731251074
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 153774753715298084
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -9022841058074490042
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -3425194538956882031
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/newspringtreasurehunt/effect/prefab/uieffect_xcxbleader_idle.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 27,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6454717538387877433
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "5e357b069db85c18e1f1544193ffb196.bundle",
+  "m_Dependencies": [
+    "0e7c827c4992d08248925b991920c240.bundle",
+    "481329bd4343d250bb2c5423ea022a2f.bundle",
+    "94b146f65add6e44e58eb0e9a9faef75.bundle",
+    "bea5dc057707cf1c27e90dbf9dee540b.bundle",
+    "e4d0342f3cecc006f7864ea4c1ee3892.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

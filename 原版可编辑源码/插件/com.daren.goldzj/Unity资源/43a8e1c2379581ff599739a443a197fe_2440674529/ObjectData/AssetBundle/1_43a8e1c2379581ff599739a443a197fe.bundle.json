@@ -1,0 +1,192 @@
+{
+  "m_Name": "43a8e1c2379581ff599739a443a197fe.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 10202
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3515565518791085860
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -797544102063461043
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -7991148816790185819
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": 7598701051054124207
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3876766203569932326
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 4334241059958935388
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8839332271724152622
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7817693694528354012
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6086745896606575382
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5633841895315796920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5274770033877467260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4166833600448426780
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3539783063448272660
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2255589985559160838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1983944738542832937
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1174088256007116072
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -31888142705915484
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 590539248089873694
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1749734706838920187
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1866401270829257344
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2151500761569594439
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2195065644351558559
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2644417169869630411
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3860443683489349682
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4351076913338087659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4802525121278288614
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4814014660090820533
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5142060551028086308
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6281948988388550075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6295802437364786818
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7503477714276548424
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7555022279091938926
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7605345465769815110
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7781258129316581286
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8764341753257243440
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8911783036094487649
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -7294211696473061121
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/godgeneral/effect/daji/prefab/godgeneral_1003_dazhao_paoko_4.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 38,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6086745896606575382
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "43a8e1c2379581ff599739a443a197fe.bundle",
+  "m_Dependencies": [
+    "3f322e4ed7b7d5e0fae4a869e6f22e47.bundle",
+    "4bdcbc57a715a7c15b3c8d9d4a87a248.bundle",
+    "74106877582ba1ef99f0f7559123d681.bundle",
+    "8b9a698486edbea506f1929691c8a3eb.bundle",
+    "995d38e1d832d293b073eae581422473.bundle",
+    "c8d5a8ba82c2b77327d1b851046f3ad0.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

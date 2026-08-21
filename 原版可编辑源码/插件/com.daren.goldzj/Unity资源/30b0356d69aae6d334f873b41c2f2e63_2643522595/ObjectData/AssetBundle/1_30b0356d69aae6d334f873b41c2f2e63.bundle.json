@@ -1,0 +1,277 @@
+{
+  "m_Name": "30b0356d69aae6d334f873b41c2f2e63.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5146028183706545538
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5232840129948221301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4309509192853487678
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -337963375047804871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -565644859964140956
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2560034729525801799
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3217811812055604591
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2858238824766547015
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3305801472006596245
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2410512492464077368
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7821589963306610703
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7171327508812144233
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7194843486049106486
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7290320720216845438
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3796151074327524620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 276150238691286826
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5110377415725840521
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/flash_006.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2560034729525801799
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/fx_0001.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2858238824766547015
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/lightning_001.png",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5110377415725840521
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/mask_0001.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5232840129948221301
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/mask_0002.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7821589963306610703
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/mask_062_01.png",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7290320720216845438
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/ring_0001.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -565644859964140956
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/ring_011.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3305801472006596245
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/ring_721.png",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7194843486049106486
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/sequence_701.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2410512492464077368
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/smoke_0001.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3217811812055604591
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/star_0001.png",
+      {
+        "preloadIndex": 15,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 276150238691286826
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/star_800.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -337963375047804871
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/star_805.png",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7171327508812144233
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/trail_0001.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5146028183706545538
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/trail_0002.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4309509192853487678
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/aijiyanhou/textures/xian_0036.png",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3796151074327524620
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "30b0356d69aae6d334f873b41c2f2e63.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

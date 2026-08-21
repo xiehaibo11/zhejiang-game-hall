@@ -1,0 +1,115 @@
+{
+  "m_Name": "efbd59e48336a88ea25fa9e0c7d46f84.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177439469562423164
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8559707281856162200
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5342295007803873595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4713211584415855669
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3417365427553501852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1690478921842650818
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1496251501215781951
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1198158003580227086
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 200611038914741050
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 201472948587321551
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1822551293800664518
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2299042689569223238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2940451882140595695
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3034082112262798215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5583836389931667515
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6059342154653606570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6206998378989567730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6926246820140046520
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 6136244154502091889
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/shengjipaobei/shengjipaobeiiconda.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 20,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8559707281856162200
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "efbd59e48336a88ea25fa9e0c7d46f84.bundle",
+  "m_Dependencies": [
+    "da8977b3eb091fb25c75ed0bbefa1219.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

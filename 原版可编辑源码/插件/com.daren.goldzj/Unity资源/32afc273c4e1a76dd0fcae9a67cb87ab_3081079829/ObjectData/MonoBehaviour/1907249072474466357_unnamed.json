@@ -1,0 +1,159 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2500729966122493092
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3902709051015269615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8972366223417511110
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -586251710729952509
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7572208947634151589
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1734024848136136852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7207339297991001402
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1923335291720202687
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -309968918543095854
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3619732940359088908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8104513792517847680
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4875370033515816042
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5629405401035805433
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_TxtNumProps",
+    "m_TxtActivityTime",
+    "m_ILBSlotController",
+    "m_BtnQuestion",
+    "m_BtnClose",
+    "m_BtnSearchOnce",
+    "m_RulePanel",
+    "m_SearchOnceRedDot",
+    "m_SearchManyRedDot",
+    "m_BtnSearchManyTimes",
+    "m_TxtCostOfSearchOnce",
+    "m_TxtCostOfSearchManyTimes"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 6647092828691404575
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -74514625792812204
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4378857803182742363
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -124658216117621768
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4080590125180832509
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5023385058946368712
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3004704690466321555
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8888129451251107723
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2906485705118092994
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5810434365763786163
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5127562256815840409
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4190960954446043464
+        }
+      ]
+    },
+    {
+      "list": []
+    },
+    {
+      "list": []
+    }
+  ],
+  "m_BindObjList_Name": [
+    "m_NormalRewardItems",
+    "m_MiddleRewardItems",
+    "m_AdvancedRewardItems"
+  ],
+  "hotfixClassFullName": "GameHotFix.TreasureTrove.TreasureTroveMainPanel",
+  "m_ClassName": "TreasureTroveMainPanel"
+}

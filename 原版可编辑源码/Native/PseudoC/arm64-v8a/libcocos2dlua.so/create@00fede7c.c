@@ -1,0 +1,37 @@
+
+/* cocos2d::TextureAtlas::create(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>,
+   std::__ndk1::allocator<char> > const&, long) */
+
+Ref * cocos2d::TextureAtlas::create(basic_string *param_1,long param_2)
+
+{
+  Ref *this;
+  Director *this_00;
+  TextureCache *this_01;
+  Texture2D *pTVar1;
+  ulong uVar2;
+  
+  this = operator_new(0x68,(nothrow_t *)&std::nothrow);
+  if (this != (Ref *)0x0) {
+    Ref::Ref(this);
+    *(undefined8 *)(this + 0x28) = 0;
+    this[0x3c] = (Ref)0x0;
+    *(undefined8 *)(this + 0x58) = 0;
+    *(undefined8 *)(this + 0x60) = 0;
+    *(undefined ***)this = &PTR__TextureAtlas_01724470;
+    *(undefined8 *)(this + 0x50) = 0;
+    this_00 = (Director *)Director::getInstance();
+    this_01 = (TextureCache *)Director::getTextureCache(this_00);
+    pTVar1 = (Texture2D *)TextureCache::addImage(this_01,param_1);
+    if ((pTVar1 == (Texture2D *)0x0) ||
+       (uVar2 = initWithTexture((TextureAtlas *)this,pTVar1,param_2), (uVar2 & 1) == 0)) {
+      (**(code **)(*(long *)this + 8))(this);
+      this = (Ref *)0x0;
+    }
+    else {
+      Ref::autorelease(this);
+    }
+  }
+  return this;
+}
+

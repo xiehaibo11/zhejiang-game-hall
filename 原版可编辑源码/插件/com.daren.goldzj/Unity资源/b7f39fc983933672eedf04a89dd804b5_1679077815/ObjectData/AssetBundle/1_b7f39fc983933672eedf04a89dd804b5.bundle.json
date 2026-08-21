@@ -1,0 +1,37 @@
+{
+  "m_Name": "b7f39fc983933672eedf04a89dd804b5.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6779181019545927590
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/succulentdevelopmentpanel/effect/texture/ui_eff_lyxz_tongguan_mask_1.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6779181019545927590
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "b7f39fc983933672eedf04a89dd804b5.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

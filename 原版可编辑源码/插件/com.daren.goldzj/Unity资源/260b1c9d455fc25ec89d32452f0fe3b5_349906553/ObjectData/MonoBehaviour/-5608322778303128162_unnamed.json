@@ -1,0 +1,90 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5678648022899353546
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9220520418447703393
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9061589184076070303
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1282451334920311084
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7864236171150770601
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8970678328944178804
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4821235248949215936
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4559494109959885107
+    }
+  ],
+  "m_BindComs_Name": [
+    "mLimitTips",
+    "mBtnBuy",
+    "mBtnBuyed",
+    "mPrice",
+    "mAddPercent",
+    "mRewardCoint",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -4006706620419806310
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8013727243147986675
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 6224455524102428863
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mItemList"
+  ],
+  "hotfixClassFullName": "GameHotFix.KingOfFighterRoom.KingOfFighterRoomLimitGiftItem",
+  "m_ClassName": "KingOfFighterRoomLimitGiftItem"
+}

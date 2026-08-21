@@ -1,0 +1,97 @@
+{
+  "m_Name": "a20e1b69be501d34722757d16812c741.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8199642617208528965
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4653041257644493627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4039720523567757019
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3140447092549637233
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3223334409115140567
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_056_\u5723\u65e8/texture/15.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3140447092549637233
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_056_\u5723\u65e8/texture/object_02.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8199642617208528965
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_056_\u5723\u65e8/texture/object_03.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3223334409115140567
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_056_\u5723\u65e8/texture/object_04.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4039720523567757019
+        }
+      }
+    ],
+    [
+      "assets/arts/cannonspine/-\u5957\u88c5_056_\u5723\u65e8/texture/zuanshi2.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4653041257644493627
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a20e1b69be501d34722757d16812c741.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

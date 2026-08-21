@@ -1,0 +1,43 @@
+{
+  "m_Name": "2ef3ba7bd77b4c992c4b4012489d0ba2.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 256300220450597408
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4456585559942888058
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/wealthtrain/touzi/shaizicamera.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4456585559942888058
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2ef3ba7bd77b4c992c4b4012489d0ba2.bundle",
+  "m_Dependencies": [
+    "cc27b5719aaa5b2607fee48814f3e8af.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

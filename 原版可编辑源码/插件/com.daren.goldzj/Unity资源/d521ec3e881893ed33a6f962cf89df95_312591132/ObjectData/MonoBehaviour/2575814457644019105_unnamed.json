@@ -1,0 +1,313 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 559007532713736291
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8929067503796372651
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8759461766832188363
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4053016948259073537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6228583482805375177
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4514218744406177149
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3017834508655609129
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1007062457448345662
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4113140670320731018
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5357206860024321540
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3148465111394331482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1798399315116024248
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7233519159337911742
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8037585857652892776
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -307990739987213244
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8737253327980099804
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1342440094748616059
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5631027421321712276
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3683262382456816512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4670959066428858050
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3156652325701456403
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 465777146649086180
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1886029158792048307
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7294824796405171175
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2136747991019971829
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -978256136511204941
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5479902745568252668
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9071042138539547381
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1245511619296773592
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 57445682968673873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7240819913685100536
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9026593397402237843
+    }
+  ],
+  "m_BindComs_Name": [
+    "AtlasLevelProgressBar",
+    "AtlasRewardCanClaimEff",
+    "BossLevelHasProgressRoot",
+    "BossLevelNoProgressRoot",
+    "BossLevelProgressBar",
+    "BossMaxLevelSign",
+    "BossUpgradeableEff",
+    "BtnAtlasGift",
+    "BtnAtlasLevelReward",
+    "BtnClose",
+    "BtnGoFishing",
+    "BtnRules",
+    "BtnUpgradeBossLevel",
+    "ClickableMask",
+    "ClipPanel",
+    "ObjDropThingEndPos",
+    "ObjDropThingStartPos",
+    "rulePanel",
+    "TaskGrid",
+    "TaskItemTemplate",
+    "TaskScv",
+    "TexBossTexture",
+    "TxtActivityTime",
+    "TxtAtlasLevel",
+    "TxtAtlasLevelProgressInfo",
+    "TxtBossLevel",
+    "TxtBossLevelProgressValue",
+    "TxtBossMultInfo",
+    "TxtBossName",
+    "TxtBossSceneInfo",
+    "LeftTabScv"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 3656897181061131848
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8321647712758282768
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3949447048014921215
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1682378565873769933
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4839503256918986776
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3147506340169149086
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 23,
+          "m_PathID": -2665358866798077705
+        },
+        {
+          "m_FileID": 30,
+          "m_PathID": -2029921332113870635
+        },
+        {
+          "m_FileID": 38,
+          "m_PathID": -2393826912730615095
+        },
+        {
+          "m_FileID": 40,
+          "m_PathID": -5762776968843801512
+        },
+        {
+          "m_FileID": 31,
+          "m_PathID": -5386988867702630766
+        },
+        {
+          "m_FileID": 35,
+          "m_PathID": 7686904238520424362
+        },
+        {
+          "m_FileID": 28,
+          "m_PathID": 5114254312928421553
+        },
+        {
+          "m_FileID": 33,
+          "m_PathID": 702330751640521612
+        },
+        {
+          "m_FileID": 32,
+          "m_PathID": -286204832788507964
+        },
+        {
+          "m_FileID": 36,
+          "m_PathID": 8774418659872150737
+        },
+        {
+          "m_FileID": 29,
+          "m_PathID": -4336014327847855303
+        },
+        {
+          "m_FileID": 37,
+          "m_PathID": -5466669124961023963
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1652782161140519084
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -4549013092736647651
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7704424727746137282
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5041405709460084875
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1468088210499311463
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1921330744559659801
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4606346790151882672
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "BossTabs",
+    "BossTextures",
+    "BtnCommingSoon",
+    "EffBoss"
+  ],
+  "hotfixClassFullName": "GameHotFix.ShuiHuSeason.ShuiHuAtlasPanel",
+  "m_ClassName": "ShuiHuAtlasPanel"
+}

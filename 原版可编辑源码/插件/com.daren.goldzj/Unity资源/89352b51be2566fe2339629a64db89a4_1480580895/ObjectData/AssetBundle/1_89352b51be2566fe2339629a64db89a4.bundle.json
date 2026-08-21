@@ -1,0 +1,43 @@
+{
+  "m_Name": "89352b51be2566fe2339629a64db89a4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4831416414057702266
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 7731599867137813540
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/cannoncenter/effect/animation/txtcurtempmul.controller",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4831416414057702266
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "89352b51be2566fe2339629a64db89a4.bundle",
+  "m_Dependencies": [
+    "7189d6922e5ee2ed6f494e64a36c41de.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

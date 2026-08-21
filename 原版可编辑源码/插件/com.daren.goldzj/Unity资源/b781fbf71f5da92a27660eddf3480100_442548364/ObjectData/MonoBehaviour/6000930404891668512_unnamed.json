@@ -1,0 +1,96 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4869302400071618623
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 24,
+      "m_PathID": -1482395025841691970
+    },
+    {
+      "m_FileID": 18,
+      "m_PathID": 8200428768972887046
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8078781704607598071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4443268919238021252
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -423567511532270697
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8281091983909874543
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9005840300510995782
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4564899065604267231
+    }
+  ],
+  "m_BindComs_Name": [
+    "FontNegative",
+    "FontPositive",
+    "NegativeVariant",
+    "EffNegativeBonusDisappear",
+    "ObjBonusAnimRoot",
+    "PositivePlusVariant",
+    "PositiveVariant",
+    "TxtBonus"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    0.0
+  ],
+  "m_BindFloat_Name": [
+    "AnimDuration"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [
+    {
+      "m_Curve": [],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    }
+  ],
+  "m_BindCurve_Name": [
+    "PosCurve",
+    "ScaleCurve"
+  ],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.HungryLoong.HungryLoongBonusItem",
+  "m_ClassName": "HungryLoongBonusItem"
+}

@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -989321909867312840
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1554045375375136210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1944351566525305359
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3919295423907795142
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5892394877423666549
+    }
+  ],
+  "m_BindComs_Name": [
+    "itemIcon",
+    "addIcon",
+    "itemNumLabel",
+    "btnTip"
+  ],
+  "m_BindInt": [
+    10377
+  ],
+  "m_BindInt_Name": [
+    "itemId"
+  ],
+  "m_BindLong": [
+    0
+  ],
+  "m_BindLong_Name": [
+    "itemNum"
+  ],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Base.CurrencyComponent",
+  "m_ClassName": "CurrencyComponent"
+}

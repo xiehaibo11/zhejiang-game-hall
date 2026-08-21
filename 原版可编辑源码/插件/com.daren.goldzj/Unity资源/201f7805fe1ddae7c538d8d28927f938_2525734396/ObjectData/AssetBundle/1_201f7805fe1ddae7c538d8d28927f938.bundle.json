@@ -1,0 +1,113 @@
+{
+  "m_Name": "201f7805fe1ddae7c538d8d28927f938.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -6757142001652313143
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3452121065800906264
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7271077287751335898
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7008704310565207515
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6533975163303889848
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4401787024358675405
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4305998917508007474
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2596316599176774250
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2580512053133745068
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 678907868994828075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1906942933987892938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3568928436487351510
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4089360339202780896
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5465931129706475321
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5834511051050785820
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7182800135922309425
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7553095560859943516
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8286618423277200174
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -6677349241685422022
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/vipnew/effect/prefab/effect_icon_saoguang.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 19,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2596316599176774250
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "201f7805fe1ddae7c538d8d28927f938.bundle",
+  "m_Dependencies": [
+    "11e3b7212335e6023d39e6576de93c7b.bundle",
+    "7b14c45d02b38b42ef458a5625854151.bundle",
+    "904bdecef62aaf8fb876410d8c67e731.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

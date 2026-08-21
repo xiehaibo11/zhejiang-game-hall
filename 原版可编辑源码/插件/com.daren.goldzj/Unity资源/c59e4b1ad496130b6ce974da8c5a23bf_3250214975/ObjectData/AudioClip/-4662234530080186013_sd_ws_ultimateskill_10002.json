@@ -1,0 +1,20 @@
+{
+  "m_Name": "sd_ws_ultimateskill_10002",
+  "m_LoadType": 0,
+  "m_Channels": 2,
+  "m_Frequency": 48000,
+  "m_BitsPerSample": 16,
+  "m_Length": 2.091270923614502,
+  "m_IsTrackerFormat": false,
+  "m_Ambisonic": false,
+  "m_SubsoundIndex": 0,
+  "m_PreloadAudioData": true,
+  "m_LoadInBackground": false,
+  "m_Legacy3D": true,
+  "m_Resource": {
+    "m_Source": "archive:/CAB-dc1e5bedc5957eb6d85a6c52a5e6ee14/CAB-dc1e5bedc5957eb6d85a6c52a5e6ee14.resource",
+    "m_Offset": 0,
+    "m_Size": 113920
+  },
+  "m_CompressionFormat": 1
+}

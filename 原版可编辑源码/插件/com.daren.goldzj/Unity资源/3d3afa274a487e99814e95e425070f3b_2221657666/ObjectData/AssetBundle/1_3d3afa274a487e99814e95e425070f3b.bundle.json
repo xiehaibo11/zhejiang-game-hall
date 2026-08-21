@@ -1,0 +1,83 @@
+{
+  "m_Name": "3d3afa274a487e99814e95e425070f3b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9177589038217080147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9145858991271538716
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8009622190873452652
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3282252914325247289
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1561523359618833085
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -677554965824210628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2059469349748420370
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3678875273083100144
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8922306677060492851
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8522270229878565159
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 3241940106204875498
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/prefab/buyuscene/playerinteractionflyingitem.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 12,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2059469349748420370
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "3d3afa274a487e99814e95e425070f3b.bundle",
+  "m_Dependencies": [
+    "f5d4a9af25e5d10858cdd4aa1ef783ed.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

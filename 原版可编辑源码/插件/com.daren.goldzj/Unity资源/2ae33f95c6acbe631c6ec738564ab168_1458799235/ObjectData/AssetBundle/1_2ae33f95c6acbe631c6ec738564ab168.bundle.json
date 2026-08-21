@@ -1,0 +1,53 @@
+{
+  "m_Name": "2ae33f95c6acbe631c6ec738564ab168.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2833374776782884081
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 1645252069270260214
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1970613362924812495
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/novicesevendays/effect/mask_title_01_xsqr 1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1970613362924812495
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "2ae33f95c6acbe631c6ec738564ab168.bundle",
+  "m_Dependencies": [
+    "1f0c37c67ef7690e1a8941298d59e641.bundle",
+    "5dc9bd8cbdfd944af1318761d26cffce.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

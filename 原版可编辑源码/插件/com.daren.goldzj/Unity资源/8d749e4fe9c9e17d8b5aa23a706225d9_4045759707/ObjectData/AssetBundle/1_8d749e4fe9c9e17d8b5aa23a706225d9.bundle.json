@@ -1,0 +1,228 @@
+{
+  "m_Name": "8d749e4fe9c9e17d8b5aa23a706225d9.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8287148702518835933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1977059306989476851
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8287148702518835933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7500887797228781498
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1977059306989476851
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1126149480048138863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7523323325672920880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7969146516434821677
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8287148702518835933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7500887797228781498
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1977059306989476851
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1126149480048138863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4317213473189384555
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6997239305168795040
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7523323325672920880
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7969146516434821677
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8287148702518835933
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7500887797228781498
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1126149480048138863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7500887797228781498
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4317213473189384555
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7523323325672920880
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/fx/spine/danzhugongxihuode/gongxihuode.atlas.txt",
+      {
+        "preloadIndex": 28,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7523323325672920880
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/danzhugongxihuode/gongxihuode.png",
+      {
+        "preloadIndex": 22,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8287148702518835933
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/danzhugongxihuode/gongxihuode.skel.bytes",
+      {
+        "preloadIndex": 27,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 4317213473189384555
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/danzhugongxihuode/gongxihuode2.png",
+      {
+        "preloadIndex": 26,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7500887797228781498
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/danzhugongxihuode/gongxihuode_atlas.asset",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7969146516434821677
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/danzhugongxihuode/gongxihuode_gongxihuode.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1977059306989476851
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/danzhugongxihuode/gongxihuode_gongxihuode2.mat",
+      {
+        "preloadIndex": 23,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1126149480048138863
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/danzhugongxihuode/gongxihuode_skeletondata.asset",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 11,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6997239305168795040
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "8d749e4fe9c9e17d8b5aa23a706225d9.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

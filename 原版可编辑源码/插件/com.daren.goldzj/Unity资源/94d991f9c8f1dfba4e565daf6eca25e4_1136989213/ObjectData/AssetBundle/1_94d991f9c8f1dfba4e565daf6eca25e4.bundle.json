@@ -1,0 +1,56 @@
+{
+  "m_Name": "94d991f9c8f1dfba4e565daf6eca25e4.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5783950211478665166
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6045623339552894924
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5783950211478665166
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/uieffect/danzhuminigame/laba_sucai/xuanzhong_animation/laba_xuanzhong .controller",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6045623339552894924
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/uieffect/danzhuminigame/laba_sucai/xuanzhong_animation/xuanzhong.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5783950211478665166
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "94d991f9c8f1dfba4e565daf6eca25e4.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

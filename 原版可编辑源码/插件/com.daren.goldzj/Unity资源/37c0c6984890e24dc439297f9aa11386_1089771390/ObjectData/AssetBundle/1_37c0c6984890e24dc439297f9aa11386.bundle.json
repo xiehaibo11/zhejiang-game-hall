@@ -1,0 +1,174 @@
+{
+  "m_Name": "37c0c6984890e24dc439297f9aa11386.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4803580969570831451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4866156496268061595
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4866156496268061595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4803580969570831451
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2385862426642609074
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2604331937324556302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2631561814686093655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3782375669058978198
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4866156496268061595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2604331937324556302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2631561814686093655
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3782375669058978198
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -905636281508599772
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4866156496268061595
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2604331937324556302
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3782375669058978198
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_277/xiaripaotai.atlas.txt",
+      {
+        "preloadIndex": 20,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 3782375669058978198
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_277/xiaripaotai.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4866156496268061595
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_277/xiaripaotai.skel.bytes",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4803580969570831451
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_277/xiaripaotai_atlas.asset",
+      {
+        "preloadIndex": 11,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2631561814686093655
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_277/xiaripaotai_material.mat",
+      {
+        "preloadIndex": 17,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2604331937324556302
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/fx/spine/spinecannon/spinecannon_277/xiaripaotai_skeletondata.asset",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2385862426642609074
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "37c0c6984890e24dc439297f9aa11386.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

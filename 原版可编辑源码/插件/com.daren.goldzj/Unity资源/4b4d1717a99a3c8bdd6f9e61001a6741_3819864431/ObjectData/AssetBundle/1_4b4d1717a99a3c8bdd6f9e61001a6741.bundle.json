@@ -1,0 +1,52 @@
+{
+  "m_Name": "4b4d1717a99a3c8bdd6f9e61001a6741.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8894094066571615477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6760682733781497794
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/214_lindaiyu/texture/bg_03_ldy.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8894094066571615477
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/214_lindaiyu/texture/jiashan3.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6760682733781497794
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4b4d1717a99a3c8bdd6f9e61001a6741.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,56 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2730943564939800438
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5359432043409157219
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5621363017368248584
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7119768943162080718
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8124551374139603892
+    }
+  ],
+  "m_BindComs_Name": [
+    "TxtLevel",
+    "TxtProgressValue",
+    "Btn",
+    "ProgressBar"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.ReturningPlayer.BattleLevelInfoComponent",
+  "m_ClassName": "BattleLevelInfoComponent"
+}

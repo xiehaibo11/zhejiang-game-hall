@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5080139285497391954
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6093310746060720226
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6649255136050629793
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8770641319071758326
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5917012344024467788
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3061861189460216176
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8299718100070759994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2717214866304534225
+    }
+  ],
+  "m_BindComs_Name": [
+    "TaskDesc",
+    "GoldNum",
+    "RemainingTaskLabel",
+    "UIObject",
+    "BgObject",
+    "BtnSwitchTopView",
+    "canGetRewardEffect"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.GameCode.GameActivity.ActivityOther.CarnivalChallenge.View.CarnivalChallengeTopView",
+  "m_ClassName": "CarnivalChallengeTopView"
+}

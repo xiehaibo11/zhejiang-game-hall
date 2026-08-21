@@ -1,0 +1,187 @@
+{
+  "m_Name": "6cb5d80ffdd8ea559c6467c04adfecd8.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7015094229190981425
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7295861392908946871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4636561278831807349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8044423323590095286
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7519880988193107480
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2041825138532320406
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2727568715398009102
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1196870794172924375
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4122893384859094789
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4634285923306967569
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6228004142864922228
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_body_d.png",
+      {
+        "preloadIndex": 8,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4122893384859094789
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_equip_d.png",
+      {
+        "preloadIndex": 10,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 6228004142864922228
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_equip_m.png",
+      {
+        "preloadIndex": 3,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8044423323590095286
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_equip_n.png",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4636561278831807349
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_eyelash_d.png",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4634285923306967569
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_eyelash_m.png",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1196870794172924375
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_eyelash_n.png",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7519880988193107480
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_hair_d.png",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -2727568715398009102
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_hair_m.png",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7295861392908946871
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_hair_n.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7015094229190981425
+        }
+      }
+    ],
+    [
+      "assets/arts/fishmesh/170_daji/texture_new/daji_weiba_d.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2041825138532320406
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "6cb5d80ffdd8ea559c6467c04adfecd8.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

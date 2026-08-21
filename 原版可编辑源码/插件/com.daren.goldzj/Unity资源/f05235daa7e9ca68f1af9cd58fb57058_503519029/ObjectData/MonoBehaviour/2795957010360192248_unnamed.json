@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3319043788098991323
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8911573008005139617
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2870682054421447523
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6546056575732499239
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -496135664964859809
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1585978207925366908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9080529189082575268
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7618153067523867648
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8863240202725242076
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1059406583099193045
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -541586318996518532
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4706158731651221421
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7291723708049147650
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4906020342797943919
+    }
+  ],
+  "m_BindComs_Name": [
+    "bgNormal",
+    "bgFree",
+    "btnBuy",
+    "btnFree",
+    "btnBuyed",
+    "tag",
+    "goldicon",
+    "txtLimit",
+    "txtPrice",
+    "txtPercent",
+    "txtGold",
+    "item",
+    "m_BuffDetailsComponent"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.BossChallenge.BossChallengeShopItem",
+  "m_ClassName": "BossChallengeShopItem"
+}

@@ -1,0 +1,48 @@
+
+/* lua_cocos2dx_cocosbuilder_CCBReader_addOwnerCallbackControlEvents(lua_State*) */
+
+undefined4 lua_cocos2dx_cocosbuilder_CCBReader_addOwnerCallbackControlEvents(lua_State *param_1)
+
+{
+  long lVar1;
+  int iVar2;
+  CCBReader *pCVar3;
+  ulong uVar4;
+  undefined4 uVar5;
+  int local_3c;
+  long local_38;
+  
+                    /* catch() { ... } // from try @ 0091f900 with catch @ 0091f958 */
+  lVar1 = tpidr_el0;
+  local_38 = *(long *)(lVar1 + 0x28);
+                    /* try { // try from 0091f96c to 00a1fa23 has its CatchHandler @ 0091f96c
+                       catch() { ... } // from try @ 0091f96c with catch @ 0091f96c
+                       catch() { ... } // from try @ 0091faa4 with catch @ 0091f96c */
+  pCVar3 = (CCBReader *)tolua_tousertype(param_1,1,0);
+  iVar2 = lua_gettop(param_1);
+  if (iVar2 + -1 == 1) {
+    uVar4 = luaval_to_int32(param_1,2,&local_3c,"cc.CCBReader:addOwnerCallbackControlEvents");
+    if ((uVar4 & 1) != 0) {
+      cocosbuilder::CCBReader::addOwnerCallbackControlEvents(pCVar3,local_3c);
+      uVar5 = 1;
+      lua_settop(param_1,1);
+      goto LAB_0091fa04;
+    }
+    tolua_error(param_1,
+                "invalid arguments in function \'lua_cocos2dx_cocosbuilder_CCBReader_addOwnerCallbackControlEvents\'"
+                ,0);
+  }
+  else {
+    luaL_error(param_1,"%s has wrong number of arguments: %d, was expecting %d \n",
+               "cc.CCBReader:addOwnerCallbackControlEvents",iVar2 + -1,1);
+  }
+  uVar5 = 0;
+LAB_0091fa04:
+  if (*(long *)(lVar1 + 0x28) == local_38) {
+                    /* try { // try from 0091fa24 to 00a1fa57 has its CatchHandler @ 0091fb24 */
+    return uVar5;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+

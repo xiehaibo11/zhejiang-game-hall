@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7376325660674324577
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [],
+  "m_BindComs_Name": [],
+  "m_BindInt": [
+    1,
+    0,
+    200,
+    0
+  ],
+  "m_BindInt_Name": [
+    "pathDirectionType",
+    "fishLayerZ",
+    "MovePixelsPerSecondByDefault",
+    "movePathType"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    0.0,
+    1.2000000476837158
+  ],
+  "m_BindFloat_Name": [
+    "delayTimeInGoToPool",
+    "DeadAnimateTime"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [
+    {
+      "x": 0.0,
+      "y": 1.0,
+      "z": -2.0
+    }
+  ],
+  "m_BindVector3_Name": [
+    "CustomWorldUpDirection"
+  ],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0,
+    0,
+    0
+  ],
+  "m_BindBool_Name": [
+    "UsePerspectiveCamera",
+    "isInBulletScreen",
+    "m_dead"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Fish.FishBase",
+  "m_ClassName": "FishBase"
+}

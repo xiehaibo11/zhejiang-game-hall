@@ -1,0 +1,16 @@
+
+/* std::__ndk1::__function::__func<std::__ndk1::__bind<void (fairygui::GearColor::*)(),
+   fairygui::GearColor*>, std::__ndk1::allocator<std::__ndk1::__bind<void
+   (fairygui::GearColor::*)(), fairygui::GearColor*> >, void ()>::~__func() */
+
+void __thiscall
+std::__ndk1::__function::
+__func<std::__ndk1::__bind<void(fairygui::GearColor::*)(),fairygui::GearColor*>,std::__ndk1::allocator<std::__ndk1::__bind<void(fairygui::GearColor::*)(),fairygui::GearColor*>>,void()>
+::~__func(__func<std::__ndk1::__bind<void(fairygui::GearColor::*)(),fairygui::GearColor*>,std::__ndk1::allocator<std::__ndk1::__bind<void(fairygui::GearColor::*)(),fairygui::GearColor*>>,void()>
+          *this)
+
+{
+  operator_delete(this);
+  return;
+}
+

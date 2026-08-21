@@ -1,0 +1,116 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8547209633685418443
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6040063454183678603
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  ],
+  "m_BindComs_Name": [
+    "Tuowei",
+    "Baozha"
+  ],
+  "m_BindInt": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "m_BindInt_Name": [
+    "id",
+    "ownerId",
+    "lockFishId",
+    "m_curQuYu",
+    "updateNum",
+    "need_start"
+  ],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    40.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "m_BindFloat_Name": [
+    "rotationHudu",
+    "speedX",
+    "speedY",
+    "angle",
+    "bulletRadius",
+    "offsetX",
+    "offsetY",
+    "divX",
+    "divY"
+  ],
+  "m_BindString": [
+    ""
+  ],
+  "m_BindString_Name": [
+    "m_userBulletName"
+  ],
+  "m_BindVector3": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "x": 95696988405760.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  ],
+  "m_BindVector3_Name": [
+    "startPos",
+    "currPos",
+    "m_forcalc"
+  ],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "m_BindBool_Name": [
+    "isStop",
+    "isBullet",
+    "tempBulletLocked",
+    "m_isInpool",
+    "m_frompool"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Game.Bullet",
+  "m_ClassName": "Bullet"
+}

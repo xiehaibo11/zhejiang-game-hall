@@ -1,0 +1,104 @@
+{
+  "m_Name": "61f879a0ef94fb62db01bc768727ce10.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 10202
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 3156139456051654721
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8862432195146805768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8061613570743692071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6969818838927863184
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6521856611804351572
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2912476387873301767
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 39560294655373528
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1925630215139745837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2455868951136990168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2987365989731222761
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3171682174017696399
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3233813564310060607
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3926875817304203615
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6705735303858840659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7370846531093050626
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 3662240289301003879
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/crystaltreasury/effect/prefab/effect_daixuan_kuang.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1925630215139745837
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "61f879a0ef94fb62db01bc768727ce10.bundle",
+  "m_Dependencies": [
+    "9bc4e88c0a8d20b8bd67fb6f9bb75b4b.bundle",
+    "aa32ee0c5e3c1db114221e491161fd0d.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

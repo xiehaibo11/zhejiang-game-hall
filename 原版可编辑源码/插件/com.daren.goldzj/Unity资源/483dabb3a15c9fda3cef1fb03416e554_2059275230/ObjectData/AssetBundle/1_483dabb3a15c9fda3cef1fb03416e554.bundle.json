@@ -1,0 +1,67 @@
+{
+  "m_Name": "483dabb3a15c9fda3cef1fb03416e554.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3049886148929936191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1011554051846533323
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3041248081366908325
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3871939765234459782
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8709371927292196815
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -3020664395789108244
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -1255601635648832406
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/succulentdevelopmentpanel/smallgame/synthesisshark/fishitem32.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 8,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -3049886148929936191
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "483dabb3a15c9fda3cef1fb03416e554.bundle",
+  "m_Dependencies": [
+    "1f7ebe64d28e3fc397a7043b14818efd.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

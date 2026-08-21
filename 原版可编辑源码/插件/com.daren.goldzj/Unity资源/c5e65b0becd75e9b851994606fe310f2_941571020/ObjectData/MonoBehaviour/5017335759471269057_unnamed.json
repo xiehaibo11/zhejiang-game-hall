@@ -1,0 +1,151 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7856118347066117656
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7455905721830703580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5658885721675777216
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1912918091589728305
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4662110418878239800
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 395983579469376224
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2157761335434945921
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2601811734400121540
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8617311313762924078
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8658804944523748171
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1879174115034126994
+    }
+  ],
+  "m_BindComs_Name": [
+    "OriginalItem",
+    "BtnExchangeReward",
+    "BtnGoFinish",
+    "BtnExchangedAll",
+    "AwardListBG2",
+    "AwardListBG3",
+    "RedDotCheckBox",
+    "mPriceInfo",
+    "mOriginalCost",
+    "mCurrentCost"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [
+    108.0
+  ],
+  "m_BindFloat_Name": [
+    "mItemHeight"
+  ],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1
+  ],
+  "m_BindBool_Name": [
+    "IsShowTip"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1105021369131597833
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6691380821244298517
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 9158938135425477505
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1727543941310733259
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8874736173194010131
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -8039021871785003682
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1099774635421021082
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5474133378903548918
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7166382043854908811
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4387376123306220681
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "RewardItems2",
+    "RewardItems3",
+    "Effects"
+  ],
+  "hotfixClassFullName": "GameHotFix.Base.ExchangeListItemComponent",
+  "m_ClassName": "ExchangeListItemComponent"
+}

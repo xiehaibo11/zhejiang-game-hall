@@ -1,0 +1,83 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1466263387358875172
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7829873957141835148
+  },
+  "m_Name": "",
+  "bgSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "coinNumLabel": {
+    "m_FileID": 0,
+    "m_PathID": -7781778050065497722
+  },
+  "criticalNumLabel": {
+    "m_FileID": 0,
+    "m_PathID": -9021496575621341954
+  },
+  "fishNameLabel": {
+    "m_FileID": 0,
+    "m_PathID": -3530420866559721412
+  },
+  "spriteItemIcon": {
+    "m_FileID": 0,
+    "m_PathID": 6810764685818337913
+  },
+  "fishIcon": {
+    "m_FileID": 0,
+    "m_PathID": 5196721770254648525
+  },
+  "fx": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "rotateTimes": 2,
+  "rotateDuration": 0.6000000238418579,
+  "rotateAngle": 15,
+  "coinsTweenDuration": 1.5,
+  "coinsLabelScaleUp": 2.0,
+  "coinsLabelScaleUpDuration": 0.05000000074505806,
+  "coinsLabelScaleDownDuration": 0.5,
+  "crit2CritLabelAppearScale": 5.0,
+  "crit2CritLabelAppearDuration": 0.30000001192092896,
+  "crit3CritLabelScaleUp1": {
+    "x": 1.2999999523162842,
+    "y": 0.20000000298023224
+  },
+  "crit3CritLabelScaleDown1": {
+    "x": 0.20000000298023224,
+    "y": 0.15000000596046448
+  },
+  "crit3CritLabelScaleUp2": {
+    "x": 2.0,
+    "y": 0.15000000596046448
+  },
+  "crit3CritLabelScaleDown2": {
+    "x": 1.0,
+    "y": 0.10000000149011612
+  },
+  "dropDownDuration": 0.800000011920929,
+  "dropDownScale": 1.7999999523162842,
+  "zoomInOnEndScale": 1.5,
+  "zoomInOnEndDuration": 0.15000000596046448,
+  "disappearOnEndDuration": 0.20000000298023224,
+  "criticalLabelDisappearDuration": 0.30000001192092896,
+  "criticalLabelDisappearDelay": 0.30000001192092896,
+  "criticalLabelDisappearEase": 8,
+  "disappearOnEndEase": 8,
+  "Box": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Animation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Effects": []
+}

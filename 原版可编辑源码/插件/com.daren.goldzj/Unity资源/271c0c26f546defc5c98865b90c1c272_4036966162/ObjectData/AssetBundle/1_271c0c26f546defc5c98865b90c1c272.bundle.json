@@ -1,0 +1,52 @@
+{
+  "m_Name": "271c0c26f546defc5c98865b90c1c272.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 7342905809814910559
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7279066106067357292
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4933887189038312795
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/playerineraction/spine/zhadan/zhadan_atlas.asset",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7279066106067357292
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "271c0c26f546defc5c98865b90c1c272.bundle",
+  "m_Dependencies": [
+    "2e2f0683dd87677fff7125387a4c3cb9.bundle",
+    "b3f355a2eeebfa109ea74af02c1d6058.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

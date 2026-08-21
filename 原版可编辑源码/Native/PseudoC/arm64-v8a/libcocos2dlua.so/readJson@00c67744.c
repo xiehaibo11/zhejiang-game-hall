@@ -1,0 +1,50 @@
+
+/* cocostudio::SceneReader::readJson(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>,
+   std::__ndk1::allocator<char> > const&, rapidjson::GenericDocument<rapidjson::UTF8<char>,
+   rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>, rapidjson::CrtAllocator>&) */
+
+void __thiscall
+cocostudio::SceneReader::readJson(SceneReader *this,basic_string *param_1,GenericDocument *param_2)
+
+{
+  int iVar1;
+  long lVar2;
+  long *plVar3;
+  byte local_78 [16];
+  void *local_68;
+  byte local_60 [16];
+  void *local_50;
+  void *local_48;
+  void *pvStack_40;
+  long local_38;
+  
+  lVar2 = tpidr_el0;
+  local_38 = *(long *)(lVar2 + 0x28);
+  plVar3 = (long *)cocos2d::FileUtils::getInstance();
+  (**(code **)(*plVar3 + 0x50))(local_60,plVar3,param_1);
+  plVar3 = (long *)cocos2d::FileUtils::getInstance();
+  (**(code **)(*plVar3 + 0x18))(local_78,plVar3,local_60);
+  local_48 = (void *)((ulong)local_78 | 1);
+  if ((local_78[0] & 1) != 0) {
+    local_48 = local_68;
+  }
+  pvStack_40 = local_48;
+  rapidjson::
+  GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>
+  ::ParseStream<0u,rapidjson::UTF8<char>,rapidjson::GenericStringStream<rapidjson::UTF8<char>>>
+            ((GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>
+              *)param_2,(GenericStringStream *)&local_48);
+  iVar1 = *(int *)(param_2 + 0x58);
+  if ((local_78[0] & 1) != 0) {
+    operator_delete(local_68);
+  }
+  if ((local_60[0] & 1) != 0) {
+    operator_delete(local_50);
+  }
+  if (*(long *)(lVar2 + 0x28) == local_38) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail(iVar1 == 0);
+}
+

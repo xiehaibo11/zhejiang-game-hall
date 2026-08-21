@@ -1,0 +1,177 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8887866663729206212
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2553583464884193907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1399403053601574113
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3704497823597114542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -853439536439106701
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8611423653007769160
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8384209037333408763
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8011794235317212752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5004459442244236322
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3021190211807666453
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3151807988943514226
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7669095100570171658
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8726210983441256774
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1510052994816722609
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1699023984794939957
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6000930404891668512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -384908606158984190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1129153292152844119
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3056014659212126162
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7035981939595090798
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8001146059696153467
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5243435905975057613
+    }
+  ],
+  "m_BindComs_Name": [
+    "Animator",
+    "SpineAnimator",
+    "BonusItemRoot",
+    "BtnClose",
+    "BtnRules",
+    "BtnStart",
+    "BtnToggleNotParticipate",
+    "CoinAmountDescTip",
+    "EffMergeBonusText",
+    "NotParticipateToggleSign",
+    "ObjMisc",
+    "ObjNotParticipateTip",
+    "ObjShouFenResult",
+    "RuleTipsPanel",
+    "ResultBonusItem",
+    "ShouFenTitle",
+    "TxtCountdown",
+    "EffInhaleBall",
+    "EffExhaleBall",
+    "EffExhaleCharging",
+    "TxtFinaleRewards"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [
+    {
+      "x": 1.4500000476837158,
+      "y": 0.30000001192092896,
+      "z": 0.20000000298023224
+    }
+  ],
+  "m_BindVector3_Name": [
+    "BonusMergeAnimParam"
+  ],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 1.0,
+          "outSlope": 1.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 1.0,
+          "outSlope": 1.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    }
+  ],
+  "m_BindCurve_Name": [
+    "BonusMergeScaleAnimCurve"
+  ],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.HungryLoong.HungryLoongMainPanel",
+  "m_ClassName": "HungryLoongMainPanel"
+}

@@ -1,0 +1,63 @@
+{
+  "m_Name": "249b4073a4ea15cc83867d99cacf3c9c.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1552507706963524852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5340298257749983417
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -3751236885713339
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7259013917156949883
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": -8296398443604855532
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -8634965726477274678
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/hungryloong/effects/material/zhuzi_glow_1.mat",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5340298257749983417
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "249b4073a4ea15cc83867d99cacf3c9c.bundle",
+  "m_Dependencies": [
+    "5e4459b466eb7fdd9965bb9c7949e9d1.bundle",
+    "61981618b6ee4946924d201bb754c8c3.bundle",
+    "9434e33794e4cec9b5350f1662674aed.bundle",
+    "99aef4d0e5803b8a78091dc2d2c4c08e.bundle",
+    "b899c7b6e9b6cc6461ee648c152ef80f.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

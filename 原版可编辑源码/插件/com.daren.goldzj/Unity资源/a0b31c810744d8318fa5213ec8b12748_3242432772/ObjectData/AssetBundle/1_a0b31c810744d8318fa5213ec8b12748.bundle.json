@@ -1,0 +1,87 @@
+{
+  "m_Name": "a0b31c810744d8318fa5213ec8b12748.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 6284598343661234204
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8106457920185873841
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7744475877708665295
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7524308388938894319
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4026576315918527709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2985550413298415252
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -553917442525243395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 666575285004408114
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1421956028600659459
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4887163321380737673
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5517722390169682119
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7791379228471933976
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/streetstormgift/effect/prefab/uieffect_bg_1.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 13,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1421956028600659459
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "a0b31c810744d8318fa5213ec8b12748.bundle",
+  "m_Dependencies": [
+    "7b14c45d02b38b42ef458a5625854151.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

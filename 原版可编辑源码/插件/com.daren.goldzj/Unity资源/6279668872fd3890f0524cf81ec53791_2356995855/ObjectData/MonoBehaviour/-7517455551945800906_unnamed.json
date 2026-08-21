@@ -1,0 +1,65 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8633350848311361171
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1812170692592233920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7877499901424576763
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2755546193393007987
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6762589069484141313
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8856388928532791519
+    }
+  ],
+  "m_BindComs_Name": [
+    "m_Camera",
+    "m_CameraAnimator",
+    "m_CameraMask",
+    "m_RenderPanel",
+    "m_ClickMask"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [
+    1
+  ],
+  "m_BindBool_Name": [
+    "mNoNeed"
+  ],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.Artifact.ArtifactPerspectiveView",
+  "m_ClassName": "ArtifactPerspectiveView"
+}

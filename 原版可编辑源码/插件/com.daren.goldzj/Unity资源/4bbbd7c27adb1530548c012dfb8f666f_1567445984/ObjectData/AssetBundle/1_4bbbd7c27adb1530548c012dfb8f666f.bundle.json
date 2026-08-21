@@ -1,0 +1,101 @@
+{
+  "m_Name": "4bbbd7c27adb1530548c012dfb8f666f.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2090334183426274561
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6997934934889353709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2090334183426274561
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -4814203374122363260
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6997934934889353709
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 195785212188325526
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 731658742285777098
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 884522461359656298
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2090334183426274561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5074213791193868323
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/meishuziyuan/font/font_font_quanhuang/font_quanhuang.mat",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -6997934934889353709
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/font_font_quanhuang/font_quanhuang.png",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 2090334183426274561
+        }
+      }
+    ],
+    [
+      "assets/meishuziyuan/font/font_font_quanhuang/font_quanhuang.prefab",
+      {
+        "preloadIndex": 4,
+        "preloadSize": 7,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 5074213791193868323
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "4bbbd7c27adb1530548c012dfb8f666f.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,121 @@
+
+bool ec_GFp_simple_dbl(EC_GROUP *param_1,long param_2,EC_POINT *param_3,BN_CTX *param_4)
+
+{
+  code *pcVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  BIGNUM *a;
+  BIGNUM *r;
+  BIGNUM *r_00;
+  BIGNUM *r_01;
+  BIGNUM *pBVar5;
+  BIGNUM *b;
+  BN_CTX *c;
+  BIGNUM *m;
+  
+  iVar4 = EC_POINT_is_at_infinity(param_1,param_3);
+  if (iVar4 != 0) {
+    BN_set_word(*(BIGNUM **)(param_2 + 0x18),0);
+    *(undefined4 *)(param_2 + 0x20) = 0;
+    return true;
+  }
+  m = *(BIGNUM **)(param_1 + 0x40);
+  pcVar1 = *(code **)(*(long *)param_1 + 0x108);
+  pcVar2 = *(code **)(*(long *)param_1 + 0x110);
+  if (param_4 == (BN_CTX *)0x0) {
+    param_4 = BN_CTX_new();
+    c = param_4;
+    if (param_4 == (BN_CTX *)0x0) {
+      return false;
+    }
+  }
+  else {
+    c = (BN_CTX *)0x0;
+  }
+  BN_CTX_start(param_4);
+  a = BN_CTX_get(param_4);
+  r = BN_CTX_get(param_4);
+  r_00 = BN_CTX_get(param_4);
+  r_01 = BN_CTX_get(param_4);
+  if (r_01 != (BIGNUM *)0x0) {
+    pBVar5 = a;
+    if (*(int *)(param_3 + 0x20) == 0) {
+      if (*(int *)(param_1 + 0x70) == 0) {
+        iVar4 = (*pcVar2)(param_1,a,*(undefined8 *)(param_3 + 8),param_4);
+        if (((iVar4 != 0) && (iVar4 = BN_mod_lshift1_quick(r,a,m), iVar4 != 0)) &&
+           ((iVar4 = BN_mod_add_quick(a,a,r,m), iVar4 != 0 &&
+            ((iVar4 = (*pcVar2)(param_1,r,*(undefined8 *)(param_3 + 0x18),param_4), iVar4 != 0 &&
+             (iVar4 = (*pcVar2)(param_1,r,r,param_4), iVar4 != 0)))))) {
+          iVar4 = (*pcVar1)(param_1,r,r,*(undefined8 *)(param_1 + 0x60),param_4);
+          b = a;
+          pBVar5 = r;
+          goto joined_r0x00b26dc4;
+        }
+      }
+      else {
+        iVar4 = (*pcVar2)(param_1,r,*(undefined8 *)(param_3 + 0x18),param_4);
+        if ((((iVar4 != 0) &&
+             (iVar4 = BN_mod_add_quick(a,*(BIGNUM **)(param_3 + 8),r,m), iVar4 != 0)) &&
+            (iVar4 = BN_mod_sub_quick(r_00,*(BIGNUM **)(param_3 + 8),r,m), iVar4 != 0)) &&
+           (iVar4 = (*pcVar1)(param_1,r,a,r_00,param_4), iVar4 != 0)) {
+          iVar4 = BN_mod_lshift1_quick(a,r,m);
+          b = r;
+joined_r0x00b26dc4:
+          if (iVar4 != 0) goto LAB_00b26c70;
+        }
+      }
+    }
+    else {
+      iVar4 = (*pcVar2)(param_1,a,*(undefined8 *)(param_3 + 8),param_4);
+      if (((iVar4 != 0) && (iVar4 = BN_mod_lshift1_quick(r,a,m), iVar4 != 0)) &&
+         (iVar4 = BN_mod_add_quick(a,a,r,m), iVar4 != 0)) {
+        b = *(BIGNUM **)(param_1 + 0x60);
+LAB_00b26c70:
+        iVar4 = BN_mod_add_quick(r,pBVar5,b,m);
+        if (iVar4 != 0) {
+          if (*(int *)(param_3 + 0x20) == 0) {
+            iVar4 = (*pcVar1)(param_1,a,*(BIGNUM **)(param_3 + 0x10),*(undefined8 *)(param_3 + 0x18)
+                              ,param_4);
+            if (iVar4 != 0) goto LAB_00b26df8;
+          }
+          else {
+            pBVar5 = BN_copy(a,*(BIGNUM **)(param_3 + 0x10));
+            if (pBVar5 != (BIGNUM *)0x0) {
+LAB_00b26df8:
+              iVar4 = BN_mod_lshift1_quick(*(BIGNUM **)(param_2 + 0x18),a,m);
+              if (iVar4 != 0) {
+                *(undefined4 *)(param_2 + 0x20) = 0;
+                iVar4 = (*pcVar2)(param_1,r_01,*(undefined8 *)(param_3 + 0x10),param_4);
+                if ((((iVar4 != 0) &&
+                     (iVar4 = (*pcVar1)(param_1,r_00,*(undefined8 *)(param_3 + 8),r_01,param_4),
+                     iVar4 != 0)) &&
+                    ((iVar4 = BN_mod_lshift_quick(r_00,r_00,2,m), iVar4 != 0 &&
+                     ((iVar4 = BN_mod_lshift1_quick(a,r_00,m), iVar4 != 0 &&
+                      (iVar4 = (*pcVar2)(param_1,*(undefined8 *)(param_2 + 8),r,param_4), iVar4 != 0
+                      )))))) &&
+                   ((iVar4 = BN_mod_sub_quick(*(BIGNUM **)(param_2 + 8),*(BIGNUM **)(param_2 + 8),a,
+                                              m), iVar4 != 0 &&
+                    ((((iVar4 = (*pcVar2)(param_1,a,r_01,param_4), iVar4 != 0 &&
+                       (iVar4 = BN_mod_lshift_quick(r_01,a,3,m), iVar4 != 0)) &&
+                      (iVar4 = BN_mod_sub_quick(a,r_00,*(BIGNUM **)(param_2 + 8),m), iVar4 != 0)) &&
+                     (iVar4 = (*pcVar1)(param_1,a,r,a,param_4), iVar4 != 0)))))) {
+                  iVar4 = BN_mod_sub_quick(*(BIGNUM **)(param_2 + 0x10),a,r_01,m);
+                  bVar3 = iVar4 != 0;
+                  goto LAB_00b26f30;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  bVar3 = false;
+LAB_00b26f30:
+  BN_CTX_end(param_4);
+  BN_CTX_free(c);
+  return bVar3;
+}
+

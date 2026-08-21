@@ -1,0 +1,174 @@
+{
+  "m_Name": "e3559ff49373e3010da030d5bbbc9dba.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7077167214043155086
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4060384224803447725
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7567034749212560671
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1452560904462096116
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2831414441701199887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1452560904462096116
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8321197097283748700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7567034749212560671
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7077167214043155086
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1452560904462096116
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2831414441701199887
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8321197097283748700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7567034749212560671
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7077167214043155086
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5620335205540501705
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4060384224803447725
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1452560904462096116
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1008803689438726606
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8302033850027404168
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 2831414441701199887
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/effect/spine/eightgodcome/hanxiangzi/hanxiangzi.atlas.txt",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7077167214043155086
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/eightgodcome/hanxiangzi/hanxiangzi.png",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1452560904462096116
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/eightgodcome/hanxiangzi/hanxiangzi.skel.bytes",
+      {
+        "preloadIndex": 1,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -4060384224803447725
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/eightgodcome/hanxiangzi/hanxiangzi_atlas.asset",
+      {
+        "preloadIndex": 6,
+        "preloadSize": 6,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8321197097283748700
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/eightgodcome/hanxiangzi/hanxiangzi_material.mat",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7567034749212560671
+        }
+      }
+    ],
+    [
+      "assets/effect/spine/eightgodcome/hanxiangzi/hanxiangzi_skeletondata.asset",
+      {
+        "preloadIndex": 12,
+        "preloadSize": 9,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -5620335205540501705
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "e3559ff49373e3010da030d5bbbc9dba.bundle",
+  "m_Dependencies": [
+    "61981618b6ee4946924d201bb754c8c3.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

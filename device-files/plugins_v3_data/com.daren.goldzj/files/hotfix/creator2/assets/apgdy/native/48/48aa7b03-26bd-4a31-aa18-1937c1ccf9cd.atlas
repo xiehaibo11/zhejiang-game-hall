@@ -1,0 +1,27 @@
+
+Paiming_pk.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+380-1
+  rotate: true
+  xy: 157, 2
+  size: 92, 106
+  orig: 128, 128
+  offset: 20, 7
+  index: -1
+bd
+  rotate: false
+  xy: 2, 8
+  size: 18, 9
+  orig: 100, 100
+  offset: 42, 44
+  index: -1
+hg
+  rotate: true
+  xy: 2, 19
+  size: 75, 153
+  orig: 96, 164
+  offset: 10, 9
+  index: -1

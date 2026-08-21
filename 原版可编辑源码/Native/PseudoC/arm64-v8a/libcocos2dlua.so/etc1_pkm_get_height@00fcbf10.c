@@ -1,0 +1,8 @@
+
+undefined2 etc1_pkm_get_height(long param_1)
+
+{
+                    /* catch() { ... } // from try @ 00fcbf98 with catch @ 00fcbf10 */
+  return CONCAT11(*(undefined1 *)(param_1 + 0xe),*(undefined1 *)(param_1 + 0xf));
+}
+

@@ -1,0 +1,137 @@
+{
+  "m_Name": "9c61a35f309f36ac0da791eab7ffe997.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -6527956321217443465
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -5123660300721594515
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -1327720578755204069
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9194578438341499944
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8637999261581101071
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8214493418747376387
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6720830229338523270
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6334149376014830852
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5713563722092007580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4784707537713429414
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4643707087082833869
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3984259977682626455
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3548874884022352715
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3037537318832255339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1885074513322013997
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 196161721341781032
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1505122542428894986
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1611527424263348654
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2615119500336789454
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2893637641246856700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3067159548502880424
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3670769121565933976
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5337779975124839103
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6101707282424662777
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7949033220795266773
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/crystaltreasury/effect/prefab/effect_fenwei_bklb.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 25,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 1611527424263348654
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "9c61a35f309f36ac0da791eab7ffe997.bundle",
+  "m_Dependencies": [
+    "0ed482bdc6a07bb2d4356762a4293f43.bundle",
+    "368ccc0c43bace24a5e0a5366947f320.bundle",
+    "58ca1515cc8df843f3c134e47adad979.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,60 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7427226773885072996
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6269549153524666404
+    }
+  ],
+  "m_BindComs_Name": [
+    "mCloseBtn"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [
+    {
+      "list": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -6425188469319334043
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -5821708170882155597
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -4949371923756699026
+        }
+      ]
+    }
+  ],
+  "m_BindObjList_Name": [
+    "mItemList"
+  ],
+  "hotfixClassFullName": "GameHotFix.GodGeneral.GodGeneralGetWayPanel",
+  "m_ClassName": "GodGeneralGetWayPanel"
+}

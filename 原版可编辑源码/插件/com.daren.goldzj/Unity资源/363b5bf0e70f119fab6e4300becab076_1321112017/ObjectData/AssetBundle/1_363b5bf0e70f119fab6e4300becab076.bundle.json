@@ -1,0 +1,105 @@
+{
+  "m_Name": "363b5bf0e70f119fab6e4300becab076.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 5283849551368614661
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -5330904755660704549
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -7569390280519792075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7665480773655332504
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6590687679499193514
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5320529512269991637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2384039030054107099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1744352250557657662
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1689624904246760867
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1515722686846263902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3276229560906300939
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4415337027143602081
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5649939353917671228
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6422178165771815069
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6908909133573401796
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8140138417431428140
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8430885458999072170
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/bundleresources/panel/junefestival/effect/uieffect_touxiang_bysd.prefab",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 17,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7665480773655332504
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "363b5bf0e70f119fab6e4300becab076.bundle",
+  "m_Dependencies": [
+    "107da2209dbc0492a3b94a07a6d755bb.bundle",
+    "7b14c45d02b38b42ef458a5625854151.bundle",
+    "f50836fae2d5904d54fdbff788957453.bundle"
+  ],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}

@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5573859117049283051
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3041248081366908325
+  },
+  "m_Name": "",
+  "m_BindComs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2218467025321499588
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7014083104703612199
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8138472544321128697
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5600506896921194399
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3608956562012855920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 888725386301044472
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8096643698970527703
+    }
+  ],
+  "m_BindComs_Name": [
+    "mBtnExchange",
+    "mBtnExchangeEffect",
+    "mBtnExchangePrice",
+    "mBtnExchanged",
+    "mRewardItem",
+    "mLimitCount",
+    "mLockObj"
+  ],
+  "m_BindInt": [],
+  "m_BindInt_Name": [],
+  "m_BindLong": [],
+  "m_BindLong_Name": [],
+  "m_BindFloat": [],
+  "m_BindFloat_Name": [],
+  "m_BindString": [],
+  "m_BindString_Name": [],
+  "m_BindVector3": [],
+  "m_BindVector3_Name": [],
+  "m_BindColor": [],
+  "m_BindColor_Name": [],
+  "m_BindBool": [],
+  "m_BindBool_Name": [],
+  "m_BindCurve": [],
+  "m_BindCurve_Name": [],
+  "m_BindObjList": [],
+  "m_BindObjList_Name": [],
+  "hotfixClassFullName": "GameHotFix.RoadOfImperial.RoadOfImperialExchangeItem",
+  "m_ClassName": "RoadOfImperialExchangeItem"
+}

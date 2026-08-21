@@ -1,0 +1,197 @@
+{
+  "m_Name": "934ab7942e2bb9d504129756d417c03b.bundle",
+  "m_PreloadTable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1920021485060912324
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8832638717982999253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8439156407464296637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1912868761321289798
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8067051965447453382
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7934558728936249921
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7934558728936249921
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1920021485060912324
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3942625658132191714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8442254318778457659
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -379686340410531400
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -379686340410531400
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7985636983970928867
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2111095310757542105
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8439156407464296637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8067051965447453382
+    }
+  ],
+  "m_Container": [
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_boss\u72c2\u6f6e\u4ea4\u4e92\u4f18\u5316/animation/animscale.controller",
+      {
+        "preloadIndex": 14,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 7985636983970928867
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_boss\u72c2\u6f6e\u4ea4\u4e92\u4f18\u5316/animation/bosswavebuyutopview.controller",
+      {
+        "preloadIndex": 2,
+        "preloadSize": 3,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -8832638717982999253
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_boss\u72c2\u6f6e\u4ea4\u4e92\u4f18\u5316/animation/changefloatwnd.controller",
+      {
+        "preloadIndex": 5,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1912868761321289798
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_boss\u72c2\u6f6e\u4ea4\u4e92\u4f18\u5316/animation/fantasytreasurehunte.controller",
+      {
+        "preloadIndex": 9,
+        "preloadSize": 4,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8442254318778457659
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_boss\u72c2\u6f6e\u4ea4\u4e92\u4f18\u5316/animation/qiehuan_01animation.anim",
+      {
+        "preloadIndex": 13,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -379686340410531400
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_boss\u72c2\u6f6e\u4ea4\u4e92\u4f18\u5316/animation/qiehuan_bosswavebuyutopview_01animation.anim",
+      {
+        "preloadIndex": 16,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8439156407464296637
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_boss\u72c2\u6f6e\u4ea4\u4e92\u4f18\u5316/animation/qiehuan_fantasytreasurehuntingameview_01animation.anim",
+      {
+        "preloadIndex": 7,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -7934558728936249921
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_boss\u72c2\u6f6e\u4ea4\u4e92\u4f18\u5316/animation/qiehuan_fantasytreasurehuntingameview_02animation.anim",
+      {
+        "preloadIndex": 0,
+        "preloadSize": 2,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": -1920021485060912324
+        }
+      }
+    ],
+    [
+      "assets/arts/ui/\u5176\u4ed6\u754c\u9762/072_boss\u72c2\u6f6e\u4ea4\u4e92\u4f18\u5316/animation/suofanganimation.anim",
+      {
+        "preloadIndex": 18,
+        "preloadSize": 1,
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 8067051965447453382
+        }
+      }
+    ]
+  ],
+  "m_MainAsset": {
+    "preloadIndex": 0,
+    "preloadSize": 0,
+    "asset": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_RuntimeCompatibility": 1,
+  "m_AssetBundleName": "934ab7942e2bb9d504129756d417c03b.bundle",
+  "m_Dependencies": [],
+  "m_IsStreamedSceneAssetBundle": false,
+  "m_ExplicitDataLayout": 0,
+  "m_PathFlags": 7,
+  "m_SceneHashes": []
+}
