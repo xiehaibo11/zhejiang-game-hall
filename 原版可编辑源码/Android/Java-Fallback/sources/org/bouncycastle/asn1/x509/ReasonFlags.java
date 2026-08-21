@@ -1,0 +1,38 @@
+package org.bouncycastle.asn1.x509;
+
+public class ReasonFlags extends org.bouncycastle.asn1.DERBitString {
+    public static final int AA_COMPROMISE = 32768;
+    public static final int AFFILIATION_CHANGED = 16;
+    public static final int CA_COMPROMISE = 32;
+    public static final int CERTIFICATE_HOLD = 2;
+    public static final int CESSATION_OF_OPERATION = 4;
+    public static final int KEY_COMPROMISE = 64;
+    public static final int PRIVILEGE_WITHDRAWN = 1;
+    public static final int SUPERSEDED = 8;
+    public static final int UNUSED = 128;
+    public static final int aACompromise = 32768;
+    public static final int affiliationChanged = 16;
+    public static final int cACompromise = 32;
+    public static final int certificateHold = 2;
+    public static final int cessationOfOperation = 4;
+    public static final int keyCompromise = 64;
+    public static final int privilegeWithdrawn = 1;
+    public static final int superseded = 8;
+    public static final int unused = 128;
+
+    public ReasonFlags(int r2) {
+            r1 = this;
+            byte[] r0 = getBytes(r2)
+            int r2 = getPadBits(r2)
+            r1.<init>(r0, r2)
+            return
+    }
+
+    public ReasonFlags(org.bouncycastle.asn1.DERBitString r2) {
+            r1 = this;
+            byte[] r0 = r2.getBytes()
+            int r2 = r2.getPadBits()
+            r1.<init>(r0, r2)
+            return
+    }
+}

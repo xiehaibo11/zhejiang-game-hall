@@ -1,0 +1,20 @@
+package com.tkay.expressad.foundation.h;
+
+import android.content.Context;
+
+public class d {
+    private static void a() {
+    }
+
+    public static void a(Context context) {
+        if (context == null) {
+            return;
+        }
+        try {
+            Class<?> cls = Class.forName("com.tkay.expressad.atsignalcommon.webEnvCheck.WebEnvCheckEntry");
+            cls.getMethod("check", Context.class).invoke(cls.newInstance(), context);
+        } catch (Throwable th) {
+            th.printStackTrace();
+        }
+    }
+}

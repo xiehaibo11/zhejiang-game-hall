@@ -1,0 +1,44 @@
+package com.kwad.sdk.core.b.a;
+
+import com.kwad.sdk.core.response.model.AdMatrixInfo;
+import org.json.JSONObject;
+
+public final class it implements com.kwad.sdk.core.d<AdMatrixInfo.TemplateData> {
+    private static void a(AdMatrixInfo.TemplateData templateData, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            return;
+        }
+        templateData.templateShowTime = jSONObject.optLong("templateShowTime");
+        templateData.templateDelayTime = jSONObject.optLong("templateDelayTime");
+        templateData.data = jSONObject.optString("data");
+        if (templateData.data == JSONObject.NULL) {
+            templateData.data = "";
+        }
+    }
+
+    private static JSONObject b(AdMatrixInfo.TemplateData templateData, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            jSONObject = new JSONObject();
+        }
+        if (templateData.templateShowTime != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "templateShowTime", templateData.templateShowTime);
+        }
+        if (templateData.templateDelayTime != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "templateDelayTime", templateData.templateDelayTime);
+        }
+        if (templateData.data != null && !templateData.data.equals("")) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "data", templateData.data);
+        }
+        return jSONObject;
+    }
+
+    @Override
+    public final void a(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        a((AdMatrixInfo.TemplateData) bVar, jSONObject);
+    }
+
+    @Override
+    public final JSONObject b(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        return b((AdMatrixInfo.TemplateData) bVar, jSONObject);
+    }
+}

@@ -1,0 +1,16 @@
+package com.czhj.sdk.common.models;
+
+public class AdFormat {
+    public static final int BANNER = 7;
+    public static final int DRIFT = 3;
+    public static final int FULLSCREEN_VIDEO = 4;
+    public static final int REWARD_VIDEO = 1;
+    public static final int SPLASH = 2;
+    public static final int UNIFIED_NATIVE = 5;
+
+    public AdFormat() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+}

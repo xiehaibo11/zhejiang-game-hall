@@ -1,0 +1,316 @@
+package com.czhj.wire.protobuf;
+
+public final class ServiceOptions extends com.czhj.wire.Message<com.czhj.wire.protobuf.ServiceOptions, com.czhj.wire.protobuf.ServiceOptions.Builder> {
+    public static final com.czhj.wire.ProtoAdapter<com.czhj.wire.protobuf.ServiceOptions> ADAPTER = null;
+    public static final java.lang.Boolean DEFAULT_DEPRECATED = null;
+    private static final long serialVersionUID = 0;
+
+    @com.czhj.wire.WireField(adapter = "com.squareup.wire.ProtoAdapter#BOOL", tag = 33)
+    public final java.lang.Boolean deprecated;
+
+    @com.czhj.wire.WireField(adapter = "com.google.protobuf.UninterpretedOption#ADAPTER", label = com.czhj.wire.WireField.Label.REPEATED, tag = 999)
+    public final java.util.List<com.czhj.wire.protobuf.UninterpretedOption> uninterpreted_option;
+
+    public static final class Builder extends com.czhj.wire.Message.Builder<com.czhj.wire.protobuf.ServiceOptions, com.czhj.wire.protobuf.ServiceOptions.Builder> {
+        public java.lang.Boolean deprecated;
+        public java.util.List<com.czhj.wire.protobuf.UninterpretedOption> uninterpreted_option;
+
+        public Builder() {
+                r1 = this;
+                r1.<init>()
+                java.util.List r0 = com.czhj.wire.internal.Internal.newMutableList()
+                r1.uninterpreted_option = r0
+                return
+        }
+
+        @Override
+        public com.czhj.wire.Message build() {
+                r1 = this;
+                com.czhj.wire.protobuf.ServiceOptions r0 = r1.build()
+                return r0
+        }
+
+        @Override
+        public com.czhj.wire.protobuf.ServiceOptions build() {
+                r4 = this;
+                com.czhj.wire.protobuf.ServiceOptions r0 = new com.czhj.wire.protobuf.ServiceOptions
+                java.lang.Boolean r1 = r4.deprecated
+                java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r2 = r4.uninterpreted_option
+                com.czhj.wire.okio.ByteString r3 = super.buildUnknownFields()
+                r0.<init>(r1, r2, r3)
+                return r0
+        }
+
+        public com.czhj.wire.protobuf.ServiceOptions.Builder deprecated(java.lang.Boolean r1) {
+                r0 = this;
+                r0.deprecated = r1
+                return r0
+        }
+
+        public com.czhj.wire.protobuf.ServiceOptions.Builder uninterpreted_option(java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r1) {
+                r0 = this;
+                com.czhj.wire.internal.Internal.checkElementsNotNull(r1)
+                r0.uninterpreted_option = r1
+                return r0
+        }
+    }
+
+    private static final class ProtoAdapter_ServiceOptions extends com.czhj.wire.ProtoAdapter<com.czhj.wire.protobuf.ServiceOptions> {
+        public ProtoAdapter_ServiceOptions() {
+                r2 = this;
+                com.czhj.wire.FieldEncoding r0 = com.czhj.wire.FieldEncoding.LENGTH_DELIMITED
+                java.lang.Class<com.czhj.wire.protobuf.ServiceOptions> r1 = com.czhj.wire.protobuf.ServiceOptions.class
+                r2.<init>(r0, r1)
+                return
+        }
+
+        @Override
+        public com.czhj.wire.protobuf.ServiceOptions decode(com.czhj.wire.ProtoReader r7) throws java.io.IOException {
+                r6 = this;
+                com.czhj.wire.protobuf.ServiceOptions$Builder r0 = new com.czhj.wire.protobuf.ServiceOptions$Builder
+                r0.<init>()
+                long r1 = r7.beginMessage()
+            L9:
+                int r3 = r7.nextTag()
+                r4 = -1
+                if (r3 == r4) goto L40
+                r4 = 33
+                if (r3 == r4) goto L34
+                r4 = 999(0x3e7, float:1.4E-42)
+                if (r3 == r4) goto L28
+                com.czhj.wire.FieldEncoding r4 = r7.peekFieldEncoding()
+                com.czhj.wire.ProtoAdapter r5 = r4.rawProtoAdapter()
+                java.lang.Object r5 = r5.decode(r7)
+                r0.addUnknownField(r3, r4, r5)
+                goto L9
+            L28:
+                java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r3 = r0.uninterpreted_option
+                com.czhj.wire.ProtoAdapter<com.czhj.wire.protobuf.UninterpretedOption> r4 = com.czhj.wire.protobuf.UninterpretedOption.ADAPTER
+                java.lang.Object r4 = r4.decode(r7)
+                r3.add(r4)
+                goto L9
+            L34:
+                com.czhj.wire.ProtoAdapter<java.lang.Boolean> r3 = com.czhj.wire.ProtoAdapter.BOOL
+                java.lang.Object r3 = r3.decode(r7)
+                java.lang.Boolean r3 = (java.lang.Boolean) r3
+                r0.deprecated(r3)
+                goto L9
+            L40:
+                r7.endMessage(r1)
+                com.czhj.wire.protobuf.ServiceOptions r7 = r0.build()
+                return r7
+        }
+
+        @Override
+        public com.czhj.wire.protobuf.ServiceOptions decode(com.czhj.wire.ProtoReader r1) throws java.io.IOException {
+                r0 = this;
+                com.czhj.wire.protobuf.ServiceOptions r1 = r0.decode(r1)
+                return r1
+        }
+
+        public void encode(com.czhj.wire.ProtoWriter r4, com.czhj.wire.protobuf.ServiceOptions r5) throws java.io.IOException {
+                r3 = this;
+                com.czhj.wire.ProtoAdapter<java.lang.Boolean> r0 = com.czhj.wire.ProtoAdapter.BOOL
+                java.lang.Boolean r1 = r5.deprecated
+                r2 = 33
+                r0.encodeWithTag(r4, r2, r1)
+                com.czhj.wire.ProtoAdapter<com.czhj.wire.protobuf.UninterpretedOption> r0 = com.czhj.wire.protobuf.UninterpretedOption.ADAPTER
+                com.czhj.wire.ProtoAdapter r0 = r0.asRepeated()
+                java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r1 = r5.uninterpreted_option
+                r2 = 999(0x3e7, float:1.4E-42)
+                r0.encodeWithTag(r4, r2, r1)
+                com.czhj.wire.okio.ByteString r5 = r5.unknownFields()
+                r4.writeBytes(r5)
+                return
+        }
+
+        @Override
+        public void encode(com.czhj.wire.ProtoWriter r1, com.czhj.wire.protobuf.ServiceOptions r2) throws java.io.IOException {
+                r0 = this;
+                com.czhj.wire.protobuf.ServiceOptions r2 = (com.czhj.wire.protobuf.ServiceOptions) r2
+                r0.encode(r1, r2)
+                return
+        }
+
+        public int encodedSize(com.czhj.wire.protobuf.ServiceOptions r5) {
+                r4 = this;
+                com.czhj.wire.ProtoAdapter<java.lang.Boolean> r0 = com.czhj.wire.ProtoAdapter.BOOL
+                java.lang.Boolean r1 = r5.deprecated
+                r2 = 33
+                int r0 = r0.encodedSizeWithTag(r2, r1)
+                com.czhj.wire.ProtoAdapter<com.czhj.wire.protobuf.UninterpretedOption> r1 = com.czhj.wire.protobuf.UninterpretedOption.ADAPTER
+                com.czhj.wire.ProtoAdapter r1 = r1.asRepeated()
+                java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r2 = r5.uninterpreted_option
+                r3 = 999(0x3e7, float:1.4E-42)
+                int r1 = r1.encodedSizeWithTag(r3, r2)
+                int r0 = r0 + r1
+                com.czhj.wire.okio.ByteString r5 = r5.unknownFields()
+                int r5 = r5.size()
+                int r0 = r0 + r5
+                return r0
+        }
+
+        @Override
+        public int encodedSize(com.czhj.wire.protobuf.ServiceOptions r1) {
+                r0 = this;
+                com.czhj.wire.protobuf.ServiceOptions r1 = (com.czhj.wire.protobuf.ServiceOptions) r1
+                int r1 = r0.encodedSize(r1)
+                return r1
+        }
+
+        public com.czhj.wire.protobuf.ServiceOptions redact(com.czhj.wire.protobuf.ServiceOptions r3) {
+                r2 = this;
+                com.czhj.wire.protobuf.ServiceOptions$Builder r3 = r3.newBuilder()
+                java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r0 = r3.uninterpreted_option
+                com.czhj.wire.ProtoAdapter<com.czhj.wire.protobuf.UninterpretedOption> r1 = com.czhj.wire.protobuf.UninterpretedOption.ADAPTER
+                com.czhj.wire.internal.Internal.redactElements(r0, r1)
+                r3.clearUnknownFields()
+                com.czhj.wire.protobuf.ServiceOptions r3 = r3.build()
+                return r3
+        }
+
+        @Override
+        public com.czhj.wire.protobuf.ServiceOptions redact(com.czhj.wire.protobuf.ServiceOptions r1) {
+                r0 = this;
+                com.czhj.wire.protobuf.ServiceOptions r1 = (com.czhj.wire.protobuf.ServiceOptions) r1
+                com.czhj.wire.protobuf.ServiceOptions r1 = r0.redact(r1)
+                return r1
+        }
+    }
+
+    static {
+            com.czhj.wire.protobuf.ServiceOptions$ProtoAdapter_ServiceOptions r0 = new com.czhj.wire.protobuf.ServiceOptions$ProtoAdapter_ServiceOptions
+            r0.<init>()
+            com.czhj.wire.protobuf.ServiceOptions.ADAPTER = r0
+            r0 = 0
+            java.lang.Boolean r0 = java.lang.Boolean.valueOf(r0)
+            com.czhj.wire.protobuf.ServiceOptions.DEFAULT_DEPRECATED = r0
+            return
+    }
+
+    public ServiceOptions(java.lang.Boolean r2, java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r3) {
+            r1 = this;
+            com.czhj.wire.okio.ByteString r0 = com.czhj.wire.okio.ByteString.EMPTY
+            r1.<init>(r2, r3, r0)
+            return
+    }
+
+    public ServiceOptions(java.lang.Boolean r2, java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r3, com.czhj.wire.okio.ByteString r4) {
+            r1 = this;
+            com.czhj.wire.ProtoAdapter<com.czhj.wire.protobuf.ServiceOptions> r0 = com.czhj.wire.protobuf.ServiceOptions.ADAPTER
+            r1.<init>(r0, r4)
+            r1.deprecated = r2
+            java.lang.String r2 = "uninterpreted_option"
+            java.util.List r2 = com.czhj.wire.internal.Internal.immutableCopyOf(r2, r3)
+            r1.uninterpreted_option = r2
+            return
+    }
+
+    public boolean equals(java.lang.Object r5) {
+            r4 = this;
+            r0 = 1
+            if (r5 != r4) goto L4
+            return r0
+        L4:
+            boolean r1 = r5 instanceof com.czhj.wire.protobuf.ServiceOptions
+            r2 = 0
+            if (r1 != 0) goto La
+            return r2
+        La:
+            com.czhj.wire.protobuf.ServiceOptions r5 = (com.czhj.wire.protobuf.ServiceOptions) r5
+            com.czhj.wire.okio.ByteString r1 = r4.unknownFields()
+            com.czhj.wire.okio.ByteString r3 = r5.unknownFields()
+            boolean r1 = r1.equals(r3)
+            if (r1 == 0) goto L2f
+            java.lang.Boolean r1 = r4.deprecated
+            java.lang.Boolean r3 = r5.deprecated
+            boolean r1 = com.czhj.wire.internal.Internal.equals(r1, r3)
+            if (r1 == 0) goto L2f
+            java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r1 = r4.uninterpreted_option
+            java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r5 = r5.uninterpreted_option
+            boolean r5 = r1.equals(r5)
+            if (r5 == 0) goto L2f
+            goto L30
+        L2f:
+            r0 = r2
+        L30:
+            return r0
+    }
+
+    public int hashCode() {
+            r2 = this;
+            int r0 = r2.hashCode
+            if (r0 != 0) goto L24
+            com.czhj.wire.okio.ByteString r0 = r2.unknownFields()
+            int r0 = r0.hashCode()
+            int r0 = r0 * 37
+            java.lang.Boolean r1 = r2.deprecated
+            if (r1 == 0) goto L17
+            int r1 = r1.hashCode()
+            goto L18
+        L17:
+            r1 = 0
+        L18:
+            int r0 = r0 + r1
+            int r0 = r0 * 37
+            java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r1 = r2.uninterpreted_option
+            int r1 = r1.hashCode()
+            int r0 = r0 + r1
+            r2.hashCode = r0
+        L24:
+            return r0
+    }
+
+    @Override
+    public com.czhj.wire.Message.Builder newBuilder() {
+            r1 = this;
+            com.czhj.wire.protobuf.ServiceOptions$Builder r0 = r1.newBuilder()
+            return r0
+    }
+
+    @Override
+    public com.czhj.wire.protobuf.ServiceOptions.Builder newBuilder() {
+            r3 = this;
+            com.czhj.wire.protobuf.ServiceOptions$Builder r0 = new com.czhj.wire.protobuf.ServiceOptions$Builder
+            r0.<init>()
+            java.lang.Boolean r1 = r3.deprecated
+            r0.deprecated = r1
+            java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r1 = r3.uninterpreted_option
+            java.lang.String r2 = "uninterpreted_option"
+            java.util.List r1 = com.czhj.wire.internal.Internal.copyOf(r2, r1)
+            r0.uninterpreted_option = r1
+            com.czhj.wire.okio.ByteString r1 = r3.unknownFields()
+            r0.addUnknownFields(r1)
+            return r0
+    }
+
+    @Override
+    public java.lang.String toString() {
+            r4 = this;
+            java.lang.StringBuilder r0 = new java.lang.StringBuilder
+            r0.<init>()
+            java.lang.Boolean r1 = r4.deprecated
+            if (r1 == 0) goto L13
+            java.lang.String r1 = ", deprecated="
+            r0.append(r1)
+            java.lang.Boolean r1 = r4.deprecated
+            r0.append(r1)
+        L13:
+            java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r1 = r4.uninterpreted_option
+            boolean r1 = r1.isEmpty()
+            if (r1 != 0) goto L25
+            java.lang.String r1 = ", uninterpreted_option="
+            r0.append(r1)
+            java.util.List<com.czhj.wire.protobuf.UninterpretedOption> r1 = r4.uninterpreted_option
+            r0.append(r1)
+        L25:
+            r1 = 0
+            r2 = 2
+            java.lang.String r3 = "ServiceOptions{"
+            java.lang.StringBuilder r0 = r0.replace(r1, r2, r3)
+            r1 = 125(0x7d, float:1.75E-43)
+            r0.append(r1)
+            java.lang.String r0 = r0.toString()
+            return r0
+    }
+}

@@ -1,0 +1,411 @@
+package com.kwad.sdk.internal.api;
+
+import com.kwad.sdk.api.KsScene;
+import com.kwad.sdk.api.model.IKsAdLabel;
+import com.kwad.sdk.api.model.NativeAdExtraData;
+import com.kwad.sdk.api.model.SplashAdExtraData;
+import com.kwad.sdk.core.e.c;
+import com.kwad.sdk.core.scene.URLPackage;
+import com.kwad.sdk.utils.bf;
+import com.kwad.sdk.utils.t;
+import com.kwad.sdk.utils.u;
+import cz.msebera.android.httpclient.cookie.ClientCookie;
+import java.io.Serializable;
+import java.util.Map;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class SceneImpl extends com.kwad.sdk.core.response.a.a implements KsScene, Serializable, Cloneable {
+    private static final long serialVersionUID = 93865491903408451L;
+    public int action;
+    public int adStyle;
+    public String backUrl;
+    public String bidResponse;
+    public String bidResponseV2;
+    public long entryScene;
+    public int height;
+    public transient a mKsAdLabel;
+    public NativeAdExtraDataImpl nativeAdExtraData;
+    public long posId;
+    public Map<String, String> rewardCallbackExtraData;
+    public b splashExtraData;
+    public URLPackage urlPackage;
+    public int width;
+    public int adNum = 1;
+    public int screenOrientation = 0;
+    public final EcAttribute mEcAttribute = new EcAttribute();
+
+    public SceneImpl() {
+    }
+
+    public SceneImpl(long j) {
+        this.posId = j;
+        this.entryScene = j;
+        if (bf.getPosId() != 0) {
+            this.posId = bf.getPosId();
+        }
+    }
+
+    public static SceneImpl covert(KsScene ksScene) {
+        if (ksScene instanceof SceneImpl) {
+            return (SceneImpl) ksScene;
+        }
+        SceneImpl sceneImpl = new SceneImpl();
+        sceneImpl.posId = ksScene.getPosId();
+        sceneImpl.entryScene = ksScene.getPosId();
+        sceneImpl.adNum = ksScene.getAdNum();
+        sceneImpl.action = ksScene.getAction();
+        sceneImpl.width = ksScene.getWidth();
+        sceneImpl.height = ksScene.getHeight();
+        sceneImpl.adStyle = ksScene.getAdStyle();
+        sceneImpl.screenOrientation = getScreenOrientation(ksScene);
+        sceneImpl.backUrl = getBackUrl(ksScene);
+        sceneImpl.mEcAttribute.setPromoteId(getPromoteId(ksScene));
+        sceneImpl.mEcAttribute.setComment(getComment(ksScene));
+        sceneImpl.mEcAttribute.setUserCommRateBuying(getUserCommRateBuying(ksScene));
+        sceneImpl.mEcAttribute.setUserCommRateSharing(getUserCommRateSharing(ksScene));
+        if (bf.getPosId() != 0) {
+            sceneImpl.posId = bf.getPosId();
+        }
+        return sceneImpl;
+    }
+
+    public static String getBackUrl(KsScene ksScene) {
+        if (ksScene == null) {
+            return "";
+        }
+        try {
+            return ksScene.getBackUrl();
+        } catch (Throwable unused) {
+            return "";
+        }
+    }
+
+    private static String getComment(KsScene ksScene) {
+        if (ksScene == null) {
+            return "";
+        }
+        try {
+            return ksScene.getComment();
+        } catch (Throwable unused) {
+            return "";
+        }
+    }
+
+    private static String getPromoteId(KsScene ksScene) {
+        if (ksScene == null) {
+            return "";
+        }
+        try {
+            return ksScene.getPromoteId();
+        } catch (Throwable unused) {
+            return "";
+        }
+    }
+
+    private static int getScreenOrientation(KsScene ksScene) {
+        try {
+            return ksScene.getScreenOrientation();
+        } catch (Throwable unused) {
+            return 0;
+        }
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public static long getUserCommRateBuying(KsScene ksScene) {
+        if (ksScene == null) {
+            return 0L;
+        }
+        try {
+            return ksScene.getUserCommRateBuying();
+        } catch (Throwable unused) {
+            return 0L;
+        }
+    }
+
+    public static long getUserCommRateSharing(KsScene ksScene) {
+        if (ksScene == null) {
+            return 0L;
+        }
+        try {
+            return ksScene.getUserCommRateSharing();
+        } catch (Throwable unused) {
+            return 0L;
+        }
+    }
+
+    public static void register() {
+        com.kwad.sdk.service.b.b(KsScene.class, SceneImpl.class);
+    }
+
+    @Override
+    public void afterParseJson(JSONObject jSONObject) {
+        super.afterParseJson(jSONObject);
+        if (jSONObject == null) {
+            return;
+        }
+        this.rewardCallbackExtraData = u.parseJSON2MapString(jSONObject.optString("extraData"));
+    }
+
+    @Override
+    public void afterToJson(JSONObject jSONObject) {
+        super.afterToJson(jSONObject);
+        u.putValue(jSONObject, "extraData", u.parseMap2JSON(this.rewardCallbackExtraData));
+    }
+
+    public SceneImpl clone() {
+        String string = toJson().toString();
+        try {
+            SceneImpl sceneImpl = new SceneImpl();
+            sceneImpl.parseJson(new JSONObject(string));
+            return sceneImpl;
+        } catch (JSONException e) {
+            c.printStackTraceOnly(e);
+            return new SceneImpl();
+        }
+    }
+
+    @Override
+    public int getAction() {
+        return this.action;
+    }
+
+    @Override
+    public int getAdNum() {
+        return this.adNum;
+    }
+
+    @Override
+    public int getAdStyle() {
+        return this.adStyle;
+    }
+
+    @Override
+    public String getBackUrl() {
+        return this.backUrl;
+    }
+
+    @Override
+    public String getBidResponse() {
+        return this.bidResponse;
+    }
+
+    @Override
+    public String getBidResponseV2() {
+        return this.bidResponseV2;
+    }
+
+    @Override
+    public String getComment() {
+        return this.mEcAttribute.getComment();
+    }
+
+    @Override
+    public int getHeight() {
+        return this.height;
+    }
+
+    public int getPageScene() {
+        URLPackage uRLPackage = this.urlPackage;
+        if (uRLPackage == null) {
+            return 0;
+        }
+        return uRLPackage.page;
+    }
+
+    @Override
+    public long getPosId() {
+        return this.posId;
+    }
+
+    @Override
+    public String getPromoteId() {
+        return this.mEcAttribute.getPromoteId();
+    }
+
+    @Override
+    public Map<String, String> getRewardCallbackExtraData() {
+        return this.rewardCallbackExtraData;
+    }
+
+    @Override
+    public int getScreenOrientation() {
+        return this.screenOrientation;
+    }
+
+    public URLPackage getUrlPackage() {
+        return this.urlPackage;
+    }
+
+    @Override
+    public long getUserCommRateBuying() {
+        return this.mEcAttribute.getUserCommRateBuying();
+    }
+
+    @Override
+    public long getUserCommRateSharing() {
+        return this.mEcAttribute.getUserCommRateSharing();
+    }
+
+    @Override
+    public int getWidth() {
+        return this.width;
+    }
+
+    public void needShowMiniWindow(boolean z) {
+    }
+
+    @Override
+    public void setAction(int i) {
+        this.action = i;
+    }
+
+    @Override
+    public void setAdNum(int i) {
+        this.adNum = i;
+    }
+
+    @Override
+    public void setAdStyle(int i) {
+        this.adStyle = i;
+    }
+
+    @Override
+    public void setBackUrl(String str) {
+        this.backUrl = str;
+    }
+
+    @Override
+    public void setBidResponse(String str) {
+        this.bidResponse = str;
+    }
+
+    @Override
+    public void setBidResponseV2(String str) {
+        this.bidResponseV2 = str;
+    }
+
+    @Override
+    public void setComment(String str) {
+        this.mEcAttribute.setComment(str);
+    }
+
+    @Override
+    public void setHeight(int i) {
+        this.height = i;
+    }
+
+    @Override
+    public void setKsAdLabel(IKsAdLabel iKsAdLabel) {
+        if (iKsAdLabel == null) {
+            return;
+        }
+        a aVar = new a();
+        this.mKsAdLabel = aVar;
+        aVar.ajr = iKsAdLabel.getThirdAge();
+        this.mKsAdLabel.ajs = iKsAdLabel.getThirdGender();
+        this.mKsAdLabel.ajt = iKsAdLabel.getThirdInterest();
+        this.mKsAdLabel.aju = iKsAdLabel.getPrevTitle();
+        this.mKsAdLabel.ajv = iKsAdLabel.getPostTitle();
+        this.mKsAdLabel.ajw = iKsAdLabel.getHistoryTitle();
+        this.mKsAdLabel.ajx = iKsAdLabel.getChannel();
+        this.mKsAdLabel.ajy = iKsAdLabel.getCpmBidFloor();
+    }
+
+    @Override
+    public void setNativeAdExtraData(NativeAdExtraData nativeAdExtraData) {
+        if (nativeAdExtraData == null) {
+            return;
+        }
+        NativeAdExtraDataImpl nativeAdExtraDataImpl = new NativeAdExtraDataImpl();
+        this.nativeAdExtraData = nativeAdExtraDataImpl;
+        try {
+            nativeAdExtraDataImpl.enableShake = nativeAdExtraData.isEnableShake();
+            this.nativeAdExtraData.showLiveStyle = nativeAdExtraData.getShowLiveStyle();
+            this.nativeAdExtraData.showLiveStatus = nativeAdExtraData.getShowLiveStatus();
+        } catch (Throwable unused) {
+        }
+    }
+
+    @Override
+    public void setPosId(long j) {
+        this.posId = j;
+        this.entryScene = j;
+    }
+
+    @Override
+    public void setPromoteId(String str) {
+        this.mEcAttribute.setPromoteId(str);
+    }
+
+    @Override
+    public void setRewardCallbackExtraData(Map<String, String> map) {
+        this.rewardCallbackExtraData = map;
+    }
+
+    @Override
+    public void setScreenOrientation(int i) {
+        this.screenOrientation = i;
+    }
+
+    @Override
+    public void setSplashExtraData(SplashAdExtraData splashAdExtraData) {
+        if (splashAdExtraData == null) {
+            return;
+        }
+        b bVar = new b();
+        this.splashExtraData = bVar;
+        bVar.disableShake = splashAdExtraData.getDisableShakeStatus();
+        this.splashExtraData.disableSlide = splashAdExtraData.getDisableSlideStatus();
+        this.splashExtraData.disableRotate = splashAdExtraData.getDisableRotateStatus();
+    }
+
+    public void setUrlPackage(URLPackage uRLPackage) {
+        this.urlPackage = uRLPackage;
+    }
+
+    @Override
+    public void setUserCommRateBuying(int i) {
+        this.mEcAttribute.setUserCommRateBuying(i);
+    }
+
+    @Override
+    public void setUserCommRateSharing(int i) {
+        this.mEcAttribute.setUserCommRateSharing(i);
+    }
+
+    @Override
+    public void setWidth(int i) {
+        this.width = i;
+    }
+
+    @Override
+    public JSONObject toJson() {
+        JSONObject jSONObject = new JSONObject();
+        u.putValue(jSONObject, "posId", this.posId);
+        u.putValue(jSONObject, "entryScene", this.entryScene);
+        u.putValue(jSONObject, "adNum", this.adNum);
+        u.putValue(jSONObject, "action", this.action);
+        u.putValue(jSONObject, "width", this.width);
+        u.putValue(jSONObject, "height", this.height);
+        a aVar = this.mKsAdLabel;
+        if (aVar != null && aVar.ajy != 0) {
+            t.putValue(jSONObject, "cpmBidFloor", this.mKsAdLabel.ajy);
+        }
+        u.putValue(jSONObject, "adStyle", this.adStyle);
+        URLPackage uRLPackage = this.urlPackage;
+        if (uRLPackage != null) {
+            u.putValue(jSONObject, "urlPackage", uRLPackage.toJson());
+        }
+        u.putValue(jSONObject, "promoteId", this.mEcAttribute.getPromoteId());
+        u.putValue(jSONObject, ClientCookie.COMMENT_ATTR, this.mEcAttribute.getComment());
+        u.putValue(jSONObject, "backUrl", this.backUrl);
+        u.putValue(jSONObject, "userCommRateBuying", this.mEcAttribute.getUserCommRateBuying());
+        u.putValue(jSONObject, "userCommRateSharing", this.mEcAttribute.getUserCommRateSharing());
+        u.putValue(jSONObject, "screenOrientation", this.screenOrientation);
+        return jSONObject;
+    }
+}

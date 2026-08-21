@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialog_policy_title_rl" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/dialog_policy_big_bg_v2" android:layout_width="match_parent" android:layout_height="@dimen/px_45">
+        <ImageView android:id="@id/dialog_policy_close" android:background="@drawable/show_policy_closed_v2" android:layout_width="@dimen/px_15" android:layout_height="@dimen/px_15" android:layout_marginRight="@dimen/px_10" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dialog_policy_content_bg_v2" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/show_policy_web" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

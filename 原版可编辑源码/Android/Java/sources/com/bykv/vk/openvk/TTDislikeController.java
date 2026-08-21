@@ -1,0 +1,13 @@
+package com.bykv.vk.openvk;
+
+import android.content.Context;
+
+public interface TTDislikeController {
+    @Deprecated
+    void onDislikeEvent(Context context, boolean z);
+
+    void onDislikeSelected(FilterWord filterWord);
+
+    @Deprecated
+    void openWebPage(Context context, boolean z);
+}

@@ -1,0 +1,14 @@
+package com.kwad.sdk.core.webview.d.b;
+
+public final class b extends com.kwad.sdk.core.response.a.a implements com.kwad.sdk.core.b {
+    public int height;
+    public int width;
+    public double x;
+    public double y;
+
+    public b() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+}

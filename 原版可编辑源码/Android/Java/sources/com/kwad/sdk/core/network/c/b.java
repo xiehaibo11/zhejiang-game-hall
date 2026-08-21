@@ -1,0 +1,40 @@
+package com.kwad.sdk.core.network.c;
+
+import com.kwad.sdk.core.network.c;
+import com.kwad.sdk.export.proxy.AdHttpBodyBuilder;
+import com.kwad.sdk.export.proxy.AdHttpProxy;
+import java.io.OutputStream;
+import java.util.Map;
+import org.json.JSONObject;
+
+public final class b implements AdHttpProxy {
+    @Override
+    public final c doGet(String str, Map<String, String> map) {
+        return com.kwad.sdk.core.network.a.c.doGet(str, map);
+    }
+
+    @Override
+    public final c doGetWithoutResponse(String str, Map<String, String> map) {
+        return com.kwad.sdk.core.network.a.c.a(str, map, false);
+    }
+
+    @Override
+    public final c doPost(String str, Map<String, String> map, AdHttpBodyBuilder adHttpBodyBuilder) {
+        return com.kwad.sdk.core.network.a.c.doPost(str, map, adHttpBodyBuilder);
+    }
+
+    @Override
+    public final c doPost(String str, Map<String, String> map, Map<String, String> map2) {
+        return com.kwad.sdk.core.network.a.c.doPost(str, map, map2);
+    }
+
+    @Override
+    public final c doPost(String str, Map<String, String> map, JSONObject jSONObject) {
+        return com.kwad.sdk.core.network.a.c.doPost(str, map, jSONObject);
+    }
+
+    @Override
+    public final boolean downloadUrlToStream(String str, OutputStream outputStream, int i) {
+        return com.kwad.sdk.core.network.a.c.downloadUrlToStream(str, outputStream, i);
+    }
+}

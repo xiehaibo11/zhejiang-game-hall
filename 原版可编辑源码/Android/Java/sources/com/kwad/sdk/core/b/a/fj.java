@@ -1,0 +1,44 @@
+package com.kwad.sdk.core.b.a;
+
+import com.kwad.sdk.core.response.model.AdMatrixInfo;
+import org.json.JSONObject;
+
+public final class fj implements com.kwad.sdk.core.d<AdMatrixInfo.MatrixTag> {
+    private static void a(AdMatrixInfo.MatrixTag matrixTag, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            return;
+        }
+        matrixTag.styleId = jSONObject.optInt("styleId");
+        matrixTag.type = jSONObject.optString("type");
+        if (matrixTag.type == JSONObject.NULL) {
+            matrixTag.type = "";
+        }
+        matrixTag.isHide = jSONObject.optBoolean("isHide");
+    }
+
+    private static JSONObject b(AdMatrixInfo.MatrixTag matrixTag, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            jSONObject = new JSONObject();
+        }
+        if (matrixTag.styleId != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "styleId", matrixTag.styleId);
+        }
+        if (matrixTag.type != null && !matrixTag.type.equals("")) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "type", matrixTag.type);
+        }
+        if (matrixTag.isHide) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "isHide", matrixTag.isHide);
+        }
+        return jSONObject;
+    }
+
+    @Override
+    public final void a(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        a((AdMatrixInfo.MatrixTag) bVar, jSONObject);
+    }
+
+    @Override
+    public final JSONObject b(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        return b((AdMatrixInfo.MatrixTag) bVar, jSONObject);
+    }
+}

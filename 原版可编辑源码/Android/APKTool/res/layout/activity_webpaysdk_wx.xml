@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/reslib_grey" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/webpaypay_webview_wx" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@id/webpaypay_webview_wx_close" android:background="@color/reslib_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/reslib_px_15" android:text="关闭" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/webpaypay_webview_wx_dialog" android:background="@drawable/reslib_view" android:layout_width="306.0dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:background="@drawable/reslib_bianfeng_logo" android:layout_width="100.0dp" android:layout_height="32.0dp" android:layout_marginTop="@dimen/reslib_px_18" />
+        <TextView android:gravity="center" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reslib_px_13" android:layout_marginTop="@dimen/reslib_px_14" android:layout_marginRight="@dimen/reslib_px_13" android:text="@string/webpaysdk_text_starth5game" style="@style/WebpaysdkCustomSmallTextViewStyle" />
+        <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reslib_px_13" android:layout_marginTop="@dimen/reslib_px_10" android:layout_marginRight="@dimen/reslib_px_13" android:indeterminateDuration="500" style="@style/WebpaysdkProgressDialogStyle" />
+        <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reslib_px_6" android:text="@string/webpaysdk_text_loading" style="@style/WebpaysdkCustomTinyTextViewStyle" />
+    </LinearLayout>
+</RelativeLayout>

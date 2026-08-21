@@ -1,0 +1,293 @@
+package com.czhj.wire.okio;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.nio.ByteBuffer;
+import java.util.Arrays;
+
+final class SegmentedByteString extends ByteString {
+    final transient byte[][] e;
+    final transient int[] f;
+
+    SegmentedByteString(Buffer buffer, int i) {
+        super(null);
+        Util.checkOffsetAndCount(buffer.c, 0L, i);
+        Segment segment = buffer.b;
+        int i2 = 0;
+        int i3 = 0;
+        int i4 = 0;
+        while (i3 < i) {
+            if (segment.e == segment.d) {
+                throw new AssertionError("s.limit == s.pos");
+            }
+            i3 += segment.e - segment.d;
+            i4++;
+            segment = segment.h;
+        }
+        this.e = new byte[i4][];
+        this.f = new int[i4 * 2];
+        Segment segment2 = buffer.b;
+        int i5 = 0;
+        while (i2 < i) {
+            this.e[i5] = segment2.c;
+            i2 += segment2.e - segment2.d;
+            if (i2 > i) {
+                i2 = i;
+            }
+            int[] iArr = this.f;
+            iArr[i5] = i2;
+            iArr[this.e.length + i5] = segment2.d;
+            segment2.f = true;
+            i5++;
+            segment2 = segment2.h;
+        }
+    }
+
+    private int a(int i) {
+        int iBinarySearch = Arrays.binarySearch(this.f, 0, this.e.length, i + 1);
+        return iBinarySearch >= 0 ? iBinarySearch : ~iBinarySearch;
+    }
+
+    private ByteString b() {
+        return new ByteString(toByteArray());
+    }
+
+    private Object writeReplace() {
+        return b();
+    }
+
+    @Override
+    void a(Buffer buffer) {
+        int length = this.e.length;
+        int i = 0;
+        int i2 = 0;
+        while (i < length) {
+            int[] iArr = this.f;
+            int i3 = iArr[length + i];
+            int i4 = iArr[i];
+            Segment segment = new Segment(this.e[i], i3, (i3 + i4) - i2);
+            if (buffer.b == null) {
+                segment.i = segment;
+                segment.h = segment;
+                buffer.b = segment;
+            } else {
+                buffer.b.i.push(segment);
+            }
+            i++;
+            i2 = i4;
+        }
+        buffer.c += (long) i2;
+    }
+
+    @Override
+    byte[] a() {
+        return toByteArray();
+    }
+
+    @Override
+    public ByteBuffer asByteBuffer() {
+        return ByteBuffer.wrap(toByteArray()).asReadOnlyBuffer();
+    }
+
+    @Override
+    public String base64() {
+        return b().base64();
+    }
+
+    @Override
+    public String base64Url() {
+        return b().base64Url();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj instanceof ByteString) {
+            ByteString byteString = (ByteString) obj;
+            if (byteString.size() == size() && rangeEquals(0, byteString, 0, size())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public byte getByte(int i) {
+        Util.checkOffsetAndCount(this.f[this.e.length - 1], i, 1L);
+        int iA = a(i);
+        int i2 = iA == 0 ? 0 : this.f[iA - 1];
+        int[] iArr = this.f;
+        byte[][] bArr = this.e;
+        return bArr[iA][(i - i2) + iArr[bArr.length + iA]];
+    }
+
+    @Override
+    public int hashCode() {
+        int i = this.c;
+        if (i != 0) {
+            return i;
+        }
+        int length = this.e.length;
+        int i2 = 0;
+        int i3 = 1;
+        int i4 = 0;
+        while (i2 < length) {
+            byte[] bArr = this.e[i2];
+            int[] iArr = this.f;
+            int i5 = iArr[length + i2];
+            int i6 = iArr[i2];
+            int i7 = (i6 - i4) + i5;
+            while (i5 < i7) {
+                i3 = (i3 * 31) + bArr[i5];
+                i5++;
+            }
+            i2++;
+            i4 = i6;
+        }
+        this.c = i3;
+        return i3;
+    }
+
+    @Override
+    public String hex() {
+        return b().hex();
+    }
+
+    @Override
+    public int indexOf(byte[] bArr, int i) {
+        return b().indexOf(bArr, i);
+    }
+
+    @Override
+    public int lastIndexOf(byte[] bArr, int i) {
+        return b().lastIndexOf(bArr, i);
+    }
+
+    @Override
+    public ByteString md5() {
+        return b().md5();
+    }
+
+    @Override
+    public boolean rangeEquals(int i, ByteString byteString, int i2, int i3) {
+        if (i < 0 || i > size() - i3) {
+            return false;
+        }
+        int iA = a(i);
+        while (i3 > 0) {
+            int i4 = iA == 0 ? 0 : this.f[iA - 1];
+            int iMin = Math.min(i3, ((this.f[iA] - i4) + i4) - i);
+            int[] iArr = this.f;
+            byte[][] bArr = this.e;
+            if (!byteString.rangeEquals(i2, bArr[iA], (i - i4) + iArr[bArr.length + iA], iMin)) {
+                return false;
+            }
+            i += iMin;
+            i2 += iMin;
+            i3 -= iMin;
+            iA++;
+        }
+        return true;
+    }
+
+    @Override
+    public boolean rangeEquals(int i, byte[] bArr, int i2, int i3) {
+        if (i < 0 || i > size() - i3 || i2 < 0 || i2 > bArr.length - i3) {
+            return false;
+        }
+        int iA = a(i);
+        while (i3 > 0) {
+            int i4 = iA == 0 ? 0 : this.f[iA - 1];
+            int iMin = Math.min(i3, ((this.f[iA] - i4) + i4) - i);
+            int[] iArr = this.f;
+            byte[][] bArr2 = this.e;
+            if (!Util.arrayRangeEquals(bArr2[iA], (i - i4) + iArr[bArr2.length + iA], bArr, i2, iMin)) {
+                return false;
+            }
+            i += iMin;
+            i2 += iMin;
+            i3 -= iMin;
+            iA++;
+        }
+        return true;
+    }
+
+    @Override
+    public ByteString sha256() {
+        return b().sha256();
+    }
+
+    @Override
+    public int size() {
+        return this.f[this.e.length - 1];
+    }
+
+    @Override
+    public ByteString substring(int i) {
+        return b().substring(i);
+    }
+
+    @Override
+    public ByteString substring(int i, int i2) {
+        return b().substring(i, i2);
+    }
+
+    @Override
+    public ByteString toAsciiLowercase() {
+        return b().toAsciiLowercase();
+    }
+
+    @Override
+    public ByteString toAsciiUppercase() {
+        return b().toAsciiUppercase();
+    }
+
+    @Override
+    public byte[] toByteArray() {
+        int[] iArr = this.f;
+        byte[][] bArr = this.e;
+        byte[] bArr2 = new byte[iArr[bArr.length - 1]];
+        int length = bArr.length;
+        int i = 0;
+        int i2 = 0;
+        while (i < length) {
+            int[] iArr2 = this.f;
+            int i3 = iArr2[length + i];
+            int i4 = iArr2[i];
+            System.arraycopy(this.e[i], i3, bArr2, i2, i4 - i2);
+            i++;
+            i2 = i4;
+        }
+        return bArr2;
+    }
+
+    @Override
+    public String toString() {
+        return b().toString();
+    }
+
+    @Override
+    public String utf8() {
+        return b().utf8();
+    }
+
+    @Override
+    public void write(OutputStream outputStream) throws IOException {
+        if (outputStream == null) {
+            throw new IllegalArgumentException("out == null");
+        }
+        int length = this.e.length;
+        int i = 0;
+        int i2 = 0;
+        while (i < length) {
+            int[] iArr = this.f;
+            int i3 = iArr[length + i];
+            int i4 = iArr[i];
+            outputStream.write(this.e[i], i3, i4 - i2);
+            i++;
+            i2 = i4;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+package com.xiaomi.mipush.sdk;
+
+import android.app.Service;
+import android.content.Intent;
+import android.os.Handler;
+import android.os.IBinder;
+import android.os.Message;
+import java.lang.ref.WeakReference;
+
+public abstract class BaseService extends Service {
+    private a a;
+
+    public class a extends Handler {
+        private WeakReference<BaseService> a;
+
+        public a(WeakReference<BaseService> weakReference) {
+            this.a = weakReference;
+        }
+
+        public void a() {
+            if (hasMessages(1001)) {
+                removeMessages(1001);
+            }
+            sendEmptyMessageDelayed(1001, 1000L);
+        }
+
+        @Override
+        public void handleMessage(Message message) {
+            WeakReference<BaseService> weakReference;
+            BaseService baseService;
+            if (message.what != 1001 || (weakReference = this.a) == null || (baseService = weakReference.get()) == null) {
+                return;
+            }
+            com.xiaomi.channel.commonutils.logger.b.c("TimeoutHandler " + baseService.toString() + " kill self");
+            if (!baseService.a()) {
+                baseService.stopSelf();
+            } else {
+                com.xiaomi.channel.commonutils.logger.b.c("TimeoutHandler has job");
+                sendEmptyMessageDelayed(1001, 1000L);
+            }
+        }
+    }
+
+    protected abstract boolean a();
+
+    @Override
+    public IBinder onBind(Intent intent) {
+        return null;
+    }
+
+    @Override
+    public void onStart(Intent intent, int i) {
+        super.onStart(intent, i);
+        if (this.a == null) {
+            this.a = new a(new WeakReference(this));
+        }
+        this.a.a();
+    }
+}

@@ -1,0 +1,75 @@
+package com.tkay.expressad.advanced.view;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.View;
+import android.widget.RelativeLayout;
+import com.tkay.expressad.advanced.d.c;
+
+public class ATOutNativeAdvancedViewGroup extends RelativeLayout {
+    private c a;
+
+    public void setProvider(c cVar) {
+        this.a = cVar;
+    }
+
+    public ATOutNativeAdvancedViewGroup(Context context) {
+        super(context);
+    }
+
+    public ATOutNativeAdvancedViewGroup(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+    }
+
+    public ATOutNativeAdvancedViewGroup(Context context, AttributeSet attributeSet, int i) {
+        super(context, attributeSet, i);
+    }
+
+    @Override
+    protected void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        if (this.a != null) {
+            a(1);
+            if (getVisibility() == 0) {
+                a(2);
+            }
+        }
+    }
+
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        c cVar = this.a;
+        if (cVar != null) {
+            cVar.e(1);
+        }
+    }
+
+    @Override
+    protected void onVisibilityChanged(View view, int i) {
+        super.onVisibilityChanged(view, i);
+        if (i == 0) {
+            a(2);
+            if (getParent() != null) {
+                a(1);
+                return;
+            }
+            return;
+        }
+        c cVar = this.a;
+        if (cVar != null) {
+            cVar.e(2);
+        }
+    }
+
+    private void a(final int i) {
+        postDelayed(new Runnable() {
+            @Override
+            public final void run() {
+                if (ATOutNativeAdvancedViewGroup.this.a != null) {
+                    ATOutNativeAdvancedViewGroup.this.a.d(i);
+                }
+            }
+        }, 200L);
+    }
+}

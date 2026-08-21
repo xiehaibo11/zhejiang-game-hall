@@ -1,0 +1,55 @@
+.class public final Lcom/tkay/expressad/foundation/d/o;
+.super Ljava/lang/Object;
+
+
+# instance fields
+.field private a:I
+
+.field private b:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method private a()I
+    .locals 1
+
+    .line 10
+    iget v0, p0, Lcom/tkay/expressad/foundation/d/o;->a:I
+
+    return v0
+.end method
+
+.method private a(I)V
+    .locals 0
+
+    .line 13
+    iput p1, p0, Lcom/tkay/expressad/foundation/d/o;->a:I
+
+    return-void
+.end method
+
+.method private b()I
+    .locals 1
+
+    .line 16
+    iget v0, p0, Lcom/tkay/expressad/foundation/d/o;->b:I
+
+    return v0
+.end method
+
+.method private b(I)V
+    .locals 0
+
+    .line 19
+    iput p1, p0, Lcom/tkay/expressad/foundation/d/o;->b:I
+
+    return-void
+.end method

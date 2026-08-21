@@ -1,0 +1,346 @@
+package com.kwad.components.ad.fullscreen;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.SystemClock;
+import android.text.TextUtils;
+import android.widget.FrameLayout;
+import com.kwad.components.ad.reward.e.f;
+import com.kwad.components.ad.reward.j;
+import com.kwad.components.ad.reward.presenter.platdetail.actionbar.RewardActionBarControl;
+import com.kwad.components.core.video.DetailVideoView;
+import com.kwad.components.offline.api.core.adlive.listener.OnAdLiveResumeInterceptor;
+import com.kwad.sdk.R;
+import com.kwad.sdk.api.KsFullScreenVideoAd;
+import com.kwad.sdk.api.KsVideoPlayConfig;
+import com.kwad.sdk.api.core.KsAdSdkDynamicImpl;
+import com.kwad.sdk.api.proxy.app.FeedDownloadActivity;
+import com.kwad.sdk.api.proxy.app.KsFullScreenLandScapeVideoActivity;
+import com.kwad.sdk.api.proxy.app.KsFullScreenVideoActivity;
+import com.kwad.sdk.core.report.KSLoggerReporter;
+import com.kwad.sdk.core.response.model.AdInfo;
+import com.kwad.sdk.core.response.model.AdTemplate;
+import com.kwad.sdk.core.view.AdBaseFrameLayout;
+import com.kwad.sdk.core.webview.KsAdWebView;
+import com.kwad.sdk.mvp.Presenter;
+import com.kwad.sdk.utils.bi;
+import com.kwad.sdk.utils.l;
+import com.kwad.sdk.utils.t;
+import com.kwai.adclient.kscommerciallogger.model.BusinessType;
+import com.sigmob.sdk.base.mta.PointCategory;
+import com.ss.android.socialbase.downloader.utils.DownloadExpSwitchCode;
+import java.io.Serializable;
+import java.util.HashMap;
+import org.json.JSONObject;
+
+@KsAdSdkDynamicImpl(FeedDownloadActivity.class)
+public class KsFullScreenVideoActivityProxy extends com.kwad.components.core.l.b<j> implements OnAdLiveResumeInterceptor {
+    public static final String KEY_TEMPLATE = "key_template_json";
+    public static final String KEY_VIDEO_PLAY_CONFIG = "key_video_play_config";
+    private static final String TAG = "FullScreenVideo";
+    private static final HashMap<String, KsFullScreenVideoAd.FullScreenVideoAdInteractionListener> sHashMap = new HashMap<>();
+    private AdInfo mAdInfo;
+    private AdTemplate mAdTemplate;
+    private DetailVideoView mDetailVideoView;
+    private com.kwad.components.ad.fullscreen.c.b mFullScreenPresenter;
+    private KsFullScreenVideoAd.FullScreenVideoAdInteractionListener mInteractionListener;
+    private boolean mIsBackEnable;
+    private boolean mPageDismissCalled;
+    public long mPageEnterTime;
+    private FrameLayout mPlayLayout;
+    private JSONObject mReportExtData;
+    private AdBaseFrameLayout mRootContainer;
+    public int mScreenOrientation;
+    private bi mTimerHelper;
+    private KsVideoPlayConfig mVideoPlayConfig;
+    private f mPlayEndPageListener = new com.kwad.components.ad.reward.e.a() {
+        @Override
+        public final void bD() {
+            KsFullScreenVideoActivityProxy.this.mIsBackEnable = true;
+        }
+    };
+    private com.kwad.components.ad.reward.e.b mAdOpenInteractionListener = new com.kwad.components.ad.reward.e.c() {
+        @Override
+        public final void bE() {
+            if (KsFullScreenVideoActivityProxy.this.mInteractionListener != null) {
+                KsFullScreenVideoActivityProxy.this.mInteractionListener.onAdClicked();
+            }
+        }
+
+        @Override
+        public final void h(boolean z) {
+            KsFullScreenVideoActivityProxy.this.notifyPageDismiss();
+        }
+
+        @Override
+        public final void onVideoPlayEnd() {
+            if (KsFullScreenVideoActivityProxy.this.mInteractionListener != null) {
+                KsFullScreenVideoActivityProxy.this.mInteractionListener.onVideoPlayEnd();
+            }
+        }
+
+        @Override
+        public final void onVideoPlayError(int i, int i2) {
+            if (KsFullScreenVideoActivityProxy.this.mInteractionListener != null) {
+                KsFullScreenVideoActivityProxy.this.mInteractionListener.onVideoPlayError(i, i2);
+            }
+        }
+
+        @Override
+        public final void onVideoPlayStart() {
+            if (KsFullScreenVideoActivityProxy.this.mInteractionListener != null) {
+                KsFullScreenVideoActivityProxy.this.mInteractionListener.onVideoPlayStart();
+            }
+        }
+
+        @Override
+        public final void onVideoSkipToEnd(long j) {
+            if (KsFullScreenVideoActivityProxy.this.mInteractionListener != null) {
+                KsFullScreenVideoActivityProxy.this.mInteractionListener.onSkippedVideo();
+            }
+        }
+    };
+
+    private void createPlayModuleProxy(j jVar) {
+        com.kwad.components.ad.reward.l.d dVar;
+        j.a aVar;
+        if (com.kwad.sdk.core.response.b.a.aV(this.mAdInfo)) {
+            com.kwad.components.ad.reward.l.a aVar2 = new com.kwad.components.ad.reward.l.a(this.mAdTemplate);
+            dVar = new com.kwad.components.ad.reward.l.d(3, aVar2);
+            aVar = aVar2;
+        } else {
+            com.kwad.components.ad.reward.l.c cVar = new com.kwad.components.ad.reward.l.c(jVar, this.mDetailVideoView);
+            dVar = new com.kwad.components.ad.reward.l.d(1, cVar);
+            aVar = cVar;
+        }
+        jVar.a(aVar);
+        jVar.oV = dVar;
+    }
+
+    private static String getListenerKey(AdTemplate adTemplate) {
+        return adTemplate == null ? "" : String.valueOf(com.kwad.sdk.core.response.b.d.cg(adTemplate).adBaseInfo.creativeId);
+    }
+
+    private bi getTimerHelper() {
+        if (this.mTimerHelper == null) {
+            bi biVar = new bi();
+            this.mTimerHelper = biVar;
+            biVar.startTiming();
+        }
+        return this.mTimerHelper;
+    }
+
+    private void initVideoPlayConfig(KsVideoPlayConfig ksVideoPlayConfig) {
+        if (TextUtils.isEmpty(ksVideoPlayConfig.getShowScene())) {
+            return;
+        }
+        this.mReportExtData = null;
+        JSONObject jSONObject = new JSONObject();
+        this.mReportExtData = jSONObject;
+        t.putValue(jSONObject, "ext_showscene", ksVideoPlayConfig.getShowScene());
+    }
+
+    public static void launch(Context context, AdTemplate adTemplate, KsVideoPlayConfig ksVideoPlayConfig, KsFullScreenVideoAd.FullScreenVideoAdInteractionListener fullScreenVideoAdInteractionListener) {
+        Intent intent;
+        l.cA(adTemplate);
+        if (ksVideoPlayConfig.isShowLandscape()) {
+            com.kwad.sdk.service.b.a(KsFullScreenLandScapeVideoActivity.class, KsFullScreenLandScapeVideoActivityProxy.class);
+            intent = new Intent(context, (Class<?>) KsFullScreenLandScapeVideoActivity.class);
+        } else {
+            com.kwad.sdk.service.b.a(FeedDownloadActivity.class, KsFullScreenVideoActivityProxy.class);
+            intent = new Intent(context, (Class<?>) FeedDownloadActivity.class);
+        }
+        intent.setFlags(DownloadExpSwitchCode.BUGFIX_GETPACKAGEINFO_BY_UNZIP);
+        intent.putExtra("key_template_json", adTemplate.toJson().toString());
+        intent.putExtra("key_video_play_config", ksVideoPlayConfig);
+        sHashMap.put(getListenerKey(adTemplate), fullScreenVideoAdInteractionListener);
+        context.startActivity(intent);
+        com.kwad.sdk.a.a.c.yb().bc(true);
+    }
+
+    private void notifyPageDismiss() {
+        if (this.mPageDismissCalled) {
+            return;
+        }
+        this.mPageDismissCalled = true;
+        com.kwad.sdk.a.a.c.yb().ye();
+        com.kwad.sdk.core.report.a.a(this.mAdTemplate, 6, getTimerHelper().getTime(), this.mReportExtData);
+        KsFullScreenVideoAd.FullScreenVideoAdInteractionListener fullScreenVideoAdInteractionListener = this.mInteractionListener;
+        if (fullScreenVideoAdInteractionListener != null) {
+            fullScreenVideoAdInteractionListener.onPageDismiss();
+        }
+    }
+
+    public static void register() {
+        com.kwad.sdk.service.b.a(KsFullScreenVideoActivity.class, KsFullScreenVideoActivityProxy.class);
+        com.kwad.sdk.service.b.a(FeedDownloadActivity.class, KsFullScreenVideoActivityProxy.class);
+    }
+
+    @Override
+    public boolean checkIntentData(Intent intent) {
+        Serializable serializableExtra = getIntent().getSerializableExtra("key_video_play_config");
+        if (serializableExtra instanceof KsVideoPlayConfig) {
+            this.mVideoPlayConfig = (KsVideoPlayConfig) serializableExtra;
+        }
+        try {
+            String stringExtra = getIntent().getStringExtra("key_template_json");
+            AdTemplate adTemplate = new AdTemplate();
+            adTemplate.parseJson(new JSONObject(stringExtra));
+            this.mAdTemplate = adTemplate;
+        } catch (Throwable th) {
+            com.kwad.sdk.core.e.c.printStackTrace(th);
+        }
+        if (this.mVideoPlayConfig != null && this.mAdTemplate != null) {
+            return true;
+        }
+        com.kwad.sdk.i.a.ai("fullscreen", PointCategory.SHOW);
+        return false;
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        notifyPageDismiss();
+    }
+
+    @Override
+    public int getLayoutId() {
+        return R.layout.ksad_activity_fullscreen_video;
+    }
+
+    @Override
+    public String getPageName() {
+        return "KsFullScreenVideoActivityProxy";
+    }
+
+    @Override
+    public boolean handledAdLiveOnResume() {
+        return ((j) this.mCallerContext).fO();
+    }
+
+    @Override
+    public void initData() {
+        long jElapsedRealtime = SystemClock.elapsedRealtime();
+        this.mPageEnterTime = jElapsedRealtime;
+        com.kwad.components.ad.reward.monitor.a.a(false, this.mAdTemplate, jElapsedRealtime);
+        com.kwad.components.ad.reward.monitor.a.I(false);
+        this.mInteractionListener = sHashMap.get(getListenerKey(this.mAdTemplate));
+        this.mAdInfo = com.kwad.sdk.core.response.b.d.cg(this.mAdTemplate);
+        this.mScreenOrientation = this.mVideoPlayConfig.isShowLandscape() ? 1 : 0;
+        this.mAdTemplate.mInitVoiceStatus = this.mVideoPlayConfig.isVideoSoundEnable() ? 2 : 1;
+        initVideoPlayConfig(this.mVideoPlayConfig);
+    }
+
+    @Override
+    public void initView() {
+        AdBaseFrameLayout adBaseFrameLayout = (AdBaseFrameLayout) findViewById(R.id.ksad_root_container);
+        this.mRootContainer = adBaseFrameLayout;
+        this.mDetailVideoView = (DetailVideoView) adBaseFrameLayout.findViewById(R.id.ksad_video_player);
+        this.mPlayLayout = (FrameLayout) this.mRootContainer.findViewById(R.id.ksad_reward_play_layout);
+        this.mDetailVideoView.f(true, com.kwad.sdk.core.config.d.zX());
+        com.kwad.sdk.i.a.ai("fullscreen", PointCategory.SHOW);
+    }
+
+    @Override
+    public boolean needAdaptionScreen() {
+        return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        com.kwad.components.ad.fullscreen.c.b bVar = this.mFullScreenPresenter;
+        if ((bVar == null || !bVar.bP()) && this.mIsBackEnable) {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
+    public void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
+        KSLoggerReporter.ReportClient.CORE_CONVERT.buildMethodCheck(BusinessType.AD_FULLSCREEN, "adShowSuccess").report();
+    }
+
+    @Override
+    protected j onCreateCallerContext() {
+        j jVar = new j(this);
+        jVar.mPageEnterTime = this.mPageEnterTime;
+        jVar.oU = false;
+        jVar.mAdOpenInteractionListener = this.mAdOpenInteractionListener;
+        jVar.mScreenOrientation = this.mScreenOrientation;
+        jVar.mVideoPlayConfig = this.mVideoPlayConfig;
+        jVar.mReportExtData = this.mReportExtData;
+        jVar.mRootContainer = this.mRootContainer;
+        jVar.mAdTemplate = this.mAdTemplate;
+        createPlayModuleProxy(jVar);
+        if (com.kwad.sdk.core.response.b.a.ax(this.mAdInfo)) {
+            jVar.mApkDownloadHelper = new com.kwad.components.core.e.d.c(this.mAdTemplate, this.mReportExtData);
+        }
+        jVar.oY = new RewardActionBarControl(jVar, this.mContext, this.mAdTemplate);
+        jVar.b(this.mPlayEndPageListener);
+        if (com.kwad.sdk.core.response.b.b.bk(this.mAdTemplate)) {
+            jVar.oZ = new com.kwad.components.ad.reward.l(jVar, this.mReportExtData, null);
+        }
+        if (com.kwad.sdk.core.response.b.a.bv(this.mAdInfo)) {
+            jVar.oX = new com.kwad.components.core.playable.a((KsAdWebView) findViewById(R.id.ksad_playable_webview));
+        }
+        if (com.kwad.sdk.core.response.b.a.am(this.mAdInfo)) {
+            jVar.pa = new com.kwad.components.ad.k.a().ah(false);
+        }
+        jVar.pj = false;
+        jVar.pE = com.kwad.sdk.core.response.b.a.bv(this.mAdInfo) ? com.kwad.sdk.core.response.b.a.aj(this.mAdInfo) : com.kwad.sdk.core.response.b.a.ae(this.mAdInfo);
+        jVar.mTimerHelper = getTimerHelper();
+        return jVar;
+    }
+
+    @Override
+    public Presenter onCreatePresenter() {
+        b bVar = new b(this.mAdTemplate);
+        getActivity();
+        com.kwad.components.ad.fullscreen.c.b bVar2 = new com.kwad.components.ad.fullscreen.c.b(this, this.mRootContainer, bVar, (j) this.mCallerContext);
+        this.mFullScreenPresenter = bVar2;
+        return bVar2;
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        notifyPageDismiss();
+        AdInfo adInfo = this.mAdInfo;
+        if (adInfo != null) {
+            String strF = com.kwad.sdk.core.response.b.a.F(adInfo);
+            if (!TextUtils.isEmpty(strF)) {
+                com.kwad.sdk.core.videocache.c.a.bj(this.mContext.getApplicationContext()).dQ(strF);
+            }
+        }
+        if (this.mCallerContext != 0 && ((j) this.mCallerContext).oV.jR()) {
+            ((j) this.mCallerContext).oV.jS().removeInterceptor(this);
+        }
+        sHashMap.remove(getListenerKey(this.mAdTemplate));
+        this.mInteractionListener = null;
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        getTimerHelper().Kc();
+        if (this.mCallerContext != 0) {
+            ((j) this.mCallerContext).mPageEnterTime = -1L;
+        }
+    }
+
+    @Override
+    public void onPreCreate(Bundle bundle) {
+        super.onPreCreate(bundle);
+        try {
+            getIntent().removeExtra("key_template");
+        } catch (Throwable unused) {
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        getTimerHelper().Kb();
+    }
+}

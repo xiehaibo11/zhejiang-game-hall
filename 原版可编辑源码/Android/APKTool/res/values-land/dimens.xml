@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dp</dimen>
+    <dimen name="umcsdk_mobilelogo_margin">30.0dp</dimen>
+    <dimen name="umcsdk_loginbtn_margin">15.0dp</dimen>
+    <dimen name="umcsdk_btn_height">44.0dp</dimen>
+    <dimen name="umcsdk_version_margin">10.0dp</dimen>
+    <dimen name="umcsdk_dimen_ten">16.0dp</dimen>
+    <dimen name="umcsdk_loginbtn_left">40.0dp</dimen>
+    <dimen name="umcsdk_smscode_margin">15.0dp</dimen>
+</resources>

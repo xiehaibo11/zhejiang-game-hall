@@ -1,0 +1,91 @@
+package com.tkay.expressad.video.dynview.b;
+
+import android.view.View;
+import com.tkay.expressad.video.dynview.c;
+import com.tkay.expressad.video.dynview.f.e;
+import java.util.ArrayList;
+import java.util.Map;
+
+public class a {
+    private static volatile a b;
+    public com.tkay.expressad.video.dynview.e.a a;
+
+    private static void d() {
+    }
+
+    private a() {
+    }
+
+    public static a a() {
+        a aVar;
+        if (b == null) {
+            synchronized (a.class) {
+                if (b == null) {
+                    b = new a();
+                }
+                aVar = b;
+            }
+            return aVar;
+        }
+        return b;
+    }
+
+    public final void a(View view, c cVar, Map map, e eVar) {
+        int iH = cVar.h();
+        if (iH == 1) {
+            com.tkay.expressad.video.dynview.j.a aVar = new com.tkay.expressad.video.dynview.j.a();
+            aVar.a(cVar, view, map, eVar);
+            this.a = aVar.b;
+        } else {
+            if (iH == 102 || iH == 202 || iH == 302 || iH == 802 || iH == 904) {
+                new com.tkay.expressad.video.dynview.j.a().b(cVar, view, map, eVar);
+                return;
+            }
+            if (iH == 4) {
+                new com.tkay.expressad.video.dynview.j.a().a(cVar, view, eVar);
+            } else if (iH != 5) {
+                eVar.a(view, new ArrayList());
+            } else {
+                new com.tkay.expressad.video.dynview.j.a().c(cVar, view, map, eVar);
+            }
+        }
+    }
+
+    private void a(c cVar, View view, Map map, e eVar) {
+        com.tkay.expressad.video.dynview.j.a aVar = new com.tkay.expressad.video.dynview.j.a();
+        aVar.a(cVar, view, map, eVar);
+        this.a = aVar.b;
+    }
+
+    private static void b(c cVar, View view, Map map, e eVar) {
+        new com.tkay.expressad.video.dynview.j.a().b(cVar, view, map, eVar);
+    }
+
+    private static void a(c cVar, View view, e eVar) {
+        new com.tkay.expressad.video.dynview.j.a().a(cVar, view, eVar);
+    }
+
+    private static void c(c cVar, View view, Map map, e eVar) {
+        new com.tkay.expressad.video.dynview.j.a().c(cVar, view, map, eVar);
+    }
+
+    private void c() {
+        com.tkay.expressad.video.dynview.e.a aVar = this.a;
+        if (aVar != null) {
+            aVar.a();
+        }
+    }
+
+    private void e() {
+        com.tkay.expressad.video.dynview.e.a aVar = this.a;
+        if (aVar != null) {
+            aVar.c();
+        }
+    }
+
+    public static void b() {
+        if (b != null) {
+            b = null;
+        }
+    }
+}

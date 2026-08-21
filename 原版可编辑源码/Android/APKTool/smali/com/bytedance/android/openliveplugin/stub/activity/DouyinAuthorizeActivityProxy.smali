@@ -1,0 +1,82 @@
+.class public Lcom/bytedance/android/openliveplugin/stub/activity/DouyinAuthorizeActivityProxy;
+.super Landroid/app/Activity;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 17
+    invoke-direct {p0}, Landroid/app/Activity;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected onCreate(Landroid/os/Bundle;)V
+    .locals 6
+
+    .line 20
+    invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+
+    const/4 p1, 0x1
+
+    :try_start_0
+    const-string v0, "com.bytedance.android.openlive.auth.impl.auth.LiveAuthCallStub"
+
+    const-string v1, "onAuthActivityBack"
+
+    .line 25
+    invoke-static {}, Lcom/bytedance/pangle/plugin/PluginManager;->getInstance()Lcom/bytedance/pangle/plugin/PluginManager;
+
+    move-result-object v2
+
+    const-string v3, "com.byted.live.lite"
+
+    invoke-virtual {v2, v3}, Lcom/bytedance/pangle/plugin/PluginManager;->getPlugin(Ljava/lang/String;)Lcom/bytedance/pangle/plugin/Plugin;
+
+    move-result-object v2
+
+    iget-object v2, v2, Lcom/bytedance/pangle/plugin/Plugin;->mClassLoader:Lcom/bytedance/pangle/PluginClassLoader;
+
+    const/4 v3, 0x2
+
+    new-array v3, v3, [Ljava/lang/Object;
+
+    const/4 v4, 0x0
+
+    .line 26
+    invoke-virtual {p0}, Lcom/bytedance/android/openliveplugin/stub/activity/DouyinAuthorizeActivityProxy;->getIntent()Landroid/content/Intent;
+
+    move-result-object v5
+
+    aput-object v5, v3, v4
+
+    aput-object p0, v3, p1
+
+    .line 24
+    invoke-static {v0, v1, v2, v3}, Lcom/bytedance/android/live/base/api/JavaCallsUtils;->callStaticMethodWithClassLoader(Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;[Ljava/lang/Object;)Ljava/lang/Object;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v0
+
+    .line 28
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    const-string v0, "\u6296\u97f3\u6388\u6743\u5931\u8d25-\u754c\u9762\u542f\u52a8\u5931\u8d25"
+
+    .line 29
+    invoke-static {p0, v0, p1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+
+    :goto_0
+    return-void
+.end method

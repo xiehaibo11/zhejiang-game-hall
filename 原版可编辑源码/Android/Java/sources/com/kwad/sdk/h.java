@@ -1,0 +1,55 @@
+package com.kwad.sdk;
+
+import com.kwad.sdk.components.DevelopMangerComponents;
+
+public final class h {
+    public static String wZ() {
+        String str = "https://" + com.kwad.sdk.core.network.idc.a.Bo().P("api", "open.e.kuaishou.com");
+        com.kwad.sdk.components.c.f(DevelopMangerComponents.class);
+        return str;
+    }
+
+    public static String xa() {
+        return wZ() + "/rest/e/v3/open/univ";
+    }
+
+    public static String xb() {
+        return wZ() + "/rest/e/v4/open/univ";
+    }
+
+    public static String xc() {
+        return wZ() + "/rest/e/v4/open/univ/bidding";
+    }
+
+    public static String xd() {
+        return wZ() + "/rest/e/v4/open/univ/getMaterial";
+    }
+
+    public static String xe() {
+        return wZ() + "/rest/e/v3/open/logBatch";
+    }
+
+    public static String xf() {
+        return wZ() + "/rest/e/v3/open/config";
+    }
+
+    public static String xg() {
+        return wZ() + "/rest/e/v3/open/callback";
+    }
+
+    public static String xh() {
+        return wZ() + "/rest/e/v3/open/crashLog";
+    }
+
+    public static String xi() {
+        return wZ() + "/rest/e/v3/open/appCheck";
+    }
+
+    public static String xj() {
+        return wZ() + "/rest/e/v3/open/collect";
+    }
+
+    public static String xk() {
+        return wZ() + "/rest/e/v3/open/checkReward";
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/tkay_reward_black" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tkay.expressad.playercommon.PlayerView android:id="@id/tkay_vfpv" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.tkay.expressad.video.dynview.widget.TkayBaitClickView android:id="@id/tkay_animation_click_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.tkay.expressad.video.widget.SoundImageView android:layout_gravity="bottom" android:id="@id/tkay_sound_switch" android:visibility="visible" android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_marginLeft="10.0dp" android:layout_marginBottom="10.0dp" />
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/tkay_video_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="4.0dp" android:progressDrawable="@drawable/tkay_reward_video_progressbar_bg" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <com.tkay.expressad.video.dynview.widget.TYSegmentsProgressBar android:layout_gravity="bottom" android:id="@id/tkay_reward_segment_progressbar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/tkay_top_control" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp">
+        <com.tkay.expressad.widget.FeedBackButton android:gravity="center" android:id="@id/tkay_native_endcard_feed_btn" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="@string/tkay_cm_feedback_btn_text" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/tkay_reward_white" android:gravity="center" android:id="@id/tkay_tv_count" android:background="@drawable/tkay_reward_video_time_count_num_bg" android:visibility="visible" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginLeft="5.0dp" android:layout_toRightOf="@id/tkay_native_endcard_feed_btn" />
+        <ImageView android:layout_gravity="end" android:id="@id/tkay_rl_playing_close" android:layout_width="35.0dp" android:layout_height="35.0dp" android:src="@drawable/tkay_reward_close" android:layout_alignParentRight="true" android:contentDescription="closeButton" />
+    </RelativeLayout>
+</FrameLayout>

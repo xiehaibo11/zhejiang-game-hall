@@ -1,0 +1,16 @@
+package com.bykv.vk.openvk.stub.activity;
+
+public class Stub_Standard_Activity extends com.bytedance.pangle.activity.GenerateProxyActivity {
+    public Stub_Standard_Activity() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+
+    @Override
+    public java.lang.String getPluginPkgName() {
+            r1 = this;
+            java.lang.String r0 = "com.bykv.vk"
+            return r0
+    }
+}

@@ -1,0 +1,11 @@
+package com.bytedance.pangle.util;
+
+import android.text.TextUtils;
+import java.io.File;
+
+public final class c {
+    public static String[] a(File file) throws Throwable {
+        String[] strArrA = com.bytedance.pangle.util.a.b.a(file);
+        return TextUtils.isEmpty(strArrA[0]) ? com.bytedance.pangle.util.a.a.a(file) : strArrA;
+    }
+}

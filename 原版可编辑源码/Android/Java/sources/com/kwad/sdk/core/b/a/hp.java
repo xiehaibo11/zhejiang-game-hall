@@ -1,0 +1,35 @@
+package com.kwad.sdk.core.b.a;
+
+import org.json.JSONObject;
+
+public final class hp implements com.kwad.sdk.core.d<com.kwad.components.core.webview.b.b.r> {
+    private static void a(com.kwad.components.core.webview.b.b.r rVar, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            return;
+        }
+        rVar.templateId = jSONObject.optString("templateId");
+        if (rVar.templateId == JSONObject.NULL) {
+            rVar.templateId = "";
+        }
+    }
+
+    private static JSONObject b(com.kwad.components.core.webview.b.b.r rVar, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            jSONObject = new JSONObject();
+        }
+        if (rVar.templateId != null && !rVar.templateId.equals("")) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "templateId", rVar.templateId);
+        }
+        return jSONObject;
+    }
+
+    @Override
+    public final void a(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        a((com.kwad.components.core.webview.b.b.r) bVar, jSONObject);
+    }
+
+    @Override
+    public final JSONObject b(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        return b((com.kwad.components.core.webview.b.b.r) bVar, jSONObject);
+    }
+}

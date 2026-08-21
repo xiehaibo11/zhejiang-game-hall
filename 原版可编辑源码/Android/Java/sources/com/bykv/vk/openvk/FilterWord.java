@@ -1,0 +1,21 @@
+package com.bykv.vk.openvk;
+
+import java.util.List;
+
+public interface FilterWord {
+    void addOption(FilterWord filterWord);
+
+    String getId();
+
+    boolean getIsSelected();
+
+    String getName();
+
+    List<FilterWord> getOptions();
+
+    boolean hasSecondOptions();
+
+    boolean isValid();
+
+    void setIsSelected(boolean z);
+}

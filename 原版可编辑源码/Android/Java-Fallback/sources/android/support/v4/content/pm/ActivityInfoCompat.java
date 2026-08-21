@@ -1,0 +1,14 @@
+package android.support.v4.content.pm;
+
+@java.lang.Deprecated
+public final class ActivityInfoCompat {
+
+    @java.lang.Deprecated
+    public static final int CONFIG_UI_MODE = 512;
+
+    private ActivityInfoCompat() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:background="@drawable/webpaysdk_frame_def" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/webpaypay_pageMainLayout" android:background="@drawable/webpaysdk_bg_base_view" android:layout_width="306.0dp" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/webpaypay_layoutTop" android:layout_width="match_parent" android:layout_height="@dimen/reslib_px_53">
+            <Button android:id="@id/webpaypay_btnLeft" android:background="@drawable/webpaysdk_arrow_back" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_marginLeft="13.0dp" android:layout_centerVertical="true" />
+            <TextView android:gravity="center" android:id="@id/webpaypay_tvTitle" android:layout_width="match_parent" android:layout_height="match_parent" android:text="支付" android:layout_centerVertical="true" style="@style/WebpaysdkCustomLargeTextViewStyle" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/webpaypay_bodyContainer" android:padding="1.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/webpaypay_layoutTop">
+            <include layout="@layout/include_webpaysdk_payment_view" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

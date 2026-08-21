@@ -1,0 +1,13 @@
+package com.bykv.vk.openvk;
+
+public abstract class TTImage {
+    public abstract double getDuration();
+
+    public abstract int getHeight();
+
+    public abstract String getImageUrl();
+
+    public abstract int getWidth();
+
+    public abstract boolean isValid();
+}

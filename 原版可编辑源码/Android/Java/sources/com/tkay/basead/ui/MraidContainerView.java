@@ -1,0 +1,256 @@
+package com.tkay.basead.ui;
+
+import android.content.Context;
+import android.text.TextUtils;
+import android.widget.FrameLayout;
+import com.tkay.basead.a.b.c;
+import com.tkay.basead.c.e;
+import com.tkay.basead.mraid.MraidWebView;
+import com.tkay.basead.mraid.d;
+import com.tkay.basead.ui.ClickToReLoadView;
+import com.tkay.core.common.b.m;
+import com.tkay.core.common.f.h;
+import com.tkay.core.common.f.i;
+import com.tkay.core.common.f.j;
+import com.tkay.core.common.l.u;
+import com.tkay.expressad.atsignalcommon.mraid.CallMraidJS;
+
+public class MraidContainerView extends FrameLayout {
+    private static final String h = MraidContainerView.class.getSimpleName();
+    protected h a;
+    protected j b;
+    protected i c;
+    protected b d;
+    protected ClickToReLoadView e;
+    protected MraidWebView f;
+    protected a g;
+    private boolean i;
+    private boolean j;
+    private boolean k;
+    private boolean l;
+
+    public interface a {
+        void a();
+
+        void a(String str);
+
+        void b();
+    }
+
+    static boolean a(MraidContainerView mraidContainerView) {
+        mraidContainerView.k = false;
+        return false;
+    }
+
+    public MraidContainerView(Context context) {
+        super(context);
+    }
+
+    public MraidContainerView(Context context, h hVar, i iVar, a aVar) {
+        super(context);
+        this.a = hVar;
+        this.b = iVar.m;
+        this.c = iVar;
+        this.g = aVar;
+        setBackgroundColor(getResources().getColor(com.tkay.core.common.l.h.a(context, "color_99000000", "color")));
+    }
+
+    public void init() {
+        if (this.b.V()) {
+            b();
+            return;
+        }
+        b bVar = new b(this);
+        this.d = bVar;
+        bVar.a();
+    }
+
+    private void b() {
+        MraidWebView mraidWebViewB = c.b(c.a(this.c, this.a));
+        this.f = mraidWebViewB;
+        if (mraidWebViewB != null) {
+            this.l = true;
+            if (this.j) {
+                mraidWebViewB.setNeedRegisterVolumeChangeReceiver(true);
+            }
+            this.f.prepare(getContext(), new com.tkay.basead.mraid.b() {
+                @Override
+                public final void close() {
+                }
+
+                @Override
+                public final void open(String str) {
+                    if (MraidContainerView.this.g != null) {
+                        MraidContainerView.this.g.a(str);
+                    }
+                }
+
+                @Override
+                public final void a() {
+                    if (MraidContainerView.this.g != null) {
+                        MraidContainerView.this.g.b();
+                    }
+                }
+            });
+            addView(this.f, new FrameLayout.LayoutParams(-1, -1));
+            a aVar = this.g;
+            if (aVar != null) {
+                aVar.a();
+            }
+        }
+    }
+
+    public void loadMraidWebView() {
+        if (this.k || this.l) {
+            return;
+        }
+        this.k = true;
+        ClickToReLoadView clickToReLoadView = this.e;
+        if (clickToReLoadView != null) {
+            removeView(clickToReLoadView);
+        }
+        b bVar = this.d;
+        if (bVar != null) {
+            bVar.b();
+        }
+        final String strA = d.a(this.c, this.a);
+        if (TextUtils.isEmpty(strA)) {
+            this.k = false;
+            c();
+            f();
+        } else {
+            final String strA2 = c.a(this.c, this.a);
+            m.a().a(new Runnable() {
+                @Override
+                public final void run() {
+                    MraidContainerView.this.f = new MraidWebView(m.a().f());
+                    d.a(strA2, strA, MraidContainerView.this.f, new d.a() {
+                        @Override
+                        public final void a() {
+                            String unused = MraidContainerView.h;
+                            MraidContainerView.a(MraidContainerView.this);
+                            MraidContainerView.this.b();
+                            MraidContainerView.this.f();
+                        }
+
+                        @Override
+                        public final void a(e eVar) {
+                            MraidContainerView.a(MraidContainerView.this);
+                            String unused = MraidContainerView.h;
+                            new StringBuilder("onFailed: ").append(eVar.c());
+                            MraidContainerView.this.c();
+                            MraidContainerView.this.f();
+                        }
+                    });
+                }
+            });
+        }
+    }
+
+    public void fireMraidIsViewable(boolean z) {
+        try {
+            if (!this.l || this.f == null) {
+                return;
+            }
+            if (z) {
+                com.tkay.expressad.mbbanner.a.a.a.a(this.f, true);
+            } else {
+                com.tkay.expressad.mbbanner.a.a.a.a(this.f, false);
+            }
+        } catch (Throwable unused) {
+        }
+    }
+
+    public void setNeedRegisterVolumeChangeReceiver(boolean z) {
+        this.j = z;
+    }
+
+    public void fireAudioVolumeChange(boolean z) {
+        try {
+            if (!this.l || this.f == null) {
+                return;
+            }
+            if (z) {
+                CallMraidJS.getInstance().fireAudioVolumeChange(this.f, 0.0d);
+            } else {
+                CallMraidJS.getInstance().fireAudioVolumeChange(this.f, 1.0d);
+            }
+        } catch (Exception unused) {
+        }
+    }
+
+    private void c() {
+        if (this.e == null) {
+            ClickToReLoadView clickToReLoadView = new ClickToReLoadView(getContext());
+            this.e = clickToReLoadView;
+            clickToReLoadView.setListener(new ClickToReLoadView.a() {
+                @Override
+                public final void a() {
+                    MraidContainerView.this.loadMraidWebView();
+                }
+            });
+        }
+        addView(this.e, new FrameLayout.LayoutParams(-1, -1));
+    }
+
+    private void d() {
+        ClickToReLoadView clickToReLoadView = this.e;
+        if (clickToReLoadView != null) {
+            removeView(clickToReLoadView);
+        }
+    }
+
+    private void e() {
+        b bVar = this.d;
+        if (bVar != null) {
+            bVar.b();
+        }
+    }
+
+    private void f() {
+        b bVar = this.d;
+        if (bVar != null) {
+            bVar.c();
+        }
+    }
+
+    @Override
+    protected void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        this.i = true;
+        g();
+    }
+
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        this.i = false;
+    }
+
+    @Override
+    public void setVisibility(int i) {
+        super.setVisibility(i);
+        if (this.i) {
+            g();
+        }
+    }
+
+    private void g() {
+        if (this.b.V()) {
+            return;
+        }
+        loadMraidWebView();
+    }
+
+    public void release() {
+        try {
+            if (this.l && this.f != null) {
+                u.a(this.f);
+                this.f.release();
+                com.tkay.core.common.res.d.a(m.a().f()).a(this.c, this.a);
+            }
+            u.a(this);
+        } catch (Throwable unused) {
+        }
+    }
+}

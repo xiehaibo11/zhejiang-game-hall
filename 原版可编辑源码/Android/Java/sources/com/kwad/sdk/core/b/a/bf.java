@@ -1,0 +1,37 @@
+package com.kwad.sdk.core.b.a;
+
+import com.kwad.sdk.core.response.model.AdMatrixInfo;
+import org.json.JSONObject;
+
+public final class bf implements com.kwad.sdk.core.d<AdMatrixInfo.BottomBannerInfo> {
+    private static void a(AdMatrixInfo.BottomBannerInfo bottomBannerInfo, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            return;
+        }
+        bottomBannerInfo.bannerSizeType = jSONObject.optInt("bannerSizeType");
+        bottomBannerInfo.bannerAdType = jSONObject.optInt("bannerAdType");
+    }
+
+    private static JSONObject b(AdMatrixInfo.BottomBannerInfo bottomBannerInfo, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            jSONObject = new JSONObject();
+        }
+        if (bottomBannerInfo.bannerSizeType != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "bannerSizeType", bottomBannerInfo.bannerSizeType);
+        }
+        if (bottomBannerInfo.bannerAdType != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "bannerAdType", bottomBannerInfo.bannerAdType);
+        }
+        return jSONObject;
+    }
+
+    @Override
+    public final void a(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        a((AdMatrixInfo.BottomBannerInfo) bVar, jSONObject);
+    }
+
+    @Override
+    public final JSONObject b(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        return b((AdMatrixInfo.BottomBannerInfo) bVar, jSONObject);
+    }
+}

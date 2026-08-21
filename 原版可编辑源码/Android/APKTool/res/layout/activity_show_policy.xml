@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialog_policy_title_rl" android:background="@drawable/dialog_policy_big_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/show_dialog_title_big_bg" android:layout_width="match_parent" android:layout_height="@dimen/px_45">
+        <ImageView android:id="@id/dialog_policy_close" android:background="@drawable/show_policy_closed" android:layout_width="@dimen/px_40" android:layout_height="@dimen/px_40" android:layout_margin="@dimen/px_3" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/sp_30" android:textStyle="bold" android:textColor="@color/show_policy_title_text" android:gravity="center" android:id="@id/dialog_policy_title" android:layout_width="match_parent" android:layout_height="match_parent" android:text="隐私政策" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dialog_policy_content_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/px_10" android:layout_marginTop="@dimen/px_3" android:layout_marginRight="@dimen/px_10" android:layout_marginBottom="@dimen/px_10">
+        <WebView android:id="@id/show_policy_web" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

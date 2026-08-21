@@ -1,0 +1,73 @@
+package org.bouncycastle.asn1;
+
+import java.io.IOException;
+import java.math.BigInteger;
+
+public class DEREnumerated extends ASN1Object {
+    byte[] bytes;
+
+    public DEREnumerated(int i) {
+        this.bytes = BigInteger.valueOf(i).toByteArray();
+    }
+
+    public DEREnumerated(BigInteger bigInteger) {
+        this.bytes = bigInteger.toByteArray();
+    }
+
+    public DEREnumerated(byte[] bArr) {
+        this.bytes = bArr;
+    }
+
+    public static DEREnumerated getInstance(Object obj) {
+        if (obj == null || (obj instanceof DEREnumerated)) {
+            return (DEREnumerated) obj;
+        }
+        if (obj instanceof ASN1OctetString) {
+            return new DEREnumerated(((ASN1OctetString) obj).getOctets());
+        }
+        if (obj instanceof ASN1TaggedObject) {
+            return getInstance(((ASN1TaggedObject) obj).getObject());
+        }
+        throw new IllegalArgumentException("illegal object in getInstance: " + obj.getClass().getName());
+    }
+
+    public static DEREnumerated getInstance(ASN1TaggedObject aSN1TaggedObject, boolean z) {
+        return getInstance(aSN1TaggedObject.getObject());
+    }
+
+    @Override
+    boolean asn1Equals(DERObject dERObject) {
+        if (!(dERObject instanceof DEREnumerated)) {
+            return false;
+        }
+        DEREnumerated dEREnumerated = (DEREnumerated) dERObject;
+        if (this.bytes.length != dEREnumerated.bytes.length) {
+            return false;
+        }
+        int i = 0;
+        while (true) {
+            byte[] bArr = this.bytes;
+            if (i == bArr.length) {
+                return true;
+            }
+            if (bArr[i] != dEREnumerated.bytes[i]) {
+                return false;
+            }
+            i++;
+        }
+    }
+
+    @Override
+    void encode(DEROutputStream dEROutputStream) throws IOException {
+        dEROutputStream.writeEncoded(10, this.bytes);
+    }
+
+    public BigInteger getValue() {
+        return new BigInteger(this.bytes);
+    }
+
+    @Override
+    public int hashCode() {
+        return getValue().hashCode();
+    }
+}

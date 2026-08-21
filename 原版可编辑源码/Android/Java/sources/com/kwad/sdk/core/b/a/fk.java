@@ -1,0 +1,54 @@
+package com.kwad.sdk.core.b.a;
+
+import com.kwad.sdk.core.response.model.AdMatrixInfo;
+import org.json.JSONObject;
+
+public final class fk implements com.kwad.sdk.core.d<AdMatrixInfo.MatrixTemplate> {
+    private static void a(AdMatrixInfo.MatrixTemplate matrixTemplate, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            return;
+        }
+        matrixTemplate.templateUrl = jSONObject.optString("templateUrl");
+        if (matrixTemplate.templateUrl == JSONObject.NULL) {
+            matrixTemplate.templateUrl = "";
+        }
+        matrixTemplate.templateVersion = jSONObject.optString("templateVersion");
+        if (matrixTemplate.templateVersion == JSONObject.NULL) {
+            matrixTemplate.templateVersion = "";
+        }
+        matrixTemplate.templateVersionCode = jSONObject.optLong("templateVersionCode");
+        matrixTemplate.templateMd5 = jSONObject.optString("templateMd5");
+        if (matrixTemplate.templateMd5 == JSONObject.NULL) {
+            matrixTemplate.templateMd5 = "";
+        }
+    }
+
+    private static JSONObject b(AdMatrixInfo.MatrixTemplate matrixTemplate, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            jSONObject = new JSONObject();
+        }
+        if (matrixTemplate.templateUrl != null && !matrixTemplate.templateUrl.equals("")) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "templateUrl", matrixTemplate.templateUrl);
+        }
+        if (matrixTemplate.templateVersion != null && !matrixTemplate.templateVersion.equals("")) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "templateVersion", matrixTemplate.templateVersion);
+        }
+        if (matrixTemplate.templateVersionCode != 0) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "templateVersionCode", matrixTemplate.templateVersionCode);
+        }
+        if (matrixTemplate.templateMd5 != null && !matrixTemplate.templateMd5.equals("")) {
+            com.kwad.sdk.utils.t.putValue(jSONObject, "templateMd5", matrixTemplate.templateMd5);
+        }
+        return jSONObject;
+    }
+
+    @Override
+    public final void a(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        a((AdMatrixInfo.MatrixTemplate) bVar, jSONObject);
+    }
+
+    @Override
+    public final JSONObject b(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        return b((AdMatrixInfo.MatrixTemplate) bVar, jSONObject);
+    }
+}

@@ -1,0 +1,67 @@
+package com.kuaishou.weapon.p0;
+
+import android.content.Context;
+import android.text.TextUtils;
+import org.json.JSONObject;
+
+public class co {
+    public static void a(Context context, String str) {
+        try {
+            a(context, str, null, false, true);
+        } catch (Throwable unused) {
+        }
+    }
+
+    public static void a(Context context, String str, final String str2, final boolean z, boolean z2) {
+        JSONObject jSONObject;
+        StringBuilder sb;
+        try {
+            String string = ct.a + ct.e;
+            String strA = cu.a(context);
+            if (!TextUtils.isEmpty(strA)) {
+                if (!ct.a() || str2 == null) {
+                    sb = new StringBuilder();
+                    sb.append(string);
+                    sb.append("?");
+                } else {
+                    sb = new StringBuilder();
+                    sb.append(string);
+                    sb.append("?logId=");
+                    sb.append(str2);
+                    sb.append("&");
+                }
+                sb.append(strA);
+                string = sb.toString();
+            }
+            if (TextUtils.isEmpty(str)) {
+                return;
+            }
+            if (z2) {
+                jSONObject = new JSONObject();
+                String strC = new bm(context).c(str);
+                if (!TextUtils.isEmpty(strC)) {
+                    jSONObject.put("data", strC);
+                }
+            } else {
+                jSONObject = new JSONObject(str);
+            }
+            l lVarA = l.a(context);
+            m mVar = new m(string, jSONObject);
+            mVar.a(WeaponHI.cookieData);
+            mVar.b(WeaponHI.encryENV);
+            lVarA.b(mVar, new j() {
+                @Override
+                public final void a(String str3) {
+                }
+
+                @Override
+                public final void b(String str3) {
+                    if (z) {
+                        TextUtils.isEmpty(str2);
+                    }
+                }
+            });
+        } catch (Throwable unused) {
+        }
+    }
+}

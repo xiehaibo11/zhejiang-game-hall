@@ -1,0 +1,19 @@
+package com.bytedance.android.live.base.api.outer;
+
+import android.view.View;
+
+public interface ILiveView {
+    View getView();
+
+    void openLive();
+
+    void release();
+
+    void setLiveStatusListener(ILiveStatusListener iLiveStatusListener);
+
+    void setMute(boolean z);
+
+    void show();
+
+    void stream();
+}

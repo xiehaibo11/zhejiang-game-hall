@@ -1,0 +1,7 @@
+package com.tkay.core.common.res.image;
+
+public final class c {
+    public static final String a = "-10000";
+    public static final String b = "-10001";
+    public static final String c = "Save fail!";
+}

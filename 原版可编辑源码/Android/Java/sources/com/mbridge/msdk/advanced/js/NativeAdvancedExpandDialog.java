@@ -1,0 +1,209 @@
+package com.mbridge.msdk.advanced.js;
+
+import android.app.Dialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
+import android.os.Build;
+import android.os.Bundle;
+import android.view.View;
+import android.view.WindowManager;
+import android.webkit.ValueCallback;
+import android.webkit.WebView;
+import android.widget.FrameLayout;
+import android.widget.TextView;
+import com.github.lzyzsd.jsbridge.BridgeUtil;
+import com.igexin.sdk.PushBuildConfig;
+import com.mbridge.msdk.foundation.entity.CampaignEx;
+import com.mbridge.msdk.foundation.tools.v;
+import com.mbridge.msdk.foundation.tools.z;
+import com.mbridge.msdk.mbjscommon.windvane.WindVaneWebView;
+import com.tkay.expressad.atsignalcommon.mraid.CallMraidJS;
+import java.util.HashMap;
+import java.util.List;
+import org.json.JSONObject;
+
+public class NativeAdvancedExpandDialog extends Dialog {
+    private final String a;
+    private String b;
+    private boolean c;
+    private FrameLayout d;
+    private WindVaneWebView e;
+    private TextView f;
+    private String g;
+    private List<CampaignEx> h;
+    private com.mbridge.msdk.advanced.c.a i;
+    private com.mbridge.msdk.mbjscommon.mraid.b j;
+
+    public NativeAdvancedExpandDialog(Context context, Bundle bundle, com.mbridge.msdk.advanced.c.a aVar) {
+        super(context);
+        this.a = "NativeAdvancedExpandDialog";
+        this.j = new com.mbridge.msdk.mbjscommon.mraid.b() {
+            @Override
+            public final void expand(String str, boolean z) {
+            }
+
+            @Override
+            public final CampaignEx getMraidCampaign() {
+                return null;
+            }
+
+            @Override
+            public final void open(String str) {
+                try {
+                    if (NativeAdvancedExpandDialog.this.e == null || System.currentTimeMillis() - NativeAdvancedExpandDialog.this.e.lastTouchTime <= com.mbridge.msdk.click.b.a.c || !com.mbridge.msdk.click.b.a.a((CampaignEx) NativeAdvancedExpandDialog.this.h.get(0), NativeAdvancedExpandDialog.this.e.getUrl(), com.mbridge.msdk.click.b.a.a)) {
+                        z.d("NativeAdvancedExpandDialog", str);
+                        if (NativeAdvancedExpandDialog.this.h.size() > 1) {
+                            com.mbridge.msdk.foundation.controller.a.f().j().startActivity(new Intent("android.intent.action.VIEW", Uri.parse(str)));
+                            str = null;
+                        }
+                        if (NativeAdvancedExpandDialog.this.i != null) {
+                            NativeAdvancedExpandDialog.this.i.a(true, str);
+                        }
+                    }
+                } catch (Throwable th) {
+                    z.c("NativeAdvancedExpandDialog", PushBuildConfig.sdk_conf_channelid, th);
+                }
+            }
+
+            @Override
+            public final void close() {
+                NativeAdvancedExpandDialog.this.dismiss();
+            }
+
+            @Override
+            public final void unload() {
+                close();
+            }
+
+            @Override
+            public final void useCustomClose(boolean z) {
+                try {
+                    NativeAdvancedExpandDialog.this.f.setVisibility(z ? 4 : 0);
+                } catch (Throwable th) {
+                    z.c("NativeAdvancedExpandDialog", "useCustomClose", th);
+                }
+            }
+        };
+        if (bundle != null) {
+            this.b = bundle.getString("url");
+            this.c = bundle.getBoolean("shouldUseCustomClose");
+        }
+        this.i = aVar;
+    }
+
+    @Override
+    protected void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
+        requestWindowFeature(1);
+        setCanceledOnTouchOutside(false);
+        setCancelable(true);
+        FrameLayout frameLayout = new FrameLayout(getContext());
+        this.d = frameLayout;
+        frameLayout.setLayoutParams(new FrameLayout.LayoutParams(-1, -1));
+        WindVaneWebView windVaneWebView = new WindVaneWebView(getContext().getApplicationContext());
+        this.e = windVaneWebView;
+        windVaneWebView.setLayoutParams(new FrameLayout.LayoutParams(-1, -1));
+        this.d.addView(this.e);
+        TextView textView = new TextView(getContext());
+        this.f = textView;
+        textView.setBackgroundColor(0);
+        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(96, 96);
+        layoutParams.gravity = 8388661;
+        layoutParams.setMargins(30, 30, 30, 30);
+        this.f.setLayoutParams(layoutParams);
+        this.f.setVisibility(this.c ? 4 : 0);
+        this.f.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public final void onClick(View view) {
+                NativeAdvancedExpandDialog.this.dismiss();
+            }
+        });
+        this.d.addView(this.f);
+        setContentView(this.d);
+        if (getWindow() != null) {
+            getWindow().setBackgroundDrawable(new ColorDrawable(0));
+            getWindow().getDecorView().setPadding(0, 0, 0, 0);
+            WindowManager.LayoutParams attributes = getWindow().getAttributes();
+            attributes.width = -1;
+            attributes.height = -1;
+            getWindow().setAttributes(attributes);
+            if (Build.VERSION.SDK_INT >= 16) {
+                getWindow().getDecorView().setSystemUiVisibility(Build.VERSION.SDK_INT >= 19 ? 4615 : 519);
+            }
+        }
+        this.e.setWebViewListener(new com.mbridge.msdk.mbjscommon.c.b() {
+            @Override
+            public final void a(WebView webView, String str) {
+                super.a(webView, str);
+                StringBuilder sb = new StringBuilder(BridgeUtil.JAVASCRIPT_STR);
+                sb.append(com.mbridge.msdk.c.b.b.a().b());
+                if (Build.VERSION.SDK_INT <= 19) {
+                    webView.loadUrl(sb.toString());
+                } else {
+                    webView.evaluateJavascript(sb.toString(), new ValueCallback<String>() {
+                        @Override
+                        public final void onReceiveValue(String str2) {
+                        }
+                    });
+                }
+                NativeAdvancedExpandDialog.a(NativeAdvancedExpandDialog.this);
+            }
+        });
+        this.e.setObject(this.j);
+        this.e.loadUrl(this.b);
+        setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public final void onDismiss(DialogInterface dialogInterface) {
+                if (NativeAdvancedExpandDialog.this.i != null) {
+                    NativeAdvancedExpandDialog.this.i.a(false);
+                }
+                NativeAdvancedExpandDialog.this.e.loadDataWithBaseURL(null, "", "text/html", "utf-8", null);
+                NativeAdvancedExpandDialog.this.d.removeView(NativeAdvancedExpandDialog.this.e);
+                NativeAdvancedExpandDialog.this.e.release();
+                NativeAdvancedExpandDialog.this.e = null;
+                NativeAdvancedExpandDialog.this.i = null;
+            }
+        });
+    }
+
+    public void setCampaignList(String str, List<CampaignEx> list) {
+        this.g = str;
+        this.h = list;
+    }
+
+    @Override
+    public void dismiss() {
+        super.dismiss();
+    }
+
+    static void a(NativeAdvancedExpandDialog nativeAdvancedExpandDialog) {
+        try {
+            int i = com.mbridge.msdk.foundation.controller.a.f().j().getResources().getConfiguration().orientation;
+            JSONObject jSONObject = new JSONObject();
+            jSONObject.put("orientation", i == 2 ? "landscape" : i == 1 ? "portrait" : "undefined");
+            jSONObject.put("locked", "true");
+            float fX = v.x(com.mbridge.msdk.foundation.controller.a.f().j());
+            float fY = v.y(com.mbridge.msdk.foundation.controller.a.f().j());
+            HashMap mapZ = v.z(com.mbridge.msdk.foundation.controller.a.f().j());
+            int iIntValue = ((Integer) mapZ.get("width")).intValue();
+            int iIntValue2 = ((Integer) mapZ.get("height")).intValue();
+            HashMap map = new HashMap();
+            map.put(CallMraidJS.a, CallMraidJS.k);
+            map.put(CallMraidJS.b, CallMraidJS.g);
+            map.put(CallMraidJS.c, "true");
+            map.put(CallMraidJS.d, jSONObject);
+            nativeAdvancedExpandDialog.e.getLocationInWindow(new int[2]);
+            com.mbridge.msdk.mbjscommon.mraid.a.a().a(nativeAdvancedExpandDialog.e, r1[0], r1[1], nativeAdvancedExpandDialog.e.getWidth(), nativeAdvancedExpandDialog.e.getHeight());
+            com.mbridge.msdk.mbjscommon.mraid.a.a().b(nativeAdvancedExpandDialog.e, r1[0], r1[1], nativeAdvancedExpandDialog.e.getWidth(), nativeAdvancedExpandDialog.e.getHeight());
+            com.mbridge.msdk.mbjscommon.mraid.a.a().b(nativeAdvancedExpandDialog.e, fX, fY);
+            com.mbridge.msdk.mbjscommon.mraid.a.a().c(nativeAdvancedExpandDialog.e, iIntValue, iIntValue2);
+            com.mbridge.msdk.mbjscommon.mraid.a.a().a(nativeAdvancedExpandDialog.e, map);
+            com.mbridge.msdk.mbjscommon.mraid.a.a().a(nativeAdvancedExpandDialog.e);
+        } catch (Throwable th) {
+            z.c("NativeAdvancedExpandDialog", "notifyMraid", th);
+        }
+    }
+}

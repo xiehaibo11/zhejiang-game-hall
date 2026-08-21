@@ -1,0 +1,38 @@
+package com.kwad.components.core.offline.init.b;
+
+import android.content.Context;
+import android.text.TextUtils;
+import com.kwad.components.offline.api.core.adlive.IAdLiveEndRequest;
+import com.kwad.components.offline.api.core.adlive.IAdLiveOfflineView;
+import com.kwad.components.offline.api.core.adlive.IAdLivePlayModule;
+import com.kwad.components.offline.api.core.adlive.ILive;
+import com.kwad.sdk.components.c;
+
+public final class a implements ILive {
+    @Override
+    public final IAdLivePlayModule getAdLivePlayModule(IAdLiveOfflineView iAdLiveOfflineView, String str, String str2) {
+        com.kwad.components.core.offline.api.a.a aVar = (com.kwad.components.core.offline.api.a.a) c.f(com.kwad.components.core.offline.api.a.a.class);
+        if (aVar == null || !aVar.hasLiveCompoReady()) {
+            return null;
+        }
+        return aVar.getAdLivePlayModule(iAdLiveOfflineView, str, str2);
+    }
+
+    @Override
+    public final IAdLiveOfflineView getIAdLiveOfflineView(Context context, int i) {
+        com.kwad.components.core.offline.api.a.a aVar = (com.kwad.components.core.offline.api.a.a) c.f(com.kwad.components.core.offline.api.a.a.class);
+        if (aVar == null || !aVar.hasLiveCompoReady()) {
+            return null;
+        }
+        return aVar.getView(context, i);
+    }
+
+    @Override
+    public final IAdLiveEndRequest mIAdLiveEndRequest(String str) {
+        com.kwad.components.core.offline.api.a.a aVar;
+        if (TextUtils.isEmpty(str) || (aVar = (com.kwad.components.core.offline.api.a.a) c.f(com.kwad.components.core.offline.api.a.a.class)) == null || !aVar.hasLiveCompoReady()) {
+            return null;
+        }
+        return aVar.getAdLiveEndRequest(str);
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/show_permission_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textSize="14.0sp" android:textColor="@color/show_permission_gray" android:id="@id/show_permission_check_box" android:layout_width="wrap_content" android:layout_height="@dimen/px_30" android:layout_marginBottom="55.0dp" android:checked="false" android:text="禁止后不再显示" android:layout_alignParentBottom="true" android:scaleX="0.6" android:scaleY="0.6" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginBottom="@dimen/px_20" android:layout_alignParentBottom="true">
+        <Button android:textSize="12.0sp" android:textColor="@color/show_permission_btn_ok" android:id="@id/show_permission_cancel" android:background="@drawable/show_permission_btn_cancel" android:layout_width="@dimen/px_0" android:layout_height="match_parent" android:layout_marginLeft="30.0dp" android:layout_marginRight="30.0dp" android:text="取消" android:layout_weight="1.0" />
+        <Button android:textSize="12.0sp" android:textColor="@color/show_permission_white" android:id="@id/show_permission_ok" android:background="@drawable/show_permission_btn_ok" android:layout_width="@dimen/px_0" android:layout_height="match_parent" android:layout_marginLeft="25.0dp" android:layout_marginRight="25.0dp" android:text="确认" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@color/show_permission_dark" android:ellipsize="end" android:gravity="center" android:id="@id/show_permission_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" />
+    <TextView android:textSize="10.0sp" android:gravity="center" android:id="@id/show_permission_bottom_notity" android:layout_width="match_parent" android:layout_height="15.0dp" android:layout_margin="3.0dp" android:text="你在此次勾选后可以到“手机管理-权限管理”中修改此选项" android:layout_alignParentBottom="true" />
+    <android.support.v7.widget.RecyclerView android:id="@id/show_permission_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/px_85" android:layout_below="@id/show_permission_title" />
+</RelativeLayout>

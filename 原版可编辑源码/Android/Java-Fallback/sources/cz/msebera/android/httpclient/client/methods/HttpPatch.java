@@ -1,0 +1,34 @@
+package cz.msebera.android.httpclient.client.methods;
+
+@cz.msebera.android.httpclient.annotation.NotThreadSafe
+public class HttpPatch extends cz.msebera.android.httpclient.client.methods.HttpEntityEnclosingRequestBase {
+    public static final java.lang.String METHOD_NAME = "PATCH";
+
+    public HttpPatch() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+
+    public HttpPatch(java.lang.String r1) {
+            r0 = this;
+            r0.<init>()
+            java.net.URI r1 = java.net.URI.create(r1)
+            r0.setURI(r1)
+            return
+    }
+
+    public HttpPatch(java.net.URI r1) {
+            r0 = this;
+            r0.<init>()
+            r0.setURI(r1)
+            return
+    }
+
+    @Override
+    public java.lang.String getMethod() {
+            r1 = this;
+            java.lang.String r0 = "PATCH"
+            return r0
+    }
+}

@@ -1,0 +1,33 @@
+package com.tencent.bugly.proguard;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public final class bm extends m implements Cloneable {
+    static ArrayList<String> c;
+    public String a = "";
+    public ArrayList<String> b = null;
+
+    @Override
+    public final void a(StringBuilder sb, int i) {
+    }
+
+    @Override
+    public final void a(l lVar) {
+        lVar.a(this.a, 0);
+        ArrayList<String> arrayList = this.b;
+        if (arrayList != null) {
+            lVar.a((Collection) arrayList, 1);
+        }
+    }
+
+    @Override
+    public final void a(k kVar) {
+        this.a = kVar.b(0, true);
+        if (c == null) {
+            c = new ArrayList<>();
+            c.add("");
+        }
+        this.b = (ArrayList) kVar.a(c, 1, false);
+    }
+}

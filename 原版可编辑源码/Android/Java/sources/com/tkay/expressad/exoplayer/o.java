@@ -1,0 +1,13 @@
+package com.tkay.expressad.exoplayer;
+
+public final class o extends IllegalStateException {
+    public final ae a;
+    public final int b;
+    public final long c;
+
+    public o(ae aeVar, int i, long j) {
+        this.a = aeVar;
+        this.b = i;
+        this.c = j;
+    }
+}

@@ -1,0 +1,40 @@
+package kotlin.collections;
+
+@kotlin.Metadata(d1 = {"\u0000\u0013\n\u0000\n\u0002\u0010(\n\u0000\n\u0002\u0010\u000b\n\u0002\b\u0003*\u0001\u0000\b\n\u0018\u00002\b\u0012\u0004\u0012\u00028\u00000\u0001J\t\u0010\u0002\u001a\u00020\u0003H\u0096\u0002J\u000e\u0010\u0004\u001a\u00028\u0000H\u0096\u0002¢\u0006\u0002\u0010\u0005¨\u0006\u0006"}, d2 = {"kotlin/collections/AbstractMap$keys$1$iterator$1", "", "hasNext", "", "next", "()Ljava/lang/Object;", "kotlin-stdlib"}, k = 1, mv = {1, 6, 0}, xi = 48)
+public final class AbstractMap$keys$1$iterator$1<K> implements java.util.Iterator<K>, kotlin.jvm.internal.markers.KMappedMarker {
+    final java.util.Iterator<java.util.Map.Entry<K, V>> $entryIterator;
+
+    AbstractMap$keys$1$iterator$1(java.util.Iterator<? extends java.util.Map.Entry<? extends K, ? extends V>> r1) {
+            r0 = this;
+            r0.$entryIterator = r1
+            r0.<init>()
+            return
+    }
+
+    @Override
+    public boolean hasNext() {
+            r1 = this;
+            java.util.Iterator<java.util.Map$Entry<K, V>> r0 = r1.$entryIterator
+            boolean r0 = r0.hasNext()
+            return r0
+    }
+
+    @Override
+    public K next() {
+            r1 = this;
+            java.util.Iterator<java.util.Map$Entry<K, V>> r0 = r1.$entryIterator
+            java.lang.Object r0 = r0.next()
+            java.util.Map$Entry r0 = (java.util.Map.Entry) r0
+            java.lang.Object r0 = r0.getKey()
+            return r0
+    }
+
+    @Override
+    public void remove() {
+            r2 = this;
+            java.lang.UnsupportedOperationException r0 = new java.lang.UnsupportedOperationException
+            java.lang.String r1 = "Operation is not supported for read-only collection"
+            r0.<init>(r1)
+            throw r0
+    }
+}

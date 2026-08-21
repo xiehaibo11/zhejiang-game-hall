@@ -1,0 +1,112 @@
+local TableTool = {}
+
+-- 值value是否存在于table中
+function TableTool.isValueInTable(value, t)
+    if type(t) ~= "table" then
+        return false, nil
+    end
+
+    for key, val in pairs(t) do
+        if val == value then
+            return true, key
+        end
+    end
+
+    return false, nil
+end
+
+-- 从table移除值元素
+function TableTool.removeValueFromTable(value, t)
+    local bIn, inIndex = TableTool.isValueInTable(value, t)
+    if not bIn then
+        return false
+    end
+    table.remove(t, inIndex)
+    return true
+end
+
+-- 两个table是否存在相同的值
+function TableTool.isTableHaveSameValue(table1, table2)
+    for _, val1 in pairs(table1) do
+        for _, val2 in pairs(table2) do
+            if val1 == val2 then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+-- 两个table是否所有值都相等
+function TableTool.isTableAllValueSame(table1, table2)
+    local tempTable1 = clone(table1)
+    local tempTable2 = clone(table2)
+    for _, val1 in pairs(tempTable1) do
+        if not TableTool.removeValueFromTable(val1, tempTable2) then
+            return false
+        end
+    end
+    -- 如果table2还有元素，则表示不相等
+    if next(tempTable2) then
+        return false
+    end
+    return true
+end
+
+--可以根据表元素进行去重,isBack表示后覆盖前
+function TableTool.unique(t, bArray, mainKey, isBack)
+    local check = {}
+    local n = {}
+    local idx = 1
+    for k, v in pairs(t) do
+        local judgeKey = v
+        if mainKey then
+            judgeKey = v[mainKey] or v
+        end
+        if not check[judgeKey] then
+            check[judgeKey] = idx
+            if bArray then
+                n[idx] = v
+                idx = idx + 1
+            else
+                n[k] = v
+            end
+        elseif isBack then
+            n[check[judgeKey]] = v
+        end
+    end
+    return n
+end
+
+-- table自带merge函数有时失效，故封装一个
+function TableTool.mergeTwoTable(t1, t2)
+    t1 = t1 or {}
+    t2 = t2 or {}
+    local finalTable = {}
+    for _, v in ipairs(t1) do
+        table.insert(finalTable, v)
+    end
+    for _, v in ipairs(t2) do
+        table.insert(finalTable, v)
+    end
+    return finalTable
+end
+
+function TableTool.getTableMinValue(t)
+    if not t or not next(t) then
+        return
+    end
+    local minValue
+    for _, v in pairs(t) do
+        if not minValue then
+            minValue = v
+        else
+            if type(v) == type(minValue) and v < minValue then
+                minValue = v
+            end
+        end
+    end
+    return minValue
+end
+
+return TableTool

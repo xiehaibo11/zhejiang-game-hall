@@ -1,0 +1,98 @@
+package com.mbridge.msdk.nativex.view;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.util.Base64;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
+import android.webkit.WebView;
+import com.mbridge.msdk.foundation.entity.CampaignEx;
+import com.mbridge.msdk.foundation.entity.p;
+import com.mbridge.msdk.foundation.same.report.c;
+import com.mbridge.msdk.foundation.tools.z;
+import com.mbridge.msdk.mbjscommon.windvane.WindVaneWebView;
+import com.mbridge.msdk.mbjscommon.windvane.h;
+import com.mbridge.msdk.nativex.listener.b;
+import org.json.JSONObject;
+
+public class WindVaneWebViewForNV extends WindVaneWebView {
+    private static String e = "WindVaneWebViewForNV";
+    private b f;
+    private boolean g;
+
+    public void setInterceptTouch(boolean z) {
+        this.g = z;
+    }
+
+    public void setBackListener(b bVar) {
+        this.f = bVar;
+    }
+
+    public WindVaneWebViewForNV(Context context) {
+        super(context);
+        this.g = false;
+    }
+
+    public WindVaneWebViewForNV(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+        this.g = false;
+    }
+
+    public WindVaneWebViewForNV(Context context, AttributeSet attributeSet, int i) {
+        super(context, attributeSet, i);
+        this.g = false;
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent motionEvent) {
+        if (this.g) {
+            return false;
+        }
+        return super.onTouchEvent(motionEvent);
+    }
+
+    @Override
+    public boolean onKeyDown(int i, KeyEvent keyEvent) {
+        z.a(e, "====webview 返回keyCode:" + i);
+        if (i == 4) {
+            z.a(e, "====webview 返回");
+            b bVar = this.f;
+            if (bVar != null) {
+                bVar.a();
+                return true;
+            }
+        }
+        return super.onKeyDown(i, keyEvent);
+    }
+
+    public void webViewShow(CampaignEx campaignEx, String str) {
+        try {
+            z.a(e, "webviewshow");
+            h.a().a((WebView) this, "webviewshow", "");
+            p pVar = new p();
+            pVar.k(campaignEx.getRequestId());
+            pVar.l(campaignEx.getRequestIdNotice());
+            if (getContext() != null && getContext().getApplicationContext() != null) {
+                pVar.n(campaignEx.getId());
+                pVar.a(campaignEx.isMraid() ? p.a : p.b);
+                c.a(pVar, getContext().getApplicationContext(), str);
+            }
+        } catch (Exception e2) {
+            e2.printStackTrace();
+        }
+    }
+
+    public void orientation(boolean z) {
+        try {
+            JSONObject jSONObject = new JSONObject();
+            if (z) {
+                jSONObject.put("orientation", "landscape");
+            } else {
+                jSONObject.put("orientation", "portrait");
+            }
+            h.a().a((WebView) this, "orientation", Base64.encodeToString(jSONObject.toString().getBytes(), 2));
+        } catch (Exception e2) {
+            e2.printStackTrace();
+        }
+    }
+}

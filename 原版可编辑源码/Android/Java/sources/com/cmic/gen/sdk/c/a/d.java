@@ -1,0 +1,71 @@
+package com.cmic.gen.sdk.c.a;
+
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.Network;
+import android.os.Build;
+import com.cmic.gen.sdk.e.n;
+import com.cmic.gen.sdk.e.r;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+public class d implements b {
+    private b a;
+
+    @Override
+    public void a(final com.cmic.gen.sdk.c.c.c cVar, final com.cmic.gen.sdk.c.d.c cVar2, final com.cmic.gen.sdk.a aVar) {
+        if (!cVar.b()) {
+            b(cVar, cVar2, aVar);
+            return;
+        }
+        final r rVarA = r.a((Context) null);
+        if (Build.VERSION.SDK_INT >= 21) {
+            rVarA.a(new r.a() {
+                private final AtomicBoolean f = new AtomicBoolean(false);
+
+                @Override
+                public void a(final Network network, final ConnectivityManager.NetworkCallback networkCallback) {
+                    if (this.f.getAndSet(true)) {
+                        return;
+                    }
+                    n.a(new n.a(null, aVar) {
+                        @Override
+                        protected void a() {
+                            if (network != null) {
+                                com.cmic.gen.sdk.e.c.b("WifiChangeInterceptor", "onAvailable");
+                                cVar.a(network);
+                                d.this.b(cVar, cVar2, aVar);
+                            } else {
+                                cVar2.a(com.cmic.gen.sdk.c.d.a.a(102508));
+                            }
+                            rVarA.a(networkCallback);
+                        }
+                    });
+                }
+            });
+        } else {
+            com.cmic.gen.sdk.e.c.a("WifiChangeInterceptor", "低版本不在支持wifi切换");
+            cVar2.a(com.cmic.gen.sdk.c.d.a.a(102508));
+        }
+    }
+
+    public void b(com.cmic.gen.sdk.c.c.c cVar, final com.cmic.gen.sdk.c.d.c cVar2, com.cmic.gen.sdk.a aVar) {
+        b bVar = this.a;
+        if (bVar != null) {
+            bVar.a(cVar, new com.cmic.gen.sdk.c.d.c() {
+                @Override
+                public void a(com.cmic.gen.sdk.c.d.b bVar2) {
+                    cVar2.a(bVar2);
+                }
+
+                @Override
+                public void a(com.cmic.gen.sdk.c.d.a aVar2) {
+                    cVar2.a(aVar2);
+                }
+            }, aVar);
+        }
+    }
+
+    public void a(b bVar) {
+        this.a = bVar;
+    }
+}

@@ -1,0 +1,123 @@
+package com.mbridge.msdk.foundation.same.a;
+
+import android.graphics.Bitmap;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public final class a implements c<String, Bitmap> {
+    private final LinkedHashMap<String, Bitmap> a;
+    private final int b;
+    private int c;
+
+    @Override
+    public final void a(String str) {
+        String str2 = str;
+        if (str2 == null) {
+            throw new NullPointerException("key == null");
+        }
+        synchronized (this) {
+            Bitmap bitmapRemove = this.a.remove(str2);
+            if (bitmapRemove != null) {
+                this.c -= b(str2, bitmapRemove);
+            }
+        }
+    }
+
+    public a(int i) {
+        if (i <= 0) {
+            throw new IllegalArgumentException("maxSize <= 0");
+        }
+        this.b = i;
+        this.a = new LinkedHashMap<>(0, 0.75f, true);
+    }
+
+    @Override
+    private Bitmap b(String str) {
+        if (str == null) {
+            throw new NullPointerException("key == null");
+        }
+        synchronized (this) {
+            Bitmap bitmap = this.a.get(str);
+            if (bitmap == null || bitmap.isRecycled()) {
+                return null;
+            }
+            return bitmap;
+        }
+    }
+
+    @Override
+    private boolean a(String str, Bitmap bitmap) {
+        if (str == null || bitmap == null) {
+            throw new NullPointerException("key == null || value == null");
+        }
+        synchronized (this) {
+            this.c += b(str, bitmap);
+            Bitmap bitmapPut = this.a.put(str, bitmap);
+            if (bitmapPut != null) {
+                this.c -= b(str, bitmapPut);
+            }
+        }
+        a(this.b);
+        return true;
+    }
+
+    /* JADX WARN: Code restructure failed: missing block: B:23:0x0055, code lost:
+    
+        return;
+     */
+    /* JADX WARN: Code restructure failed: missing block: B:25:0x0074, code lost:
+    
+        throw new java.lang.IllegalStateException(getClass().getName() + ".sizeOf() is reporting inconsistent results!");
+     */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+    */
+    private void a(int i) {
+        while (true) {
+            synchronized (this) {
+                if (this.c >= 0 && (!this.a.isEmpty() || this.c == 0)) {
+                    if (this.c <= i || this.a.isEmpty()) {
+                        break;
+                    }
+                    Map.Entry<String, Bitmap> next = this.a.entrySet().iterator().next();
+                    if (next == null) {
+                        return;
+                    }
+                    String key = next.getKey();
+                    try {
+                        int iB = b(key, next.getValue());
+                        this.a.remove(key).recycle();
+                        this.c -= iB;
+                    } catch (Throwable unused) {
+                    }
+                } else {
+                    break;
+                }
+            }
+        }
+    }
+
+    @Override
+    public final Collection<String> a() {
+        HashSet hashSet;
+        synchronized (this) {
+            hashSet = new HashSet(this.a.keySet());
+        }
+        return hashSet;
+    }
+
+    @Override
+    public final void b() {
+        a(-1);
+    }
+
+    private int b(String str, Bitmap bitmap) {
+        return bitmap.getRowBytes() * bitmap.getHeight();
+    }
+
+    public final synchronized String toString() {
+        return String.format("LruCache[maxSize=%d]", Integer.valueOf(this.b));
+    }
+}

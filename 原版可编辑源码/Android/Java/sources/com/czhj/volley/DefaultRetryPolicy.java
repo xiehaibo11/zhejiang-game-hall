@@ -1,0 +1,64 @@
+package com.czhj.volley;
+
+public class DefaultRetryPolicy implements RetryPolicy {
+    public static final float DEFAULT_BACKOFF_MULT = 0.0f;
+    public static final int DEFAULT_CONNECT_TIMEOUT_MS = 10000;
+    public static final int DEFAULT_MAX_RETRIES = 2;
+    public static final int DEFAULT_TIMEOUT_MS = 10000;
+    private final int a;
+    private final float b;
+    private final int c;
+    private int d;
+    private int e;
+
+    public DefaultRetryPolicy() {
+        this(10000, 2, 0.0f);
+    }
+
+    public DefaultRetryPolicy(int i, int i2, float f) {
+        this.c = i;
+        this.d = i;
+        this.a = i2;
+        this.b = f;
+    }
+
+    public DefaultRetryPolicy(int i, int i2, int i3, float f) {
+        this.c = i;
+        this.d = i2;
+        this.a = i3;
+        this.b = f;
+    }
+
+    public float getBackoffMultiplier() {
+        return this.b;
+    }
+
+    @Override
+    public int getCurrentConnectTimeoutMs() {
+        return this.c;
+    }
+
+    @Override
+    public int getCurrentRetryCount() {
+        return this.e;
+    }
+
+    @Override
+    public int getCurrentTimeout() {
+        return this.d;
+    }
+
+    protected boolean hasAttemptRemaining() {
+        return this.e <= this.a;
+    }
+
+    @Override
+    public void retry(VolleyError volleyError) throws VolleyError {
+        this.e++;
+        int i = this.d;
+        this.d = i + ((int) (i * this.b));
+        if (!hasAttemptRemaining()) {
+            throw volleyError;
+        }
+    }
+}

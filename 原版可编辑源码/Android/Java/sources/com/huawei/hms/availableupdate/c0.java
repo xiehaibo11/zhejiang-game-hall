@@ -1,0 +1,35 @@
+package com.huawei.hms.availableupdate;
+
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import com.huawei.hms.utils.ResourceLoaderUtil;
+
+public abstract class c0 extends q {
+
+    public class a implements DialogInterface.OnClickListener {
+        public a() {
+        }
+
+        @Override
+        public void onClick(DialogInterface dialogInterface, int i) {
+            c0.this.d();
+        }
+    }
+
+    public c0() {
+    }
+
+    @Override
+    public AlertDialog g() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(e(), f());
+        builder.setMessage(h());
+        builder.setPositiveButton(i(), new a());
+        return builder.create();
+    }
+
+    public abstract int h();
+
+    public int i() {
+        return ResourceLoaderUtil.getStringId("hms_confirm");
+    }
+}

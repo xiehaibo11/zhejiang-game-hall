@@ -1,0 +1,26 @@
+package com.kwad.components.core.webview.jshandler;
+
+import java.util.UUID;
+
+public final class g implements com.kwad.sdk.core.webview.c.a {
+
+    public static class a extends com.kwad.sdk.core.response.a.a {
+        public String data;
+    }
+
+    @Override
+    public final void a(String str, com.kwad.sdk.core.webview.c.c cVar) {
+        a aVar = new a();
+        aVar.data = UUID.randomUUID().toString();
+        cVar.a(aVar);
+    }
+
+    @Override
+    public final String getKey() {
+        return "uuid";
+    }
+
+    @Override
+    public final void onDestroy() {
+    }
+}

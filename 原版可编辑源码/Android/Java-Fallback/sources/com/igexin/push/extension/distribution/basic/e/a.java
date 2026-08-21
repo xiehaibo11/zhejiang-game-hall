@@ -1,0 +1,359 @@
+package com.igexin.push.extension.distribution.basic.e;
+
+public class a extends android.database.sqlite.SQLiteOpenHelper {
+    android.database.sqlite.SQLiteDatabase a;
+
+    public a(android.content.Context r4) {
+            r3 = this;
+            r0 = 0
+            java.lang.String r1 = "pushext.db"
+            r2 = 4
+            r3.<init>(r4, r1, r0, r2)
+            r3.a = r0
+            return
+    }
+
+    private java.lang.String a(java.lang.String r3, java.lang.String r4) {
+            r2 = this;
+            java.lang.StringBuilder r0 = new java.lang.StringBuilder
+            r0.<init>()
+            java.lang.String r1 = "delete from "
+            r0.append(r1)
+            r0.append(r3)
+            java.lang.String r3 = " where "
+            r0.append(r3)
+            r0.append(r4)
+            java.lang.String r3 = r0.toString()
+            return r3
+    }
+
+    private java.lang.String a(java.lang.String[] r7, java.lang.String[] r8, int r9) {
+            r6 = this;
+            java.lang.StringBuilder r0 = new java.lang.StringBuilder
+            java.lang.String r1 = " "
+            r0.<init>(r1)
+            int r1 = r7.length
+            java.lang.String r2 = "'"
+            java.lang.String r3 = " = '"
+            r4 = 0
+            r5 = 1
+            if (r1 != r5) goto L2f
+            r1 = r4
+        L11:
+            if (r1 >= r9) goto L4d
+            r5 = r7[r4]
+            r0.append(r5)
+            r0.append(r3)
+            r5 = r8[r1]
+            r0.append(r5)
+            r0.append(r2)
+            int r5 = r9 + (-1)
+            if (r1 >= r5) goto L2c
+            java.lang.String r5 = " or "
+            r0.append(r5)
+        L2c:
+            int r1 = r1 + 1
+            goto L11
+        L2f:
+            if (r4 >= r9) goto L4d
+            r1 = r7[r4]
+            r0.append(r1)
+            r0.append(r3)
+            r1 = r8[r4]
+            r0.append(r1)
+            r0.append(r2)
+            int r1 = r9 + (-1)
+            if (r4 >= r1) goto L4a
+            java.lang.String r1 = " and "
+            r0.append(r1)
+        L4a:
+            int r4 = r4 + 1
+            goto L2f
+        L4d:
+            java.lang.String r7 = r0.toString()
+            return r7
+    }
+
+    public android.database.Cursor a(java.lang.String r2, java.lang.String[] r3) {
+            r1 = this;
+            android.database.sqlite.SQLiteDatabase r0 = r1.getReadableDatabase()
+            r1.a = r0
+            android.database.Cursor r2 = r0.rawQuery(r2, r3)     // Catch: java.lang.Exception -> Lb
+            goto Lc
+        Lb:
+            r2 = 0
+        Lc:
+            return r2
+    }
+
+    public android.database.Cursor a(java.lang.String r9, java.lang.String[] r10, java.lang.String r11) {
+            r8 = this;
+            android.database.sqlite.SQLiteDatabase r0 = r8.getReadableDatabase()
+            r8.a = r0
+            r4 = 0
+            r5 = 0
+            r6 = 0
+            r7 = 0
+            r1 = r9
+            r2 = r10
+            r3 = r11
+            android.database.Cursor r9 = r0.query(r1, r2, r3, r4, r5, r6, r7)
+            return r9
+    }
+
+    public android.database.Cursor a(java.lang.String r12, java.lang.String[] r13, java.lang.String[] r14, java.lang.String[] r15, java.lang.String r16) {
+            r11 = this;
+            r1 = r11
+            r0 = r13
+            r6 = r14
+            android.database.sqlite.SQLiteDatabase r2 = r11.getReadableDatabase()
+            r1.a = r2
+            r2.beginTransaction()
+            r10 = 0
+            if (r0 != 0) goto L1f
+            android.database.sqlite.SQLiteDatabase r2 = r1.a     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            r5 = 0
+            r6 = 0
+            r7 = 0
+            r8 = 0
+            r3 = r12
+            r4 = r15
+            r9 = r16
+            android.database.Cursor r0 = r2.query(r3, r4, r5, r6, r7, r8, r9)     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+        L1d:
+            r10 = r0
+            goto L6e
+        L1f:
+            int r2 = r0.length     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            r3 = 1
+            if (r2 != r3) goto L5b
+            int r2 = r6.length     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            if (r2 != r3) goto L48
+            android.database.sqlite.SQLiteDatabase r2 = r1.a     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            r3.<init>()     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            r4 = 0
+            r0 = r0[r4]     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            r3.append(r0)     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            java.lang.String r0 = " = ? "
+            r3.append(r0)     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            java.lang.String r5 = r3.toString()     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            r7 = 0
+            r8 = 0
+            r3 = r12
+            r4 = r15
+            r6 = r14
+            r9 = r16
+            android.database.Cursor r0 = r2.query(r3, r4, r5, r6, r7, r8, r9)     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            goto L1d
+        L48:
+            android.database.sqlite.SQLiteDatabase r2 = r1.a     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            int r3 = r6.length     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            java.lang.String r5 = r11.a(r13, r14, r3)     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            r6 = 0
+            r7 = 0
+            r8 = 0
+            r3 = r12
+            r4 = r15
+            r9 = r16
+            android.database.Cursor r0 = r2.query(r3, r4, r5, r6, r7, r8, r9)     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            goto L1d
+        L5b:
+            android.database.sqlite.SQLiteDatabase r2 = r1.a     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            int r3 = r0.length     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            java.lang.String r5 = r11.a(r13, r14, r3)     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            r6 = 0
+            r7 = 0
+            r8 = 0
+            r3 = r12
+            r4 = r15
+            r9 = r16
+            android.database.Cursor r0 = r2.query(r3, r4, r5, r6, r7, r8, r9)     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            goto L1d
+        L6e:
+            android.database.sqlite.SQLiteDatabase r0 = r1.a     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            r0.setTransactionSuccessful()     // Catch: java.lang.Throwable -> L74 java.lang.Exception -> L7b
+            goto L7b
+        L74:
+            r0 = move-exception
+            android.database.sqlite.SQLiteDatabase r2 = r1.a
+            r2.endTransaction()
+            throw r0
+        L7b:
+            android.database.sqlite.SQLiteDatabase r0 = r1.a
+            r0.endTransaction()
+            return r10
+    }
+
+    public void a(java.lang.String r3, android.content.ContentValues r4) {
+            r2 = this;
+            android.database.sqlite.SQLiteDatabase r0 = r2.getWritableDatabase()
+            r2.a = r0
+            r0.beginTransaction()
+            android.database.sqlite.SQLiteDatabase r0 = r2.a     // Catch: java.lang.Throwable -> L15 java.lang.Exception -> L1c
+            r1 = 0
+            r0.insert(r3, r1, r4)     // Catch: java.lang.Throwable -> L15 java.lang.Exception -> L1c
+            android.database.sqlite.SQLiteDatabase r3 = r2.a     // Catch: java.lang.Throwable -> L15 java.lang.Exception -> L1c
+            r3.setTransactionSuccessful()     // Catch: java.lang.Throwable -> L15 java.lang.Exception -> L1c
+            goto L1c
+        L15:
+            r3 = move-exception
+            android.database.sqlite.SQLiteDatabase r4 = r2.a
+            r4.endTransaction()
+            throw r3
+        L1c:
+            android.database.sqlite.SQLiteDatabase r3 = r2.a
+            r3.endTransaction()
+            return
+    }
+
+    public void a(java.lang.String r2, java.lang.String r3, android.content.ContentValues r4) {
+            r1 = this;
+            android.database.sqlite.SQLiteDatabase r0 = r1.getWritableDatabase()
+            r1.a = r0
+            r0.replace(r2, r3, r4)     // Catch: java.lang.Exception -> L9
+        L9:
+            return
+    }
+
+    public void a(java.lang.String r4, java.lang.String[] r5, java.lang.String[] r6) {
+            r3 = this;
+            android.database.sqlite.SQLiteDatabase r0 = r3.getWritableDatabase()
+            r3.a = r0
+            r0.beginTransaction()
+            if (r5 != 0) goto L12
+            android.database.sqlite.SQLiteDatabase r5 = r3.a     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            r6 = 0
+            r5.delete(r4, r6, r6)     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            goto L4e
+        L12:
+            int r0 = r5.length     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            r1 = 1
+            if (r0 != r1) goto L42
+            int r0 = r6.length     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            if (r0 != r1) goto L33
+            android.database.sqlite.SQLiteDatabase r0 = r3.a     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            java.lang.StringBuilder r1 = new java.lang.StringBuilder     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            r1.<init>()     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            r2 = 0
+            r5 = r5[r2]     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            r1.append(r5)     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            java.lang.String r5 = " = ?"
+            r1.append(r5)     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            java.lang.String r5 = r1.toString()     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            r0.delete(r4, r5, r6)     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            goto L4e
+        L33:
+            android.database.sqlite.SQLiteDatabase r0 = r3.a     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            int r1 = r6.length     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            java.lang.String r5 = r3.a(r5, r6, r1)     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            java.lang.String r4 = r3.a(r4, r5)     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+        L3e:
+            r0.execSQL(r4)     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            goto L4e
+        L42:
+            android.database.sqlite.SQLiteDatabase r0 = r3.a     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            int r1 = r5.length     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            java.lang.String r5 = r3.a(r5, r6, r1)     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            java.lang.String r4 = r3.a(r4, r5)     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            goto L3e
+        L4e:
+            android.database.sqlite.SQLiteDatabase r4 = r3.a     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            r4.setTransactionSuccessful()     // Catch: java.lang.Throwable -> L54 java.lang.Exception -> L5b
+            goto L5b
+        L54:
+            r4 = move-exception
+            android.database.sqlite.SQLiteDatabase r5 = r3.a
+            r5.endTransaction()
+            throw r4
+        L5b:
+            android.database.sqlite.SQLiteDatabase r4 = r3.a
+            r4.endTransaction()
+            return
+    }
+
+    @Override
+    public void close() {
+            r1 = this;
+            android.database.sqlite.SQLiteDatabase r0 = r1.a     // Catch: java.lang.Exception -> L5
+            r0.close()     // Catch: java.lang.Exception -> L5
+        L5:
+            return
+    }
+
+    @Override
+    public void onCreate(android.database.sqlite.SQLiteDatabase r2) {
+            r1 = this;
+            r2.beginTransaction()     // Catch: java.lang.Throwable -> Lc java.lang.Exception -> L11
+            java.lang.String r0 = "create table if not exists image(id integer primary key autoincrement, imageurl text, imagesrc text, taskid text, createtime bigint)"
+            r2.execSQL(r0)     // Catch: java.lang.Throwable -> Lc java.lang.Exception -> L11
+            r2.setTransactionSuccessful()     // Catch: java.lang.Throwable -> Lc java.lang.Exception -> L11
+            goto L11
+        Lc:
+            r0 = move-exception
+            r2.endTransaction()
+            throw r0
+        L11:
+            r2.endTransaction()
+            r2.beginTransaction()     // Catch: java.lang.Throwable -> L20 java.lang.Exception -> L25
+            java.lang.String r0 = "create table if not exists message(id integer primary key autoincrement,messageid text,taskid text,appid text,info text,msgextra blob,key text,createtime integer)"
+            r2.execSQL(r0)     // Catch: java.lang.Throwable -> L20 java.lang.Exception -> L25
+            r2.setTransactionSuccessful()     // Catch: java.lang.Throwable -> L20 java.lang.Exception -> L25
+            goto L25
+        L20:
+            r0 = move-exception
+            r2.endTransaction()
+            throw r0
+        L25:
+            r2.endTransaction()
+            r2.beginTransaction()     // Catch: java.lang.Throwable -> L34 java.lang.Exception -> L39
+            java.lang.String r0 = "create table if not exists sc(id integer primary key autoincrement, title text, value text)"
+            r2.execSQL(r0)     // Catch: java.lang.Throwable -> L34 java.lang.Exception -> L39
+            r2.setTransactionSuccessful()     // Catch: java.lang.Throwable -> L34 java.lang.Exception -> L39
+            goto L39
+        L34:
+            r0 = move-exception
+            r2.endTransaction()
+            throw r0
+        L39:
+            r2.endTransaction()
+            r2.beginTransaction()     // Catch: java.lang.Throwable -> L48 java.lang.Exception -> L4d
+            java.lang.String r0 = "create table if not exists extconfig (key integer primary key, value text)"
+            r2.execSQL(r0)     // Catch: java.lang.Throwable -> L48 java.lang.Exception -> L4d
+            r2.setTransactionSuccessful()     // Catch: java.lang.Throwable -> L48 java.lang.Exception -> L4d
+            goto L4d
+        L48:
+            r0 = move-exception
+            r2.endTransaction()
+            throw r0
+        L4d:
+            r2.endTransaction()
+            return
+    }
+
+    @Override
+    public void onDowngrade(android.database.sqlite.SQLiteDatabase r1, int r2, int r3) {
+            r0 = this;
+            r0.onUpgrade(r1, r3, r2)
+            return
+    }
+
+    @Override
+    public void onUpgrade(android.database.sqlite.SQLiteDatabase r1, int r2, int r3) {
+            r0 = this;
+            java.lang.String r2 = "drop table if exists image"
+            r1.execSQL(r2)     // Catch: java.lang.Exception -> L5
+        L5:
+            java.lang.String r2 = "drop table if exists message"
+            r1.execSQL(r2)     // Catch: java.lang.Exception -> La
+        La:
+            java.lang.String r2 = "drop table if exists sc"
+            r1.execSQL(r2)     // Catch: java.lang.Exception -> Lf
+        Lf:
+            java.lang.String r2 = "drop table if exists extconfig"
+            r1.execSQL(r2)     // Catch: java.lang.Exception -> L14
+        L14:
+            r0.onCreate(r1)
+            return
+    }
+}

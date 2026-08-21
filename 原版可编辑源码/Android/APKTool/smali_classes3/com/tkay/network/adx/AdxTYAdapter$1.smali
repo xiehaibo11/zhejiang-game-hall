@@ -1,0 +1,172 @@
+.class final Lcom/tkay/network/adx/AdxTYAdapter$1;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/tkay/basead/e/d;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tkay/network/adx/AdxTYAdapter;->loadCustomNetworkAd(Landroid/content/Context;Ljava/util/Map;Ljava/util/Map;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:I
+
+.field final synthetic b:I
+
+.field final synthetic c:Z
+
+.field final synthetic d:Ljava/lang/String;
+
+.field final synthetic e:Landroid/content/Context;
+
+.field final synthetic f:Z
+
+.field final synthetic g:Lcom/tkay/network/adx/AdxTYAdapter;
+
+
+# direct methods
+.method constructor <init>(Lcom/tkay/network/adx/AdxTYAdapter;IIZLjava/lang/String;Landroid/content/Context;Z)V
+    .locals 0
+
+    .line 96
+    iput-object p1, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->g:Lcom/tkay/network/adx/AdxTYAdapter;
+
+    iput p2, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->a:I
+
+    iput p3, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->b:I
+
+    iput-boolean p4, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->c:Z
+
+    iput-object p5, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->d:Ljava/lang/String;
+
+    iput-object p6, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->e:Landroid/content/Context;
+
+    iput-boolean p7, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->f:Z
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onNativeAdLoadError(Lcom/tkay/basead/c/e;)V
+    .locals 2
+
+    .line 114
+    iget-object v0, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->g:Lcom/tkay/network/adx/AdxTYAdapter;
+
+    invoke-static {v0}, Lcom/tkay/network/adx/AdxTYAdapter;->d(Lcom/tkay/network/adx/AdxTYAdapter;)Lcom/tkay/core/api/TYCustomLoadListener;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 115
+    iget-object v0, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->g:Lcom/tkay/network/adx/AdxTYAdapter;
+
+    invoke-static {v0}, Lcom/tkay/network/adx/AdxTYAdapter;->e(Lcom/tkay/network/adx/AdxTYAdapter;)Lcom/tkay/core/api/TYCustomLoadListener;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lcom/tkay/basead/c/e;->a()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {p1}, Lcom/tkay/basead/c/e;->b()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-interface {v0, v1, p1}, Lcom/tkay/core/api/TYCustomLoadListener;->onAdLoadError(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final varargs onNativeAdLoaded([Lcom/tkay/basead/d/h;)V
+    .locals 7
+
+    .line 99
+    array-length v0, p1
+
+    new-array v0, v0, [Lcom/tkay/network/adx/AdxTYNativeAd;
+
+    const/4 v1, 0x0
+
+    .line 100
+    :goto_0
+    array-length v2, p1
+
+    if-ge v1, v2, :cond_0
+
+    .line 101
+    aget-object v2, p1, v1
+
+    .line 102
+    iget v3, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->a:I
+
+    iget v4, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->b:I
+
+    invoke-virtual {v2, v3, v4}, Lcom/tkay/basead/d/h;->a(II)V
+
+    .line 103
+    iget-boolean v3, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->c:Z
+
+    invoke-virtual {v2, v3}, Lcom/tkay/basead/d/h;->a(Z)V
+
+    .line 104
+    iget-object v3, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->d:Ljava/lang/String;
+
+    invoke-virtual {v2, v3}, Lcom/tkay/basead/d/h;->a(Ljava/lang/String;)V
+
+    .line 105
+    new-instance v3, Lcom/tkay/network/adx/AdxTYNativeAd;
+
+    iget-object v4, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->e:Landroid/content/Context;
+
+    iget-object v5, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->g:Lcom/tkay/network/adx/AdxTYAdapter;
+
+    invoke-static {v5}, Lcom/tkay/network/adx/AdxTYAdapter;->a(Lcom/tkay/network/adx/AdxTYAdapter;)Z
+
+    move-result v5
+
+    iget-boolean v6, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->f:Z
+
+    invoke-direct {v3, v4, v2, v5, v6}, Lcom/tkay/network/adx/AdxTYNativeAd;-><init>(Landroid/content/Context;Lcom/tkay/basead/d/h;ZZ)V
+
+    aput-object v3, v0, v1
+
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    .line 107
+    :cond_0
+    iget-object p1, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->g:Lcom/tkay/network/adx/AdxTYAdapter;
+
+    invoke-static {p1}, Lcom/tkay/network/adx/AdxTYAdapter;->b(Lcom/tkay/network/adx/AdxTYAdapter;)Lcom/tkay/core/api/TYCustomLoadListener;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    .line 108
+    iget-object p1, p0, Lcom/tkay/network/adx/AdxTYAdapter$1;->g:Lcom/tkay/network/adx/AdxTYAdapter;
+
+    invoke-static {p1}, Lcom/tkay/network/adx/AdxTYAdapter;->c(Lcom/tkay/network/adx/AdxTYAdapter;)Lcom/tkay/core/api/TYCustomLoadListener;
+
+    move-result-object p1
+
+    invoke-interface {p1, v0}, Lcom/tkay/core/api/TYCustomLoadListener;->onAdCacheLoaded([Lcom/tkay/core/api/BaseAd;)V
+
+    :cond_1
+    return-void
+.end method

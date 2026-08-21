@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tkay_myoffer_media_ad_container" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tkay_myoffer_media_ad_main_image_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="140.0dp">
+        <ImageView android:id="@id/tkay_myoffer_media_ad_bg_blur" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:id="@id/tkay_myoffer_media_ad_main_image" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.tkay.core.common.ui.component.RoundImageView android:id="@id/tkay_myoffer_media_ad_icon" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginLeft="12.0dp" android:layout_marginBottom="82.0dp" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <com.tkay.basead.ui.ScanningAnimTextView android:textSize="14.0dp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tkay_myoffer_media_ad_cta" android:background="@drawable/tkay_myoffer_splash_bg_rectangle_btn_cta_asseblem" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginLeft="12.0dp" android:layout_marginRight="12.0dp" android:layout_marginBottom="24.0dp" android:minWidth="60.0dp" android:text="@string/tkay_myoffer_cta_learn_more" android:layout_alignParentBottom="true" style="@style/tkay_myoffer_single_line" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginLeft="12.0dp" android:layout_marginRight="12.0dp" android:layout_marginBottom="82.0dp" android:layout_toRightOf="@id/tkay_myoffer_media_ad_icon" android:layout_alignParentBottom="true">
+        <TextView android:textSize="18.0dp" android:textColor="@color/tkay_color_ff000000" android:id="@id/tkay_myoffer_banner_ad_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/tkay_myoffer_single_line.nofontpadding" />
+        <TextView android:textSize="12.0dp" android:textColor="@color/tkay_color_ff000000" android:id="@id/tkay_myoffer_banner_ad_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" style="@style/tkay_myoffer_single_line.nofontpadding" />
+    </LinearLayout>
+    <include android:layout_width="match_parent" android:layout_height="22.0dp" android:layout_alignParentBottom="true" layout="@layout/tkay_myoffer_include_4_element_mediaview" />
+</RelativeLayout>

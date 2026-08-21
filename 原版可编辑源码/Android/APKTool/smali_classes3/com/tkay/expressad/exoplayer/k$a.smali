@@ -1,0 +1,41 @@
+.class final Lcom/tkay/expressad/exoplayer/k$a;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tkay/expressad/exoplayer/k;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1a
+    name = "a"
+.end annotation
+
+
+# instance fields
+.field public final a:Lcom/tkay/expressad/exoplayer/h/s;
+
+.field public final b:Lcom/tkay/expressad/exoplayer/ae;
+
+.field public final c:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Lcom/tkay/expressad/exoplayer/h/s;Lcom/tkay/expressad/exoplayer/ae;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1704
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 1705
+    iput-object p1, p0, Lcom/tkay/expressad/exoplayer/k$a;->a:Lcom/tkay/expressad/exoplayer/h/s;
+
+    .line 1706
+    iput-object p2, p0, Lcom/tkay/expressad/exoplayer/k$a;->b:Lcom/tkay/expressad/exoplayer/ae;
+
+    .line 1707
+    iput-object p3, p0, Lcom/tkay/expressad/exoplayer/k$a;->c:Ljava/lang/Object;
+
+    return-void
+.end method

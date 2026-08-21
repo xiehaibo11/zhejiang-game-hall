@@ -1,0 +1,67 @@
+package com.tkay.china.a.a;
+
+public final class f {
+    private android.content.Context a;
+
+    public f(android.content.Context r1) {
+            r0 = this;
+            r0.<init>()
+            r0.a = r1
+            return
+    }
+
+    public final java.lang.String a() {
+            r6 = this;
+            java.lang.String r0 = ""
+            java.lang.String r1 = "content://cn.nubia.identity/identity"
+            android.net.Uri r1 = android.net.Uri.parse(r1)     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            int r2 = android.os.Build.VERSION.SDK_INT     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            r3 = 17
+            java.lang.String r4 = "getOAID"
+            r5 = 0
+            if (r2 <= r3) goto L34
+            android.content.Context r2 = r6.a     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            android.content.ContentResolver r2 = r2.getContentResolver()     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            android.content.ContentProviderClient r1 = r2.acquireContentProviderClient(r1)     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            r2 = r5
+            java.lang.String r2 = (java.lang.String) r2     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            android.os.Bundle r5 = (android.os.Bundle) r5     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            android.os.Bundle r2 = r1.call(r4, r2, r5)     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            if (r1 == 0) goto L43
+            int r3 = android.os.Build.VERSION.SDK_INT     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            r4 = 24
+            if (r3 < r4) goto L30
+            r1.close()     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            goto L43
+        L30:
+            r1.release()     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            goto L43
+        L34:
+            android.content.Context r2 = r6.a     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            android.content.ContentResolver r2 = r2.getContentResolver()     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            r3 = r5
+            java.lang.String r3 = (java.lang.String) r3     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            android.os.Bundle r5 = (android.os.Bundle) r5     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+            android.os.Bundle r2 = r2.call(r1, r4, r3, r5)     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+        L43:
+            r1 = -1
+            if (r2 == 0) goto L4c
+            java.lang.String r3 = "code"
+            int r1 = r2.getInt(r3, r1)     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+        L4c:
+            if (r1 != 0) goto L54
+            java.lang.String r1 = "id"
+            java.lang.String r0 = r2.getString(r1)     // Catch: java.lang.Throwable -> L55 java.lang.Exception -> L5a
+        L54:
+            return r0
+        L55:
+            r1 = move-exception
+            r1.printStackTrace()
+            goto L5e
+        L5a:
+            r1 = move-exception
+            r1.printStackTrace()
+        L5e:
+            return r0
+    }
+}
