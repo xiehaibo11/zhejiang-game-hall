@@ -1,0 +1,198 @@
+package android.support.v4.app;
+
+public abstract class FragmentHostCallback<E> extends android.support.v4.app.FragmentContainer {
+
+    @android.support.annotation.Nullable
+    private final android.app.Activity mActivity;
+
+    @android.support.annotation.NonNull
+    private final android.content.Context mContext;
+    final android.support.v4.app.FragmentManagerImpl mFragmentManager;
+
+    @android.support.annotation.NonNull
+    private final android.os.Handler mHandler;
+    private final int mWindowAnimations;
+
+    FragmentHostCallback(@android.support.annotation.Nullable android.app.Activity r2, @android.support.annotation.NonNull android.content.Context r3, @android.support.annotation.NonNull android.os.Handler r4, int r5) {
+            r1 = this;
+            r1.<init>()
+            android.support.v4.app.FragmentManagerImpl r0 = new android.support.v4.app.FragmentManagerImpl
+            r0.<init>()
+            r1.mFragmentManager = r0
+            r1.mActivity = r2
+            java.lang.String r2 = "context == null"
+            java.lang.Object r2 = android.support.v4.util.Preconditions.checkNotNull(r3, r2)
+            android.content.Context r2 = (android.content.Context) r2
+            r1.mContext = r2
+            java.lang.String r2 = "handler == null"
+            java.lang.Object r2 = android.support.v4.util.Preconditions.checkNotNull(r4, r2)
+            android.os.Handler r2 = (android.os.Handler) r2
+            r1.mHandler = r2
+            r1.mWindowAnimations = r5
+            return
+    }
+
+    public FragmentHostCallback(@android.support.annotation.NonNull android.content.Context r2, @android.support.annotation.NonNull android.os.Handler r3, int r4) {
+            r1 = this;
+            boolean r0 = r2 instanceof android.app.Activity
+            if (r0 == 0) goto L8
+            r0 = r2
+            android.app.Activity r0 = (android.app.Activity) r0
+            goto L9
+        L8:
+            r0 = 0
+        L9:
+            r1.<init>(r0, r2, r3, r4)
+            return
+    }
+
+    FragmentHostCallback(@android.support.annotation.NonNull android.support.v4.app.FragmentActivity r3) {
+            r2 = this;
+            android.os.Handler r0 = r3.mHandler
+            r1 = 0
+            r2.<init>(r3, r3, r0, r1)
+            return
+    }
+
+    @android.support.annotation.Nullable
+    android.app.Activity getActivity() {
+            r1 = this;
+            android.app.Activity r0 = r1.mActivity
+            return r0
+    }
+
+    @android.support.annotation.NonNull
+    android.content.Context getContext() {
+            r1 = this;
+            android.content.Context r0 = r1.mContext
+            return r0
+    }
+
+    android.support.v4.app.FragmentManagerImpl getFragmentManagerImpl() {
+            r1 = this;
+            android.support.v4.app.FragmentManagerImpl r0 = r1.mFragmentManager
+            return r0
+    }
+
+    @android.support.annotation.NonNull
+    android.os.Handler getHandler() {
+            r1 = this;
+            android.os.Handler r0 = r1.mHandler
+            return r0
+    }
+
+    void onAttachFragment(android.support.v4.app.Fragment r1) {
+            r0 = this;
+            return
+    }
+
+    public void onDump(java.lang.String r1, java.io.FileDescriptor r2, java.io.PrintWriter r3, java.lang.String[] r4) {
+            r0 = this;
+            return
+    }
+
+    @Override
+    @android.support.annotation.Nullable
+    public android.view.View onFindViewById(int r1) {
+            r0 = this;
+            r1 = 0
+            return r1
+    }
+
+    @android.support.annotation.Nullable
+    public abstract E onGetHost();
+
+    @android.support.annotation.NonNull
+    public android.view.LayoutInflater onGetLayoutInflater() {
+            r1 = this;
+            android.content.Context r0 = r1.mContext
+            android.view.LayoutInflater r0 = android.view.LayoutInflater.from(r0)
+            return r0
+    }
+
+    public int onGetWindowAnimations() {
+            r1 = this;
+            int r0 = r1.mWindowAnimations
+            return r0
+    }
+
+    @Override
+    public boolean onHasView() {
+            r1 = this;
+            r0 = 1
+            return r0
+    }
+
+    public boolean onHasWindowAnimations() {
+            r1 = this;
+            r0 = 1
+            return r0
+    }
+
+    public void onRequestPermissionsFromFragment(@android.support.annotation.NonNull android.support.v4.app.Fragment r1, @android.support.annotation.NonNull java.lang.String[] r2, int r3) {
+            r0 = this;
+            return
+    }
+
+    public boolean onShouldSaveFragmentState(android.support.v4.app.Fragment r1) {
+            r0 = this;
+            r1 = 1
+            return r1
+    }
+
+    public boolean onShouldShowRequestPermissionRationale(@android.support.annotation.NonNull java.lang.String r1) {
+            r0 = this;
+            r1 = 0
+            return r1
+    }
+
+    public void onStartActivityFromFragment(android.support.v4.app.Fragment r2, android.content.Intent r3, int r4) {
+            r1 = this;
+            r0 = 0
+            r1.onStartActivityFromFragment(r2, r3, r4, r0)
+            return
+    }
+
+    public void onStartActivityFromFragment(android.support.v4.app.Fragment r1, android.content.Intent r2, int r3, @android.support.annotation.Nullable android.os.Bundle r4) {
+            r0 = this;
+            r1 = -1
+            if (r3 != r1) goto L9
+            android.content.Context r1 = r0.mContext
+            r1.startActivity(r2)
+            return
+        L9:
+            java.lang.IllegalStateException r1 = new java.lang.IllegalStateException
+            java.lang.String r2 = "Starting activity with a requestCode requires a FragmentActivity host"
+            r1.<init>(r2)
+            throw r1
+    }
+
+    public void onStartIntentSenderFromFragment(android.support.v4.app.Fragment r10, android.content.IntentSender r11, int r12, @android.support.annotation.Nullable android.content.Intent r13, int r14, int r15, int r16, android.os.Bundle r17) throws android.content.IntentSender.SendIntentException {
+            r9 = this;
+            r0 = -1
+            r3 = r12
+            if (r3 != r0) goto L14
+            r0 = r9
+            android.app.Activity r1 = r0.mActivity
+            r2 = r11
+            r3 = r12
+            r4 = r13
+            r5 = r14
+            r6 = r15
+            r7 = r16
+            r8 = r17
+            android.support.v4.app.ActivityCompat.startIntentSenderForResult(r1, r2, r3, r4, r5, r6, r7, r8)
+            return
+        L14:
+            r0 = r9
+            java.lang.IllegalStateException r1 = new java.lang.IllegalStateException
+            java.lang.String r2 = "Starting intent sender with a requestCode requires a FragmentActivity host"
+            r1.<init>(r2)
+            throw r1
+    }
+
+    public void onSupportInvalidateOptionsMenu() {
+            r0 = this;
+            return
+    }
+}

@@ -1,0 +1,1 @@
+window._CCSettings={platform:"android",groupList:["default","3D"],collisionMatrix:[[true],[false,false]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/scenes/lianyunOnly.fire",orientation:"",server:"https://bfly.mengyoutech.com/sound",jsList:["assets/libs/libs.js","assets/libs/pako/pako.js"]};

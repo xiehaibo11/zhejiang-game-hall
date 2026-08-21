@@ -1,0 +1,21 @@
+package android.support.v7.widget;
+
+public class TooltipCompat {
+    private TooltipCompat() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+
+    public static void setTooltipText(@android.support.annotation.NonNull android.view.View r2, @android.support.annotation.Nullable java.lang.CharSequence r3) {
+            int r0 = android.os.Build.VERSION.SDK_INT
+            r1 = 26
+            if (r0 < r1) goto La
+            r2.setTooltipText(r3)
+            goto Ld
+        La:
+            android.support.v7.widget.TooltipCompatHandler.setTooltipText(r2, r3)
+        Ld:
+            return
+    }
+}

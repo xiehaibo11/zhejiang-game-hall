@@ -1,0 +1,117 @@
+local RemodelAreaConfig = class("RemodelAreaConfig")
+
+RemodelAreaConfig.CREATESETUPCONFIG = {
+    notesNum = 888,
+    rechargeNum = 0, 
+    modeType = TeaHouse.TeaHouseProtocol.ReqSetPayType.PayModePype.TYPE_PAY_MODEL_BEHID,
+    payTypeTable = {[1]=TeaHouse.TeaHouseProtocol.ReqSetPayType.PayType.TEA_PLAYER_OWNER_TEACARD_WIN},
+}
+
+--比赛场创建配置
+RemodelAreaConfig.CREATECONDITION = {
+    {
+        tUpgradeTeaCount = -1,--解锁比赛场数量的活跃值
+        tUpgradeTableCount = -1,--解锁桌子数量的活跃值
+        tUpgradeManagerCount = -1,--解锁副领队数量的活跃值
+        tMaxTeaCount = 2, -- 比赛场最多数量
+        tLevelCardNum = 0,-- 创建第n个需要的卡数量n*2000,
+        tCanCreateTeaCount = 2,--未解锁前可以创建的比赛场数量
+
+        tPlayModeNum = 1,
+        tHaveLevelUp = false,
+        tHaveAddAdmin = false,
+        tTableNum = 10,
+        tCostTypeNum = 1,
+        tHavePropNumLimit = false,
+    },
+    {
+        tUpgradeTeaCount = -1,
+        tUpgradeTableCount = 500,
+        tUpgradeManagerCount = -1,
+        tMaxTeaCount = 2,
+        tLevelCardNum = 900,
+        tCanCreateTeaCount = 2,
+
+        tPlayModeNum = 3,
+        tHaveLevelUp = true,
+        tHaveAddAdmin = false,
+        tTableNum = 15,
+        tCostTypeNum = 3,
+        tHavePropNumLimit = true,
+    },
+    {
+        tUpgradeTeaCount = 3000,
+        tUpgradeTableCount = 500,
+        tUpgradeManagerCount = 2000,
+        tMaxTeaCount = 5,
+        tLevelCardNum = 2000,
+        tCanCreateTeaCount = 2,
+
+        tPlayModeNum = 5,
+        tHaveLevelUp = false,
+        tHaveAddAdmin = true,
+        tTableNum = 25,
+        tCostTypeNum = 3,
+        tHavePropNumLimit = true,
+
+    }
+}
+
+RemodelAreaConfig.TIP_TEXT_CONFIG = {
+    {
+        "创建数量",
+        "2",
+        "2",
+        "2（可通过活跃\n值升级）最多5",
+        "可创建比赛场的数量"
+    },
+    {
+        "比赛玩法",
+        "1种",
+        "3种",
+        "5种",
+        "固定了以后只能玩已选\n好的玩法"
+    },
+    {
+        "桌子数量",
+        "10",
+        "15（可通过活跃\n值升级）最多30",
+        "25（可通过活跃\n值升级）最多50",
+        ""
+    },
+    {
+        "副领队功能",
+        "无",
+        "无",
+        "有",
+        "副领队可以审批玩家是\n否可以加入比赛场"
+    },
+    {
+        "升级功能",
+        "无",
+        "有",
+        "无",
+        "可将中级比赛场升级为\n高级比赛场"
+    },
+    
+    {
+        "耗卡模式",
+        "1种",
+        "3种",
+        "3种",
+        "消耗房卡的可选模式"
+    },
+    {
+        "每500活跃值--增加桌子数量",
+        "15000活跃值--可将中级比赛场升级为高级比赛场",
+    },
+    {
+        "创建门槛",
+        "无门槛",
+        "无门槛",
+        "无门槛",
+        "创建比赛场的房卡门槛"
+    }
+}
+
+return RemodelAreaConfig

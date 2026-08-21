@@ -1,0 +1,327 @@
+package android.support.v4.util;
+
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+
+public class SparseArrayCompat<E> implements Cloneable {
+    private static final Object DELETED = null;
+    private boolean mGarbage;
+    private int[] mKeys;
+    private int mSize;
+    private Object[] mValues;
+
+    public Object clone() throws CloneNotSupportedException {
+        return clone();
+    }
+
+    static {
+        DELETED = new Object();
+    }
+
+    public SparseArrayCompat() {
+        this(10);
+    }
+
+    public SparseArrayCompat(int r3) {
+        this.mGarbage = false;
+        if (r3 != 0) goto L5;
+        this.mKeys = ContainerHelpers.EMPTY_INTS;
+        this.mValues = ContainerHelpers.EMPTY_OBJECTS;
+    L6:
+        this.mSize = 0;
+        return;
+    L5:
+        int r32 = ContainerHelpers.idealIntArraySize(r3);
+        this.mKeys = new int[r32];
+        this.mValues = new Object[r32];
+        goto L6
+    }
+
+    public SparseArrayCompat<E> clone() {
+        SparseArrayCompat<E> r0 = (SparseArrayCompat) super.clone();     // Catch: CloneNotSupportedException -> L4
+        r0.mKeys = (int[]) this.mKeys.clone();     // Catch: CloneNotSupportedException -> L4
+        r0.mValues = (Object[]) this.mValues.clone();     // Catch: CloneNotSupportedException -> L4
+        return r0;
+    L4:
+        e = move-exception;
+        throw new AssertionError(e);
+    }
+
+    @Nullable
+    public E get(int r2) {
+        return get(r2, null);
+    }
+
+    public E get(int r4, E r5) {
+        int r42 = ContainerHelpers.binarySearch(this.mKeys, this.mSize, r4);
+        if (r42 < 0) goto L9;
+        Object[] r0 = this.mValues;
+        if (r0[r42] == DELETED) goto L9;
+        return (E) r0[r42];
+    L9:
+        return r5;
+    }
+
+    public void delete(int r4) {
+        int r42 = ContainerHelpers.binarySearch(this.mKeys, this.mSize, r4);
+        if (r42 < 0) goto L8;
+        Object[] r0 = this.mValues;
+        Object r1 = r0[r42];
+        Object r2 = DELETED;
+        if (r1 == r2) goto L9;
+        r0[r42] = r2;
+        this.mGarbage = true;
+        return;
+    L9:
+        return;
+    }
+
+    public void remove(int r1) {
+        delete(r1);
+    }
+
+    public void removeAt(int r4) {
+        Object[] r0 = this.mValues;
+        Object r1 = r0[r4];
+        Object r2 = DELETED;
+        if (r1 == r2) goto L6;
+        r0[r4] = r2;
+        this.mGarbage = true;
+        return;
+    }
+
+    public void removeAtRange(int r2, int r3) {
+        int r32 = Math.min(this.mSize, r3 + r2);
+    L3:
+        if (r2 >= r32) goto L5;
+        removeAt(r2);
+        r2 = r2 + 1;
+        goto L3
+    }
+
+    private void gc() {
+        int r0 = this.mSize;
+        int[] r1 = this.mKeys;
+        Object[] r2 = this.mValues;
+        int r4 = 0;
+        int r5 = 0;
+    L3:
+        if (r4 >= r0) goto L10;
+        Object r6 = r2[r4];
+        if (r6 == DELETED) goto L9;
+        if (r4 == r5) goto L8;
+        r1[r5] = r1[r4];
+        r2[r5] = r6;
+        r2[r4] = null;
+    L8:
+        r5 = r5 + 1;
+    L9:
+        r4 = r4 + 1;
+        goto L3
+    L10:
+        this.mGarbage = false;
+        this.mSize = r5;
+    }
+
+    public void put(int r7, E r8) {
+        int r0 = ContainerHelpers.binarySearch(this.mKeys, this.mSize, r7);
+        if (r0 < 0) goto L5;
+        this.mValues[r0] = r8;
+        return;
+    L5:
+        int r02 = ~r0;
+        if (r02 >= this.mSize) goto L12;
+        Object[] r1 = this.mValues;
+        if (r1[r02] != DELETED) goto L12;
+        this.mKeys[r02] = r7;
+        r1[r02] = r8;
+        return;
+    L12:
+        if (this.mGarbage == true) goto L14;
+    L16:
+        int r12 = this.mSize;
+        if (r12 < this.mKeys.length) goto L19;
+        int r13 = ContainerHelpers.idealIntArraySize(r12 + 1);
+        int[] r2 = new int[r13];
+        Object[] r14 = new Object[r13];
+        int[] r3 = this.mKeys;
+        System.arraycopy(r3, 0, r2, 0, r3.length);
+        Object[] r32 = this.mValues;
+        System.arraycopy(r32, 0, r14, 0, r32.length);
+        this.mKeys = r2;
+        this.mValues = r14;
+    L19:
+        int r15 = this.mSize;
+        if ((r15 - r02) == 0) goto L22;
+        int[] r22 = this.mKeys;
+        int r33 = r02 + 1;
+        System.arraycopy(r22, r02, r22, r33, r15 - r02);
+        Object[] r16 = this.mValues;
+        System.arraycopy(r16, r02, r16, r33, this.mSize - r02);
+    L22:
+        this.mKeys[r02] = r7;
+        this.mValues[r02] = r8;
+        this.mSize++;
+        return;
+    L14:
+        if (this.mSize < this.mKeys.length) goto L16;
+        gc();
+        r02 = ~ContainerHelpers.binarySearch(this.mKeys, this.mSize, r7);
+        goto L16
+    }
+
+    public void putAll(@NonNull SparseArrayCompat<? extends E> r5) {
+        int r0 = r5.size();
+        int r1 = 0;
+    L3:
+        if (r1 >= r0) goto L5;
+        put(r5.keyAt(r1), r5.valueAt(r1));
+        r1 = r1 + 1;
+        goto L3
+    }
+
+    public int size() {
+        if (this.mGarbage == false) goto L6;
+        gc();
+    L6:
+        return this.mSize;
+    }
+
+    public boolean isEmpty() {
+        if (size() != 0) goto L5;
+        return true;
+    L5:
+        return false;
+    }
+
+    public int keyAt(int r2) {
+        if (this.mGarbage == false) goto L6;
+        gc();
+    L6:
+        return this.mKeys[r2];
+    }
+
+    public E valueAt(int r2) {
+        if (this.mGarbage == false) goto L6;
+        gc();
+    L6:
+        return (E) this.mValues[r2];
+    }
+
+    public void setValueAt(int r2, E r3) {
+        if (this.mGarbage == false) goto L5;
+        gc();
+    L5:
+        this.mValues[r2] = r3;
+    }
+
+    public int indexOfKey(int r3) {
+        if (this.mGarbage == false) goto L6;
+        gc();
+    L6:
+        return ContainerHelpers.binarySearch(this.mKeys, this.mSize, r3);
+    }
+
+    public int indexOfValue(E r3) {
+        if (this.mGarbage == false) goto L5;
+        gc();
+    L5:
+        int r0 = 0;
+    L7:
+        if (r0 >= this.mSize) goto L12;
+        if (this.mValues[r0] == r3) goto L10;
+        r0 = r0 + 1;
+        goto L7
+    L10:
+        return r0;
+    L12:
+        return -1;
+    }
+
+    public boolean containsKey(int r1) {
+        if (indexOfKey(r1) < 0) goto L5;
+        return true;
+    L5:
+        return false;
+    }
+
+    public boolean containsValue(E r1) {
+        if (indexOfValue(r1) < 0) goto L5;
+        return true;
+    L5:
+        return false;
+    }
+
+    public void clear() {
+        int r0 = this.mSize;
+        Object[] r1 = this.mValues;
+        int r3 = 0;
+    L3:
+        if (r3 >= r0) goto L5;
+        r1[r3] = null;
+        r3 = r3 + 1;
+        goto L3
+    L5:
+        this.mSize = 0;
+        this.mGarbage = false;
+    }
+
+    public void append(int r7, E r8) {
+        int r0 = this.mSize;
+        if (r0 == 0) goto L9;
+        if (r7 > this.mKeys[r0 - 1]) goto L9;
+        put(r7, r8);
+        return;
+    L9:
+        if (this.mGarbage == true) goto L11;
+    L13:
+        int r02 = this.mSize;
+        if (r02 < this.mKeys.length) goto L16;
+        int r1 = ContainerHelpers.idealIntArraySize(r02 + 1);
+        int[] r2 = new int[r1];
+        Object[] r12 = new Object[r1];
+        int[] r3 = this.mKeys;
+        System.arraycopy(r3, 0, r2, 0, r3.length);
+        Object[] r32 = this.mValues;
+        System.arraycopy(r32, 0, r12, 0, r32.length);
+        this.mKeys = r2;
+        this.mValues = r12;
+    L16:
+        this.mKeys[r02] = r7;
+        this.mValues[r02] = r8;
+        this.mSize = r02 + 1;
+        return;
+    L11:
+        if (this.mSize < this.mKeys.length) goto L13;
+        gc();
+        goto L13
+    }
+
+    public String toString() {
+        if (size() > 0) goto L6;
+        return "{}";
+    L6:
+        StringBuilder r0 = new StringBuilder(this.mSize * 28);
+        r0.append('{');
+        int r1 = 0;
+    L8:
+        if (r1 >= this.mSize) goto L16;
+        if (r1 <= 0) goto L11;
+        r0.append(", ");
+    L11:
+        r0.append(keyAt(r1));
+        r0.append('=');
+        E r2 = valueAt(r1);
+        if (r2 == this) goto L14;
+        r0.append(r2);
+    L15:
+        r1 = r1 + 1;
+        goto L8
+    L14:
+        r0.append("(this Map)");
+        goto L15
+    L16:
+        r0.append('}');
+        return r0.toString();
+    }
+}

@@ -1,0 +1,27 @@
+package org.cocos2dx.okhttp3;
+
+import javax.annotation.Nullable;
+import org.cocos2dx.okio.ByteString;
+
+public abstract class WebSocketListener {
+    public void onClosed(WebSocket r1, int r2, String r3) {
+    }
+
+    public void onClosing(WebSocket r1, int r2, String r3) {
+    }
+
+    public void onFailure(WebSocket r1, Throwable r2, @Nullable Response r3) {
+    }
+
+    public void onMessage(WebSocket r1, String r2) {
+    }
+
+    public void onMessage(WebSocket r1, ByteString r2) {
+    }
+
+    public void onOpen(WebSocket r1, Response r2) {
+    }
+
+    public WebSocketListener() {
+    }
+}

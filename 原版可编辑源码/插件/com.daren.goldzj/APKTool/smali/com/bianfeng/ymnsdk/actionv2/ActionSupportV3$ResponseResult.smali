@@ -1,0 +1,229 @@
+.class public Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;
+.super Ljava/lang/Object;
+.source "ActionSupportV3.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "ResponseResult"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# instance fields
+.field public code:I
+
+.field public data:Lorg/json/JSONObject;
+
+.field public ext:Ljava/lang/Object;
+
+.field public msg:Ljava/lang/String;
+
+.field public processedResult:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+.field public srcObj:Lorg/json/JSONObject;
+
+.field public srcRes:Ljava/lang/String;
+
+.field final synthetic this$0:Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3;
+
+
+# direct methods
+.method public constructor <init>(Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3;ILjava/lang/String;)V
+    .locals 0
+
+    .line 11
+    iput-object p1, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->this$0:Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/16 p1, 0x3e7
+
+    .line 12
+    iput p1, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->code:I
+
+    .line 24
+    iput p2, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->code:I
+
+    .line 25
+    iput-object p3, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->msg:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->this$0:Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/16 p1, 0x3e7
+
+    .line 2
+    iput p1, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->code:I
+
+    .line 10
+    iput-object p2, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->srcRes:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public dataAsString()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->data:Lorg/json/JSONObject;
+
+    invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getExtData(Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->ext:Ljava/lang/Object;
+
+    if-eqz v0, :cond_0
+
+    instance-of v1, v0, Lorg/json/JSONObject;
+
+    if-eqz v1, :cond_0
+
+    .line 2
+    check-cast v0, Lorg/json/JSONObject;
+
+    .line 3
+    invoke-virtual {v0, p1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    :cond_0
+    const-string p1, "unknow"
+
+    return-object p1
+.end method
+
+.method public isOk()Z
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->code:I
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+.end method
+
+.method public isResponsed()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->srcRes:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    xor-int/lit8 v0, v0, 0x1
+
+    return v0
+.end method
+
+.method public messageFail()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    iget v1, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->code:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, "|"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->msg:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public processedResultAsMap()Ljava/util/Map;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/google/gson/Gson;
+
+    invoke-direct {v0}, Lcom/google/gson/Gson;-><init>()V
+
+    .line 2
+    iget-object v1, p0, Lcom/bianfeng/ymnsdk/actionv2/ActionSupportV3$ResponseResult;->processedResult:Ljava/lang/Object;
+
+    invoke-virtual {v0, v1}, Lcom/google/gson/Gson;->toJson(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-class v2, Ljava/util/Map;
+
+    invoke-virtual {v0, v1, v2}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/util/Map;
+
+    return-object v0
+.end method

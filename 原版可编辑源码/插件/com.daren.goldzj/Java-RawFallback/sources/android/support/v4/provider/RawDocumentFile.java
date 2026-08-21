@@ -1,0 +1,270 @@
+package android.support.v4.provider;
+
+class RawDocumentFile extends android.support.v4.provider.DocumentFile {
+    private java.io.File mFile;
+
+    RawDocumentFile(@android.support.annotation.Nullable android.support.v4.provider.DocumentFile r1, java.io.File r2) {
+            r0 = this;
+            r0.<init>(r1)
+            r0.mFile = r2
+            return
+    }
+
+    private static boolean deleteContents(java.io.File r6) {
+            java.io.File[] r6 = r6.listFiles()
+            r0 = 1
+            if (r6 == 0) goto L3b
+            int r1 = r6.length
+            r2 = 0
+            r0 = 0
+            r3 = 1
+        Lb:
+            if (r0 >= r1) goto L3a
+            r4 = r6[r0]
+            boolean r5 = r4.isDirectory()
+            if (r5 == 0) goto L1a
+            boolean r5 = deleteContents(r4)
+            r3 = r3 & r5
+        L1a:
+            boolean r5 = r4.delete()
+            if (r5 != 0) goto L37
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            java.lang.String r5 = "Failed to delete "
+            r3.append(r5)
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            java.lang.String r4 = "DocumentFile"
+            android.util.Log.w(r4, r3)
+            r3 = 0
+        L37:
+            int r0 = r0 + 1
+            goto Lb
+        L3a:
+            r0 = r3
+        L3b:
+            return r0
+    }
+
+    private static java.lang.String getTypeForName(java.lang.String r1) {
+            r0 = 46
+            int r0 = r1.lastIndexOf(r0)
+            if (r0 < 0) goto L1d
+            int r0 = r0 + 1
+            java.lang.String r1 = r1.substring(r0)
+            java.lang.String r1 = r1.toLowerCase()
+            android.webkit.MimeTypeMap r0 = android.webkit.MimeTypeMap.getSingleton()
+            java.lang.String r1 = r0.getMimeTypeFromExtension(r1)
+            if (r1 == 0) goto L1d
+            return r1
+        L1d:
+            java.lang.String r1 = "application/octet-stream"
+            return r1
+    }
+
+    @Override
+    public boolean canRead() {
+            r1 = this;
+            java.io.File r0 = r1.mFile
+            boolean r0 = r0.canRead()
+            return r0
+    }
+
+    @Override
+    public boolean canWrite() {
+            r1 = this;
+            java.io.File r0 = r1.mFile
+            boolean r0 = r0.canWrite()
+            return r0
+    }
+
+    @Override
+    @android.support.annotation.Nullable
+    public android.support.v4.provider.DocumentFile createDirectory(java.lang.String r3) {
+            r2 = this;
+            java.io.File r0 = new java.io.File
+            java.io.File r1 = r2.mFile
+            r0.<init>(r1, r3)
+            boolean r3 = r0.isDirectory()
+            if (r3 != 0) goto L16
+            boolean r3 = r0.mkdir()
+            if (r3 == 0) goto L14
+            goto L16
+        L14:
+            r3 = 0
+            return r3
+        L16:
+            android.support.v4.provider.RawDocumentFile r3 = new android.support.v4.provider.RawDocumentFile
+            r3.<init>(r2, r0)
+            return r3
+    }
+
+    @Override
+    @android.support.annotation.Nullable
+    public android.support.v4.provider.DocumentFile createFile(java.lang.String r2, java.lang.String r3) {
+            r1 = this;
+            android.webkit.MimeTypeMap r0 = android.webkit.MimeTypeMap.getSingleton()
+            java.lang.String r2 = r0.getExtensionFromMimeType(r2)
+            if (r2 == 0) goto L1e
+            java.lang.StringBuilder r0 = new java.lang.StringBuilder
+            r0.<init>()
+            r0.append(r3)
+            java.lang.String r3 = "."
+            r0.append(r3)
+            r0.append(r2)
+            java.lang.String r3 = r0.toString()
+        L1e:
+            java.io.File r2 = new java.io.File
+            java.io.File r0 = r1.mFile
+            r2.<init>(r0, r3)
+            r2.createNewFile()     // Catch: java.io.IOException -> L2e
+            android.support.v4.provider.RawDocumentFile r3 = new android.support.v4.provider.RawDocumentFile     // Catch: java.io.IOException -> L2e
+            r3.<init>(r1, r2)     // Catch: java.io.IOException -> L2e
+            return r3
+        L2e:
+            r2 = move-exception
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            java.lang.String r0 = "Failed to createFile: "
+            r3.append(r0)
+            r3.append(r2)
+            java.lang.String r2 = r3.toString()
+            java.lang.String r3 = "DocumentFile"
+            android.util.Log.w(r3, r2)
+            r2 = 0
+            return r2
+    }
+
+    @Override
+    public boolean delete() {
+            r1 = this;
+            java.io.File r0 = r1.mFile
+            deleteContents(r0)
+            java.io.File r0 = r1.mFile
+            boolean r0 = r0.delete()
+            return r0
+    }
+
+    @Override
+    public boolean exists() {
+            r1 = this;
+            java.io.File r0 = r1.mFile
+            boolean r0 = r0.exists()
+            return r0
+    }
+
+    @Override
+    public java.lang.String getName() {
+            r1 = this;
+            java.io.File r0 = r1.mFile
+            java.lang.String r0 = r0.getName()
+            return r0
+    }
+
+    @Override
+    @android.support.annotation.Nullable
+    public java.lang.String getType() {
+            r1 = this;
+            java.io.File r0 = r1.mFile
+            boolean r0 = r0.isDirectory()
+            if (r0 == 0) goto La
+            r0 = 0
+            return r0
+        La:
+            java.io.File r0 = r1.mFile
+            java.lang.String r0 = r0.getName()
+            java.lang.String r0 = getTypeForName(r0)
+            return r0
+    }
+
+    @Override
+    public android.net.Uri getUri() {
+            r1 = this;
+            java.io.File r0 = r1.mFile
+            android.net.Uri r0 = android.net.Uri.fromFile(r0)
+            return r0
+    }
+
+    @Override
+    public boolean isDirectory() {
+            r1 = this;
+            java.io.File r0 = r1.mFile
+            boolean r0 = r0.isDirectory()
+            return r0
+    }
+
+    @Override
+    public boolean isFile() {
+            r1 = this;
+            java.io.File r0 = r1.mFile
+            boolean r0 = r0.isFile()
+            return r0
+    }
+
+    @Override
+    public boolean isVirtual() {
+            r1 = this;
+            r0 = 0
+            return r0
+    }
+
+    @Override
+    public long lastModified() {
+            r2 = this;
+            java.io.File r0 = r2.mFile
+            long r0 = r0.lastModified()
+            return r0
+    }
+
+    @Override
+    public long length() {
+            r2 = this;
+            java.io.File r0 = r2.mFile
+            long r0 = r0.length()
+            return r0
+    }
+
+    @Override
+    public android.support.v4.provider.DocumentFile[] listFiles() {
+            r6 = this;
+            java.util.ArrayList r0 = new java.util.ArrayList
+            r0.<init>()
+            java.io.File r1 = r6.mFile
+            java.io.File[] r1 = r1.listFiles()
+            if (r1 == 0) goto L1e
+            int r2 = r1.length
+            r3 = 0
+        Lf:
+            if (r3 >= r2) goto L1e
+            r4 = r1[r3]
+            android.support.v4.provider.RawDocumentFile r5 = new android.support.v4.provider.RawDocumentFile
+            r5.<init>(r6, r4)
+            r0.add(r5)
+            int r3 = r3 + 1
+            goto Lf
+        L1e:
+            int r1 = r0.size()
+            android.support.v4.provider.DocumentFile[] r1 = new android.support.v4.provider.DocumentFile[r1]
+            java.lang.Object[] r0 = r0.toArray(r1)
+            android.support.v4.provider.DocumentFile[] r0 = (android.support.v4.provider.DocumentFile[]) r0
+            return r0
+    }
+
+    @Override
+    public boolean renameTo(java.lang.String r3) {
+            r2 = this;
+            java.io.File r0 = new java.io.File
+            java.io.File r1 = r2.mFile
+            java.io.File r1 = r1.getParentFile()
+            r0.<init>(r1, r3)
+            java.io.File r3 = r2.mFile
+            boolean r3 = r3.renameTo(r0)
+            if (r3 == 0) goto L17
+            r2.mFile = r0
+            r3 = 1
+            return r3
+        L17:
+            r3 = 0
+            return r3
+    }
+}

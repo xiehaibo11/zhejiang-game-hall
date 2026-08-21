@@ -1,0 +1,110 @@
+package android.support.v4.graphics.drawable;
+
+public final class RoundedBitmapDrawableFactory {
+    private static final java.lang.String TAG = "RoundedBitmapDrawableFa";
+
+    private static class DefaultRoundedBitmapDrawable extends android.support.v4.graphics.drawable.RoundedBitmapDrawable {
+        DefaultRoundedBitmapDrawable(android.content.res.Resources r1, android.graphics.Bitmap r2) {
+                r0 = this;
+                r0.<init>(r1, r2)
+                return
+        }
+
+        @Override
+        void gravityCompatApply(int r7, int r8, int r9, android.graphics.Rect r10, android.graphics.Rect r11) {
+                r6 = this;
+                r5 = 0
+                r0 = r7
+                r1 = r8
+                r2 = r9
+                r3 = r10
+                r4 = r11
+                android.support.v4.view.GravityCompat.apply(r0, r1, r2, r3, r4, r5)
+                return
+        }
+
+        @Override
+        public boolean hasMipMap() {
+                r1 = this;
+                android.graphics.Bitmap r0 = r1.mBitmap
+                if (r0 == 0) goto Le
+                android.graphics.Bitmap r0 = r1.mBitmap
+                boolean r0 = android.support.v4.graphics.BitmapCompat.hasMipMap(r0)
+                if (r0 == 0) goto Le
+                r0 = 1
+                goto Lf
+            Le:
+                r0 = 0
+            Lf:
+                return r0
+        }
+
+        @Override
+        public void setMipMap(boolean r2) {
+                r1 = this;
+                android.graphics.Bitmap r0 = r1.mBitmap
+                if (r0 == 0) goto Lc
+                android.graphics.Bitmap r0 = r1.mBitmap
+                android.support.v4.graphics.BitmapCompat.setHasMipMap(r0, r2)
+                r1.invalidateSelf()
+            Lc:
+                return
+        }
+    }
+
+    private RoundedBitmapDrawableFactory() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+
+    @android.support.annotation.NonNull
+    public static android.support.v4.graphics.drawable.RoundedBitmapDrawable create(@android.support.annotation.NonNull android.content.res.Resources r2, @android.support.annotation.Nullable android.graphics.Bitmap r3) {
+            int r0 = android.os.Build.VERSION.SDK_INT
+            r1 = 21
+            if (r0 < r1) goto Lc
+            android.support.v4.graphics.drawable.RoundedBitmapDrawable21 r0 = new android.support.v4.graphics.drawable.RoundedBitmapDrawable21
+            r0.<init>(r2, r3)
+            return r0
+        Lc:
+            android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory$DefaultRoundedBitmapDrawable r0 = new android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory$DefaultRoundedBitmapDrawable
+            r0.<init>(r2, r3)
+            return r0
+    }
+
+    @android.support.annotation.NonNull
+    public static android.support.v4.graphics.drawable.RoundedBitmapDrawable create(@android.support.annotation.NonNull android.content.res.Resources r2, @android.support.annotation.NonNull java.io.InputStream r3) {
+            android.graphics.Bitmap r0 = android.graphics.BitmapFactory.decodeStream(r3)
+            android.support.v4.graphics.drawable.RoundedBitmapDrawable r2 = create(r2, r0)
+            android.graphics.Bitmap r0 = r2.getBitmap()
+            if (r0 != 0) goto L24
+            java.lang.StringBuilder r0 = new java.lang.StringBuilder
+            r0.<init>()
+            java.lang.String r1 = "RoundedBitmapDrawable cannot decode "
+            r0.append(r1)
+            r0.append(r3)
+            java.lang.String r3 = r0.toString()
+            java.lang.String r0 = "RoundedBitmapDrawableFa"
+            android.util.Log.w(r0, r3)
+        L24:
+            return r2
+    }
+
+    @android.support.annotation.NonNull
+    public static android.support.v4.graphics.drawable.RoundedBitmapDrawable create(@android.support.annotation.NonNull android.content.res.Resources r2, @android.support.annotation.NonNull java.lang.String r3) {
+            android.graphics.Bitmap r0 = android.graphics.BitmapFactory.decodeFile(r3)
+            android.support.v4.graphics.drawable.RoundedBitmapDrawable r2 = create(r2, r0)
+            android.graphics.Bitmap r0 = r2.getBitmap()
+            if (r0 != 0) goto L24
+            java.lang.StringBuilder r0 = new java.lang.StringBuilder
+            r0.<init>()
+            java.lang.String r1 = "RoundedBitmapDrawable cannot decode "
+            r0.append(r1)
+            r0.append(r3)
+            java.lang.String r3 = r0.toString()
+            java.lang.String r0 = "RoundedBitmapDrawableFa"
+            android.util.Log.w(r0, r3)
+        L24:
+            return r2
+    }
+}

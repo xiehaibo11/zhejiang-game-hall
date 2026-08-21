@@ -1,0 +1,366 @@
+package android.support.v4.content;
+
+public abstract class AsyncTaskLoader<D> extends android.support.v4.content.Loader<D> {
+    static final boolean DEBUG = false;
+    static final java.lang.String TAG = "AsyncTaskLoader";
+    volatile android.support.v4.content.AsyncTaskLoader<D>.LoadTask mCancellingTask;
+    private final java.util.concurrent.Executor mExecutor;
+    android.os.Handler mHandler;
+    long mLastLoadCompleteTime;
+    volatile android.support.v4.content.AsyncTaskLoader<D>.LoadTask mTask;
+    long mUpdateThrottle;
+
+    final class LoadTask extends android.support.v4.content.ModernAsyncTask<java.lang.Void, java.lang.Void, D> implements java.lang.Runnable {
+        private final java.util.concurrent.CountDownLatch mDone;
+        final android.support.v4.content.AsyncTaskLoader this$0;
+        boolean waiting;
+
+        LoadTask(android.support.v4.content.AsyncTaskLoader r2) {
+                r1 = this;
+                r1.this$0 = r2
+                r1.<init>()
+                java.util.concurrent.CountDownLatch r2 = new java.util.concurrent.CountDownLatch
+                r0 = 1
+                r2.<init>(r0)
+                r1.mDone = r2
+                return
+        }
+
+        @Override
+        protected java.lang.Object doInBackground(java.lang.Void[] r1) {
+                r0 = this;
+                java.lang.Void[] r1 = (java.lang.Void[]) r1
+                java.lang.Object r1 = r0.doInBackground(r1)
+                return r1
+        }
+
+        protected D doInBackground(java.lang.Void... r2) {
+                r1 = this;
+                android.support.v4.content.AsyncTaskLoader r2 = r1.this$0     // Catch: android.support.v4.os.OperationCanceledException -> L7
+                java.lang.Object r2 = r2.onLoadInBackground()     // Catch: android.support.v4.os.OperationCanceledException -> L7
+                return r2
+            L7:
+                r2 = move-exception
+                boolean r0 = r1.isCancelled()
+                if (r0 == 0) goto L10
+                r2 = 0
+                return r2
+            L10:
+                throw r2
+        }
+
+        @Override
+        protected void onCancelled(D r2) {
+                r1 = this;
+                android.support.v4.content.AsyncTaskLoader r0 = r1.this$0     // Catch: java.lang.Throwable -> Lb
+                r0.dispatchOnCancelled(r1, r2)     // Catch: java.lang.Throwable -> Lb
+                java.util.concurrent.CountDownLatch r2 = r1.mDone
+                r2.countDown()
+                return
+            Lb:
+                r2 = move-exception
+                java.util.concurrent.CountDownLatch r0 = r1.mDone
+                r0.countDown()
+                throw r2
+        }
+
+        @Override
+        protected void onPostExecute(D r2) {
+                r1 = this;
+                android.support.v4.content.AsyncTaskLoader r0 = r1.this$0     // Catch: java.lang.Throwable -> Lb
+                r0.dispatchOnLoadComplete(r1, r2)     // Catch: java.lang.Throwable -> Lb
+                java.util.concurrent.CountDownLatch r2 = r1.mDone
+                r2.countDown()
+                return
+            Lb:
+                r2 = move-exception
+                java.util.concurrent.CountDownLatch r0 = r1.mDone
+                r0.countDown()
+                throw r2
+        }
+
+        @Override
+        public void run() {
+                r1 = this;
+                r0 = 0
+                r1.waiting = r0
+                android.support.v4.content.AsyncTaskLoader r0 = r1.this$0
+                r0.executePendingTask()
+                return
+        }
+
+        public void waitForLoader() {
+                r1 = this;
+                java.util.concurrent.CountDownLatch r0 = r1.mDone     // Catch: java.lang.InterruptedException -> L5
+                r0.await()     // Catch: java.lang.InterruptedException -> L5
+            L5:
+                return
+        }
+    }
+
+    public AsyncTaskLoader(@android.support.annotation.NonNull android.content.Context r2) {
+            r1 = this;
+            java.util.concurrent.Executor r0 = android.support.v4.content.ModernAsyncTask.THREAD_POOL_EXECUTOR
+            r1.<init>(r2, r0)
+            return
+    }
+
+    private AsyncTaskLoader(@android.support.annotation.NonNull android.content.Context r3, @android.support.annotation.NonNull java.util.concurrent.Executor r4) {
+            r2 = this;
+            r2.<init>(r3)
+            r0 = -10000(0xffffffffffffd8f0, double:NaN)
+            r2.mLastLoadCompleteTime = r0
+            r2.mExecutor = r4
+            return
+    }
+
+    public void cancelLoadInBackground() {
+            r0 = this;
+            return
+    }
+
+    void dispatchOnCancelled(android.support.v4.content.AsyncTaskLoader<D>.LoadTask r1, D r2) {
+            r0 = this;
+            r0.onCanceled(r2)
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r2 = r0.mCancellingTask
+            if (r2 != r1) goto L19
+            r0.rollbackContentChanged()
+            long r1 = android.os.SystemClock.uptimeMillis()
+            r0.mLastLoadCompleteTime = r1
+            r1 = 0
+            r0.mCancellingTask = r1
+            r0.deliverCancellation()
+            r0.executePendingTask()
+        L19:
+            return
+    }
+
+    void dispatchOnLoadComplete(android.support.v4.content.AsyncTaskLoader<D>.LoadTask r3, D r4) {
+            r2 = this;
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r2.mTask
+            if (r0 == r3) goto L8
+            r2.dispatchOnCancelled(r3, r4)
+            goto L21
+        L8:
+            boolean r3 = r2.isAbandoned()
+            if (r3 == 0) goto L12
+            r2.onCanceled(r4)
+            goto L21
+        L12:
+            r2.commitContentChanged()
+            long r0 = android.os.SystemClock.uptimeMillis()
+            r2.mLastLoadCompleteTime = r0
+            r3 = 0
+            r2.mTask = r3
+            r2.deliverResult(r4)
+        L21:
+            return
+    }
+
+    @Override
+    @java.lang.Deprecated
+    public void dump(java.lang.String r5, java.io.FileDescriptor r6, java.io.PrintWriter r7, java.lang.String[] r8) {
+            r4 = this;
+            super.dump(r5, r6, r7, r8)
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r6 = r4.mTask
+            java.lang.String r8 = " waiting="
+            if (r6 == 0) goto L20
+            r7.print(r5)
+            java.lang.String r6 = "mTask="
+            r7.print(r6)
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r6 = r4.mTask
+            r7.print(r6)
+            r7.print(r8)
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r6 = r4.mTask
+            boolean r6 = r6.waiting
+            r7.println(r6)
+        L20:
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r6 = r4.mCancellingTask
+            if (r6 == 0) goto L3b
+            r7.print(r5)
+            java.lang.String r6 = "mCancellingTask="
+            r7.print(r6)
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r6 = r4.mCancellingTask
+            r7.print(r6)
+            r7.print(r8)
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r6 = r4.mCancellingTask
+            boolean r6 = r6.waiting
+            r7.println(r6)
+        L3b:
+            long r0 = r4.mUpdateThrottle
+            r2 = 0
+            int r6 = (r0 > r2 ? 1 : (r0 == r2 ? 0 : -1))
+            if (r6 == 0) goto L61
+            r7.print(r5)
+            java.lang.String r5 = "mUpdateThrottle="
+            r7.print(r5)
+            long r5 = r4.mUpdateThrottle
+            android.support.v4.util.TimeUtils.formatDuration(r5, r7)
+            java.lang.String r5 = " mLastLoadCompleteTime="
+            r7.print(r5)
+            long r5 = r4.mLastLoadCompleteTime
+            long r0 = android.os.SystemClock.uptimeMillis()
+            android.support.v4.util.TimeUtils.formatDuration(r5, r0, r7)
+            r7.println()
+        L61:
+            return
+    }
+
+    void executePendingTask() {
+            r6 = this;
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r6.mCancellingTask
+            if (r0 != 0) goto L4b
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r6.mTask
+            if (r0 == 0) goto L4b
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r6.mTask
+            boolean r0 = r0.waiting
+            if (r0 == 0) goto L1a
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r6.mTask
+            r1 = 0
+            r0.waiting = r1
+            android.os.Handler r0 = r6.mHandler
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r1 = r6.mTask
+            r0.removeCallbacks(r1)
+        L1a:
+            long r0 = r6.mUpdateThrottle
+            r2 = 0
+            int r4 = (r0 > r2 ? 1 : (r0 == r2 ? 0 : -1))
+            if (r4 <= 0) goto L41
+            long r0 = android.os.SystemClock.uptimeMillis()
+            long r2 = r6.mLastLoadCompleteTime
+            long r4 = r6.mUpdateThrottle
+            long r2 = r2 + r4
+            int r4 = (r0 > r2 ? 1 : (r0 == r2 ? 0 : -1))
+            if (r4 >= 0) goto L41
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r6.mTask
+            r1 = 1
+            r0.waiting = r1
+            android.os.Handler r0 = r6.mHandler
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r1 = r6.mTask
+            long r2 = r6.mLastLoadCompleteTime
+            long r4 = r6.mUpdateThrottle
+            long r2 = r2 + r4
+            r0.postAtTime(r1, r2)
+            return
+        L41:
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r6.mTask
+            java.util.concurrent.Executor r1 = r6.mExecutor
+            r2 = 0
+            java.lang.Void[] r2 = (java.lang.Void[]) r2
+            r0.executeOnExecutor(r1, r2)
+        L4b:
+            return
+    }
+
+    public boolean isLoadInBackgroundCanceled() {
+            r1 = this;
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r1.mCancellingTask
+            if (r0 == 0) goto L6
+            r0 = 1
+            goto L7
+        L6:
+            r0 = 0
+        L7:
+            return r0
+    }
+
+    @android.support.annotation.Nullable
+    public abstract D loadInBackground();
+
+    @Override
+    protected boolean onCancelLoad() {
+            r4 = this;
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r4.mTask
+            r1 = 0
+            if (r0 == 0) goto L4b
+            boolean r0 = r4.mStarted
+            if (r0 != 0) goto Lc
+            r0 = 1
+            r4.mContentChanged = r0
+        Lc:
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r4.mCancellingTask
+            r2 = 0
+            if (r0 == 0) goto L25
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r4.mTask
+            boolean r0 = r0.waiting
+            if (r0 == 0) goto L22
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r4.mTask
+            r0.waiting = r1
+            android.os.Handler r0 = r4.mHandler
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r3 = r4.mTask
+            r0.removeCallbacks(r3)
+        L22:
+            r4.mTask = r2
+            return r1
+        L25:
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r4.mTask
+            boolean r0 = r0.waiting
+            if (r0 == 0) goto L39
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r4.mTask
+            r0.waiting = r1
+            android.os.Handler r0 = r4.mHandler
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r3 = r4.mTask
+            r0.removeCallbacks(r3)
+            r4.mTask = r2
+            return r1
+        L39:
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r4.mTask
+            boolean r0 = r0.cancel(r1)
+            if (r0 == 0) goto L48
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r1 = r4.mTask
+            r4.mCancellingTask = r1
+            r4.cancelLoadInBackground()
+        L48:
+            r4.mTask = r2
+            return r0
+        L4b:
+            return r1
+    }
+
+    public void onCanceled(@android.support.annotation.Nullable D r1) {
+            r0 = this;
+            return
+    }
+
+    @Override
+    protected void onForceLoad() {
+            r1 = this;
+            super.onForceLoad()
+            r1.cancelLoad()
+            android.support.v4.content.AsyncTaskLoader$LoadTask r0 = new android.support.v4.content.AsyncTaskLoader$LoadTask
+            r0.<init>(r1)
+            r1.mTask = r0
+            r1.executePendingTask()
+            return
+    }
+
+    @android.support.annotation.Nullable
+    protected D onLoadInBackground() {
+            r1 = this;
+            java.lang.Object r0 = r1.loadInBackground()
+            return r0
+    }
+
+    public void setUpdateThrottle(long r4) {
+            r3 = this;
+            r3.mUpdateThrottle = r4
+            r0 = 0
+            int r2 = (r4 > r0 ? 1 : (r4 == r0 ? 0 : -1))
+            if (r2 == 0) goto Lf
+            android.os.Handler r4 = new android.os.Handler
+            r4.<init>()
+            r3.mHandler = r4
+        Lf:
+            return
+    }
+
+    @android.support.annotation.RestrictTo({android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP})
+    public void waitForLoader() {
+            r1 = this;
+            android.support.v4.content.AsyncTaskLoader<D>$LoadTask r0 = r1.mTask
+            if (r0 == 0) goto L7
+            r0.waitForLoader()
+        L7:
+            return
+    }
+}
