@@ -1,0 +1,55 @@
+
+lingxiaoshuangsheng.png
+size: 1805,1235
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/bd
+  rotate: false
+  xy: 1703, 1133
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img/dfzj/leidian_00
+  rotate: true
+  xy: 2, 2
+  size: 1231, 514
+  orig: 1270, 524
+  offset: 2, 10
+  index: -1
+img/lxss/byn_00
+  rotate: false
+  xy: 518, 717
+  size: 616, 516
+  orig: 671, 573
+  offset: 25, 12
+  index: -1
+img/lxss/hyn_00
+  rotate: false
+  xy: 1136, 677
+  size: 565, 556
+  orig: 626, 630
+  offset: 39, 38
+  index: -1
+img/lxss/lanqi_00
+  rotate: false
+  xy: 795, 111
+  size: 860, 260
+  orig: 860, 327
+  offset: 0, 67
+  index: -1
+img/lxss/lxss_00
+  rotate: true
+  xy: 518, 33
+  size: 682, 275
+  orig: 682, 310
+  offset: 0, 18
+  index: -1
+img/lxss/qipan_00
+  rotate: false
+  xy: 795, 373
+  size: 929, 302
+  orig: 1069, 410
+  offset: 103, 55
+  index: -1

@@ -1,0 +1,62 @@
+
+dianzan.png
+size: 255,275
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang1
+  rotate: true
+  xy: 2, 2
+  size: 96, 134
+  orig: 96, 134
+  offset: 0, 0
+  index: -1
+guang2
+  rotate: false
+  xy: 2, 100
+  size: 101, 173
+  orig: 101, 173
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 138, 10
+  size: 95, 115
+  orig: 95, 115
+  offset: 0, 0
+  index: -1
+tiao
+  rotate: false
+  xy: 226, 244
+  size: 24, 29
+  orig: 24, 29
+  offset: 0, 0
+  index: -1
+xing
+  rotate: false
+  xy: 105, 154
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+zi1
+  rotate: false
+  xy: 105, 107
+  size: 80, 45
+  orig: 80, 45
+  offset: 0, 0
+  index: -1
+zi2
+  rotate: true
+  xy: 216, 112
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+zi3
+  rotate: false
+  xy: 187, 126
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1

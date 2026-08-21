@@ -1,0 +1,27 @@
+
+ah_dingque.png
+size: 249,55
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian
+  rotate: false
+  xy: 240, 44
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+dingq
+  rotate: false
+  xy: 2, 2
+  size: 117, 51
+  orig: 121, 56
+  offset: 2, 3
+  index: -1
+xuanq
+  rotate: false
+  xy: 121, 2
+  size: 117, 51
+  orig: 121, 56
+  offset: 2, 3
+  index: -1

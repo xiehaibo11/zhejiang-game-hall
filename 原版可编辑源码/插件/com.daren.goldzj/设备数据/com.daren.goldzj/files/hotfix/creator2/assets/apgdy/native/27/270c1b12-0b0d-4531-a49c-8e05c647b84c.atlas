@@ -1,0 +1,34 @@
+
+Xipai_wenzi.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: true
+  xy: 72, 35
+  size: 59, 35
+  orig: 61, 37
+  offset: 1, 1
+  index: -1
+11
+  rotate: false
+  xy: 1, 95
+  size: 113, 29
+  orig: 113, 29
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1, 53
+  size: 70, 41
+  orig: 72, 45
+  offset: 1, 2
+  index: -1
+bd
+  rotate: true
+  xy: 115, 106
+  size: 18, 9
+  orig: 100, 100
+  offset: 42, 44
+  index: -1

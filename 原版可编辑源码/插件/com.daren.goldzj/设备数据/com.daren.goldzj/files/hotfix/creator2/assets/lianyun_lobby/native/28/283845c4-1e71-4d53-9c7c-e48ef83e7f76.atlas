@@ -1,0 +1,34 @@
+
+Wuxianhuikui_icon.png
+size: 192,120
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 88, 26
+  orig: 88, 26
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 30
+  size: 116, 88
+  orig: 116, 88
+  offset: 0, 0
+  index: -1
+2a
+  rotate: true
+  xy: 120, 9
+  size: 109, 70
+  orig: 115, 88
+  offset: 3, 2
+  index: -1
+bd
+  rotate: true
+  xy: 92, 10
+  size: 18, 9
+  orig: 100, 100
+  offset: 42, 47
+  index: -1

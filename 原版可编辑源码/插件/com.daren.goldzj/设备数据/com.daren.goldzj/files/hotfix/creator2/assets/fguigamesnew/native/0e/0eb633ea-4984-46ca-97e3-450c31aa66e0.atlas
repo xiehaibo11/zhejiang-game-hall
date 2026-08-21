@@ -1,0 +1,27 @@
+
+dianzan.png
+size: 235,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MJ_zan
+  rotate: true
+  xy: 2, 4
+  size: 72, 81
+  orig: 72, 81
+  offset: 0, 0
+  index: -1
+MJ_zan_guang000
+  rotate: false
+  xy: 163, 6
+  size: 70, 70
+  orig: 82, 82
+  offset: 6, 6
+  index: -1
+MJ_zan_guangxian1
+  rotate: true
+  xy: 85, 2
+  size: 74, 76
+  orig: 82, 84
+  offset: 4, 8
+  index: -1

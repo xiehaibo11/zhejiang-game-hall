@@ -1,0 +1,55 @@
+
+youfenglaiyi.png
+size: 1675,1559
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/bd
+  rotate: false
+  xy: 2, 14
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img/fha_00
+  rotate: false
+  xy: 732, 1019
+  size: 806, 538
+  orig: 1624, 750
+  offset: 0, 212
+  index: -1
+img/fhb_00
+  rotate: true
+  xy: 1487, 419
+  size: 598, 186
+  orig: 1624, 750
+  offset: 858, 297
+  index: -1
+img/jgx_00
+  rotate: false
+  xy: 732, 2
+  size: 816, 198
+  orig: 817, 750
+  offset: 1, 182
+  index: -1
+img/jianzhu_00
+  rotate: true
+  xy: 2, 116
+  size: 1441, 728
+  orig: 1624, 750
+  offset: 157, 22
+  index: -1
+img/jianzhugx_00
+  rotate: false
+  xy: 732, 465
+  size: 753, 552
+  orig: 1624, 750
+  offset: 576, 198
+  index: -1
+img/yfly_00
+  rotate: false
+  xy: 732, 202
+  size: 901, 215
+  orig: 1624, 750
+  offset: 418, 185
+  index: -1

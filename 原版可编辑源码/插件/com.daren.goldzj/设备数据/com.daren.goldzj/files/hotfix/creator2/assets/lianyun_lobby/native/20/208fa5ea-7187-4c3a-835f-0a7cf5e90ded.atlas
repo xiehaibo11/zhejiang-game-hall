@@ -1,0 +1,76 @@
+
+Diban_tx.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5
+  rotate: true
+  xy: 230, 182
+  size: 261, 96
+  orig: 261, 96
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1, 637
+  size: 1266, 699
+  orig: 1270, 701
+  offset: 0, 2
+  index: -1
+77
+  rotate: true
+  xy: 1269, 73
+  size: 1263, 699
+  orig: 1270, 701
+  offset: 7, 0
+  index: -1
+bd
+  rotate: false
+  xy: 454, 554
+  size: 20, 11
+  orig: 100, 100
+  offset: 41, 43
+  index: -1
+lizi1
+  rotate: false
+  xy: 328, 358
+  size: 230, 85
+  orig: 230, 85
+  offset: 0, 0
+  index: -1
+lizi2
+  rotate: false
+  xy: 379, 567
+  size: 234, 68
+  orig: 257, 70
+  offset: 6, 2
+  index: -1
+lizi3
+  rotate: false
+  xy: 379, 508
+  size: 73, 57
+  orig: 73, 57
+  offset: 0, 0
+  index: -1
+tx
+  rotate: false
+  xy: 230, 77
+  size: 103, 103
+  orig: 115, 115
+  offset: 6, 6
+  index: -1
+tx1_0000
+  rotate: true
+  xy: 230, 445
+  size: 190, 147
+  orig: 225, 161
+  offset: 35, 7
+  index: -1
+tx5_0000
+  rotate: true
+  xy: 1, 1
+  size: 634, 227
+  orig: 722, 250
+  offset: 64, 23
+  index: -1

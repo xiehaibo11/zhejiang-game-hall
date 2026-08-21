@@ -1,0 +1,48 @@
+
+qgb_egg.png
+size: 256,68
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+egg0
+  rotate: false
+  xy: 220, 22
+  size: 34, 44
+  orig: 34, 44
+  offset: 0, 0
+  index: -1
+egg1
+  rotate: false
+  xy: 174, 3
+  size: 34, 25
+  orig: 34, 25
+  offset: 0, 0
+  index: -1
+egg2
+  rotate: false
+  xy: 174, 30
+  size: 44, 36
+  orig: 54, 44
+  offset: 5, 4
+  index: -1
+egg4
+  rotate: false
+  xy: 2, 2
+  size: 101, 64
+  orig: 101, 64
+  offset: 0, 0
+  index: -1
+egg5
+  rotate: false
+  xy: 105, 9
+  size: 67, 57
+  orig: 67, 57
+  offset: 0, 0
+  index: -1
+egg6
+  rotate: true
+  xy: 210, 7
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1

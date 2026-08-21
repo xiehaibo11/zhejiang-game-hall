@@ -1,0 +1,41 @@
+
+Ruko_tuijan.png
+size: 287,287
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4-2
+  rotate: false
+  xy: 237, 256
+  size: 29, 30
+  orig: 33, 34
+  offset: 2, 2
+  index: -1
+bd
+  rotate: false
+  xy: 175, 111
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+other_hx_0010_0000
+  rotate: false
+  xy: 1, 212
+  size: 235, 74
+  orig: 295, 87
+  offset: 36, 7
+  index: -1
+tx4
+  rotate: false
+  xy: 1, 1
+  size: 94, 210
+  orig: 95, 210
+  offset: 1, 0
+  index: -1
+tx4_00000
+  rotate: true
+  xy: 96, 4
+  size: 207, 78
+  orig: 230, 93
+  offset: 14, 7
+  index: -1

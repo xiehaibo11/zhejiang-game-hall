@@ -1,0 +1,83 @@
+
+Duijukaishi.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: true
+  xy: 596, 291
+  size: 212, 109
+  orig: 213, 110
+  offset: 1, 1
+  index: -1
+4
+  rotate: true
+  xy: 485, 287
+  size: 216, 109
+  orig: 217, 111
+  offset: 0, 2
+  index: -1
+5
+  rotate: true
+  xy: 2, 30
+  size: 473, 186
+  orig: 475, 186
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 618, 189
+  size: 100, 89
+  orig: 101, 92
+  offset: 1, 1
+  index: -1
+8
+  rotate: true
+  xy: 190, 48
+  size: 455, 200
+  orig: 469, 209
+  offset: 6, 4
+  index: -1
+bd
+  rotate: true
+  xy: 2, 10
+  size: 18, 9
+  orig: 100, 100
+  offset: 42, 44
+  index: -1
+glow_guangci01
+  rotate: true
+  xy: 392, 11
+  size: 234, 224
+  orig: 256, 256
+  offset: 10, 13
+  index: -1
+glow_line01
+  rotate: true
+  xy: 392, 247
+  size: 256, 91
+  orig: 256, 128
+  offset: 0, 27
+  index: -1
+keji_lizi
+  rotate: false
+  xy: 190, 2
+  size: 44, 44
+  orig: 64, 64
+  offset: 8, 12
+  index: -1
+line_glow_se
+  rotate: false
+  xy: 13, 13
+  size: 96, 15
+  orig: 128, 32
+  offset: 16, 8
+  index: -1
+lizi_xx
+  rotate: false
+  xy: 236, 6
+  size: 40, 40
+  orig: 64, 64
+  offset: 12, 12
+  index: -1

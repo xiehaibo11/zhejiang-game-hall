@@ -1,0 +1,41 @@
+
+qixinggaozhao.png
+size: 1741,1004
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/bd
+  rotate: false
+  xy: 1116, 88
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img/gx_00
+  rotate: true
+  xy: 1143, 190
+  size: 812, 330
+  orig: 812, 750
+  offset: 0, 103
+  index: -1
+img/qxgz/pai_00
+  rotate: false
+  xy: 2, 487
+  size: 1139, 515
+  orig: 1624, 750
+  offset: 217, 235
+  index: -1
+img/qxgz/qxgz_00
+  rotate: true
+  xy: 1475, 224
+  size: 778, 264
+  orig: 830, 264
+  offset: 17, 0
+  index: -1
+img/qxgz/xingkong_00
+  rotate: false
+  xy: 2, 2
+  size: 1112, 483
+  orig: 1624, 750
+  offset: 225, 267
+  index: -1

@@ -1,0 +1,55 @@
+
+shengminjunzhu.png
+size: 1946,1516
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/bd
+  rotate: false
+  xy: 709, 93
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img/gx_00
+  rotate: false
+  xy: 818, 306
+  size: 812, 330
+  orig: 812, 750
+  offset: 0, 103
+  index: -1
+img/smjz/liuyun_00
+  rotate: false
+  xy: 2, 764
+  size: 1624, 750
+  orig: 1624, 750
+  offset: 0, 0
+  index: -1
+img/smjz/renwu_00
+  rotate: false
+  xy: 2, 195
+  size: 814, 567
+  orig: 1624, 750
+  offset: 494, 171
+  index: -1
+img/smjz/shan_00
+  rotate: false
+  xy: 818, 77
+  size: 1088, 227
+  orig: 1624, 750
+  offset: 345, 214
+  index: -1
+img/smjz/smjz_00
+  rotate: false
+  xy: 2, 2
+  size: 705, 191
+  orig: 769, 249
+  offset: 37, 30
+  index: -1
+img/smjz/wenzi_00
+  rotate: true
+  xy: 1628, 638
+  size: 876, 316
+  orig: 1624, 750
+  offset: 300, 353
+  index: -1

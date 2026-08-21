@@ -1,0 +1,104 @@
+
+chupai.png
+size: 780, 518
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bg_0
+  rotate: true
+  xy: 220, 237
+  size: 279, 126
+  orig: 281, 127
+  offset: 2, 1
+  index: -1
+bg_1
+  rotate: true
+  xy: 93, 236
+  size: 280, 125
+  orig: 280, 125
+  offset: 0, 0
+  index: -1
+bg_2
+  rotate: true
+  xy: 348, 237
+  size: 279, 126
+  orig: 281, 127
+  offset: 2, 1
+  index: -1
+buhua
+  rotate: true
+  xy: 145, 2
+  size: 232, 146
+  orig: 236, 150
+  offset: 2, 4
+  index: -1
+chi
+  rotate: false
+  xy: 608, 357
+  size: 170, 159
+  orig: 173, 161
+  offset: 1, 2
+  index: -1
+dian
+  rotate: true
+  xy: 293, 7
+  size: 47, 39
+  orig: 49, 41
+  offset: 1, 2
+  index: -1
+dianpao
+  rotate: true
+  xy: 476, 272
+  size: 244, 130
+  orig: 245, 131
+  offset: 0, 1
+  index: -1
+dong
+  rotate: true
+  xy: 334, 39
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+gang
+  rotate: true
+  xy: 451, 60
+  size: 175, 155
+  orig: 179, 158
+  offset: 2, 3
+  index: -1
+hu
+  rotate: true
+  xy: 608, 59
+  size: 142, 162
+  orig: 144, 162
+  offset: 1, 0
+  index: -1
+peng
+  rotate: false
+  xy: 608, 203
+  size: 169, 152
+  orig: 174, 153
+  offset: 3, 1
+  index: -1
+ting
+  rotate: false
+  xy: 293, 56
+  size: 156, 179
+  orig: 161, 183
+  offset: 2, 4
+  index: -1
+zihu
+  rotate: true
+  xy: 2, 227
+  size: 289, 89
+  orig: 295, 91
+  offset: 0, 1
+  index: -1
+zimo
+  rotate: true
+  xy: 2, 11
+  size: 214, 141
+  orig: 215, 142
+  offset: 0, 1
+  index: -1

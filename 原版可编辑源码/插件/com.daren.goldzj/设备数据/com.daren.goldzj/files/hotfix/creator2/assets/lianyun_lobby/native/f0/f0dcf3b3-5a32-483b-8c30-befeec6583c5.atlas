@@ -1,0 +1,76 @@
+
+eff_spine_xshd.png
+size: 1470,220
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bt
+  rotate: false
+  xy: 468, 4
+  size: 382, 102
+  orig: 382, 102
+  offset: 0, 0
+  index: -1
+bt2
+  rotate: false
+  xy: 852, 4
+  size: 377, 102
+  orig: 377, 102
+  offset: 0, 0
+  index: -1
+d1
+  rotate: true
+  xy: 1318, 24
+  size: 82, 133
+  orig: 119, 165
+  offset: 2, 16
+  index: -1
+l1
+  rotate: true
+  xy: 316, 72
+  size: 146, 150
+  orig: 148, 152
+  offset: 1, 1
+  index: -1
+l2
+  rotate: true
+  xy: 2, 71
+  size: 147, 150
+  orig: 149, 152
+  offset: 1, 1
+  index: -1
+lizi2
+  rotate: false
+  xy: 154, 2
+  size: 238, 68
+  orig: 257, 70
+  offset: 0, 2
+  index: -1
+lizi4
+  rotate: true
+  xy: 394, 25
+  size: 45, 71
+  orig: 61, 83
+  offset: 0, 3
+  index: -1
+sunlight
+  rotate: false
+  xy: 154, 72
+  size: 160, 146
+  orig: 195, 198
+  offset: 22, 29
+  index: -1
+yanhua
+  rotate: true
+  xy: 1231, 23
+  size: 83, 85
+  orig: 85, 87
+  offset: 1, 1
+  index: -1
+zz
+  rotate: false
+  xy: 468, 108
+  size: 1000, 110
+  orig: 1002, 112
+  offset: 1, 1
+  index: -1

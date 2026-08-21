@@ -1,0 +1,41 @@
+
+eff_13_ty_xuehua.png
+size: 81, 27
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+xuehua1
+  rotate: true
+  xy: 2, 2
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+xuehua3
+  rotate: false
+  xy: 30, 6
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+xuehuahou1
+  rotate: false
+  xy: 72, 11
+  size: 5, 5
+  orig: 7, 7
+  offset: 1, 1
+  index: -1
+xuehuahou6
+  rotate: true
+  xy: 51, 7
+  size: 18, 19
+  orig: 23, 21
+  offset: 0, 0
+  index: -1
+xuehuapiaoluo_1
+  rotate: false
+  xy: 72, 18
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1

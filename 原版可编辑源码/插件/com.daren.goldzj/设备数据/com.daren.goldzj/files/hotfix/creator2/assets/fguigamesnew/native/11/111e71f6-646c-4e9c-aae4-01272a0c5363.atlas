@@ -1,0 +1,27 @@
+
+xcx_13_nz.png
+size: 256,175
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NZ2
+  rotate: false
+  xy: 2, 2
+  size: 181, 171
+  orig: 187, 175
+  offset: 3, 2
+  index: -1
+g1
+  rotate: false
+  xy: 185, 104
+  size: 69, 69
+  orig: 73, 73
+  offset: 2, 2
+  index: -1
+g2
+  rotate: false
+  xy: 185, 84
+  size: 18, 18
+  orig: 25, 23
+  offset: 3, 2
+  index: -1

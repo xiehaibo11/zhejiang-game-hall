@@ -1,0 +1,34 @@
+
+eff_ty_guangquan.png
+size: 253, 134
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+glow1
+  rotate: true
+  xy: 156, 36
+  size: 96, 95
+  orig: 128, 128
+  offset: 16, 16
+  index: -1
+guanghuan_0
+  rotate: false
+  xy: 2, 2
+  size: 130, 130
+  orig: 196, 156
+  offset: 33, 13
+  index: -1
+guangshu_0
+  rotate: false
+  xy: 134, 14
+  size: 20, 118
+  orig: 32, 128
+  offset: 6, 6
+  index: -1
+liang_0
+  rotate: false
+  xy: 156, 9
+  size: 25, 25
+  orig: 29, 29
+  offset: 2, 2
+  index: -1

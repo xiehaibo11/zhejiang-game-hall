@@ -1,0 +1,90 @@
+
+Beishutishi.png
+size: 442,442
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: false
+  xy: 1, 432
+  size: 18, 9
+  orig: 100, 100
+  offset: 42, 44
+  index: -1
+tx1_0000
+  rotate: false
+  xy: 288, 340
+  size: 149, 101
+  orig: 193, 104
+  offset: 27, 0
+  index: -1
+tx1_0001
+  rotate: false
+  xy: 1, 145
+  size: 167, 101
+  orig: 193, 104
+  offset: 19, 0
+  index: -1
+tx1_0002
+  rotate: false
+  xy: 273, 240
+  size: 168, 99
+  orig: 193, 104
+  offset: 18, 1
+  index: -1
+tx1_0003
+  rotate: false
+  xy: 104, 247
+  size: 168, 98
+  orig: 193, 104
+  offset: 17, 3
+  index: -1
+tx1_0004
+  rotate: false
+  xy: 121, 346
+  size: 166, 95
+  orig: 193, 104
+  offset: 15, 3
+  index: -1
+tx1_0005
+  rotate: false
+  xy: 169, 138
+  size: 158, 101
+  orig: 193, 104
+  offset: 17, 1
+  index: -1
+tx1_0006
+  rotate: false
+  xy: 1, 43
+  size: 155, 101
+  orig: 193, 104
+  offset: 23, 1
+  index: -1
+tx1_0007
+  rotate: false
+  xy: 157, 35
+  size: 154, 102
+  orig: 193, 104
+  offset: 27, 0
+  index: -1
+tx1_0008
+  rotate: true
+  xy: 328, 89
+  size: 150, 103
+  orig: 193, 104
+  offset: 28, 1
+  index: -1
+tx1_0009
+  rotate: true
+  xy: 1, 256
+  size: 143, 102
+  orig: 193, 104
+  offset: 31, 2
+  index: -1
+tx2_0009
+  rotate: false
+  xy: 20, 400
+  size: 100, 41
+  orig: 193, 104
+  offset: 44, 22
+  index: -1

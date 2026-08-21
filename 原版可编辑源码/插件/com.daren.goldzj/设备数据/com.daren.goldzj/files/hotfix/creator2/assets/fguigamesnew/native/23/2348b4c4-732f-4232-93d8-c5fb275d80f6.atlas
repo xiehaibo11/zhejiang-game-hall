@@ -1,0 +1,41 @@
+
+genfeng.png
+size: 845, 145
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bg_3
+  rotate: false
+  xy: 256, 9
+  size: 296, 134
+  orig: 296, 134
+  offset: 0, 0
+  index: -1
+dian
+  rotate: false
+  xy: 554, 13
+  size: 47, 39
+  orig: 49, 41
+  offset: 1, 2
+  index: -1
+dong
+  rotate: false
+  xy: 603, 38
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+gengfeng
+  rotate: false
+  xy: 2, 2
+  size: 252, 141
+  orig: 257, 144
+  offset: 2, 3
+  index: -1
+zihu
+  rotate: false
+  xy: 554, 54
+  size: 289, 89
+  orig: 295, 91
+  offset: 0, 1
+  index: -1

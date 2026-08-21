@@ -1,0 +1,55 @@
+
+shiquanshimei.png
+size: 1603,1317
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/bd
+  rotate: false
+  xy: 648, 261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img/gx_00
+  rotate: false
+  xy: 789, 31
+  size: 812, 330
+  orig: 812, 750
+  offset: 0, 103
+  index: -1
+img/sqsm/huabanpiao_00
+  rotate: true
+  xy: 648, 363
+  size: 952, 322
+  orig: 1006, 429
+  offset: 32, 58
+  index: -1
+img/sqsm/huacong_00
+  rotate: true
+  xy: 2, 255
+  size: 1060, 211
+  orig: 1111, 279
+  offset: 27, 19
+  index: -1
+img/sqsm/nvjuese_00
+  rotate: true
+  xy: 972, 392
+  size: 923, 577
+  orig: 1018, 633
+  offset: 60, 29
+  index: -1
+img/sqsm/sqsm_00
+  rotate: false
+  xy: 2, 2
+  size: 785, 251
+  orig: 844, 303
+  offset: 30, 32
+  index: -1
+img/sqsm/yueqiu_00
+  rotate: true
+  xy: 215, 269
+  size: 1046, 431
+  orig: 1624, 750
+  offset: 273, 319
+  index: -1

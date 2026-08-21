@@ -1,0 +1,27 @@
+
+Shuaxin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: true
+  xy: 611, 260
+  size: 20, 11
+  orig: 100, 100
+  offset: 41, 43
+  index: -1
+tx2_0000
+  rotate: false
+  xy: 611, 282
+  size: 106, 251
+  orig: 143, 287
+  offset: 18, 17
+  index: -1
+tx3_0000
+  rotate: false
+  xy: 1, 1
+  size: 608, 532
+  orig: 608, 532
+  offset: 0, 0
+  index: -1

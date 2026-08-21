@@ -1,0 +1,48 @@
+
+Jinbi.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gold_rotate01
+  rotate: true
+  xy: 71, 27
+  size: 29, 70
+  orig: 29, 70
+  offset: 0, 0
+  index: -1
+gold_rotate02
+  rotate: false
+  xy: 132, 58
+  size: 44, 63
+  orig: 44, 63
+  offset: 0, 0
+  index: -1
+gold_rotate03
+  rotate: true
+  xy: 2, 2
+  size: 54, 67
+  orig: 54, 68
+  offset: 0, 1
+  index: -1
+gold_rotate04
+  rotate: false
+  xy: 69, 58
+  size: 61, 63
+  orig: 61, 63
+  offset: 0, 0
+  index: -1
+gold_rotate06
+  rotate: false
+  xy: 69, 58
+  size: 61, 63
+  orig: 61, 63
+  offset: 0, 0
+  index: -1
+gold_rotate05
+  rotate: false
+  xy: 2, 58
+  size: 65, 63
+  orig: 65, 63
+  offset: 0, 0
+  index: -1

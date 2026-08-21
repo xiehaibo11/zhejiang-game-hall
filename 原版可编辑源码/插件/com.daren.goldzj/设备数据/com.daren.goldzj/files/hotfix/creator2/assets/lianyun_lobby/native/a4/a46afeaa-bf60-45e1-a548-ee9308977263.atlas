@@ -1,0 +1,90 @@
+
+Jianli.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx1_0000
+  rotate: false
+  xy: 4, 5
+  size: 145, 145
+  orig: 216, 201
+  offset: 33, 26
+  index: -1
+tx1_0001
+  rotate: true
+  xy: 153, 4
+  size: 146, 144
+  orig: 216, 201
+  offset: 32, 27
+  index: -1
+tx1_0002
+  rotate: true
+  xy: 1041, 4
+  size: 146, 143
+  orig: 216, 201
+  offset: 32, 27
+  index: -1
+tx1_0003
+  rotate: true
+  xy: 1335, 4
+  size: 146, 142
+  orig: 216, 201
+  offset: 32, 28
+  index: -1
+tx1_0004
+  rotate: true
+  xy: 301, 4
+  size: 146, 144
+  orig: 216, 201
+  offset: 32, 27
+  index: -1
+tx1_0005
+  rotate: true
+  xy: 597, 5
+  size: 145, 144
+  orig: 216, 201
+  offset: 32, 27
+  index: -1
+tx1_0006
+  rotate: false
+  xy: 745, 5
+  size: 144, 145
+  orig: 216, 201
+  offset: 33, 26
+  index: -1
+tx1_0007
+  rotate: false
+  xy: 893, 5
+  size: 144, 145
+  orig: 216, 201
+  offset: 33, 26
+  index: -1
+tx1_0008
+  rotate: false
+  xy: 1188, 5
+  size: 143, 145
+  orig: 216, 201
+  offset: 34, 26
+  index: -1
+tx1_0009
+  rotate: false
+  xy: 449, 5
+  size: 144, 145
+  orig: 216, 201
+  offset: 33, 26
+  index: -1
+tx2_0000
+  rotate: true
+  xy: 1481, 13
+  size: 137, 135
+  orig: 216, 201
+  offset: 37, 31
+  index: -1
+tx3_0000
+  rotate: false
+  xy: 1620, 35
+  size: 113, 115
+  orig: 216, 201
+  offset: 47, 42
+  index: -1

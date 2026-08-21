@@ -1,0 +1,27 @@
+
+eff_spine_qdly.png
+size: 283, 107
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+g4
+  rotate: false
+  xy: 126, 22
+  size: 83, 83
+  orig: 85, 85
+  offset: 1, 1
+  index: -1
+jinbi1
+  rotate: true
+  xy: 211, 22
+  size: 83, 70
+  orig: 85, 72
+  offset: 1, 1
+  index: -1
+jinbi2
+  rotate: false
+  xy: 2, 2
+  size: 122, 103
+  orig: 124, 105
+  offset: 1, 1
+  index: -1

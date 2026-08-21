@@ -1,0 +1,97 @@
+
+Guanmen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 915, 494
+  size: 106, 63
+  orig: 106, 63
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 662, 415
+  size: 251, 142
+  orig: 252, 143
+  offset: 0, 1
+  index: -1
+4
+  rotate: true
+  xy: 662, 582
+  size: 178, 346
+  orig: 178, 346
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 129
+  size: 658, 631
+  orig: 681, 654
+  offset: 12, 11
+  index: -1
+bd
+  rotate: true
+  xy: 1010, 742
+  size: 18, 9
+  orig: 100, 100
+  offset: 42, 44
+  index: -1
+guangyun_00
+  rotate: true
+  xy: 662, 173
+  size: 240, 241
+  orig: 256, 256
+  offset: 12, 13
+  index: -1
+m
+  rotate: true
+  xy: 662, 559
+  size: 21, 344
+  orig: 21, 344
+  offset: 0, 0
+  index: -1
+tx1_00000
+  rotate: true
+  xy: 915, 382
+  size: 49, 72
+  orig: 84, 113
+  offset: 17, 20
+  index: -1
+tx1_00001
+  rotate: true
+  xy: 905, 331
+  size: 49, 72
+  orig: 84, 113
+  offset: 17, 20
+  index: -1
+tx1_00002
+  rotate: true
+  xy: 905, 280
+  size: 49, 72
+  orig: 84, 113
+  offset: 17, 20
+  index: -1
+tx1_00003
+  rotate: true
+  xy: 905, 229
+  size: 49, 72
+  orig: 84, 113
+  offset: 17, 20
+  index: -1
+tx1_00004
+  rotate: true
+  xy: 915, 433
+  size: 59, 80
+  orig: 84, 113
+  offset: 12, 16
+  index: -1
+tx2_00000
+  rotate: true
+  xy: 662, 2
+  size: 169, 177
+  orig: 236, 223
+  offset: 35, 21
+  index: -1

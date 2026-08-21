@@ -1,0 +1,76 @@
+
+Xinshoufuli_icon.png
+size: 366,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 104, 16
+  size: 86, 26
+  orig: 86, 26
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 132, 9
+  size: 80, 83
+  orig: 80, 83
+  offset: 0, 0
+  index: -1
+bd
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+tx
+  rotate: false
+  xy: 214, 11
+  size: 81, 81
+  orig: 115, 115
+  offset: 17, 17
+  index: -1
+tx2_00002
+  rotate: true
+  xy: 305, 105
+  size: 171, 59
+  orig: 199, 80
+  offset: 15, 11
+  index: -1
+tx2_00003
+  rotate: false
+  xy: 132, 206
+  size: 171, 70
+  orig: 199, 80
+  offset: 16, 0
+  index: -1
+tx2_00004
+  rotate: true
+  xy: 2, 104
+  size: 172, 69
+  orig: 199, 80
+  offset: 12, 0
+  index: -1
+tx2_00005
+  rotate: true
+  xy: 73, 104
+  size: 172, 57
+  orig: 199, 80
+  offset: 11, 13
+  index: -1
+tx2_00006
+  rotate: false
+  xy: 132, 164
+  size: 171, 40
+  orig: 199, 80
+  offset: 11, 30
+  index: -1
+tx2_00007
+  rotate: false
+  xy: 132, 94
+  size: 161, 68
+  orig: 199, 80
+  offset: 16, 0
+  index: -1

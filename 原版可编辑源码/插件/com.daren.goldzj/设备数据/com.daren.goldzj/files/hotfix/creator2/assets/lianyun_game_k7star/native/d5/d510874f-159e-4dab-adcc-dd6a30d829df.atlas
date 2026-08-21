@@ -1,0 +1,48 @@
+
+babaofulu.png
+size: 1988,971
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/bbfl/bbfl_00
+  rotate: true
+  xy: 1723, 181
+  size: 788, 263
+  orig: 863, 347
+  offset: 45, 46
+  index: -1
+img/bbfl/bbflb_00
+  rotate: true
+  xy: 1329, 70
+  size: 899, 392
+  orig: 1015, 437
+  offset: 57, 45
+  index: -1
+img/bbfl/jinbi_00
+  rotate: false
+  xy: 2, 422
+  size: 1325, 547
+  orig: 1624, 750
+  offset: 157, 200
+  index: -1
+img/bbfl/jinsidai_00
+  rotate: false
+  xy: 2, 144
+  size: 810, 276
+  orig: 812, 534
+  offset: 2, 117
+  index: -1
+img/bbfl/yuanbao_00
+  rotate: false
+  xy: 814, 2
+  size: 464, 418
+  orig: 520, 560
+  offset: 25, 61
+  index: -1
+img/bd
+  rotate: false
+  xy: 1723, 79
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
