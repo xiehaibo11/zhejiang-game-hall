@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="KEY_SDK_CONFIG_MAP">{&quot;frigate&quot;:&quot;{}&quot;,&quot;frigateClientCollect&quot;:&quot;{\&quot;config\&quot;:{}}&quot;,&quot;imcConfigVersionInfo&quot;:&quot;{\&quot;config\&quot;:{}}&quot;,&quot;kinsightFtPrediction&quot;:&quot;{\&quot;config\&quot;:{\&quot;statusCode\&quot;:50}}&quot;,&quot;obiwan&quot;:&quot;{\&quot;config\&quot;:{\&quot;retryCount\&quot;:1,\&quot;retryDelay\&quot;:10,\&quot;timeout\&quot;:500,\&quot;checkInterval\&quot;:30,\&quot;max_upload_file_size\&quot;:50}}&quot;}</string>
+    <string name="KEY_CURRENT_HOST">open.kwaizt.com</string>
+</map>

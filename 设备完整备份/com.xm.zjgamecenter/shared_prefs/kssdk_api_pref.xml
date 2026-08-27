@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="curversion">5.6.10.81</string>
+    <string name="sdkconfig">{&quot;enableDebug&quot;:false,&quot;appId&quot;:&quot;520000019&quot;,&quot;showNotification&quot;:true,&quot;canReadMacAddress&quot;:true,&quot;canReadNearbyWifiList&quot;:true,&quot;canReadICCID&quot;:true,&quot;nightThemeStyleAssetsFileName&quot;:&quot;ks_adsdk_night_styles.xml&quot;}</string>
+    <string name="newversion"></string>
+    <boolean name="initFail" value="false" />
+    <boolean name="autoRevert" value="false" />
+    <string name="apiversion">3.3.42</string>
+    <long name="interval" value="0" />
+    <boolean name="useContextClassLoader" value="false" />
+    <long name="lastUpdateTime" value="1787411292465" />
+</map>

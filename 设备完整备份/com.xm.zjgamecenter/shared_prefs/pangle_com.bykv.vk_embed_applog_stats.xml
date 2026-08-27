@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="session_interval" value="30000" />
+    <string name="cdid">d2a389a5-0ab1-4f85-af57-a6ea43962203</string>
+    <string name="device_id">2521620631532384</string>
+    <long name="batch_event_interval" value="60000" />
+    <int name="version_code" value="154" />
+    <int name="send_launch_timely" value="1" />
+    <long name="app_log_last_config_time" value="1787403981399" />
+    <long name="register_time" value="1787411292609" />
+</map>

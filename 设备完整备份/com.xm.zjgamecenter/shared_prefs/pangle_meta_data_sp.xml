@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="IDENTITY_com.bykv.vk">A300BC0D63B6DB605E850204F53E2ECC</string>
+    <string name="HOST_IDENTITY_com.byted.live.lite">1F183B94D48C1A0C346D8311DE3A1A89</string>
+    <string name="HOST_IDENTITY_com.bykv.vk">1F183B94D48C1A0C346D8311DE3A1A89</string>
+    <int name="PLUGIN_API_VERSION_com.bykv.vk" value="5114" />
+    <int name="PLUGIN_API_VERSION_com.byted.live.lite" value="2050" />
+    <boolean name="INSTALLED_com.byted.live.lite-206056" value="true" />
+    <string name="ROM_LAST_com.bykv.vk">997</string>
+    <string name="HOST_ABI_com.bykv.vk">arm64-v8a</string>
+    <boolean name="INSTALLED_com.bykv.vk-5114" value="true" />
+    <string name="ROM_LAST_com.byted.live.lite">997</string>
+    <string name="HOST_ABI_com.byted.live.lite">arm64-v8a</string>
+    <string name="IDENTITY_com.byted.live.lite">7236042EBF56893D2F8D28CB2B646965</string>
+</map>

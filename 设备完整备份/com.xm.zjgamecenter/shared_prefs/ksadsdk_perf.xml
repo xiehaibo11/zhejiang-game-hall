@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="image_load_failed" value="0" />
+    <long name="image_load_complete_total" value="0" />
+    <int name="image_load_total" value="0" />
+    <int name="image_load_complete_count" value="0" />
+    <int name="image_load_suc" value="0" />
+</map>
